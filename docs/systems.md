@@ -157,3 +157,57 @@ Nombre interno del core tal como aparece en RetroArch (`nombre_del_core`). Los c
 ## Romsets
 
 La asociación entre estos sistemas y los DATs de `metadata/dat/` (fuente, formato, DAT alternativo, completitud, almacenamiento) se documenta en `docs/romsets.md`, no en este fichero.
+
+## Información de sistemas
+
+| Identificador | Sistema | Referencia de Control (Wikipedia) |
+| --- | --- | --- |
+| `3do` | 3DO Interactive Multiplayer | https://en.wikipedia.org/wiki/3DO_Interactive_Multiplayer |
+| `3ds` | Nintendo 3DS | https://en.wikipedia.org/wiki/Nintendo_3DS |
+| `3dseshop` | Nintendo 3DS eShop | https://en.wikipedia.org/wiki/Nintendo_eShop |
+| `64dd` | Nintendo 64DD | https://en.wikipedia.org/wiki/Nintendo_64DD |
+| `amigacd32` | Amiga CD32 | https://en.wikipedia.org/wiki/Amiga_CD32 |
+| `amigacdtv` | Commodore CDTV | https://en.wikipedia.org/wiki/Commodore_CDTV |
+| `cdi` | Philips CD-i | https://en.wikipedia.org/wiki/CD-i |
+| `dreamcast` | Sega Dreamcast | https://en.wikipedia.org/wiki/Dreamcast |
+| `dsiware` | DSiWare | https://en.wikipedia.org/wiki/DSiWare |
+| `fds` | Family Computer Disk System | https://en.wikipedia.org/wiki/Family_Computer_Disk_System |
+| `gamecube` | Nintendo GameCube | https://en.wikipedia.org/wiki/GameCube |
+| `gamegear` | Sega Game Gear | https://en.wikipedia.org/wiki/Game_Gear |
+| `gb` | Nintendo Game Boy | https://en.wikipedia.org/wiki/Game_Boy |
+| `gba` | Game Boy Advance | https://en.wikipedia.org/wiki/Game_Boy_Advance |
+| `gbc` | Game Boy Color | https://en.wikipedia.org/wiki/Game_Boy_Color |
+| `gx4000` | Amstrad GX4000 | https://en.wikipedia.org/wiki/Amstrad_GX4000 |
+| `jaguar` | Atari Jaguar | https://en.wikipedia.org/wiki/Atari_Jaguar |
+| `jaguarcd` | Atari Jaguar CD | https://en.wikipedia.org/wiki/Atari_Jaguar_CD |
+| `lynx` | Atari Lynx | https://en.wikipedia.org/wiki/Atari_Lynx |
+| `mastersystem` | Sega Master System | https://en.wikipedia.org/wiki/Master_System |
+| `megadrive` | Sega Mega Drive / Genesis | https://en.wikipedia.org/wiki/Sega_Genesis |
+| `n64` | Nintendo 64 | https://en.wikipedia.org/wiki/Nintendo_64 |
+| `nds` | Nintendo DS | https://en.wikipedia.org/wiki/Nintendo_DS |
+| `neogeocd` | Neo Geo CD | https://en.wikipedia.org/wiki/Neo_Geo_CD |
+| `nes` | Nintendo Entertainment System | https://en.wikipedia.org/wiki/Nintendo_Entertainment_System |
+| `ngp` | Neo Geo Pocket | https://en.wikipedia.org/wiki/Neo_Geo_Pocket |
+| `ngpc` | Neo Geo Pocket Color | https://en.wikipedia.org/wiki/Neo_Geo_Pocket_Color |
+| `pcengine` | PC Engine / TurboGrafx-16 | https://en.wikipedia.org/wiki/TurboGrafx-16 |
+| `pcenginecd` | PC Engine CD / TurboGrafx-CD | https://en.wikipedia.org/wiki/TurboGrafx-CD |
+| `pokemini` | Pokémon Mini | https://en.wikipedia.org/wiki/Pok%C3%A9mon_Mini |
+| `ps2` | PlayStation 2 | https://en.wikipedia.org/wiki/PlayStation_2 |
+| `ps3` | PlayStation 3 | https://en.wikipedia.org/wiki/PlayStation_3 |
+| `psp` | PlayStation Portable | https://en.wikipedia.org/wiki/PlayStation_Portable |
+| `psx` | PlayStation | https://en.wikipedia.org/wiki/PlayStation_(console) |
+| `satellaview` | Satellaview | https://en.wikipedia.org/wiki/Satellaview |
+| `saturn` | Sega Saturn | https://en.wikipedia.org/wiki/Sega_Saturn |
+| `sega32x` | Sega 32X | https://en.wikipedia.org/wiki/32X |
+| `segacd` | Sega CD | https://en.wikipedia.org/wiki/Sega_CD |
+| `sg1000` | Sega SG-1000 | https://en.wikipedia.org/wiki/SG-1000 |
+| `snes` | Super Nintendo Entertainment System | https://en.wikipedia.org/wiki/Super_Nintendo_Entertainment_System |
+| `sufami` | Sufami Turbo | https://en.wikipedia.org/wiki/Sufami_Turbo |
+| `supervision` | Watara Supervision | https://en.wikipedia.org/wiki/Watara_Supervision |
+| `virtualboy` | Nintendo Virtual Boy | https://en.wikipedia.org/wiki/Virtual_Boy |
+| `wii` | Nintendo Wii | https://en.wikipedia.org/wiki/Wii |
+| `wiiu` | Nintendo Wii U | https://en.wikipedia.org/wiki/Wii_U |
+| `wswan` | WonderSwan | https://en.wikipedia.org/wiki/WonderSwan |
+| `wswanc` | WonderSwan Color | https://en.wikipedia.org/wiki/WonderSwan_Color |
+| `xbox` | Microsoft Xbox | https://en.wikipedia.org/wiki/Xbox_(console) |
+| `xbox360` | Microsoft Xbox 360 | https://en.wikipedia.org/wiki/Xbox_360 |
