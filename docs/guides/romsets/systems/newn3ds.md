@@ -8,11 +8,11 @@ Fuente: `1G1R (retool)` -- `Nintendo - New Nintendo 3DS (Decrypted) (20251121-06
 
 Regenerar con: `pwsh tools/scripts/generate-romset-docs.ps1 -SystemId newn3ds`
 
-| Nombre | Categoria | Regiones | Alias |
-| --- | --- | --- | --- |
-| Fire Emblem Warriors | Oficial | Europe |  |
-| Minecraft - New Nintendo 3DS Edition | Oficial | USA |  |
-| Runbow Pocket Deluxe Edition | Oficial | USA |  |
-| Xenoblade Chronicles 3D | Oficial | Europe |  |
+| Nombre | Categoria | Regiones | Discos | Alias |
+| --- | --- | --- | --- | --- |
+| Fire Emblem Warriors | Oficial | Europe | 1 |  |
+| Minecraft - New Nintendo 3DS Edition | Oficial | USA | 1 |  |
+| Runbow Pocket Deluxe Edition | Oficial | USA | 1 |  |
+| Xenoblade Chronicles 3D | Oficial | Europe | 1 |  |
 
 <!-- AUTO-GENERADO FIN -->

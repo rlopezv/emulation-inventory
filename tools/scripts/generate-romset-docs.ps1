@@ -51,23 +51,35 @@ function Write-TextFile {
 function Build-AutoSection {
     param($Json)
 
+    # Agrupa por (nombre, regiones) solo para mostrar: cuando el nombre base
+    # ya no distingue discos (ej. "Disc 1"/"Disc 2" quitados al generar el
+    # dat-index), varias entradas con el mismo nombre y las mismas regiones
+    # son casi siempre el mismo juego repartido en varios discos, no juegos
+    # distintos. Se muestran como una sola fila con el numero de discos.
+    # No modifica metadata/dat-index/<id>.json, solo el render de la tabla.
+    $groups = @($Json.games | Group-Object -Property { "$($_.name)|$($_.regions -join ',')" })
+
     $lines = New-Object System.Collections.Generic.List[string]
     [void]$lines.Add($StartMarker)
     [void]$lines.Add("")
     [void]$lines.Add("### Indice generado")
     [void]$lines.Add("")
-    [void]$lines.Add("Fuente: ``$($Json.source)`` -- ``$($Json.dat)``. Generado: ``$($Json.generated)``. Total: $($Json.games.Count) familias.")
+    [void]$lines.Add("Fuente: ``$($Json.source)`` -- ``$($Json.dat)``. Generado: ``$($Json.generated)``. Total: $($groups.Count) familias.")
     [void]$lines.Add("")
     [void]$lines.Add("Regenerar con: ``pwsh tools/scripts/generate-romset-docs.ps1 -SystemId $($Json.system)``")
     [void]$lines.Add("")
-    [void]$lines.Add("| Nombre | Categoria | Regiones | Alias |")
-    [void]$lines.Add("| --- | --- | --- | --- |")
-    foreach ($g in $Json.games) {
-        $name = $g.name -replace '\|', '\|'
-        $category = $g.properties.category
-        $regions = ($g.regions -join ', ')
-        $aliases = ($g.aliases -replace '\|', '\|') -join ' / '
-        [void]$lines.Add("| $name | $category | $regions | $aliases |")
+    [void]$lines.Add("| Nombre | Categoria | Regiones | Discos | Alias |")
+    [void]$lines.Add("| --- | --- | --- | --- | --- |")
+    foreach ($grp in $groups) {
+        $first = $grp.Group[0]
+        $name = $first.name -replace '\|', '\|'
+        $categories = @($grp.Group | ForEach-Object { $_.properties.category } | Select-Object -Unique)
+        $category = if ($categories -contains "Oficial") { "Oficial" } else { ($categories | Sort-Object) -join ", " }
+        $regions = ($first.regions -join ', ')
+        $aliasSet = @($grp.Group | ForEach-Object { $_.aliases } | Select-Object -Unique)
+        $aliases = ($aliasSet -replace '\|', '\|') -join ' / '
+        $discs = $grp.Count
+        [void]$lines.Add("| $name | $category | $regions | $discs | $aliases |")
     }
     [void]$lines.Add("")
     [void]$lines.Add($EndMarker)

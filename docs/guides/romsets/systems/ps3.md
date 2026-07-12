@@ -16,7 +16,7 @@ Fuente: `Non-Redump` -- `Non-Redump - Sony - PlayStation 3 (20250908-072347).dat
 
 Regenerar con: `pwsh tools/scripts/generate-romset-docs.ps1 -SystemId ps3`
 
-| Nombre | Categoria | Regiones | Alias |
-| --- | --- | --- | --- |
+| Nombre | Categoria | Regiones | Discos | Alias |
+| --- | --- | --- | --- | --- |
 
 <!-- AUTO-GENERADO FIN -->

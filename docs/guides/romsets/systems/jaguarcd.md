@@ -12,20 +12,20 @@ Fuente: `1G1R (retool)` -- `Atari - Jaguar CD Interactive Multimedia System (202
 
 Regenerar con: `pwsh tools/scripts/generate-romset-docs.ps1 -SystemId jaguarcd`
 
-| Nombre | Categoria | Regiones | Alias |
-| --- | --- | --- | --- |
-| Baldies | Oficial | USA |  |
-| Battle Morph | Oficial | USA |  |
-| Blue Lightning | Oficial | USA |  |
-| BrainDead 13 | Oficial | USA |  |
-| Dragon's Lair | Oficial | USA |  |
-| Highlander - The Last of the MacLeods | Oficial | USA |  |
-| Hover Strike - Unconquered Lands | Oficial | USA |  |
-| Iron Soldier 2 | Oficial | USA |  |
-| Myst | Oficial | USA |  |
-| Primal Rage | Oficial | USA |  |
-| Space Ace | Oficial | USA |  |
-| Vid Grid | Oficial | USA |  |
-| World Tour Racing | Oficial | USA |  |
+| Nombre | Categoria | Regiones | Discos | Alias |
+| --- | --- | --- | --- | --- |
+| Baldies | Oficial | USA | 1 |  |
+| Battle Morph | Oficial | USA | 1 |  |
+| Blue Lightning | Oficial | USA | 1 |  |
+| BrainDead 13 | Oficial | USA | 1 |  |
+| Dragon's Lair | Oficial | USA | 1 |  |
+| Highlander - The Last of the MacLeods | Oficial | USA | 1 |  |
+| Hover Strike - Unconquered Lands | Oficial | USA | 1 |  |
+| Iron Soldier 2 | Oficial | USA | 1 |  |
+| Myst | Oficial | USA | 1 |  |
+| Primal Rage | Oficial | USA | 1 |  |
+| Space Ace | Oficial | USA | 1 |  |
+| Vid Grid | Oficial | USA | 1 |  |
+| World Tour Racing | Oficial | USA | 1 |  |
 
 <!-- AUTO-GENERADO FIN -->

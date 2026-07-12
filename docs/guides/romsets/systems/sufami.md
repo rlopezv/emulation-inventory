@@ -12,20 +12,20 @@ Fuente: `No-Intro` -- `Nintendo - Sufami Turbo (20240622-035607).dat`. Generado:
 
 Regenerar con: `pwsh tools/scripts/generate-romset-docs.ps1 -SystemId sufami`
 
-| Nombre | Categoria | Regiones | Alias |
-| --- | --- | --- | --- |
-| Bishoujo Senshi Sailor Moon Sailor Stars - Fuwafuwa Panic 2 | Oficial | Japan |  |
-| Crayon Shin-chan - Nagagutsu Dobon!! | Oficial | Japan |  |
-| Gegege no Kitarou - Youkai Donjara | Oficial | Japan |  |
-| Gekisou Sentai Carranger - Zenkai! Racer Senshi | Oficial | Japan |  |
-| Poi Poi Ninja World | Oficial | Japan |  |
-| SD Gundam Generation - Axis Senki | Oficial | Japan |  |
-| SD Gundam Generation - Babylonia Kenkoku Senki | Oficial | Japan |  |
-| SD Gundam Generation - Colony Kakutouki | Oficial | Japan |  |
-| SD Gundam Generation - Gryps Senki | Oficial | Japan |  |
-| SD Gundam Generation - Ichinen Sensouki | Oficial | Japan |  |
-| SD Gundam Generation - Zanscare Senki | Oficial | Japan |  |
-| SD Ultra Battle - Seven Densetsu | Oficial | Japan |  |
-| SD Ultra Battle - Ultraman Densetsu | Oficial | Japan |  |
+| Nombre | Categoria | Regiones | Discos | Alias |
+| --- | --- | --- | --- | --- |
+| Bishoujo Senshi Sailor Moon Sailor Stars - Fuwafuwa Panic 2 | Oficial | Japan | 1 |  |
+| Crayon Shin-chan - Nagagutsu Dobon!! | Oficial | Japan | 1 |  |
+| Gegege no Kitarou - Youkai Donjara | Oficial | Japan | 1 |  |
+| Gekisou Sentai Carranger - Zenkai! Racer Senshi | Oficial | Japan | 1 |  |
+| Poi Poi Ninja World | Oficial | Japan | 1 |  |
+| SD Gundam Generation - Axis Senki | Oficial | Japan | 1 |  |
+| SD Gundam Generation - Babylonia Kenkoku Senki | Oficial | Japan | 1 |  |
+| SD Gundam Generation - Colony Kakutouki | Oficial | Japan | 1 |  |
+| SD Gundam Generation - Gryps Senki | Oficial | Japan | 1 |  |
+| SD Gundam Generation - Ichinen Sensouki | Oficial | Japan | 1 |  |
+| SD Gundam Generation - Zanscare Senki | Oficial | Japan | 1 |  |
+| SD Ultra Battle - Seven Densetsu | Oficial | Japan | 1 |  |
+| SD Ultra Battle - Ultraman Densetsu | Oficial | Japan | 1 |  |
 
 <!-- AUTO-GENERADO FIN -->

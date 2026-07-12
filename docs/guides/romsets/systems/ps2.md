@@ -10,2537 +10,2523 @@
 
 ### Indice generado
 
-Fuente: `1G1R (retool)` -- `Sony - PlayStation 2 (2026-06-15 03-41-38).dat`. Generado: `2026-07-12`. Total: 2526 familias.
+Fuente: `1G1R (retool)` -- `Sony - PlayStation 2 (2026-06-15 03-41-38).dat`. Generado: `2026-07-12`. Total: 2512 familias.
 
 Regenerar con: `pwsh tools/scripts/generate-romset-docs.ps1 -SystemId ps2`
 
-| Nombre | Categoria | Regiones | Alias |
-| --- | --- | --- | --- |
-| 007 - Agent Under Fire | Oficial | Europe |  |
-| 007 - Everything or Nothing | Oficial | Europe |  |
-| 007 - From Russia with Love | Oficial | Europe |  |
-| 007 - Nightfire | Oficial | Europe |  |
-| 007 - Quantum of Solace | Oficial | Australia, Europe |  |
-| 10 Pin - Champions Alley | Oficial | Europe |  |
-| 10.000 Bullets | Oficial | Europe |  |
-| 18 Wheeler - American Pro Trucker | Oficial | Europe |  |
-| 187 - Ride or Die | Oficial | Australia, Europe |  |
-| 1945 I & II | Oficial | Europe |  |
-| 2002 FIFA World Cup | Oficial | Spain |  |
-| 21 Card Games | Oficial | Australia, Europe |  |
-| 24 - The Game | Oficial | Australia, Europe |  |
-| 25 to Life | Oficial | Europe |  |
-| 4x4 Evo | Oficial | Europe |  |
-| 4x4 Evo 2 | Oficial | Europe |  |
-| 50 Cent - Bulletproof | Oficial | Europe |  |
-| 7 Blades | Oficial | Europe |  |
-| 7 Sins | Oficial | Europe |  |
-| 7 Wonders of the Ancient World | Oficial | Europe |  |
-| AC-DC Live - Rock Band | Oficial | Australia, Europe |  |
-| Ace Combat - Distant Thunder | Oficial | Australia, Europe |  |
-| Ace Combat - Squadron Leader | Oficial | Australia, Europe |  |
-| Ace Combat - The Belkan War | Oficial | Australia, Europe |  |
-| Ace Lightning | Oficial | Europe |  |
-| Aces of War | Oficial | Europe |  |
-| Action Girlz Racing | Oficial | Europe |  |
-| Action Man A.T.O.M. - Alpha Teens on Machines | Oficial | Europe |  |
-| Activision Anthology | Oficial | Australia, Europe |  |
-| Adiboo and the Energy Thieves | Oficial | Europe |  |
-| Aeon Flux | Oficial | Europe |  |
-| Aero Elite - Combat Academy | Oficial | USA |  |
-| AFL Live 2003 | Oficial | Australia |  |
-| AFL Live 2004 - Aussie Rules Football | Oficial | Europe |  |
-| AFL Live Premiership Edition | Oficial | Australia |  |
-| AFL Premiership 2005 | Oficial | Australia |  |
-| AFL Premiership 2006 | Oficial | Australia |  |
-| AFL Premiership 2007 | Oficial | Australia |  |
-| Agassi Tennis Generation | Oficial | Europe |  |
-| Age of Empires II - The Age of Kings | Oficial | Europe |  |
-| Agent Hugo | Oficial | Europe |  |
-| Agent Hugo - Hula Holiday | Oficial | Europe |  |
-| Agent Hugo - Lemoon Twist | Oficial | Europe |  |
-| Agent Hugo - RoboRumble | Oficial | Europe |  |
-| Aggressive Inline | Oficial | Europe |  |
-| Air Raid 3 | Oficial | Europe |  |
-| Air Ranger - Rescue Helicopter | Oficial | Europe |  |
-| AirBlade | Oficial | Australia, Europe |  |
-| Airborne Troops - Countdown to D-Day | Oficial | Europe |  |
-| Akira Psycho Ball | Oficial | Europe |  |
-| Alan Hansen's Sports Challenge | Oficial | Europe |  |
-| Alarm for Cobra 11 | Oficial | Europe |  |
-| Alarm for Cobra 11 - Vol. II | Oficial | Europe |  |
-| Alex Ferguson's Player Manager 2001 | Oficial | Europe |  |
-| Alias | Oficial | Europe |  |
-| Alien Hominid | Oficial | Australia, Europe |  |
-| Aliens in the Attic | Oficial | Europe |  |
-| Aliens Versus Predator - Extinction | Oficial | Europe |  |
-| All-Star Baseball 2002 | Oficial | Europe |  |
-| All-Star Baseball 2003 featuring Derek Jeter | Oficial | Europe |  |
-| All-Star Baseball 2004 featuring Derek Jeter | Oficial | Europe |  |
-| All-Star Baseball 2005 featuring Derek Jeter | Oficial | USA |  |
-| All-Star Fighters | Oficial | Europe |  |
-| Alone in the Dark | Oficial | Europe |  |
-| Alone in the Dark - The New Nightmare | Oficial | Europe |  |
-| Alpine Racer 3 | Oficial | Europe |  |
-| Alpine Ski Racing 2007 - Bode Miller vs. Hermann Maier | Oficial | Europe |  |
-| Alpine Skiing 2005 | Oficial | Europe |  |
-| Alter Echo | Oficial | Europe |  |
-| Altered Beast | Oficial | Europe |  |
-| Alvin and the Chipmunks | Oficial | Europe |  |
-| American Chopper | Oficial | Australia, Europe |  |
-| American Chopper 2 - Full Throttle | Oficial | Europe |  |
-| American Idol | Oficial | USA |  |
-| American Tail, An | Oficial | Europe |  |
-| America's 10 Most Wanted | Oficial | Europe |  |
-| AMF Xtreme Bowling 2006 | Oficial | Europe |  |
-| Amplitude | Oficial | Europe |  |
-| AND 1 Streetball | Oficial | Europe |  |
-| Animal Soccer World | Oficial | Europe |  |
-| Animaniacs - The Great Edgar Hunt | Oficial | Europe |  |
-| Ant Bully, The | Oficial | Europe |  |
-| Antz Extreme Racing | Oficial | Europe |  |
-| Anubis II | Oficial | Europe |  |
-| Ape Escape - Pumped & Primed | Oficial | USA |  |
-| Ape Escape 2 | Oficial | Spain |  |
-| Ape Escape 3 | Oficial | Europe |  |
-| Aqua Aqua - Wetrix 2 | Oficial | Europe |  |
-| Aqua Teen Hunger Force - Zombie Ninja Pro-Am | Oficial | Europe |  |
-| Ar Tonelico - Melody of Elemia | Oficial | Europe |  |
-| Ar Tonelico II - Melody of Metafalica | Oficial | Europe |  |
-| Arc - Twilight of the Spirits | Oficial | Europe |  |
-| Arc the Lad - End of Darkness | Oficial | USA |  |
-| Arcade Action - 30 Games | Oficial | Europe |  |
-| Arcade Classics Volume 1 | Oficial | Europe |  |
-| Arcade USA | Oficial | Australia, Europe |  |
-| Arcade, The | Oficial | Europe |  |
-| Arcana Heart | Oficial | USA |  |
-| Arctic Thunder | Oficial | Europe |  |
-| Are You Smarter than a 5th Grader Make the Grade | Oficial | USA |  |
-| Area 51 | Oficial | Europe |  |
-| Arena Football | Oficial | USA |  |
-| Arena Football - Road to Glory | Oficial | USA |  |
-| Armored Core - Last Raven | Oficial | Europe |  |
-| Armored Core - Nexus | Oficial | Europe |  |
-| Armored Core - Nexus | Oficial | Europe |  |
-| Armored Core - Nine Breaker | Oficial | Europe |  |
-| Armored Core 2 | Oficial | Europe |  |
-| Armored Core 2 - Another Age | Oficial | Europe |  |
-| Armored Core 3 | Oficial | Europe |  |
-| Army Men - Air Attack - Blade's Revenge | Oficial | Europe |  |
-| Army Men - Green Rogue | Oficial | Europe |  |
-| Army Men - Major Malfunction | Oficial | Australia, Europe |  |
-| Army Men - RTS | Oficial | Europe |  |
-| Army Men - Sarge's Heroes 2 | Oficial | Europe |  |
-| Army Men - Sarge's War | Oficial | Europe |  |
-| Army Men - Soldiers of Misfortune | Oficial | USA |  |
-| Art of Fighting Anthology | Oficial | Europe |  |
-| Arthur and the Minimoys | Oficial | Europe |  |
-| Artlist Collection - The Dog Island | Oficial | Australia, Europe |  |
-| Assault Suits Valken | Oficial | Europe |  |
-| Asterix & Obelix XXL | Oficial | Europe |  |
-| Asterix & Obelix XXL 2 | Oficial | Europe |  |
-| Asterix at the Olympic Games | Oficial | Europe |  |
-| Astro Boy | Oficial | Europe |  |
-| Astro Boy - The Video Game | Oficial | Europe |  |
-| Atari Anthology | Oficial | Europe |  |
-| Atelier Iris - Eternal Mana | Oficial | Europe |  |
-| Atelier Iris 2 - The Azoth of Destiny | Oficial | Europe |  |
-| Atelier Iris 3 - Grand Phantasm | Oficial | Europe |  |
-| Athens 2004 | Oficial | Australia, Europe |  |
-| Atlantis III - The New World | Oficial | Europe |  |
-| A-Train 6 | Oficial | Europe |  |
-| Attheraces Presents Gallop Racer | Oficial | Europe |  |
-| ATV - Quad Power Racing 2 | Oficial | Europe |  |
-| ATV Offroad - All Terrain Vehicle | Oficial | Europe |  |
-| ATV Offroad Fury 2 | Oficial | Australia, Europe |  |
-| ATV Offroad Fury 3 | Oficial | Europe |  |
-| ATV Offroad Fury 4 | Oficial | Europe |  |
-| Australian Idol Sing | Oficial | Australia |  |
-| Auto Modellista | Oficial | Europe |  |
-| Azur & Asmar | Oficial | Europe |  |
-| Babe | Oficial | Europe |  |
-| Backyard Baseball | Oficial | USA |  |
-| Backyard Baseball '09 | Oficial | USA |  |
-| Backyard Baseball '10 | Oficial | USA |  |
-| Backyard Basketball | Oficial | USA |  |
-| Backyard Football '08 | Oficial | USA |  |
-| Backyard Football '09 | Oficial | USA |  |
-| Backyard Football '10 | Oficial | USA |  |
-| Backyard Football 2006 | Oficial | USA |  |
-| Backyard Sports - Baseball 2007 | Oficial | USA |  |
-| Backyard Sports - Basketball 2007 | Oficial | USA |  |
-| Backyard Wrestling - Don't Try This at Home | Oficial | Europe |  |
-| Backyard Wrestling 2 - There Goes the Neighborhood | Oficial | Europe |  |
-| Bad Boys II | Oficial | Europe |  |
-| Bakugan - Battle Brawlers | Oficial | Europe |  |
-| Baldur's Gate - Dark Alliance | Oficial | Australia, Europe |  |
-| Baldur's Gate - Dark Alliance II | Oficial | Europe |  |
-| Band Hero | Oficial | Australia, Europe |  |
-| Barbarian | Oficial | Europe |  |
-| Barbie as the Island Princess | Oficial | Australia, Europe |  |
-| Barbie Horse Adventures - Riding Camp | Oficial | Europe |  |
-| Barbie Horse Adventures - Wild Horse Rescue | Oficial | Europe |  |
-| Barbie in The 12 Dancing Princesses | Oficial | Europe |  |
-| Bard's Tale, The | Oficial | Europe |  |
-| Baroque | Oficial | Europe |  |
-| Basketball Xciting | Oficial | Europe |  |
-| Bass Master Fishing | Oficial | Europe |  |
-| Bass Strike | Oficial | Europe |  |
-| Batman - Rise of Sin Tzu | Oficial | Europe |  |
-| Batman - Vengeance | Oficial | Europe |  |
-| Batman Begins | Oficial | Europe |  |
-| Battle Assault 3 featuring Gundam Seed | Oficial | USA |  |
-| Battle Engine Aquila | Oficial | Europe |  |
-| Battlefield 2 - Modern Combat | Oficial | Europe |  |
-| Battlestar Galactica | Oficial | Europe |  |
-| B-Boy | Oficial | Europe |  |
-| BCV - Battle Construction Vehicles | Oficial | Europe |  |
-| Beach King Stunt Racer | Oficial | Europe |  |
-| Beat Down - Fists of Vengeance | Oficial | Europe |  |
-| Beatmania | Oficial | USA |  |
-| Beatmania II DX 8th Style | Oficial | Japan |  |
-| Ben 10 - Alien Force | Oficial | Europe |  |
-| Ben 10 - Alien Force - Vilgax Attacks | Oficial | Europe |  |
-| Ben 10 - Protector of Earth | Oficial | Europe |  |
-| Ben 10 - Ultimate Alien - Cosmic Destruction | Oficial | Europe |  |
-| Ben Hur - Blood of Braves | Oficial | Europe |  |
-| Beta Bloc | Oficial | Europe |  |
-| Beverly Hills Cop | Oficial | Europe |  |
-| Beyond Good & Evil | Oficial | Australia, Europe |  |
-| Bible Game, The | Oficial | Europe |  |
-| Big Idea's VeggieTales - LarryBoy and the Bad Apple | Oficial | USA |  |
-| Big Mutha Truckers | Oficial | Europe |  |
-| Big Mutha Truckers 2 - Truck Me Harder | Oficial | Europe |  |
-| Bigs 2, The | Oficial | USA |  |
-| Bigs, The | Oficial | USA |  |
-| Biker Mice from Mars | Oficial | Europe |  |
-| Billiards Xciting | Oficial | Europe |  |
-| Billy the Wizard - Rocket Broomstick Racing | Oficial | Europe |  |
-| Bionicle | Oficial | Europe |  |
-| Bionicle Heroes | Oficial | Europe |  |
-| Black | Oficial | Europe |  |
-| Black & Bruised | Oficial | Europe |  |
-| Black Buccaneer | Oficial | Europe |  |
-| Black Market Bowling | Oficial | Australia, Europe |  |
-| Blade II | Oficial | Europe |  |
-| Blitz - The League | Oficial | USA |  |
-| Blood Omen 2 - The Legacy of Kain Series | Oficial | Europe |  |
-| Blood Will Tell - Tezuka Osamu's Dororo | Oficial | Europe |  |
-| BloodRayne | Oficial | Europe |  |
-| BloodRayne 2 | Oficial | Europe |  |
-| Bloody Roar 3 | Oficial | Europe |  |
-| Bloody Roar 4 | Oficial | Europe |  |
-| Blowout | Oficial | Europe |  |
-| BMX XXX | Oficial | Europe |  |
-| Board Games Gallery | Oficial | Europe |  |
-| Bob the Builder | Oficial | Europe |  |
-| Bob the Builder - Festival of Fun | Oficial | Europe |  |
-| Bode Miller Alpine Skiing | Oficial | USA |  |
-| Bombastic | Oficial | Europe |  |
-| Bomberman Hardball | Oficial | Europe |  |
-| Bomberman Kart | Oficial | Europe |  |
-| Boogie | Oficial | Australia, Europe |  |
-| Bouncer, The | Oficial | Europe |  |
-| Bowling Xciting | Oficial | Europe |  |
-| Boxing Champions | Oficial | Europe |  |
-| Bratz - Forever Diamondz | Oficial | Australia, Europe |  |
-| Bratz - Girlz Really Rock | Oficial | Europe |  |
-| Bratz - Rock Angelz | Oficial | Spain |  |
-| Bratz - The Movie | Oficial | Europe |  |
-| Brave - The Search for Spirit Dancer | Oficial | Australia, Europe |  |
-| Breath of Fire - Dragon Quarter | Oficial | Europe |  |
-| Breeders' Cup - World Thoroughbred Championships | Oficial | USA |  |
-| Brian Lara International Cricket 2005 | Oficial | Europe |  |
-| Brian Lara International Cricket 2007 | Oficial | Europe |  |
-| Britney's Dance Beat | Oficial | Europe |  |
-| Broken Sword - The Sleeping Dragon | Oficial | Australia, Europe |  |
-| Brothers in Arms - Earned in Blood | Oficial | Europe |  |
-| Brothers in Arms - Road to Hill 30 | Oficial | Australia, Europe |  |
-| Brunswick Pro Bowling | Oficial | Europe |  |
-| Buccaneer | Oficial | Europe |  |
-| Buffy the Vampire Slayer - Chaos Bleeds | Oficial | Europe |  |
-| Bujingai - Swordmaster | Oficial | Europe |  |
-| Burnout | Oficial | Europe |  |
-| Burnout 2 - Point of Impact | Oficial | Europe |  |
-| Burnout 3 - Takedown | Oficial | Australia, Europe |  |
-| Burnout Dominator | Oficial | Europe |  |
-| Burnout Revenge | Oficial | Europe |  |
-| Bust-A-Bloc | Oficial | Europe |  |
-| Butt-Ugly Martians - Zoom or Doom! | Oficial | Europe |  |
-| Buzz! El Gran Concurso de Deportes | Oficial | Spain |  |
-| Buzz! El Gran Reto | Oficial | Spain |  |
-| Buzz! El Mega Concurso | Oficial | Spain |  |
-| Buzz! Escuela de Talentos | Oficial | Spain |  |
-| Buzz! Hollywood | Oficial | Europe |  |
-| Buzz! Junior - Ace Racers | Oficial | Australia, Europe |  |
-| Buzz! Junior - Dino Den | Oficial | Australia, Europe |  |
-| Buzz! Junior - Jungle Party | Oficial | Australia, Europe |  |
-| Buzz! Junior - Monster Rumble | Oficial | Australia, Europe |  |
-| Buzz! Junior - RoboJam | Oficial | Australia, Europe |  |
-| Buzz! Que Sabes de tu Pais | Oficial | Europe |  |
-| Buzz! The Music Quiz | Oficial | Europe |  |
-| Buzz! The Pop Quiz | Oficial | Europe |  |
-| Cabela's African Safari | Oficial | USA |  |
-| Cabela's Alaskan Adventures | Oficial | USA |  |
-| Cabela's Big Game Hunter | Oficial | Australia, Europe |  |
-| Cabela's Big Game Hunter 2005 Adventures | Oficial | Australia, Europe |  |
-| Cabela's Big Game Hunter 2008 | Oficial | Europe |  |
-| Cabela's Dangerous Adventures | Oficial | Europe |  |
-| Cabela's Dangerous Hunts | Oficial | Australia, Europe |  |
-| Cabela's Dangerous Hunts 2 | Oficial | USA |  |
-| Cabela's Deer Hunt - 2004 Season | Oficial | USA |  |
-| Cabela's Deer Hunt - 2005 Season | Oficial | USA |  |
-| Cabela's Legendary Adventures | Oficial | USA |  |
-| Cabela's Monster Bass | Oficial | USA |  |
-| Cabela's North American Adventures | Oficial | USA |  |
-| Cabela's Outdoor Adventures | Oficial | USA |  |
-| Cabela's Outdoor Adventures | Oficial | USA |  |
-| Cabela's Trophy Bucks | Oficial | USA |  |
-| Cake Mania - Baker's Challenge | Oficial | USA |  |
-| Call of Duty - Finest Hour | Oficial | Europe |  |
-| Call of Duty - World at War - Final Fronts | Oficial | Europe |  |
-| Call of Duty 2 - Big Red One | Oficial | Europe |  |
-| Call of Duty 3 | Oficial | Europe |  |
-| Canis Canem Edit | Oficial | Australia, Europe |  |
-| Capcom Classics Collection | Oficial | Europe |  |
-| Capcom Classics Collection Vol. 2 | Oficial | Australia, Europe |  |
-| Capcom Fighting Jam | Oficial | Australia, Europe |  |
-| Capcom vs. SNK 2 - Mark of the Millennium 2001 | Oficial | Europe |  |
-| Captain Scarlet | Oficial | Europe |  |
-| Car Racing Challenge | Oficial | Europe |  |
-| Carmen Sandiego - The Secret of the Stolen Drums | Oficial | Europe |  |
-| Carol Vorderman's Sudoku | Oficial | Europe |  |
-| CART Fury - Championship Racing | Oficial | Europe |  |
-| Cartoon Kingdom | Oficial | Europe |  |
-| Cartoon Network Racing | Oficial | Europe |  |
-| Carwash Tycoon | Oficial | Europe |  |
-| Casino Challenge | Oficial | Europe |  |
-| Casper - Spirit Dimensions | Oficial | Europe |  |
-| Casper and the Ghostly Trio | Oficial | Europe |  |
-| Casper's Scare School | Oficial | Europe |  |
-| Castle Shikigami 2 | Oficial | Europe |  |
-| Castlevania | Oficial | Europe |  |
-| Castlevania - Curse of Darkness | Oficial | Europe |  |
-| Castleween | Oficial | Europe |  |
-| Cat in the Hat, The | Oficial | Europe |  |
-| Catwoman | Oficial | Europe |  |
-| Catz | Oficial | Europe |  |
-| Caveman Rock | Oficial | Europe |  |
-| Cel Damage Overdrive | Oficial | Europe |  |
-| Centre Court - Hard Hitter | Oficial | Australia, Europe |  |
-| Champions - Return to Arms | Oficial | Europe |  |
-| Champions of Norrath | Oficial | Spain |  |
-| Championship Manager 2006 | Oficial | Europe |  |
-| Championship Manager 2007 | Oficial | Europe |  |
-| Championship Manager 5 | Oficial | Spain |  |
-| Chaos Legion | Oficial | Europe |  |
-| Chaos Wars | Oficial | USA |  |
-| Charlie and the Chocolate Factory | Oficial | Europe |  |
-| Charlie's Angels | Oficial | Europe |  |
-| Charlotte's Web | Oficial | Europe |  |
-| Cheggers Party Quiz | Oficial | Europe |  |
-| Chemist Tycoon | Oficial | Europe |  |
-| Chess Challenger | Oficial | Europe |  |
-| Chessmaster | Oficial | Europe |  |
-| Choro Q | Oficial | Europe |  |
-| Chronicles of Narnia, The - Prince Caspian | Oficial | Europe |  |
-| Chulip | Oficial | USA |  |
-| CID the Dummy | Oficial | Europe |  |
-| Cinderella | Oficial | Europe |  |
-| Circuit Blasters | Oficial | Europe |  |
-| Circus Maximus - Chariot Wars | Oficial | Europe |  |
-| City Crisis | Oficial | Europe |  |
-| City Soccer Challenge | Oficial | Australia, Europe |  |
-| Classic British Motor Racing | Oficial | Europe |  |
-| Clever Kids - Dino Land | Oficial | Europe |  |
-| Clever Kids - Pony World | Oficial | Australia, Europe |  |
-| Clock Tower 3 | Oficial | Europe |  |
-| Club Football - AC Milan | Oficial | Europe |  |
-| Club Football - Ajax Amsterdam | Oficial | Europe |  |
-| Club Football - Arsenal | Oficial | Europe |  |
-| Club Football - FC Barcelona | Oficial | Europe |  |
-| Club Football - FC Bayern Muenchen | Oficial | Europe |  |
-| Club Football - FC Internazionale | Oficial | Europe |  |
-| Club Football - Juventus | Oficial | Europe |  |
-| Club Football - Liverpool FC | Oficial | Europe |  |
-| Club Football - Manchester United | Oficial | Europe |  |
-| Club Football - Real Madrid | Oficial | Europe |  |
-| Club Football 2005 - AC Milan | Oficial | Europe |  |
-| Club Football 2005 - Ajax Amsterdam | Oficial | Europe |  |
-| Club Football 2005 - Arsenal | Oficial | Europe |  |
-| Club Football 2005 - FC Barcelona | Oficial | Europe |  |
-| Club Football 2005 - FC Bayern Muenchen | Oficial | Europe |  |
-| Club Football 2005 - FC Internazionale | Oficial | Europe |  |
-| Club Football 2005 - Juventus | Oficial | Europe |  |
-| Club Football 2005 - Liverpool FC | Oficial | Europe |  |
-| Club Football 2005 - Manchester United | Oficial | Europe |  |
-| Club Football 2005 - Olympique de Marseille | Oficial | Europe |  |
-| Club Football 2005 - Real Madrid | Oficial | Europe |  |
-| Clumsy Shumsy | Oficial | Europe |  |
-| CMT Presents - Karaoke Revolution - Country | Oficial | USA |  |
-| Cocoto Fishing Master | Oficial | Europe |  |
-| Cocoto Kart Racer | Oficial | Europe |  |
-| Cocoto Platform Jumper | Oficial | Europe |  |
-| Code Lyoko - Quest for Infinity | Oficial | Europe |  |
-| Code of the Samurai | Oficial | Europe |  |
-| Codename - Kids Next Door - Operation - V.I.D.E.O.G.A.M.E. | Oficial | Australia, Europe |  |
-| Cold Fear | Oficial | Europe |  |
-| Cold Winter | Oficial | Europe |  |
-| Colin McRae Rally 04 | Oficial | Australia, Europe |  |
-| Colin McRae Rally 2005 | Oficial | Europe |  |
-| Colin McRae Rally 3 | Oficial | Australia, Europe |  |
-| College Hoops 2K6 | Oficial | USA |  |
-| College Hoops 2K7 | Oficial | USA |  |
-| College Hoops 2K8 | Oficial | USA |  |
-| Colosseum - Road to Freedom | Oficial | Europe |  |
-| Combat Ace | Oficial | Europe |  |
-| Combat Elite - WWII Paratroopers | Oficial | USA |  |
-| Commandos - Strike Force | Oficial | Europe |  |
-| Commandos 2 - Men of Courage | Oficial | Europe |  |
-| Conan | Oficial | Europe |  |
-| Conflict - Desert Storm | Oficial | Europe |  |
-| Conflict - Desert Storm II | Oficial | Europe |  |
-| Conflict - Global Storm | Oficial | Europe |  |
-| Conflict - Vietnam | Oficial | Europe |  |
-| Conflict Zone | Oficial | Europe |  |
-| Conspiracy - Weapons of Mass Destruction | Oficial | Europe |  |
-| Constantine | Oficial | Europe |  |
-| Contra - Shattered Soldier | Oficial | Europe |  |
-| Cool Boarders 2001 | Oficial | USA |  |
-| Cool Shot | Oficial | Europe |  |
-| Coraline | Oficial | Europe |  |
-| Corvette | Oficial | Europe |  |
-| Counter Terrorist Special Forces - Fire for Effect | Oficial | Europe |  |
-| Countryside Bears | Oficial | Europe |  |
-| Covert Command | Oficial | Europe |  |
-| Crabby Adventure | Oficial | Europe |  |
-| Crash - Mind over Mutant | Oficial | Australia, Europe |  |
-| Crash Bandicoot - The Wrath of Cortex | Oficial | Europe |  |
-| Crash 'n' Burn | Oficial | Europe |  |
-| Crash Nitro Kart | Oficial | Europe |  |
-| Crash of the Titans | Oficial | Australia, Europe |  |
-| Crash Tag Team Racing | Oficial | Australia, Europe |  |
-| Crash Twinsanity | Oficial | Australia, Europe |  |
-| Crashed | Oficial | Europe |  |
-| Crazy Chicken X | Oficial | Europe |  |
-| Crazy Frog Racer | Oficial | Europe |  |
-| Crazy Frog Racer 2 | Oficial | Europe |  |
-| Crazy Golf | Oficial | Australia, Europe |  |
-| Crazy Golf - World Tour | Oficial | Europe |  |
-| Crazy Taxi | Oficial | Australia, Europe |  |
-| Crescent Suzuki Racing | Oficial | Europe |  |
-| Cricket 07 | Oficial | Australia, Europe |  |
-| Cricket 2002 | Oficial | Europe |  |
-| Cricket 2004 | Oficial | Europe |  |
-| Cricket 2005 | Oficial | Europe |  |
-| Crime Life - Gang Wars | Oficial | Europe |  |
-| Crimson Sea 2 | Oficial | Europe |  |
-| Crimson Tears | Oficial | Europe |  |
-| Crisis Zone | Oficial | Australia, Europe |  |
-| Cronicas de Narnia, Las - El Leon, la Bruja y el Armario | Oficial | Spain |  |
-| Crouching Tiger, Hidden Dragon | Oficial | Europe |  |
-| Crusty Demons | Oficial | Europe |  |
-| CSI - Crime Scene Investigation | Oficial | Australia, Europe |  |
-| Cubix Robots for Everyone - Showdown | Oficial | USA |  |
-| Cue Academy - Snooker, Pool, Billiards | Oficial | Europe |  |
-| Culdcept | Oficial | USA |  |
-| Curious George | Oficial | Europe |  |
-| Curse - The Eye of Isis | Oficial | Europe |  |
-| Cy Girls | Oficial | Europe |  |
-| Cy Girls | Oficial | Europe |  |
-| Cyber Troopers - Virtual-On Marz | Oficial | USA |  |
-| Cyclone Circus | Oficial | Europe |  |
-| Da Vinci Code, The | Oficial | Australia, Europe |  |
-| Daemon Summoner | Oficial | Europe |  |
-| Dai Senryaku VII - Modern Military Tactics Exceed | Oficial | USA |  |
-| Dakar 2 | Oficial | Europe |  |
-| Dalmatians 3 | Oficial | Europe |  |
-| Dance Dance Revolution - Disney Channel Edition | Oficial | USA |  |
-| Dance Dance Revolution X | Oficial | USA |  |
-| Dance Dance Revolution X2 | Oficial | USA |  |
-| Dance Europe | Oficial | Europe |  |
-| Dance Factory | Oficial | Europe |  |
-| Dance Fest | Oficial | Europe |  |
-| Dance Party Club Hits | Oficial | Europe |  |
-| Dance Party Pop Hits | Oficial | Europe |  |
-| Dancing Stage Fever | Oficial | Europe |  |
-| Dancing Stage Fusion | Oficial | Europe |  |
-| Dancing Stage Max | Oficial | Europe |  |
-| Dancing Stage MegaMix | Oficial | Europe |  |
-| Dancing Stage SuperNova | Oficial | Europe |  |
-| Dancing Stage SuperNova 2 | Oficial | Europe |  |
-| Dancing with the Stars | Oficial | USA |  |
-| Dark Angel - Vampire Apocalypse | Oficial | USA |  |
-| Dark Chronicle | Oficial | Europe |  |
-| Dark Cloud | Oficial | Europe |  |
-| Dark Summit | Oficial | Europe |  |
-| Dark Wind | Oficial | Europe |  |
-| Darkwatch | Oficial | Australia, Europe |  |
-| Darwin | Oficial | Europe |  |
-| Dave Mirra Freestyle BMX 2 | Oficial | Europe |  |
-| David Beckham Soccer | Oficial | Europe |  |
-| Dawn of Mana | Oficial | USA |  |
-| DDRMAX2 - Dance Dance Revolution | Oficial | USA |  |
-| Dead Eye Jim | Oficial | Europe |  |
-| Dead to Rights | Oficial | Europe |  |
-| Dead to Rights II | Oficial | Europe |  |
-| Deadly Skies III | Oficial | Europe |  |
-| Deadly Strike | Oficial | Europe |  |
-| Deep Water | Oficial | Europe |  |
-| Deer Hunter | Oficial | USA |  |
-| Def Jam - Fight for NY | Oficial | Australia, Europe |  |
-| Def Jam - Vendetta | Oficial | Europe |  |
-| Defender - For All Mankind | Oficial | Europe |  |
-| Delta Force - Black Hawk Down | Oficial | Europe |  |
-| Delta Force - Black Hawk Down - Team Sabre | Oficial | Europe |  |
-| Demolition Girl | Oficial | Europe |  |
-| Demon Chaos | Oficial | Europe |  |
-| Despicable Me - The Game | Oficial | Europe |  |
-| Destroy All Humans! | Oficial | Australia, Europe |  |
-| Destroy All Humans! 2 | Oficial | Europe |  |
-| Destruction Derby Arenas | Oficial | Europe |  |
-| Detonator | Oficial | Europe |  |
-| Deus Ex | Oficial | Spain |  |
-| Devil Kings | Oficial | Europe |  |
-| Devil May Cry | Oficial | Europe |  |
-| Devil May Cry 2 | Oficial | Europe |  |
-| Devil May Cry 2 | Oficial | Europe |  |
-| Devil May Cry 3 - Dante's Awakening | Oficial | Europe |  |
-| Diabolik - The Original Sin | Oficial | Europe |  |
-| DICE - DNA Integrated Cybernetic Enterprises | Oficial | USA |  |
-| Die Hard - Vendetta | Oficial | Europe |  |
-| Digimon Rumble Arena 2 | Oficial | Europe |  |
-| Digimon World - Data Squad | Oficial | USA |  |
-| Digimon World 4 | Oficial | Europe |  |
-| Dino Stalker | Oficial | Europe |  |
-| Dinosaur Adventure | Oficial | Europe |  |
-| Dirge of Cerberus - Final Fantasy VII | Oficial | Australia, Europe |  |
-| Dirt Track Devils | Oficial | Europe |  |
-| Disgaea - Hour of Darkness | Oficial | Europe |  |
-| Disgaea 2 - Cursed Memories | Oficial | Europe |  |
-| Disney Bolt | Oficial | Europe |  |
-| Disney Chicken Little - As en Accion | Oficial | Spain |  |
-| Disney G-Force | Oficial | Europe |  |
-| Disney Golf | Oficial | Europe |  |
-| Disney Hannah Montana - Spotlight World Tour | Oficial | Australia, Europe |  |
-| Disney High School Musical - Sing It! | Oficial | Europe |  |
-| Disney High School Musical 3 - Senior Year Dance! | Oficial | Europe |  |
-| Disney Move | Oficial | Europe |  |
-| Disney Piglet el Gran Juego | Oficial | Spain |  |
-| Disney Pirates of the Caribbean - At World's End | Oficial | Europe |  |
-| Disney Princess - Enchanted Journey | Oficial | Europe |  |
-| Disney Sing It | Oficial | Europe |  |
-| Disney Sing It - High School Musical 3 - Senior Year | Oficial | Europe |  |
-| Disney Sing It - Party Hits | Oficial | Australia, Europe |  |
-| Disney Sing It - Pop Hits | Oficial | Europe |  |
-| Disney Think Fast | Oficial | Europe |  |
-| Disney-Pixar Cars | Oficial | Spain |  |
-| Disney-Pixar Cars - La Copa Internacional de Mate | Oficial | Spain |  |
-| Disney-Pixar Cars - Race-O-Rama | Oficial | Europe |  |
-| Disney-Pixar Finding Nemo | Oficial | Europe |  |
-| Disney-Pixar Los Increibles | Oficial | Spain |  |
-| Disney-Pixar Monstruos, S.A. - Isla de los Sustos | Oficial | Spain |  |
-| Disney-Pixar Ratatouille | Oficial | Europe |  |
-| Disney-Pixar The Incredibles - Rise of the Underminer | Oficial | Europe |  |
-| Disney-Pixar Toy Story 3 | Oficial | Europe |  |
-| Disney-Pixar Up | Oficial | Spain |  |
-| Disney-Pixar WALL-E | Oficial | Europe |  |
-| Disney's Chicken Little | Oficial | Europe |  |
-| Disney's Dinosaur | Oficial | Europe |  |
-| Disney's Donald Duck - Quack Attack | Oficial | Europe |  |
-| Disney's Donald Duck PK | Oficial | Europe |  |
-| Disney's Extreme Skate Adventure | Oficial | Europe |  |
-| Disney's Kim Possible - What's the Switch | Oficial | Europe |  |
-| Disney's Peter Pan - The Legend of Never Land | Oficial | Europe |  |
-| Disney's Stitch - Experiment 626 | Oficial | Europe |  |
-| Disney's Tarzan - Freeride | Oficial | Europe |  |
-| Disney's The Haunted Mansion | Oficial | Europe |  |
-| Disney's Treasure Planet | Oficial | Europe |  |
-| Disney's Winnie the Pooh's Rumbly Tumbly Adventure | Oficial | Europe |  |
-| DJ - Decks & FX - House Edition | Oficial | Australia, Europe |  |
-| DJ - Decks & FX - Live Session - Privilege Maxiclubbing Edition | Oficial | Spain |  |
-| DJ Hero | Oficial | Australia, Europe |  |
-| DNA - Dark Native Apostle | Oficial | Europe |  |
-| DOA2 - Hardcore | Oficial | USA |  |
-| Dodgeball | Oficial | Europe |  |
-| Dog's Life | Oficial | Australia, Europe |  |
-| Dogz | Oficial | Europe |  |
-| Dokapon Kingdom | Oficial | USA |  |
-| Donkey Xote | Oficial | Europe |  |
-| Doomsday Racers | Oficial | Europe |  |
-| Dot Hack G.U. Vol. 1 - Rebirth | Oficial | USA |  |
-| Dot Hack G.U. Vol. 2 - Reminisce | Oficial | USA |  |
-| Dot Hack G.U. Vol. 3 - Redemption | Oficial | USA |  |
-| Dot Hack Part 1 - Infection | Oficial | Europe |  |
-| Dot Hack Part 2 - Mutation | Oficial | Europe |  |
-| Dot Hack Part 3 - Outbreak | Oficial | Europe |  |
-| Dot Hack Part 4 - Quarantine | Oficial | Europe |  |
-| Downforce | Oficial | Europe |  |
-| Downhill Domination | Oficial | Europe |  |
-| Downhill Slalom | Oficial | Europe |  |
-| Downtown Run | Oficial | Europe |  |
-| Dr. Dolittle | Oficial | Europe |  |
-| Dr. Muto | Oficial | Europe |  |
-| Drag Racer USA | Oficial | Europe |  |
-| Dragon Ball Z - Budokai | Oficial | Australia, Europe |  |
-| Dragon Ball Z - Budokai 2 | Oficial | Europe |  |
-| Dragon Ball Z - Budokai 3 - Collector's Edition | Oficial | Europe |  |
-| Dragon Ball Z - Budokai Tenkaichi | Oficial | Australia, Europe |  |
-| Dragon Ball Z - Budokai Tenkaichi 2 | Oficial | Australia, Europe |  |
-| Dragon Ball Z - Budokai Tenkaichi 3 | Oficial | Australia, Europe |  |
-| Dragon Ball Z - Infinite World | Oficial | Europe |  |
-| Dragon Ball Z - Sagas | Oficial | USA |  |
-| Dragon Blaze | Oficial | Europe |  |
-| Dragon Quest - The Journey of the Cursed King | Oficial | Australia, Europe |  |
-| Dragon Rage | Oficial | Europe |  |
-| Dragon Sisters | Oficial | Europe |  |
-| Dragon's Lair 3D - Special Edition | Oficial | Europe |  |
-| Drakan - The Ancients' Gates | Oficial | Europe |  |
-| Drakengard | Oficial | Europe |  |
-| Drakengard 2 | Oficial | Europe |  |
-| DreamWorks & Aardman Flushed Away | Oficial | Europe |  |
-| DreamWorks Bee Movie Game | Oficial | Australia, Europe |  |
-| DreamWorks Kung Fu Panda | Oficial | Europe |  |
-| DreamWorks Madagascar | Oficial | Spain |  |
-| DreamWorks Madagascar - Escape 2 Africa | Oficial | Europe |  |
-| DreamWorks Monsters vs. Aliens | Oficial | Europe |  |
-| DreamWorks Shark Tale | Oficial | Europe |  |
-| DreamWorks Shrek - Smash n' Crash Racing | Oficial | Australia, Europe |  |
-| DreamWorks Shrek - SuperSlam | Oficial | Europe |  |
-| DreamWorks Shrek the Third | Oficial | Europe |  |
-| DreamWorks Shrek's Carnival Craze - Party Games | Oficial | Europe |  |
-| DreamWorks Vecinos Invasores | Oficial | Spain |  |
-| Driv3r | Oficial | Europe |  |
-| Driven | Oficial | Europe |  |
-| Driven to Destruction | Oficial | Europe |  |
-| Driver - Parallel Lines | Oficial | Europe |  |
-| Driving Emotion Type-S | Oficial | Europe |  |
-| Drome Racers | Oficial | Europe |  |
-| Dropship - United Peace Force | Oficial | Australia, Europe |  |
-| DT Carnage | Oficial | USA |  |
-| DT Racer | Oficial | Europe |  |
-| Dual Hearts | Oficial | USA |  |
-| Duel Masters | Oficial | Australia, Europe |  |
-| Dukes of Hazzard, The - Return of the General Lee | Oficial | Europe |  |
-| D-Unit Drift Racing | Oficial | Australia, Europe |  |
-| Dynamite 100 | Oficial | Europe |  |
-| Dynasty Tactics | Oficial | Europe |  |
-| Dynasty Tactics 2 | Oficial | Europe |  |
-| Dynasty Warriors - Gundam 2 | Oficial | USA |  |
-| Dynasty Warriors 2 | Oficial | Europe |  |
-| Dynasty Warriors 3 | Oficial | Europe |  |
-| Dynasty Warriors 3 - Xtreme Legends | Oficial | Europe |  |
-| Dynasty Warriors 4 | Oficial | Spain |  |
-| Dynasty Warriors 4 - Empires | Oficial | Europe |  |
-| Dynasty Warriors 4 - Xtreme Legends | Oficial | Spain |  |
-| Dynasty Warriors 5 | Oficial | Europe |  |
-| Dynasty Warriors 5 - Empires | Oficial | Australia, Europe |  |
-| Dynasty Warriors 5 - Xtreme Legends | Oficial | Europe |  |
-| Dynasty Warriors 6 | Oficial | USA |  |
-| E.O.E - Eve of Extinction | Oficial | Europe |  |
-| Eagle Eye Golf | Oficial | Europe |  |
-| Earache - Extreme Metal Racing | Oficial | Europe |  |
-| Ecco the Dolphin - Defender of the Future | Oficial | Europe |  |
-| Echo Night - Beyond | Oficial | Europe |  |
-| Ed, Edd n Eddy - The Mis-Edventures | Oficial | Europe |  |
-| Eggo Mania | Oficial | Europe |  |
-| eJay Clubworld - The Music Making Experience | Oficial | Europe |  |
-| Empire of Atlantis | Oficial | Europe |  |
-| Endgame | Oficial | Europe |  |
-| Energy Airforce | Oficial | Europe |  |
-| Energy Airforce - Aim Strike! | Oficial | Europe |  |
-| Enter the Matrix | Oficial | Europe |  |
-| Enthusia - Professional Racing | Oficial | Europe |  |
-| Ephemeral Fantasia | Oficial | Europe |  |
-| Eragon | Oficial | Australia, Europe |  |
-| ESPN College Hoops | Oficial | USA |  |
-| ESPN College Hoops 2K5 | Oficial | USA |  |
-| ESPN International Track & Field | Oficial | Europe |  |
-| ESPN International Winter Sports | Oficial | Europe |  |
-| ESPN Major League Baseball | Oficial | USA |  |
-| ESPN MLS ExtraTime | Oficial | USA |  |
-| ESPN National Hockey Night | Oficial | Europe |  |
-| ESPN NBA 2K5 | Oficial | Europe |  |
-| ESPN NBA 2Night | Oficial | Europe |  |
-| ESPN NBA Basketball | Oficial | Europe |  |
-| ESPN NFL 2K5 | Oficial | Europe |  |
-| ESPN NFL Football | Oficial | Europe |  |
-| ESPN NFL PrimeTime 2002 | Oficial | USA |  |
-| ESPN NHL 2K5 | Oficial | Europe |  |
-| ESPN NHL Hockey | Oficial | Europe |  |
-| Eternal Poison | Oficial | USA |  |
-| Eternal Quest | Oficial | Europe |  |
-| Eternal Ring | Oficial | Europe |  |
-| Eureka Seven Vol. 1 - The New Wave | Oficial | USA |  |
-| Eureka Seven Vol. 2 - The New Vision | Oficial | USA |  |
-| Euro Rally Champion | Oficial | Europe |  |
-| European Tennis Pro | Oficial | Europe |  |
-| Everblue | Oficial | Europe |  |
-| Everblue 2 | Oficial | Europe |  |
-| Evergrace | Oficial | Europe |  |
-| EverQuest - Online Adventures | Oficial | Europe |  |
-| EverQuest - Online Adventures - Frontiers | Oficial | USA |  |
-| Everybody's Golf | Oficial | Australia, Europe |  |
-| Everybody's Tennis | Oficial | Europe |  |
-| Evil Dead - A Fistful of Boomstick | Oficial | Europe |  |
-| Evil Dead - Regeneration | Oficial | Europe |  |
-| Evil Twin - Cyprien's Chronicles | Oficial | Europe |  |
-| Evolution GT | Oficial | Europe |  |
-| Evolution Skateboarding | Oficial | Europe |  |
-| Evolution Snowboarding | Oficial | Europe |  |
-| Extermination | Oficial | Europe |  |
-| Extreme Sprint 3010 | Oficial | Europe |  |
-| ExZeus | Oficial | Europe |  |
-| EyeToy - Antigrav | Oficial | Australia, Europe |  |
-| EyeToy - Chat | Oficial | Europe |  |
-| EyeToy - Groove | Oficial | Australia, Europe |  |
-| EyeToy - Kinetic | Oficial | Australia, Europe |  |
-| EyeToy - Kinetic Combat | Oficial | Australia, Europe |  |
-| EyeToy - Monkey Mania | Oficial | Europe |  |
-| EyeToy - Play | Oficial | Australia, Europe |  |
-| EyeToy - Play 2 | Oficial | Europe |  |
-| EyeToy - Play 3 | Oficial | Australia, Europe |  |
-| EyeToy - Play Sports | Oficial | Australia, Europe |  |
-| EyeToy Play - Astro Zoo | Oficial | Australia, Europe |  |
-| EyeToy Play - Hero | Oficial | Australia, Europe |  |
-| EyeToy Play - PomPom Party | Oficial | Australia, Europe |  |
-| F1 2001 | Oficial | Europe |  |
-| F1 2002 | Oficial | Europe |  |
-| F1 Career Challenge | Oficial | Australia, Europe |  |
-| F1 Championship Season 2000 | Oficial | Europe |  |
-| F1 Racing Championship | Oficial | Europe |  |
-| Fahrenheit | Oficial | Europe |  |
-| Fairly OddParents, The - Breakin' da Rules | Oficial | USA |  |
-| Fairly OddParents, The - Shadow Showdown | Oficial | Europe |  |
-| Falling Stars | Oficial | Europe |  |
-| Fallout - Brotherhood of Steel | Oficial | Europe |  |
-| Family Board Games | Oficial | Europe |  |
-| Family Feud | Oficial | USA |  |
-| Family Guy - Video Game! | Oficial | Europe |  |
-| Fantastic 4 | Oficial | Spain |  |
-| Fantastic Four - Rise of the Silver Surfer | Oficial | Europe |  |
-| Fantavision | Oficial | Europe |  |
-| Fast and the Furious, The | Oficial | Europe |  |
-| Fatal Fury - Battle Archives Volume 1 | Oficial | Australia, Europe |  |
-| Fatal Fury - Battle Archives Volume 2 | Oficial | Canada, USA |  |
-| Ferrari Challenge - Trofeo Pirelli | Oficial | Europe |  |
-| Ferrari F355 Challenge | Oficial | Australia, Europe |  |
-| FIFA 06 | Oficial | Europe |  |
-| FIFA 07 | Oficial | Europe |  |
-| FIFA 08 | Oficial | Europe |  |
-| FIFA 09 | Oficial | Europe |  |
-| FIFA 10 | Oficial | Europe |  |
-| FIFA 11 | Oficial | Europe |  |
-| FIFA 12 | Oficial | Europe |  |
-| FIFA 13 | Oficial | Europe |  |
-| FIFA 14 | Oficial | Europe |  |
-| FIFA 2001 | Oficial | Spain |  |
-| FIFA Football 2002 | Oficial | Spain |  |
-| FIFA Football 2003 | Oficial | Europe |  |
-| FIFA Football 2004 | Oficial | Europe |  |
-| FIFA Football 2005 | Oficial | Europe |  |
-| FIFA Street | Oficial | Europe |  |
-| FIFA Street 2 | Oficial | Europe |  |
-| FIFA World Cup Germany 2006 | Oficial | Europe |  |
-| Fight Club | Oficial | Europe |  |
-| Fight Night 2004 | Oficial | Europe |  |
-| Fight Night Round 2 | Oficial | Europe |  |
-| Fight Night Round 3 | Oficial | Australia, Europe |  |
-| Fighter Maker 2 | Oficial | USA |  |
-| Fighting Angels | Oficial | Europe |  |
-| Fighting Fury | Oficial | Europe |  |
-| Final Armada | Oficial | Europe |  |
-| Final Fantasy X | Oficial | Spain |  |
-| Final Fantasy X-2 | Oficial | Spain |  |
-| Final Fantasy XI - Online - Vana'diel Collection 2008 | Oficial | USA |  |
-| Final Fantasy XII | Oficial | Spain |  |
-| Final Fight - Streetwise | Oficial | Europe |  |
-| Finkles World | Oficial | Europe |  |
-| Finny the Fish & the Seven Waters | Oficial | USA |  |
-| Fire Heroes | Oficial | Europe |  |
-| Fire Pro Wrestling Returns | Oficial | Europe |  |
-| FireBlade | Oficial | Europe |  |
-| Firefighter F.D.18 | Oficial | Europe |  |
-| Fisherman's Challenge | Oficial | Europe |  |
-| Fishing Fantasy - Buzzrod | Oficial | Europe |  |
-| Fitness Fun | Oficial | Europe |  |
-| FlatOut | Oficial | Europe |  |
-| FlatOut 2 | Oficial | Australia, Europe |  |
-| Flintstones in Viva Rock Vegas, The | Oficial | Europe |  |
-| Flintstones, The - Bedrock Racing | Oficial | Europe |  |
-| Flipnic | Oficial | Europe |  |
-| Flow - Urban Dance Uprising | Oficial | Europe |  |
-| Football Generation | Oficial | Europe |  |
-| Football Mania | Oficial | Europe |  |
-| Forbidden Siren | Oficial | Spain |  |
-| Forbidden Siren 2 | Oficial | Europe |  |
-| Ford Mustang - The Legend Lives | Oficial | Europe |  |
-| Ford Racing 2 | Oficial | Europe |  |
-| Ford Racing 3 | Oficial | Australia, Europe |  |
-| Ford Street Racing | Oficial | Europe |  |
-| Ford vs. Chevy | Oficial | Australia, Europe |  |
-| Forever Kingdom | Oficial | USA |  |
-| Forgotten Realms - Demon Stone | Oficial | Europe |  |
-| Formula Challenge | Oficial | Europe |  |
-| Formula One 04 | Oficial | Australia, Europe |  |
-| Formula One 05 | Oficial | Australia, Europe |  |
-| Formula One 06 | Oficial | Australia, Europe |  |
-| Formula One 2001 | Oficial | Australia, Europe |  |
-| Formula One 2002 | Oficial | Europe |  |
-| Formula One 2003 | Oficial | Europe |  |
-| Forty 4 Party | Oficial | Europe |  |
-| Frank Herbert's Dune | Oficial | Europe |  |
-| Frankie Dettori Racing | Oficial | Australia |  |
-| Franklin the Turtle - A Birthday Surprise | Oficial | Europe |  |
-| Freak Out | Oficial | Europe |  |
-| Freak Out - Extreme Freeride | Oficial | Europe |  |
-| Freaky Flyers | Oficial | Europe |  |
-| Free Running | Oficial | Europe |  |
-| Freedom Fighters | Oficial | Spain |  |
-| Freekstyle | Oficial | Europe |  |
-| Freestyle Metal X | Oficial | Europe |  |
-| Frequency | Oficial | Europe |  |
-| Friends - The One with All the Trivia | Oficial | Europe |  |
-| Frogger - Ancient Shadow | Oficial | USA |  |
-| Frogger - The Great Quest | Oficial | Europe |  |
-| Frogger Beyond | Oficial | Europe |  |
-| Frogger's Adventures - The Rescue | Oficial | USA |  |
-| Front Mission 4 | Oficial | USA |  |
-| Fruit Fall | Oficial | Australia, Europe |  |
-| Fruit Machine Mania | Oficial | Europe |  |
-| Fuga de Monkey Island, La | Oficial | Spain |  |
-| Full Spectrum Warrior | Oficial | Europe |  |
-| Full Spectrum Warrior - Ten Hammers | Oficial | Europe |  |
-| Fullmetal Alchemist 2 - Curse of the Crimson Elixir | Oficial | USA |  |
-| Fullmetal Alchemist and the Broken Angel | Oficial | Canada, USA |  |
-| Fur Fighters - Viggo's Revenge | Oficial | Europe |  |
-| Furry Tales | Oficial | Europe |  |
-| Futurama | Oficial | Europe |  |
-| Future Tactics - The Uprising | Oficial | Europe |  |
-| G.I. Joe - The Rise of Cobra | Oficial | Europe |  |
-| G1 Jockey | Oficial | Europe |  |
-| G1 Jockey 3 | Oficial | Europe |  |
-| G1 Jockey 4 | Oficial | Australia, Europe |  |
-| Gadget & the Gadgetinis | Oficial | Europe |  |
-| Gadget Racers | Oficial | Europe |  |
-| Gaelic Games - Football | Oficial | Europe |  |
-| Gaelic Games - Football 2 | Oficial | Europe |  |
-| Gaelic Games - Hurling | Oficial | Europe |  |
-| Galactic Wrestling featuring Ultimate Muscle - The Kinnikuman Legacy | Oficial | USA |  |
-| Galerians - Ash | Oficial | Europe |  |
-| Gallop Racer 2 | Oficial | Australia, Europe |  |
-| Gallop Racer 2001 | Oficial | USA |  |
-| Gallop Racer 2006 | Oficial | USA |  |
-| Games Galaxy 2 | Oficial | Europe |  |
-| Garfield | Oficial | Europe |  |
-| Garfield - Lasagna World Tour | Oficial | Europe |  |
-| Garfield - Saving Arlene | Oficial | Europe |  |
-| Garfield 2 | Oficial | Europe |  |
-| Gauntlet - Dark Legacy | Oficial | Europe |  |
-| Gauntlet - Seven Sorrows | Oficial | Australia, Europe |  |
-| Gecko Blaster | Oficial | Europe |  |
-| Gene Troopers | Oficial | Europe |  |
-| Genji | Oficial | Australia, Europe |  |
-| George of the Jungle | Oficial | Europe |  |
-| Get on da Mic | Oficial | Europe |  |
-| Getaway, The | Oficial | Europe |  |
-| Getaway, The - Black Monday | Oficial | Europe |  |
-| G-Force | Oficial | Australia, Europe |  |
-| Ghost in the Shell - Stand Alone Complex | Oficial | Europe |  |
-| Ghost Master - The Gravenville Chronicles | Oficial | Europe |  |
-| Ghost Rider | Oficial | Europe |  |
-| Ghost Vibration | Oficial | Europe |  |
-| Ghostbusters - The Video Game | Oficial | Europe |  |
-| Ghosthunter | Oficial | Europe |  |
-| Giants - Citizen Kabuto | Oficial | Europe |  |
-| Gift | Oficial | Spain |  |
-| GigaWing Generations | Oficial | Europe |  |
-| Girl Zone | Oficial | Australia, Europe |  |
-| Gitaroo Man | Oficial | Europe |  |
-| Gladiator - Sword of Vengeance | Oficial | Europe |  |
-| Gladius | Oficial | Europe |  |
-| Glass Rose | Oficial | Europe |  |
-| Global Defence Force | Oficial | Europe |  |
-| Global Defence Force Tactics | Oficial | Europe |  |
-| Go Go Copter - Remote Control Helicopter | Oficial | Europe |  |
-| Go Go Golf | Oficial | Europe |  |
-| Go Kart Rally | Oficial | Europe |  |
-| Goblin Commander - Unleash the Horde | Oficial | Europe |  |
-| God Hand | Oficial | Europe |  |
-| God of War | Oficial | Australia, Europe |  |
-| God of War II | Oficial | Australia, Europe |  |
-| GoDai - Elemental Force | Oficial | Europe |  |
-| Godzilla - Save the Earth | Oficial | Europe |  |
-| Godzilla - Unleashed | Oficial | Europe |  |
-| Golden Age of Racing | Oficial | Europe |  |
-| Golden Compass, The | Oficial | Australia, Europe |  |
-| GoldenEye - Agente Corrupto | Oficial | Spain |  |
-| Goosebumps HorrorLand | Oficial | USA |  |
-| Gottlieb Pinball Classics | Oficial | Europe |  |
-| Gradius III and IV | Oficial | Europe |  |
-| Gradius V | Oficial | Europe |  |
-| Graffiti Kingdom | Oficial | Europe |  |
-| Gran Turismo 3 - A-Spec | Oficial | Australia, Europe |  |
-| Gran Turismo 4 | Oficial | Australia, Europe |  |
-| Gran Turismo 4 - Prologue | Oficial | Europe |  |
-| Gran Turismo Concept - 2002 Tokyo-Geneva | Oficial | Europe |  |
-| Grand Prix Challenge | Oficial | Europe |  |
-| Grand Theft Auto - Liberty City Stories | Oficial | Australia, Europe |  |
-| Grand Theft Auto - San Andreas | Oficial | Australia, Europe |  |
-| Grand Theft Auto - Vice City | Oficial | Europe |  |
-| Grand Theft Auto - Vice City Stories | Oficial | Australia, Europe |  |
-| Grand Theft Auto III | Oficial | Australia, Europe |  |
-| Grandia II | Oficial | Europe |  |
-| Grandia III | Oficial | USA |  |
-| Grandia III | Oficial | USA |  |
-| Grandia Xtreme | Oficial | USA |  |
-| Gravity Games Bike - Street. Vert. Dirt. | Oficial | Europe |  |
-| Great British Football Quiz, The | Oficial | Europe |  |
-| Great Escape, The | Oficial | Europe |  |
-| Greg Hastings' Tournament Paintball Max'd | Oficial | USA |  |
-| Gregory Horror Show | Oficial | Europe |  |
-| Gretzky NHL 06 | Oficial | USA |  |
-| Gretzky NHL 2005 | Oficial | USA |  |
-| Grim Adventures of Billy & Mandy, The | Oficial | USA |  |
-| GrimGrimoire | Oficial | Europe |  |
-| Grooverider | Oficial | Australia, Europe |  |
-| Growlanser - Heritage of War | Oficial | Europe |  |
-| Growlanser Generations | Oficial | USA |  |
-| Growlanser Generations | Oficial | USA |  |
-| G-Surfers | Oficial | Europe |  |
-| GT Racers | Oficial | Europe |  |
-| GTC Africa | Oficial | Europe |  |
-| GT-R 400 | Oficial | Australia, Europe |  |
-| GT-R Touring | Oficial | Europe |  |
-| Guerrilla Strike | Oficial | Europe |  |
-| Guilty Gear Isuka | Oficial | Europe |  |
-| Guilty Gear X | Oficial | Europe |  |
-| Guilty Gear X2 | Oficial | Europe |  |
-| Guilty Gear X2 Reload - The Midnight Carnival | Oficial | Europe |  |
-| Guilty Gear XX Accent Core | Oficial | USA |  |
-| Guilty Gear XX Accent Core Plus | Oficial | Europe |  |
-| Guitar Hero | Oficial | Australia, Europe |  |
-| Guitar Hero - Aerosmith | Oficial | Europe |  |
-| Guitar Hero - Greatest Hits | Oficial | Australia, Europe |  |
-| Guitar Hero - Metallica | Oficial | Australia, Europe |  |
-| Guitar Hero - Rocks the 80s | Oficial | Europe |  |
-| Guitar Hero - Van Halen | Oficial | USA |  |
-| Guitar Hero 5 | Oficial | Australia, Europe |  |
-| Guitar Hero II | Oficial | Australia, Europe |  |
-| Guitar Hero III - Legends of Rock | Oficial | Europe |  |
-| Guitar Hero World Tour | Oficial | Australia, Europe |  |
-| Gumball 3000 | Oficial | Europe |  |
-| Gun | Oficial | Australia, Europe |  |
-| Gunbird Special Edition | Oficial | Europe |  |
-| Guncom 2 | Oficial | Europe |  |
-| Gunfighter II - Revenge of Jesse James | Oficial | Europe |  |
-| Gungrave | Oficial | Europe |  |
-| Gungrave - Overdose | Oficial | Europe |  |
-| Gungriffon Blaze | Oficial | Europe |  |
-| Guy Game, The | Oficial | USA |  |
-| Habitrail Hamster Ball | Oficial | Europe |  |
-| Half-Life | Oficial | Spain |  |
-| Hamster Heroes | Oficial | Europe |  |
-| Hansel and Gretel | Oficial | Europe |  |
-| Happy Feet | Oficial | Australia, Europe |  |
-| Hard Hitter 2 | Oficial | Europe |  |
-| Hard Knock High | Oficial | Europe |  |
-| Hard Rock Casino | Oficial | Australia, Europe |  |
-| Hardware - Online Arena | Oficial | Europe |  |
-| Harley-Davidson Motor Cycles | Oficial | Europe |  |
-| Harry Potter - Quidditch World Cup | Oficial | Europe |  |
-| Harry Potter and the Goblet of Fire | Oficial | Europe |  |
-| Harry Potter and the Half-Blood Prince | Oficial | Australia, Europe |  |
-| Harry Potter and the Order of the Phoenix | Oficial | Europe |  |
-| Harry Potter and the Philosopher's Stone | Oficial | Europe |  |
-| Harry Potter and the Prisoner of Azkaban | Oficial | Europe |  |
-| Harry Potter y la Camara Secreta | Oficial | Spain |  |
-| Harvest Fishing | Oficial | Europe |  |
-| Harvest Moon - A Wonderful Life - Special Edition | Oficial | Europe |  |
-| Harvest Moon - Save the Homeland | Oficial | USA |  |
-| Harvey Birdman - Attorney at Law | Oficial | USA |  |
-| Hasbro Family Game Night | Oficial | Australia, Europe |  |
-| Haunting Ground | Oficial | Europe |  |
-| Haven - Call of the King | Oficial | Europe |  |
-| Hawk Superbike Racing | Oficial | Australia, Europe |  |
-| Headhunter | Oficial | Europe |  |
-| Headhunter - Redemption | Oficial | Europe |  |
-| Heartbeat Boxing | Oficial | Europe |  |
-| Heatseeker | Oficial | Europe |  |
-| Hello Kitty - Roller Rescue | Oficial | Europe |  |
-| Heracles - Battle with the Gods | Oficial | Europe |  |
-| Heracles - Chariot Racing | Oficial | Europe |  |
-| Herdy Gerdy | Oficial | Europe |  |
-| Heroes of Might and Magic - Quest for the DragonBone Staff | Oficial | Europe |  |
-| Heroes of the Pacific | Oficial | Europe |  |
-| Hidden Invasion | Oficial | Europe |  |
-| High Heat Major League Baseball 2002 | Oficial | USA |  |
-| High Heat Major League Baseball 2003 | Oficial | Europe |  |
-| High Heat Major League Baseball 2004 | Oficial | USA |  |
-| High Rollers Casino | Oficial | USA |  |
-| History Channel, The - Battle for the Pacific | Oficial | Europe |  |
-| History Channel, The - Civil War - A Nation Divided | Oficial | USA |  |
-| History Channel, The - Great Battles of Rome | Oficial | Europe |  |
-| History Civil War - Secret Missions | Oficial | USA |  |
-| Hitman - Blood Money | Oficial | Spain |  |
-| Hitman - Contracts | Oficial | Spain |  |
-| Hitman 2 - Silent Assassin | Oficial | Spain |  |
-| Hobbit, The - The Prelude to the Lord of the Rings | Oficial | Europe |  |
-| Home Alone | Oficial | Europe |  |
-| Homerun | Oficial | Europe |  |
-| Homura | Oficial | Europe |  |
-| Hoppie | Oficial | Europe |  |
-| Hot Shots Golf 3 | Oficial | USA |  |
-| Hot Wheels - Beat That! | Oficial | Europe |  |
-| Hot Wheels - Stunt Track Challenge | Oficial | Australia, Europe |  |
-| Hot Wheels - Velocity X - Maximum Justice | Oficial | Europe |  |
-| Hot Wheels - World Race | Oficial | Australia, Europe |  |
-| Hugo - Bukkazoom! | Oficial | Europe |  |
-| Hugo - CannonCruise | Oficial | Europe |  |
-| Hugo - Magic in the Trollwoods | Oficial | Europe |  |
-| Hulk | Oficial | Europe |  |
-| Hummer Badlands | Oficial | Australia, Europe |  |
-| Hunter - The Reckoning - Wayward | Oficial | Europe |  |
-| Hustle, The - Detroit Streets | Oficial | USA |  |
-| Hype - The Time Quest | Oficial | Europe |  |
-| Ice Age 2 - The Meltdown | Oficial | Europe |  |
-| Ice Age 3 - Dawn of the Dinosaurs | Oficial | Europe |  |
-| Ico | Oficial | Europe |  |
-| IGPX - Immortal Grand Prix | Oficial | USA |  |
-| IHRA Drag Racing - Sportsman Edition | Oficial | USA |  |
-| IHRA Drag Racing 2 | Oficial | USA |  |
-| IHRA Professional Drag Racing 2005 | Oficial | USA |  |
-| Impossible Mission | Oficial | Europe |  |
-| In the Groove | Oficial | USA |  |
-| Incredible Hulk, The | Oficial | Europe |  |
-| Incredible Hulk, The - Ultimate Destruction | Oficial | Europe |  |
-| Indiana Jones and the Staff of Kings | Oficial | Europe |  |
-| Indiana Jones y la Tumba del Emperador | Oficial | Spain |  |
-| IndyCar Series | Oficial | Europe |  |
-| IndyCar Series 2005 | Oficial | Europe |  |
-| I-Ninja | Oficial | Europe |  |
-| Innocent Life - A Futuristic Harvest Moon - Special Edition | Oficial | USA |  |
-| Inspector Gadget - Mad Robots Invasion | Oficial | Europe |  |
-| Intellivision Lives - The History of Video Gaming | Oficial | Europe |  |
-| International Cricket Captain III | Oficial | Europe |  |
-| International Cue Club | Oficial | Europe |  |
-| International Cue Club 2 | Oficial | Europe |  |
-| International Golf Pro | Oficial | Europe |  |
-| International League Soccer | Oficial | Europe |  |
-| International Pool Championship | Oficial | Europe |  |
-| International Snooker Championship | Oficial | Europe |  |
-| International Super Karts | Oficial | Europe |  |
-| International Superstar Soccer | Oficial | Europe |  |
-| International Superstar Soccer 2 | Oficial | Europe |  |
-| International Superstar Soccer 3 | Oficial | Europe |  |
-| International Tennis Pro | Oficial | Europe |  |
-| Inuyasha - Feudal Combat | Oficial | USA |  |
-| Inuyasha - The Secret of the Cursed Mask | Oficial | USA |  |
-| Iridium Runners | Oficial | Europe |  |
-| Iron Aces 2 - Birds of Prey | Oficial | Europe |  |
-| Iron Chef | Oficial | Europe |  |
-| Iron Man - The Official Videogame | Oficial | Europe |  |
-| Iron Sea | Oficial | Europe |  |
-| Island Xtreme Stunts | Oficial | Europe |  |
-| Italian Job, The | Oficial | Europe |  |
-| Jackass - The Game | Oficial | Europe |  |
-| Jacked | Oficial | Australia, Europe |  |
-| Jackie Chan Adventures | Oficial | Australia, Europe |  |
-| Jackpot Madness | Oficial | Europe |  |
-| Jade Cocoon 2 | Oficial | Europe |  |
-| Jak 3 | Oficial | Australia, Europe |  |
-| Jak and Daxter - The Lost Frontier | Oficial | Australia, Europe |  |
-| Jak and Daxter - The Precursor Legacy | Oficial | Europe |  |
-| Jak II - Renegade | Oficial | Australia, Europe |  |
-| Jak X | Oficial | Australia, Europe |  |
-| James Cameron's Dark Angel | Oficial | Europe |  |
-| James Pond - Codename - RoboCod | Oficial | Europe |  |
-| Jaws Unleashed | Oficial | Australia, Europe |  |
-| Jeep Thrills | Oficial | Europe |  |
-| Jello | Oficial | Europe |  |
-| Jelly Belly - Ballistic Beans | Oficial | Europe |  |
-| Jeopardy! | Oficial | USA |  |
-| Jeremy McGrath Supercross World | Oficial | Europe |  |
-| Jet Ion GP | Oficial | Europe |  |
-| Jet Li - Rise to Honour | Oficial | Europe |  |
-| Jet Ski Riders | Oficial | Europe |  |
-| Jet X2O | Oficial | USA |  |
-| Jetix Puzzle Buzzle | Oficial | Europe |  |
-| Jim Henson's Muppets Party Cruise | Oficial | Europe |  |
-| Johnny Bravo in the Hukka-Mega-Mighty-Ultra-Extreme Date-O-Rama! | Oficial | Europe |  |
-| Jonny Moseley Mad Trix | Oficial | Europe |  |
-| Judge Dredd - Dredd vs. Death | Oficial | Europe |  |
-| Juiced | Oficial | Australia, Europe |  |
-| Juiced 2 - Hot Import Nights | Oficial | Australia, Europe |  |
-| Jumanji | Oficial | Europe |  |
-| Jumper - Griffin's Story | Oficial | Europe |  |
-| Junior Board Games | Oficial | Europe |  |
-| Junior Sports Basketball | Oficial | Europe |  |
-| Jurassic - The Hunted | Oficial | USA |  |
-| Jurassic Park - Operation Genesis | Oficial | Australia, Europe |  |
-| Just Cause | Oficial | Europe |  |
-| Justice League Heroes | Oficial | Europe |  |
-| K.O. King | Oficial | Europe |  |
-| K-1 Premium Dynamite!! | Oficial | Europe |  |
-| K-1 World GP | Oficial | Europe |  |
-| K-1 World Grand Prix | Oficial | USA |  |
-| Kaan - Barbarian's Blade | Oficial | Europe |  |
-| Kaido Racer | Oficial | Europe |  |
-| Kaido Racer 2 | Oficial | Europe |  |
-| Kao the Kangaroo - Round 2 | Oficial | Europe |  |
-| Karaoke Revolution Presents - American Idol | Oficial | USA |  |
-| Karaoke Revolution Presents - American Idol Encore | Oficial | USA |  |
-| Karaoke Revolution Volume 2 | Oficial | USA |  |
-| Karaoke Revolution Volume 3 | Oficial | USA |  |
-| Karaoke Stage | Oficial | Europe |  |
-| Karaoke Stage 2 | Oficial | Europe |  |
-| Kart Racer | Oficial | Australia, Europe |  |
-| Katamari Damacy | Oficial | USA |  |
-| Kelly Slater's Pro Surfer | Oficial | Europe |  |
-| Kengo - Master of Bushido | Oficial | Europe |  |
-| Kessen | Oficial | Europe |  |
-| Kessen II | Oficial | Europe |  |
-| Kessen III | Oficial | Europe |  |
-| Kiddies Party Pack | Oficial | Europe |  |
-| Kidz Sports Basketball | Oficial | Australia, Europe |  |
-| Kidz Sports Ice Hockey | Oficial | Europe |  |
-| Kill Switch | Oficial | Europe |  |
-| Killer7 | Oficial | Europe |  |
-| Killzone | Oficial | Australia, Europe |  |
-| Kinetica | Oficial | USA |  |
-| King Arthur | Oficial | Europe |  |
-| King of Clubs | Oficial | Europe |  |
-| King of Fighters 2002, The | Oficial | Europe |  |
-| King of Fighters 2003, The | Oficial | Europe |  |
-| King of Fighters XI, The | Oficial | Europe |  |
-| King of Fighters, The - Maximum Impact | Oficial | Europe |  |
-| King of Fighters, The - Maximum Impact 2 | Oficial | Australia, Europe |  |
-| King of Fighters, The - Neowave | Oficial | Australia, Europe |  |
-| King of Route 66, The | Oficial | Europe |  |
-| Kingdom Hearts | Oficial | Spain |  |
-| Kingdom Hearts - Re-Chain of Memories | Oficial | USA |  |
-| Kingdom Hearts II | Oficial | Spain |  |
-| King's Field IV | Oficial | Europe |  |
-| Klonoa 2 - Lunatea's Veil | Oficial | Europe |  |
-| Knight Rider - The Game | Oficial | Europe |  |
-| Knight Rider 2 - The Game | Oficial | Europe |  |
-| Knights of the Temple - Infernal Crusade | Oficial | Europe |  |
-| Knights of the Temple II | Oficial | Europe |  |
-| Knockout Kings 2001 | Oficial | Europe |  |
-| Knockout Kings 2002 | Oficial | Europe |  |
-| Kuon | Oficial | Europe |  |
-| Kuri Kuri Mix | Oficial | Europe |  |
-| Kya - Dark Lineage | Oficial | Europe |  |
-| L.A. Rush | Oficial | Australia, Europe |  |
-| Lake Masters EX | Oficial | Europe |  |
-| Lara Croft Tomb Raider - Anniversary | Oficial | Europe |  |
-| Lara Croft Tomb Raider - Legend | Oficial | Europe |  |
-| Lara Croft Tomb Raider - The Angel of Darkness | Oficial | Europe |  |
-| Largo Winch - Empire Under Threat | Oficial | Europe |  |
-| Lassie | Oficial | Australia, Europe |  |
-| Le Mans 24 Hours | Oficial | Europe |  |
-| Leaderboard Golf | Oficial | Europe |  |
-| League Series Baseball 2 | Oficial | Australia, Europe |  |
-| Legacy of Kain - Defiance | Oficial | Europe |  |
-| Legacy of Kain - Soul Reaver 2 | Oficial | Europe |  |
-| Legaia 2 - Duel Saga | Oficial | Europe |  |
-| Legend of Alon D'ar, The | Oficial | USA |  |
-| Legend of Camelot | Oficial | Europe |  |
-| Legend of Herkules | Oficial | Europe |  |
-| Legend of Kay | Oficial | Europe |  |
-| Legend of Sayuki | Oficial | Europe |  |
-| Legend of Spyro, The - A New Beginning | Oficial | Europe |  |
-| Legend of Spyro, The - Dawn of the Dragon | Oficial | Europe |  |
-| Legend of Spyro, The - The Eternal Night | Oficial | Europe |  |
-| Legend of the Dragon | Oficial | Europe |  |
-| Legends of Wrestling | Oficial | Europe |  |
-| Legends of Wrestling II | Oficial | Europe |  |
-| Legion - The Legend of Excalibur | Oficial | Europe |  |
-| LEGO Batman - The Videogame | Oficial | Australia, Europe |  |
-| LEGO Indiana Jones - The Original Adventures | Oficial | Australia, Europe |  |
-| LEGO Racers 2 | Oficial | Europe |  |
-| LEGO Star Wars - The Video Game | Oficial | Europe |  |
-| LEGO Star Wars II - The Original Trilogy | Oficial | Australia, Europe |  |
-| Leisure Suit Larry - Magna Cum Laude | Oficial | Spain |  |
-| Lemmings | Oficial | Europe |  |
-| Lethal Skies - Elite Pilot - Team SW | Oficial | Europe |  |
-| Lethal Skies II | Oficial | Europe |  |
-| Let's Make a Soccer Team! | Oficial | Australia, Europe |  |
-| Let's Ride! Silver Buckle Stables | Oficial | Europe |  |
-| Life Line | Oficial | USA |  |
-| Little Britain - The Video Game | Oficial | Europe |  |
-| Living World Racing | Oficial | Europe |  |
-| LMA Manager 2006 | Oficial | Europe |  |
-| LMA Manager 2007 | Oficial | Europe |  |
-| London Cab Challenge | Oficial | Australia, Europe |  |
-| London Racer - Destruction Madness | Oficial | Europe |  |
-| London Racer - Police Madness | Oficial | Europe |  |
-| London Racer II | Oficial | Europe |  |
-| London Taxi - Rushour | Oficial | Europe |  |
-| Looney Tunes - Acme Arsenal | Oficial | Europe |  |
-| Looney Tunes - Back in Action | Oficial | Europe |  |
-| Looney Tunes - Space Race | Oficial | Europe |  |
-| Lord of the Rings, The - Aragorn's Quest | Oficial | Europe |  |
-| Lord of the Rings, The - The Fellowship of the Ring | Oficial | Europe |  |
-| Lotus Challenge | Oficial | Europe |  |
-| Lowrider | Oficial | USA |  |
-| Lucinda Green's Equestrian Challenge | Oficial | Australia, Europe |  |
-| Lumines Plus | Oficial | Europe |  |
-| Lupin the 3rd - Treasure of the Sorcerer King | Oficial | USA |  |
-| Luxor - Pharaoh's Challenge | Oficial | Europe |  |
-| Mace Griffin - Bounty Hunter | Oficial | Europe |  |
-| Mad Maestro! | Oficial | Europe |  |
-| Madden NFL 06 | Oficial | Europe |  |
-| Madden NFL 07 | Oficial | USA |  |
-| Madden NFL 08 en Espanol | Oficial | USA |  |
-| Madden NFL 09 | Oficial | Europe |  |
-| Madden NFL 10 | Oficial | USA |  |
-| Madden NFL 11 | Oficial | USA |  |
-| Madden NFL 12 | Oficial | USA |  |
-| Madden NFL 2001 | Oficial | Europe |  |
-| Madden NFL 2002 | Oficial | Australia, Europe |  |
-| Madden NFL 2003 | Oficial | Europe |  |
-| Madden NFL 2004 | Oficial | Europe |  |
-| Madden NFL 2005 | Oficial | USA |  |
-| Made Man | Oficial | Europe |  |
-| Mafia | Oficial | Spain |  |
-| Magic Pengel - The Quest for Color | Oficial | USA |  |
-| MAGIX Music Maker | Oficial | USA |  |
-| Magna Carta - Tears of Blood | Oficial | USA |  |
-| Major League Baseball 2K10 | Oficial | USA |  |
-| Major League Baseball 2K11 | Oficial | USA |  |
-| Major League Baseball 2K12 | Oficial | USA |  |
-| Major League Baseball 2K5 - World Series Edition | Oficial | USA |  |
-| Major League Baseball 2K6 | Oficial | USA |  |
-| Major League Baseball 2K7 | Oficial | USA |  |
-| Major League Baseball 2K8 | Oficial | USA |  |
-| Major League Baseball 2K9 | Oficial | USA |  |
-| Makai Kingdom - Chronicles of the Sacred Tome | Oficial | Europe |  |
-| Maken Shao - Demon Sword | Oficial | Europe |  |
-| Malice | Oficial | Europe |  |
-| Mambo | Oficial | Europe |  |
-| Mana Khemia - Alchemists of Al-Revis | Oficial | Europe |  |
-| Mana Khemia 2 - Fall of Alchemy | Oficial | USA |  |
-| Manager de Liga 2002 | Oficial | Spain |  |
-| Manager de Liga 2003 | Oficial | Spain |  |
-| Manager de Liga 2004 | Oficial | Spain |  |
-| Manager de Liga 2005 | Oficial | Spain |  |
-| Manhunt | Oficial | Europe |  |
-| Manhunt 2 | Oficial | Europe |  |
-| Maniac Mole | Oficial | Australia, Europe |  |
-| Marc Ecko's Getting Up - Contents Under Pressure | Oficial | Europe |  |
-| Margot's Word Brain | Oficial | Europe |  |
-| Mark Davis Pro Bass Challenge | Oficial | Europe |  |
-| Mark of Kri, The | Oficial | Europe |  |
-| Marvel - Ultimate Alliance | Oficial | Europe |  |
-| Marvel - Ultimate Alliance 2 | Oficial | Europe |  |
-| Marvel Nemesis - Rise of the Imperfects | Oficial | Europe |  |
-| Marvel Super Hero Squad | Oficial | Australia, Europe |  |
-| Marvel vs. Capcom 2 - New Age of Heroes | Oficial | Europe |  |
-| Mary-Kate and Ashley - Sweet 16 - Licensed to Drive | Oficial | Europe |  |
-| Mashed - Drive to Survive | Oficial | Europe |  |
-| Mashed - Fully Loaded | Oficial | Europe |  |
-| Master Chess | Oficial | Europe |  |
-| Master Rallye | Oficial | Europe |  |
-| Masters of the Universe - He-Man - Defender of Grayskull | Oficial | Europe |  |
-| Mat Hoffman's Pro BMX 2 | Oficial | Europe |  |
-| Matrix, The - Path of Neo | Oficial | Europe |  |
-| Max Payne | Oficial | Europe |  |
-| Max Payne 2 - The Fall of Max Payne | Oficial | Spain |  |
-| Maximo - Ghosts to Glory | Oficial | Europe |  |
-| Maximo vs Army of Zin | Oficial | Europe |  |
-| Maxxed Out Racing | Oficial | Europe |  |
-| Maxxed Out Racing Nitro | Oficial | Europe |  |
-| Maze Action | Oficial | Europe |  |
-| McFarlane's Evil Prophecy | Oficial | Europe |  |
-| MDK2 - Armageddon | Oficial | Europe |  |
-| Medal of Honor - European Assault | Oficial | Spain |  |
-| Medal of Honor - Frontline | Oficial | Australia, Europe |  |
-| Medal of Honor - Rising Sun | Oficial | Spain |  |
-| Medal of Honor - Vanguard | Oficial | Australia, Europe |  |
-| Mega Man Anniversary Collection | Oficial | USA |  |
-| Mega Man X - Command Mission | Oficial | Europe |  |
-| Mega Man X Collection | Oficial | USA |  |
-| Mega Man X7 | Oficial | Europe |  |
-| Mega Man X8 | Oficial | Europe |  |
-| MegaRace 3 - Nanotech Disaster | Oficial | Europe |  |
-| Men in Black II - Alien Escape | Oficial | Europe |  |
-| Mercenaries | Oficial | Europe |  |
-| Mercenaries 2 - World in Flames | Oficial | Spain |  |
-| Mercury Meltdown Remix | Oficial | Australia, Europe |  |
-| Metal Arms - Glitch in the System | Oficial | Europe |  |
-| Metal Gear Solid 2 - Substance | Oficial | Europe |  |
-| Metal Gear Solid 3 - Subsistence | Oficial | Spain |  |
-| Metal Gear Solid 3 - Subsistence | Oficial | Spain |  |
-| Metal Gear Solid 3 - Subsistence | Oficial | Spain |  |
-| Metal Saga | Oficial | USA |  |
-| Metal Slug 3 | Oficial | Europe |  |
-| Metal Slug 4 | Oficial | Australia, Europe |  |
-| Metal Slug 5 | Oficial | Australia, Europe |  |
-| Metal Slug Anthology | Oficial | Europe |  |
-| Metropolismania | Oficial | Europe |  |
-| Metropolismania 2 | Oficial | Europe |  |
-| Miami Vice | Oficial | Europe |  |
-| Michigan - Report from Hell | Oficial | Europe |  |
-| Micro Machines | Oficial | Europe |  |
-| Micro Machines V4 | Oficial | Europe |  |
-| Midnight Club - Street Racing | Oficial | Europe |  |
-| Midnight Club 3 - DUB Edition Remix | Oficial | Australia, Europe |  |
-| Midnight Club II | Oficial | Europe |  |
-| Midway Arcade Treasures | Oficial | Australia, Europe |  |
-| Midway Arcade Treasures 2 | Oficial | Australia, Europe |  |
-| Midway Arcade Treasures 3 | Oficial | Australia, Europe |  |
-| Mighty Mulan | Oficial | Europe |  |
-| Mike Tyson Heavyweight Boxing | Oficial | Europe |  |
-| Millennium European Paintball Series, The - Championship Paintball 2009 | Oficial | Australia, Europe |  |
-| Mini Desktop Racing | Oficial | Europe |  |
-| Minority Report - Everybody Runs | Oficial | Europe |  |
-| Mission - Impossible - Operation Surma | Oficial | Europe |  |
-| MLB 06 - The Show | Oficial | USA |  |
-| MLB 07 - The Show | Oficial | USA |  |
-| MLB 08 - The Show | Oficial | USA |  |
-| MLB 09 - The Show | Oficial | USA |  |
-| MLB 10 - The Show | Oficial | USA |  |
-| MLB 11 - The Show | Oficial | USA |  |
-| MLB 2004 | Oficial | USA |  |
-| MLB 2005 | Oficial | USA |  |
-| MLB 2006 | Oficial | USA |  |
-| MLB Power Pros | Oficial | USA |  |
-| MLB Power Pros 2008 | Oficial | USA |  |
-| MLB SlugFest - Loaded | Oficial | USA |  |
-| MLB SlugFest 2003 | Oficial | USA |  |
-| MLB SlugFest 2004 | Oficial | USA |  |
-| MLB SlugFest 2006 | Oficial | USA |  |
-| Mobile Light Force 2 | Oficial | Europe |  |
-| Mobile Suit Gundam - Encounters in Space | Oficial | USA |  |
-| Mobile Suit Gundam - Federation vs. Zeon | Oficial | Europe |  |
-| Mobile Suit Gundam - Gundam vs. Zeta Gundam | Oficial | USA |  |
-| Mobile Suit Gundam - Journey to Jaburo | Oficial | USA |  |
-| Mobile Suit Gundam - Zeonic Front | Oficial | USA |  |
-| Mobile Suit Gundam Seed - Never Ending Tomorrow | Oficial | USA |  |
-| Moderngroove - Ministry of Sound Edition | Oficial | Europe |  |
-| Mojo! | Oficial | Europe |  |
-| Monopoly | Oficial | Australia, Europe |  |
-| Monopoly Party | Oficial | Europe |  |
-| Monster 4x4 - Masters of Metal | Oficial | USA |  |
-| Monster Attack | Oficial | Europe |  |
-| Monster Bass | Oficial | Japan |  |
-| Monster Eggs | Oficial | Europe |  |
-| Monster House | Oficial | Europe |  |
-| Monster Hunter | Oficial | Europe |  |
-| Monster Jam | Oficial | Europe |  |
-| Monster Jam - Maximum Destruction | Oficial | Europe |  |
-| Monster Jam - Urban Assault | Oficial | Europe |  |
-| Monster Lab | Oficial | Europe |  |
-| Monster Rancher 3 | Oficial | USA |  |
-| Monster Rancher 4 | Oficial | USA |  |
-| Monster Rancher Evo | Oficial | USA |  |
-| Monster Trux Arenas - Special Edition | Oficial | Europe |  |
-| Monster Trux Extreme - Arena Edition | Oficial | Europe |  |
-| Monster Trux Extreme - Offroad Edition | Oficial | Europe |  |
-| Moorhuhn Fun Kart 2008 | Oficial | Europe |  |
-| Mortal Kombat - Armageddon | Oficial | Europe |  |
-| Mortal Kombat - Deadly Alliance | Oficial | Australia, Europe |  |
-| Mortal Kombat - Deception | Oficial | Australia, Europe |  |
-| Mortal Kombat - Shaolin Monks | Oficial | Europe |  |
-| Moto X Maniac | Oficial | Europe |  |
-| Motocross Mania 3 | Oficial | Europe |  |
-| MotoGP | Oficial | Europe |  |
-| MotoGP 07 | Oficial | Australia, Europe |  |
-| MotoGP 08 | Oficial | Europe |  |
-| MotoGP 2 | Oficial | Europe |  |
-| MotoGP 3 | Oficial | Australia, Europe |  |
-| MotoGP 4 | Oficial | Australia, Europe |  |
-| Motorbike King | Oficial | Europe |  |
-| Motorsiege - Warriors of Primetime | Oficial | Europe |  |
-| MotorStorm - Arctic Edge | Oficial | Australia, Europe |  |
-| Mountain Bike Adrenaline featuring Salomon | Oficial | Australia, Europe |  |
-| Mouse Police, The | Oficial | Europe |  |
-| Mouse Trophy | Oficial | Europe |  |
-| Mr Moskeeto | Oficial | Europe |  |
-| Mr. Bean | Oficial | Europe |  |
-| Mr. Golf | Oficial | Europe |  |
-| MS Saga - A New Dawn | Oficial | USA |  |
-| MTV Celebrity Deathmatch | Oficial | Europe |  |
-| MTV Music Generator 2 | Oficial | Europe |  |
-| MTV Music Generator 3 | Oficial | Europe |  |
-| MTV Pimp My Ride | Oficial | Europe |  |
-| MTV Pimp My Ride - Street Racing | Oficial | Europe |  |
-| MTX Mototrax | Oficial | Europe |  |
-| Mummy Returns, The | Oficial | Europe |  |
-| Mummy, The | Oficial | Europe |  |
-| Mummy, The - Tomb of the Dragon Emperor | Oficial | Europe |  |
-| Musashi - Samurai Legend | Oficial | Europe |  |
-| Music 3000 | Oficial | Europe |  |
-| Music Maker - Rockstar | Oficial | Europe |  |
-| MVP 06 NCAA Baseball | Oficial | USA |  |
-| MVP 07 NCAA Baseball | Oficial | USA |  |
-| MVP Baseball 2003 | Oficial | USA |  |
-| MVP Baseball 2004 | Oficial | USA |  |
-| MVP Baseball 2005 | Oficial | USA |  |
-| MX 2002 featuring Ricky Carmichael | Oficial | Europe |  |
-| MX Rider | Oficial | Europe |  |
-| MX SuperFly | Oficial | Australia, Europe |  |
-| MX Unleashed | Oficial | Europe |  |
-| MX vs. ATV Unleashed | Oficial | Australia, Europe |  |
-| MX vs. ATV Untamed | Oficial | Australia, Europe |  |
-| MX World Tour | Oficial | Europe |  |
-| My Horse & Me 2 | Oficial | Europe |  |
-| My Street | Oficial | Europe |  |
-| Myst III - Exile | Oficial | Europe |  |
-| Mystic Heroes | Oficial | Europe |  |
-| Myth Makers - Orbs of Doom | Oficial | Europe |  |
-| Myth Makers - Super Kart GP | Oficial | Europe |  |
-| Myth Makers - Trixie in Toyland | Oficial | Europe |  |
-| Namco Museum | Oficial | USA |  |
-| Namco Museum 50th Anniversary | Oficial | Europe |  |
-| Nanobreaker | Oficial | Europe |  |
-| Narc | Oficial | USA |  |
-| Naruto - Ultimate Ninja | Oficial | Europe |  |
-| Naruto - Ultimate Ninja 2 | Oficial | Europe |  |
-| Naruto - Ultimate Ninja 3 | Oficial | Europe |  |
-| Naruto - Uzumaki Chronicles | Oficial | Europe |  |
-| Naruto - Uzumaki Chronicles 2 | Oficial | Europe |  |
-| Naruto Shippuden - Ultimate Ninja 4 | Oficial | Europe |  |
-| Naruto Shippuden - Ultimate Ninja 5 | Oficial | Europe |  |
-| NASCAR - Dirt to Daytona | Oficial | USA |  |
-| NASCAR 06 - Total Team Control | Oficial | Australia, Europe |  |
-| NASCAR 07 | Oficial | Europe |  |
-| NASCAR 08 | Oficial | Australia, Europe |  |
-| NASCAR 09 | Oficial | Europe |  |
-| NASCAR 2001 | Oficial | USA |  |
-| NASCAR 2005 - Chase for the Cup | Oficial | USA |  |
-| NASCAR Heat 2002 | Oficial | USA |  |
-| NASCAR Thunder 2002 | Oficial | USA |  |
-| NASCAR Thunder 2003 | Oficial | USA |  |
-| NASCAR Thunder 2004 | Oficial | USA |  |
-| National Geographic - Safari Adventures Africa | Oficial | Europe |  |
-| Naval Ops - Commander | Oficial | Europe |  |
-| Naval Ops - Warship Gunner | Oficial | Europe |  |
-| NBA 06 | Oficial | USA |  |
-| NBA 07 featuring the Life Vol. 2 | Oficial | USA |  |
-| NBA 08 | Oficial | Europe |  |
-| NBA 09 - The Inside | Oficial | USA |  |
-| NBA 2K10 | Oficial | Europe |  |
-| NBA 2K11 | Oficial | Australia, Europe |  |
-| NBA 2K12 | Oficial | Australia, Europe |  |
-| NBA 2K2 | Oficial | USA |  |
-| NBA 2K3 | Oficial | Europe |  |
-| NBA 2K6 | Oficial | Australia, Europe |  |
-| NBA 2K7 | Oficial | Australia, Europe |  |
-| NBA 2K8 | Oficial | Australia, Europe |  |
-| NBA 2K9 | Oficial | Europe |  |
-| NBA 2Night 2002 | Oficial | Europe |  |
-| NBA Ballers | Oficial | Europe |  |
-| NBA Ballers - Phenom | Oficial | USA |  |
-| NBA Hoopz | Oficial | Europe |  |
-| NBA Jam | Oficial | Australia, Europe |  |
-| NBA Live 06 | Oficial | Spain |  |
-| NBA Live 07 | Oficial | Spain |  |
-| NBA Live 08 | Oficial | Spain |  |
-| NBA Live 09 | Oficial | Spain |  |
-| NBA Live 2001 | Oficial | Spain |  |
-| NBA Live 2002 | Oficial | Spain |  |
-| NBA Live 2003 | Oficial | Europe |  |
-| NBA Live 2004 | Oficial | Europe |  |
-| NBA Live 2005 | Oficial | Spain |  |
-| NBA ShootOut 2001 | Oficial | USA |  |
-| NBA ShootOut 2003 | Oficial | USA |  |
-| NBA ShootOut 2004 | Oficial | USA |  |
-| NBA Starting Five | Oficial | USA |  |
-| NBA Street | Oficial | Europe |  |
-| NBA Street V3 | Oficial | Europe |  |
-| NBA Street Vol. 2 | Oficial | Europe |  |
-| NCAA Basketball 09 | Oficial | USA |  |
-| NCAA College Basketball 2K3 | Oficial | USA |  |
-| NCAA College Football 2K3 | Oficial | USA |  |
-| NCAA Final Four 2001 | Oficial | USA |  |
-| NCAA Final Four 2002 | Oficial | USA |  |
-| NCAA Final Four 2003 | Oficial | USA |  |
-| NCAA Final Four 2004 | Oficial | USA |  |
-| NCAA Football 06 | Oficial | USA |  |
-| NCAA Football 07 | Oficial | USA |  |
-| NCAA Football 08 | Oficial | USA |  |
-| NCAA Football 09 | Oficial | USA |  |
-| NCAA Football 10 | Oficial | USA |  |
-| NCAA Football 11 | Oficial | USA |  |
-| NCAA Football 2002 | Oficial | USA |  |
-| NCAA Football 2003 | Oficial | USA |  |
-| NCAA Football 2004 | Oficial | USA |  |
-| NCAA Football 2005 | Oficial | USA |  |
-| NCAA GameBreaker 2001 | Oficial | USA |  |
-| NCAA GameBreaker 2003 | Oficial | USA |  |
-| NCAA GameBreaker 2004 | Oficial | USA |  |
-| NCAA March Madness 06 | Oficial | USA |  |
-| NCAA March Madness 07 | Oficial | USA |  |
-| NCAA March Madness 08 | Oficial | USA |  |
-| NCAA March Madness 2002 | Oficial | USA |  |
-| NCAA March Madness 2003 | Oficial | USA |  |
-| NCAA March Madness 2004 | Oficial | USA |  |
-| NCAA March Madness 2005 | Oficial | USA |  |
-| Need for Speed - Carbon - Collector's Edition | Oficial | USA |  |
-| Need for Speed - Hot Pursuit 2 | Oficial | Australia, Europe |  |
-| Need for Speed - Most Wanted | Oficial | Europe |  |
-| Need for Speed - ProStreet | Oficial | Europe |  |
-| Need for Speed - Undercover | Oficial | Europe |  |
-| Need for Speed - Underground | Oficial | Europe |  |
-| Need for Speed - Underground 2 | Oficial | Europe |  |
-| Neo Contra | Oficial | Europe |  |
-| NeoGeo Battle Coliseum | Oficial | Australia, Europe |  |
-| NeoGeo Online Collection Vol. 10 - The King of Fighters '98 - Ultimate Match | Oficial | Japan, Korea |  |
-| NeoGeo Online Collection Vol. 2 - Bakumatsu Roman - Gekka no Kenshi 1, 2 | Oficial | Japan |  |
-| NeoGeo Online Collection Vol. 3 - The King of Fighters - Orochi | Oficial | Japan |  |
-| NeoGeo Online Collection Vol. 7 - The King of Fighters - Nests | Oficial | Japan |  |
-| NeoGeo Online Collection Vol. 8 - Fuuun Super Combo | Oficial | Japan |  |
-| Neopets - The Darkest Faerie | Oficial | USA |  |
-| NFL 2K2 | Oficial | USA |  |
-| NFL 2K3 | Oficial | Europe |  |
-| NFL Blitz 2002 | Oficial | USA |  |
-| NFL Blitz 2003 | Oficial | USA |  |
-| NFL Blitz Pro | Oficial | USA |  |
-| NFL GameDay 2001 | Oficial | USA |  |
-| NFL GameDay 2002 | Oficial | USA |  |
-| NFL GameDay 2003 | Oficial | USA |  |
-| NFL GameDay 2004 | Oficial | USA |  |
-| NFL Head Coach | Oficial | USA |  |
-| NFL QB Club 2002 | Oficial | Europe |  |
-| NFL Street | Oficial | Europe |  |
-| NFL Street 2 | Oficial | Europe |  |
-| NFL Street 3 | Oficial | Australia, Europe |  |
-| NHL 06 | Oficial | Europe |  |
-| NHL 07 | Oficial | Europe |  |
-| NHL 08 | Oficial | Europe |  |
-| NHL 09 | Oficial | Australia, Europe |  |
-| NHL 2001 | Oficial | Europe |  |
-| NHL 2002 | Oficial | Europe |  |
-| NHL 2003 | Oficial | Europe |  |
-| NHL 2004 | Oficial | Europe |  |
-| NHL 2005 | Oficial | Europe |  |
-| NHL 2K10 | Oficial | USA |  |
-| NHL 2K3 | Oficial | Europe |  |
-| NHL 2K6 | Oficial | Europe |  |
-| NHL 2K7 | Oficial | Australia, Europe |  |
-| NHL 2K8 | Oficial | Australia, Europe |  |
-| NHL 2K9 | Oficial | Europe |  |
-| NHL FaceOff 2001 | Oficial | USA |  |
-| NHL FaceOff 2003 | Oficial | USA |  |
-| NHL Hitz 2002 | Oficial | Europe |  |
-| NHL Hitz 2003 | Oficial | Europe |  |
-| NHL Hitz Pro | Oficial | Europe |  |
-| NHRA Championship Drag Racing | Oficial | USA |  |
-| NHRA Drag Racing - Countdown to the Championship | Oficial | USA |  |
-| Nick Jr. Dora the Explorer - Dora Saves the Mermaids | Oficial | Europe |  |
-| Nick Jr. Dora the Explorer - Journey to the Purple Planet | Oficial | Australia, Europe |  |
-| Nick Jr. Go Diego Go! Safari Rescue | Oficial | Europe |  |
-| Nickelodeon Avatar - The Legend of Aang | Oficial | Australia, Europe |  |
-| Nickelodeon Avatar - The Legend of Aang - Into the Inferno | Oficial | Europe |  |
-| Nickelodeon Avatar - The Legend of Aang - The Burning Earth | Oficial | Australia, Europe |  |
-| Nickelodeon Barnyard | Oficial | Europe |  |
-| Nickelodeon Bob Esponja - La Pelicula | Oficial | Spain |  |
-| Nickelodeon Bob Esponja - Luces, Camara, Esponja! | Oficial | Spain |  |
-| Nickelodeon Dora the Explorer - Dora Saves the Crystal Kingdom | Oficial | USA |  |
-| Nickelodeon Dora the Explorer - Dora Saves the Snow Princess | Oficial | Australia, Europe |  |
-| Nickelodeon Dora's Big Birthday Adventure | Oficial | USA |  |
-| Nickelodeon El Tigre - The Adventures of Manny Rivera | Oficial | Europe |  |
-| Nickelodeon Go Diego Go! Great Dinosaur Rescue | Oficial | Australia, Europe |  |
-| Nickelodeon Jimmy Neutron - Boy Genius | Oficial | USA |  |
-| Nickelodeon Jimmy Neutron - Boy Genius - Attack of the Twonkies | Oficial | Australia, Europe |  |
-| Nickelodeon Ni Hao, Kai-Lan - Super Game Day | Oficial | USA |  |
-| Nickelodeon Rocket Power - Beach Bandits | Oficial | Europe |  |
-| Nickelodeon Rugrats - Rescate Real | Oficial | Spain |  |
-| Nickelodeon SpongeBob and Friends - Attack of the Toybots | Oficial | Europe |  |
-| Nickelodeon SpongeBob and Friends - Battle for Volcano Island | Oficial | Europe |  |
-| Nickelodeon SpongeBob SquarePants - Battle for Bikini Bottom | Oficial | Europe |  |
-| Nickelodeon SpongeBob SquarePants - Creature from the Krusty Krab | Oficial | Europe |  |
-| Nickelodeon SpongeBob SquarePants - Movin' with Friends | Oficial | Europe |  |
-| Nickelodeon SpongeBob SquarePants - Revenge of the Flying Dutchman | Oficial | Europe |  |
-| Nickelodeon SpongeBob SquarePants and Friends Unite! | Oficial | Europe |  |
-| Nickelodeon SpongeBob SquarePants featuring Nicktoons - Globs of Doom | Oficial | Europe |  |
-| Nickelodeon SpongeBob's Atlantis SquarePantis | Oficial | Europe |  |
-| Nickelodeon Tak - The Great Juju Challenge | Oficial | Europe |  |
-| Nickelodeon Tak 2 - The Staff of Dreams | Oficial | Europe |  |
-| Nickelodeon Tak and the Guardians of Gross | Oficial | Europe |  |
-| Nickelodeon The Adventures of Jimmy Neutron - Boy Genius - Jet Fusion | Oficial | Europe |  |
-| Nickelodeon The Naked Brothers Band - The Video Game | Oficial | Europe |  |
-| Nightmare of Druaga, The - Fushigino Dungeon | Oficial | USA |  |
-| Nightshade | Oficial | Europe |  |
-| Ninja Assault | Oficial | Europe |  |
-| Ninjabread Man | Oficial | Europe |  |
-| Nitrobike | Oficial | Europe |  |
-| Noble Racing | Oficial | Europe |  |
-| Nobunaga's Ambition - Iron Triangle | Oficial | USA |  |
-| Nobunaga's Ambition - Rise to Power | Oficial | USA |  |
-| Noddy and the Magic Book | Oficial | Europe |  |
-| NRA Gun Club | Oficial | USA |  |
-| NYR - New York Race | Oficial | Europe |  |
-| Obliterate | Oficial | Australia, Europe |  |
-| Obscure | Oficial | Europe |  |
-| Obscure II | Oficial | Europe |  |
-| Ocean Commander | Oficial | Europe |  |
-| Odin Sphere | Oficial | Europe |  |
-| Off Road | Oficial | Europe |  |
-| Off-Road - Wide Open | Oficial | Europe |  |
-| Offroad Extreme! Special Edition | Oficial | Europe |  |
-| Okage - Shadow King | Oficial | USA |  |
-| One Piece - Round the Land! | Oficial | Europe |  |
-| Oni | Oficial | Spain |  |
-| Onimusha - Blade Warriors | Oficial | Europe |  |
-| Onimusha - Dawn of Dreams | Oficial | Europe |  |
-| Onimusha - Dawn of Dreams | Oficial | Europe |  |
-| Onimusha - Warlords | Oficial | Europe |  |
-| Onimusha 2 - Samurai's Destiny | Oficial | Europe |  |
-| Onimusha 3 | Oficial | Australia, Europe |  |
-| Ookami | Oficial | Europe |  |
-| Open Season | Oficial | Europe |  |
-| Operation Air Assault | Oficial | Europe |  |
-| Operation Air Assault 2 | Oficial | Australia, Europe |  |
-| Operation WinBack | Oficial | Europe |  |
-| Operation WinBack 2 - Project Poseidon | Oficial | Europe |  |
-| Operative, The - No One Lives Forever | Oficial | Europe |  |
-| Oretachi Geesen Zoku - Super Volleyball | Oficial | Japan |  |
-| Orphen - Scion of Sorcery | Oficial | Europe |  |
-| Otostaz | Oficial | Japan |  |
-| Outlaw Golf | Oficial | Europe |  |
-| Outlaw Golf 2 | Oficial | Europe |  |
-| Outlaw Tennis | Oficial | Europe |  |
-| Outlaw Volleyball Remixed | Oficial | Australia, Europe |  |
-| OutRun 2006 - Coast 2 Coast | Oficial | Europe |  |
-| P.T.O. IV - Pacific Theater of Operations | Oficial | Europe |  |
-| Pacific Warriors II - Dogfight! | Oficial | Europe |  |
-| Pac-Man Fever | Oficial | USA |  |
-| Pac-Man Rally | Oficial | Europe |  |
-| Pac-Man World 2 | Oficial | Europe |  |
-| Pac-Man World 3 | Oficial | Europe |  |
-| Paddington Bear | Oficial | Europe |  |
-| Padrino, El | Oficial | Spain |  |
-| Panzer Elite Action - Fields of Glory | Oficial | Europe |  |
-| Panzer Front Ausf.B | Oficial | Europe |  |
-| Paparazzi | Oficial | Europe |  |
-| PaRappa the Rapper 2 | Oficial | Australia, Europe |  |
-| Paris-Dakar Rally | Oficial | Europe |  |
-| Party Carnival | Oficial | Europe |  |
-| Party Girls | Oficial | Europe |  |
-| PDC World Championship Darts | Oficial | Europe |  |
-| PDC World Championship Darts 2008 | Oficial | Europe |  |
-| Penny Racers | Oficial | Europe |  |
-| Perfect Ace - Pro Tournament Tennis | Oficial | Australia, Europe |  |
-| Perfect Ace 2 - The Championships | Oficial | Europe |  |
-| Persona 3 FES | Oficial | Europe |  |
-| Persona 4 | Oficial | Europe |  |
-| PES 2008 - Pro Evolution Soccer | Oficial | Europe |  |
-| PES 2009 - Pro Evolution Soccer | Oficial | Europe |  |
-| PES 2010 - Pro Evolution Soccer | Oficial | Europe |  |
-| PES 2011 - Pro Evolution Soccer | Oficial | Europe |  |
-| PES 2012 - Pro Evolution Soccer | Oficial | Europe |  |
-| PES 2013 - Pro Evolution Soccer | Oficial | Europe |  |
-| PES 2014 - Pro Evolution Soccer | Oficial | Europe |  |
-| PES 6 - Pro Evolution Soccer | Oficial | Spain |  |
-| Peter Jackson's King Kong - The Official Game of the Movie | Oficial | Australia, Europe |  |
-| Peter Pan | Oficial | Europe |  |
-| Phantasy Star Universe | Oficial | Europe |  |
-| Phantasy Star Universe - Ambition of the Illuminus | Oficial | Europe |  |
-| Phantom Brave | Oficial | Europe |  |
-| Pilot Down - Behind Enemy Lines | Oficial | Europe |  |
-| Pinball | Oficial | Europe |  |
-| Pinball Fun | Oficial | Europe |  |
-| Pinball Hall of Fame - The Williams Collection | Oficial | Canada, USA |  |
-| Pink Pong | Oficial | Europe |  |
-| Pinocchio | Oficial | Europe |  |
-| Pipe Mania | Oficial | Europe |  |
-| Pippa Funnell - Ranch Rescue | Oficial | Australia, Europe |  |
-| Pippa Funnell - Take the Reins | Oficial | Australia, Europe |  |
-| Pirates - The Legend of Black Kat | Oficial | Europe |  |
-| Pirates of the Caribbean - The Legend of Jack Sparrow | Oficial | Europe |  |
-| Pitfall - The Lost Expedition | Oficial | Spain |  |
-| Plan, The | Oficial | Spain |  |
-| Playboy - The Mansion | Oficial | Europe |  |
-| Playwize Poker & Casino | Oficial | Europe |  |
-| Poinie's Poin | Oficial | Asia, Japan |  |
-| Poker Masters | Oficial | Europe |  |
-| Polar Express, The | Oficial | Australia, Europe |  |
-| Police 24-7 | Oficial | Europe |  |
-| Police Chase Down | Oficial | Europe |  |
-| Pool Master | Oficial | Europe |  |
-| Pool Paradise - International Edition | Oficial | Europe |  |
-| Pool Shark 2 | Oficial | Europe |  |
-| Pop Star Academy | Oficial | Europe |  |
-| PopCap Hits! Vol. 1 | Oficial | USA |  |
-| PopCap Hits! Vol. 2 | Oficial | USA |  |
-| PopStar Guitar | Oficial | USA |  |
-| Portal Runner | Oficial | Europe |  |
-| Postman Pat | Oficial | Australia, Europe |  |
-| Power Rangers - Dino Thunder | Oficial | Europe |  |
-| Power Rangers - Super Legends | Oficial | Europe |  |
-| Power Volleyball | Oficial | Europe |  |
-| Powerdrome | Oficial | Europe |  |
-| Powerpuff Girls, The - Relish Rampage | Oficial | Europe |  |
-| Powershot Pinball | Oficial | Europe |  |
-| Predator - Concrete Jungle | Oficial | Europe |  |
-| Premier Manager 08 | Oficial | Europe |  |
-| Premier Manager 09 | Oficial | Europe |  |
-| Premier Manager 2002-2003 Season | Oficial | Europe |  |
-| Premier Manager 2003-04 | Oficial | Europe |  |
-| Premier Manager 2004-2005 | Oficial | Europe |  |
-| Premier Manager 2005-2006 | Oficial | Europe |  |
-| Premier Manager 2006-2007 | Oficial | Europe |  |
-| Pride FC - Fighting Championships | Oficial | Europe |  |
-| Primal | Oficial | Europe |  |
-| Prince of Persia - The Sands of Time | Oficial | Europe |  |
-| Prince of Persia - The Two Thrones | Oficial | Australia, Europe |  |
-| Prince of Persia - Warrior Within | Oficial | Australia, Europe |  |
-| Prisoner of War | Oficial | Europe |  |
-| Pro Beach Soccer | Oficial | Europe |  |
-| Pro Biker 2 | Oficial | Europe |  |
-| Pro Bull Riding - Out of the Chute | Oficial | USA |  |
-| Pro Evolution Soccer | Oficial | Europe |  |
-| Pro Evolution Soccer 2 | Oficial | Europe |  |
-| Pro Evolution Soccer 3 | Oficial | Europe |  |
-| Pro Evolution Soccer 4 | Oficial | Europe |  |
-| Pro Evolution Soccer 5 | Oficial | Europe |  |
-| Pro Evolution Soccer Management | Oficial | Europe |  |
-| Pro Rally 2002 | Oficial | Europe |  |
-| Professional Drift - D1 Grand Prix Series | Oficial | USA |  |
-| Project - Snowblind | Oficial | Europe |  |
-| Project Arms | Oficial | Japan |  |
-| Project Eden | Oficial | Europe |  |
-| Project Minerva Professional | Oficial | Europe |  |
-| Project Zero | Oficial | Europe |  |
-| Project Zero 3 | Oficial | Europe |  |
-| Project Zero II - Crimson Butterfly | Oficial | Europe |  |
-| ProStroke Golf | Oficial | Australia, Europe |  |
-| Pryzm - Chapter One - The Dark Unicorn | Oficial | Europe |  |
-| Psi-Ops - The Mindgate Conspiracy | Oficial | Europe |  |
-| Psychonauts | Oficial | Europe |  |
-| Psyvariar - Complete Edition | Oficial | Europe |  |
-| Psyvariar 2 - Ultimate Final | Oficial | Japan |  |
-| Pucelle, La - Tactics | Oficial | Europe |  |
-| Pump It Up - Exceed | Oficial | USA |  |
-| Punisher, The | Oficial | Europe |  |
-| Puyo Pop Fever | Oficial | Europe |  |
-| Puzzle Challenge - Crosswords and More! | Oficial | USA |  |
-| Puzzle Maniacs | Oficial | Europe |  |
-| Puzzle Party | Oficial | Europe |  |
-| Puzzle Quest - Challenge of the Warlords | Oficial | Europe |  |
-| Quake III - Revolution | Oficial | Europe |  |
-| Que Pasa Neng! El Videojuego | Oficial | Spain |  |
-| Quest for Aladdin's Treasure, The | Oficial | Europe |  |
-| Quest for Sleeping Beauty | Oficial | Europe |  |
-| Raceway - Drag & Stock Racing | Oficial | Europe |  |
-| Racing Simulation 3 | Oficial | Europe |  |
-| Radiata Stories | Oficial | USA |  |
-| Radio Helicopter | Oficial | Europe |  |
-| Radio Helicopter II | Oficial | Europe |  |
-| Raging Blades | Oficial | Europe |  |
-| Raiden III | Oficial | Europe |  |
-| Rally Championship | Oficial | Europe |  |
-| Rally Fusion - Race of Champions | Oficial | Europe |  |
-| Rampage - Total Destruction | Oficial | Europe |  |
-| Rapala Pro Bass Fishing | Oficial | USA |  |
-| Rapala Pro Fishing | Oficial | Australia, Europe |  |
-| Ratchet - Gladiator | Oficial | Australia, Europe |  |
-| Ratchet & Clank | Oficial | Australia, Europe |  |
-| Ratchet & Clank - Size Matters | Oficial | Australia, Europe |  |
-| Ratchet & Clank 2 | Oficial | Australia, Europe |  |
-| Ratchet & Clank 3 | Oficial | Australia, Europe |  |
-| Raw Danger | Oficial | Europe |  |
-| Rayman - Raving Rabbids | Oficial | Europe |  |
-| Rayman 3 - Hoodlum Havoc | Oficial | Europe |  |
-| Rayman M | Oficial | Europe |  |
-| Rayman Revolution | Oficial | Europe |  |
-| RC Revenge Pro | Oficial | Europe |  |
-| R-C Sports Copter Challenge | Oficial | Europe |  |
-| RC Toy Machines | Oficial | Europe |  |
-| Ready 2 Rumble Boxing - Round 2 | Oficial | Europe |  |
-| Real Madrid - The Game | Oficial | Europe |  |
-| Real World Golf | Oficial | Europe |  |
-| Real World Golf 2007 | Oficial | Europe |  |
-| Realm of the Dead | Oficial | Europe |  |
-| Realplay Golf | Oficial | Europe |  |
-| Realplay Pool | Oficial | Europe |  |
-| Realplay Puzzlesphere | Oficial | Europe |  |
-| Realplay Racing | Oficial | Europe |  |
-| Rebel Raiders - Operation Nighthawk | Oficial | Europe |  |
-| Red Baron | Oficial | Europe |  |
-| Red Dead Revolver | Oficial | Europe |  |
-| Red Faction | Oficial | Europe |  |
-| Red Faction II | Oficial | Europe |  |
-| Red Ninja - End of Honour | Oficial | Europe |  |
-| Red Star, The | Oficial | Australia, Europe |  |
-| RedCard | Oficial | Europe |  |
-| Reel Fishing III | Oficial | Europe |  |
-| Reign of Fire | Oficial | Europe |  |
-| Reservoir Dogs | Oficial | Europe |  |
-| Resident Evil - Code - Veronica X | Oficial | Europe |  |
-| Resident Evil - Dead Aim | Oficial | Europe |  |
-| Resident Evil - Outbreak | Oficial | Australia, Europe |  |
-| Resident Evil - Outbreak - File 2 | Oficial | Europe |  |
-| Resident Evil - Survivor 2 - Code - Veronica | Oficial | Europe |  |
-| Resident Evil 4 | Oficial | Europe |  |
-| Retro Classics - 8 Arcade Classics from Yesteryears | Oficial | Europe |  |
-| Return to Castle Wolfenstein - Operation Resurrection | Oficial | Spain |  |
-| Rez | Oficial | Europe |  |
-| Rhythmic Star! | Oficial | Australia, Europe |  |
-| Ribbit King | Oficial | Europe |  |
-| Richard Burns Rally | Oficial | Europe |  |
-| Ridge Racer V | Oficial | Europe |  |
-| Riding Star | Oficial | Europe |  |
-| Riding Star 3 | Oficial | Europe |  |
-| Rig Racer 2 | Oficial | Europe |  |
-| Ring of Red | Oficial | Europe |  |
-| Rise of the Kasai | Oficial | USA |  |
-| Risk - Global Domination | Oficial | Europe |  |
-| RLH - Run Like Hell | Oficial | Europe |  |
-| Road Rage 3 | Oficial | Europe |  |
-| Road Trip Adventure | Oficial | Australia, Europe |  |
-| RoadKill | Oficial | Europe |  |
-| Robin Hood - Defender of the Crown | Oficial | Europe |  |
-| Robin Hood 2 - The Siege | Oficial | Europe |  |
-| Robin Hood's Quest | Oficial | Europe |  |
-| RoboCop | Oficial | Europe |  |
-| Robot Alchemic Drive | Oficial | USA |  |
-| Robot Warlords | Oficial | Europe |  |
-| Robot Wars - Arenas of Destruction | Oficial | Europe |  |
-| Robotech - Battlecry | Oficial | Europe |  |
-| Robotech - Invasion | Oficial | Europe |  |
-| Robots | Oficial | Australia, Europe |  |
-| Rock Band | Oficial | Australia, Europe |  |
-| Rock Band - Country Track Pack | Oficial | USA |  |
-| Rock Band - Metal Track Pack | Oficial | Canada, USA |  |
-| Rock Band - Song Pack 1 | Oficial | Australia, Europe |  |
-| Rock Band - Song Pack 2 | Oficial | Europe |  |
-| Rock Band 2 | Oficial | Europe |  |
-| Rock Band Track Pack - Classic Rock | Oficial | USA |  |
-| Rock'N'Roll Adventures | Oficial | Europe |  |
-| Rocky | Oficial | Europe |  |
-| Rocky Legends | Oficial | Europe |  |
-| Rogue Galaxy | Oficial | Europe |  |
-| Rogue Ops | Oficial | Europe |  |
-| Rogue Trooper | Oficial | Europe |  |
-| Roland Garros 2005 - Powered by Smash Court Tennis | Oficial | Europe |  |
-| Roland Garros French Open 2002 | Oficial | Europe |  |
-| Roland Garros French Open 2003 | Oficial | Europe |  |
-| Roller Coaster Funfare | Oficial | Europe |  |
-| RollerCoaster World | Oficial | Europe |  |
-| Rolling | Oficial | Europe |  |
-| Romance of the Three Kingdoms IX | Oficial | USA |  |
-| Romance of the Three Kingdoms VII | Oficial | USA |  |
-| Romance of the Three Kingdoms VIII | Oficial | Europe |  |
-| Romance of the Three Kingdoms X | Oficial | USA |  |
-| Romance of the Three Kingdoms XI | Oficial | USA |  |
-| Romancing SaGa | Oficial | USA |  |
-| Room Zoom - Race for Impact | Oficial | Europe |  |
-| RPG Maker 3 | Oficial | USA |  |
-| RPG Maker II | Oficial | USA |  |
-| RPM Tuning | Oficial | Europe |  |
-| R-Racing | Oficial | Europe |  |
-| RS - Riding Spirits | Oficial | Europe |  |
-| RSII - Riding Spirits | Oficial | Europe |  |
-| RTL Biathlon 2007 | Oficial | Europe |  |
-| RTL Biathlon 2008 | Oficial | Europe |  |
-| RTL Biathlon 2009 | Oficial | Europe |  |
-| RTX - Red Rock | Oficial | Spain |  |
-| R-Type Final | Oficial | Europe |  |
-| Ruff Trigger - The Vanocore Conspiracy | Oficial | Europe |  |
-| Rugby | Oficial | Europe |  |
-| Rugby 06 | Oficial | Europe |  |
-| Rugby 08 | Oficial | Australia, Europe |  |
-| Rugby 2004 | Oficial | Europe |  |
-| Rugby 2005 | Oficial | Europe |  |
-| Rugby Challenge 2006 | Oficial | Europe |  |
-| Rugby League | Oficial | Australia |  |
-| Rugby League 2 - World Cup Edition | Oficial | Europe |  |
-| Rule of Rose | Oficial | Europe |  |
-| Rumble Racing | Oficial | Europe |  |
-| Rumble Roses | Oficial | Europe |  |
-| Runabout 3 - Neo Age | Oficial | Europe |  |
-| Rune - Viking Warlord | Oficial | Spain |  |
-| Rygar - The Legendary Adventure | Oficial | Europe |  |
-| S.L.A.I. - Steel Lancer Arena International | Oficial | Europe |  |
-| Saint & Sinner | Oficial | Europe |  |
-| Saint Seiya - The Hades | Oficial | Europe |  |
-| Saint Seiya - The Sanctuary | Oficial | Europe |  |
-| Sakura Wars - So Long, My Love | Oficial | USA |  |
-| Sakura Wars - So Long, My Love | Oficial | USA |  |
-| Salt Lake 2002 | Oficial | Europe |  |
-| Samurai Aces | Oficial | Europe |  |
-| Samurai Champloo - Sidetracked | Oficial | USA |  |
-| Samurai Jack - The Shadow of Aku | Oficial | Europe |  |
-| Samurai Shodown Anthology | Oficial | Europe |  |
-| Samurai Shodown V | Oficial | Europe |  |
-| Samurai Warriors | Oficial | Spain |  |
-| Samurai Warriors - Xtreme Legends | Oficial | Europe |  |
-| Samurai Warriors 2 | Oficial | Europe |  |
-| Samurai Warriors 2 - Empires | Oficial | Australia, Europe |  |
-| Samurai Warriors 2 - Xtreme Legends | Oficial | Europe |  |
-| Samurai Western | Oficial | Europe |  |
-| SAS - Anti-Terror Force | Oficial | Europe |  |
-| Savage Skies | Oficial | Europe |  |
-| SBK 08 - Superbike World Championship | Oficial | Australia, Europe |  |
-| SBK 09 - Superbike World Championship | Oficial | Europe |  |
-| SBK-07 - Superbike World Championship | Oficial | Australia, Europe |  |
-| Scaler | Oficial | Europe |  |
-| SCAR - Squadra Corse Alfa Romeo | Oficial | Australia, Europe |  |
-| Scarface - The World Is Yours | Oficial | Europe |  |
-| Scooby-Doo! and the Spooky Swamp | Oficial | Europe |  |
-| Scooby-Doo! First Frights | Oficial | Australia, Europe |  |
-| Scooby-Doo! Mystery Mayhem | Oficial | Australia, Europe |  |
-| Scooby-Doo! Night of 100 Frights | Oficial | Europe |  |
-| Scooby-Doo! Unmasked | Oficial | Europe |  |
-| SCORE International Baja 1000 - World Championship Off Road Racing | Oficial | Europe |  |
-| Scorpion King, The - Rise of the Akkadian | Oficial | Europe |  |
-| Scrabble Interactive | Oficial | Europe |  |
-| SD Gundam Force - Showdown! | Oficial | USA |  |
-| Sea Monsters - A Prehistoric Adventure | Oficial | Europe |  |
-| Search & Destroy | Oficial | Europe |  |
-| SeaWorld Adventure Parks - Shamu's Deep Sea Adventures | Oficial | Europe |  |
-| Second Sight | Oficial | Europe |  |
-| Secret Agent Clank | Oficial | Europe |  |
-| Secret Saturdays, The - Beasts of the 5th Sun | Oficial | Europe |  |
-| Secret Service | Oficial | Europe |  |
-| Secret Weapons over Normandy | Oficial | Spain |  |
-| Seed, The - Warzone | Oficial | Europe |  |
-| Seek and Destroy | Oficial | Europe |  |
-| Sega Ages 2500 Series Vol. 10 - After Burner II | Oficial | Japan |  |
-| Sega Ages 2500 Series Vol. 29 - Monster World Complete Collection | Oficial | Japan |  |
-| Sega Ages 2500 Series Vol. 32 - Phantasy Star Complete Collection | Oficial | Japan |  |
-| Sega Ages 2500 Series Vol. 4 - Space Harrier | Oficial | Japan |  |
-| Sega Bass Fishing Duel | Oficial | Europe |  |
-| Sega Classics Collection | Oficial | Australia, Europe |  |
-| Sega Mega Drive Collection | Oficial | Australia, Europe |  |
-| Sega Soccer Slam | Oficial | Europe |  |
-| Sega Superstars | Oficial | Australia, Europe |  |
-| Sega Superstars Tennis | Oficial | Australia, Europe |  |
-| Sengoku Anthology | Oficial | Europe |  |
-| Senor de los Anillos, El - El Retorno del Rey | Oficial | Spain |  |
-| Senor de los Anillos, El - La Tercera Edad | Oficial | Spain |  |
-| Senor de los Anillos, El - Las Dos Torres | Oficial | Spain |  |
-| Sensible Soccer 2006 | Oficial | Europe |  |
-| Serie de Catastroficas Desdichas de Lemony Snicket, Una | Oficial | Spain |  |
-| Serious Sam - Next Encounter | Oficial | Australia, Europe |  |
-| Seven Samurai 20XX | Oficial | Europe |  |
-| Shadow Hearts | Oficial | Europe |  |
-| Shadow Hearts - From the New World | Oficial | Australia, Europe |  |
-| Shadow Hearts II | Oficial | Australia, Europe |  |
-| Shadow Hearts II | Oficial | Australia, Europe |  |
-| Shadow Man - 2econd Coming | Oficial | Europe |  |
-| Shadow of Ganymede | Oficial | Europe |  |
-| Shadow of Memories | Oficial | Europe |  |
-| Shadow of Rome | Oficial | Australia, Europe |  |
-| Shadow of the Colossus | Oficial | Australia, Europe |  |
-| Shadow of Zorro, The | Oficial | Europe |  |
-| Shadow the Hedgehog | Oficial | Australia, Europe |  |
-| Shaun Palmer's Pro Snowboarder | Oficial | Europe |  |
-| Shaun White Snowboarding | Oficial | Australia, Europe |  |
-| ShellShock - Nam '67 | Oficial | Europe |  |
-| Shepherd's Crossing | Oficial | USA |  |
-| Shield, The - The Game | Oficial | Europe |  |
-| Shifters | Oficial | Europe |  |
-| Shin Megami Tensei - Devil Summoner - Raidou Kuzunoha vs. the Soulless Army | Oficial | Europe |  |
-| Shin Megami Tensei - Devil Summoner 2 - Raidou Kuzunoha vs. King Abaddon | Oficial | USA |  |
-| Shin Megami Tensei - Digital Devil Saga | Oficial | Europe |  |
-| Shin Megami Tensei - Digital Devil Saga 2 | Oficial | Europe |  |
-| Shin Megami Tensei - Lucifer's Call | Oficial | Europe |  |
-| Shining Force EXA | Oficial | USA |  |
-| Shining Force Neo | Oficial | USA |  |
-| Shining Tears | Oficial | USA |  |
-| Shinobi | Oficial | Europe |  |
-| Shinobido - Way of the Ninja | Oficial | Europe |  |
-| Shogun's Blade | Oficial | Europe |  |
-| Shonen Jump's One Piece - Grand Adventure | Oficial | Europe |  |
-| Shonen Jump's One Piece - Grand Battle | Oficial | Europe |  |
-| Shonen Jump's One Piece - Pirates' Carnival | Oficial | USA |  |
-| Shonen Jump's Shaman King - Power of Spirit | Oficial | Europe |  |
-| Short Track Racing - Trading Paint | Oficial | USA |  |
-| Showdown - Legends of Wrestling | Oficial | Europe |  |
-| Shox - Rally Reinvented | Oficial | Europe |  |
-| Shrek 2 | Oficial | Spain |  |
-| Shrek Super Party | Oficial | Europe |  |
-| Silent Hill - Shattered Memories | Oficial | Europe |  |
-| Silent Hill 2 - Director's Cut | Oficial | Europe |  |
-| Silent Hill 3 | Oficial | Europe |  |
-| Silent Hill 4 - The Room | Oficial | Europe |  |
-| Silent Hill Origins | Oficial | Europe |  |
-| Silent Line - Armored Core | Oficial | Europe |  |
-| Silent Scope | Oficial | Europe |  |
-| Silent Scope 2 - Fatal Judgement | Oficial | Europe |  |
-| Silent Scope 3 | Oficial | Europe |  |
-| Silpheed - The Lost Planet | Oficial | Europe |  |
-| Simpsons Game, The | Oficial | Europe |  |
-| Simpsons Skateboarding, The | Oficial | Spain |  |
-| Simpsons, The - Hit & Run | Oficial | Australia, Europe |  |
-| Simpsons, The - Road Rage | Oficial | Europe |  |
-| Sims 2, The | Oficial | Europe |  |
-| Sims 2, The - Castaway | Oficial | Australia, Europe |  |
-| Sims 2, The - Pets | Oficial | Australia, Europe |  |
-| Sims, The | Oficial | Europe |  |
-| Sims, The - Bustin' Out | Oficial | Europe |  |
-| SingStar | Oficial | Spain |  |
-| SingStar '80s | Oficial | Spain |  |
-| SingStar '90s | Oficial | Spain |  |
-| SingStar ABBA | Oficial | Spain |  |
-| SingStar Amped | Oficial | USA |  |
-| SingStar Anthems | Oficial | Australia, Europe |  |
-| SingStar Bollywood | Oficial | Europe |  |
-| SingStar Boy Bands vs Girl Bands | Oficial | Europe |  |
-| SingStar Canciones Disney | Oficial | Spain |  |
-| SingStar Chart Hits | Oficial | Australia |  |
-| SingStar Clasicos | Oficial | Spain |  |
-| SingStar Country | Oficial | USA |  |
-| SingStar Hottest Hits | Oficial | Australia, Europe |  |
-| SingStar La Edad de Oro del Pop Espanol | Oficial | Spain |  |
-| SingStar Latino | Oficial | Spain |  |
-| SingStar Legends | Oficial | Spain |  |
-| SingStar Mecano | Oficial | Spain |  |
-| SingStar Miliki | Oficial | Spain |  |
-| SingStar Motown | Oficial | Europe |  |
-| SingStar Operacion Triunfo | Oficial | Spain |  |
-| SingStar Party | Oficial | Spain |  |
-| SingStar Patito Feo | Oficial | Spain |  |
-| SingStar Pop | Oficial | Spain |  |
-| SingStar Pop 2009 | Oficial | Spain |  |
-| SingStar Pop Hits - 40 Principales | Oficial | Spain |  |
-| SingStar Pop Vol. 2 | Oficial | USA |  |
-| SingStar Queen | Oficial | Spain |  |
-| SingStar R&B | Oficial | Spain |  |
-| SingStar Rock Ballads | Oficial | Spain |  |
-| SingStar Rocks! | Oficial | Spain |  |
-| SingStar Summer Party | Oficial | Spain |  |
-| SingStar Take That | Oficial | Australia, Europe |  |
-| SingStar The Wiggles | Oficial | Australia |  |
-| Sitting Ducks | Oficial | Europe |  |
-| Skate Attack | Oficial | Europe |  |
-| Skateboard Madness - Xtreme Edition | Oficial | Europe |  |
-| Ski and Shoot | Oficial | USA |  |
-| Ski Racing 2005 | Oficial | Europe |  |
-| Ski Racing 2006 | Oficial | Europe |  |
-| Sky Odyssey | Oficial | Europe |  |
-| Sky Surfer | Oficial | Europe |  |
-| SkyGunner | Oficial | USA |  |
-| Skyscraper | Oficial | Europe |  |
-| Slam Tennis | Oficial | Europe |  |
-| Sled Storm | Oficial | Europe |  |
-| Sly 2 - Band of Thieves | Oficial | Europe |  |
-| Sly 3 - Honour Among Thieves | Oficial | Europe |  |
-| Sly Raccoon | Oficial | Europe |  |
-| Smarties - Meltdown | Oficial | Australia, Europe |  |
-| Smash Cars | Oficial | Europe |  |
-| Smash Court Tennis - Pro Tournament | Oficial | Australia, Europe |  |
-| Smash Court Tennis - Pro Tournament 2 | Oficial | Australia, Europe |  |
-| Smuggler's Run | Oficial | Europe |  |
-| Smuggler's Run 2 - Hostile Territory | Oficial | Europe |  |
-| Sniper 2, The | Oficial | Europe |  |
-| Sniper Assault | Oficial | Europe |  |
-| Sniper Elite | Oficial | Europe |  |
-| SNK Arcade Classics Vol. 1 | Oficial | Europe |  |
-| SNK vs. Capcom - SVC Chaos | Oficial | Europe |  |
-| SnoCross 2 featuring Blair Morgan | Oficial | Europe |  |
-| Snoopy vs. the Red Baron | Oficial | USA |  |
-| Snow Queen Quest, The | Oficial | Europe |  |
-| Snow Rider | Oficial | Europe |  |
-| Snow White & the 7 Clever Boys | Oficial | Europe |  |
-| Snowboard Racer 2 | Oficial | Europe |  |
-| Soccer Life 2 | Oficial | Europe |  |
-| Soccer Life! | Oficial | Europe |  |
-| SOCOM - U.S. Navy SEALs | Oficial | Europe |  |
-| SOCOM - U.S. Navy SEALs - Combined Assault | Oficial | Europe |  |
-| SOCOM 3 - U.S. Navy SEALs | Oficial | Europe |  |
-| SOCOM II - U.S. Navy SEALs | Oficial | Europe |  |
-| Sol Divide | Oficial | Europe |  |
-| Soldier of Fortune - Gold Edition | Oficial | Europe |  |
-| Son of the Lion King | Oficial | Europe |  |
-| Sonic Gems Collection | Oficial | Australia, Europe |  |
-| Sonic Heroes | Oficial | Australia, Europe |  |
-| Sonic Mega Collection Plus | Oficial | Australia, Europe |  |
-| Sonic Riders | Oficial | Australia, Europe |  |
-| Sonic Riders - Zero Gravity | Oficial | Australia, Europe |  |
-| Sonic Unleashed | Oficial | Australia, Europe |  |
-| Sopranos, The - Road to Respect | Oficial | Australia, Europe |  |
-| SOS - The Final Escape | Oficial | Europe |  |
-| Soul Nomad & the World Eaters | Oficial | Europe |  |
-| Soulcalibur II | Oficial | Europe |  |
-| Soulcalibur III | Oficial | Australia, Europe |  |
-| Space Channel 5 | Oficial | Europe |  |
-| Space Channel 5 Part 2 | Oficial | Europe |  |
-| Space Chimps | Oficial | Europe |  |
-| Space Invaders - Invasion Day | Oficial | Europe |  |
-| Space Invaders Anniversary | Oficial | Australia, Europe |  |
-| Space Rebellion | Oficial | Europe |  |
-| Space War Attack | Oficial | Europe |  |
-| Spartan - Total Warrior | Oficial | Australia, Europe |  |
-| Spawn - Armageddon | Oficial | Europe |  |
-| Special Forces | Oficial | Europe |  |
-| Spectral vs. Generation | Oficial | Europe |  |
-| Speed Challenge - Jacques Villeneuve's Racing Vision | Oficial | Europe |  |
-| Speed Kings | Oficial | Europe |  |
-| Speed Machines 3 | Oficial | Europe |  |
-| Speed Racer | Oficial | Europe |  |
-| Speedboat GP | Oficial | Europe |  |
-| Sphinx and the Cursed Mummy | Oficial | Europe |  |
-| Spider-Man | Oficial | Spain |  |
-| Spider-Man - Friend or Foe | Oficial | Europe |  |
-| Spider-Man - Web of Shadows - Amazing Allies Edition | Oficial | Europe |  |
-| Spider-Man 2 | Oficial | Europe |  |
-| Spider-Man 3 | Oficial | Europe |  |
-| Spiderwick Chronicles, The | Oficial | Europe |  |
-| SpinDrive Ping Pong | Oficial | Europe |  |
-| Splashdown | Oficial | Europe |  |
-| Splashdown 2 - Rides Gone Wild | Oficial | Europe |  |
-| Splatter Master | Oficial | Europe |  |
-| Sprint Car Challenge | Oficial | Europe |  |
-| Sprint Cars - Road to Knoxville | Oficial | Australia, Europe |  |
-| Sprint Cars 2 - Showdown at Eldora | Oficial | USA |  |
-| Spy Fiction | Oficial | Europe |  |
-| Spy vs. Spy | Oficial | Australia, Europe |  |
-| SpyHunter | Oficial | Europe |  |
-| SpyHunter - Nowhere to Run | Oficial | Europe |  |
-| SpyHunter 2 | Oficial | Europe |  |
-| Spyro - A Hero's Tail | Oficial | Australia, Europe |  |
-| Spyro - Enter the Dragonfly | Oficial | Australia, Europe |  |
-| SpyToy | Oficial | Australia, Europe |  |
-| SRS - Street Racing Syndicate | Oficial | Europe |  |
-| SSX | Oficial | Europe |  |
-| SSX 3 | Oficial | Europe |  |
-| SSX on Tour | Oficial | Europe |  |
-| SSX Tricky | Oficial | Europe |  |
-| Stacked with Daniel Negreanu | Oficial | USA |  |
-| Star Ocean - Till the End of Time | Oficial | Europe |  |
-| Star Ocean - Till the End of Time | Oficial | Europe |  |
-| Star Trek - Conquest | Oficial | Australia, Europe |  |
-| Star Trek - Encounters | Oficial | Europe |  |
-| Star Trek - Shattered Universe | Oficial | Europe |  |
-| Star Trek - Voyager - Elite Force | Oficial | Europe |  |
-| Star Wars - Battlefront | Oficial | Europe |  |
-| Star Wars - Battlefront II | Oficial | Europe |  |
-| Star Wars - Bounty Hunter | Oficial | Spain |  |
-| Star Wars - Episode III - Revenge of the Sith | Oficial | Europe |  |
-| Star Wars - Jedi Starfighter | Oficial | Spain |  |
-| Star Wars - Las Guerras Clon | Oficial | Spain |  |
-| Star Wars - Racer Revenge | Oficial | Europe |  |
-| Star Wars - Starfighter | Oficial | Spain |  |
-| Star Wars - Super Bombad Racing | Oficial | Spain |  |
-| Star Wars - The Clone Wars - Republic Heroes | Oficial | USA |  |
-| Star Wars - The Force Unleashed | Oficial | Europe |  |
-| Starsky & Hutch | Oficial | Europe |  |
-| State of Emergency | Oficial | Europe |  |
-| State of Emergency 2 | Oficial | Europe |  |
-| Stealth Force - The War on Terror | Oficial | Europe |  |
-| Stealth Force 2 | Oficial | Europe |  |
-| Steam Express | Oficial | Europe |  |
-| Steambot Chronicles | Oficial | Europe |  |
-| Steel Dragon EX | Oficial | Europe |  |
-| Stella Deus - The Gate of Eternity | Oficial | Europe |  |
-| Stock Car Crash | Oficial | Europe |  |
-| Stock Car Speedway | Oficial | Europe |  |
-| Stolen | Oficial | Europe |  |
-| Strawberry Shortcake - The Sweet Dreams Game | Oficial | Europe |  |
-| Street Boyz | Oficial | Europe |  |
-| Street Dance | Oficial | Europe |  |
-| Street Fighter Alpha Anthology | Oficial | Australia, Europe |  |
-| Street Fighter Anniversary Collection | Oficial | USA |  |
-| Street Fighter EX3 | Oficial | Europe |  |
-| Street Golfer | Oficial | Europe |  |
-| Street Hoops | Oficial | Australia, Europe |  |
-| Street Warrior | Oficial | Europe |  |
-| Strike Force Bowling | Oficial | Europe |  |
-| Stuart Little 3 - Big Photo Adventure | Oficial | Australia, Europe |  |
-| Stunt GP | Oficial | Europe |  |
-| Stuntman | Oficial | Europe |  |
-| Stuntman - Ignition | Oficial | Europe |  |
-| Sub Rebellion | Oficial | Europe |  |
-| Suffering, The | Oficial | Europe |  |
-| Suffering, The - Ties That Bind | Oficial | Europe |  |
-| Suikoden III | Oficial | USA |  |
-| Suikoden IV | Oficial | Europe |  |
-| Suikoden Tactics | Oficial | Europe |  |
-| Suikoden V | Oficial | Europe |  |
-| Sum of All Fears, The | Oficial | Europe |  |
-| Summer Athletics | Oficial | Australia, Europe |  |
-| Summer Heat Beach Volleyball | Oficial | Europe |  |
-| Summoner | Oficial | Europe |  |
-| Summoner 2 | Oficial | Europe |  |
-| Sunny Garcia Surfing | Oficial | Australia, Europe |  |
-| Super Bust-A-Move | Oficial | Europe |  |
-| Super Bust-A-Move 2 | Oficial | Europe |  |
-| Super Dragon Ball Z | Oficial | Europe |  |
-| Super Farm | Oficial | Europe |  |
-| Super Fruit Fall | Oficial | Europe |  |
-| Super Monkey Ball Adventure | Oficial | Europe |  |
-| Super Monkey Ball Deluxe | Oficial | Europe |  |
-| Super PickUps | Oficial | Europe |  |
-| Super Trucks | Oficial | Europe |  |
-| Superbike GP | Oficial | Europe |  |
-| Super-Bikes Riding Challenge | Oficial | Europe |  |
-| Supercar Street Challenge | Oficial | Europe |  |
-| Superman - Shadow of Apokolips | Oficial | Europe |  |
-| Superman Returns | Oficial | Spain |  |
-| Surfing Air Show with RatBoy | Oficial | Japan |  |
-| Surfing H3O | Oficial | Europe |  |
-| Surf's Up | Oficial | Europe |  |
-| Suzuki Super-Bikes II - Riding Challenge | Oficial | Canada, USA |  |
-| Sven-Goeran Eriksson's World Challenge | Oficial | Europe |  |
-| Sven-Goeran Eriksson's World Manager 2002 | Oficial | Europe |  |
-| Swashbucklers - Blue vs. Grey | Oficial | USA |  |
-| SWAT - Global Strike Team | Oficial | Europe |  |
-| SWAT Siege | Oficial | Europe |  |
-| Swing Away Golf | Oficial | Europe |  |
-| Sword of Etheria, The | Oficial | Europe |  |
-| Sword of the Samurai | Oficial | Europe |  |
-| Swords of Destiny | Oficial | Europe |  |
-| SX Superstar | Oficial | Europe |  |
-| SXR - Snow X Racing | Oficial | Europe |  |
-| Syberia | Oficial | Europe |  |
-| Syberia II | Oficial | Europe |  |
-| Syphon Filter - Dark Mirror | Oficial | Australia, Europe |  |
-| Syphon Filter - Logan's Shadow | Oficial | USA |  |
-| Syphon Filter - The Omega Strain | Oficial | Australia, Europe |  |
-| Taiko Drum Master | Oficial | USA |  |
-| Taito Legends | Oficial | Europe |  |
-| Taito Legends 2 | Oficial | Europe |  |
-| Tak y el Poder Juju | Oficial | Spain |  |
-| Tale of Despereaux, The | Oficial | USA |  |
-| Tales of Legendia | Oficial | USA |  |
-| Tales of the Abyss | Oficial | USA |  |
-| Tank Elite | Oficial | Europe |  |
-| Taxi Rider | Oficial | Europe |  |
-| Taz - Wanted | Oficial | Europe |  |
-| TD Overdrive - The Brotherhood of Speed | Oficial | Europe |  |
-| Technic Beat | Oficial | USA |  |
-| Teen Titans | Oficial | Europe |  |
-| Teenage Mutant Ninja Turtles | Oficial | Europe |  |
-| Teenage Mutant Ninja Turtles - Mutant Melee | Oficial | Europe |  |
-| Teenage Mutant Ninja Turtles - Smash-Up | Oficial | Europe |  |
-| Teenage Mutant Ninja Turtles 2 - Battle Nexus | Oficial | Europe |  |
-| Teenage Mutant Ninja Turtles 3 - Mutant Nightmare | Oficial | Europe |  |
-| Tekken 4 | Oficial | Australia, Europe |  |
-| Tekken 5 | Oficial | Australia, Europe |  |
-| Tekken Tag Tournament | Oficial | Europe |  |
-| Tekken's Nina Williams in - Death by Degrees | Oficial | Australia, Europe |  |
-| Telly Addicts | Oficial | Europe |  |
-| Tenchu - Fatal Shadows | Oficial | Spain |  |
-| Tenchu - La Ira del Cielo | Oficial | Spain |  |
-| Tengai | Oficial | Europe |  |
-| Tennis Court Smash | Oficial | Europe |  |
-| Terminator 3 - La Rebelion de las Maquinas | Oficial | Spain |  |
-| Terminator 3 - The Redemption | Oficial | Australia, Europe |  |
-| Terminator, The - Dawn of Fate | Oficial | Europe |  |
-| Test Drive Unlimited | Oficial | Europe |  |
-| Tetris Worlds | Oficial | Australia, Europe |  |
-| Theme Park World | Oficial | Europe |  |
-| They Came from the Skies | Oficial | Australia, Europe |  |
-| Thing, The | Oficial | Europe |  |
-| This Is Football 2002 | Oficial | Europe |  |
-| This Is Football 2003 | Oficial | Europe |  |
-| This Is Football 2004 | Oficial | Europe |  |
-| This Is Football 2005 | Oficial | Europe |  |
-| Thomas & Friends - A Day at the Races | Oficial | Europe |  |
-| Thrillville | Oficial | Europe |  |
-| Thrillville - Fuera de Control | Oficial | Spain |  |
-| Thunder Force VI | Oficial | Japan |  |
-| Thunderbirds | Oficial | Europe |  |
-| Thunderhawk - Operation Phoenix | Oficial | Europe |  |
-| Tiger Woods PGA Tour 06 | Oficial | Europe |  |
-| Tiger Woods PGA Tour 07 | Oficial | Australia, Europe |  |
-| Tiger Woods PGA Tour 08 | Oficial | Australia, Europe |  |
-| Tiger Woods PGA Tour 09 | Oficial | Australia, Europe |  |
-| Tiger Woods PGA Tour 10 | Oficial | Australia, Europe |  |
-| Tiger Woods PGA Tour 2001 | Oficial | Europe |  |
-| Tiger Woods PGA Tour 2002 | Oficial | Europe |  |
-| Tiger Woods PGA Tour 2003 | Oficial | Europe |  |
-| Tiger Woods PGA Tour 2004 | Oficial | Europe |  |
-| Tiger Woods PGA Tour 2005 | Oficial | Europe |  |
-| Tim Burton's The Nightmare Before Christmas - Oogie's Revenge | Oficial | Europe |  |
-| Time Crisis 3 | Oficial | Australia, Europe |  |
-| Time Crisis II | Oficial | Europe |  |
-| TimeSplitters | Oficial | Europe |  |
-| TimeSplitters - Future Perfect | Oficial | Europe |  |
-| TimeSplitters 2 | Oficial | Europe |  |
-| TMNT | Oficial | Australia, Europe |  |
-| TNA Impact! Total Nonstop Action Wrestling | Oficial | Australia, Europe |  |
-| TOCA Race Driver | Oficial | Europe |  |
-| TOCA Race Driver 2 | Oficial | Europe |  |
-| TOCA Race Driver 3 | Oficial | Europe |  |
-| Tokobot Plus - Mysteries of the Karakuri | Oficial | Australia, Europe |  |
-| Tokyo Road Race | Oficial | Europe |  |
-| Tokyo Xtreme Racer | Oficial | Europe |  |
-| Tokyo Xtreme Racer - Drift | Oficial | Canada, USA |  |
-| Tokyo Xtreme Racer 3 | Oficial | Canada, USA |  |
-| Tom and Jerry in War of the Whiskers | Oficial | Europe |  |
-| Tom Clancy's Ghost Recon | Oficial | Europe |  |
-| Tom Clancy's Ghost Recon - Advanced Warfighter | Oficial | Europe |  |
-| Tom Clancy's Ghost Recon - Jungle Storm | Oficial | Europe |  |
-| Tom Clancy's Ghost Recon 2 | Oficial | Europe |  |
-| Tom Clancy's Rainbow Six - Lockdown | Oficial | Europe |  |
-| Tom Clancy's Rainbow Six 3 | Oficial | Europe |  |
-| Tom Clancy's Splinter Cell | Oficial | Australia, Europe |  |
-| Tom Clancy's Splinter Cell - Chaos Theory | Oficial | Europe |  |
-| Tom Clancy's Splinter Cell - Double Agent | Oficial | Europe |  |
-| Tom Clancy's Splinter Cell - Pandora Tomorrow | Oficial | Australia, Europe |  |
-| Tomb Raider - Underworld | Oficial | Europe |  |
-| Tony Hawk's American Wasteland | Oficial | Europe |  |
-| Tony Hawk's Downhill Jam | Oficial | Europe |  |
-| Tony Hawk's Pro Skater 3 | Oficial | Europe |  |
-| Tony Hawk's Pro Skater 4 | Oficial | Australia, Europe |  |
-| Tony Hawk's Project 8 | Oficial | Europe |  |
-| Tony Hawk's Proving Ground | Oficial | Europe |  |
-| Tony Hawk's Underground | Oficial | Spain |  |
-| Tony Hawk's Underground 2 | Oficial | Europe |  |
-| Top Angler - Real Bass Fishing | Oficial | Europe |  |
-| Top Gear Dare Devil | Oficial | Europe |  |
-| Top Gun | Oficial | Europe |  |
-| Top Gun - Combat Zones | Oficial | Europe |  |
-| Top Spin | Oficial | Australia, Europe |  |
-| Top Trumps - Doctor Who | Oficial | Europe |  |
-| Top Trumps Adventures Vol. 1 - Horror & Predators | Oficial | Europe |  |
-| Top Trumps Adventures Vol. 2 - Dogs & Dinosaurs | Oficial | Europe |  |
-| Torino 2006 | Oficial | Europe |  |
-| Torrente 3 - El Protector | Oficial | Spain |  |
-| Total Club Manager 2004 | Oficial | Europe |  |
-| Total Club Manager 2005 | Oficial | Europe |  |
-| Total Immersion Racing | Oficial | Europe |  |
-| Total Overdose | Oficial | Europe |  |
-| Totally Spies! Totally Party | Oficial | Australia, Europe |  |
-| Tour de France, Le | Oficial | Europe |  |
-| Tour de France, Le - 1903-2003 - Centenary Edition | Oficial | Europe |  |
-| Tourist Trophy - The Real Riding Simulator | Oficial | Europe |  |
-| Toy Golf Extreme | Oficial | Europe |  |
-| Toys Room, The | Oficial | Europe |  |
-| Transformers | Oficial | Europe |  |
-| Transformers - Revenge of the Fallen | Oficial | Europe |  |
-| Transformers - The Game | Oficial | Europe |  |
-| TransWorld Surf | Oficial | Europe |  |
-| Trapt | Oficial | Europe |  |
-| Tribes - Aerial Assault | Oficial | USA |  |
-| Trigger Man | Oficial | Europe |  |
-| Triple Play 2002 | Oficial | USA |  |
-| Triple Play Baseball | Oficial | USA |  |
-| Trivial Pursuit | Oficial | Europe |  |
-| Trivial Pursuit - Unhinged | Oficial | Europe |  |
-| Truck Racer | Oficial | Europe |  |
-| Truck Racing 2 | Oficial | Europe |  |
-| True Crime - New York City | Oficial | Europe |  |
-| True Crime - Streets of LA | Oficial | Europe |  |
-| Tsugunai - Atonement | Oficial | USA |  |
-| TT Superbikes | Oficial | Europe |  |
-| TT Superbikes - Legends | Oficial | Europe |  |
-| TT Superbikes - Real Road Racing Championship | Oficial | Europe |  |
-| Turbo Trucks | Oficial | Europe |  |
-| Turok - Evolution | Oficial | Europe |  |
-| Twenty 2 Party | Oficial | Europe |  |
-| Twin Caliber | Oficial | Europe |  |
-| Twisted Metal - Black | Oficial | Europe |  |
-| Twisted Metal - Black Online | Oficial | Europe |  |
-| Twisted Metal - Head-On - Extra Twisted Edition | Oficial | Canada, USA |  |
-| Ty the Tasmanian Tiger | Oficial | Europe |  |
-| Ty the Tasmanian Tiger - Night of the Quinkan | Oficial | USA |  |
-| Ty the Tasmanian Tiger 2 - Bush Rescue | Oficial | Europe |  |
-| UEFA Challenge | Oficial | Europe |  |
-| UEFA Champions League - Season 2001-2002 | Oficial | Europe |  |
-| UEFA Champions League 2004-2005 | Oficial | Europe |  |
-| UEFA Champions League 2006-2007 | Oficial | Europe |  |
-| UEFA Euro 2004 - Portugal | Oficial | Europe |  |
-| UEFA Euro 2008 - Austria-Switzerland | Oficial | Europe |  |
-| UFC - Throwdown | Oficial | Europe |  |
-| UFC - Ultimate Fighting Championship - Sudden Impact | Oficial | Europe |  |
-| Ultimate Board Game Collection | Oficial | Europe |  |
-| Ultimate Casino | Oficial | Europe |  |
-| Ultimate Film Quiz, The | Oficial | Europe |  |
-| Ultimate Mind Games | Oficial | Europe |  |
-| Ultimate Music Quiz, The | Oficial | Europe |  |
-| Ultimate Pro Pinball | Oficial | Europe |  |
-| Ultimate Spider-Man | Oficial | Europe |  |
-| Ultimate Sports Quiz, The | Oficial | Europe |  |
-| Ultimate Trivia Quiz, The | Oficial | Europe |  |
-| Ultimate World Cup Quiz, The | Oficial | Europe |  |
-| U-Move Super Sports | Oficial | Europe |  |
-| Under the Skin | Oficial | Europe |  |
-| Underworld - The Eternal War | Oficial | Europe |  |
-| Unison - Rebels of Rhythm & Dance | Oficial | USA |  |
-| Unlimited Saga | Oficial | Europe |  |
-| Unreal Tournament | Oficial | Europe |  |
-| Urban Chaos - Riot Response | Oficial | Europe |  |
-| Urban Constructor | Oficial | Europe |  |
-| Urban Extreme | Oficial | Europe |  |
-| Urban Freestyle Soccer | Oficial | Europe |  |
-| Urban Reign | Oficial | Europe |  |
-| Urbz, The - Sims in the City | Oficial | Europe |  |
-| US Racer | Oficial | Europe |  |
-| V.I.P. | Oficial | Europe |  |
-| Valkyrie Profile 2 - Silmeria | Oficial | Spain |  |
-| Vampire Night | Oficial | Australia, Europe |  |
-| Van Helsing | Oficial | Australia, Europe |  |
-| Vegas Casino II | Oficial | Europe |  |
-| Vehicular Combat League Presents - Motor Mayhem | Oficial | Europe |  |
-| Vexx | Oficial | Europe |  |
-| Victorious Boxers - Ippo's Road to Glory | Oficial | Europe |  |
-| Victorious Boxers 2 - Fighting Spirit | Oficial | Europe |  |
-| Video Poker & Blackjack | Oficial | Europe |  |
-| Vietcong - Purple Haze | Oficial | Europe |  |
-| Viewtiful Joe | Oficial | Australia, Europe |  |
-| Viewtiful Joe 2 | Oficial | Europe |  |
-| Virtua Cop - Elite Edition | Oficial | Europe |  |
-| Virtua Fighter - 10th Anniversary Edition | Oficial | Europe |  |
-| Virtua Fighter 4 | Oficial | Europe |  |
-| Virtua Fighter 4 - Evolution | Oficial | Europe |  |
-| Virtua Pro Football | Oficial | Europe |  |
-| Virtua Quest | Oficial | USA |  |
-| Virtua Tennis 2 - Sega Professional Tennis | Oficial | Europe |  |
-| Virtual View - Nemoto Harumi Eizou Play | Oficial | Japan |  |
-| Volleyball Challenge | Oficial | Europe |  |
-| Volleyball Xciting | Oficial | Europe |  |
-| V-Rally 3 | Oficial | Europe |  |
-| Wacky Races - Mad Motors | Oficial | Europe |  |
-| Wacky Races Starring Dastardly & Muttley | Oficial | Europe |  |
-| Wacky Zoo GP | Oficial | Europe |  |
-| Wakeboarding Unleashed featuring Shaun Murray | Oficial | Europe |  |
-| Wallace & Gromit - The Curse of the Were-Rabbit | Oficial | Europe |  |
-| Wallace & Gromit in Project Zoo | Oficial | Europe |  |
-| Walt Disney Pictures Presents Meet the Robinsons | Oficial | Europe |  |
-| Walt Disney's The Jungle Book - Groove Party | Oficial | Australia, Europe |  |
-| War Chess | Oficial | Europe |  |
-| War of the Monsters | Oficial | Europe |  |
-| Warhammer 40,000 - Fire Warrior | Oficial | Europe |  |
-| Warriors of Might and Magic | Oficial | Europe |  |
-| Warriors Orochi | Oficial | Europe |  |
-| Warriors Orochi 2 | Oficial | Europe |  |
-| Warriors, The | Oficial | Australia, Europe |  |
-| Warship Gunner 2 | Oficial | USA |  |
-| Water Horse, The - Legend of the Deep | Oficial | Europe |  |
-| Way of the Samurai | Oficial | Europe |  |
-| Way of the Samurai 2 | Oficial | Europe |  |
-| WCR - World Championship Rugby | Oficial | Australia, Europe |  |
-| We Love Katamari | Oficial | Europe |  |
-| Weakest Link, The | Oficial | Europe |  |
-| Wheel of Fortune | Oficial | USA |  |
-| Whiplash | Oficial | Europe |  |
-| Whirl Tour | Oficial | Europe |  |
-| White Van Racer | Oficial | Europe |  |
-| Whiteout | Oficial | Europe |  |
-| Who Wants to Be a Millionaire - 2nd Edition | Oficial | Europe |  |
-| Who Wants to Be a Millionaire - Party Edition | Oficial | Europe |  |
-| Wild Arms - Alter Code - F | Oficial | USA |  |
-| Wild Arms 3 | Oficial | Europe |  |
-| Wild Arms 4 | Oficial | Europe |  |
-| Wild Arms 5 | Oficial | Europe |  |
-| Wild Water Adrenaline featuring Salomon | Oficial | Europe |  |
-| Wild Wild Racing | Oficial | Europe |  |
-| Winter Sports | Oficial | Europe |  |
-| Winter Sports 2 - The Next Challenge | Oficial | USA |  |
-| Winter Sports 2008 - The Ultimate Challenge | Oficial | Europe |  |
-| Winter X Games Snowboarding | Oficial | Europe |  |
-| Winter X Games Snowboarding 2 | Oficial | Europe |  |
-| Winx Club | Oficial | Europe |  |
-| Wipeout Fusion | Oficial | Europe |  |
-| Wipeout Pulse | Oficial | Europe |  |
-| Without Warning | Oficial | Europe |  |
-| Wizardry - Tale of the Forsaken Land | Oficial | Europe |  |
-| Women's Volleyball Championship | Oficial | USA |  |
-| Woody Woodpecker | Oficial | Europe |  |
-| wordimagesoundplay | Oficial | Japan |  |
-| World Challenge | Oficial | Europe |  |
-| World Championship Cards | Oficial | USA |  |
-| World Championship Paintball | Oficial | USA |  |
-| World Championship Poker | Oficial | Europe |  |
-| World Championship Poker 2 featuring Howard Lederer | Oficial | Australia, Europe |  |
-| World Championship Poker featuring Howard Lederer - All In | Oficial | Europe |  |
-| World Championship Pool 2004 | Oficial | Europe |  |
-| World Championship Snooker 2002 | Oficial | Europe |  |
-| World Championship Snooker 2003 | Oficial | Europe |  |
-| World Championship Snooker 2004 | Oficial | Europe |  |
-| World Destruction League - Thunder Tanks | Oficial | Europe |  |
-| World Destruction League - WarJetz | Oficial | Europe |  |
-| World Fighting | Oficial | Europe |  |
-| World Heroes Anthology | Oficial | Europe |  |
-| World of Outlaws - Sprint Cars | Oficial | Europe |  |
-| World Poker Tour | Oficial | Europe |  |
-| World Racing | Oficial | Europe |  |
-| World Racing 2 | Oficial | Europe |  |
-| World Series Baseball 2K3 | Oficial | USA |  |
-| World Series of Poker | Oficial | Europe |  |
-| World Series of Poker - Tournament of Champions - 2007 Edition | Oficial | Australia, Europe |  |
-| World Series of Poker 2008 - Battle for the Bracelets | Oficial | Europe |  |
-| World Snooker Championship 2005 | Oficial | Europe |  |
-| World Snooker Championship 2007 | Oficial | Europe |  |
-| World Soccer Winning Eleven 2010 - Aoki Samurai no Chousen | Oficial | Japan |  |
-| World Super Police | Oficial | Australia, Europe |  |
-| World War Zero - IronStorm | Oficial | Europe |  |
-| World Wrestling Championship | Oficial | Europe |  |
-| Worms 3D | Oficial | Europe |  |
-| Worms 4 - Mayhem | Oficial | Europe |  |
-| Worms Blast | Oficial | Europe |  |
-| Worms Forts - Under Siege | Oficial | Australia, Europe |  |
-| Wrath Unleashed | Oficial | Europe |  |
-| WRC - Rally Evolved | Oficial | Australia, Europe |  |
-| WRC - World Rally Championship | Oficial | Australia, Europe |  |
-| WRC 3 - The Official Game of the FIA World Rally Championship | Oficial | Europe |  |
-| WRC 4 - The Official Game of the FIA World Rally Championship | Oficial | Australia, Europe |  |
-| WRC II Extreme | Oficial | Australia, Europe |  |
-| Wreckless - The Yakuza Missions | Oficial | Europe |  |
-| WTA Tour Tennis | Oficial | Europe |  |
-| WWE All Stars | Oficial | Australia, Europe |  |
-| WWE Crush Hour | Oficial | Europe |  |
-| WWE SmackDown vs. Raw 2007 | Oficial | Australia, Europe |  |
-| WWE SmackDown vs. Raw 2008 | Oficial | Europe |  |
-| WWE SmackDown vs. Raw 2009 | Oficial | Europe |  |
-| WWE SmackDown vs. Raw 2010 | Oficial | Australia, Europe |  |
-| WWE SmackDown vs. Raw 2011 | Oficial | Australia, Europe |  |
-| WWE SmackDown! Here Comes the Pain | Oficial | Europe |  |
-| WWE SmackDown! Shut Your Mouth | Oficial | Europe |  |
-| WWE SmackDown! vs. Raw | Oficial | Australia, Europe |  |
-| WWE SmackDown! vs. Raw 2006 | Oficial | Australia, Europe |  |
-| WWF SmackDown! Just Bring It | Oficial | Australia, Europe |  |
-| WWI - Aces of the Sky | Oficial | Australia, Europe |  |
-| WWII - Battle over Europe | Oficial | Europe |  |
-| WWII - Battle over the Pacific | Oficial | Europe |  |
-| WWII - Soldier | Oficial | Europe |  |
-| WWII - Tank Battles | Oficial | Europe |  |
-| X Factor Sing, The | Oficial | Europe |  |
-| X Games Skateboarding | Oficial | Europe |  |
-| X Squad | Oficial | Europe |  |
-| Xena - Warrior Princess | Oficial | Europe |  |
-| Xenosaga Episode I - Der Wille zur Macht | Oficial | USA |  |
-| Xenosaga Episode II - Jenseits von Gut und Boese | Oficial | Europe |  |
-| Xenosaga Episode II - Jenseits von Gut und Boese | Oficial | Europe |  |
-| Xenosaga Episode III - Also sprach Zarathustra | Oficial | USA |  |
-| Xenosaga Episode III - Also sprach Zarathustra | Oficial | USA |  |
-| X-Files, The - Resist or Serve | Oficial | Europe |  |
-| XGIII - Extreme G Racing | Oficial | Europe |  |
-| XGRA - Extreme G Racing Association | Oficial | Europe |  |
-| Xiaolin Showdown | Oficial | Europe |  |
-| XII Stag | Oficial | Europe |  |
-| XIII | Oficial | Australia, Europe |  |
-| X-Men - Next Dimension | Oficial | Europe |  |
-| X-Men - The Official Game | Oficial | Europe |  |
-| X-Men 2 - Wolverine's Revenge | Oficial | Europe |  |
-| X-Men Legends | Oficial | Europe |  |
-| X-Men Legends II - Rise of Apocalypse | Oficial | Europe |  |
-| X-Men Origins - Wolverine | Oficial | Europe |  |
-| XS Junior League Soccer | Oficial | Europe |  |
-| X-treme Express - World Grand Prix | Oficial | Europe |  |
-| X-treme Quads | Oficial | Europe |  |
-| Xtreme Speed | Oficial | Europe |  |
-| Xyanide - Resurrection | Oficial | Europe |  |
-| Yakuza | Oficial | Europe |  |
-| Yakuza 2 | Oficial | Europe |  |
-| Yakuza Fury | Oficial | Europe |  |
-| Yanya Caballista - City Skater | Oficial | USA |  |
-| Yetisports Arctic Adventures | Oficial | Europe |  |
-| Yourself!Fitness | Oficial | USA |  |
-| Ys - The Ark of Napishtim | Oficial | Europe |  |
-| Yu Yu Hakusho - Dark Tournament | Oficial | Europe |  |
-| Yu-Gi-Oh! Capsule Monster Coliseum | Oficial | Europe |  |
-| Yu-Gi-Oh! GX - Tag Force Evolution | Oficial | Europe |  |
-| Yu-Gi-Oh! The Duelists of the Roses | Oficial | Europe |  |
-| Zapper | Oficial | Europe |  |
-| Zatch Bell! Mamodo Battles | Oficial | USA |  |
-| Zatch Bell! Mamodo Fury | Oficial | USA |  |
-| Zathura | Oficial | Europe |  |
-| Zombie Attack | Oficial | Europe |  |
-| Zombie Hunters 2 | Oficial | Europe |  |
-| Zombie Virus | Oficial | Europe |  |
-| Zombie Zone - Other Side | Oficial | Europe |  |
-| Zone of the Enders | Oficial | Europe |  |
-| Zone of the Enders - The 2nd Runner | Oficial | Europe |  |
-| Zoo Puzzle | Oficial | Europe |  |
-| ZooCube | Oficial | Europe |  |
+| Nombre | Categoria | Regiones | Discos | Alias |
+| --- | --- | --- | --- | --- |
+| 007 - Agent Under Fire | Oficial | Europe | 1 |  |
+| 007 - Everything or Nothing | Oficial | Europe | 1 |  |
+| 007 - From Russia with Love | Oficial | Europe | 1 |  |
+| 007 - Nightfire | Oficial | Europe | 1 |  |
+| 007 - Quantum of Solace | Oficial | Australia, Europe | 1 |  |
+| 10 Pin - Champions Alley | Oficial | Europe | 1 |  |
+| 10.000 Bullets | Oficial | Europe | 1 |  |
+| 18 Wheeler - American Pro Trucker | Oficial | Europe | 1 |  |
+| 187 - Ride or Die | Oficial | Australia, Europe | 1 |  |
+| 1945 I & II | Oficial | Europe | 1 |  |
+| 2002 FIFA World Cup | Oficial | Spain | 1 |  |
+| 21 Card Games | Oficial | Australia, Europe | 1 |  |
+| 24 - The Game | Oficial | Australia, Europe | 1 |  |
+| 25 to Life | Oficial | Europe | 1 |  |
+| 4x4 Evo | Oficial | Europe | 1 |  |
+| 4x4 Evo 2 | Oficial | Europe | 1 |  |
+| 50 Cent - Bulletproof | Oficial | Europe | 1 |  |
+| 7 Blades | Oficial | Europe | 1 |  |
+| 7 Sins | Oficial | Europe | 1 |  |
+| 7 Wonders of the Ancient World | Oficial | Europe | 1 |  |
+| AC-DC Live - Rock Band | Oficial | Australia, Europe | 1 |  |
+| Ace Combat - Distant Thunder | Oficial | Australia, Europe | 1 |  |
+| Ace Combat - Squadron Leader | Oficial | Australia, Europe | 1 |  |
+| Ace Combat - The Belkan War | Oficial | Australia, Europe | 1 |  |
+| Ace Lightning | Oficial | Europe | 1 |  |
+| Aces of War | Oficial | Europe | 1 |  |
+| Action Girlz Racing | Oficial | Europe | 1 |  |
+| Action Man A.T.O.M. - Alpha Teens on Machines | Oficial | Europe | 1 |  |
+| Activision Anthology | Oficial | Australia, Europe | 1 |  |
+| Adiboo and the Energy Thieves | Oficial | Europe | 1 |  |
+| Aeon Flux | Oficial | Europe | 1 |  |
+| Aero Elite - Combat Academy | Oficial | USA | 1 |  |
+| AFL Live 2003 | Oficial | Australia | 1 |  |
+| AFL Live 2004 - Aussie Rules Football | Oficial | Europe | 1 |  |
+| AFL Live Premiership Edition | Oficial | Australia | 1 |  |
+| AFL Premiership 2005 | Oficial | Australia | 1 |  |
+| AFL Premiership 2006 | Oficial | Australia | 1 |  |
+| AFL Premiership 2007 | Oficial | Australia | 1 |  |
+| Agassi Tennis Generation | Oficial | Europe | 1 |  |
+| Age of Empires II - The Age of Kings | Oficial | Europe | 1 |  |
+| Agent Hugo | Oficial | Europe | 1 |  |
+| Agent Hugo - Hula Holiday | Oficial | Europe | 1 |  |
+| Agent Hugo - Lemoon Twist | Oficial | Europe | 1 |  |
+| Agent Hugo - RoboRumble | Oficial | Europe | 1 |  |
+| Aggressive Inline | Oficial | Europe | 1 |  |
+| Air Raid 3 | Oficial | Europe | 1 |  |
+| Air Ranger - Rescue Helicopter | Oficial | Europe | 1 |  |
+| AirBlade | Oficial | Australia, Europe | 1 |  |
+| Airborne Troops - Countdown to D-Day | Oficial | Europe | 1 |  |
+| Akira Psycho Ball | Oficial | Europe | 1 |  |
+| Alan Hansen's Sports Challenge | Oficial | Europe | 1 |  |
+| Alarm for Cobra 11 | Oficial | Europe | 1 |  |
+| Alarm for Cobra 11 - Vol. II | Oficial | Europe | 1 |  |
+| Alex Ferguson's Player Manager 2001 | Oficial | Europe | 1 |  |
+| Alias | Oficial | Europe | 1 |  |
+| Alien Hominid | Oficial | Australia, Europe | 1 |  |
+| Aliens in the Attic | Oficial | Europe | 1 |  |
+| Aliens Versus Predator - Extinction | Oficial | Europe | 1 |  |
+| All-Star Baseball 2002 | Oficial | Europe | 1 |  |
+| All-Star Baseball 2003 featuring Derek Jeter | Oficial | Europe | 1 |  |
+| All-Star Baseball 2004 featuring Derek Jeter | Oficial | Europe | 1 |  |
+| All-Star Baseball 2005 featuring Derek Jeter | Oficial | USA | 1 |  |
+| All-Star Fighters | Oficial | Europe | 1 |  |
+| Alone in the Dark | Oficial | Europe | 1 |  |
+| Alone in the Dark - The New Nightmare | Oficial | Europe | 1 |  |
+| Alpine Racer 3 | Oficial | Europe | 1 |  |
+| Alpine Ski Racing 2007 - Bode Miller vs. Hermann Maier | Oficial | Europe | 1 |  |
+| Alpine Skiing 2005 | Oficial | Europe | 1 |  |
+| Alter Echo | Oficial | Europe | 1 |  |
+| Altered Beast | Oficial | Europe | 1 |  |
+| Alvin and the Chipmunks | Oficial | Europe | 1 |  |
+| American Chopper | Oficial | Australia, Europe | 1 |  |
+| American Chopper 2 - Full Throttle | Oficial | Europe | 1 |  |
+| American Idol | Oficial | USA | 1 |  |
+| American Tail, An | Oficial | Europe | 1 |  |
+| America's 10 Most Wanted | Oficial | Europe | 1 |  |
+| AMF Xtreme Bowling 2006 | Oficial | Europe | 1 |  |
+| Amplitude | Oficial | Europe | 1 |  |
+| AND 1 Streetball | Oficial | Europe | 1 |  |
+| Animal Soccer World | Oficial | Europe | 1 |  |
+| Animaniacs - The Great Edgar Hunt | Oficial | Europe | 1 |  |
+| Ant Bully, The | Oficial | Europe | 1 |  |
+| Antz Extreme Racing | Oficial | Europe | 1 |  |
+| Anubis II | Oficial | Europe | 1 |  |
+| Ape Escape - Pumped & Primed | Oficial | USA | 1 |  |
+| Ape Escape 2 | Oficial | Spain | 1 |  |
+| Ape Escape 3 | Oficial | Europe | 1 |  |
+| Aqua Aqua - Wetrix 2 | Oficial | Europe | 1 |  |
+| Aqua Teen Hunger Force - Zombie Ninja Pro-Am | Oficial | Europe | 1 |  |
+| Ar Tonelico - Melody of Elemia | Oficial | Europe | 1 |  |
+| Ar Tonelico II - Melody of Metafalica | Oficial | Europe | 1 |  |
+| Arc - Twilight of the Spirits | Oficial | Europe | 1 |  |
+| Arc the Lad - End of Darkness | Oficial | USA | 1 |  |
+| Arcade Action - 30 Games | Oficial | Europe | 1 |  |
+| Arcade Classics Volume 1 | Oficial | Europe | 1 |  |
+| Arcade USA | Oficial | Australia, Europe | 1 |  |
+| Arcade, The | Oficial | Europe | 1 |  |
+| Arcana Heart | Oficial | USA | 1 |  |
+| Arctic Thunder | Oficial | Europe | 1 |  |
+| Are You Smarter than a 5th Grader Make the Grade | Oficial | USA | 1 |  |
+| Area 51 | Oficial | Europe | 1 |  |
+| Arena Football | Oficial | USA | 1 |  |
+| Arena Football - Road to Glory | Oficial | USA | 1 |  |
+| Armored Core - Last Raven | Oficial | Europe | 1 |  |
+| Armored Core - Nexus | Oficial | Europe | 2 |  |
+| Armored Core - Nine Breaker | Oficial | Europe | 1 |  |
+| Armored Core 2 | Oficial | Europe | 1 |  |
+| Armored Core 2 - Another Age | Oficial | Europe | 1 |  |
+| Armored Core 3 | Oficial | Europe | 1 |  |
+| Army Men - Air Attack - Blade's Revenge | Oficial | Europe | 1 |  |
+| Army Men - Green Rogue | Oficial | Europe | 1 |  |
+| Army Men - Major Malfunction | Oficial | Australia, Europe | 1 |  |
+| Army Men - RTS | Oficial | Europe | 1 |  |
+| Army Men - Sarge's Heroes 2 | Oficial | Europe | 1 |  |
+| Army Men - Sarge's War | Oficial | Europe | 1 |  |
+| Army Men - Soldiers of Misfortune | Oficial | USA | 1 |  |
+| Art of Fighting Anthology | Oficial | Europe | 1 |  |
+| Arthur and the Minimoys | Oficial | Europe | 1 |  |
+| Artlist Collection - The Dog Island | Oficial | Australia, Europe | 1 |  |
+| Assault Suits Valken | Oficial | Europe | 1 |  |
+| Asterix & Obelix XXL | Oficial | Europe | 1 |  |
+| Asterix & Obelix XXL 2 | Oficial | Europe | 1 |  |
+| Asterix at the Olympic Games | Oficial | Europe | 1 |  |
+| Astro Boy | Oficial | Europe | 1 |  |
+| Astro Boy - The Video Game | Oficial | Europe | 1 |  |
+| Atari Anthology | Oficial | Europe | 1 |  |
+| Atelier Iris - Eternal Mana | Oficial | Europe | 1 |  |
+| Atelier Iris 2 - The Azoth of Destiny | Oficial | Europe | 1 |  |
+| Atelier Iris 3 - Grand Phantasm | Oficial | Europe | 1 |  |
+| Athens 2004 | Oficial | Australia, Europe | 1 |  |
+| Atlantis III - The New World | Oficial | Europe | 1 |  |
+| A-Train 6 | Oficial | Europe | 1 |  |
+| Attheraces Presents Gallop Racer | Oficial | Europe | 1 |  |
+| ATV - Quad Power Racing 2 | Oficial | Europe | 1 |  |
+| ATV Offroad - All Terrain Vehicle | Oficial | Europe | 1 |  |
+| ATV Offroad Fury 2 | Oficial | Australia, Europe | 1 |  |
+| ATV Offroad Fury 3 | Oficial | Europe | 1 |  |
+| ATV Offroad Fury 4 | Oficial | Europe | 1 |  |
+| Australian Idol Sing | Oficial | Australia | 1 |  |
+| Auto Modellista | Oficial | Europe | 1 |  |
+| Azur & Asmar | Oficial | Europe | 1 |  |
+| Babe | Oficial | Europe | 1 |  |
+| Backyard Baseball | Oficial | USA | 1 |  |
+| Backyard Baseball '09 | Oficial | USA | 1 |  |
+| Backyard Baseball '10 | Oficial | USA | 1 |  |
+| Backyard Basketball | Oficial | USA | 1 |  |
+| Backyard Football '08 | Oficial | USA | 1 |  |
+| Backyard Football '09 | Oficial | USA | 1 |  |
+| Backyard Football '10 | Oficial | USA | 1 |  |
+| Backyard Football 2006 | Oficial | USA | 1 |  |
+| Backyard Sports - Baseball 2007 | Oficial | USA | 1 |  |
+| Backyard Sports - Basketball 2007 | Oficial | USA | 1 |  |
+| Backyard Wrestling - Don't Try This at Home | Oficial | Europe | 1 |  |
+| Backyard Wrestling 2 - There Goes the Neighborhood | Oficial | Europe | 1 |  |
+| Bad Boys II | Oficial | Europe | 1 |  |
+| Bakugan - Battle Brawlers | Oficial | Europe | 1 |  |
+| Baldur's Gate - Dark Alliance | Oficial | Australia, Europe | 1 |  |
+| Baldur's Gate - Dark Alliance II | Oficial | Europe | 1 |  |
+| Band Hero | Oficial | Australia, Europe | 1 |  |
+| Barbarian | Oficial | Europe | 1 |  |
+| Barbie as the Island Princess | Oficial | Australia, Europe | 1 |  |
+| Barbie Horse Adventures - Riding Camp | Oficial | Europe | 1 |  |
+| Barbie Horse Adventures - Wild Horse Rescue | Oficial | Europe | 1 |  |
+| Barbie in The 12 Dancing Princesses | Oficial | Europe | 1 |  |
+| Bard's Tale, The | Oficial | Europe | 1 |  |
+| Baroque | Oficial | Europe | 1 |  |
+| Basketball Xciting | Oficial | Europe | 1 |  |
+| Bass Master Fishing | Oficial | Europe | 1 |  |
+| Bass Strike | Oficial | Europe | 1 |  |
+| Batman - Rise of Sin Tzu | Oficial | Europe | 1 |  |
+| Batman - Vengeance | Oficial | Europe | 1 |  |
+| Batman Begins | Oficial | Europe | 1 |  |
+| Battle Assault 3 featuring Gundam Seed | Oficial | USA | 1 |  |
+| Battle Engine Aquila | Oficial | Europe | 1 |  |
+| Battlefield 2 - Modern Combat | Oficial | Europe | 1 |  |
+| Battlestar Galactica | Oficial | Europe | 1 |  |
+| B-Boy | Oficial | Europe | 1 |  |
+| BCV - Battle Construction Vehicles | Oficial | Europe | 1 |  |
+| Beach King Stunt Racer | Oficial | Europe | 1 |  |
+| Beat Down - Fists of Vengeance | Oficial | Europe | 1 |  |
+| Beatmania | Oficial | USA | 1 |  |
+| Beatmania II DX 8th Style | Oficial | Japan | 1 |  |
+| Ben 10 - Alien Force | Oficial | Europe | 1 |  |
+| Ben 10 - Alien Force - Vilgax Attacks | Oficial | Europe | 1 |  |
+| Ben 10 - Protector of Earth | Oficial | Europe | 1 |  |
+| Ben 10 - Ultimate Alien - Cosmic Destruction | Oficial | Europe | 1 |  |
+| Ben Hur - Blood of Braves | Oficial | Europe | 1 |  |
+| Beta Bloc | Oficial | Europe | 1 |  |
+| Beverly Hills Cop | Oficial | Europe | 1 |  |
+| Beyond Good & Evil | Oficial | Australia, Europe | 1 |  |
+| Bible Game, The | Oficial | Europe | 1 |  |
+| Big Idea's VeggieTales - LarryBoy and the Bad Apple | Oficial | USA | 1 |  |
+| Big Mutha Truckers | Oficial | Europe | 1 |  |
+| Big Mutha Truckers 2 - Truck Me Harder | Oficial | Europe | 1 |  |
+| Bigs 2, The | Oficial | USA | 1 |  |
+| Bigs, The | Oficial | USA | 1 |  |
+| Biker Mice from Mars | Oficial | Europe | 1 |  |
+| Billiards Xciting | Oficial | Europe | 1 |  |
+| Billy the Wizard - Rocket Broomstick Racing | Oficial | Europe | 1 |  |
+| Bionicle | Oficial | Europe | 1 |  |
+| Bionicle Heroes | Oficial | Europe | 1 |  |
+| Black | Oficial | Europe | 1 |  |
+| Black & Bruised | Oficial | Europe | 1 |  |
+| Black Buccaneer | Oficial | Europe | 1 |  |
+| Black Market Bowling | Oficial | Australia, Europe | 1 |  |
+| Blade II | Oficial | Europe | 1 |  |
+| Blitz - The League | Oficial | USA | 1 |  |
+| Blood Omen 2 - The Legacy of Kain Series | Oficial | Europe | 1 |  |
+| Blood Will Tell - Tezuka Osamu's Dororo | Oficial | Europe | 1 |  |
+| BloodRayne | Oficial | Europe | 1 |  |
+| BloodRayne 2 | Oficial | Europe | 1 |  |
+| Bloody Roar 3 | Oficial | Europe | 1 |  |
+| Bloody Roar 4 | Oficial | Europe | 1 |  |
+| Blowout | Oficial | Europe | 1 |  |
+| BMX XXX | Oficial | Europe | 1 |  |
+| Board Games Gallery | Oficial | Europe | 1 |  |
+| Bob the Builder | Oficial | Europe | 1 |  |
+| Bob the Builder - Festival of Fun | Oficial | Europe | 1 |  |
+| Bode Miller Alpine Skiing | Oficial | USA | 1 |  |
+| Bombastic | Oficial | Europe | 1 |  |
+| Bomberman Hardball | Oficial | Europe | 1 |  |
+| Bomberman Kart | Oficial | Europe | 1 |  |
+| Boogie | Oficial | Australia, Europe | 1 |  |
+| Bouncer, The | Oficial | Europe | 1 |  |
+| Bowling Xciting | Oficial | Europe | 1 |  |
+| Boxing Champions | Oficial | Europe | 1 |  |
+| Bratz - Forever Diamondz | Oficial | Australia, Europe | 1 |  |
+| Bratz - Girlz Really Rock | Oficial | Europe | 1 |  |
+| Bratz - Rock Angelz | Oficial | Spain | 1 |  |
+| Bratz - The Movie | Oficial | Europe | 1 |  |
+| Brave - The Search for Spirit Dancer | Oficial | Australia, Europe | 1 |  |
+| Breath of Fire - Dragon Quarter | Oficial | Europe | 1 |  |
+| Breeders' Cup - World Thoroughbred Championships | Oficial | USA | 1 |  |
+| Brian Lara International Cricket 2005 | Oficial | Europe | 1 |  |
+| Brian Lara International Cricket 2007 | Oficial | Europe | 1 |  |
+| Britney's Dance Beat | Oficial | Europe | 1 |  |
+| Broken Sword - The Sleeping Dragon | Oficial | Australia, Europe | 1 |  |
+| Brothers in Arms - Earned in Blood | Oficial | Europe | 1 |  |
+| Brothers in Arms - Road to Hill 30 | Oficial | Australia, Europe | 1 |  |
+| Brunswick Pro Bowling | Oficial | Europe | 1 |  |
+| Buccaneer | Oficial | Europe | 1 |  |
+| Buffy the Vampire Slayer - Chaos Bleeds | Oficial | Europe | 1 |  |
+| Bujingai - Swordmaster | Oficial | Europe | 1 |  |
+| Burnout | Oficial | Europe | 1 |  |
+| Burnout 2 - Point of Impact | Oficial | Europe | 1 |  |
+| Burnout 3 - Takedown | Oficial | Australia, Europe | 1 |  |
+| Burnout Dominator | Oficial | Europe | 1 |  |
+| Burnout Revenge | Oficial | Europe | 1 |  |
+| Bust-A-Bloc | Oficial | Europe | 1 |  |
+| Butt-Ugly Martians - Zoom or Doom! | Oficial | Europe | 1 |  |
+| Buzz! El Gran Concurso de Deportes | Oficial | Spain | 1 |  |
+| Buzz! El Gran Reto | Oficial | Spain | 1 |  |
+| Buzz! El Mega Concurso | Oficial | Spain | 1 |  |
+| Buzz! Escuela de Talentos | Oficial | Spain | 1 |  |
+| Buzz! Hollywood | Oficial | Europe | 1 |  |
+| Buzz! Junior - Ace Racers | Oficial | Australia, Europe | 1 |  |
+| Buzz! Junior - Dino Den | Oficial | Australia, Europe | 1 |  |
+| Buzz! Junior - Jungle Party | Oficial | Australia, Europe | 1 |  |
+| Buzz! Junior - Monster Rumble | Oficial | Australia, Europe | 1 |  |
+| Buzz! Junior - RoboJam | Oficial | Australia, Europe | 1 |  |
+| Buzz! Que Sabes de tu Pais | Oficial | Europe | 1 |  |
+| Buzz! The Music Quiz | Oficial | Europe | 1 |  |
+| Buzz! The Pop Quiz | Oficial | Europe | 1 |  |
+| Cabela's African Safari | Oficial | USA | 1 |  |
+| Cabela's Alaskan Adventures | Oficial | USA | 1 |  |
+| Cabela's Big Game Hunter | Oficial | Australia, Europe | 1 |  |
+| Cabela's Big Game Hunter 2005 Adventures | Oficial | Australia, Europe | 1 |  |
+| Cabela's Big Game Hunter 2008 | Oficial | Europe | 1 |  |
+| Cabela's Dangerous Adventures | Oficial | Europe | 1 |  |
+| Cabela's Dangerous Hunts | Oficial | Australia, Europe | 1 |  |
+| Cabela's Dangerous Hunts 2 | Oficial | USA | 1 |  |
+| Cabela's Deer Hunt - 2004 Season | Oficial | USA | 1 |  |
+| Cabela's Deer Hunt - 2005 Season | Oficial | USA | 1 |  |
+| Cabela's Legendary Adventures | Oficial | USA | 1 |  |
+| Cabela's Monster Bass | Oficial | USA | 1 |  |
+| Cabela's North American Adventures | Oficial | USA | 1 |  |
+| Cabela's Outdoor Adventures | Oficial | USA | 2 |  |
+| Cabela's Trophy Bucks | Oficial | USA | 1 |  |
+| Cake Mania - Baker's Challenge | Oficial | USA | 1 |  |
+| Call of Duty - Finest Hour | Oficial | Europe | 1 |  |
+| Call of Duty - World at War - Final Fronts | Oficial | Europe | 1 |  |
+| Call of Duty 2 - Big Red One | Oficial | Europe | 1 |  |
+| Call of Duty 3 | Oficial | Europe | 1 |  |
+| Canis Canem Edit | Oficial | Australia, Europe | 1 |  |
+| Capcom Classics Collection | Oficial | Europe | 1 |  |
+| Capcom Classics Collection Vol. 2 | Oficial | Australia, Europe | 1 |  |
+| Capcom Fighting Jam | Oficial | Australia, Europe | 1 |  |
+| Capcom vs. SNK 2 - Mark of the Millennium 2001 | Oficial | Europe | 1 |  |
+| Captain Scarlet | Oficial | Europe | 1 |  |
+| Car Racing Challenge | Oficial | Europe | 1 |  |
+| Carmen Sandiego - The Secret of the Stolen Drums | Oficial | Europe | 1 |  |
+| Carol Vorderman's Sudoku | Oficial | Europe | 1 |  |
+| CART Fury - Championship Racing | Oficial | Europe | 1 |  |
+| Cartoon Kingdom | Oficial | Europe | 1 |  |
+| Cartoon Network Racing | Oficial | Europe | 1 |  |
+| Carwash Tycoon | Oficial | Europe | 1 |  |
+| Casino Challenge | Oficial | Europe | 1 |  |
+| Casper - Spirit Dimensions | Oficial | Europe | 1 |  |
+| Casper and the Ghostly Trio | Oficial | Europe | 1 |  |
+| Casper's Scare School | Oficial | Europe | 1 |  |
+| Castle Shikigami 2 | Oficial | Europe | 1 |  |
+| Castlevania | Oficial | Europe | 1 |  |
+| Castlevania - Curse of Darkness | Oficial | Europe | 1 |  |
+| Castleween | Oficial | Europe | 1 |  |
+| Cat in the Hat, The | Oficial | Europe | 1 |  |
+| Catwoman | Oficial | Europe | 1 |  |
+| Catz | Oficial | Europe | 1 |  |
+| Caveman Rock | Oficial | Europe | 1 |  |
+| Cel Damage Overdrive | Oficial | Europe | 1 |  |
+| Centre Court - Hard Hitter | Oficial | Australia, Europe | 1 |  |
+| Champions - Return to Arms | Oficial | Europe | 1 |  |
+| Champions of Norrath | Oficial | Spain | 1 |  |
+| Championship Manager 2006 | Oficial | Europe | 1 |  |
+| Championship Manager 2007 | Oficial | Europe | 1 |  |
+| Championship Manager 5 | Oficial | Spain | 1 |  |
+| Chaos Legion | Oficial | Europe | 1 |  |
+| Chaos Wars | Oficial | USA | 1 |  |
+| Charlie and the Chocolate Factory | Oficial | Europe | 1 |  |
+| Charlie's Angels | Oficial | Europe | 1 |  |
+| Charlotte's Web | Oficial | Europe | 1 |  |
+| Cheggers Party Quiz | Oficial | Europe | 1 |  |
+| Chemist Tycoon | Oficial | Europe | 1 |  |
+| Chess Challenger | Oficial | Europe | 1 |  |
+| Chessmaster | Oficial | Europe | 1 |  |
+| Choro Q | Oficial | Europe | 1 |  |
+| Chronicles of Narnia, The - Prince Caspian | Oficial | Europe | 1 |  |
+| Chulip | Oficial | USA | 1 |  |
+| CID the Dummy | Oficial | Europe | 1 |  |
+| Cinderella | Oficial | Europe | 1 |  |
+| Circuit Blasters | Oficial | Europe | 1 |  |
+| Circus Maximus - Chariot Wars | Oficial | Europe | 1 |  |
+| City Crisis | Oficial | Europe | 1 |  |
+| City Soccer Challenge | Oficial | Australia, Europe | 1 |  |
+| Classic British Motor Racing | Oficial | Europe | 1 |  |
+| Clever Kids - Dino Land | Oficial | Europe | 1 |  |
+| Clever Kids - Pony World | Oficial | Australia, Europe | 1 |  |
+| Clock Tower 3 | Oficial | Europe | 1 |  |
+| Club Football - AC Milan | Oficial | Europe | 1 |  |
+| Club Football - Ajax Amsterdam | Oficial | Europe | 1 |  |
+| Club Football - Arsenal | Oficial | Europe | 1 |  |
+| Club Football - FC Barcelona | Oficial | Europe | 1 |  |
+| Club Football - FC Bayern Muenchen | Oficial | Europe | 1 |  |
+| Club Football - FC Internazionale | Oficial | Europe | 1 |  |
+| Club Football - Juventus | Oficial | Europe | 1 |  |
+| Club Football - Liverpool FC | Oficial | Europe | 1 |  |
+| Club Football - Manchester United | Oficial | Europe | 1 |  |
+| Club Football - Real Madrid | Oficial | Europe | 1 |  |
+| Club Football 2005 - AC Milan | Oficial | Europe | 1 |  |
+| Club Football 2005 - Ajax Amsterdam | Oficial | Europe | 1 |  |
+| Club Football 2005 - Arsenal | Oficial | Europe | 1 |  |
+| Club Football 2005 - FC Barcelona | Oficial | Europe | 1 |  |
+| Club Football 2005 - FC Bayern Muenchen | Oficial | Europe | 1 |  |
+| Club Football 2005 - FC Internazionale | Oficial | Europe | 1 |  |
+| Club Football 2005 - Juventus | Oficial | Europe | 1 |  |
+| Club Football 2005 - Liverpool FC | Oficial | Europe | 1 |  |
+| Club Football 2005 - Manchester United | Oficial | Europe | 1 |  |
+| Club Football 2005 - Olympique de Marseille | Oficial | Europe | 1 |  |
+| Club Football 2005 - Real Madrid | Oficial | Europe | 1 |  |
+| Clumsy Shumsy | Oficial | Europe | 1 |  |
+| CMT Presents - Karaoke Revolution - Country | Oficial | USA | 1 |  |
+| Cocoto Fishing Master | Oficial | Europe | 1 |  |
+| Cocoto Kart Racer | Oficial | Europe | 1 |  |
+| Cocoto Platform Jumper | Oficial | Europe | 1 |  |
+| Code Lyoko - Quest for Infinity | Oficial | Europe | 1 |  |
+| Code of the Samurai | Oficial | Europe | 1 |  |
+| Codename - Kids Next Door - Operation - V.I.D.E.O.G.A.M.E. | Oficial | Australia, Europe | 1 |  |
+| Cold Fear | Oficial | Europe | 1 |  |
+| Cold Winter | Oficial | Europe | 1 |  |
+| Colin McRae Rally 04 | Oficial | Australia, Europe | 1 |  |
+| Colin McRae Rally 2005 | Oficial | Europe | 1 |  |
+| Colin McRae Rally 3 | Oficial | Australia, Europe | 1 |  |
+| College Hoops 2K6 | Oficial | USA | 1 |  |
+| College Hoops 2K7 | Oficial | USA | 1 |  |
+| College Hoops 2K8 | Oficial | USA | 1 |  |
+| Colosseum - Road to Freedom | Oficial | Europe | 1 |  |
+| Combat Ace | Oficial | Europe | 1 |  |
+| Combat Elite - WWII Paratroopers | Oficial | USA | 1 |  |
+| Commandos - Strike Force | Oficial | Europe | 1 |  |
+| Commandos 2 - Men of Courage | Oficial | Europe | 1 |  |
+| Conan | Oficial | Europe | 1 |  |
+| Conflict - Desert Storm | Oficial | Europe | 1 |  |
+| Conflict - Desert Storm II | Oficial | Europe | 1 |  |
+| Conflict - Global Storm | Oficial | Europe | 1 |  |
+| Conflict - Vietnam | Oficial | Europe | 1 |  |
+| Conflict Zone | Oficial | Europe | 1 |  |
+| Conspiracy - Weapons of Mass Destruction | Oficial | Europe | 1 |  |
+| Constantine | Oficial | Europe | 1 |  |
+| Contra - Shattered Soldier | Oficial | Europe | 1 |  |
+| Cool Boarders 2001 | Oficial | USA | 1 |  |
+| Cool Shot | Oficial | Europe | 1 |  |
+| Coraline | Oficial | Europe | 1 |  |
+| Corvette | Oficial | Europe | 1 |  |
+| Counter Terrorist Special Forces - Fire for Effect | Oficial | Europe | 1 |  |
+| Countryside Bears | Oficial | Europe | 1 |  |
+| Covert Command | Oficial | Europe | 1 |  |
+| Crabby Adventure | Oficial | Europe | 1 |  |
+| Crash - Mind over Mutant | Oficial | Australia, Europe | 1 |  |
+| Crash Bandicoot - The Wrath of Cortex | Oficial | Europe | 1 |  |
+| Crash 'n' Burn | Oficial | Europe | 1 |  |
+| Crash Nitro Kart | Oficial | Europe | 1 |  |
+| Crash of the Titans | Oficial | Australia, Europe | 1 |  |
+| Crash Tag Team Racing | Oficial | Australia, Europe | 1 |  |
+| Crash Twinsanity | Oficial | Australia, Europe | 1 |  |
+| Crashed | Oficial | Europe | 1 |  |
+| Crazy Chicken X | Oficial | Europe | 1 |  |
+| Crazy Frog Racer | Oficial | Europe | 1 |  |
+| Crazy Frog Racer 2 | Oficial | Europe | 1 |  |
+| Crazy Golf | Oficial | Australia, Europe | 1 |  |
+| Crazy Golf - World Tour | Oficial | Europe | 1 |  |
+| Crazy Taxi | Oficial | Australia, Europe | 1 |  |
+| Crescent Suzuki Racing | Oficial | Europe | 1 |  |
+| Cricket 07 | Oficial | Australia, Europe | 1 |  |
+| Cricket 2002 | Oficial | Europe | 1 |  |
+| Cricket 2004 | Oficial | Europe | 1 |  |
+| Cricket 2005 | Oficial | Europe | 1 |  |
+| Crime Life - Gang Wars | Oficial | Europe | 1 |  |
+| Crimson Sea 2 | Oficial | Europe | 1 |  |
+| Crimson Tears | Oficial | Europe | 1 |  |
+| Crisis Zone | Oficial | Australia, Europe | 1 |  |
+| Cronicas de Narnia, Las - El Leon, la Bruja y el Armario | Oficial | Spain | 1 |  |
+| Crouching Tiger, Hidden Dragon | Oficial | Europe | 1 |  |
+| Crusty Demons | Oficial | Europe | 1 |  |
+| CSI - Crime Scene Investigation | Oficial | Australia, Europe | 1 |  |
+| Cubix Robots for Everyone - Showdown | Oficial | USA | 1 |  |
+| Cue Academy - Snooker, Pool, Billiards | Oficial | Europe | 1 |  |
+| Culdcept | Oficial | USA | 1 |  |
+| Curious George | Oficial | Europe | 1 |  |
+| Curse - The Eye of Isis | Oficial | Europe | 1 |  |
+| Cy Girls | Oficial | Europe | 2 |  |
+| Cyber Troopers - Virtual-On Marz | Oficial | USA | 1 |  |
+| Cyclone Circus | Oficial | Europe | 1 |  |
+| Da Vinci Code, The | Oficial | Australia, Europe | 1 |  |
+| Daemon Summoner | Oficial | Europe | 1 |  |
+| Dai Senryaku VII - Modern Military Tactics Exceed | Oficial | USA | 1 |  |
+| Dakar 2 | Oficial | Europe | 1 |  |
+| Dalmatians 3 | Oficial | Europe | 1 |  |
+| Dance Dance Revolution - Disney Channel Edition | Oficial | USA | 1 |  |
+| Dance Dance Revolution X | Oficial | USA | 1 |  |
+| Dance Dance Revolution X2 | Oficial | USA | 1 |  |
+| Dance Europe | Oficial | Europe | 1 |  |
+| Dance Factory | Oficial | Europe | 1 |  |
+| Dance Fest | Oficial | Europe | 1 |  |
+| Dance Party Club Hits | Oficial | Europe | 1 |  |
+| Dance Party Pop Hits | Oficial | Europe | 1 |  |
+| Dancing Stage Fever | Oficial | Europe | 1 |  |
+| Dancing Stage Fusion | Oficial | Europe | 1 |  |
+| Dancing Stage Max | Oficial | Europe | 1 |  |
+| Dancing Stage MegaMix | Oficial | Europe | 1 |  |
+| Dancing Stage SuperNova | Oficial | Europe | 1 |  |
+| Dancing Stage SuperNova 2 | Oficial | Europe | 1 |  |
+| Dancing with the Stars | Oficial | USA | 1 |  |
+| Dark Angel - Vampire Apocalypse | Oficial | USA | 1 |  |
+| Dark Chronicle | Oficial | Europe | 1 |  |
+| Dark Cloud | Oficial | Europe | 1 |  |
+| Dark Summit | Oficial | Europe | 1 |  |
+| Dark Wind | Oficial | Europe | 1 |  |
+| Darkwatch | Oficial | Australia, Europe | 1 |  |
+| Darwin | Oficial | Europe | 1 |  |
+| Dave Mirra Freestyle BMX 2 | Oficial | Europe | 1 |  |
+| David Beckham Soccer | Oficial | Europe | 1 |  |
+| Dawn of Mana | Oficial | USA | 1 |  |
+| DDRMAX2 - Dance Dance Revolution | Oficial | USA | 1 |  |
+| Dead Eye Jim | Oficial | Europe | 1 |  |
+| Dead to Rights | Oficial | Europe | 1 |  |
+| Dead to Rights II | Oficial | Europe | 1 |  |
+| Deadly Skies III | Oficial | Europe | 1 |  |
+| Deadly Strike | Oficial | Europe | 1 |  |
+| Deep Water | Oficial | Europe | 1 |  |
+| Deer Hunter | Oficial | USA | 1 |  |
+| Def Jam - Fight for NY | Oficial | Australia, Europe | 1 |  |
+| Def Jam - Vendetta | Oficial | Europe | 1 |  |
+| Defender - For All Mankind | Oficial | Europe | 1 |  |
+| Delta Force - Black Hawk Down | Oficial | Europe | 1 |  |
+| Delta Force - Black Hawk Down - Team Sabre | Oficial | Europe | 1 |  |
+| Demolition Girl | Oficial | Europe | 1 |  |
+| Demon Chaos | Oficial | Europe | 1 |  |
+| Despicable Me - The Game | Oficial | Europe | 1 |  |
+| Destroy All Humans! | Oficial | Australia, Europe | 1 |  |
+| Destroy All Humans! 2 | Oficial | Europe | 1 |  |
+| Destruction Derby Arenas | Oficial | Europe | 1 |  |
+| Detonator | Oficial | Europe | 1 |  |
+| Deus Ex | Oficial | Spain | 1 |  |
+| Devil Kings | Oficial | Europe | 1 |  |
+| Devil May Cry | Oficial | Europe | 1 |  |
+| Devil May Cry 2 | Oficial | Europe | 2 |  |
+| Devil May Cry 3 - Dante's Awakening | Oficial | Europe | 1 |  |
+| Diabolik - The Original Sin | Oficial | Europe | 1 |  |
+| DICE - DNA Integrated Cybernetic Enterprises | Oficial | USA | 1 |  |
+| Die Hard - Vendetta | Oficial | Europe | 1 |  |
+| Digimon Rumble Arena 2 | Oficial | Europe | 1 |  |
+| Digimon World - Data Squad | Oficial | USA | 1 |  |
+| Digimon World 4 | Oficial | Europe | 1 |  |
+| Dino Stalker | Oficial | Europe | 1 |  |
+| Dinosaur Adventure | Oficial | Europe | 1 |  |
+| Dirge of Cerberus - Final Fantasy VII | Oficial | Australia, Europe | 1 |  |
+| Dirt Track Devils | Oficial | Europe | 1 |  |
+| Disgaea - Hour of Darkness | Oficial | Europe | 1 |  |
+| Disgaea 2 - Cursed Memories | Oficial | Europe | 1 |  |
+| Disney Bolt | Oficial | Europe | 1 |  |
+| Disney Chicken Little - As en Accion | Oficial | Spain | 1 |  |
+| Disney G-Force | Oficial | Europe | 1 |  |
+| Disney Golf | Oficial | Europe | 1 |  |
+| Disney Hannah Montana - Spotlight World Tour | Oficial | Australia, Europe | 1 |  |
+| Disney High School Musical - Sing It! | Oficial | Europe | 1 |  |
+| Disney High School Musical 3 - Senior Year Dance! | Oficial | Europe | 1 |  |
+| Disney Move | Oficial | Europe | 1 |  |
+| Disney Piglet el Gran Juego | Oficial | Spain | 1 |  |
+| Disney Pirates of the Caribbean - At World's End | Oficial | Europe | 1 |  |
+| Disney Princess - Enchanted Journey | Oficial | Europe | 1 |  |
+| Disney Sing It | Oficial | Europe | 1 |  |
+| Disney Sing It - High School Musical 3 - Senior Year | Oficial | Europe | 1 |  |
+| Disney Sing It - Party Hits | Oficial | Australia, Europe | 1 |  |
+| Disney Sing It - Pop Hits | Oficial | Europe | 1 |  |
+| Disney Think Fast | Oficial | Europe | 1 |  |
+| Disney-Pixar Cars | Oficial | Spain | 1 |  |
+| Disney-Pixar Cars - La Copa Internacional de Mate | Oficial | Spain | 1 |  |
+| Disney-Pixar Cars - Race-O-Rama | Oficial | Europe | 1 |  |
+| Disney-Pixar Finding Nemo | Oficial | Europe | 1 |  |
+| Disney-Pixar Los Increibles | Oficial | Spain | 1 |  |
+| Disney-Pixar Monstruos, S.A. - Isla de los Sustos | Oficial | Spain | 1 |  |
+| Disney-Pixar Ratatouille | Oficial | Europe | 1 |  |
+| Disney-Pixar The Incredibles - Rise of the Underminer | Oficial | Europe | 1 |  |
+| Disney-Pixar Toy Story 3 | Oficial | Europe | 1 |  |
+| Disney-Pixar Up | Oficial | Spain | 1 |  |
+| Disney-Pixar WALL-E | Oficial | Europe | 1 |  |
+| Disney's Chicken Little | Oficial | Europe | 1 |  |
+| Disney's Dinosaur | Oficial | Europe | 1 |  |
+| Disney's Donald Duck - Quack Attack | Oficial | Europe | 1 |  |
+| Disney's Donald Duck PK | Oficial | Europe | 1 |  |
+| Disney's Extreme Skate Adventure | Oficial | Europe | 1 |  |
+| Disney's Kim Possible - What's the Switch | Oficial | Europe | 1 |  |
+| Disney's Peter Pan - The Legend of Never Land | Oficial | Europe | 1 |  |
+| Disney's Stitch - Experiment 626 | Oficial | Europe | 1 |  |
+| Disney's Tarzan - Freeride | Oficial | Europe | 1 |  |
+| Disney's The Haunted Mansion | Oficial | Europe | 1 |  |
+| Disney's Treasure Planet | Oficial | Europe | 1 |  |
+| Disney's Winnie the Pooh's Rumbly Tumbly Adventure | Oficial | Europe | 1 |  |
+| DJ - Decks & FX - House Edition | Oficial | Australia, Europe | 1 |  |
+| DJ - Decks & FX - Live Session - Privilege Maxiclubbing Edition | Oficial | Spain | 1 |  |
+| DJ Hero | Oficial | Australia, Europe | 1 |  |
+| DNA - Dark Native Apostle | Oficial | Europe | 1 |  |
+| DOA2 - Hardcore | Oficial | USA | 1 |  |
+| Dodgeball | Oficial | Europe | 1 |  |
+| Dog's Life | Oficial | Australia, Europe | 1 |  |
+| Dogz | Oficial | Europe | 1 |  |
+| Dokapon Kingdom | Oficial | USA | 1 |  |
+| Donkey Xote | Oficial | Europe | 1 |  |
+| Doomsday Racers | Oficial | Europe | 1 |  |
+| Dot Hack G.U. Vol. 1 - Rebirth | Oficial | USA | 1 |  |
+| Dot Hack G.U. Vol. 2 - Reminisce | Oficial | USA | 1 |  |
+| Dot Hack G.U. Vol. 3 - Redemption | Oficial | USA | 1 |  |
+| Dot Hack Part 1 - Infection | Oficial | Europe | 1 |  |
+| Dot Hack Part 2 - Mutation | Oficial | Europe | 1 |  |
+| Dot Hack Part 3 - Outbreak | Oficial | Europe | 1 |  |
+| Dot Hack Part 4 - Quarantine | Oficial | Europe | 1 |  |
+| Downforce | Oficial | Europe | 1 |  |
+| Downhill Domination | Oficial | Europe | 1 |  |
+| Downhill Slalom | Oficial | Europe | 1 |  |
+| Downtown Run | Oficial | Europe | 1 |  |
+| Dr. Dolittle | Oficial | Europe | 1 |  |
+| Dr. Muto | Oficial | Europe | 1 |  |
+| Drag Racer USA | Oficial | Europe | 1 |  |
+| Dragon Ball Z - Budokai | Oficial | Australia, Europe | 1 |  |
+| Dragon Ball Z - Budokai 2 | Oficial | Europe | 1 |  |
+| Dragon Ball Z - Budokai 3 - Collector's Edition | Oficial | Europe | 1 |  |
+| Dragon Ball Z - Budokai Tenkaichi | Oficial | Australia, Europe | 1 |  |
+| Dragon Ball Z - Budokai Tenkaichi 2 | Oficial | Australia, Europe | 1 |  |
+| Dragon Ball Z - Budokai Tenkaichi 3 | Oficial | Australia, Europe | 1 |  |
+| Dragon Ball Z - Infinite World | Oficial | Europe | 1 |  |
+| Dragon Ball Z - Sagas | Oficial | USA | 1 |  |
+| Dragon Blaze | Oficial | Europe | 1 |  |
+| Dragon Quest - The Journey of the Cursed King | Oficial | Australia, Europe | 1 |  |
+| Dragon Rage | Oficial | Europe | 1 |  |
+| Dragon Sisters | Oficial | Europe | 1 |  |
+| Dragon's Lair 3D - Special Edition | Oficial | Europe | 1 |  |
+| Drakan - The Ancients' Gates | Oficial | Europe | 1 |  |
+| Drakengard | Oficial | Europe | 1 |  |
+| Drakengard 2 | Oficial | Europe | 1 |  |
+| DreamWorks & Aardman Flushed Away | Oficial | Europe | 1 |  |
+| DreamWorks Bee Movie Game | Oficial | Australia, Europe | 1 |  |
+| DreamWorks Kung Fu Panda | Oficial | Europe | 1 |  |
+| DreamWorks Madagascar | Oficial | Spain | 1 |  |
+| DreamWorks Madagascar - Escape 2 Africa | Oficial | Europe | 1 |  |
+| DreamWorks Monsters vs. Aliens | Oficial | Europe | 1 |  |
+| DreamWorks Shark Tale | Oficial | Europe | 1 |  |
+| DreamWorks Shrek - Smash n' Crash Racing | Oficial | Australia, Europe | 1 |  |
+| DreamWorks Shrek - SuperSlam | Oficial | Europe | 1 |  |
+| DreamWorks Shrek the Third | Oficial | Europe | 1 |  |
+| DreamWorks Shrek's Carnival Craze - Party Games | Oficial | Europe | 1 |  |
+| DreamWorks Vecinos Invasores | Oficial | Spain | 1 |  |
+| Driv3r | Oficial | Europe | 1 |  |
+| Driven | Oficial | Europe | 1 |  |
+| Driven to Destruction | Oficial | Europe | 1 |  |
+| Driver - Parallel Lines | Oficial | Europe | 1 |  |
+| Driving Emotion Type-S | Oficial | Europe | 1 |  |
+| Drome Racers | Oficial | Europe | 1 |  |
+| Dropship - United Peace Force | Oficial | Australia, Europe | 1 |  |
+| DT Carnage | Oficial | USA | 1 |  |
+| DT Racer | Oficial | Europe | 1 |  |
+| Dual Hearts | Oficial | USA | 1 |  |
+| Duel Masters | Oficial | Australia, Europe | 1 |  |
+| Dukes of Hazzard, The - Return of the General Lee | Oficial | Europe | 1 |  |
+| D-Unit Drift Racing | Oficial | Australia, Europe | 1 |  |
+| Dynamite 100 | Oficial | Europe | 1 |  |
+| Dynasty Tactics | Oficial | Europe | 1 |  |
+| Dynasty Tactics 2 | Oficial | Europe | 1 |  |
+| Dynasty Warriors - Gundam 2 | Oficial | USA | 1 |  |
+| Dynasty Warriors 2 | Oficial | Europe | 1 |  |
+| Dynasty Warriors 3 | Oficial | Europe | 1 |  |
+| Dynasty Warriors 3 - Xtreme Legends | Oficial | Europe | 1 |  |
+| Dynasty Warriors 4 | Oficial | Spain | 1 |  |
+| Dynasty Warriors 4 - Empires | Oficial | Europe | 1 |  |
+| Dynasty Warriors 4 - Xtreme Legends | Oficial | Spain | 1 |  |
+| Dynasty Warriors 5 | Oficial | Europe | 1 |  |
+| Dynasty Warriors 5 - Empires | Oficial | Australia, Europe | 1 |  |
+| Dynasty Warriors 5 - Xtreme Legends | Oficial | Europe | 1 |  |
+| Dynasty Warriors 6 | Oficial | USA | 1 |  |
+| E.O.E - Eve of Extinction | Oficial | Europe | 1 |  |
+| Eagle Eye Golf | Oficial | Europe | 1 |  |
+| Earache - Extreme Metal Racing | Oficial | Europe | 1 |  |
+| Ecco the Dolphin - Defender of the Future | Oficial | Europe | 1 |  |
+| Echo Night - Beyond | Oficial | Europe | 1 |  |
+| Ed, Edd n Eddy - The Mis-Edventures | Oficial | Europe | 1 |  |
+| Eggo Mania | Oficial | Europe | 1 |  |
+| eJay Clubworld - The Music Making Experience | Oficial | Europe | 1 |  |
+| Empire of Atlantis | Oficial | Europe | 1 |  |
+| Endgame | Oficial | Europe | 1 |  |
+| Energy Airforce | Oficial | Europe | 1 |  |
+| Energy Airforce - Aim Strike! | Oficial | Europe | 1 |  |
+| Enter the Matrix | Oficial | Europe | 1 |  |
+| Enthusia - Professional Racing | Oficial | Europe | 1 |  |
+| Ephemeral Fantasia | Oficial | Europe | 1 |  |
+| Eragon | Oficial | Australia, Europe | 1 |  |
+| ESPN College Hoops | Oficial | USA | 1 |  |
+| ESPN College Hoops 2K5 | Oficial | USA | 1 |  |
+| ESPN International Track & Field | Oficial | Europe | 1 |  |
+| ESPN International Winter Sports | Oficial | Europe | 1 |  |
+| ESPN Major League Baseball | Oficial | USA | 1 |  |
+| ESPN MLS ExtraTime | Oficial | USA | 1 |  |
+| ESPN National Hockey Night | Oficial | Europe | 1 |  |
+| ESPN NBA 2K5 | Oficial | Europe | 1 |  |
+| ESPN NBA 2Night | Oficial | Europe | 1 |  |
+| ESPN NBA Basketball | Oficial | Europe | 1 |  |
+| ESPN NFL 2K5 | Oficial | Europe | 1 |  |
+| ESPN NFL Football | Oficial | Europe | 1 |  |
+| ESPN NFL PrimeTime 2002 | Oficial | USA | 1 |  |
+| ESPN NHL 2K5 | Oficial | Europe | 1 |  |
+| ESPN NHL Hockey | Oficial | Europe | 1 |  |
+| Eternal Poison | Oficial | USA | 1 |  |
+| Eternal Quest | Oficial | Europe | 1 |  |
+| Eternal Ring | Oficial | Europe | 1 |  |
+| Eureka Seven Vol. 1 - The New Wave | Oficial | USA | 1 |  |
+| Eureka Seven Vol. 2 - The New Vision | Oficial | USA | 1 |  |
+| Euro Rally Champion | Oficial | Europe | 1 |  |
+| European Tennis Pro | Oficial | Europe | 1 |  |
+| Everblue | Oficial | Europe | 1 |  |
+| Everblue 2 | Oficial | Europe | 1 |  |
+| Evergrace | Oficial | Europe | 1 |  |
+| EverQuest - Online Adventures | Oficial | Europe | 1 |  |
+| EverQuest - Online Adventures - Frontiers | Oficial | USA | 1 |  |
+| Everybody's Golf | Oficial | Australia, Europe | 1 |  |
+| Everybody's Tennis | Oficial | Europe | 1 |  |
+| Evil Dead - A Fistful of Boomstick | Oficial | Europe | 1 |  |
+| Evil Dead - Regeneration | Oficial | Europe | 1 |  |
+| Evil Twin - Cyprien's Chronicles | Oficial | Europe | 1 |  |
+| Evolution GT | Oficial | Europe | 1 |  |
+| Evolution Skateboarding | Oficial | Europe | 1 |  |
+| Evolution Snowboarding | Oficial | Europe | 1 |  |
+| Extermination | Oficial | Europe | 1 |  |
+| Extreme Sprint 3010 | Oficial | Europe | 1 |  |
+| ExZeus | Oficial | Europe | 1 |  |
+| EyeToy - Antigrav | Oficial | Australia, Europe | 1 |  |
+| EyeToy - Chat | Oficial | Europe | 1 |  |
+| EyeToy - Groove | Oficial | Australia, Europe | 1 |  |
+| EyeToy - Kinetic | Oficial | Australia, Europe | 1 |  |
+| EyeToy - Kinetic Combat | Oficial | Australia, Europe | 1 |  |
+| EyeToy - Monkey Mania | Oficial | Europe | 1 |  |
+| EyeToy - Play | Oficial | Australia, Europe | 1 |  |
+| EyeToy - Play 2 | Oficial | Europe | 1 |  |
+| EyeToy - Play 3 | Oficial | Australia, Europe | 1 |  |
+| EyeToy - Play Sports | Oficial | Australia, Europe | 1 |  |
+| EyeToy Play - Astro Zoo | Oficial | Australia, Europe | 1 |  |
+| EyeToy Play - Hero | Oficial | Australia, Europe | 1 |  |
+| EyeToy Play - PomPom Party | Oficial | Australia, Europe | 1 |  |
+| F1 2001 | Oficial | Europe | 1 |  |
+| F1 2002 | Oficial | Europe | 1 |  |
+| F1 Career Challenge | Oficial | Australia, Europe | 1 |  |
+| F1 Championship Season 2000 | Oficial | Europe | 1 |  |
+| F1 Racing Championship | Oficial | Europe | 1 |  |
+| Fahrenheit | Oficial | Europe | 1 |  |
+| Fairly OddParents, The - Breakin' da Rules | Oficial | USA | 1 |  |
+| Fairly OddParents, The - Shadow Showdown | Oficial | Europe | 1 |  |
+| Falling Stars | Oficial | Europe | 1 |  |
+| Fallout - Brotherhood of Steel | Oficial | Europe | 1 |  |
+| Family Board Games | Oficial | Europe | 1 |  |
+| Family Feud | Oficial | USA | 1 |  |
+| Family Guy - Video Game! | Oficial | Europe | 1 |  |
+| Fantastic 4 | Oficial | Spain | 1 |  |
+| Fantastic Four - Rise of the Silver Surfer | Oficial | Europe | 1 |  |
+| Fantavision | Oficial | Europe | 1 |  |
+| Fast and the Furious, The | Oficial | Europe | 1 |  |
+| Fatal Fury - Battle Archives Volume 1 | Oficial | Australia, Europe | 1 |  |
+| Fatal Fury - Battle Archives Volume 2 | Oficial | Canada, USA | 1 |  |
+| Ferrari Challenge - Trofeo Pirelli | Oficial | Europe | 1 |  |
+| Ferrari F355 Challenge | Oficial | Australia, Europe | 1 |  |
+| FIFA 06 | Oficial | Europe | 1 |  |
+| FIFA 07 | Oficial | Europe | 1 |  |
+| FIFA 08 | Oficial | Europe | 1 |  |
+| FIFA 09 | Oficial | Europe | 1 |  |
+| FIFA 10 | Oficial | Europe | 1 |  |
+| FIFA 11 | Oficial | Europe | 1 |  |
+| FIFA 12 | Oficial | Europe | 1 |  |
+| FIFA 13 | Oficial | Europe | 1 |  |
+| FIFA 14 | Oficial | Europe | 1 |  |
+| FIFA 2001 | Oficial | Spain | 1 |  |
+| FIFA Football 2002 | Oficial | Spain | 1 |  |
+| FIFA Football 2003 | Oficial | Europe | 1 |  |
+| FIFA Football 2004 | Oficial | Europe | 1 |  |
+| FIFA Football 2005 | Oficial | Europe | 1 |  |
+| FIFA Street | Oficial | Europe | 1 |  |
+| FIFA Street 2 | Oficial | Europe | 1 |  |
+| FIFA World Cup Germany 2006 | Oficial | Europe | 1 |  |
+| Fight Club | Oficial | Europe | 1 |  |
+| Fight Night 2004 | Oficial | Europe | 1 |  |
+| Fight Night Round 2 | Oficial | Europe | 1 |  |
+| Fight Night Round 3 | Oficial | Australia, Europe | 1 |  |
+| Fighter Maker 2 | Oficial | USA | 1 |  |
+| Fighting Angels | Oficial | Europe | 1 |  |
+| Fighting Fury | Oficial | Europe | 1 |  |
+| Final Armada | Oficial | Europe | 1 |  |
+| Final Fantasy X | Oficial | Spain | 1 |  |
+| Final Fantasy X-2 | Oficial | Spain | 1 |  |
+| Final Fantasy XI - Online - Vana'diel Collection 2008 | Oficial | USA | 1 |  |
+| Final Fantasy XII | Oficial | Spain | 1 |  |
+| Final Fight - Streetwise | Oficial | Europe | 1 |  |
+| Finkles World | Oficial | Europe | 1 |  |
+| Finny the Fish & the Seven Waters | Oficial | USA | 1 |  |
+| Fire Heroes | Oficial | Europe | 1 |  |
+| Fire Pro Wrestling Returns | Oficial | Europe | 1 |  |
+| FireBlade | Oficial | Europe | 1 |  |
+| Firefighter F.D.18 | Oficial | Europe | 1 |  |
+| Fisherman's Challenge | Oficial | Europe | 1 |  |
+| Fishing Fantasy - Buzzrod | Oficial | Europe | 1 |  |
+| Fitness Fun | Oficial | Europe | 1 |  |
+| FlatOut | Oficial | Europe | 1 |  |
+| FlatOut 2 | Oficial | Australia, Europe | 1 |  |
+| Flintstones in Viva Rock Vegas, The | Oficial | Europe | 1 |  |
+| Flintstones, The - Bedrock Racing | Oficial | Europe | 1 |  |
+| Flipnic | Oficial | Europe | 1 |  |
+| Flow - Urban Dance Uprising | Oficial | Europe | 1 |  |
+| Football Generation | Oficial | Europe | 1 |  |
+| Football Mania | Oficial | Europe | 1 |  |
+| Forbidden Siren | Oficial | Spain | 1 |  |
+| Forbidden Siren 2 | Oficial | Europe | 1 |  |
+| Ford Mustang - The Legend Lives | Oficial | Europe | 1 |  |
+| Ford Racing 2 | Oficial | Europe | 1 |  |
+| Ford Racing 3 | Oficial | Australia, Europe | 1 |  |
+| Ford Street Racing | Oficial | Europe | 1 |  |
+| Ford vs. Chevy | Oficial | Australia, Europe | 1 |  |
+| Forever Kingdom | Oficial | USA | 1 |  |
+| Forgotten Realms - Demon Stone | Oficial | Europe | 1 |  |
+| Formula Challenge | Oficial | Europe | 1 |  |
+| Formula One 04 | Oficial | Australia, Europe | 1 |  |
+| Formula One 05 | Oficial | Australia, Europe | 1 |  |
+| Formula One 06 | Oficial | Australia, Europe | 1 |  |
+| Formula One 2001 | Oficial | Australia, Europe | 1 |  |
+| Formula One 2002 | Oficial | Europe | 1 |  |
+| Formula One 2003 | Oficial | Europe | 1 |  |
+| Forty 4 Party | Oficial | Europe | 1 |  |
+| Frank Herbert's Dune | Oficial | Europe | 1 |  |
+| Frankie Dettori Racing | Oficial | Australia | 1 |  |
+| Franklin the Turtle - A Birthday Surprise | Oficial | Europe | 1 |  |
+| Freak Out | Oficial | Europe | 1 |  |
+| Freak Out - Extreme Freeride | Oficial | Europe | 1 |  |
+| Freaky Flyers | Oficial | Europe | 1 |  |
+| Free Running | Oficial | Europe | 1 |  |
+| Freedom Fighters | Oficial | Spain | 1 |  |
+| Freekstyle | Oficial | Europe | 1 |  |
+| Freestyle Metal X | Oficial | Europe | 1 |  |
+| Frequency | Oficial | Europe | 1 |  |
+| Friends - The One with All the Trivia | Oficial | Europe | 1 |  |
+| Frogger - Ancient Shadow | Oficial | USA | 1 |  |
+| Frogger - The Great Quest | Oficial | Europe | 1 |  |
+| Frogger Beyond | Oficial | Europe | 1 |  |
+| Frogger's Adventures - The Rescue | Oficial | USA | 1 |  |
+| Front Mission 4 | Oficial | USA | 1 |  |
+| Fruit Fall | Oficial | Australia, Europe | 1 |  |
+| Fruit Machine Mania | Oficial | Europe | 1 |  |
+| Fuga de Monkey Island, La | Oficial | Spain | 1 |  |
+| Full Spectrum Warrior | Oficial | Europe | 1 |  |
+| Full Spectrum Warrior - Ten Hammers | Oficial | Europe | 1 |  |
+| Fullmetal Alchemist 2 - Curse of the Crimson Elixir | Oficial | USA | 1 |  |
+| Fullmetal Alchemist and the Broken Angel | Oficial | Canada, USA | 1 |  |
+| Fur Fighters - Viggo's Revenge | Oficial | Europe | 1 |  |
+| Furry Tales | Oficial | Europe | 1 |  |
+| Futurama | Oficial | Europe | 1 |  |
+| Future Tactics - The Uprising | Oficial | Europe | 1 |  |
+| G.I. Joe - The Rise of Cobra | Oficial | Europe | 1 |  |
+| G1 Jockey | Oficial | Europe | 1 |  |
+| G1 Jockey 3 | Oficial | Europe | 1 |  |
+| G1 Jockey 4 | Oficial | Australia, Europe | 1 |  |
+| Gadget & the Gadgetinis | Oficial | Europe | 1 |  |
+| Gadget Racers | Oficial | Europe | 1 |  |
+| Gaelic Games - Football | Oficial | Europe | 1 |  |
+| Gaelic Games - Football 2 | Oficial | Europe | 1 |  |
+| Gaelic Games - Hurling | Oficial | Europe | 1 |  |
+| Galactic Wrestling featuring Ultimate Muscle - The Kinnikuman Legacy | Oficial | USA | 1 |  |
+| Galerians - Ash | Oficial | Europe | 1 |  |
+| Gallop Racer 2 | Oficial | Australia, Europe | 1 |  |
+| Gallop Racer 2001 | Oficial | USA | 1 |  |
+| Gallop Racer 2006 | Oficial | USA | 1 |  |
+| Games Galaxy 2 | Oficial | Europe | 1 |  |
+| Garfield | Oficial | Europe | 1 |  |
+| Garfield - Lasagna World Tour | Oficial | Europe | 1 |  |
+| Garfield - Saving Arlene | Oficial | Europe | 1 |  |
+| Garfield 2 | Oficial | Europe | 1 |  |
+| Gauntlet - Dark Legacy | Oficial | Europe | 1 |  |
+| Gauntlet - Seven Sorrows | Oficial | Australia, Europe | 1 |  |
+| Gecko Blaster | Oficial | Europe | 1 |  |
+| Gene Troopers | Oficial | Europe | 1 |  |
+| Genji | Oficial | Australia, Europe | 1 |  |
+| George of the Jungle | Oficial | Europe | 1 |  |
+| Get on da Mic | Oficial | Europe | 1 |  |
+| Getaway, The | Oficial | Europe | 1 |  |
+| Getaway, The - Black Monday | Oficial | Europe | 1 |  |
+| G-Force | Oficial | Australia, Europe | 1 |  |
+| Ghost in the Shell - Stand Alone Complex | Oficial | Europe | 1 |  |
+| Ghost Master - The Gravenville Chronicles | Oficial | Europe | 1 |  |
+| Ghost Rider | Oficial | Europe | 1 |  |
+| Ghost Vibration | Oficial | Europe | 1 |  |
+| Ghostbusters - The Video Game | Oficial | Europe | 1 |  |
+| Ghosthunter | Oficial | Europe | 1 |  |
+| Giants - Citizen Kabuto | Oficial | Europe | 1 |  |
+| Gift | Oficial | Spain | 1 |  |
+| GigaWing Generations | Oficial | Europe | 1 |  |
+| Girl Zone | Oficial | Australia, Europe | 1 |  |
+| Gitaroo Man | Oficial | Europe | 1 |  |
+| Gladiator - Sword of Vengeance | Oficial | Europe | 1 |  |
+| Gladius | Oficial | Europe | 1 |  |
+| Glass Rose | Oficial | Europe | 1 |  |
+| Global Defence Force | Oficial | Europe | 1 |  |
+| Global Defence Force Tactics | Oficial | Europe | 1 |  |
+| Go Go Copter - Remote Control Helicopter | Oficial | Europe | 1 |  |
+| Go Go Golf | Oficial | Europe | 1 |  |
+| Go Kart Rally | Oficial | Europe | 1 |  |
+| Goblin Commander - Unleash the Horde | Oficial | Europe | 1 |  |
+| God Hand | Oficial | Europe | 1 |  |
+| God of War | Oficial | Australia, Europe | 1 |  |
+| God of War II | Oficial | Australia, Europe | 1 |  |
+| GoDai - Elemental Force | Oficial | Europe | 1 |  |
+| Godzilla - Save the Earth | Oficial | Europe | 1 |  |
+| Godzilla - Unleashed | Oficial | Europe | 1 |  |
+| Golden Age of Racing | Oficial | Europe | 1 |  |
+| Golden Compass, The | Oficial | Australia, Europe | 1 |  |
+| GoldenEye - Agente Corrupto | Oficial | Spain | 1 |  |
+| Goosebumps HorrorLand | Oficial | USA | 1 |  |
+| Gottlieb Pinball Classics | Oficial | Europe | 1 |  |
+| Gradius III and IV | Oficial | Europe | 1 |  |
+| Gradius V | Oficial | Europe | 1 |  |
+| Graffiti Kingdom | Oficial | Europe | 1 |  |
+| Gran Turismo 3 - A-Spec | Oficial | Australia, Europe | 1 |  |
+| Gran Turismo 4 | Oficial | Australia, Europe | 1 |  |
+| Gran Turismo 4 - Prologue | Oficial | Europe | 1 |  |
+| Gran Turismo Concept - 2002 Tokyo-Geneva | Oficial | Europe | 1 |  |
+| Grand Prix Challenge | Oficial | Europe | 1 |  |
+| Grand Theft Auto - Liberty City Stories | Oficial | Australia, Europe | 1 |  |
+| Grand Theft Auto - San Andreas | Oficial | Australia, Europe | 1 |  |
+| Grand Theft Auto - Vice City | Oficial | Europe | 1 |  |
+| Grand Theft Auto - Vice City Stories | Oficial | Australia, Europe | 1 |  |
+| Grand Theft Auto III | Oficial | Australia, Europe | 1 |  |
+| Grandia II | Oficial | Europe | 1 |  |
+| Grandia III | Oficial | USA | 2 |  |
+| Grandia Xtreme | Oficial | USA | 1 |  |
+| Gravity Games Bike - Street. Vert. Dirt. | Oficial | Europe | 1 |  |
+| Great British Football Quiz, The | Oficial | Europe | 1 |  |
+| Great Escape, The | Oficial | Europe | 1 |  |
+| Greg Hastings' Tournament Paintball Max'd | Oficial | USA | 1 |  |
+| Gregory Horror Show | Oficial | Europe | 1 |  |
+| Gretzky NHL 06 | Oficial | USA | 1 |  |
+| Gretzky NHL 2005 | Oficial | USA | 1 |  |
+| Grim Adventures of Billy & Mandy, The | Oficial | USA | 1 |  |
+| GrimGrimoire | Oficial | Europe | 1 |  |
+| Grooverider | Oficial | Australia, Europe | 1 |  |
+| Growlanser - Heritage of War | Oficial | Europe | 1 |  |
+| Growlanser Generations | Oficial | USA | 2 |  |
+| G-Surfers | Oficial | Europe | 1 |  |
+| GT Racers | Oficial | Europe | 1 |  |
+| GTC Africa | Oficial | Europe | 1 |  |
+| GT-R 400 | Oficial | Australia, Europe | 1 |  |
+| GT-R Touring | Oficial | Europe | 1 |  |
+| Guerrilla Strike | Oficial | Europe | 1 |  |
+| Guilty Gear Isuka | Oficial | Europe | 1 |  |
+| Guilty Gear X | Oficial | Europe | 1 |  |
+| Guilty Gear X2 | Oficial | Europe | 1 |  |
+| Guilty Gear X2 Reload - The Midnight Carnival | Oficial | Europe | 1 |  |
+| Guilty Gear XX Accent Core | Oficial | USA | 1 |  |
+| Guilty Gear XX Accent Core Plus | Oficial | Europe | 1 |  |
+| Guitar Hero | Oficial | Australia, Europe | 1 |  |
+| Guitar Hero - Aerosmith | Oficial | Europe | 1 |  |
+| Guitar Hero - Greatest Hits | Oficial | Australia, Europe | 1 |  |
+| Guitar Hero - Metallica | Oficial | Australia, Europe | 1 |  |
+| Guitar Hero - Rocks the 80s | Oficial | Europe | 1 |  |
+| Guitar Hero - Van Halen | Oficial | USA | 1 |  |
+| Guitar Hero 5 | Oficial | Australia, Europe | 1 |  |
+| Guitar Hero II | Oficial | Australia, Europe | 1 |  |
+| Guitar Hero III - Legends of Rock | Oficial | Europe | 1 |  |
+| Guitar Hero World Tour | Oficial | Australia, Europe | 1 |  |
+| Gumball 3000 | Oficial | Europe | 1 |  |
+| Gun | Oficial | Australia, Europe | 1 |  |
+| Gunbird Special Edition | Oficial | Europe | 1 |  |
+| Guncom 2 | Oficial | Europe | 1 |  |
+| Gunfighter II - Revenge of Jesse James | Oficial | Europe | 1 |  |
+| Gungrave | Oficial | Europe | 1 |  |
+| Gungrave - Overdose | Oficial | Europe | 1 |  |
+| Gungriffon Blaze | Oficial | Europe | 1 |  |
+| Guy Game, The | Oficial | USA | 1 |  |
+| Habitrail Hamster Ball | Oficial | Europe | 1 |  |
+| Half-Life | Oficial | Spain | 1 |  |
+| Hamster Heroes | Oficial | Europe | 1 |  |
+| Hansel and Gretel | Oficial | Europe | 1 |  |
+| Happy Feet | Oficial | Australia, Europe | 1 |  |
+| Hard Hitter 2 | Oficial | Europe | 1 |  |
+| Hard Knock High | Oficial | Europe | 1 |  |
+| Hard Rock Casino | Oficial | Australia, Europe | 1 |  |
+| Hardware - Online Arena | Oficial | Europe | 1 |  |
+| Harley-Davidson Motor Cycles | Oficial | Europe | 1 |  |
+| Harry Potter - Quidditch World Cup | Oficial | Europe | 1 |  |
+| Harry Potter and the Goblet of Fire | Oficial | Europe | 1 |  |
+| Harry Potter and the Half-Blood Prince | Oficial | Australia, Europe | 1 |  |
+| Harry Potter and the Order of the Phoenix | Oficial | Europe | 1 |  |
+| Harry Potter and the Philosopher's Stone | Oficial | Europe | 1 |  |
+| Harry Potter and the Prisoner of Azkaban | Oficial | Europe | 1 |  |
+| Harry Potter y la Camara Secreta | Oficial | Spain | 1 |  |
+| Harvest Fishing | Oficial | Europe | 1 |  |
+| Harvest Moon - A Wonderful Life - Special Edition | Oficial | Europe | 1 |  |
+| Harvest Moon - Save the Homeland | Oficial | USA | 1 |  |
+| Harvey Birdman - Attorney at Law | Oficial | USA | 1 |  |
+| Hasbro Family Game Night | Oficial | Australia, Europe | 1 |  |
+| Haunting Ground | Oficial | Europe | 1 |  |
+| Haven - Call of the King | Oficial | Europe | 1 |  |
+| Hawk Superbike Racing | Oficial | Australia, Europe | 1 |  |
+| Headhunter | Oficial | Europe | 1 |  |
+| Headhunter - Redemption | Oficial | Europe | 1 |  |
+| Heartbeat Boxing | Oficial | Europe | 1 |  |
+| Heatseeker | Oficial | Europe | 1 |  |
+| Hello Kitty - Roller Rescue | Oficial | Europe | 1 |  |
+| Heracles - Battle with the Gods | Oficial | Europe | 1 |  |
+| Heracles - Chariot Racing | Oficial | Europe | 1 |  |
+| Herdy Gerdy | Oficial | Europe | 1 |  |
+| Heroes of Might and Magic - Quest for the DragonBone Staff | Oficial | Europe | 1 |  |
+| Heroes of the Pacific | Oficial | Europe | 1 |  |
+| Hidden Invasion | Oficial | Europe | 1 |  |
+| High Heat Major League Baseball 2002 | Oficial | USA | 1 |  |
+| High Heat Major League Baseball 2003 | Oficial | Europe | 1 |  |
+| High Heat Major League Baseball 2004 | Oficial | USA | 1 |  |
+| High Rollers Casino | Oficial | USA | 1 |  |
+| History Channel, The - Battle for the Pacific | Oficial | Europe | 1 |  |
+| History Channel, The - Civil War - A Nation Divided | Oficial | USA | 1 |  |
+| History Channel, The - Great Battles of Rome | Oficial | Europe | 1 |  |
+| History Civil War - Secret Missions | Oficial | USA | 1 |  |
+| Hitman - Blood Money | Oficial | Spain | 1 |  |
+| Hitman - Contracts | Oficial | Spain | 1 |  |
+| Hitman 2 - Silent Assassin | Oficial | Spain | 1 |  |
+| Hobbit, The - The Prelude to the Lord of the Rings | Oficial | Europe | 1 |  |
+| Home Alone | Oficial | Europe | 1 |  |
+| Homerun | Oficial | Europe | 1 |  |
+| Homura | Oficial | Europe | 1 |  |
+| Hoppie | Oficial | Europe | 1 |  |
+| Hot Shots Golf 3 | Oficial | USA | 1 |  |
+| Hot Wheels - Beat That! | Oficial | Europe | 1 |  |
+| Hot Wheels - Stunt Track Challenge | Oficial | Australia, Europe | 1 |  |
+| Hot Wheels - Velocity X - Maximum Justice | Oficial | Europe | 1 |  |
+| Hot Wheels - World Race | Oficial | Australia, Europe | 1 |  |
+| Hugo - Bukkazoom! | Oficial | Europe | 1 |  |
+| Hugo - CannonCruise | Oficial | Europe | 1 |  |
+| Hugo - Magic in the Trollwoods | Oficial | Europe | 1 |  |
+| Hulk | Oficial | Europe | 1 |  |
+| Hummer Badlands | Oficial | Australia, Europe | 1 |  |
+| Hunter - The Reckoning - Wayward | Oficial | Europe | 1 |  |
+| Hustle, The - Detroit Streets | Oficial | USA | 1 |  |
+| Hype - The Time Quest | Oficial | Europe | 1 |  |
+| Ice Age 2 - The Meltdown | Oficial | Europe | 1 |  |
+| Ice Age 3 - Dawn of the Dinosaurs | Oficial | Europe | 1 |  |
+| Ico | Oficial | Europe | 1 |  |
+| IGPX - Immortal Grand Prix | Oficial | USA | 1 |  |
+| IHRA Drag Racing - Sportsman Edition | Oficial | USA | 1 |  |
+| IHRA Drag Racing 2 | Oficial | USA | 1 |  |
+| IHRA Professional Drag Racing 2005 | Oficial | USA | 1 |  |
+| Impossible Mission | Oficial | Europe | 1 |  |
+| In the Groove | Oficial | USA | 1 |  |
+| Incredible Hulk, The | Oficial | Europe | 1 |  |
+| Incredible Hulk, The - Ultimate Destruction | Oficial | Europe | 1 |  |
+| Indiana Jones and the Staff of Kings | Oficial | Europe | 1 |  |
+| Indiana Jones y la Tumba del Emperador | Oficial | Spain | 1 |  |
+| IndyCar Series | Oficial | Europe | 1 |  |
+| IndyCar Series 2005 | Oficial | Europe | 1 |  |
+| I-Ninja | Oficial | Europe | 1 |  |
+| Innocent Life - A Futuristic Harvest Moon - Special Edition | Oficial | USA | 1 |  |
+| Inspector Gadget - Mad Robots Invasion | Oficial | Europe | 1 |  |
+| Intellivision Lives - The History of Video Gaming | Oficial | Europe | 1 |  |
+| International Cricket Captain III | Oficial | Europe | 1 |  |
+| International Cue Club | Oficial | Europe | 1 |  |
+| International Cue Club 2 | Oficial | Europe | 1 |  |
+| International Golf Pro | Oficial | Europe | 1 |  |
+| International League Soccer | Oficial | Europe | 1 |  |
+| International Pool Championship | Oficial | Europe | 1 |  |
+| International Snooker Championship | Oficial | Europe | 1 |  |
+| International Super Karts | Oficial | Europe | 1 |  |
+| International Superstar Soccer | Oficial | Europe | 1 |  |
+| International Superstar Soccer 2 | Oficial | Europe | 1 |  |
+| International Superstar Soccer 3 | Oficial | Europe | 1 |  |
+| International Tennis Pro | Oficial | Europe | 1 |  |
+| Inuyasha - Feudal Combat | Oficial | USA | 1 |  |
+| Inuyasha - The Secret of the Cursed Mask | Oficial | USA | 1 |  |
+| Iridium Runners | Oficial | Europe | 1 |  |
+| Iron Aces 2 - Birds of Prey | Oficial | Europe | 1 |  |
+| Iron Chef | Oficial | Europe | 1 |  |
+| Iron Man - The Official Videogame | Oficial | Europe | 1 |  |
+| Iron Sea | Oficial | Europe | 1 |  |
+| Island Xtreme Stunts | Oficial | Europe | 1 |  |
+| Italian Job, The | Oficial | Europe | 1 |  |
+| Jackass - The Game | Oficial | Europe | 1 |  |
+| Jacked | Oficial | Australia, Europe | 1 |  |
+| Jackie Chan Adventures | Oficial | Australia, Europe | 1 |  |
+| Jackpot Madness | Oficial | Europe | 1 |  |
+| Jade Cocoon 2 | Oficial | Europe | 1 |  |
+| Jak 3 | Oficial | Australia, Europe | 1 |  |
+| Jak and Daxter - The Lost Frontier | Oficial | Australia, Europe | 1 |  |
+| Jak and Daxter - The Precursor Legacy | Oficial | Europe | 1 |  |
+| Jak II - Renegade | Oficial | Australia, Europe | 1 |  |
+| Jak X | Oficial | Australia, Europe | 1 |  |
+| James Cameron's Dark Angel | Oficial | Europe | 1 |  |
+| James Pond - Codename - RoboCod | Oficial | Europe | 1 |  |
+| Jaws Unleashed | Oficial | Australia, Europe | 1 |  |
+| Jeep Thrills | Oficial | Europe | 1 |  |
+| Jello | Oficial | Europe | 1 |  |
+| Jelly Belly - Ballistic Beans | Oficial | Europe | 1 |  |
+| Jeopardy! | Oficial | USA | 1 |  |
+| Jeremy McGrath Supercross World | Oficial | Europe | 1 |  |
+| Jet Ion GP | Oficial | Europe | 1 |  |
+| Jet Li - Rise to Honour | Oficial | Europe | 1 |  |
+| Jet Ski Riders | Oficial | Europe | 1 |  |
+| Jet X2O | Oficial | USA | 1 |  |
+| Jetix Puzzle Buzzle | Oficial | Europe | 1 |  |
+| Jim Henson's Muppets Party Cruise | Oficial | Europe | 1 |  |
+| Johnny Bravo in the Hukka-Mega-Mighty-Ultra-Extreme Date-O-Rama! | Oficial | Europe | 1 |  |
+| Jonny Moseley Mad Trix | Oficial | Europe | 1 |  |
+| Judge Dredd - Dredd vs. Death | Oficial | Europe | 1 |  |
+| Juiced | Oficial | Australia, Europe | 1 |  |
+| Juiced 2 - Hot Import Nights | Oficial | Australia, Europe | 1 |  |
+| Jumanji | Oficial | Europe | 1 |  |
+| Jumper - Griffin's Story | Oficial | Europe | 1 |  |
+| Junior Board Games | Oficial | Europe | 1 |  |
+| Junior Sports Basketball | Oficial | Europe | 1 |  |
+| Jurassic - The Hunted | Oficial | USA | 1 |  |
+| Jurassic Park - Operation Genesis | Oficial | Australia, Europe | 1 |  |
+| Just Cause | Oficial | Europe | 1 |  |
+| Justice League Heroes | Oficial | Europe | 1 |  |
+| K.O. King | Oficial | Europe | 1 |  |
+| K-1 Premium Dynamite!! | Oficial | Europe | 1 |  |
+| K-1 World GP | Oficial | Europe | 1 |  |
+| K-1 World Grand Prix | Oficial | USA | 1 |  |
+| Kaan - Barbarian's Blade | Oficial | Europe | 1 |  |
+| Kaido Racer | Oficial | Europe | 1 |  |
+| Kaido Racer 2 | Oficial | Europe | 1 |  |
+| Kao the Kangaroo - Round 2 | Oficial | Europe | 1 |  |
+| Karaoke Revolution Presents - American Idol | Oficial | USA | 1 |  |
+| Karaoke Revolution Presents - American Idol Encore | Oficial | USA | 1 |  |
+| Karaoke Revolution Volume 2 | Oficial | USA | 1 |  |
+| Karaoke Revolution Volume 3 | Oficial | USA | 1 |  |
+| Karaoke Stage | Oficial | Europe | 1 |  |
+| Karaoke Stage 2 | Oficial | Europe | 1 |  |
+| Kart Racer | Oficial | Australia, Europe | 1 |  |
+| Katamari Damacy | Oficial | USA | 1 |  |
+| Kelly Slater's Pro Surfer | Oficial | Europe | 1 |  |
+| Kengo - Master of Bushido | Oficial | Europe | 1 |  |
+| Kessen | Oficial | Europe | 1 |  |
+| Kessen II | Oficial | Europe | 1 |  |
+| Kessen III | Oficial | Europe | 1 |  |
+| Kiddies Party Pack | Oficial | Europe | 1 |  |
+| Kidz Sports Basketball | Oficial | Australia, Europe | 1 |  |
+| Kidz Sports Ice Hockey | Oficial | Europe | 1 |  |
+| Kill Switch | Oficial | Europe | 1 |  |
+| Killer7 | Oficial | Europe | 1 |  |
+| Killzone | Oficial | Australia, Europe | 1 |  |
+| Kinetica | Oficial | USA | 1 |  |
+| King Arthur | Oficial | Europe | 1 |  |
+| King of Clubs | Oficial | Europe | 1 |  |
+| King of Fighters 2002, The | Oficial | Europe | 1 |  |
+| King of Fighters 2003, The | Oficial | Europe | 1 |  |
+| King of Fighters XI, The | Oficial | Europe | 1 |  |
+| King of Fighters, The - Maximum Impact | Oficial | Europe | 1 |  |
+| King of Fighters, The - Maximum Impact 2 | Oficial | Australia, Europe | 1 |  |
+| King of Fighters, The - Neowave | Oficial | Australia, Europe | 1 |  |
+| King of Route 66, The | Oficial | Europe | 1 |  |
+| Kingdom Hearts | Oficial | Spain | 1 |  |
+| Kingdom Hearts - Re-Chain of Memories | Oficial | USA | 1 |  |
+| Kingdom Hearts II | Oficial | Spain | 1 |  |
+| King's Field IV | Oficial | Europe | 1 |  |
+| Klonoa 2 - Lunatea's Veil | Oficial | Europe | 1 |  |
+| Knight Rider - The Game | Oficial | Europe | 1 |  |
+| Knight Rider 2 - The Game | Oficial | Europe | 1 |  |
+| Knights of the Temple - Infernal Crusade | Oficial | Europe | 1 |  |
+| Knights of the Temple II | Oficial | Europe | 1 |  |
+| Knockout Kings 2001 | Oficial | Europe | 1 |  |
+| Knockout Kings 2002 | Oficial | Europe | 1 |  |
+| Kuon | Oficial | Europe | 1 |  |
+| Kuri Kuri Mix | Oficial | Europe | 1 |  |
+| Kya - Dark Lineage | Oficial | Europe | 1 |  |
+| L.A. Rush | Oficial | Australia, Europe | 1 |  |
+| Lake Masters EX | Oficial | Europe | 1 |  |
+| Lara Croft Tomb Raider - Anniversary | Oficial | Europe | 1 |  |
+| Lara Croft Tomb Raider - Legend | Oficial | Europe | 1 |  |
+| Lara Croft Tomb Raider - The Angel of Darkness | Oficial | Europe | 1 |  |
+| Largo Winch - Empire Under Threat | Oficial | Europe | 1 |  |
+| Lassie | Oficial | Australia, Europe | 1 |  |
+| Le Mans 24 Hours | Oficial | Europe | 1 |  |
+| Leaderboard Golf | Oficial | Europe | 1 |  |
+| League Series Baseball 2 | Oficial | Australia, Europe | 1 |  |
+| Legacy of Kain - Defiance | Oficial | Europe | 1 |  |
+| Legacy of Kain - Soul Reaver 2 | Oficial | Europe | 1 |  |
+| Legaia 2 - Duel Saga | Oficial | Europe | 1 |  |
+| Legend of Alon D'ar, The | Oficial | USA | 1 |  |
+| Legend of Camelot | Oficial | Europe | 1 |  |
+| Legend of Herkules | Oficial | Europe | 1 |  |
+| Legend of Kay | Oficial | Europe | 1 |  |
+| Legend of Sayuki | Oficial | Europe | 1 |  |
+| Legend of Spyro, The - A New Beginning | Oficial | Europe | 1 |  |
+| Legend of Spyro, The - Dawn of the Dragon | Oficial | Europe | 1 |  |
+| Legend of Spyro, The - The Eternal Night | Oficial | Europe | 1 |  |
+| Legend of the Dragon | Oficial | Europe | 1 |  |
+| Legends of Wrestling | Oficial | Europe | 1 |  |
+| Legends of Wrestling II | Oficial | Europe | 1 |  |
+| Legion - The Legend of Excalibur | Oficial | Europe | 1 |  |
+| LEGO Batman - The Videogame | Oficial | Australia, Europe | 1 |  |
+| LEGO Indiana Jones - The Original Adventures | Oficial | Australia, Europe | 1 |  |
+| LEGO Racers 2 | Oficial | Europe | 1 |  |
+| LEGO Star Wars - The Video Game | Oficial | Europe | 1 |  |
+| LEGO Star Wars II - The Original Trilogy | Oficial | Australia, Europe | 1 |  |
+| Leisure Suit Larry - Magna Cum Laude | Oficial | Spain | 1 |  |
+| Lemmings | Oficial | Europe | 1 |  |
+| Lethal Skies - Elite Pilot - Team SW | Oficial | Europe | 1 |  |
+| Lethal Skies II | Oficial | Europe | 1 |  |
+| Let's Make a Soccer Team! | Oficial | Australia, Europe | 1 |  |
+| Let's Ride! Silver Buckle Stables | Oficial | Europe | 1 |  |
+| Life Line | Oficial | USA | 1 |  |
+| Little Britain - The Video Game | Oficial | Europe | 1 |  |
+| Living World Racing | Oficial | Europe | 1 |  |
+| LMA Manager 2006 | Oficial | Europe | 1 |  |
+| LMA Manager 2007 | Oficial | Europe | 1 |  |
+| London Cab Challenge | Oficial | Australia, Europe | 1 |  |
+| London Racer - Destruction Madness | Oficial | Europe | 1 |  |
+| London Racer - Police Madness | Oficial | Europe | 1 |  |
+| London Racer II | Oficial | Europe | 1 |  |
+| London Taxi - Rushour | Oficial | Europe | 1 |  |
+| Looney Tunes - Acme Arsenal | Oficial | Europe | 1 |  |
+| Looney Tunes - Back in Action | Oficial | Europe | 1 |  |
+| Looney Tunes - Space Race | Oficial | Europe | 1 |  |
+| Lord of the Rings, The - Aragorn's Quest | Oficial | Europe | 1 |  |
+| Lord of the Rings, The - The Fellowship of the Ring | Oficial | Europe | 1 |  |
+| Lotus Challenge | Oficial | Europe | 1 |  |
+| Lowrider | Oficial | USA | 1 |  |
+| Lucinda Green's Equestrian Challenge | Oficial | Australia, Europe | 1 |  |
+| Lumines Plus | Oficial | Europe | 1 |  |
+| Lupin the 3rd - Treasure of the Sorcerer King | Oficial | USA | 1 |  |
+| Luxor - Pharaoh's Challenge | Oficial | Europe | 1 |  |
+| Mace Griffin - Bounty Hunter | Oficial | Europe | 1 |  |
+| Mad Maestro! | Oficial | Europe | 1 |  |
+| Madden NFL 06 | Oficial | Europe | 1 |  |
+| Madden NFL 07 | Oficial | USA | 1 |  |
+| Madden NFL 08 en Espanol | Oficial | USA | 1 |  |
+| Madden NFL 09 | Oficial | Europe | 1 |  |
+| Madden NFL 10 | Oficial | USA | 1 |  |
+| Madden NFL 11 | Oficial | USA | 1 |  |
+| Madden NFL 12 | Oficial | USA | 1 |  |
+| Madden NFL 2001 | Oficial | Europe | 1 |  |
+| Madden NFL 2002 | Oficial | Australia, Europe | 1 |  |
+| Madden NFL 2003 | Oficial | Europe | 1 |  |
+| Madden NFL 2004 | Oficial | Europe | 1 |  |
+| Madden NFL 2005 | Oficial | USA | 1 |  |
+| Made Man | Oficial | Europe | 1 |  |
+| Mafia | Oficial | Spain | 1 |  |
+| Magic Pengel - The Quest for Color | Oficial | USA | 1 |  |
+| MAGIX Music Maker | Oficial | USA | 1 |  |
+| Magna Carta - Tears of Blood | Oficial | USA | 1 |  |
+| Major League Baseball 2K10 | Oficial | USA | 1 |  |
+| Major League Baseball 2K11 | Oficial | USA | 1 |  |
+| Major League Baseball 2K12 | Oficial | USA | 1 |  |
+| Major League Baseball 2K5 - World Series Edition | Oficial | USA | 1 |  |
+| Major League Baseball 2K6 | Oficial | USA | 1 |  |
+| Major League Baseball 2K7 | Oficial | USA | 1 |  |
+| Major League Baseball 2K8 | Oficial | USA | 1 |  |
+| Major League Baseball 2K9 | Oficial | USA | 1 |  |
+| Makai Kingdom - Chronicles of the Sacred Tome | Oficial | Europe | 1 |  |
+| Maken Shao - Demon Sword | Oficial | Europe | 1 |  |
+| Malice | Oficial | Europe | 1 |  |
+| Mambo | Oficial | Europe | 1 |  |
+| Mana Khemia - Alchemists of Al-Revis | Oficial | Europe | 1 |  |
+| Mana Khemia 2 - Fall of Alchemy | Oficial | USA | 1 |  |
+| Manager de Liga 2002 | Oficial | Spain | 1 |  |
+| Manager de Liga 2003 | Oficial | Spain | 1 |  |
+| Manager de Liga 2004 | Oficial | Spain | 1 |  |
+| Manager de Liga 2005 | Oficial | Spain | 1 |  |
+| Manhunt | Oficial | Europe | 1 |  |
+| Manhunt 2 | Oficial | Europe | 1 |  |
+| Maniac Mole | Oficial | Australia, Europe | 1 |  |
+| Marc Ecko's Getting Up - Contents Under Pressure | Oficial | Europe | 1 |  |
+| Margot's Word Brain | Oficial | Europe | 1 |  |
+| Mark Davis Pro Bass Challenge | Oficial | Europe | 1 |  |
+| Mark of Kri, The | Oficial | Europe | 1 |  |
+| Marvel - Ultimate Alliance | Oficial | Europe | 1 |  |
+| Marvel - Ultimate Alliance 2 | Oficial | Europe | 1 |  |
+| Marvel Nemesis - Rise of the Imperfects | Oficial | Europe | 1 |  |
+| Marvel Super Hero Squad | Oficial | Australia, Europe | 1 |  |
+| Marvel vs. Capcom 2 - New Age of Heroes | Oficial | Europe | 1 |  |
+| Mary-Kate and Ashley - Sweet 16 - Licensed to Drive | Oficial | Europe | 1 |  |
+| Mashed - Drive to Survive | Oficial | Europe | 1 |  |
+| Mashed - Fully Loaded | Oficial | Europe | 1 |  |
+| Master Chess | Oficial | Europe | 1 |  |
+| Master Rallye | Oficial | Europe | 1 |  |
+| Masters of the Universe - He-Man - Defender of Grayskull | Oficial | Europe | 1 |  |
+| Mat Hoffman's Pro BMX 2 | Oficial | Europe | 1 |  |
+| Matrix, The - Path of Neo | Oficial | Europe | 1 |  |
+| Max Payne | Oficial | Europe | 1 |  |
+| Max Payne 2 - The Fall of Max Payne | Oficial | Spain | 1 |  |
+| Maximo - Ghosts to Glory | Oficial | Europe | 1 |  |
+| Maximo vs Army of Zin | Oficial | Europe | 1 |  |
+| Maxxed Out Racing | Oficial | Europe | 1 |  |
+| Maxxed Out Racing Nitro | Oficial | Europe | 1 |  |
+| Maze Action | Oficial | Europe | 1 |  |
+| McFarlane's Evil Prophecy | Oficial | Europe | 1 |  |
+| MDK2 - Armageddon | Oficial | Europe | 1 |  |
+| Medal of Honor - European Assault | Oficial | Spain | 1 |  |
+| Medal of Honor - Frontline | Oficial | Australia, Europe | 1 |  |
+| Medal of Honor - Rising Sun | Oficial | Spain | 1 |  |
+| Medal of Honor - Vanguard | Oficial | Australia, Europe | 1 |  |
+| Mega Man Anniversary Collection | Oficial | USA | 1 |  |
+| Mega Man X - Command Mission | Oficial | Europe | 1 |  |
+| Mega Man X Collection | Oficial | USA | 1 |  |
+| Mega Man X7 | Oficial | Europe | 1 |  |
+| Mega Man X8 | Oficial | Europe | 1 |  |
+| MegaRace 3 - Nanotech Disaster | Oficial | Europe | 1 |  |
+| Men in Black II - Alien Escape | Oficial | Europe | 1 |  |
+| Mercenaries | Oficial | Europe | 1 |  |
+| Mercenaries 2 - World in Flames | Oficial | Spain | 1 |  |
+| Mercury Meltdown Remix | Oficial | Australia, Europe | 1 |  |
+| Metal Arms - Glitch in the System | Oficial | Europe | 1 |  |
+| Metal Gear Solid 2 - Substance | Oficial | Europe | 1 |  |
+| Metal Gear Solid 3 - Subsistence | Oficial | Spain | 3 |  |
+| Metal Saga | Oficial | USA | 1 |  |
+| Metal Slug 3 | Oficial | Europe | 1 |  |
+| Metal Slug 4 | Oficial | Australia, Europe | 1 |  |
+| Metal Slug 5 | Oficial | Australia, Europe | 1 |  |
+| Metal Slug Anthology | Oficial | Europe | 1 |  |
+| Metropolismania | Oficial | Europe | 1 |  |
+| Metropolismania 2 | Oficial | Europe | 1 |  |
+| Miami Vice | Oficial | Europe | 1 |  |
+| Michigan - Report from Hell | Oficial | Europe | 1 |  |
+| Micro Machines | Oficial | Europe | 1 |  |
+| Micro Machines V4 | Oficial | Europe | 1 |  |
+| Midnight Club - Street Racing | Oficial | Europe | 1 |  |
+| Midnight Club 3 - DUB Edition Remix | Oficial | Australia, Europe | 1 |  |
+| Midnight Club II | Oficial | Europe | 1 |  |
+| Midway Arcade Treasures | Oficial | Australia, Europe | 1 |  |
+| Midway Arcade Treasures 2 | Oficial | Australia, Europe | 1 |  |
+| Midway Arcade Treasures 3 | Oficial | Australia, Europe | 1 |  |
+| Mighty Mulan | Oficial | Europe | 1 |  |
+| Mike Tyson Heavyweight Boxing | Oficial | Europe | 1 |  |
+| Millennium European Paintball Series, The - Championship Paintball 2009 | Oficial | Australia, Europe | 1 |  |
+| Mini Desktop Racing | Oficial | Europe | 1 |  |
+| Minority Report - Everybody Runs | Oficial | Europe | 1 |  |
+| Mission - Impossible - Operation Surma | Oficial | Europe | 1 |  |
+| MLB 06 - The Show | Oficial | USA | 1 |  |
+| MLB 07 - The Show | Oficial | USA | 1 |  |
+| MLB 08 - The Show | Oficial | USA | 1 |  |
+| MLB 09 - The Show | Oficial | USA | 1 |  |
+| MLB 10 - The Show | Oficial | USA | 1 |  |
+| MLB 11 - The Show | Oficial | USA | 1 |  |
+| MLB 2004 | Oficial | USA | 1 |  |
+| MLB 2005 | Oficial | USA | 1 |  |
+| MLB 2006 | Oficial | USA | 1 |  |
+| MLB Power Pros | Oficial | USA | 1 |  |
+| MLB Power Pros 2008 | Oficial | USA | 1 |  |
+| MLB SlugFest - Loaded | Oficial | USA | 1 |  |
+| MLB SlugFest 2003 | Oficial | USA | 1 |  |
+| MLB SlugFest 2004 | Oficial | USA | 1 |  |
+| MLB SlugFest 2006 | Oficial | USA | 1 |  |
+| Mobile Light Force 2 | Oficial | Europe | 1 |  |
+| Mobile Suit Gundam - Encounters in Space | Oficial | USA | 1 |  |
+| Mobile Suit Gundam - Federation vs. Zeon | Oficial | Europe | 1 |  |
+| Mobile Suit Gundam - Gundam vs. Zeta Gundam | Oficial | USA | 1 |  |
+| Mobile Suit Gundam - Journey to Jaburo | Oficial | USA | 1 |  |
+| Mobile Suit Gundam - Zeonic Front | Oficial | USA | 1 |  |
+| Mobile Suit Gundam Seed - Never Ending Tomorrow | Oficial | USA | 1 |  |
+| Moderngroove - Ministry of Sound Edition | Oficial | Europe | 1 |  |
+| Mojo! | Oficial | Europe | 1 |  |
+| Monopoly | Oficial | Australia, Europe | 1 |  |
+| Monopoly Party | Oficial | Europe | 1 |  |
+| Monster 4x4 - Masters of Metal | Oficial | USA | 1 |  |
+| Monster Attack | Oficial | Europe | 1 |  |
+| Monster Bass | Oficial | Japan | 1 |  |
+| Monster Eggs | Oficial | Europe | 1 |  |
+| Monster House | Oficial | Europe | 1 |  |
+| Monster Hunter | Oficial | Europe | 1 |  |
+| Monster Jam | Oficial | Europe | 1 |  |
+| Monster Jam - Maximum Destruction | Oficial | Europe | 1 |  |
+| Monster Jam - Urban Assault | Oficial | Europe | 1 |  |
+| Monster Lab | Oficial | Europe | 1 |  |
+| Monster Rancher 3 | Oficial | USA | 1 |  |
+| Monster Rancher 4 | Oficial | USA | 1 |  |
+| Monster Rancher Evo | Oficial | USA | 1 |  |
+| Monster Trux Arenas - Special Edition | Oficial | Europe | 1 |  |
+| Monster Trux Extreme - Arena Edition | Oficial | Europe | 1 |  |
+| Monster Trux Extreme - Offroad Edition | Oficial | Europe | 1 |  |
+| Moorhuhn Fun Kart 2008 | Oficial | Europe | 1 |  |
+| Mortal Kombat - Armageddon | Oficial | Europe | 1 |  |
+| Mortal Kombat - Deadly Alliance | Oficial | Australia, Europe | 1 |  |
+| Mortal Kombat - Deception | Oficial | Australia, Europe | 1 |  |
+| Mortal Kombat - Shaolin Monks | Oficial | Europe | 1 |  |
+| Moto X Maniac | Oficial | Europe | 1 |  |
+| Motocross Mania 3 | Oficial | Europe | 1 |  |
+| MotoGP | Oficial | Europe | 1 |  |
+| MotoGP 07 | Oficial | Australia, Europe | 1 |  |
+| MotoGP 08 | Oficial | Europe | 1 |  |
+| MotoGP 2 | Oficial | Europe | 1 |  |
+| MotoGP 3 | Oficial | Australia, Europe | 1 |  |
+| MotoGP 4 | Oficial | Australia, Europe | 1 |  |
+| Motorbike King | Oficial | Europe | 1 |  |
+| Motorsiege - Warriors of Primetime | Oficial | Europe | 1 |  |
+| MotorStorm - Arctic Edge | Oficial | Australia, Europe | 1 |  |
+| Mountain Bike Adrenaline featuring Salomon | Oficial | Australia, Europe | 1 |  |
+| Mouse Police, The | Oficial | Europe | 1 |  |
+| Mouse Trophy | Oficial | Europe | 1 |  |
+| Mr Moskeeto | Oficial | Europe | 1 |  |
+| Mr. Bean | Oficial | Europe | 1 |  |
+| Mr. Golf | Oficial | Europe | 1 |  |
+| MS Saga - A New Dawn | Oficial | USA | 1 |  |
+| MTV Celebrity Deathmatch | Oficial | Europe | 1 |  |
+| MTV Music Generator 2 | Oficial | Europe | 1 |  |
+| MTV Music Generator 3 | Oficial | Europe | 1 |  |
+| MTV Pimp My Ride | Oficial | Europe | 1 |  |
+| MTV Pimp My Ride - Street Racing | Oficial | Europe | 1 |  |
+| MTX Mototrax | Oficial | Europe | 1 |  |
+| Mummy Returns, The | Oficial | Europe | 1 |  |
+| Mummy, The | Oficial | Europe | 1 |  |
+| Mummy, The - Tomb of the Dragon Emperor | Oficial | Europe | 1 |  |
+| Musashi - Samurai Legend | Oficial | Europe | 1 |  |
+| Music 3000 | Oficial | Europe | 1 |  |
+| Music Maker - Rockstar | Oficial | Europe | 1 |  |
+| MVP 06 NCAA Baseball | Oficial | USA | 1 |  |
+| MVP 07 NCAA Baseball | Oficial | USA | 1 |  |
+| MVP Baseball 2003 | Oficial | USA | 1 |  |
+| MVP Baseball 2004 | Oficial | USA | 1 |  |
+| MVP Baseball 2005 | Oficial | USA | 1 |  |
+| MX 2002 featuring Ricky Carmichael | Oficial | Europe | 1 |  |
+| MX Rider | Oficial | Europe | 1 |  |
+| MX SuperFly | Oficial | Australia, Europe | 1 |  |
+| MX Unleashed | Oficial | Europe | 1 |  |
+| MX vs. ATV Unleashed | Oficial | Australia, Europe | 1 |  |
+| MX vs. ATV Untamed | Oficial | Australia, Europe | 1 |  |
+| MX World Tour | Oficial | Europe | 1 |  |
+| My Horse & Me 2 | Oficial | Europe | 1 |  |
+| My Street | Oficial | Europe | 1 |  |
+| Myst III - Exile | Oficial | Europe | 1 |  |
+| Mystic Heroes | Oficial | Europe | 1 |  |
+| Myth Makers - Orbs of Doom | Oficial | Europe | 1 |  |
+| Myth Makers - Super Kart GP | Oficial | Europe | 1 |  |
+| Myth Makers - Trixie in Toyland | Oficial | Europe | 1 |  |
+| Namco Museum | Oficial | USA | 1 |  |
+| Namco Museum 50th Anniversary | Oficial | Europe | 1 |  |
+| Nanobreaker | Oficial | Europe | 1 |  |
+| Narc | Oficial | USA | 1 |  |
+| Naruto - Ultimate Ninja | Oficial | Europe | 1 |  |
+| Naruto - Ultimate Ninja 2 | Oficial | Europe | 1 |  |
+| Naruto - Ultimate Ninja 3 | Oficial | Europe | 1 |  |
+| Naruto - Uzumaki Chronicles | Oficial | Europe | 1 |  |
+| Naruto - Uzumaki Chronicles 2 | Oficial | Europe | 1 |  |
+| Naruto Shippuden - Ultimate Ninja 4 | Oficial | Europe | 1 |  |
+| Naruto Shippuden - Ultimate Ninja 5 | Oficial | Europe | 1 |  |
+| NASCAR - Dirt to Daytona | Oficial | USA | 1 |  |
+| NASCAR 06 - Total Team Control | Oficial | Australia, Europe | 1 |  |
+| NASCAR 07 | Oficial | Europe | 1 |  |
+| NASCAR 08 | Oficial | Australia, Europe | 1 |  |
+| NASCAR 09 | Oficial | Europe | 1 |  |
+| NASCAR 2001 | Oficial | USA | 1 |  |
+| NASCAR 2005 - Chase for the Cup | Oficial | USA | 1 |  |
+| NASCAR Heat 2002 | Oficial | USA | 1 |  |
+| NASCAR Thunder 2002 | Oficial | USA | 1 |  |
+| NASCAR Thunder 2003 | Oficial | USA | 1 |  |
+| NASCAR Thunder 2004 | Oficial | USA | 1 |  |
+| National Geographic - Safari Adventures Africa | Oficial | Europe | 1 |  |
+| Naval Ops - Commander | Oficial | Europe | 1 |  |
+| Naval Ops - Warship Gunner | Oficial | Europe | 1 |  |
+| NBA 06 | Oficial | USA | 1 |  |
+| NBA 07 featuring the Life Vol. 2 | Oficial | USA | 1 |  |
+| NBA 08 | Oficial | Europe | 1 |  |
+| NBA 09 - The Inside | Oficial | USA | 1 |  |
+| NBA 2K10 | Oficial | Europe | 1 |  |
+| NBA 2K11 | Oficial | Australia, Europe | 1 |  |
+| NBA 2K12 | Oficial | Australia, Europe | 1 |  |
+| NBA 2K2 | Oficial | USA | 1 |  |
+| NBA 2K3 | Oficial | Europe | 1 |  |
+| NBA 2K6 | Oficial | Australia, Europe | 1 |  |
+| NBA 2K7 | Oficial | Australia, Europe | 1 |  |
+| NBA 2K8 | Oficial | Australia, Europe | 1 |  |
+| NBA 2K9 | Oficial | Europe | 1 |  |
+| NBA 2Night 2002 | Oficial | Europe | 1 |  |
+| NBA Ballers | Oficial | Europe | 1 |  |
+| NBA Ballers - Phenom | Oficial | USA | 1 |  |
+| NBA Hoopz | Oficial | Europe | 1 |  |
+| NBA Jam | Oficial | Australia, Europe | 1 |  |
+| NBA Live 06 | Oficial | Spain | 1 |  |
+| NBA Live 07 | Oficial | Spain | 1 |  |
+| NBA Live 08 | Oficial | Spain | 1 |  |
+| NBA Live 09 | Oficial | Spain | 1 |  |
+| NBA Live 2001 | Oficial | Spain | 1 |  |
+| NBA Live 2002 | Oficial | Spain | 1 |  |
+| NBA Live 2003 | Oficial | Europe | 1 |  |
+| NBA Live 2004 | Oficial | Europe | 1 |  |
+| NBA Live 2005 | Oficial | Spain | 1 |  |
+| NBA ShootOut 2001 | Oficial | USA | 1 |  |
+| NBA ShootOut 2003 | Oficial | USA | 1 |  |
+| NBA ShootOut 2004 | Oficial | USA | 1 |  |
+| NBA Starting Five | Oficial | USA | 1 |  |
+| NBA Street | Oficial | Europe | 1 |  |
+| NBA Street V3 | Oficial | Europe | 1 |  |
+| NBA Street Vol. 2 | Oficial | Europe | 1 |  |
+| NCAA Basketball 09 | Oficial | USA | 1 |  |
+| NCAA College Basketball 2K3 | Oficial | USA | 1 |  |
+| NCAA College Football 2K3 | Oficial | USA | 1 |  |
+| NCAA Final Four 2001 | Oficial | USA | 1 |  |
+| NCAA Final Four 2002 | Oficial | USA | 1 |  |
+| NCAA Final Four 2003 | Oficial | USA | 1 |  |
+| NCAA Final Four 2004 | Oficial | USA | 1 |  |
+| NCAA Football 06 | Oficial | USA | 1 |  |
+| NCAA Football 07 | Oficial | USA | 1 |  |
+| NCAA Football 08 | Oficial | USA | 1 |  |
+| NCAA Football 09 | Oficial | USA | 1 |  |
+| NCAA Football 10 | Oficial | USA | 1 |  |
+| NCAA Football 11 | Oficial | USA | 1 |  |
+| NCAA Football 2002 | Oficial | USA | 1 |  |
+| NCAA Football 2003 | Oficial | USA | 1 |  |
+| NCAA Football 2004 | Oficial | USA | 1 |  |
+| NCAA Football 2005 | Oficial | USA | 1 |  |
+| NCAA GameBreaker 2001 | Oficial | USA | 1 |  |
+| NCAA GameBreaker 2003 | Oficial | USA | 1 |  |
+| NCAA GameBreaker 2004 | Oficial | USA | 1 |  |
+| NCAA March Madness 06 | Oficial | USA | 1 |  |
+| NCAA March Madness 07 | Oficial | USA | 1 |  |
+| NCAA March Madness 08 | Oficial | USA | 1 |  |
+| NCAA March Madness 2002 | Oficial | USA | 1 |  |
+| NCAA March Madness 2003 | Oficial | USA | 1 |  |
+| NCAA March Madness 2004 | Oficial | USA | 1 |  |
+| NCAA March Madness 2005 | Oficial | USA | 1 |  |
+| Need for Speed - Carbon - Collector's Edition | Oficial | USA | 1 |  |
+| Need for Speed - Hot Pursuit 2 | Oficial | Australia, Europe | 1 |  |
+| Need for Speed - Most Wanted | Oficial | Europe | 1 |  |
+| Need for Speed - ProStreet | Oficial | Europe | 1 |  |
+| Need for Speed - Undercover | Oficial | Europe | 1 |  |
+| Need for Speed - Underground | Oficial | Europe | 1 |  |
+| Need for Speed - Underground 2 | Oficial | Europe | 1 |  |
+| Neo Contra | Oficial | Europe | 1 |  |
+| NeoGeo Battle Coliseum | Oficial | Australia, Europe | 1 |  |
+| NeoGeo Online Collection Vol. 10 - The King of Fighters '98 - Ultimate Match | Oficial | Japan, Korea | 1 |  |
+| NeoGeo Online Collection Vol. 2 - Bakumatsu Roman - Gekka no Kenshi 1, 2 | Oficial | Japan | 1 |  |
+| NeoGeo Online Collection Vol. 3 - The King of Fighters - Orochi | Oficial | Japan | 1 |  |
+| NeoGeo Online Collection Vol. 7 - The King of Fighters - Nests | Oficial | Japan | 1 |  |
+| NeoGeo Online Collection Vol. 8 - Fuuun Super Combo | Oficial | Japan | 1 |  |
+| Neopets - The Darkest Faerie | Oficial | USA | 1 |  |
+| NFL 2K2 | Oficial | USA | 1 |  |
+| NFL 2K3 | Oficial | Europe | 1 |  |
+| NFL Blitz 2002 | Oficial | USA | 1 |  |
+| NFL Blitz 2003 | Oficial | USA | 1 |  |
+| NFL Blitz Pro | Oficial | USA | 1 |  |
+| NFL GameDay 2001 | Oficial | USA | 1 |  |
+| NFL GameDay 2002 | Oficial | USA | 1 |  |
+| NFL GameDay 2003 | Oficial | USA | 1 |  |
+| NFL GameDay 2004 | Oficial | USA | 1 |  |
+| NFL Head Coach | Oficial | USA | 1 |  |
+| NFL QB Club 2002 | Oficial | Europe | 1 |  |
+| NFL Street | Oficial | Europe | 1 |  |
+| NFL Street 2 | Oficial | Europe | 1 |  |
+| NFL Street 3 | Oficial | Australia, Europe | 1 |  |
+| NHL 06 | Oficial | Europe | 1 |  |
+| NHL 07 | Oficial | Europe | 1 |  |
+| NHL 08 | Oficial | Europe | 1 |  |
+| NHL 09 | Oficial | Australia, Europe | 1 |  |
+| NHL 2001 | Oficial | Europe | 1 |  |
+| NHL 2002 | Oficial | Europe | 1 |  |
+| NHL 2003 | Oficial | Europe | 1 |  |
+| NHL 2004 | Oficial | Europe | 1 |  |
+| NHL 2005 | Oficial | Europe | 1 |  |
+| NHL 2K10 | Oficial | USA | 1 |  |
+| NHL 2K3 | Oficial | Europe | 1 |  |
+| NHL 2K6 | Oficial | Europe | 1 |  |
+| NHL 2K7 | Oficial | Australia, Europe | 1 |  |
+| NHL 2K8 | Oficial | Australia, Europe | 1 |  |
+| NHL 2K9 | Oficial | Europe | 1 |  |
+| NHL FaceOff 2001 | Oficial | USA | 1 |  |
+| NHL FaceOff 2003 | Oficial | USA | 1 |  |
+| NHL Hitz 2002 | Oficial | Europe | 1 |  |
+| NHL Hitz 2003 | Oficial | Europe | 1 |  |
+| NHL Hitz Pro | Oficial | Europe | 1 |  |
+| NHRA Championship Drag Racing | Oficial | USA | 1 |  |
+| NHRA Drag Racing - Countdown to the Championship | Oficial | USA | 1 |  |
+| Nick Jr. Dora the Explorer - Dora Saves the Mermaids | Oficial | Europe | 1 |  |
+| Nick Jr. Dora the Explorer - Journey to the Purple Planet | Oficial | Australia, Europe | 1 |  |
+| Nick Jr. Go Diego Go! Safari Rescue | Oficial | Europe | 1 |  |
+| Nickelodeon Avatar - The Legend of Aang | Oficial | Australia, Europe | 1 |  |
+| Nickelodeon Avatar - The Legend of Aang - Into the Inferno | Oficial | Europe | 1 |  |
+| Nickelodeon Avatar - The Legend of Aang - The Burning Earth | Oficial | Australia, Europe | 1 |  |
+| Nickelodeon Barnyard | Oficial | Europe | 1 |  |
+| Nickelodeon Bob Esponja - La Pelicula | Oficial | Spain | 1 |  |
+| Nickelodeon Bob Esponja - Luces, Camara, Esponja! | Oficial | Spain | 1 |  |
+| Nickelodeon Dora the Explorer - Dora Saves the Crystal Kingdom | Oficial | USA | 1 |  |
+| Nickelodeon Dora the Explorer - Dora Saves the Snow Princess | Oficial | Australia, Europe | 1 |  |
+| Nickelodeon Dora's Big Birthday Adventure | Oficial | USA | 1 |  |
+| Nickelodeon El Tigre - The Adventures of Manny Rivera | Oficial | Europe | 1 |  |
+| Nickelodeon Go Diego Go! Great Dinosaur Rescue | Oficial | Australia, Europe | 1 |  |
+| Nickelodeon Jimmy Neutron - Boy Genius | Oficial | USA | 1 |  |
+| Nickelodeon Jimmy Neutron - Boy Genius - Attack of the Twonkies | Oficial | Australia, Europe | 1 |  |
+| Nickelodeon Ni Hao, Kai-Lan - Super Game Day | Oficial | USA | 1 |  |
+| Nickelodeon Rocket Power - Beach Bandits | Oficial | Europe | 1 |  |
+| Nickelodeon Rugrats - Rescate Real | Oficial | Spain | 1 |  |
+| Nickelodeon SpongeBob and Friends - Attack of the Toybots | Oficial | Europe | 1 |  |
+| Nickelodeon SpongeBob and Friends - Battle for Volcano Island | Oficial | Europe | 1 |  |
+| Nickelodeon SpongeBob SquarePants - Battle for Bikini Bottom | Oficial | Europe | 1 |  |
+| Nickelodeon SpongeBob SquarePants - Creature from the Krusty Krab | Oficial | Europe | 1 |  |
+| Nickelodeon SpongeBob SquarePants - Movin' with Friends | Oficial | Europe | 1 |  |
+| Nickelodeon SpongeBob SquarePants - Revenge of the Flying Dutchman | Oficial | Europe | 1 |  |
+| Nickelodeon SpongeBob SquarePants and Friends Unite! | Oficial | Europe | 1 |  |
+| Nickelodeon SpongeBob SquarePants featuring Nicktoons - Globs of Doom | Oficial | Europe | 1 |  |
+| Nickelodeon SpongeBob's Atlantis SquarePantis | Oficial | Europe | 1 |  |
+| Nickelodeon Tak - The Great Juju Challenge | Oficial | Europe | 1 |  |
+| Nickelodeon Tak 2 - The Staff of Dreams | Oficial | Europe | 1 |  |
+| Nickelodeon Tak and the Guardians of Gross | Oficial | Europe | 1 |  |
+| Nickelodeon The Adventures of Jimmy Neutron - Boy Genius - Jet Fusion | Oficial | Europe | 1 |  |
+| Nickelodeon The Naked Brothers Band - The Video Game | Oficial | Europe | 1 |  |
+| Nightmare of Druaga, The - Fushigino Dungeon | Oficial | USA | 1 |  |
+| Nightshade | Oficial | Europe | 1 |  |
+| Ninja Assault | Oficial | Europe | 1 |  |
+| Ninjabread Man | Oficial | Europe | 1 |  |
+| Nitrobike | Oficial | Europe | 1 |  |
+| Noble Racing | Oficial | Europe | 1 |  |
+| Nobunaga's Ambition - Iron Triangle | Oficial | USA | 1 |  |
+| Nobunaga's Ambition - Rise to Power | Oficial | USA | 1 |  |
+| Noddy and the Magic Book | Oficial | Europe | 1 |  |
+| NRA Gun Club | Oficial | USA | 1 |  |
+| NYR - New York Race | Oficial | Europe | 1 |  |
+| Obliterate | Oficial | Australia, Europe | 1 |  |
+| Obscure | Oficial | Europe | 1 |  |
+| Obscure II | Oficial | Europe | 1 |  |
+| Ocean Commander | Oficial | Europe | 1 |  |
+| Odin Sphere | Oficial | Europe | 1 |  |
+| Off Road | Oficial | Europe | 1 |  |
+| Off-Road - Wide Open | Oficial | Europe | 1 |  |
+| Offroad Extreme! Special Edition | Oficial | Europe | 1 |  |
+| Okage - Shadow King | Oficial | USA | 1 |  |
+| One Piece - Round the Land! | Oficial | Europe | 1 |  |
+| Oni | Oficial | Spain | 1 |  |
+| Onimusha - Blade Warriors | Oficial | Europe | 1 |  |
+| Onimusha - Dawn of Dreams | Oficial | Europe | 2 |  |
+| Onimusha - Warlords | Oficial | Europe | 1 |  |
+| Onimusha 2 - Samurai's Destiny | Oficial | Europe | 1 |  |
+| Onimusha 3 | Oficial | Australia, Europe | 1 |  |
+| Ookami | Oficial | Europe | 1 |  |
+| Open Season | Oficial | Europe | 1 |  |
+| Operation Air Assault | Oficial | Europe | 1 |  |
+| Operation Air Assault 2 | Oficial | Australia, Europe | 1 |  |
+| Operation WinBack | Oficial | Europe | 1 |  |
+| Operation WinBack 2 - Project Poseidon | Oficial | Europe | 1 |  |
+| Operative, The - No One Lives Forever | Oficial | Europe | 1 |  |
+| Oretachi Geesen Zoku - Super Volleyball | Oficial | Japan | 1 |  |
+| Orphen - Scion of Sorcery | Oficial | Europe | 1 |  |
+| Otostaz | Oficial | Japan | 1 |  |
+| Outlaw Golf | Oficial | Europe | 1 |  |
+| Outlaw Golf 2 | Oficial | Europe | 1 |  |
+| Outlaw Tennis | Oficial | Europe | 1 |  |
+| Outlaw Volleyball Remixed | Oficial | Australia, Europe | 1 |  |
+| OutRun 2006 - Coast 2 Coast | Oficial | Europe | 1 |  |
+| P.T.O. IV - Pacific Theater of Operations | Oficial | Europe | 1 |  |
+| Pacific Warriors II - Dogfight! | Oficial | Europe | 1 |  |
+| Pac-Man Fever | Oficial | USA | 1 |  |
+| Pac-Man Rally | Oficial | Europe | 1 |  |
+| Pac-Man World 2 | Oficial | Europe | 1 |  |
+| Pac-Man World 3 | Oficial | Europe | 1 |  |
+| Paddington Bear | Oficial | Europe | 1 |  |
+| Padrino, El | Oficial | Spain | 1 |  |
+| Panzer Elite Action - Fields of Glory | Oficial | Europe | 1 |  |
+| Panzer Front Ausf.B | Oficial | Europe | 1 |  |
+| Paparazzi | Oficial | Europe | 1 |  |
+| PaRappa the Rapper 2 | Oficial | Australia, Europe | 1 |  |
+| Paris-Dakar Rally | Oficial | Europe | 1 |  |
+| Party Carnival | Oficial | Europe | 1 |  |
+| Party Girls | Oficial | Europe | 1 |  |
+| PDC World Championship Darts | Oficial | Europe | 1 |  |
+| PDC World Championship Darts 2008 | Oficial | Europe | 1 |  |
+| Penny Racers | Oficial | Europe | 1 |  |
+| Perfect Ace - Pro Tournament Tennis | Oficial | Australia, Europe | 1 |  |
+| Perfect Ace 2 - The Championships | Oficial | Europe | 1 |  |
+| Persona 3 FES | Oficial | Europe | 1 |  |
+| Persona 4 | Oficial | Europe | 1 |  |
+| PES 2008 - Pro Evolution Soccer | Oficial | Europe | 1 |  |
+| PES 2009 - Pro Evolution Soccer | Oficial | Europe | 1 |  |
+| PES 2010 - Pro Evolution Soccer | Oficial | Europe | 1 |  |
+| PES 2011 - Pro Evolution Soccer | Oficial | Europe | 1 |  |
+| PES 2012 - Pro Evolution Soccer | Oficial | Europe | 1 |  |
+| PES 2013 - Pro Evolution Soccer | Oficial | Europe | 1 |  |
+| PES 2014 - Pro Evolution Soccer | Oficial | Europe | 1 |  |
+| PES 6 - Pro Evolution Soccer | Oficial | Spain | 1 |  |
+| Peter Jackson's King Kong - The Official Game of the Movie | Oficial | Australia, Europe | 1 |  |
+| Peter Pan | Oficial | Europe | 1 |  |
+| Phantasy Star Universe | Oficial | Europe | 1 |  |
+| Phantasy Star Universe - Ambition of the Illuminus | Oficial | Europe | 1 |  |
+| Phantom Brave | Oficial | Europe | 1 |  |
+| Pilot Down - Behind Enemy Lines | Oficial | Europe | 1 |  |
+| Pinball | Oficial | Europe | 1 |  |
+| Pinball Fun | Oficial | Europe | 1 |  |
+| Pinball Hall of Fame - The Williams Collection | Oficial | Canada, USA | 1 |  |
+| Pink Pong | Oficial | Europe | 1 |  |
+| Pinocchio | Oficial | Europe | 1 |  |
+| Pipe Mania | Oficial | Europe | 1 |  |
+| Pippa Funnell - Ranch Rescue | Oficial | Australia, Europe | 1 |  |
+| Pippa Funnell - Take the Reins | Oficial | Australia, Europe | 1 |  |
+| Pirates - The Legend of Black Kat | Oficial | Europe | 1 |  |
+| Pirates of the Caribbean - The Legend of Jack Sparrow | Oficial | Europe | 1 |  |
+| Pitfall - The Lost Expedition | Oficial | Spain | 1 |  |
+| Plan, The | Oficial | Spain | 1 |  |
+| Playboy - The Mansion | Oficial | Europe | 1 |  |
+| Playwize Poker & Casino | Oficial | Europe | 1 |  |
+| Poinie's Poin | Oficial | Asia, Japan | 1 |  |
+| Poker Masters | Oficial | Europe | 1 |  |
+| Polar Express, The | Oficial | Australia, Europe | 1 |  |
+| Police 24-7 | Oficial | Europe | 1 |  |
+| Police Chase Down | Oficial | Europe | 1 |  |
+| Pool Master | Oficial | Europe | 1 |  |
+| Pool Paradise - International Edition | Oficial | Europe | 1 |  |
+| Pool Shark 2 | Oficial | Europe | 1 |  |
+| Pop Star Academy | Oficial | Europe | 1 |  |
+| PopCap Hits! Vol. 1 | Oficial | USA | 1 |  |
+| PopCap Hits! Vol. 2 | Oficial | USA | 1 |  |
+| PopStar Guitar | Oficial | USA | 1 |  |
+| Portal Runner | Oficial | Europe | 1 |  |
+| Postman Pat | Oficial | Australia, Europe | 1 |  |
+| Power Rangers - Dino Thunder | Oficial | Europe | 1 |  |
+| Power Rangers - Super Legends | Oficial | Europe | 1 |  |
+| Power Volleyball | Oficial | Europe | 1 |  |
+| Powerdrome | Oficial | Europe | 1 |  |
+| Powerpuff Girls, The - Relish Rampage | Oficial | Europe | 1 |  |
+| Powershot Pinball | Oficial | Europe | 1 |  |
+| Predator - Concrete Jungle | Oficial | Europe | 1 |  |
+| Premier Manager 08 | Oficial | Europe | 1 |  |
+| Premier Manager 09 | Oficial | Europe | 1 |  |
+| Premier Manager 2002-2003 Season | Oficial | Europe | 1 |  |
+| Premier Manager 2003-04 | Oficial | Europe | 1 |  |
+| Premier Manager 2004-2005 | Oficial | Europe | 1 |  |
+| Premier Manager 2005-2006 | Oficial | Europe | 1 |  |
+| Premier Manager 2006-2007 | Oficial | Europe | 1 |  |
+| Pride FC - Fighting Championships | Oficial | Europe | 1 |  |
+| Primal | Oficial | Europe | 1 |  |
+| Prince of Persia - The Sands of Time | Oficial | Europe | 1 |  |
+| Prince of Persia - The Two Thrones | Oficial | Australia, Europe | 1 |  |
+| Prince of Persia - Warrior Within | Oficial | Australia, Europe | 1 |  |
+| Prisoner of War | Oficial | Europe | 1 |  |
+| Pro Beach Soccer | Oficial | Europe | 1 |  |
+| Pro Biker 2 | Oficial | Europe | 1 |  |
+| Pro Bull Riding - Out of the Chute | Oficial | USA | 1 |  |
+| Pro Evolution Soccer | Oficial | Europe | 1 |  |
+| Pro Evolution Soccer 2 | Oficial | Europe | 1 |  |
+| Pro Evolution Soccer 3 | Oficial | Europe | 1 |  |
+| Pro Evolution Soccer 4 | Oficial | Europe | 1 |  |
+| Pro Evolution Soccer 5 | Oficial | Europe | 1 |  |
+| Pro Evolution Soccer Management | Oficial | Europe | 1 |  |
+| Pro Rally 2002 | Oficial | Europe | 1 |  |
+| Professional Drift - D1 Grand Prix Series | Oficial | USA | 1 |  |
+| Project - Snowblind | Oficial | Europe | 1 |  |
+| Project Arms | Oficial | Japan | 1 |  |
+| Project Eden | Oficial | Europe | 1 |  |
+| Project Minerva Professional | Oficial | Europe | 1 |  |
+| Project Zero | Oficial | Europe | 1 |  |
+| Project Zero 3 | Oficial | Europe | 1 |  |
+| Project Zero II - Crimson Butterfly | Oficial | Europe | 1 |  |
+| ProStroke Golf | Oficial | Australia, Europe | 1 |  |
+| Pryzm - Chapter One - The Dark Unicorn | Oficial | Europe | 1 |  |
+| Psi-Ops - The Mindgate Conspiracy | Oficial | Europe | 1 |  |
+| Psychonauts | Oficial | Europe | 1 |  |
+| Psyvariar - Complete Edition | Oficial | Europe | 1 |  |
+| Psyvariar 2 - Ultimate Final | Oficial | Japan | 1 |  |
+| Pucelle, La - Tactics | Oficial | Europe | 1 |  |
+| Pump It Up - Exceed | Oficial | USA | 1 |  |
+| Punisher, The | Oficial | Europe | 1 |  |
+| Puyo Pop Fever | Oficial | Europe | 1 |  |
+| Puzzle Challenge - Crosswords and More! | Oficial | USA | 1 |  |
+| Puzzle Maniacs | Oficial | Europe | 1 |  |
+| Puzzle Party | Oficial | Europe | 1 |  |
+| Puzzle Quest - Challenge of the Warlords | Oficial | Europe | 1 |  |
+| Quake III - Revolution | Oficial | Europe | 1 |  |
+| Que Pasa Neng! El Videojuego | Oficial | Spain | 1 |  |
+| Quest for Aladdin's Treasure, The | Oficial | Europe | 1 |  |
+| Quest for Sleeping Beauty | Oficial | Europe | 1 |  |
+| Raceway - Drag & Stock Racing | Oficial | Europe | 1 |  |
+| Racing Simulation 3 | Oficial | Europe | 1 |  |
+| Radiata Stories | Oficial | USA | 1 |  |
+| Radio Helicopter | Oficial | Europe | 1 |  |
+| Radio Helicopter II | Oficial | Europe | 1 |  |
+| Raging Blades | Oficial | Europe | 1 |  |
+| Raiden III | Oficial | Europe | 1 |  |
+| Rally Championship | Oficial | Europe | 1 |  |
+| Rally Fusion - Race of Champions | Oficial | Europe | 1 |  |
+| Rampage - Total Destruction | Oficial | Europe | 1 |  |
+| Rapala Pro Bass Fishing | Oficial | USA | 1 |  |
+| Rapala Pro Fishing | Oficial | Australia, Europe | 1 |  |
+| Ratchet - Gladiator | Oficial | Australia, Europe | 1 |  |
+| Ratchet & Clank | Oficial | Australia, Europe | 1 |  |
+| Ratchet & Clank - Size Matters | Oficial | Australia, Europe | 1 |  |
+| Ratchet & Clank 2 | Oficial | Australia, Europe | 1 |  |
+| Ratchet & Clank 3 | Oficial | Australia, Europe | 1 |  |
+| Raw Danger | Oficial | Europe | 1 |  |
+| Rayman - Raving Rabbids | Oficial | Europe | 1 |  |
+| Rayman 3 - Hoodlum Havoc | Oficial | Europe | 1 |  |
+| Rayman M | Oficial | Europe | 1 |  |
+| Rayman Revolution | Oficial | Europe | 1 |  |
+| RC Revenge Pro | Oficial | Europe | 1 |  |
+| R-C Sports Copter Challenge | Oficial | Europe | 1 |  |
+| RC Toy Machines | Oficial | Europe | 1 |  |
+| Ready 2 Rumble Boxing - Round 2 | Oficial | Europe | 1 |  |
+| Real Madrid - The Game | Oficial | Europe | 1 |  |
+| Real World Golf | Oficial | Europe | 1 |  |
+| Real World Golf 2007 | Oficial | Europe | 1 |  |
+| Realm of the Dead | Oficial | Europe | 1 |  |
+| Realplay Golf | Oficial | Europe | 1 |  |
+| Realplay Pool | Oficial | Europe | 1 |  |
+| Realplay Puzzlesphere | Oficial | Europe | 1 |  |
+| Realplay Racing | Oficial | Europe | 1 |  |
+| Rebel Raiders - Operation Nighthawk | Oficial | Europe | 1 |  |
+| Red Baron | Oficial | Europe | 1 |  |
+| Red Dead Revolver | Oficial | Europe | 1 |  |
+| Red Faction | Oficial | Europe | 1 |  |
+| Red Faction II | Oficial | Europe | 1 |  |
+| Red Ninja - End of Honour | Oficial | Europe | 1 |  |
+| Red Star, The | Oficial | Australia, Europe | 1 |  |
+| RedCard | Oficial | Europe | 1 |  |
+| Reel Fishing III | Oficial | Europe | 1 |  |
+| Reign of Fire | Oficial | Europe | 1 |  |
+| Reservoir Dogs | Oficial | Europe | 1 |  |
+| Resident Evil - Code - Veronica X | Oficial | Europe | 1 |  |
+| Resident Evil - Dead Aim | Oficial | Europe | 1 |  |
+| Resident Evil - Outbreak | Oficial | Australia, Europe | 1 |  |
+| Resident Evil - Outbreak - File 2 | Oficial | Europe | 1 |  |
+| Resident Evil - Survivor 2 - Code - Veronica | Oficial | Europe | 1 |  |
+| Resident Evil 4 | Oficial | Europe | 1 |  |
+| Retro Classics - 8 Arcade Classics from Yesteryears | Oficial | Europe | 1 |  |
+| Return to Castle Wolfenstein - Operation Resurrection | Oficial | Spain | 1 |  |
+| Rez | Oficial | Europe | 1 |  |
+| Rhythmic Star! | Oficial | Australia, Europe | 1 |  |
+| Ribbit King | Oficial | Europe | 1 |  |
+| Richard Burns Rally | Oficial | Europe | 1 |  |
+| Ridge Racer V | Oficial | Europe | 1 |  |
+| Riding Star | Oficial | Europe | 1 |  |
+| Riding Star 3 | Oficial | Europe | 1 |  |
+| Rig Racer 2 | Oficial | Europe | 1 |  |
+| Ring of Red | Oficial | Europe | 1 |  |
+| Rise of the Kasai | Oficial | USA | 1 |  |
+| Risk - Global Domination | Oficial | Europe | 1 |  |
+| RLH - Run Like Hell | Oficial | Europe | 1 |  |
+| Road Rage 3 | Oficial | Europe | 1 |  |
+| Road Trip Adventure | Oficial | Australia, Europe | 1 |  |
+| RoadKill | Oficial | Europe | 1 |  |
+| Robin Hood - Defender of the Crown | Oficial | Europe | 1 |  |
+| Robin Hood 2 - The Siege | Oficial | Europe | 1 |  |
+| Robin Hood's Quest | Oficial | Europe | 1 |  |
+| RoboCop | Oficial | Europe | 1 |  |
+| Robot Alchemic Drive | Oficial | USA | 1 |  |
+| Robot Warlords | Oficial | Europe | 1 |  |
+| Robot Wars - Arenas of Destruction | Oficial | Europe | 1 |  |
+| Robotech - Battlecry | Oficial | Europe | 1 |  |
+| Robotech - Invasion | Oficial | Europe | 1 |  |
+| Robots | Oficial | Australia, Europe | 1 |  |
+| Rock Band | Oficial | Australia, Europe | 1 |  |
+| Rock Band - Country Track Pack | Oficial | USA | 1 |  |
+| Rock Band - Metal Track Pack | Oficial | Canada, USA | 1 |  |
+| Rock Band - Song Pack 1 | Oficial | Australia, Europe | 1 |  |
+| Rock Band - Song Pack 2 | Oficial | Europe | 1 |  |
+| Rock Band 2 | Oficial | Europe | 1 |  |
+| Rock Band Track Pack - Classic Rock | Oficial | USA | 1 |  |
+| Rock'N'Roll Adventures | Oficial | Europe | 1 |  |
+| Rocky | Oficial | Europe | 1 |  |
+| Rocky Legends | Oficial | Europe | 1 |  |
+| Rogue Galaxy | Oficial | Europe | 1 |  |
+| Rogue Ops | Oficial | Europe | 1 |  |
+| Rogue Trooper | Oficial | Europe | 1 |  |
+| Roland Garros 2005 - Powered by Smash Court Tennis | Oficial | Europe | 1 |  |
+| Roland Garros French Open 2002 | Oficial | Europe | 1 |  |
+| Roland Garros French Open 2003 | Oficial | Europe | 1 |  |
+| Roller Coaster Funfare | Oficial | Europe | 1 |  |
+| RollerCoaster World | Oficial | Europe | 1 |  |
+| Rolling | Oficial | Europe | 1 |  |
+| Romance of the Three Kingdoms IX | Oficial | USA | 1 |  |
+| Romance of the Three Kingdoms VII | Oficial | USA | 1 |  |
+| Romance of the Three Kingdoms VIII | Oficial | Europe | 1 |  |
+| Romance of the Three Kingdoms X | Oficial | USA | 1 |  |
+| Romance of the Three Kingdoms XI | Oficial | USA | 1 |  |
+| Romancing SaGa | Oficial | USA | 1 |  |
+| Room Zoom - Race for Impact | Oficial | Europe | 1 |  |
+| RPG Maker 3 | Oficial | USA | 1 |  |
+| RPG Maker II | Oficial | USA | 1 |  |
+| RPM Tuning | Oficial | Europe | 1 |  |
+| R-Racing | Oficial | Europe | 1 |  |
+| RS - Riding Spirits | Oficial | Europe | 1 |  |
+| RSII - Riding Spirits | Oficial | Europe | 1 |  |
+| RTL Biathlon 2007 | Oficial | Europe | 1 |  |
+| RTL Biathlon 2008 | Oficial | Europe | 1 |  |
+| RTL Biathlon 2009 | Oficial | Europe | 1 |  |
+| RTX - Red Rock | Oficial | Spain | 1 |  |
+| R-Type Final | Oficial | Europe | 1 |  |
+| Ruff Trigger - The Vanocore Conspiracy | Oficial | Europe | 1 |  |
+| Rugby | Oficial | Europe | 1 |  |
+| Rugby 06 | Oficial | Europe | 1 |  |
+| Rugby 08 | Oficial | Australia, Europe | 1 |  |
+| Rugby 2004 | Oficial | Europe | 1 |  |
+| Rugby 2005 | Oficial | Europe | 1 |  |
+| Rugby Challenge 2006 | Oficial | Europe | 1 |  |
+| Rugby League | Oficial | Australia | 1 |  |
+| Rugby League 2 - World Cup Edition | Oficial | Europe | 1 |  |
+| Rule of Rose | Oficial | Europe | 1 |  |
+| Rumble Racing | Oficial | Europe | 1 |  |
+| Rumble Roses | Oficial | Europe | 1 |  |
+| Runabout 3 - Neo Age | Oficial | Europe | 1 |  |
+| Rune - Viking Warlord | Oficial | Spain | 1 |  |
+| Rygar - The Legendary Adventure | Oficial | Europe | 1 |  |
+| S.L.A.I. - Steel Lancer Arena International | Oficial | Europe | 1 |  |
+| Saint & Sinner | Oficial | Europe | 1 |  |
+| Saint Seiya - The Hades | Oficial | Europe | 1 |  |
+| Saint Seiya - The Sanctuary | Oficial | Europe | 1 |  |
+| Sakura Wars - So Long, My Love | Oficial | USA | 2 |  |
+| Salt Lake 2002 | Oficial | Europe | 1 |  |
+| Samurai Aces | Oficial | Europe | 1 |  |
+| Samurai Champloo - Sidetracked | Oficial | USA | 1 |  |
+| Samurai Jack - The Shadow of Aku | Oficial | Europe | 1 |  |
+| Samurai Shodown Anthology | Oficial | Europe | 1 |  |
+| Samurai Shodown V | Oficial | Europe | 1 |  |
+| Samurai Warriors | Oficial | Spain | 1 |  |
+| Samurai Warriors - Xtreme Legends | Oficial | Europe | 1 |  |
+| Samurai Warriors 2 | Oficial | Europe | 1 |  |
+| Samurai Warriors 2 - Empires | Oficial | Australia, Europe | 1 |  |
+| Samurai Warriors 2 - Xtreme Legends | Oficial | Europe | 1 |  |
+| Samurai Western | Oficial | Europe | 1 |  |
+| SAS - Anti-Terror Force | Oficial | Europe | 1 |  |
+| Savage Skies | Oficial | Europe | 1 |  |
+| SBK 08 - Superbike World Championship | Oficial | Australia, Europe | 1 |  |
+| SBK 09 - Superbike World Championship | Oficial | Europe | 1 |  |
+| SBK-07 - Superbike World Championship | Oficial | Australia, Europe | 1 |  |
+| Scaler | Oficial | Europe | 1 |  |
+| SCAR - Squadra Corse Alfa Romeo | Oficial | Australia, Europe | 1 |  |
+| Scarface - The World Is Yours | Oficial | Europe | 1 |  |
+| Scooby-Doo! and the Spooky Swamp | Oficial | Europe | 1 |  |
+| Scooby-Doo! First Frights | Oficial | Australia, Europe | 1 |  |
+| Scooby-Doo! Mystery Mayhem | Oficial | Australia, Europe | 1 |  |
+| Scooby-Doo! Night of 100 Frights | Oficial | Europe | 1 |  |
+| Scooby-Doo! Unmasked | Oficial | Europe | 1 |  |
+| SCORE International Baja 1000 - World Championship Off Road Racing | Oficial | Europe | 1 |  |
+| Scorpion King, The - Rise of the Akkadian | Oficial | Europe | 1 |  |
+| Scrabble Interactive | Oficial | Europe | 1 |  |
+| SD Gundam Force - Showdown! | Oficial | USA | 1 |  |
+| Sea Monsters - A Prehistoric Adventure | Oficial | Europe | 1 |  |
+| Search & Destroy | Oficial | Europe | 1 |  |
+| SeaWorld Adventure Parks - Shamu's Deep Sea Adventures | Oficial | Europe | 1 |  |
+| Second Sight | Oficial | Europe | 1 |  |
+| Secret Agent Clank | Oficial | Europe | 1 |  |
+| Secret Saturdays, The - Beasts of the 5th Sun | Oficial | Europe | 1 |  |
+| Secret Service | Oficial | Europe | 1 |  |
+| Secret Weapons over Normandy | Oficial | Spain | 1 |  |
+| Seed, The - Warzone | Oficial | Europe | 1 |  |
+| Seek and Destroy | Oficial | Europe | 1 |  |
+| Sega Ages 2500 Series Vol. 10 - After Burner II | Oficial | Japan | 1 |  |
+| Sega Ages 2500 Series Vol. 29 - Monster World Complete Collection | Oficial | Japan | 1 |  |
+| Sega Ages 2500 Series Vol. 32 - Phantasy Star Complete Collection | Oficial | Japan | 1 |  |
+| Sega Ages 2500 Series Vol. 4 - Space Harrier | Oficial | Japan | 1 |  |
+| Sega Bass Fishing Duel | Oficial | Europe | 1 |  |
+| Sega Classics Collection | Oficial | Australia, Europe | 1 |  |
+| Sega Mega Drive Collection | Oficial | Australia, Europe | 1 |  |
+| Sega Soccer Slam | Oficial | Europe | 1 |  |
+| Sega Superstars | Oficial | Australia, Europe | 1 |  |
+| Sega Superstars Tennis | Oficial | Australia, Europe | 1 |  |
+| Sengoku Anthology | Oficial | Europe | 1 |  |
+| Senor de los Anillos, El - El Retorno del Rey | Oficial | Spain | 1 |  |
+| Senor de los Anillos, El - La Tercera Edad | Oficial | Spain | 1 |  |
+| Senor de los Anillos, El - Las Dos Torres | Oficial | Spain | 1 |  |
+| Sensible Soccer 2006 | Oficial | Europe | 1 |  |
+| Serie de Catastroficas Desdichas de Lemony Snicket, Una | Oficial | Spain | 1 |  |
+| Serious Sam - Next Encounter | Oficial | Australia, Europe | 1 |  |
+| Seven Samurai 20XX | Oficial | Europe | 1 |  |
+| Shadow Hearts | Oficial | Europe | 1 |  |
+| Shadow Hearts - From the New World | Oficial | Australia, Europe | 1 |  |
+| Shadow Hearts II | Oficial | Australia, Europe | 2 |  |
+| Shadow Man - 2econd Coming | Oficial | Europe | 1 |  |
+| Shadow of Ganymede | Oficial | Europe | 1 |  |
+| Shadow of Memories | Oficial | Europe | 1 |  |
+| Shadow of Rome | Oficial | Australia, Europe | 1 |  |
+| Shadow of the Colossus | Oficial | Australia, Europe | 1 |  |
+| Shadow of Zorro, The | Oficial | Europe | 1 |  |
+| Shadow the Hedgehog | Oficial | Australia, Europe | 1 |  |
+| Shaun Palmer's Pro Snowboarder | Oficial | Europe | 1 |  |
+| Shaun White Snowboarding | Oficial | Australia, Europe | 1 |  |
+| ShellShock - Nam '67 | Oficial | Europe | 1 |  |
+| Shepherd's Crossing | Oficial | USA | 1 |  |
+| Shield, The - The Game | Oficial | Europe | 1 |  |
+| Shifters | Oficial | Europe | 1 |  |
+| Shin Megami Tensei - Devil Summoner - Raidou Kuzunoha vs. the Soulless Army | Oficial | Europe | 1 |  |
+| Shin Megami Tensei - Devil Summoner 2 - Raidou Kuzunoha vs. King Abaddon | Oficial | USA | 1 |  |
+| Shin Megami Tensei - Digital Devil Saga | Oficial | Europe | 1 |  |
+| Shin Megami Tensei - Digital Devil Saga 2 | Oficial | Europe | 1 |  |
+| Shin Megami Tensei - Lucifer's Call | Oficial | Europe | 1 |  |
+| Shining Force EXA | Oficial | USA | 1 |  |
+| Shining Force Neo | Oficial | USA | 1 |  |
+| Shining Tears | Oficial | USA | 1 |  |
+| Shinobi | Oficial | Europe | 1 |  |
+| Shinobido - Way of the Ninja | Oficial | Europe | 1 |  |
+| Shogun's Blade | Oficial | Europe | 1 |  |
+| Shonen Jump's One Piece - Grand Adventure | Oficial | Europe | 1 |  |
+| Shonen Jump's One Piece - Grand Battle | Oficial | Europe | 1 |  |
+| Shonen Jump's One Piece - Pirates' Carnival | Oficial | USA | 1 |  |
+| Shonen Jump's Shaman King - Power of Spirit | Oficial | Europe | 1 |  |
+| Short Track Racing - Trading Paint | Oficial | USA | 1 |  |
+| Showdown - Legends of Wrestling | Oficial | Europe | 1 |  |
+| Shox - Rally Reinvented | Oficial | Europe | 1 |  |
+| Shrek 2 | Oficial | Spain | 1 |  |
+| Shrek Super Party | Oficial | Europe | 1 |  |
+| Silent Hill - Shattered Memories | Oficial | Europe | 1 |  |
+| Silent Hill 2 - Director's Cut | Oficial | Europe | 1 |  |
+| Silent Hill 3 | Oficial | Europe | 1 |  |
+| Silent Hill 4 - The Room | Oficial | Europe | 1 |  |
+| Silent Hill Origins | Oficial | Europe | 1 |  |
+| Silent Line - Armored Core | Oficial | Europe | 1 |  |
+| Silent Scope | Oficial | Europe | 1 |  |
+| Silent Scope 2 - Fatal Judgement | Oficial | Europe | 1 |  |
+| Silent Scope 3 | Oficial | Europe | 1 |  |
+| Silpheed - The Lost Planet | Oficial | Europe | 1 |  |
+| Simpsons Game, The | Oficial | Europe | 1 |  |
+| Simpsons Skateboarding, The | Oficial | Spain | 1 |  |
+| Simpsons, The - Hit & Run | Oficial | Australia, Europe | 1 |  |
+| Simpsons, The - Road Rage | Oficial | Europe | 1 |  |
+| Sims 2, The | Oficial | Europe | 1 |  |
+| Sims 2, The - Castaway | Oficial | Australia, Europe | 1 |  |
+| Sims 2, The - Pets | Oficial | Australia, Europe | 1 |  |
+| Sims, The | Oficial | Europe | 1 |  |
+| Sims, The - Bustin' Out | Oficial | Europe | 1 |  |
+| SingStar | Oficial | Spain | 1 |  |
+| SingStar '80s | Oficial | Spain | 1 |  |
+| SingStar '90s | Oficial | Spain | 1 |  |
+| SingStar ABBA | Oficial | Spain | 1 |  |
+| SingStar Amped | Oficial | USA | 1 |  |
+| SingStar Anthems | Oficial | Australia, Europe | 1 |  |
+| SingStar Bollywood | Oficial | Europe | 1 |  |
+| SingStar Boy Bands vs Girl Bands | Oficial | Europe | 1 |  |
+| SingStar Canciones Disney | Oficial | Spain | 1 |  |
+| SingStar Chart Hits | Oficial | Australia | 1 |  |
+| SingStar Clasicos | Oficial | Spain | 1 |  |
+| SingStar Country | Oficial | USA | 1 |  |
+| SingStar Hottest Hits | Oficial | Australia, Europe | 1 |  |
+| SingStar La Edad de Oro del Pop Espanol | Oficial | Spain | 1 |  |
+| SingStar Latino | Oficial | Spain | 1 |  |
+| SingStar Legends | Oficial | Spain | 1 |  |
+| SingStar Mecano | Oficial | Spain | 1 |  |
+| SingStar Miliki | Oficial | Spain | 1 |  |
+| SingStar Motown | Oficial | Europe | 1 |  |
+| SingStar Operacion Triunfo | Oficial | Spain | 1 |  |
+| SingStar Party | Oficial | Spain | 1 |  |
+| SingStar Patito Feo | Oficial | Spain | 1 |  |
+| SingStar Pop | Oficial | Spain | 1 |  |
+| SingStar Pop 2009 | Oficial | Spain | 1 |  |
+| SingStar Pop Hits - 40 Principales | Oficial | Spain | 1 |  |
+| SingStar Pop Vol. 2 | Oficial | USA | 1 |  |
+| SingStar Queen | Oficial | Spain | 1 |  |
+| SingStar R&B | Oficial | Spain | 1 |  |
+| SingStar Rock Ballads | Oficial | Spain | 1 |  |
+| SingStar Rocks! | Oficial | Spain | 1 |  |
+| SingStar Summer Party | Oficial | Spain | 1 |  |
+| SingStar Take That | Oficial | Australia, Europe | 1 |  |
+| SingStar The Wiggles | Oficial | Australia | 1 |  |
+| Sitting Ducks | Oficial | Europe | 1 |  |
+| Skate Attack | Oficial | Europe | 1 |  |
+| Skateboard Madness - Xtreme Edition | Oficial | Europe | 1 |  |
+| Ski and Shoot | Oficial | USA | 1 |  |
+| Ski Racing 2005 | Oficial | Europe | 1 |  |
+| Ski Racing 2006 | Oficial | Europe | 1 |  |
+| Sky Odyssey | Oficial | Europe | 1 |  |
+| Sky Surfer | Oficial | Europe | 1 |  |
+| SkyGunner | Oficial | USA | 1 |  |
+| Skyscraper | Oficial | Europe | 1 |  |
+| Slam Tennis | Oficial | Europe | 1 |  |
+| Sled Storm | Oficial | Europe | 1 |  |
+| Sly 2 - Band of Thieves | Oficial | Europe | 1 |  |
+| Sly 3 - Honour Among Thieves | Oficial | Europe | 1 |  |
+| Sly Raccoon | Oficial | Europe | 1 |  |
+| Smarties - Meltdown | Oficial | Australia, Europe | 1 |  |
+| Smash Cars | Oficial | Europe | 1 |  |
+| Smash Court Tennis - Pro Tournament | Oficial | Australia, Europe | 1 |  |
+| Smash Court Tennis - Pro Tournament 2 | Oficial | Australia, Europe | 1 |  |
+| Smuggler's Run | Oficial | Europe | 1 |  |
+| Smuggler's Run 2 - Hostile Territory | Oficial | Europe | 1 |  |
+| Sniper 2, The | Oficial | Europe | 1 |  |
+| Sniper Assault | Oficial | Europe | 1 |  |
+| Sniper Elite | Oficial | Europe | 1 |  |
+| SNK Arcade Classics Vol. 1 | Oficial | Europe | 1 |  |
+| SNK vs. Capcom - SVC Chaos | Oficial | Europe | 1 |  |
+| SnoCross 2 featuring Blair Morgan | Oficial | Europe | 1 |  |
+| Snoopy vs. the Red Baron | Oficial | USA | 1 |  |
+| Snow Queen Quest, The | Oficial | Europe | 1 |  |
+| Snow Rider | Oficial | Europe | 1 |  |
+| Snow White & the 7 Clever Boys | Oficial | Europe | 1 |  |
+| Snowboard Racer 2 | Oficial | Europe | 1 |  |
+| Soccer Life 2 | Oficial | Europe | 1 |  |
+| Soccer Life! | Oficial | Europe | 1 |  |
+| SOCOM - U.S. Navy SEALs | Oficial | Europe | 1 |  |
+| SOCOM - U.S. Navy SEALs - Combined Assault | Oficial | Europe | 1 |  |
+| SOCOM 3 - U.S. Navy SEALs | Oficial | Europe | 1 |  |
+| SOCOM II - U.S. Navy SEALs | Oficial | Europe | 1 |  |
+| Sol Divide | Oficial | Europe | 1 |  |
+| Soldier of Fortune - Gold Edition | Oficial | Europe | 1 |  |
+| Son of the Lion King | Oficial | Europe | 1 |  |
+| Sonic Gems Collection | Oficial | Australia, Europe | 1 |  |
+| Sonic Heroes | Oficial | Australia, Europe | 1 |  |
+| Sonic Mega Collection Plus | Oficial | Australia, Europe | 1 |  |
+| Sonic Riders | Oficial | Australia, Europe | 1 |  |
+| Sonic Riders - Zero Gravity | Oficial | Australia, Europe | 1 |  |
+| Sonic Unleashed | Oficial | Australia, Europe | 1 |  |
+| Sopranos, The - Road to Respect | Oficial | Australia, Europe | 1 |  |
+| SOS - The Final Escape | Oficial | Europe | 1 |  |
+| Soul Nomad & the World Eaters | Oficial | Europe | 1 |  |
+| Soulcalibur II | Oficial | Europe | 1 |  |
+| Soulcalibur III | Oficial | Australia, Europe | 1 |  |
+| Space Channel 5 | Oficial | Europe | 1 |  |
+| Space Channel 5 Part 2 | Oficial | Europe | 1 |  |
+| Space Chimps | Oficial | Europe | 1 |  |
+| Space Invaders - Invasion Day | Oficial | Europe | 1 |  |
+| Space Invaders Anniversary | Oficial | Australia, Europe | 1 |  |
+| Space Rebellion | Oficial | Europe | 1 |  |
+| Space War Attack | Oficial | Europe | 1 |  |
+| Spartan - Total Warrior | Oficial | Australia, Europe | 1 |  |
+| Spawn - Armageddon | Oficial | Europe | 1 |  |
+| Special Forces | Oficial | Europe | 1 |  |
+| Spectral vs. Generation | Oficial | Europe | 1 |  |
+| Speed Challenge - Jacques Villeneuve's Racing Vision | Oficial | Europe | 1 |  |
+| Speed Kings | Oficial | Europe | 1 |  |
+| Speed Machines 3 | Oficial | Europe | 1 |  |
+| Speed Racer | Oficial | Europe | 1 |  |
+| Speedboat GP | Oficial | Europe | 1 |  |
+| Sphinx and the Cursed Mummy | Oficial | Europe | 1 |  |
+| Spider-Man | Oficial | Spain | 1 |  |
+| Spider-Man - Friend or Foe | Oficial | Europe | 1 |  |
+| Spider-Man - Web of Shadows - Amazing Allies Edition | Oficial | Europe | 1 |  |
+| Spider-Man 2 | Oficial | Europe | 1 |  |
+| Spider-Man 3 | Oficial | Europe | 1 |  |
+| Spiderwick Chronicles, The | Oficial | Europe | 1 |  |
+| SpinDrive Ping Pong | Oficial | Europe | 1 |  |
+| Splashdown | Oficial | Europe | 1 |  |
+| Splashdown 2 - Rides Gone Wild | Oficial | Europe | 1 |  |
+| Splatter Master | Oficial | Europe | 1 |  |
+| Sprint Car Challenge | Oficial | Europe | 1 |  |
+| Sprint Cars - Road to Knoxville | Oficial | Australia, Europe | 1 |  |
+| Sprint Cars 2 - Showdown at Eldora | Oficial | USA | 1 |  |
+| Spy Fiction | Oficial | Europe | 1 |  |
+| Spy vs. Spy | Oficial | Australia, Europe | 1 |  |
+| SpyHunter | Oficial | Europe | 1 |  |
+| SpyHunter - Nowhere to Run | Oficial | Europe | 1 |  |
+| SpyHunter 2 | Oficial | Europe | 1 |  |
+| Spyro - A Hero's Tail | Oficial | Australia, Europe | 1 |  |
+| Spyro - Enter the Dragonfly | Oficial | Australia, Europe | 1 |  |
+| SpyToy | Oficial | Australia, Europe | 1 |  |
+| SRS - Street Racing Syndicate | Oficial | Europe | 1 |  |
+| SSX | Oficial | Europe | 1 |  |
+| SSX 3 | Oficial | Europe | 1 |  |
+| SSX on Tour | Oficial | Europe | 1 |  |
+| SSX Tricky | Oficial | Europe | 1 |  |
+| Stacked with Daniel Negreanu | Oficial | USA | 1 |  |
+| Star Ocean - Till the End of Time | Oficial | Europe | 2 |  |
+| Star Trek - Conquest | Oficial | Australia, Europe | 1 |  |
+| Star Trek - Encounters | Oficial | Europe | 1 |  |
+| Star Trek - Shattered Universe | Oficial | Europe | 1 |  |
+| Star Trek - Voyager - Elite Force | Oficial | Europe | 1 |  |
+| Star Wars - Battlefront | Oficial | Europe | 1 |  |
+| Star Wars - Battlefront II | Oficial | Europe | 1 |  |
+| Star Wars - Bounty Hunter | Oficial | Spain | 1 |  |
+| Star Wars - Episode III - Revenge of the Sith | Oficial | Europe | 1 |  |
+| Star Wars - Jedi Starfighter | Oficial | Spain | 1 |  |
+| Star Wars - Las Guerras Clon | Oficial | Spain | 1 |  |
+| Star Wars - Racer Revenge | Oficial | Europe | 1 |  |
+| Star Wars - Starfighter | Oficial | Spain | 1 |  |
+| Star Wars - Super Bombad Racing | Oficial | Spain | 1 |  |
+| Star Wars - The Clone Wars - Republic Heroes | Oficial | USA | 1 |  |
+| Star Wars - The Force Unleashed | Oficial | Europe | 1 |  |
+| Starsky & Hutch | Oficial | Europe | 1 |  |
+| State of Emergency | Oficial | Europe | 1 |  |
+| State of Emergency 2 | Oficial | Europe | 1 |  |
+| Stealth Force - The War on Terror | Oficial | Europe | 1 |  |
+| Stealth Force 2 | Oficial | Europe | 1 |  |
+| Steam Express | Oficial | Europe | 1 |  |
+| Steambot Chronicles | Oficial | Europe | 1 |  |
+| Steel Dragon EX | Oficial | Europe | 1 |  |
+| Stella Deus - The Gate of Eternity | Oficial | Europe | 1 |  |
+| Stock Car Crash | Oficial | Europe | 1 |  |
+| Stock Car Speedway | Oficial | Europe | 1 |  |
+| Stolen | Oficial | Europe | 1 |  |
+| Strawberry Shortcake - The Sweet Dreams Game | Oficial | Europe | 1 |  |
+| Street Boyz | Oficial | Europe | 1 |  |
+| Street Dance | Oficial | Europe | 1 |  |
+| Street Fighter Alpha Anthology | Oficial | Australia, Europe | 1 |  |
+| Street Fighter Anniversary Collection | Oficial | USA | 1 |  |
+| Street Fighter EX3 | Oficial | Europe | 1 |  |
+| Street Golfer | Oficial | Europe | 1 |  |
+| Street Hoops | Oficial | Australia, Europe | 1 |  |
+| Street Warrior | Oficial | Europe | 1 |  |
+| Strike Force Bowling | Oficial | Europe | 1 |  |
+| Stuart Little 3 - Big Photo Adventure | Oficial | Australia, Europe | 1 |  |
+| Stunt GP | Oficial | Europe | 1 |  |
+| Stuntman | Oficial | Europe | 1 |  |
+| Stuntman - Ignition | Oficial | Europe | 1 |  |
+| Sub Rebellion | Oficial | Europe | 1 |  |
+| Suffering, The | Oficial | Europe | 1 |  |
+| Suffering, The - Ties That Bind | Oficial | Europe | 1 |  |
+| Suikoden III | Oficial | USA | 1 |  |
+| Suikoden IV | Oficial | Europe | 1 |  |
+| Suikoden Tactics | Oficial | Europe | 1 |  |
+| Suikoden V | Oficial | Europe | 1 |  |
+| Sum of All Fears, The | Oficial | Europe | 1 |  |
+| Summer Athletics | Oficial | Australia, Europe | 1 |  |
+| Summer Heat Beach Volleyball | Oficial | Europe | 1 |  |
+| Summoner | Oficial | Europe | 1 |  |
+| Summoner 2 | Oficial | Europe | 1 |  |
+| Sunny Garcia Surfing | Oficial | Australia, Europe | 1 |  |
+| Super Bust-A-Move | Oficial | Europe | 1 |  |
+| Super Bust-A-Move 2 | Oficial | Europe | 1 |  |
+| Super Dragon Ball Z | Oficial | Europe | 1 |  |
+| Super Farm | Oficial | Europe | 1 |  |
+| Super Fruit Fall | Oficial | Europe | 1 |  |
+| Super Monkey Ball Adventure | Oficial | Europe | 1 |  |
+| Super Monkey Ball Deluxe | Oficial | Europe | 1 |  |
+| Super PickUps | Oficial | Europe | 1 |  |
+| Super Trucks | Oficial | Europe | 1 |  |
+| Superbike GP | Oficial | Europe | 1 |  |
+| Super-Bikes Riding Challenge | Oficial | Europe | 1 |  |
+| Supercar Street Challenge | Oficial | Europe | 1 |  |
+| Superman - Shadow of Apokolips | Oficial | Europe | 1 |  |
+| Superman Returns | Oficial | Spain | 1 |  |
+| Surfing Air Show with RatBoy | Oficial | Japan | 1 |  |
+| Surfing H3O | Oficial | Europe | 1 |  |
+| Surf's Up | Oficial | Europe | 1 |  |
+| Suzuki Super-Bikes II - Riding Challenge | Oficial | Canada, USA | 1 |  |
+| Sven-Goeran Eriksson's World Challenge | Oficial | Europe | 1 |  |
+| Sven-Goeran Eriksson's World Manager 2002 | Oficial | Europe | 1 |  |
+| Swashbucklers - Blue vs. Grey | Oficial | USA | 1 |  |
+| SWAT - Global Strike Team | Oficial | Europe | 1 |  |
+| SWAT Siege | Oficial | Europe | 1 |  |
+| Swing Away Golf | Oficial | Europe | 1 |  |
+| Sword of Etheria, The | Oficial | Europe | 1 |  |
+| Sword of the Samurai | Oficial | Europe | 1 |  |
+| Swords of Destiny | Oficial | Europe | 1 |  |
+| SX Superstar | Oficial | Europe | 1 |  |
+| SXR - Snow X Racing | Oficial | Europe | 1 |  |
+| Syberia | Oficial | Europe | 1 |  |
+| Syberia II | Oficial | Europe | 1 |  |
+| Syphon Filter - Dark Mirror | Oficial | Australia, Europe | 1 |  |
+| Syphon Filter - Logan's Shadow | Oficial | USA | 1 |  |
+| Syphon Filter - The Omega Strain | Oficial | Australia, Europe | 1 |  |
+| Taiko Drum Master | Oficial | USA | 1 |  |
+| Taito Legends | Oficial | Europe | 1 |  |
+| Taito Legends 2 | Oficial | Europe | 1 |  |
+| Tak y el Poder Juju | Oficial | Spain | 1 |  |
+| Tale of Despereaux, The | Oficial | USA | 1 |  |
+| Tales of Legendia | Oficial | USA | 1 |  |
+| Tales of the Abyss | Oficial | USA | 1 |  |
+| Tank Elite | Oficial | Europe | 1 |  |
+| Taxi Rider | Oficial | Europe | 1 |  |
+| Taz - Wanted | Oficial | Europe | 1 |  |
+| TD Overdrive - The Brotherhood of Speed | Oficial | Europe | 1 |  |
+| Technic Beat | Oficial | USA | 1 |  |
+| Teen Titans | Oficial | Europe | 1 |  |
+| Teenage Mutant Ninja Turtles | Oficial | Europe | 1 |  |
+| Teenage Mutant Ninja Turtles - Mutant Melee | Oficial | Europe | 1 |  |
+| Teenage Mutant Ninja Turtles - Smash-Up | Oficial | Europe | 1 |  |
+| Teenage Mutant Ninja Turtles 2 - Battle Nexus | Oficial | Europe | 1 |  |
+| Teenage Mutant Ninja Turtles 3 - Mutant Nightmare | Oficial | Europe | 1 |  |
+| Tekken 4 | Oficial | Australia, Europe | 1 |  |
+| Tekken 5 | Oficial | Australia, Europe | 1 |  |
+| Tekken Tag Tournament | Oficial | Europe | 1 |  |
+| Tekken's Nina Williams in - Death by Degrees | Oficial | Australia, Europe | 1 |  |
+| Telly Addicts | Oficial | Europe | 1 |  |
+| Tenchu - Fatal Shadows | Oficial | Spain | 1 |  |
+| Tenchu - La Ira del Cielo | Oficial | Spain | 1 |  |
+| Tengai | Oficial | Europe | 1 |  |
+| Tennis Court Smash | Oficial | Europe | 1 |  |
+| Terminator 3 - La Rebelion de las Maquinas | Oficial | Spain | 1 |  |
+| Terminator 3 - The Redemption | Oficial | Australia, Europe | 1 |  |
+| Terminator, The - Dawn of Fate | Oficial | Europe | 1 |  |
+| Test Drive Unlimited | Oficial | Europe | 1 |  |
+| Tetris Worlds | Oficial | Australia, Europe | 1 |  |
+| Theme Park World | Oficial | Europe | 1 |  |
+| They Came from the Skies | Oficial | Australia, Europe | 1 |  |
+| Thing, The | Oficial | Europe | 1 |  |
+| This Is Football 2002 | Oficial | Europe | 1 |  |
+| This Is Football 2003 | Oficial | Europe | 1 |  |
+| This Is Football 2004 | Oficial | Europe | 1 |  |
+| This Is Football 2005 | Oficial | Europe | 1 |  |
+| Thomas & Friends - A Day at the Races | Oficial | Europe | 1 |  |
+| Thrillville | Oficial | Europe | 1 |  |
+| Thrillville - Fuera de Control | Oficial | Spain | 1 |  |
+| Thunder Force VI | Oficial | Japan | 1 |  |
+| Thunderbirds | Oficial | Europe | 1 |  |
+| Thunderhawk - Operation Phoenix | Oficial | Europe | 1 |  |
+| Tiger Woods PGA Tour 06 | Oficial | Europe | 1 |  |
+| Tiger Woods PGA Tour 07 | Oficial | Australia, Europe | 1 |  |
+| Tiger Woods PGA Tour 08 | Oficial | Australia, Europe | 1 |  |
+| Tiger Woods PGA Tour 09 | Oficial | Australia, Europe | 1 |  |
+| Tiger Woods PGA Tour 10 | Oficial | Australia, Europe | 1 |  |
+| Tiger Woods PGA Tour 2001 | Oficial | Europe | 1 |  |
+| Tiger Woods PGA Tour 2002 | Oficial | Europe | 1 |  |
+| Tiger Woods PGA Tour 2003 | Oficial | Europe | 1 |  |
+| Tiger Woods PGA Tour 2004 | Oficial | Europe | 1 |  |
+| Tiger Woods PGA Tour 2005 | Oficial | Europe | 1 |  |
+| Tim Burton's The Nightmare Before Christmas - Oogie's Revenge | Oficial | Europe | 1 |  |
+| Time Crisis 3 | Oficial | Australia, Europe | 1 |  |
+| Time Crisis II | Oficial | Europe | 1 |  |
+| TimeSplitters | Oficial | Europe | 1 |  |
+| TimeSplitters - Future Perfect | Oficial | Europe | 1 |  |
+| TimeSplitters 2 | Oficial | Europe | 1 |  |
+| TMNT | Oficial | Australia, Europe | 1 |  |
+| TNA Impact! Total Nonstop Action Wrestling | Oficial | Australia, Europe | 1 |  |
+| TOCA Race Driver | Oficial | Europe | 1 |  |
+| TOCA Race Driver 2 | Oficial | Europe | 1 |  |
+| TOCA Race Driver 3 | Oficial | Europe | 1 |  |
+| Tokobot Plus - Mysteries of the Karakuri | Oficial | Australia, Europe | 1 |  |
+| Tokyo Road Race | Oficial | Europe | 1 |  |
+| Tokyo Xtreme Racer | Oficial | Europe | 1 |  |
+| Tokyo Xtreme Racer - Drift | Oficial | Canada, USA | 1 |  |
+| Tokyo Xtreme Racer 3 | Oficial | Canada, USA | 1 |  |
+| Tom and Jerry in War of the Whiskers | Oficial | Europe | 1 |  |
+| Tom Clancy's Ghost Recon | Oficial | Europe | 1 |  |
+| Tom Clancy's Ghost Recon - Advanced Warfighter | Oficial | Europe | 1 |  |
+| Tom Clancy's Ghost Recon - Jungle Storm | Oficial | Europe | 1 |  |
+| Tom Clancy's Ghost Recon 2 | Oficial | Europe | 1 |  |
+| Tom Clancy's Rainbow Six - Lockdown | Oficial | Europe | 1 |  |
+| Tom Clancy's Rainbow Six 3 | Oficial | Europe | 1 |  |
+| Tom Clancy's Splinter Cell | Oficial | Australia, Europe | 1 |  |
+| Tom Clancy's Splinter Cell - Chaos Theory | Oficial | Europe | 1 |  |
+| Tom Clancy's Splinter Cell - Double Agent | Oficial | Europe | 1 |  |
+| Tom Clancy's Splinter Cell - Pandora Tomorrow | Oficial | Australia, Europe | 1 |  |
+| Tomb Raider - Underworld | Oficial | Europe | 1 |  |
+| Tony Hawk's American Wasteland | Oficial | Europe | 1 |  |
+| Tony Hawk's Downhill Jam | Oficial | Europe | 1 |  |
+| Tony Hawk's Pro Skater 3 | Oficial | Europe | 1 |  |
+| Tony Hawk's Pro Skater 4 | Oficial | Australia, Europe | 1 |  |
+| Tony Hawk's Project 8 | Oficial | Europe | 1 |  |
+| Tony Hawk's Proving Ground | Oficial | Europe | 1 |  |
+| Tony Hawk's Underground | Oficial | Spain | 1 |  |
+| Tony Hawk's Underground 2 | Oficial | Europe | 1 |  |
+| Top Angler - Real Bass Fishing | Oficial | Europe | 1 |  |
+| Top Gear Dare Devil | Oficial | Europe | 1 |  |
+| Top Gun | Oficial | Europe | 1 |  |
+| Top Gun - Combat Zones | Oficial | Europe | 1 |  |
+| Top Spin | Oficial | Australia, Europe | 1 |  |
+| Top Trumps - Doctor Who | Oficial | Europe | 1 |  |
+| Top Trumps Adventures Vol. 1 - Horror & Predators | Oficial | Europe | 1 |  |
+| Top Trumps Adventures Vol. 2 - Dogs & Dinosaurs | Oficial | Europe | 1 |  |
+| Torino 2006 | Oficial | Europe | 1 |  |
+| Torrente 3 - El Protector | Oficial | Spain | 1 |  |
+| Total Club Manager 2004 | Oficial | Europe | 1 |  |
+| Total Club Manager 2005 | Oficial | Europe | 1 |  |
+| Total Immersion Racing | Oficial | Europe | 1 |  |
+| Total Overdose | Oficial | Europe | 1 |  |
+| Totally Spies! Totally Party | Oficial | Australia, Europe | 1 |  |
+| Tour de France, Le | Oficial | Europe | 1 |  |
+| Tour de France, Le - 1903-2003 - Centenary Edition | Oficial | Europe | 1 |  |
+| Tourist Trophy - The Real Riding Simulator | Oficial | Europe | 1 |  |
+| Toy Golf Extreme | Oficial | Europe | 1 |  |
+| Toys Room, The | Oficial | Europe | 1 |  |
+| Transformers | Oficial | Europe | 1 |  |
+| Transformers - Revenge of the Fallen | Oficial | Europe | 1 |  |
+| Transformers - The Game | Oficial | Europe | 1 |  |
+| TransWorld Surf | Oficial | Europe | 1 |  |
+| Trapt | Oficial | Europe | 1 |  |
+| Tribes - Aerial Assault | Oficial | USA | 1 |  |
+| Trigger Man | Oficial | Europe | 1 |  |
+| Triple Play 2002 | Oficial | USA | 1 |  |
+| Triple Play Baseball | Oficial | USA | 1 |  |
+| Trivial Pursuit | Oficial | Europe | 1 |  |
+| Trivial Pursuit - Unhinged | Oficial | Europe | 1 |  |
+| Truck Racer | Oficial | Europe | 1 |  |
+| Truck Racing 2 | Oficial | Europe | 1 |  |
+| True Crime - New York City | Oficial | Europe | 1 |  |
+| True Crime - Streets of LA | Oficial | Europe | 1 |  |
+| Tsugunai - Atonement | Oficial | USA | 1 |  |
+| TT Superbikes | Oficial | Europe | 1 |  |
+| TT Superbikes - Legends | Oficial | Europe | 1 |  |
+| TT Superbikes - Real Road Racing Championship | Oficial | Europe | 1 |  |
+| Turbo Trucks | Oficial | Europe | 1 |  |
+| Turok - Evolution | Oficial | Europe | 1 |  |
+| Twenty 2 Party | Oficial | Europe | 1 |  |
+| Twin Caliber | Oficial | Europe | 1 |  |
+| Twisted Metal - Black | Oficial | Europe | 1 |  |
+| Twisted Metal - Black Online | Oficial | Europe | 1 |  |
+| Twisted Metal - Head-On - Extra Twisted Edition | Oficial | Canada, USA | 1 |  |
+| Ty the Tasmanian Tiger | Oficial | Europe | 1 |  |
+| Ty the Tasmanian Tiger - Night of the Quinkan | Oficial | USA | 1 |  |
+| Ty the Tasmanian Tiger 2 - Bush Rescue | Oficial | Europe | 1 |  |
+| UEFA Challenge | Oficial | Europe | 1 |  |
+| UEFA Champions League - Season 2001-2002 | Oficial | Europe | 1 |  |
+| UEFA Champions League 2004-2005 | Oficial | Europe | 1 |  |
+| UEFA Champions League 2006-2007 | Oficial | Europe | 1 |  |
+| UEFA Euro 2004 - Portugal | Oficial | Europe | 1 |  |
+| UEFA Euro 2008 - Austria-Switzerland | Oficial | Europe | 1 |  |
+| UFC - Throwdown | Oficial | Europe | 1 |  |
+| UFC - Ultimate Fighting Championship - Sudden Impact | Oficial | Europe | 1 |  |
+| Ultimate Board Game Collection | Oficial | Europe | 1 |  |
+| Ultimate Casino | Oficial | Europe | 1 |  |
+| Ultimate Film Quiz, The | Oficial | Europe | 1 |  |
+| Ultimate Mind Games | Oficial | Europe | 1 |  |
+| Ultimate Music Quiz, The | Oficial | Europe | 1 |  |
+| Ultimate Pro Pinball | Oficial | Europe | 1 |  |
+| Ultimate Spider-Man | Oficial | Europe | 1 |  |
+| Ultimate Sports Quiz, The | Oficial | Europe | 1 |  |
+| Ultimate Trivia Quiz, The | Oficial | Europe | 1 |  |
+| Ultimate World Cup Quiz, The | Oficial | Europe | 1 |  |
+| U-Move Super Sports | Oficial | Europe | 1 |  |
+| Under the Skin | Oficial | Europe | 1 |  |
+| Underworld - The Eternal War | Oficial | Europe | 1 |  |
+| Unison - Rebels of Rhythm & Dance | Oficial | USA | 1 |  |
+| Unlimited Saga | Oficial | Europe | 1 |  |
+| Unreal Tournament | Oficial | Europe | 1 |  |
+| Urban Chaos - Riot Response | Oficial | Europe | 1 |  |
+| Urban Constructor | Oficial | Europe | 1 |  |
+| Urban Extreme | Oficial | Europe | 1 |  |
+| Urban Freestyle Soccer | Oficial | Europe | 1 |  |
+| Urban Reign | Oficial | Europe | 1 |  |
+| Urbz, The - Sims in the City | Oficial | Europe | 1 |  |
+| US Racer | Oficial | Europe | 1 |  |
+| V.I.P. | Oficial | Europe | 1 |  |
+| Valkyrie Profile 2 - Silmeria | Oficial | Spain | 1 |  |
+| Vampire Night | Oficial | Australia, Europe | 1 |  |
+| Van Helsing | Oficial | Australia, Europe | 1 |  |
+| Vegas Casino II | Oficial | Europe | 1 |  |
+| Vehicular Combat League Presents - Motor Mayhem | Oficial | Europe | 1 |  |
+| Vexx | Oficial | Europe | 1 |  |
+| Victorious Boxers - Ippo's Road to Glory | Oficial | Europe | 1 |  |
+| Victorious Boxers 2 - Fighting Spirit | Oficial | Europe | 1 |  |
+| Video Poker & Blackjack | Oficial | Europe | 1 |  |
+| Vietcong - Purple Haze | Oficial | Europe | 1 |  |
+| Viewtiful Joe | Oficial | Australia, Europe | 1 |  |
+| Viewtiful Joe 2 | Oficial | Europe | 1 |  |
+| Virtua Cop - Elite Edition | Oficial | Europe | 1 |  |
+| Virtua Fighter - 10th Anniversary Edition | Oficial | Europe | 1 |  |
+| Virtua Fighter 4 | Oficial | Europe | 1 |  |
+| Virtua Fighter 4 - Evolution | Oficial | Europe | 1 |  |
+| Virtua Pro Football | Oficial | Europe | 1 |  |
+| Virtua Quest | Oficial | USA | 1 |  |
+| Virtua Tennis 2 - Sega Professional Tennis | Oficial | Europe | 1 |  |
+| Virtual View - Nemoto Harumi Eizou Play | Oficial | Japan | 1 |  |
+| Volleyball Challenge | Oficial | Europe | 1 |  |
+| Volleyball Xciting | Oficial | Europe | 1 |  |
+| V-Rally 3 | Oficial | Europe | 1 |  |
+| Wacky Races - Mad Motors | Oficial | Europe | 1 |  |
+| Wacky Races Starring Dastardly & Muttley | Oficial | Europe | 1 |  |
+| Wacky Zoo GP | Oficial | Europe | 1 |  |
+| Wakeboarding Unleashed featuring Shaun Murray | Oficial | Europe | 1 |  |
+| Wallace & Gromit - The Curse of the Were-Rabbit | Oficial | Europe | 1 |  |
+| Wallace & Gromit in Project Zoo | Oficial | Europe | 1 |  |
+| Walt Disney Pictures Presents Meet the Robinsons | Oficial | Europe | 1 |  |
+| Walt Disney's The Jungle Book - Groove Party | Oficial | Australia, Europe | 1 |  |
+| War Chess | Oficial | Europe | 1 |  |
+| War of the Monsters | Oficial | Europe | 1 |  |
+| Warhammer 40,000 - Fire Warrior | Oficial | Europe | 1 |  |
+| Warriors of Might and Magic | Oficial | Europe | 1 |  |
+| Warriors Orochi | Oficial | Europe | 1 |  |
+| Warriors Orochi 2 | Oficial | Europe | 1 |  |
+| Warriors, The | Oficial | Australia, Europe | 1 |  |
+| Warship Gunner 2 | Oficial | USA | 1 |  |
+| Water Horse, The - Legend of the Deep | Oficial | Europe | 1 |  |
+| Way of the Samurai | Oficial | Europe | 1 |  |
+| Way of the Samurai 2 | Oficial | Europe | 1 |  |
+| WCR - World Championship Rugby | Oficial | Australia, Europe | 1 |  |
+| We Love Katamari | Oficial | Europe | 1 |  |
+| Weakest Link, The | Oficial | Europe | 1 |  |
+| Wheel of Fortune | Oficial | USA | 1 |  |
+| Whiplash | Oficial | Europe | 1 |  |
+| Whirl Tour | Oficial | Europe | 1 |  |
+| White Van Racer | Oficial | Europe | 1 |  |
+| Whiteout | Oficial | Europe | 1 |  |
+| Who Wants to Be a Millionaire - 2nd Edition | Oficial | Europe | 1 |  |
+| Who Wants to Be a Millionaire - Party Edition | Oficial | Europe | 1 |  |
+| Wild Arms - Alter Code - F | Oficial | USA | 1 |  |
+| Wild Arms 3 | Oficial | Europe | 1 |  |
+| Wild Arms 4 | Oficial | Europe | 1 |  |
+| Wild Arms 5 | Oficial | Europe | 1 |  |
+| Wild Water Adrenaline featuring Salomon | Oficial | Europe | 1 |  |
+| Wild Wild Racing | Oficial | Europe | 1 |  |
+| Winter Sports | Oficial | Europe | 1 |  |
+| Winter Sports 2 - The Next Challenge | Oficial | USA | 1 |  |
+| Winter Sports 2008 - The Ultimate Challenge | Oficial | Europe | 1 |  |
+| Winter X Games Snowboarding | Oficial | Europe | 1 |  |
+| Winter X Games Snowboarding 2 | Oficial | Europe | 1 |  |
+| Winx Club | Oficial | Europe | 1 |  |
+| Wipeout Fusion | Oficial | Europe | 1 |  |
+| Wipeout Pulse | Oficial | Europe | 1 |  |
+| Without Warning | Oficial | Europe | 1 |  |
+| Wizardry - Tale of the Forsaken Land | Oficial | Europe | 1 |  |
+| Women's Volleyball Championship | Oficial | USA | 1 |  |
+| Woody Woodpecker | Oficial | Europe | 1 |  |
+| wordimagesoundplay | Oficial | Japan | 1 |  |
+| World Challenge | Oficial | Europe | 1 |  |
+| World Championship Cards | Oficial | USA | 1 |  |
+| World Championship Paintball | Oficial | USA | 1 |  |
+| World Championship Poker | Oficial | Europe | 1 |  |
+| World Championship Poker 2 featuring Howard Lederer | Oficial | Australia, Europe | 1 |  |
+| World Championship Poker featuring Howard Lederer - All In | Oficial | Europe | 1 |  |
+| World Championship Pool 2004 | Oficial | Europe | 1 |  |
+| World Championship Snooker 2002 | Oficial | Europe | 1 |  |
+| World Championship Snooker 2003 | Oficial | Europe | 1 |  |
+| World Championship Snooker 2004 | Oficial | Europe | 1 |  |
+| World Destruction League - Thunder Tanks | Oficial | Europe | 1 |  |
+| World Destruction League - WarJetz | Oficial | Europe | 1 |  |
+| World Fighting | Oficial | Europe | 1 |  |
+| World Heroes Anthology | Oficial | Europe | 1 |  |
+| World of Outlaws - Sprint Cars | Oficial | Europe | 1 |  |
+| World Poker Tour | Oficial | Europe | 1 |  |
+| World Racing | Oficial | Europe | 1 |  |
+| World Racing 2 | Oficial | Europe | 1 |  |
+| World Series Baseball 2K3 | Oficial | USA | 1 |  |
+| World Series of Poker | Oficial | Europe | 1 |  |
+| World Series of Poker - Tournament of Champions - 2007 Edition | Oficial | Australia, Europe | 1 |  |
+| World Series of Poker 2008 - Battle for the Bracelets | Oficial | Europe | 1 |  |
+| World Snooker Championship 2005 | Oficial | Europe | 1 |  |
+| World Snooker Championship 2007 | Oficial | Europe | 1 |  |
+| World Soccer Winning Eleven 2010 - Aoki Samurai no Chousen | Oficial | Japan | 1 |  |
+| World Super Police | Oficial | Australia, Europe | 1 |  |
+| World War Zero - IronStorm | Oficial | Europe | 1 |  |
+| World Wrestling Championship | Oficial | Europe | 1 |  |
+| Worms 3D | Oficial | Europe | 1 |  |
+| Worms 4 - Mayhem | Oficial | Europe | 1 |  |
+| Worms Blast | Oficial | Europe | 1 |  |
+| Worms Forts - Under Siege | Oficial | Australia, Europe | 1 |  |
+| Wrath Unleashed | Oficial | Europe | 1 |  |
+| WRC - Rally Evolved | Oficial | Australia, Europe | 1 |  |
+| WRC - World Rally Championship | Oficial | Australia, Europe | 1 |  |
+| WRC 3 - The Official Game of the FIA World Rally Championship | Oficial | Europe | 1 |  |
+| WRC 4 - The Official Game of the FIA World Rally Championship | Oficial | Australia, Europe | 1 |  |
+| WRC II Extreme | Oficial | Australia, Europe | 1 |  |
+| Wreckless - The Yakuza Missions | Oficial | Europe | 1 |  |
+| WTA Tour Tennis | Oficial | Europe | 1 |  |
+| WWE All Stars | Oficial | Australia, Europe | 1 |  |
+| WWE Crush Hour | Oficial | Europe | 1 |  |
+| WWE SmackDown vs. Raw 2007 | Oficial | Australia, Europe | 1 |  |
+| WWE SmackDown vs. Raw 2008 | Oficial | Europe | 1 |  |
+| WWE SmackDown vs. Raw 2009 | Oficial | Europe | 1 |  |
+| WWE SmackDown vs. Raw 2010 | Oficial | Australia, Europe | 1 |  |
+| WWE SmackDown vs. Raw 2011 | Oficial | Australia, Europe | 1 |  |
+| WWE SmackDown! Here Comes the Pain | Oficial | Europe | 1 |  |
+| WWE SmackDown! Shut Your Mouth | Oficial | Europe | 1 |  |
+| WWE SmackDown! vs. Raw | Oficial | Australia, Europe | 1 |  |
+| WWE SmackDown! vs. Raw 2006 | Oficial | Australia, Europe | 1 |  |
+| WWF SmackDown! Just Bring It | Oficial | Australia, Europe | 1 |  |
+| WWI - Aces of the Sky | Oficial | Australia, Europe | 1 |  |
+| WWII - Battle over Europe | Oficial | Europe | 1 |  |
+| WWII - Battle over the Pacific | Oficial | Europe | 1 |  |
+| WWII - Soldier | Oficial | Europe | 1 |  |
+| WWII - Tank Battles | Oficial | Europe | 1 |  |
+| X Factor Sing, The | Oficial | Europe | 1 |  |
+| X Games Skateboarding | Oficial | Europe | 1 |  |
+| X Squad | Oficial | Europe | 1 |  |
+| Xena - Warrior Princess | Oficial | Europe | 1 |  |
+| Xenosaga Episode I - Der Wille zur Macht | Oficial | USA | 1 |  |
+| Xenosaga Episode II - Jenseits von Gut und Boese | Oficial | Europe | 2 |  |
+| Xenosaga Episode III - Also sprach Zarathustra | Oficial | USA | 2 |  |
+| X-Files, The - Resist or Serve | Oficial | Europe | 1 |  |
+| XGIII - Extreme G Racing | Oficial | Europe | 1 |  |
+| XGRA - Extreme G Racing Association | Oficial | Europe | 1 |  |
+| Xiaolin Showdown | Oficial | Europe | 1 |  |
+| XII Stag | Oficial | Europe | 1 |  |
+| XIII | Oficial | Australia, Europe | 1 |  |
+| X-Men - Next Dimension | Oficial | Europe | 1 |  |
+| X-Men - The Official Game | Oficial | Europe | 1 |  |
+| X-Men 2 - Wolverine's Revenge | Oficial | Europe | 1 |  |
+| X-Men Legends | Oficial | Europe | 1 |  |
+| X-Men Legends II - Rise of Apocalypse | Oficial | Europe | 1 |  |
+| X-Men Origins - Wolverine | Oficial | Europe | 1 |  |
+| XS Junior League Soccer | Oficial | Europe | 1 |  |
+| X-treme Express - World Grand Prix | Oficial | Europe | 1 |  |
+| X-treme Quads | Oficial | Europe | 1 |  |
+| Xtreme Speed | Oficial | Europe | 1 |  |
+| Xyanide - Resurrection | Oficial | Europe | 1 |  |
+| Yakuza | Oficial | Europe | 1 |  |
+| Yakuza 2 | Oficial | Europe | 1 |  |
+| Yakuza Fury | Oficial | Europe | 1 |  |
+| Yanya Caballista - City Skater | Oficial | USA | 1 |  |
+| Yetisports Arctic Adventures | Oficial | Europe | 1 |  |
+| Yourself!Fitness | Oficial | USA | 1 |  |
+| Ys - The Ark of Napishtim | Oficial | Europe | 1 |  |
+| Yu Yu Hakusho - Dark Tournament | Oficial | Europe | 1 |  |
+| Yu-Gi-Oh! Capsule Monster Coliseum | Oficial | Europe | 1 |  |
+| Yu-Gi-Oh! GX - Tag Force Evolution | Oficial | Europe | 1 |  |
+| Yu-Gi-Oh! The Duelists of the Roses | Oficial | Europe | 1 |  |
+| Zapper | Oficial | Europe | 1 |  |
+| Zatch Bell! Mamodo Battles | Oficial | USA | 1 |  |
+| Zatch Bell! Mamodo Fury | Oficial | USA | 1 |  |
+| Zathura | Oficial | Europe | 1 |  |
+| Zombie Attack | Oficial | Europe | 1 |  |
+| Zombie Hunters 2 | Oficial | Europe | 1 |  |
+| Zombie Virus | Oficial | Europe | 1 |  |
+| Zombie Zone - Other Side | Oficial | Europe | 1 |  |
+| Zone of the Enders | Oficial | Europe | 1 |  |
+| Zone of the Enders - The 2nd Runner | Oficial | Europe | 1 |  |
+| Zoo Puzzle | Oficial | Europe | 1 |  |
+| ZooCube | Oficial | Europe | 1 |  |
 
 <!-- AUTO-GENERADO FIN -->

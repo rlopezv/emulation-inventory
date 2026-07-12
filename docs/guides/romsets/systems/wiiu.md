@@ -12,8 +12,8 @@ Fuente: `Non-Redump` -- `Non-Redump - Nintendo - Wii U (20260312-235110).dat`. G
 
 Regenerar con: `pwsh tools/scripts/generate-romset-docs.ps1 -SystemId wiiu`
 
-| Nombre | Categoria | Regiones | Alias |
-| --- | --- | --- | --- |
-| Disney Infinity 2.0 - Play Without Limits | Oficial | Scandinavia |  |
+| Nombre | Categoria | Regiones | Discos | Alias |
+| --- | --- | --- | --- | --- |
+| Disney Infinity 2.0 - Play Without Limits | Oficial | Scandinavia | 1 |  |
 
 <!-- AUTO-GENERADO FIN -->

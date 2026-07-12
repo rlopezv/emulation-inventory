@@ -8,164 +8,147 @@
 
 ### Indice generado
 
-Fuente: `1G1R (retool)` -- `Panasonic - 3DO Interactive Multiplayer (2026-06-09 14-48-47).dat`. Generado: `2026-07-12`. Total: 153 familias.
+Fuente: `1G1R (retool)` -- `Panasonic - 3DO Interactive Multiplayer (2026-06-09 14-48-47).dat`. Generado: `2026-07-12`. Total: 136 familias.
 
 Regenerar con: `pwsh tools/scripts/generate-romset-docs.ps1 -SystemId 3do`
 
-| Nombre | Categoria | Regiones | Alias |
-| --- | --- | --- | --- |
-| Alone in the Dark | Oficial | Europe |  |
-| Alone in the Dark 2 | Oficial | Europe |  |
-| Another World | Oficial | Europe |  |
-| AutoBahn Tokio | Oficial | Japan |  |
-| Ballz - The Director's Cut | Oficial | World |  |
-| Battle Chess | Oficial | Europe |  |
-| BattleSport | Oficial | Europe |  |
-| BC Racers | Oficial | Europe, USA |  |
-| Blade Force | Oficial | Europe |  |
-| BrainDead 13 | Oficial | USA |  |
-| BrainDead 13 | Oficial | USA |  |
-| Burning Soldier | Oficial | Europe |  |
-| Bust-A-Move | Oficial | USA |  |
-| Cannon Fodder | Oficial | Europe |  |
-| Captain Quazar | Oficial | Europe |  |
-| Casper | Oficial | USA |  |
-| Corpse Killer | Oficial | USA |  |
-| Cowboy Casino | Oficial | USA |  |
-| Crash 'n Burn | Oficial | USA |  |
-| Creature Shock | Oficial | USA |  |
-| Creature Shock | Oficial | USA |  |
-| Crime Patrol | Oficial | USA |  |
-| CyberDillo | Oficial | USA |  |
-| Cyberia | Oficial | Europe |  |
-| D | Oficial | Europe, USA |  |
-| D | Oficial | Europe, USA |  |
-| Daedalus Encounter, The | Oficial | Europe, USA |  |
-| Daedalus Encounter, The | Oficial | Europe, USA |  |
-| Daedalus Encounter, The | Oficial | Europe, USA |  |
-| Daedalus Encounter, The | Oficial | Europe, USA |  |
-| DeathKeep | Oficial | USA |  |
-| Defcon 5 | Oficial | Europe |  |
-| Demolition Man | Oficial | Europe, USA |  |
-| DinoPark Tycoon | Oficial | USA |  |
-| Doom | Oficial | Japan, USA |  |
-| Dragon Lore - The Legend Begins | Oficial | Germany, USA |  |
-| Dragon Lore - The Legend Begins | Oficial | Germany, USA |  |
-| Dragon Lore - The Legend Begins | Oficial | Germany, USA |  |
-| Dragon's Lair | Oficial | Europe |  |
-| Drug Wars | Oficial | USA |  |
-| Escape from Monster Manor | Oficial | Europe |  |
-| Family Feud | Oficial | USA |  |
-| FIFA International Soccer | Oficial | Europe |  |
-| Fire Ball!! | Oficial | Japan |  |
-| Flashback | Oficial | Europe |  |
-| Flying Nightmares | Oficial | Europe |  |
-| Foes of Ali | Oficial | Europe |  |
-| Fun 'n Games | Oficial | USA |  |
-| Gex | Oficial | Europe, USA |  |
-| Gridders | Oficial | Europe |  |
-| Hell - A Cyberpunk Thriller | Oficial | USA |  |
-| Horde, The | Oficial | World |  |
-| Icebreaker | Oficial | USA |  |
-| Immercenary | Oficial | Europe |  |
-| Incredible Machine, The | Oficial | Europe |  |
-| Iron Angel of the Apocalypse - Tetsujin | Oficial | Europe |  |
-| Iron Angel of the Apocalypse - The Return | Oficial | USA |  |
-| Jammit | Oficial | USA |  |
-| John Madden NFL Football | Oficial | Europe |  |
-| Johnny Bazookatone | Oficial | Europe |  |
-| Jurassic Park Interactive | Oficial | USA |  |
-| Killing Time | Oficial | Europe |  |
-| Kingdom - The Far Reaches | Oficial | Europe, USA |  |
-| Last Bounty Hunter, The | Oficial | USA |  |
-| Lemmings | Oficial | USA |  |
-| Lost Eden | Oficial | Korea, USA |  |
-| Lost Files of Sherlock Holmes, The | Oficial | Europe |  |
-| Lucienne's Quest | Oficial | USA |  |
-| Mad Dog II - The Lost Gold | Oficial | USA |  |
-| Mad Dog McCree | Oficial | USA |  |
-| Mazer | Oficial | USA |  |
-| MegaRace | Oficial | Europe, USA |  |
-| Microcosm | Oficial | USA |  |
-| Mind Teazzer | Oficial | USA |  |
-| Murphy da yo Zen'in Shuugou!! | Oficial | Japan |  |
-| Myst | Oficial | USA |  |
-| NeuroDancer - Journey into the Neuronet! | Oficial | USA |  |
-| Night Trap | Oficial | Europe, USA |  |
-| Night Trap | Oficial | Europe, USA |  |
-| Novastorm | Oficial | USA |  |
-| Off-World Interceptor | Oficial | Europe, USA |  |
-| Olympic Soccer | Oficial | USA |  |
-| Olympic Summer Games | Oficial | USA |  |
-| Orbatak | Oficial | USA |  |
-| Panzer General | Oficial | Germany, USA |  |
-| PaTaank | Oficial | Europe, USA |  |
-| Perfect General, The | Oficial | USA |  |
-| PGA Tour 96 | Oficial | Europe |  |
-| Phoenix 3 | Oficial | Europe |  |
-| Plumbers Don't Wear Ties | Oficial | USA |  |
-| PO'ed | Oficial | Europe, USA |  |
-| Powers Kingdom | Oficial | Europe |  |
-| Primal Rage | Oficial | Europe, USA |  |
-| Psychic Detective | Oficial | Europe |  |
-| Psychic Detective | Oficial | Europe |  |
-| Psychic Detective | Oficial | Europe |  |
-| Quarantine | Oficial | USA |  |
-| Quarterback Attack | Oficial | USA |  |
-| Real Pinball | Oficial | Europe |  |
-| Return Fire | Oficial | Europe, Japan |  |
-| Rise of the Robots | Oficial | Europe |  |
-| Road & Track Presents - The Need for Speed | Oficial | Europe, USA |  |
-| Road Rash | Oficial | Europe |  |
-| Robinson's Requiem | Oficial | USA |  |
-| Samurai Shodown | Oficial | Europe, USA |  |
-| Scramble Cobra | Oficial | Europe |  |
-| Seal of the Pharaoh | Oficial | USA |  |
-| Sewer Shark | Oficial | Europe, USA |  |
-| SHADOW - War of Succession | Oficial | USA |  |
-| Shanghai - Triple-Threat | Oficial | USA |  |
-| Shock Wave | Oficial | Europe |  |
-| Shockwave 2 - Beyond the Gate | Oficial | Europe |  |
-| Shockwave 2 - Beyond the Gate | Oficial | Europe |  |
-| Shootout at Old Tucson | Oficial | USA |  |
-| Slam 'n Jam '95 | Oficial | Europe, USA |  |
-| Slayer | Oficial | Europe |  |
-| SnowJob Starring Tracy Scoggins | Oficial | Europe |  |
-| SnowJob Starring Tracy Scoggins | Oficial | Europe |  |
-| Soccer Kid | Oficial | Europe |  |
-| Space Ace | Oficial | USA |  |
-| Space Hulk - Vengeance of the Blood Angels | Oficial | Europe |  |
-| Space Pirates | Oficial | USA |  |
-| Star Control II | Oficial | Europe, USA |  |
-| Star Fighter | Oficial | Europe, USA |  |
-| Star Wars - Rebel Assault | Oficial | Europe, USA |  |
-| Starblade | Oficial | Europe, Germany |  |
-| Stellar 7 - Draxon's Revenge | Oficial | USA |  |
-| Strahl | Oficial | USA |  |
-| Striker - World Cup Special | Oficial | Europe |  |
-| Super Street Fighter II Turbo | Oficial | Europe |  |
-| Super Wing Commander | Oficial | Europe |  |
-| Supreme Warrior | Oficial | USA |  |
-| Supreme Warrior | Oficial | USA |  |
-| Syndicate | Oficial | Europe |  |
-| Theme Park | Oficial | Europe |  |
-| Total Eclipse | Oficial | Europe, USA |  |
-| Trip'd | Oficial | Europe, USA |  |
-| True Golf Classics - Pebble Beach Golf Links | Oficial | Europe |  |
-| Twisted - The Game Show | Oficial | Europe |  |
-| Virtuoso | Oficial | Europe |  |
-| VR Stalker | Oficial | Europe |  |
-| Waialae Country Club | Oficial | Canada, USA |  |
-| Way of the Warrior | Oficial | Europe |  |
-| Who Shot Johnny Rock | Oficial | USA |  |
-| Wicked 18 | Oficial | USA |  |
-| Wing Commander III - Heart of the Tiger | Oficial | Europe, USA |  |
-| Wing Commander III - Heart of the Tiger | Oficial | Europe, USA |  |
-| Wing Commander III - Heart of the Tiger | Oficial | Europe, USA |  |
-| Wing Commander III - Heart of the Tiger | Oficial | Europe, USA |  |
-| Wolfenstein 3D | Oficial | Europe |  |
-| World Cup Golf - Hyatt Dorado Beach | Oficial | Europe, USA |  |
-| World Cup Special | Oficial | Japan |  |
-| Zhadnost - The People's Party | Oficial | Europe, USA |  |
+| Nombre | Categoria | Regiones | Discos | Alias |
+| --- | --- | --- | --- | --- |
+| Alone in the Dark | Oficial | Europe | 1 |  |
+| Alone in the Dark 2 | Oficial | Europe | 1 |  |
+| Another World | Oficial | Europe | 1 |  |
+| AutoBahn Tokio | Oficial | Japan | 1 |  |
+| Ballz - The Director's Cut | Oficial | World | 1 |  |
+| Battle Chess | Oficial | Europe | 1 |  |
+| BattleSport | Oficial | Europe | 1 |  |
+| BC Racers | Oficial | Europe, USA | 1 |  |
+| Blade Force | Oficial | Europe | 1 |  |
+| BrainDead 13 | Oficial | USA | 2 |  |
+| Burning Soldier | Oficial | Europe | 1 |  |
+| Bust-A-Move | Oficial | USA | 1 |  |
+| Cannon Fodder | Oficial | Europe | 1 |  |
+| Captain Quazar | Oficial | Europe | 1 |  |
+| Casper | Oficial | USA | 1 |  |
+| Corpse Killer | Oficial | USA | 1 |  |
+| Cowboy Casino | Oficial | USA | 1 |  |
+| Crash 'n Burn | Oficial | USA | 1 |  |
+| Creature Shock | Oficial | USA | 2 |  |
+| Crime Patrol | Oficial | USA | 1 |  |
+| CyberDillo | Oficial | USA | 1 |  |
+| Cyberia | Oficial | Europe | 1 |  |
+| D | Oficial | Europe, USA | 2 |  |
+| Daedalus Encounter, The | Oficial | Europe, USA | 4 |  |
+| DeathKeep | Oficial | USA | 1 |  |
+| Defcon 5 | Oficial | Europe | 1 |  |
+| Demolition Man | Oficial | Europe, USA | 1 |  |
+| DinoPark Tycoon | Oficial | USA | 1 |  |
+| Doom | Oficial | Japan, USA | 1 |  |
+| Dragon Lore - The Legend Begins | Oficial | Germany, USA | 3 |  |
+| Dragon's Lair | Oficial | Europe | 1 |  |
+| Drug Wars | Oficial | USA | 1 |  |
+| Escape from Monster Manor | Oficial | Europe | 1 |  |
+| Family Feud | Oficial | USA | 1 |  |
+| FIFA International Soccer | Oficial | Europe | 1 |  |
+| Fire Ball!! | Oficial | Japan | 1 |  |
+| Flashback | Oficial | Europe | 1 |  |
+| Flying Nightmares | Oficial | Europe | 1 |  |
+| Foes of Ali | Oficial | Europe | 1 |  |
+| Fun 'n Games | Oficial | USA | 1 |  |
+| Gex | Oficial | Europe, USA | 1 |  |
+| Gridders | Oficial | Europe | 1 |  |
+| Hell - A Cyberpunk Thriller | Oficial | USA | 1 |  |
+| Horde, The | Oficial | World | 1 |  |
+| Icebreaker | Oficial | USA | 1 |  |
+| Immercenary | Oficial | Europe | 1 |  |
+| Incredible Machine, The | Oficial | Europe | 1 |  |
+| Iron Angel of the Apocalypse - Tetsujin | Oficial | Europe | 1 |  |
+| Iron Angel of the Apocalypse - The Return | Oficial | USA | 1 |  |
+| Jammit | Oficial | USA | 1 |  |
+| John Madden NFL Football | Oficial | Europe | 1 |  |
+| Johnny Bazookatone | Oficial | Europe | 1 |  |
+| Jurassic Park Interactive | Oficial | USA | 1 |  |
+| Killing Time | Oficial | Europe | 1 |  |
+| Kingdom - The Far Reaches | Oficial | Europe, USA | 1 |  |
+| Last Bounty Hunter, The | Oficial | USA | 1 |  |
+| Lemmings | Oficial | USA | 1 |  |
+| Lost Eden | Oficial | Korea, USA | 1 |  |
+| Lost Files of Sherlock Holmes, The | Oficial | Europe | 1 |  |
+| Lucienne's Quest | Oficial | USA | 1 |  |
+| Mad Dog II - The Lost Gold | Oficial | USA | 1 |  |
+| Mad Dog McCree | Oficial | USA | 1 |  |
+| Mazer | Oficial | USA | 1 |  |
+| MegaRace | Oficial | Europe, USA | 1 |  |
+| Microcosm | Oficial | USA | 1 |  |
+| Mind Teazzer | Oficial | USA | 1 |  |
+| Murphy da yo Zen'in Shuugou!! | Oficial | Japan | 1 |  |
+| Myst | Oficial | USA | 1 |  |
+| NeuroDancer - Journey into the Neuronet! | Oficial | USA | 1 |  |
+| Night Trap | Oficial | Europe, USA | 2 |  |
+| Novastorm | Oficial | USA | 1 |  |
+| Off-World Interceptor | Oficial | Europe, USA | 1 |  |
+| Olympic Soccer | Oficial | USA | 1 |  |
+| Olympic Summer Games | Oficial | USA | 1 |  |
+| Orbatak | Oficial | USA | 1 |  |
+| Panzer General | Oficial | Germany, USA | 1 |  |
+| PaTaank | Oficial | Europe, USA | 1 |  |
+| Perfect General, The | Oficial | USA | 1 |  |
+| PGA Tour 96 | Oficial | Europe | 1 |  |
+| Phoenix 3 | Oficial | Europe | 1 |  |
+| Plumbers Don't Wear Ties | Oficial | USA | 1 |  |
+| PO'ed | Oficial | Europe, USA | 1 |  |
+| Powers Kingdom | Oficial | Europe | 1 |  |
+| Primal Rage | Oficial | Europe, USA | 1 |  |
+| Psychic Detective | Oficial | Europe | 3 |  |
+| Quarantine | Oficial | USA | 1 |  |
+| Quarterback Attack | Oficial | USA | 1 |  |
+| Real Pinball | Oficial | Europe | 1 |  |
+| Return Fire | Oficial | Europe, Japan | 1 |  |
+| Rise of the Robots | Oficial | Europe | 1 |  |
+| Road & Track Presents - The Need for Speed | Oficial | Europe, USA | 1 |  |
+| Road Rash | Oficial | Europe | 1 |  |
+| Robinson's Requiem | Oficial | USA | 1 |  |
+| Samurai Shodown | Oficial | Europe, USA | 1 |  |
+| Scramble Cobra | Oficial | Europe | 1 |  |
+| Seal of the Pharaoh | Oficial | USA | 1 |  |
+| Sewer Shark | Oficial | Europe, USA | 1 |  |
+| SHADOW - War of Succession | Oficial | USA | 1 |  |
+| Shanghai - Triple-Threat | Oficial | USA | 1 |  |
+| Shock Wave | Oficial | Europe | 1 |  |
+| Shockwave 2 - Beyond the Gate | Oficial | Europe | 2 |  |
+| Shootout at Old Tucson | Oficial | USA | 1 |  |
+| Slam 'n Jam '95 | Oficial | Europe, USA | 1 |  |
+| Slayer | Oficial | Europe | 1 |  |
+| SnowJob Starring Tracy Scoggins | Oficial | Europe | 2 |  |
+| Soccer Kid | Oficial | Europe | 1 |  |
+| Space Ace | Oficial | USA | 1 |  |
+| Space Hulk - Vengeance of the Blood Angels | Oficial | Europe | 1 |  |
+| Space Pirates | Oficial | USA | 1 |  |
+| Star Control II | Oficial | Europe, USA | 1 |  |
+| Star Fighter | Oficial | Europe, USA | 1 |  |
+| Star Wars - Rebel Assault | Oficial | Europe, USA | 1 |  |
+| Starblade | Oficial | Europe, Germany | 1 |  |
+| Stellar 7 - Draxon's Revenge | Oficial | USA | 1 |  |
+| Strahl | Oficial | USA | 1 |  |
+| Striker - World Cup Special | Oficial | Europe | 1 |  |
+| Super Street Fighter II Turbo | Oficial | Europe | 1 |  |
+| Super Wing Commander | Oficial | Europe | 1 |  |
+| Supreme Warrior | Oficial | USA | 2 |  |
+| Syndicate | Oficial | Europe | 1 |  |
+| Theme Park | Oficial | Europe | 1 |  |
+| Total Eclipse | Oficial | Europe, USA | 1 |  |
+| Trip'd | Oficial | Europe, USA | 1 |  |
+| True Golf Classics - Pebble Beach Golf Links | Oficial | Europe | 1 |  |
+| Twisted - The Game Show | Oficial | Europe | 1 |  |
+| Virtuoso | Oficial | Europe | 1 |  |
+| VR Stalker | Oficial | Europe | 1 |  |
+| Waialae Country Club | Oficial | Canada, USA | 1 |  |
+| Way of the Warrior | Oficial | Europe | 1 |  |
+| Who Shot Johnny Rock | Oficial | USA | 1 |  |
+| Wicked 18 | Oficial | USA | 1 |  |
+| Wing Commander III - Heart of the Tiger | Oficial | Europe, USA | 4 |  |
+| Wolfenstein 3D | Oficial | Europe | 1 |  |
+| World Cup Golf - Hyatt Dorado Beach | Oficial | Europe, USA | 1 |  |
+| World Cup Special | Oficial | Japan | 1 |  |
+| Zhadnost - The People's Party | Oficial | Europe, USA | 1 |  |
 
 <!-- AUTO-GENERADO FIN -->

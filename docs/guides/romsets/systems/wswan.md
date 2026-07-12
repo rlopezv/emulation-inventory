@@ -12,9 +12,9 @@ Fuente: `1G1R (retool)` -- `Bandai - WonderSwan (20260124-123054).dat`. Generado
 
 Regenerar con: `pwsh tools/scripts/generate-romset-docs.ps1 -SystemId wswan`
 
-| Nombre | Categoria | Regiones | Alias |
-| --- | --- | --- | --- |
-| Mingle Magnet | Oficial | Japan |  |
-| Tenori-on | Oficial | Japan |  |
+| Nombre | Categoria | Regiones | Discos | Alias |
+| --- | --- | --- | --- | --- |
+| Mingle Magnet | Oficial | Japan | 1 |  |
+| Tenori-on | Oficial | Japan | 1 |  |
 
 <!-- AUTO-GENERADO FIN -->

@@ -8,836 +8,835 @@
 
 ### Indice generado
 
-Fuente: `1G1R (retool)` -- `Nintendo - Nintendo Entertainment System (Headered) (20260504-103615).dat`. Generado: `2026-07-12`. Total: 825 familias.
+Fuente: `1G1R (retool)` -- `Nintendo - Nintendo Entertainment System (Headered) (20260504-103615).dat`. Generado: `2026-07-12`. Total: 824 familias.
 
 Regenerar con: `pwsh tools/scripts/generate-romset-docs.ps1 -SystemId nes`
 
-| Nombre | Categoria | Regiones | Alias |
-| --- | --- | --- | --- |
-| 10-Yard Fight | Oficial | Europe, USA |  |
-| 1942 | Oficial | Japan, USA |  |
-| 1943 - The Battle of Midway | Oficial | USA |  |
-| 3-D WorldRunner | Oficial | USA |  |
-| 720 Degrees | Oficial | USA |  |
-| 8 Eyes | Oficial | Europe, USA |  |
-| Abadox - The Deadly Inner War | Oficial | USA |  |
-| Action in New York | Oficial | Europe |  |
-| Addams Family, The | Oficial | Europe |  |
-| Addams Family, The - Pugsley's Scavenger Hunt | Oficial | Europe |  |
-| Advanced Dungeons & Dragons - DragonStrike | Oficial | USA |  |
-| Advanced Dungeons & Dragons - Heroes of the Lance | Oficial | USA |  |
-| Advanced Dungeons & Dragons - Hillsfar | Oficial | USA |  |
-| Advanced Dungeons & Dragons - Pool of Radiance | Oficial | USA |  |
-| Adventure Island 3 | Oficial | USA |  |
-| Adventure Island Classic | Oficial | Europe |  |
-| Adventure Island Part II, The | Oficial | Europe |  |
-| Adventures in the Magic Kingdom | Oficial | Europe |  |
-| Adventures of Bayou Billy, The | Oficial | Europe |  |
-| Adventures of Dino Riki | Oficial | USA |  |
-| Adventures of Gilligan's Island, The | Oficial | USA |  |
-| Adventures of Lolo | Oficial | Europe |  |
-| Adventures of Lolo 2 | Oficial | Europe |  |
-| Adventures of Lolo 3 | Oficial | Europe |  |
-| Adventures of Rad Gravity, The | Oficial | Europe |  |
-| Adventures of Rocky and Bullwinkle and Friends, The | Oficial | USA |  |
-| Adventures of Tom Sawyer | Oficial | USA |  |
-| After Burner | Oficial | Japan |  |
-| Air Fortress | Oficial | Europe |  |
-| Airwolf | Oficial | Europe |  |
-| Aladdin | Oficial | Europe |  |
-| Alfred Chicken | Oficial | Europe |  |
-| Alien 3 | Oficial | Europe |  |
-| Alien Syndrome | Oficial | Japan |  |
-| All-Pro Basketball | Oficial | USA |  |
-| Alpha Mission | Oficial | Europe |  |
-| Amagon | Oficial | USA |  |
-| American Gladiators | Oficial | USA |  |
-| Anticipation | Oficial | Europe |  |
-| Arabian | Oficial | World |  |
-| Arch Rivals - A Basketbrawl! | Oficial | Europe |  |
-| Archon | Oficial | USA |  |
-| Arctic | Oficial | Japan |  |
-| Argus | Oficial | Japan |  |
-| Arkanoid | Oficial | USA |  |
-| Arkanoid II | Oficial | Japan |  |
-| Arkista's Ring | Oficial | USA |  |
-| Asterix | Oficial | Europe |  |
-| Astro Robo Sasa | Oficial | Japan |  |
-| Astyanax | Oficial | Europe |  |
-| Athena | Oficial | USA |  |
-| Athletic World | Oficial | Europe |  |
-| Atlantis no Nazo | Oficial | Japan |  |
-| Attack Animal Gakuen | Oficial | Japan |  |
-| Attack of the Killer Tomatoes | Oficial | Europe |  |
-| Aussie Rules Footy | Oficial | Australia |  |
-| Babel no Tou | Oficial | Japan |  |
-| Back to the Future | Oficial | USA |  |
-| Back to the Future Part II & III | Oficial | USA |  |
-| Bad Dudes vs. Dragon Ninja | Oficial | Europe |  |
-| Bad News Baseball | Oficial | USA |  |
-| Bad Street Brawler | Oficial | USA |  |
-| Ballblazer | Oficial | Japan |  |
-| Balloon Fight | Oficial | Europe |  |
-| Baltron | Oficial | Japan |  |
-| Banana | Oficial | Japan |  |
-| Bandai Golf - Challenge Pebble Beach | Oficial | USA |  |
-| Bandit Kings of Ancient China | Oficial | USA |  |
-| Barbie | Oficial | Europe |  |
-| Bard's Tale, The | Oficial | USA |  |
-| Barker Bill's Trick Shooting | Oficial | Europe |  |
-| Baseball | Oficial | Europe, USA |  |
-| Baseball Simulator 1.000 | Oficial | USA |  |
-| Baseball Stars | Oficial | USA |  |
-| Baseball Stars II | Oficial | USA |  |
-| Bases Loaded | Oficial | USA |  |
-| Bases Loaded 3 | Oficial | USA |  |
-| Bases Loaded 4 | Oficial | USA |  |
-| Bases Loaded II - Second Season | Oficial | USA |  |
-| Batman - Return of the Joker | Oficial | Europe |  |
-| Batman - The Video Game | Oficial | Europe |  |
-| Batman Returns | Oficial | Europe |  |
-| Batsu & Terry - Makyou no Tetsujin Race | Oficial | Japan |  |
-| Battle Chess | Oficial | USA |  |
-| Battle of Olympus, The | Oficial | Europe |  |
-| BattleCity | Oficial | Japan |  |
-| BattleCity | Oficial | World |  |
-| Battleship | Oficial | Europe |  |
-| Battletoads | Oficial | Europe |  |
-| Battletoads-Double Dragon | Oficial | Europe |  |
-| Beauty and the Beast | Oficial | Europe |  |
-| Beetlejuice | Oficial | USA |  |
-| Best of the Best - Championship Karate | Oficial | Europe |  |
-| Bigfoot | Oficial | Europe |  |
-| Bill & Ted's Excellent Video Game Adventure | Oficial | World |  |
-| Bill Elliott's NASCAR Challenge | Oficial | USA |  |
-| Binary Land | Oficial | Japan |  |
-| Bio Miracle Bokutte Upa | Oficial | Japan |  |
-| Bionic Commando | Oficial | Europe |  |
-| Bird Week | Oficial | Japan |  |
-| Black Bass, The | Oficial | USA |  |
-| Blades of Steel | Oficial | Europe |  |
-| Blaster Master | Oficial | Europe |  |
-| Blodia Land - Puzzle Quest | Oficial | Japan |  |
-| Blue Marlin, The | Oficial | USA |  |
-| Blue Shadow | Oficial | Europe |  |
-| Blues Brothers, The | Oficial | Europe |  |
-| Bo Jackson Baseball | Oficial | USA |  |
-| Bokosuka Wars | Oficial | Japan |  |
-| Bomberman | Oficial | USA |  |
-| Bonk's Adventure | Oficial | USA |  |
-| Booby Kids | Oficial | Japan |  |
-| Boulder Dash | Oficial | Europe |  |
-| Bram Stoker's Dracula | Oficial | Europe |  |
-| Break Time - The National Pool Tour | Oficial | USA |  |
-| BreakThru | Oficial | USA |  |
-| Bubble Bobble | Oficial | Europe |  |
-| Bubble Bobble Part 2 | Oficial | USA |  |
-| Bucky O'Hare | Oficial | Europe |  |
-| Bugs Bunny Blowout, The | Oficial | Europe |  |
-| Bugs Bunny Crazy Castle, The | Oficial | USA |  |
-| Bump 'n' Jump | Oficial | USA |  |
-| Burai Fighter | Oficial | Europe |  |
-| BurgerTime | Oficial | USA |  |
-| B-Wings | Oficial | Japan |  |
-| Cabal | Oficial | USA |  |
-| Caesars Palace | Oficial | USA |  |
-| California Games | Oficial | Europe |  |
-| Capcom's Gold Medal Challenge '92 | Oficial | Europe |  |
-| Captain America and the Avengers | Oficial | World |  |
-| Captain America and the Avengers | Oficial | USA |  |
-| Captain Planet and the Planeteers | Oficial | Europe |  |
-| Captain Skyhawk | Oficial | Europe |  |
-| Casino Kid | Oficial | USA |  |
-| Casino Kid II | Oficial | USA |  |
-| Castelian | Oficial | Europe |  |
-| Castle of Dragon | Oficial | USA |  |
-| Castlequest | Oficial | USA |  |
-| Castlevania | Oficial | Europe |  |
-| Castlevania II - Simon's Quest | Oficial | Europe |  |
-| Castlevania III - Dracula's Curse | Oficial | Europe |  |
-| Caveman Games | Oficial | USA |  |
-| Chack'n Pop | Oficial | Japan |  |
-| Challenger | Oficial | Japan |  |
-| Championship Bowling | Oficial | USA |  |
-| Championship Lode Runner | Oficial | Japan |  |
-| Championship Pool | Oficial | USA |  |
-| Championship Rally | Oficial | Europe |  |
-| Chessmaster, The | Oficial | Europe |  |
-| Chiisana Obake - Acchi Socchi Kocchi | Oficial | Japan |  |
-| Chip 'n Dale - Rescue Rangers | Oficial | Europe |  |
-| Chip 'n Dale - Rescue Rangers 2 | Oficial | Europe |  |
-| Choplifter | Oficial | Japan |  |
-| Chou Fuyuu Yousai - Exed Exes | Oficial | Japan |  |
-| Choujikuu Yousai - Macross | Oficial | Japan |  |
-| Choujin Sentai - Jetman | Oficial | Japan |  |
-| Chubby Cherub | Oficial | USA |  |
-| Circus Caper | Oficial | USA |  |
-| Circus Charlie | Oficial | Japan |  |
-| City Connection | Oficial | Europe |  |
-| Clash at Demonhead | Oficial | USA |  |
-| Classic Concentration | Oficial | USA |  |
-| Cliffhanger | Oficial | USA |  |
-| Clu Clu Land | Oficial | World |  |
-| Cobra Command | Oficial | USA |  |
-| Cobra Triangle | Oficial | Europe |  |
-| Code Name - Viper | Oficial | USA |  |
-| Color a Dinosaur | Oficial | USA |  |
-| Commando | Oficial | USA |  |
-| Conan | Oficial | USA |  |
-| Conflict | Oficial | USA |  |
-| Conquest of the Crystal Palace | Oficial | USA |  |
-| Contra Force | Oficial | USA |  |
-| Cool World | Oficial | USA |  |
-| Corvette ZR-1 Challenge | Oficial | Europe |  |
-| Cowboy Kid | Oficial | USA |  |
-| Crackout | Oficial | Europe |  |
-| Crash 'n' the Boys - Street Challenge | Oficial | USA |  |
-| Crazy Climber | Oficial | Japan |  |
-| Crisis Force | Oficial | Japan |  |
-| CrossFire | Oficial | Japan |  |
-| Crystalis | Oficial | USA |  |
-| Cyber Stadium Series - Base Wars | Oficial | USA |  |
-| Cyberball | Oficial | USA |  |
-| Cybernoid - The Fighting Machine | Oficial | USA |  |
-| Cycle Race - Road Man | Oficial | Japan |  |
-| Dance Aerobics | Oficial | USA |  |
-| Danny Sullivan's Indy Heat | Oficial | Europe |  |
-| Darkman | Oficial | Europe |  |
-| Darkwing Duck | Oficial | Europe |  |
-| Dash Galaxy in the Alien Asylum | Oficial | USA |  |
-| Data East All-Star Collection | Oficial | USA |  |
-| David Crane's A Boy and His Blob - Trouble on Blobolonia | Oficial | Europe |  |
-| Day Dreamin' Davey | Oficial | USA |  |
-| Days of Thunder | Oficial | Europe |  |
-| Deadly Towers | Oficial | USA |  |
-| Defender II | Oficial | USA |  |
-| Defender of the Crown | Oficial | Europe |  |
-| Defenders of Dynatron City | Oficial | USA |  |
-| Deja Vu | Oficial | USA |  |
-| Demon Sword | Oficial | USA |  |
-| Desert Commander | Oficial | USA |  |
-| Destination Earthstar | Oficial | USA |  |
-| Destiny of an Emperor | Oficial | USA |  |
-| Devil World | Oficial | Europe |  |
-| Dick Tracy | Oficial | USA |  |
-| Die Hard | Oficial | Europe |  |
-| Dig Dug | Oficial | Japan |  |
-| Dig Dug II - Trouble in Paradise | Oficial | USA |  |
-| Digger T. Rock - The Legend of the Lost City | Oficial | Europe |  |
-| Dirty Harry | Oficial | USA |  |
-| Donald Land | Oficial | Japan |  |
-| Donkey Kong | Oficial | World |  |
-| Donkey Kong 3 | Oficial | World |  |
-| Donkey Kong Jr. | Oficial | World |  |
-| Donkey Kong Jr. + Jr. Lesson | Oficial | Japan |  |
-| Donkey Kong Jr. Math | Oficial | Europe, USA |  |
-| Door Door | Oficial | Japan |  |
-| Double Dare | Oficial | USA |  |
-| Double Dragon | Oficial | Europe |  |
-| Double Dragon II - The Revenge | Oficial | Europe |  |
-| Double Dragon III - The Sacred Stones | Oficial | Europe |  |
-| Double Dribble | Oficial | Europe |  |
-| Dough Boy | Oficial | Japan |  |
-| Dr. Chaos | Oficial | USA |  |
-| Dr. Jekyll and Mr. Hyde | Oficial | USA |  |
-| Dr. Mario | Oficial | Europe |  |
-| Dragon Buster | Oficial | Japan |  |
-| Dragon Buster II - Yami no Fuuin | Oficial | Japan |  |
-| Dragon Fighter | Oficial | USA |  |
-| Dragon Power | Oficial | USA |  |
-| Dragon Spirit - The New Legend | Oficial | USA |  |
-| Dragon Warrior | Oficial | USA |  |
-| Dragon Warrior II | Oficial | USA |  |
-| Dragon Warrior III | Oficial | USA |  |
-| Dragon Warrior IV | Oficial | USA |  |
-| Dragon's Lair | Oficial | Europe |  |
-| Dropzone | Oficial | Europe |  |
-| Druaga no Tou | Oficial | World |  |
-| Duck Hunt | Oficial | World |  |
-| DuckTales | Oficial | Europe |  |
-| DuckTales 2 | Oficial | Europe |  |
-| Dungeon Magic - Sword of the Elements | Oficial | USA |  |
-| Dusty Diamond's All-Star Softball | Oficial | USA |  |
-| Dynablaster | Oficial | Europe |  |
-| Dynamite Bowl | Oficial | Japan |  |
-| Dynowarz - The Destruction of Spondylus | Oficial | USA |  |
-| EarthBound Beginnings | Oficial | Europe, USA |  |
-| Elevator Action | Oficial | USA |  |
-| Eliminator Boat Duel | Oficial | Europe |  |
-| Elite | Oficial | Europe |  |
-| Empereur, L' | Oficial | USA |  |
-| Eric Cantona Football Challenge - Goal! 2 | Oficial | Europe |  |
-| Excitebike | Oficial | Europe |  |
-| Exciting Boxing | Oficial | Japan |  |
-| Exerion | Oficial | Japan |  |
-| Exploding Fist | Oficial | World |  |
-| F1 Race | Oficial | Japan |  |
-| F-117A Stealth Fighter | Oficial | USA |  |
-| F-15 Strike Eagle | Oficial | Europe |  |
-| Family Circuit '91 | Oficial | Japan |  |
-| Family Feud | Oficial | USA |  |
-| Fantasy Zone | Oficial | Japan |  |
-| Fantasy Zone II - Opa-Opa no Namida | Oficial | Japan |  |
-| Faria - A World of Mystery & Danger! | Oficial | USA |  |
-| Faxanadu | Oficial | Europe |  |
-| Felix the Cat | Oficial | Europe |  |
-| Ferrari Grand Prix Challenge | Oficial | Europe |  |
-| Fester's Quest | Oficial | Europe |  |
-| Field Combat | Oficial | Japan |  |
-| Final Fantasy | Oficial | USA |  |
-| Final Lap | Oficial | Japan |  |
-| Firework Thrower Kantaro's 53 Stations of the Toukaido | Oficial | World |  |
-| Fisher-Price - Firehouse Rescue | Oficial | USA |  |
-| Fisher-Price - I Can Remember | Oficial | USA |  |
-| Fisher-Price - Perfect Fit | Oficial | USA |  |
-| Fist of the North Star | Oficial | USA |  |
-| Flappy | Oficial | Japan |  |
-| Flintstones, The - The Rescue of Dino & Hoppy | Oficial | Europe |  |
-| Flintstones, The - The Surprise at Dinosaur Peak | Oficial | Europe |  |
-| Flipull - An Exciting Cube Game | Oficial | Japan |  |
-| Flying Dragon - The Secret Scroll | Oficial | USA |  |
-| Flying Hero | Oficial | Japan |  |
-| Flying Warriors | Oficial | USA |  |
-| Formation Z | Oficial | Japan |  |
-| Formula 1 Sensation | Oficial | Europe |  |
-| Formula One - Built to Win | Oficial | USA |  |
-| Four Players' Tennis | Oficial | Europe |  |
-| Fox's Peter Pan & the Pirates - The Revenge of Captain Hook | Oficial | USA |  |
-| Frankenstein - The Monster Returns | Oficial | USA |  |
-| Freedom Force | Oficial | USA |  |
-| Friday the 13th | Oficial | USA |  |
-| Front Line | Oficial | Japan |  |
-| Fun House | Oficial | USA |  |
-| G.I. Joe - A Real American Hero | Oficial | USA |  |
-| G.I. Joe - The Atlantis Factor | Oficial | USA |  |
-| Galaga | Oficial | Europe |  |
-| Galaxian | Oficial | Japan |  |
-| Galaxy 5000 - Racing in the 51st Century | Oficial | Europe |  |
-| Garfield no Isshukan | Oficial | Japan |  |
-| Gargoyle's Quest II | Oficial | Europe |  |
-| Garry Kitchen's Battletank | Oficial | USA |  |
-| Gauntlet | Oficial | USA |  |
-| Gauntlet II | Oficial | Europe |  |
-| Geimos | Oficial | Japan |  |
-| Gekitotsu Yonku Battle | Oficial | Japan |  |
-| Gemfire | Oficial | USA |  |
-| Genghis Khan | Oficial | USA |  |
-| George Foreman's KO Boxing | Oficial | Europe |  |
-| Ghost Lion | Oficial | USA |  |
-| Ghostbusters | Oficial | USA |  |
-| Ghostbusters II | Oficial | Europe |  |
-| Ghost'n Goblins | Oficial | Europe |  |
-| Ghoul School | Oficial | USA |  |
-| Goal! | Oficial | Europe |  |
-| Godzilla - Monster of Monsters! | Oficial | Europe |  |
-| Godzilla 2 - War of the Monsters | Oficial | USA |  |
-| Golf | Oficial | Europe |  |
-| Golf Grand Slam | Oficial | USA |  |
-| Golgo 13 - Top Secret Episode | Oficial | USA |  |
-| Goonies | Oficial | Japan |  |
-| Goonies II, The | Oficial | Europe |  |
-| Gorby no Pipeline Daisakusen | Oficial | Japan |  |
-| Gotcha! - The Sport! | Oficial | USA |  |
-| Gradius | Oficial | Europe |  |
-| Gradius II | Oficial | Japan |  |
-| Great Deal | Oficial | Japan |  |
-| Great Waldo Search, The | Oficial | USA |  |
-| Greg Norman's Golf Power | Oficial | USA |  |
-| Gremlins 2 - The New Batch | Oficial | Europe |  |
-| Guardian Legend, The | Oficial | Europe |  |
-| Guerrilla War | Oficial | Europe |  |
-| Gumshoe | Oficial | Europe, USA |  |
-| Gun Nac | Oficial | USA |  |
-| Gun.Smoke | Oficial | Europe |  |
-| Gyrodine | Oficial | Japan |  |
-| Gyromite | Oficial | World |  |
-| Gyruss | Oficial | USA |  |
-| Hammerin' Harry | Oficial | Europe |  |
-| Hammerin' Harry 2 - Dan the Red Strikes Back | Oficial | USA |  |
-| Hana no Star Kaidou | Oficial | Japan |  |
-| Harlem Globetrotters | Oficial | USA |  |
-| Hatris | Oficial | USA |  |
-| Heavy Barrel | Oficial | USA |  |
-| High Speed | Oficial | Europe |  |
-| Hogan's Alley | Oficial | World |  |
-| Hollywood Squares | Oficial | USA |  |
-| Holy Diver | Oficial | Japan |  |
-| Home Alone | Oficial | USA |  |
-| Home Alone 2 - Lost in New York | Oficial | Europe |  |
-| Hook | Oficial | Europe |  |
-| Hoops | Oficial | Europe |  |
-| Hudson Hawk | Oficial | Europe |  |
-| Hunt for Red October, The | Oficial | Europe |  |
-| Hydlide | Oficial | USA |  |
-| Hyper Sports | Oficial | Japan |  |
-| Ice Climber | Oficial | Asia, Europe, USA |  |
-| Ice Hockey | Oficial | Europe |  |
-| Ikari III - The Rescue | Oficial | USA |  |
-| Ikari Warriors | Oficial | Europe |  |
-| Ikari Warriors II - Victory Road | Oficial | USA |  |
-| Ikki | Oficial | Japan |  |
-| ImageFight | Oficial | USA |  |
-| Immortal, The | Oficial | USA |  |
-| Incredible Crash Dummies, The | Oficial | Europe |  |
-| Indiana Jones and the Last Crusade | Oficial | USA |  |
-| Indiana Jones and the Last Crusade - The Action Game | Oficial | Europe |  |
-| Indiana Jones and the Temple of Doom | Oficial | USA |  |
-| Infiltrator | Oficial | USA |  |
-| International Cricket | Oficial | Australia |  |
-| Iron Tank - The Invasion of Normandy | Oficial | Europe |  |
-| IronSword - Wizards & Warriors II | Oficial | Europe |  |
-| Isolated Warrior | Oficial | Europe |  |
-| Ivan 'Ironman' Stewart's Super Off Road | Oficial | Europe |  |
-| Jack Nicklaus' Greatest 18 Holes of Major Championship Golf | Oficial | Europe |  |
-| Jackal | Oficial | USA |  |
-| Jackie Chan's Action Kung Fu | Oficial | Europe |  |
-| James Bond Jr | Oficial | Europe |  |
-| Jaws | Oficial | USA |  |
-| Jaws - Retro Edition | Oficial | World |  |
-| Jeopardy! | Oficial | USA |  |
-| Jeopardy! 25th Anniversary Edition | Oficial | USA |  |
-| Jeopardy! Junior Edition | Oficial | USA |  |
-| Jetsons, The - Cogswell's Caper | Oficial | Europe |  |
-| Jimmy Connors Tennis | Oficial | Europe |  |
-| JJ | Oficial | Japan |  |
-| Joe & Mac - Caveman Ninja | Oficial | Europe |  |
-| John Elway's Quarterback | Oficial | USA |  |
-| Jordan vs Bird - One on One | Oficial | USA |  |
-| Journey to Silius | Oficial | Europe |  |
-| Joust | Oficial | USA |  |
-| Jumpin' Kid - Jack to Mame no Ki Monogatari | Oficial | Japan |  |
-| Jungle Book, The | Oficial | Europe |  |
-| Jurassic Park | Oficial | Europe |  |
-| Juuouki | Oficial | Japan |  |
-| Kabuki - Quantum Fighter | Oficial | Europe |  |
-| Karate Champ | Oficial | USA |  |
-| Karate Kid, The | Oficial | USA |  |
-| Karateka | Oficial | Japan |  |
-| Karnov | Oficial | USA |  |
-| Kick Off | Oficial | Europe |  |
-| Kickle Cubicle | Oficial | Europe |  |
-| KickMaster | Oficial | USA |  |
-| Kid Dracula | Oficial | World |  |
-| Kid Icarus | Oficial | Europe, USA |  |
-| Kid Klown in Night Mayor World | Oficial | USA |  |
-| Kid Kool and the Quest for the Seven Wonder Herbs | Oficial | USA |  |
-| Kid Niki - Radical Ninja | Oficial | USA |  |
-| King's Knight | Oficial | USA |  |
-| Kings of the Beach - Professional Beach Volleyball | Oficial | USA |  |
-| King's Quest V | Oficial | USA |  |
-| Kirby's Adventure | Oficial | Europe |  |
-| KlashBall | Oficial | USA |  |
-| Knight Rider | Oficial | Europe |  |
-| Konami Hyper Soccer | Oficial | Europe |  |
-| Krion Conquest, The | Oficial | USA |  |
-| Krusty's Fun House | Oficial | Europe |  |
-| Kung Fu | Oficial | Europe, Hong Kong |  |
-| Kung-Fu Heroes | Oficial | USA |  |
-| Laser Invasion | Oficial | USA |  |
-| Last Action Hero | Oficial | USA |  |
-| Last Ninja, The | Oficial | USA |  |
-| Last Starfighter, The | Oficial | USA |  |
-| Lee Trevino's Fighting Golf | Oficial | Europe |  |
-| Legacy of the Wizard | Oficial | USA |  |
-| Legend of Kage, The | Oficial | USA |  |
-| Legend of Prince Valiant, The | Oficial | Europe |  |
-| Legend of Zelda, The | Oficial | Europe |  |
-| Legendary Wings | Oficial | USA |  |
-| Legends of the Diamond - The Baseball Championship Game | Oficial | USA |  |
-| Lemmings | Oficial | Europe |  |
-| Lethal Weapon | Oficial | Europe |  |
-| Life Force - Salamander | Oficial | Europe |  |
-| Lion King, The | Oficial | Europe |  |
-| Little Lancelot | Oficial | USA |  |
-| Little League Baseball - Championship Series | Oficial | USA |  |
-| Little Mermaid, The | Oficial | USA |  |
-| Little Nemo - The Dream Master | Oficial | Europe |  |
-| Little Ninja Brothers | Oficial | Europe |  |
-| Little Samson | Oficial | Europe |  |
-| Lode Runner | Oficial | USA |  |
-| Lone Ranger, The | Oficial | USA |  |
-| Loopz | Oficial | USA |  |
-| Low G Man - The Low Gravity Man | Oficial | Europe |  |
-| Lunar Pool | Oficial | Europe |  |
-| M.U.L.E. | Oficial | USA |  |
-| M.U.S.C.L.E. - Tag Team Match | Oficial | USA |  |
-| Mach Rider | Oficial | Europe |  |
-| Mad Max | Oficial | USA |  |
-| Mafat Conspiracy, The | Oficial | USA |  |
-| Magic Darts | Oficial | USA |  |
-| Magic Johnson's Fast Break | Oficial | USA |  |
-| Magic of Scheherazade, The | Oficial | USA |  |
-| Magician | Oficial | USA |  |
-| Magmax | Oficial | USA |  |
-| Major League Baseball | Oficial | USA |  |
-| Maniac Mansion | Oficial | Spain |  |
-| Mappy | Oficial | Japan |  |
-| Mappy Kids | Oficial | World |  |
-| Mappy-Land | Oficial | USA |  |
-| Marble Madness | Oficial | Europe |  |
-| Mario & Yoshi | Oficial | Europe |  |
-| Mario Bros. | Oficial | Europe |  |
-| Mario is Missing! | Oficial | Europe |  |
-| Mario's Time Machine | Oficial | USA |  |
-| McDonaldland | Oficial | Europe |  |
-| Mechanized Attack | Oficial | USA |  |
-| Mega Man | Oficial | Europe |  |
-| Mega Man 2 | Oficial | Europe |  |
-| Mega Man 3 | Oficial | Europe |  |
-| Mega Man 4 | Oficial | Europe |  |
-| Mega Man 5 | Oficial | Europe |  |
-| Mega Man 6 | Oficial | USA |  |
-| Mendel Palace | Oficial | USA |  |
-| Metal Gear | Oficial | Europe |  |
-| Metal Storm | Oficial | USA |  |
-| MetalMech - Man & Machine | Oficial | USA |  |
-| Metroid | Oficial | Europe |  |
-| Michael Andretti's World GP | Oficial | USA |  |
-| Mickey Mousecapade | Oficial | USA |  |
-| Mickey's Adventure in Numberland | Oficial | USA |  |
-| Mickey's Safari in Letterland | Oficial | USA |  |
-| Might & Magic - Secret of the Inner Sanctum | Oficial | USA |  |
-| Mighty Bomb Jack | Oficial | Europe |  |
-| Mighty Final Fight | Oficial | Europe |  |
-| Mike Tyson's Punch-Out!! | Oficial | Europe |  |
-| Millipede | Oficial | USA |  |
-| Milon's Secret Castle | Oficial | USA |  |
-| Miracle Piano Teaching System, The | Oficial | USA |  |
-| Mission - Impossible | Oficial | Europe |  |
-| Monopoly | Oficial | USA |  |
-| Monster in My Pocket | Oficial | Europe |  |
-| Monster Party | Oficial | USA |  |
-| Monster Truck Rally | Oficial | USA |  |
-| Motor City Patrol | Oficial | USA |  |
-| Mr. Gimmick | Oficial | Europe |  |
-| Ms. Pac-Man | Oficial | USA |  |
-| Muppet Adventure - Chaos at the Carnival | Oficial | USA |  |
-| Mutant Virus, The - Crisis in a Computer World | Oficial | USA |  |
-| Mystery Quest | Oficial | USA |  |
-| NARC | Oficial | USA |  |
-| NES Open Tournament Golf | Oficial | Europe |  |
-| NES Play Action Football | Oficial | USA |  |
-| New Ghostbusters II | Oficial | Europe |  |
-| NewZealand Story, The | Oficial | Europe |  |
-| NFL | Oficial | USA |  |
-| Nigel Mansell's World Championship | Oficial | Europe |  |
-| Nightmare on Elm Street, A | Oficial | USA |  |
-| Nightshade | Oficial | World |  |
-| Ninja Crusaders | Oficial | USA |  |
-| Ninja Gaiden III - The Ancient Ship of Doom | Oficial | USA |  |
-| Ninja JaJaMaru - Operation Milky Way | Oficial | Europe, USA |  |
-| Ninja JaJaMaru - The Legend of the Golden Castle | Oficial | Europe, USA |  |
-| Ninja JaJaMaru - The Ninja Skill Book | Oficial | Europe, USA |  |
-| Ninja JaJaMaru-kun | Oficial | Europe, USA |  |
-| Ninja JaJaMaru's Big Adventure | Oficial | Europe, USA |  |
-| Ninja Kid | Oficial | USA |  |
-| Nintendo World Championships 1990 | Oficial | USA |  |
-| Nintendo World Cup | Oficial | Europe |  |
-| Noah's Ark | Oficial | Europe |  |
-| Nobunaga's Ambition | Oficial | USA |  |
-| Nobunaga's Ambition II | Oficial | USA |  |
-| North & South | Oficial | Europe |  |
-| Nuts & Milk | Oficial | Japan |  |
-| Operation Wolf | Oficial | Europe |  |
-| Orb-3D | Oficial | USA |  |
-| Othello | Oficial | USA |  |
-| Over Horizon | Oficial | Europe |  |
-| Overlord | Oficial | USA |  |
-| P.O.W. - Prisoners of War | Oficial | Europe |  |
-| Pac-Land | Oficial | World |  |
-| Pac-Man | Oficial | Europe |  |
-| Pac-Man - Championship Edition | Oficial | Europe, USA |  |
-| Palamedes | Oficial | USA |  |
-| Panic Restaurant | Oficial | Europe |  |
-| Paperboy | Oficial | Europe |  |
-| Paperboy 2 | Oficial | Europe |  |
-| Parasol Stars - Rainbow Islands II | Oficial | Europe |  |
-| Parodius | Oficial | Europe |  |
-| Phantom Air Mission | Oficial | Spain |  |
-| Phantom Fighter | Oficial | USA |  |
-| Pictionary - The Game of Video Quick Draw | Oficial | USA |  |
-| Pin Bot | Oficial | Europe |  |
-| Pinball | Oficial | Asia, Europe |  |
-| Pinball Quest | Oficial | USA |  |
-| Pipe Dream | Oficial | USA |  |
-| Pirates! | Oficial | Europe |  |
-| Pizza Pop! | Oficial | Europe, USA |  |
-| Platoon | Oficial | USA |  |
-| Pooyan | Oficial | Japan |  |
-| Popeye | Oficial | World |  |
-| Power Blade | Oficial | Europe |  |
-| Power Blade 2 | Oficial | USA |  |
-| Power Punch II | Oficial | USA |  |
-| Predator | Oficial | USA |  |
-| Prince of Persia | Oficial | Spain |  |
-| Princess Tomato in the Salad Kingdom | Oficial | USA |  |
-| Pro Sport Hockey | Oficial | USA |  |
-| Pro Wrestling | Oficial | Europe |  |
-| Probotector | Oficial | Europe |  |
-| Probotector II - Return of the Evil Forces | Oficial | Europe |  |
-| Punisher, The | Oficial | USA |  |
-| Puss 'n Boots - Pero's Great Adventure | Oficial | USA |  |
-| Puzznic | Oficial | Europe |  |
-| Q-bert | Oficial | USA |  |
-| QIX | Oficial | USA |  |
-| Quarth | Oficial | Japan |  |
-| R.B.I. Baseball | Oficial | USA |  |
-| R.C. Pro-Am | Oficial | Europe |  |
-| R.C. Pro-Am II | Oficial | Europe |  |
-| Racket Attack | Oficial | Europe |  |
-| Rackets & Rivals | Oficial | Europe |  |
-| Rad Racer | Oficial | Europe |  |
-| Rad Racer II | Oficial | USA |  |
-| Raid on Bungeling Bay | Oficial | USA |  |
-| Rainbow Islands | Oficial | USA |  |
-| Rainbow Islands - Bubble Bobble 2 | Oficial | Europe |  |
-| Rally Bike | Oficial | USA |  |
-| Rambo | Oficial | USA |  |
-| Rampage | Oficial | USA |  |
-| Rampart | Oficial | Europe |  |
-| Remote Control | Oficial | USA |  |
-| Ren & Stimpy Show, The - Buckeroo$! | Oficial | USA |  |
-| Renegade | Oficial | USA |  |
-| Rescue - The Embassy Mission | Oficial | Europe |  |
-| Ring King | Oficial | USA |  |
-| Ripple Island | Oficial | World |  |
-| Road Fighter | Oficial | Europe |  |
-| RoadBlasters | Oficial | Europe |  |
-| Robin Hood - Prince of Thieves | Oficial | Spain |  |
-| Robo Warrior | Oficial | Europe |  |
-| RoboCop | Oficial | Europe |  |
-| RoboCop 2 | Oficial | Europe |  |
-| RoboCop 3 | Oficial | Europe |  |
-| Rock 'n' Ball | Oficial | USA |  |
-| Rocket Ranger | Oficial | USA |  |
-| Rocketeer, The | Oficial | USA |  |
-| Rockin' Kats | Oficial | Europe |  |
-| Rodland | Oficial | Europe |  |
-| Roger Clemens' MVP Baseball | Oficial | USA |  |
-| Rollerball | Oficial | USA |  |
-| Rollerblade Racer | Oficial | USA |  |
-| Rollergames | Oficial | Europe |  |
-| Rolling Thunder | Oficial | World |  |
-| Romance of the Three Kingdoms | Oficial | USA |  |
-| Romance of the Three Kingdoms II | Oficial | USA |  |
-| Roundball - 2-on-2 Challenge | Oficial | Europe |  |
-| Rush'n Attack | Oficial | Europe |  |
-| Rygar | Oficial | Europe |  |
-| Section-Z | Oficial | Europe |  |
-| Seicross | Oficial | USA |  |
-| Sesame Street - 123 | Oficial | USA |  |
-| Sesame Street - ABC | Oficial | USA |  |
-| Sesame Street - Big Bird's Hide & Speak | Oficial | USA |  |
-| Sesame Street - Countdown | Oficial | USA |  |
-| Shadow Warriors - Ninja Gaiden | Oficial | Europe |  |
-| Shadow Warriors II - Ninja Gaiden II | Oficial | Europe |  |
-| Shadowgate | Oficial | Europe |  |
-| Shanghai | Oficial | Japan |  |
-| Shatterhand | Oficial | Europe |  |
-| Shingen the Ruler | Oficial | USA |  |
-| Shooting Range | Oficial | USA |  |
-| Short Order + Eggsplode! | Oficial | USA |  |
-| Side Pocket | Oficial | Europe |  |
-| Silent Service | Oficial | Europe |  |
-| Silk Worm | Oficial | USA |  |
-| Silver Surfer | Oficial | World |  |
-| Silver Surfer | Oficial | USA |  |
-| Simpsons, The - Bart vs. the Space Mutants | Oficial | Europe |  |
-| Simpsons, The - Bart vs. the World | Oficial | Europe |  |
-| Simpsons, The - Bartman Meets Radioactive Man | Oficial | Europe |  |
-| Skate or Die | Oficial | Europe |  |
-| Skate or Die 2 - The Search for Double Trouble | Oficial | USA |  |
-| Ski or Die | Oficial | Europe |  |
-| Sky Kid | Oficial | USA |  |
-| Sky Shark | Oficial | USA |  |
-| Slalom | Oficial | Europe |  |
-| Smash T.V. | Oficial | Europe |  |
-| Smurfs, The | Oficial | Europe |  |
-| Snake Rattle n Roll | Oficial | Europe |  |
-| Snake's Revenge | Oficial | Europe |  |
-| Snoopy's Silly Sports Spectacular! | Oficial | USA |  |
-| Snow Brothers | Oficial | Europe |  |
-| Snowboard Challenge | Oficial | Europe |  |
-| Soccer | Oficial | Europe |  |
-| Solar Jetman - Hunt for the Golden Warpship | Oficial | Europe |  |
-| Solomon's Key | Oficial | Europe |  |
-| Solomon's Key 2 | Oficial | Europe |  |
-| Solstice - The Quest for the Staff of Demnos | Oficial | Europe |  |
-| Son Son | Oficial | Japan |  |
-| Space Shuttle Project | Oficial | USA |  |
-| Spelunker | Oficial | USA |  |
-| Spider-Man - Return of the Sinister Six | Oficial | Europe |  |
-| Splatterhouse - Wanpaku Graffiti | Oficial | World |  |
-| Spot - The Video Game | Oficial | USA |  |
-| Spy Hunter | Oficial | USA |  |
-| Spy vs Spy | Oficial | Europe |  |
-| Sqoon | Oficial | USA |  |
-| Stack-Up | Oficial | World |  |
-| Stadium Events | Oficial | Europe |  |
-| Stanley - The Search for Dr. Livingston | Oficial | USA |  |
-| Star Force | Oficial | Europe |  |
-| Star Luster | Oficial | World |  |
-| Star Luster | Oficial | Japan |  |
-| Star Soldier | Oficial | USA |  |
-| Star Trek - 25th Anniversary | Oficial | USA |  |
-| Star Trek - The Next Generation | Oficial | USA |  |
-| Star Voyager | Oficial | USA |  |
-| Star Wars | Oficial | Europe |  |
-| Star Wars - The Empire Strikes Back | Oficial | Europe |  |
-| Starship Hector | Oficial | USA |  |
-| StarTropics | Oficial | Europe |  |
-| Stealth ATF | Oficial | Europe |  |
-| Stinger | Oficial | USA |  |
-| Street Cop | Oficial | USA |  |
-| Street Fighter 2010 - The Final Fight | Oficial | USA |  |
-| Street Gangs | Oficial | Europe |  |
-| Strider | Oficial | USA |  |
-| Summer Carnival '92 - Recca | Oficial | Japan |  |
-| Super Arabian | Oficial | Japan |  |
-| Super Cars | Oficial | USA |  |
-| Super Dodge Ball | Oficial | USA |  |
-| Super Glove Ball | Oficial | USA |  |
-| Super Jeopardy! | Oficial | USA |  |
-| Super Mario Bros. | Oficial | Europe |  |
-| Super Mario Bros. 2 | Oficial | Europe |  |
-| Super Mario Bros. 3 | Oficial | Europe |  |
-| Super Pitfall | Oficial | USA |  |
-| Super Spike V'Ball | Oficial | Europe |  |
-| Super Sprint | Oficial | Japan |  |
-| Super Spy Hunter | Oficial | Europe |  |
-| Super Team Games | Oficial | USA |  |
-| Super Turrican | Oficial | Europe |  |
-| Super Xevious - Gump no Nazo | Oficial | Europe, USA |  |
-| Superman | Oficial | USA |  |
-| Swamp Thing | Oficial | Europe |  |
-| Sword Master | Oficial | Europe |  |
-| Swords and Serpents | Oficial | Europe |  |
-| Taboo - The Sixth Sense | Oficial | USA |  |
-| Tag Team Wrestling | Oficial | USA |  |
-| TaleSpin | Oficial | Europe |  |
-| Target - Renegade | Oficial | USA |  |
-| Tecmo Baseball | Oficial | USA |  |
-| Tecmo Bowl | Oficial | USA |  |
-| Tecmo Cup - Football Game | Oficial | Spain |  |
-| Tecmo NBA Basketball | Oficial | USA |  |
-| Tecmo Super Bowl | Oficial | USA |  |
-| Tecmo World Cup Soccer | Oficial | Europe |  |
-| Tecmo World Wrestling | Oficial | Europe |  |
-| Teenage Mutant Hero Turtles | Oficial | Europe |  |
-| Teenage Mutant Hero Turtles - Tournament Fighters | Oficial | Europe |  |
-| Teenage Mutant Hero Turtles II - The Arcade Game | Oficial | Europe |  |
-| Teenage Mutant Ninja Turtles III - The Manhattan Project | Oficial | USA |  |
-| Tennis | Oficial | Europe |  |
-| Terminator 2 - Judgment Day | Oficial | Europe |  |
-| Terminator, The | Oficial | Europe, USA |  |
-| Terra Cresta | Oficial | USA |  |
-| Tetris | Oficial | Europe |  |
-| Tetris | Oficial | Japan |  |
-| Tetris 2 | Oficial | Europe |  |
-| Tetris 2 + Bombliss | Oficial | Japan |  |
-| Thexder | Oficial | Japan |  |
-| Three Stooges, The | Oficial | USA |  |
-| Thunder & Lightning | Oficial | USA |  |
-| Thunderbirds | Oficial | USA |  |
-| Thunderbolt Fighting Plane | Oficial | World |  |
-| Thundercade | Oficial | USA |  |
-| Tiger-Heli | Oficial | USA |  |
-| Tiger-Heli | Oficial | Europe |  |
-| Time Lord | Oficial | Europe |  |
-| Times of Lore | Oficial | USA |  |
-| Tiny Toon Adventures | Oficial | Europe |  |
-| Tiny Toon Adventures - Cartoon Workshop | Oficial | Europe |  |
-| Tiny Toon Adventures 2 - Trouble in Wackyland | Oficial | Europe |  |
-| Titan | Oficial | World |  |
-| To the Earth | Oficial | Europe |  |
-| Toki | Oficial | USA |  |
-| Tom & Jerry - The Ultimate Game of Cat and Mouse! | Oficial | Europe |  |
-| Tombs & Treasure | Oficial | USA |  |
-| Top Gun | Oficial | Europe |  |
-| Top Gun - The Second Mission | Oficial | Europe |  |
-| Total Recall | Oficial | Europe |  |
-| Totally Rad | Oficial | Europe |  |
-| Touchdown Fever | Oficial | USA |  |
-| Tower of Druaga, The | Oficial | World |  |
-| Town & Country Surf Designs - Thrilla's Surfari | Oficial | USA |  |
-| Town & Country Surf Designs - Wood & Water Rage | Oficial | USA |  |
-| Toxic Crusaders | Oficial | USA |  |
-| Track & Field II | Oficial | Europe |  |
-| Track & Field in Barcelona | Oficial | Europe |  |
-| Treasure Master | Oficial | USA |  |
-| Triathlon, The | Oficial | Japan |  |
-| Trog! | Oficial | Europe |  |
-| Trojan | Oficial | Europe |  |
-| Trolls in Crazyland, The | Oficial | Europe |  |
-| Turbo Racing | Oficial | Europe |  |
-| Twin Cobra | Oficial | USA |  |
-| Twin Cobra | Oficial | USA |  |
-| Twin Eagle | Oficial | USA |  |
-| TwinBee | Oficial | Japan |  |
-| Ufouria - The Saga | Oficial | Europe |  |
-| Ultima - Exodus | Oficial | USA |  |
-| Ultima - Quest of the Avatar | Oficial | USA |  |
-| Ultima - Warriors of Destiny | Oficial | USA |  |
-| Ultimate Air Combat | Oficial | Europe |  |
-| Ultimate Basketball | Oficial | USA |  |
-| Uncanny X-Men, The | Oficial | USA |  |
-| Uncharted Waters | Oficial | USA |  |
-| Uninvited | Oficial | USA |  |
-| Untouchables, The | Oficial | USA |  |
-| Urban Champion | Oficial | World |  |
-| Vegas Dream | Oficial | USA |  |
-| Vice - Project Doom | Oficial | USA |  |
-| Videomation | Oficial | USA |  |
-| Volguard II | Oficial | Japan |  |
-| Volleyball | Oficial | Europe, USA |  |
-| Wacky Races | Oficial | USA |  |
-| Wall Street Kid | Oficial | USA |  |
-| Wario's Woods | Oficial | Europe |  |
-| Warpman | Oficial | Japan |  |
-| Wayne Gretzky Hockey | Oficial | USA |  |
-| Wayne's World | Oficial | USA |  |
-| WCW World Championship Wrestling | Oficial | USA |  |
-| Werewolf - The Last Warrior | Oficial | Europe |  |
-| Wheel of Fortune | Oficial | USA |  |
-| Wheel of Fortune - Family Edition | Oficial | USA |  |
-| Wheel of Fortune - Junior Edition | Oficial | USA |  |
-| Wheel of Fortune Featuring Vanna White | Oficial | USA |  |
-| Where in Time Is Carmen Sandiego | Oficial | USA |  |
-| Where's Waldo | Oficial | USA |  |
-| Who Framed Roger Rabbit | Oficial | USA |  |
-| Whomp 'Em | Oficial | USA |  |
-| Widget | Oficial | USA |  |
-| Wild Gunman | Oficial | World |  |
-| Willow | Oficial | Europe |  |
-| Win, Lose or Draw | Oficial | USA |  |
-| Wing of Madoola, The | Oficial | World |  |
-| Winter Games | Oficial | USA |  |
-| Wizardry - Knight of Diamonds - The Second Scenario | Oficial | USA |  |
-| Wizardry - Proving Grounds of the Mad Overlord | Oficial | USA |  |
-| Wizards & Warriors | Oficial | Europe |  |
-| Wizards & Warriors III - Kuros...Visions of Power | Oficial | Europe |  |
-| Wolverine | Oficial | USA |  |
-| World Champ | Oficial | Europe |  |
-| World Games | Oficial | USA |  |
-| Wrath of the Black Manta | Oficial | Europe |  |
-| Wrecking Crew | Oficial | World |  |
-| Wurm - Journey to the Center of the Earth! | Oficial | USA |  |
-| WWF King of the Ring | Oficial | Europe |  |
-| WWF WrestleMania | Oficial | Europe |  |
-| WWF WrestleMania - Challenge | Oficial | Europe |  |
-| WWF WrestleMania - Steel Cage Challenge | Oficial | Europe |  |
-| Xenophobe | Oficial | USA |  |
-| Xevious | Oficial | Europe |  |
-| Xexyz | Oficial | USA |  |
-| Yie Ar Kung-Fu | Oficial | Japan |  |
-| Yo! Noid | Oficial | USA |  |
-| Yoshi's Cookie | Oficial | Europe |  |
-| Young Indiana Jones Chronicles, The | Oficial | USA |  |
-| Zanac | Oficial | USA |  |
-| Zelda II - The Adventure of Link | Oficial | Europe |  |
-| Zen - Intergalactic Ninja | Oficial | Europe |  |
-| Zoda's Revenge - StarTropics II | Oficial | USA |  |
-| Zombie Nation | Oficial | USA |  |
-| Zunou Senkan Galg | Oficial | Japan |  |
+| Nombre | Categoria | Regiones | Discos | Alias |
+| --- | --- | --- | --- | --- |
+| 10-Yard Fight | Oficial | Europe, USA | 1 |  |
+| 1942 | Oficial | Japan, USA | 1 |  |
+| 1943 - The Battle of Midway | Oficial | USA | 1 |  |
+| 3-D WorldRunner | Oficial | USA | 1 |  |
+| 720 Degrees | Oficial | USA | 1 |  |
+| 8 Eyes | Oficial | Europe, USA | 1 |  |
+| Abadox - The Deadly Inner War | Oficial | USA | 1 |  |
+| Action in New York | Oficial | Europe | 1 |  |
+| Addams Family, The | Oficial | Europe | 1 |  |
+| Addams Family, The - Pugsley's Scavenger Hunt | Oficial | Europe | 1 |  |
+| Advanced Dungeons & Dragons - DragonStrike | Oficial | USA | 1 |  |
+| Advanced Dungeons & Dragons - Heroes of the Lance | Oficial | USA | 1 |  |
+| Advanced Dungeons & Dragons - Hillsfar | Oficial | USA | 1 |  |
+| Advanced Dungeons & Dragons - Pool of Radiance | Oficial | USA | 1 |  |
+| Adventure Island 3 | Oficial | USA | 1 |  |
+| Adventure Island Classic | Oficial | Europe | 1 |  |
+| Adventure Island Part II, The | Oficial | Europe | 1 |  |
+| Adventures in the Magic Kingdom | Oficial | Europe | 1 |  |
+| Adventures of Bayou Billy, The | Oficial | Europe | 1 |  |
+| Adventures of Dino Riki | Oficial | USA | 1 |  |
+| Adventures of Gilligan's Island, The | Oficial | USA | 1 |  |
+| Adventures of Lolo | Oficial | Europe | 1 |  |
+| Adventures of Lolo 2 | Oficial | Europe | 1 |  |
+| Adventures of Lolo 3 | Oficial | Europe | 1 |  |
+| Adventures of Rad Gravity, The | Oficial | Europe | 1 |  |
+| Adventures of Rocky and Bullwinkle and Friends, The | Oficial | USA | 1 |  |
+| Adventures of Tom Sawyer | Oficial | USA | 1 |  |
+| After Burner | Oficial | Japan | 1 |  |
+| Air Fortress | Oficial | Europe | 1 |  |
+| Airwolf | Oficial | Europe | 1 |  |
+| Aladdin | Oficial | Europe | 1 |  |
+| Alfred Chicken | Oficial | Europe | 1 |  |
+| Alien 3 | Oficial | Europe | 1 |  |
+| Alien Syndrome | Oficial | Japan | 1 |  |
+| All-Pro Basketball | Oficial | USA | 1 |  |
+| Alpha Mission | Oficial | Europe | 1 |  |
+| Amagon | Oficial | USA | 1 |  |
+| American Gladiators | Oficial | USA | 1 |  |
+| Anticipation | Oficial | Europe | 1 |  |
+| Arabian | Oficial | World | 1 |  |
+| Arch Rivals - A Basketbrawl! | Oficial | Europe | 1 |  |
+| Archon | Oficial | USA | 1 |  |
+| Arctic | Oficial | Japan | 1 |  |
+| Argus | Oficial | Japan | 1 |  |
+| Arkanoid | Oficial | USA | 1 |  |
+| Arkanoid II | Oficial | Japan | 1 |  |
+| Arkista's Ring | Oficial | USA | 1 |  |
+| Asterix | Oficial | Europe | 1 |  |
+| Astro Robo Sasa | Oficial | Japan | 1 |  |
+| Astyanax | Oficial | Europe | 1 |  |
+| Athena | Oficial | USA | 1 |  |
+| Athletic World | Oficial | Europe | 1 |  |
+| Atlantis no Nazo | Oficial | Japan | 1 |  |
+| Attack Animal Gakuen | Oficial | Japan | 1 |  |
+| Attack of the Killer Tomatoes | Oficial | Europe | 1 |  |
+| Aussie Rules Footy | Oficial | Australia | 1 |  |
+| Babel no Tou | Oficial | Japan | 1 |  |
+| Back to the Future | Oficial | USA | 1 |  |
+| Back to the Future Part II & III | Oficial | USA | 1 |  |
+| Bad Dudes vs. Dragon Ninja | Oficial | Europe | 1 |  |
+| Bad News Baseball | Oficial | USA | 1 |  |
+| Bad Street Brawler | Oficial | USA | 1 |  |
+| Ballblazer | Oficial | Japan | 1 |  |
+| Balloon Fight | Oficial | Europe | 1 |  |
+| Baltron | Oficial | Japan | 1 |  |
+| Banana | Oficial | Japan | 1 |  |
+| Bandai Golf - Challenge Pebble Beach | Oficial | USA | 1 |  |
+| Bandit Kings of Ancient China | Oficial | USA | 1 |  |
+| Barbie | Oficial | Europe | 1 |  |
+| Bard's Tale, The | Oficial | USA | 1 |  |
+| Barker Bill's Trick Shooting | Oficial | Europe | 1 |  |
+| Baseball | Oficial | Europe, USA | 1 |  |
+| Baseball Simulator 1.000 | Oficial | USA | 1 |  |
+| Baseball Stars | Oficial | USA | 1 |  |
+| Baseball Stars II | Oficial | USA | 1 |  |
+| Bases Loaded | Oficial | USA | 1 |  |
+| Bases Loaded 3 | Oficial | USA | 1 |  |
+| Bases Loaded 4 | Oficial | USA | 1 |  |
+| Bases Loaded II - Second Season | Oficial | USA | 1 |  |
+| Batman - Return of the Joker | Oficial | Europe | 1 |  |
+| Batman - The Video Game | Oficial | Europe | 1 |  |
+| Batman Returns | Oficial | Europe | 1 |  |
+| Batsu & Terry - Makyou no Tetsujin Race | Oficial | Japan | 1 |  |
+| Battle Chess | Oficial | USA | 1 |  |
+| Battle of Olympus, The | Oficial | Europe | 1 |  |
+| BattleCity | Oficial | Japan | 1 |  |
+| BattleCity | Oficial | World | 1 |  |
+| Battleship | Oficial | Europe | 1 |  |
+| Battletoads | Oficial | Europe | 1 |  |
+| Battletoads-Double Dragon | Oficial | Europe | 1 |  |
+| Beauty and the Beast | Oficial | Europe | 1 |  |
+| Beetlejuice | Oficial | USA | 1 |  |
+| Best of the Best - Championship Karate | Oficial | Europe | 1 |  |
+| Bigfoot | Oficial | Europe | 1 |  |
+| Bill & Ted's Excellent Video Game Adventure | Oficial | World | 1 |  |
+| Bill Elliott's NASCAR Challenge | Oficial | USA | 1 |  |
+| Binary Land | Oficial | Japan | 1 |  |
+| Bio Miracle Bokutte Upa | Oficial | Japan | 1 |  |
+| Bionic Commando | Oficial | Europe | 1 |  |
+| Bird Week | Oficial | Japan | 1 |  |
+| Black Bass, The | Oficial | USA | 1 |  |
+| Blades of Steel | Oficial | Europe | 1 |  |
+| Blaster Master | Oficial | Europe | 1 |  |
+| Blodia Land - Puzzle Quest | Oficial | Japan | 1 |  |
+| Blue Marlin, The | Oficial | USA | 1 |  |
+| Blue Shadow | Oficial | Europe | 1 |  |
+| Blues Brothers, The | Oficial | Europe | 1 |  |
+| Bo Jackson Baseball | Oficial | USA | 1 |  |
+| Bokosuka Wars | Oficial | Japan | 1 |  |
+| Bomberman | Oficial | USA | 1 |  |
+| Bonk's Adventure | Oficial | USA | 1 |  |
+| Booby Kids | Oficial | Japan | 1 |  |
+| Boulder Dash | Oficial | Europe | 1 |  |
+| Bram Stoker's Dracula | Oficial | Europe | 1 |  |
+| Break Time - The National Pool Tour | Oficial | USA | 1 |  |
+| BreakThru | Oficial | USA | 1 |  |
+| Bubble Bobble | Oficial | Europe | 1 |  |
+| Bubble Bobble Part 2 | Oficial | USA | 1 |  |
+| Bucky O'Hare | Oficial | Europe | 1 |  |
+| Bugs Bunny Blowout, The | Oficial | Europe | 1 |  |
+| Bugs Bunny Crazy Castle, The | Oficial | USA | 1 |  |
+| Bump 'n' Jump | Oficial | USA | 1 |  |
+| Burai Fighter | Oficial | Europe | 1 |  |
+| BurgerTime | Oficial | USA | 1 |  |
+| B-Wings | Oficial | Japan | 1 |  |
+| Cabal | Oficial | USA | 1 |  |
+| Caesars Palace | Oficial | USA | 1 |  |
+| California Games | Oficial | Europe | 1 |  |
+| Capcom's Gold Medal Challenge '92 | Oficial | Europe | 1 |  |
+| Captain America and the Avengers | Oficial | World | 1 |  |
+| Captain America and the Avengers | Oficial | USA | 1 |  |
+| Captain Planet and the Planeteers | Oficial | Europe | 1 |  |
+| Captain Skyhawk | Oficial | Europe | 1 |  |
+| Casino Kid | Oficial | USA | 1 |  |
+| Casino Kid II | Oficial | USA | 1 |  |
+| Castelian | Oficial | Europe | 1 |  |
+| Castle of Dragon | Oficial | USA | 1 |  |
+| Castlequest | Oficial | USA | 1 |  |
+| Castlevania | Oficial | Europe | 1 |  |
+| Castlevania II - Simon's Quest | Oficial | Europe | 1 |  |
+| Castlevania III - Dracula's Curse | Oficial | Europe | 1 |  |
+| Caveman Games | Oficial | USA | 1 |  |
+| Chack'n Pop | Oficial | Japan | 1 |  |
+| Challenger | Oficial | Japan | 1 |  |
+| Championship Bowling | Oficial | USA | 1 |  |
+| Championship Lode Runner | Oficial | Japan | 1 |  |
+| Championship Pool | Oficial | USA | 1 |  |
+| Championship Rally | Oficial | Europe | 1 |  |
+| Chessmaster, The | Oficial | Europe | 1 |  |
+| Chiisana Obake - Acchi Socchi Kocchi | Oficial | Japan | 1 |  |
+| Chip 'n Dale - Rescue Rangers | Oficial | Europe | 1 |  |
+| Chip 'n Dale - Rescue Rangers 2 | Oficial | Europe | 1 |  |
+| Choplifter | Oficial | Japan | 1 |  |
+| Chou Fuyuu Yousai - Exed Exes | Oficial | Japan | 1 |  |
+| Choujikuu Yousai - Macross | Oficial | Japan | 1 |  |
+| Choujin Sentai - Jetman | Oficial | Japan | 1 |  |
+| Chubby Cherub | Oficial | USA | 1 |  |
+| Circus Caper | Oficial | USA | 1 |  |
+| Circus Charlie | Oficial | Japan | 1 |  |
+| City Connection | Oficial | Europe | 1 |  |
+| Clash at Demonhead | Oficial | USA | 1 |  |
+| Classic Concentration | Oficial | USA | 1 |  |
+| Cliffhanger | Oficial | USA | 1 |  |
+| Clu Clu Land | Oficial | World | 1 |  |
+| Cobra Command | Oficial | USA | 1 |  |
+| Cobra Triangle | Oficial | Europe | 1 |  |
+| Code Name - Viper | Oficial | USA | 1 |  |
+| Color a Dinosaur | Oficial | USA | 1 |  |
+| Commando | Oficial | USA | 1 |  |
+| Conan | Oficial | USA | 1 |  |
+| Conflict | Oficial | USA | 1 |  |
+| Conquest of the Crystal Palace | Oficial | USA | 1 |  |
+| Contra Force | Oficial | USA | 1 |  |
+| Cool World | Oficial | USA | 1 |  |
+| Corvette ZR-1 Challenge | Oficial | Europe | 1 |  |
+| Cowboy Kid | Oficial | USA | 1 |  |
+| Crackout | Oficial | Europe | 1 |  |
+| Crash 'n' the Boys - Street Challenge | Oficial | USA | 1 |  |
+| Crazy Climber | Oficial | Japan | 1 |  |
+| Crisis Force | Oficial | Japan | 1 |  |
+| CrossFire | Oficial | Japan | 1 |  |
+| Crystalis | Oficial | USA | 1 |  |
+| Cyber Stadium Series - Base Wars | Oficial | USA | 1 |  |
+| Cyberball | Oficial | USA | 1 |  |
+| Cybernoid - The Fighting Machine | Oficial | USA | 1 |  |
+| Cycle Race - Road Man | Oficial | Japan | 1 |  |
+| Dance Aerobics | Oficial | USA | 1 |  |
+| Danny Sullivan's Indy Heat | Oficial | Europe | 1 |  |
+| Darkman | Oficial | Europe | 1 |  |
+| Darkwing Duck | Oficial | Europe | 1 |  |
+| Dash Galaxy in the Alien Asylum | Oficial | USA | 1 |  |
+| Data East All-Star Collection | Oficial | USA | 1 |  |
+| David Crane's A Boy and His Blob - Trouble on Blobolonia | Oficial | Europe | 1 |  |
+| Day Dreamin' Davey | Oficial | USA | 1 |  |
+| Days of Thunder | Oficial | Europe | 1 |  |
+| Deadly Towers | Oficial | USA | 1 |  |
+| Defender II | Oficial | USA | 1 |  |
+| Defender of the Crown | Oficial | Europe | 1 |  |
+| Defenders of Dynatron City | Oficial | USA | 1 |  |
+| Deja Vu | Oficial | USA | 1 |  |
+| Demon Sword | Oficial | USA | 1 |  |
+| Desert Commander | Oficial | USA | 1 |  |
+| Destination Earthstar | Oficial | USA | 1 |  |
+| Destiny of an Emperor | Oficial | USA | 1 |  |
+| Devil World | Oficial | Europe | 1 |  |
+| Dick Tracy | Oficial | USA | 1 |  |
+| Die Hard | Oficial | Europe | 1 |  |
+| Dig Dug | Oficial | Japan | 1 |  |
+| Dig Dug II - Trouble in Paradise | Oficial | USA | 1 |  |
+| Digger T. Rock - The Legend of the Lost City | Oficial | Europe | 1 |  |
+| Dirty Harry | Oficial | USA | 1 |  |
+| Donald Land | Oficial | Japan | 1 |  |
+| Donkey Kong | Oficial | World | 1 |  |
+| Donkey Kong 3 | Oficial | World | 1 |  |
+| Donkey Kong Jr. | Oficial | World | 1 |  |
+| Donkey Kong Jr. + Jr. Lesson | Oficial | Japan | 1 |  |
+| Donkey Kong Jr. Math | Oficial | Europe, USA | 1 |  |
+| Door Door | Oficial | Japan | 1 |  |
+| Double Dare | Oficial | USA | 1 |  |
+| Double Dragon | Oficial | Europe | 1 |  |
+| Double Dragon II - The Revenge | Oficial | Europe | 1 |  |
+| Double Dragon III - The Sacred Stones | Oficial | Europe | 1 |  |
+| Double Dribble | Oficial | Europe | 1 |  |
+| Dough Boy | Oficial | Japan | 1 |  |
+| Dr. Chaos | Oficial | USA | 1 |  |
+| Dr. Jekyll and Mr. Hyde | Oficial | USA | 1 |  |
+| Dr. Mario | Oficial | Europe | 1 |  |
+| Dragon Buster | Oficial | Japan | 1 |  |
+| Dragon Buster II - Yami no Fuuin | Oficial | Japan | 1 |  |
+| Dragon Fighter | Oficial | USA | 1 |  |
+| Dragon Power | Oficial | USA | 1 |  |
+| Dragon Spirit - The New Legend | Oficial | USA | 1 |  |
+| Dragon Warrior | Oficial | USA | 1 |  |
+| Dragon Warrior II | Oficial | USA | 1 |  |
+| Dragon Warrior III | Oficial | USA | 1 |  |
+| Dragon Warrior IV | Oficial | USA | 1 |  |
+| Dragon's Lair | Oficial | Europe | 1 |  |
+| Dropzone | Oficial | Europe | 1 |  |
+| Druaga no Tou | Oficial | World | 1 |  |
+| Duck Hunt | Oficial | World | 1 |  |
+| DuckTales | Oficial | Europe | 1 |  |
+| DuckTales 2 | Oficial | Europe | 1 |  |
+| Dungeon Magic - Sword of the Elements | Oficial | USA | 1 |  |
+| Dusty Diamond's All-Star Softball | Oficial | USA | 1 |  |
+| Dynablaster | Oficial | Europe | 1 |  |
+| Dynamite Bowl | Oficial | Japan | 1 |  |
+| Dynowarz - The Destruction of Spondylus | Oficial | USA | 1 |  |
+| EarthBound Beginnings | Oficial | Europe, USA | 1 |  |
+| Elevator Action | Oficial | USA | 1 |  |
+| Eliminator Boat Duel | Oficial | Europe | 1 |  |
+| Elite | Oficial | Europe | 1 |  |
+| Empereur, L' | Oficial | USA | 1 |  |
+| Eric Cantona Football Challenge - Goal! 2 | Oficial | Europe | 1 |  |
+| Excitebike | Oficial | Europe | 1 |  |
+| Exciting Boxing | Oficial | Japan | 1 |  |
+| Exerion | Oficial | Japan | 1 |  |
+| Exploding Fist | Oficial | World | 1 |  |
+| F1 Race | Oficial | Japan | 1 |  |
+| F-117A Stealth Fighter | Oficial | USA | 1 |  |
+| F-15 Strike Eagle | Oficial | Europe | 1 |  |
+| Family Circuit '91 | Oficial | Japan | 1 |  |
+| Family Feud | Oficial | USA | 1 |  |
+| Fantasy Zone | Oficial | Japan | 1 |  |
+| Fantasy Zone II - Opa-Opa no Namida | Oficial | Japan | 1 |  |
+| Faria - A World of Mystery & Danger! | Oficial | USA | 1 |  |
+| Faxanadu | Oficial | Europe | 1 |  |
+| Felix the Cat | Oficial | Europe | 1 |  |
+| Ferrari Grand Prix Challenge | Oficial | Europe | 1 |  |
+| Fester's Quest | Oficial | Europe | 1 |  |
+| Field Combat | Oficial | Japan | 1 |  |
+| Final Fantasy | Oficial | USA | 1 |  |
+| Final Lap | Oficial | Japan | 1 |  |
+| Firework Thrower Kantaro's 53 Stations of the Toukaido | Oficial | World | 1 |  |
+| Fisher-Price - Firehouse Rescue | Oficial | USA | 1 |  |
+| Fisher-Price - I Can Remember | Oficial | USA | 1 |  |
+| Fisher-Price - Perfect Fit | Oficial | USA | 1 |  |
+| Fist of the North Star | Oficial | USA | 1 |  |
+| Flappy | Oficial | Japan | 1 |  |
+| Flintstones, The - The Rescue of Dino & Hoppy | Oficial | Europe | 1 |  |
+| Flintstones, The - The Surprise at Dinosaur Peak | Oficial | Europe | 1 |  |
+| Flipull - An Exciting Cube Game | Oficial | Japan | 1 |  |
+| Flying Dragon - The Secret Scroll | Oficial | USA | 1 |  |
+| Flying Hero | Oficial | Japan | 1 |  |
+| Flying Warriors | Oficial | USA | 1 |  |
+| Formation Z | Oficial | Japan | 1 |  |
+| Formula 1 Sensation | Oficial | Europe | 1 |  |
+| Formula One - Built to Win | Oficial | USA | 1 |  |
+| Four Players' Tennis | Oficial | Europe | 1 |  |
+| Fox's Peter Pan & the Pirates - The Revenge of Captain Hook | Oficial | USA | 1 |  |
+| Frankenstein - The Monster Returns | Oficial | USA | 1 |  |
+| Freedom Force | Oficial | USA | 1 |  |
+| Friday the 13th | Oficial | USA | 1 |  |
+| Front Line | Oficial | Japan | 1 |  |
+| Fun House | Oficial | USA | 1 |  |
+| G.I. Joe - A Real American Hero | Oficial | USA | 1 |  |
+| G.I. Joe - The Atlantis Factor | Oficial | USA | 1 |  |
+| Galaga | Oficial | Europe | 1 |  |
+| Galaxian | Oficial | Japan | 1 |  |
+| Galaxy 5000 - Racing in the 51st Century | Oficial | Europe | 1 |  |
+| Garfield no Isshukan | Oficial | Japan | 1 |  |
+| Gargoyle's Quest II | Oficial | Europe | 1 |  |
+| Garry Kitchen's Battletank | Oficial | USA | 1 |  |
+| Gauntlet | Oficial | USA | 1 |  |
+| Gauntlet II | Oficial | Europe | 1 |  |
+| Geimos | Oficial | Japan | 1 |  |
+| Gekitotsu Yonku Battle | Oficial | Japan | 1 |  |
+| Gemfire | Oficial | USA | 1 |  |
+| Genghis Khan | Oficial | USA | 1 |  |
+| George Foreman's KO Boxing | Oficial | Europe | 1 |  |
+| Ghost Lion | Oficial | USA | 1 |  |
+| Ghostbusters | Oficial | USA | 1 |  |
+| Ghostbusters II | Oficial | Europe | 1 |  |
+| Ghost'n Goblins | Oficial | Europe | 1 |  |
+| Ghoul School | Oficial | USA | 1 |  |
+| Goal! | Oficial | Europe | 1 |  |
+| Godzilla - Monster of Monsters! | Oficial | Europe | 1 |  |
+| Godzilla 2 - War of the Monsters | Oficial | USA | 1 |  |
+| Golf | Oficial | Europe | 1 |  |
+| Golf Grand Slam | Oficial | USA | 1 |  |
+| Golgo 13 - Top Secret Episode | Oficial | USA | 1 |  |
+| Goonies | Oficial | Japan | 1 |  |
+| Goonies II, The | Oficial | Europe | 1 |  |
+| Gorby no Pipeline Daisakusen | Oficial | Japan | 1 |  |
+| Gotcha! - The Sport! | Oficial | USA | 1 |  |
+| Gradius | Oficial | Europe | 1 |  |
+| Gradius II | Oficial | Japan | 1 |  |
+| Great Deal | Oficial | Japan | 1 |  |
+| Great Waldo Search, The | Oficial | USA | 1 |  |
+| Greg Norman's Golf Power | Oficial | USA | 1 |  |
+| Gremlins 2 - The New Batch | Oficial | Europe | 1 |  |
+| Guardian Legend, The | Oficial | Europe | 1 |  |
+| Guerrilla War | Oficial | Europe | 1 |  |
+| Gumshoe | Oficial | Europe, USA | 1 |  |
+| Gun Nac | Oficial | USA | 1 |  |
+| Gun.Smoke | Oficial | Europe | 1 |  |
+| Gyrodine | Oficial | Japan | 1 |  |
+| Gyromite | Oficial | World | 1 |  |
+| Gyruss | Oficial | USA | 1 |  |
+| Hammerin' Harry | Oficial | Europe | 1 |  |
+| Hammerin' Harry 2 - Dan the Red Strikes Back | Oficial | USA | 1 |  |
+| Hana no Star Kaidou | Oficial | Japan | 1 |  |
+| Harlem Globetrotters | Oficial | USA | 1 |  |
+| Hatris | Oficial | USA | 1 |  |
+| Heavy Barrel | Oficial | USA | 1 |  |
+| High Speed | Oficial | Europe | 1 |  |
+| Hogan's Alley | Oficial | World | 1 |  |
+| Hollywood Squares | Oficial | USA | 1 |  |
+| Holy Diver | Oficial | Japan | 1 |  |
+| Home Alone | Oficial | USA | 1 |  |
+| Home Alone 2 - Lost in New York | Oficial | Europe | 1 |  |
+| Hook | Oficial | Europe | 1 |  |
+| Hoops | Oficial | Europe | 1 |  |
+| Hudson Hawk | Oficial | Europe | 1 |  |
+| Hunt for Red October, The | Oficial | Europe | 1 |  |
+| Hydlide | Oficial | USA | 1 |  |
+| Hyper Sports | Oficial | Japan | 1 |  |
+| Ice Climber | Oficial | Asia, Europe, USA | 1 |  |
+| Ice Hockey | Oficial | Europe | 1 |  |
+| Ikari III - The Rescue | Oficial | USA | 1 |  |
+| Ikari Warriors | Oficial | Europe | 1 |  |
+| Ikari Warriors II - Victory Road | Oficial | USA | 1 |  |
+| Ikki | Oficial | Japan | 1 |  |
+| ImageFight | Oficial | USA | 1 |  |
+| Immortal, The | Oficial | USA | 1 |  |
+| Incredible Crash Dummies, The | Oficial | Europe | 1 |  |
+| Indiana Jones and the Last Crusade | Oficial | USA | 1 |  |
+| Indiana Jones and the Last Crusade - The Action Game | Oficial | Europe | 1 |  |
+| Indiana Jones and the Temple of Doom | Oficial | USA | 1 |  |
+| Infiltrator | Oficial | USA | 1 |  |
+| International Cricket | Oficial | Australia | 1 |  |
+| Iron Tank - The Invasion of Normandy | Oficial | Europe | 1 |  |
+| IronSword - Wizards & Warriors II | Oficial | Europe | 1 |  |
+| Isolated Warrior | Oficial | Europe | 1 |  |
+| Ivan 'Ironman' Stewart's Super Off Road | Oficial | Europe | 1 |  |
+| Jack Nicklaus' Greatest 18 Holes of Major Championship Golf | Oficial | Europe | 1 |  |
+| Jackal | Oficial | USA | 1 |  |
+| Jackie Chan's Action Kung Fu | Oficial | Europe | 1 |  |
+| James Bond Jr | Oficial | Europe | 1 |  |
+| Jaws | Oficial | USA | 1 |  |
+| Jaws - Retro Edition | Oficial | World | 1 |  |
+| Jeopardy! | Oficial | USA | 1 |  |
+| Jeopardy! 25th Anniversary Edition | Oficial | USA | 1 |  |
+| Jeopardy! Junior Edition | Oficial | USA | 1 |  |
+| Jetsons, The - Cogswell's Caper | Oficial | Europe | 1 |  |
+| Jimmy Connors Tennis | Oficial | Europe | 1 |  |
+| JJ | Oficial | Japan | 1 |  |
+| Joe & Mac - Caveman Ninja | Oficial | Europe | 1 |  |
+| John Elway's Quarterback | Oficial | USA | 1 |  |
+| Jordan vs Bird - One on One | Oficial | USA | 1 |  |
+| Journey to Silius | Oficial | Europe | 1 |  |
+| Joust | Oficial | USA | 1 |  |
+| Jumpin' Kid - Jack to Mame no Ki Monogatari | Oficial | Japan | 1 |  |
+| Jungle Book, The | Oficial | Europe | 1 |  |
+| Jurassic Park | Oficial | Europe | 1 |  |
+| Juuouki | Oficial | Japan | 1 |  |
+| Kabuki - Quantum Fighter | Oficial | Europe | 1 |  |
+| Karate Champ | Oficial | USA | 1 |  |
+| Karate Kid, The | Oficial | USA | 1 |  |
+| Karateka | Oficial | Japan | 1 |  |
+| Karnov | Oficial | USA | 1 |  |
+| Kick Off | Oficial | Europe | 1 |  |
+| Kickle Cubicle | Oficial | Europe | 1 |  |
+| KickMaster | Oficial | USA | 1 |  |
+| Kid Dracula | Oficial | World | 1 |  |
+| Kid Icarus | Oficial | Europe, USA | 1 |  |
+| Kid Klown in Night Mayor World | Oficial | USA | 1 |  |
+| Kid Kool and the Quest for the Seven Wonder Herbs | Oficial | USA | 1 |  |
+| Kid Niki - Radical Ninja | Oficial | USA | 1 |  |
+| King's Knight | Oficial | USA | 1 |  |
+| Kings of the Beach - Professional Beach Volleyball | Oficial | USA | 1 |  |
+| King's Quest V | Oficial | USA | 1 |  |
+| Kirby's Adventure | Oficial | Europe | 1 |  |
+| KlashBall | Oficial | USA | 1 |  |
+| Knight Rider | Oficial | Europe | 1 |  |
+| Konami Hyper Soccer | Oficial | Europe | 1 |  |
+| Krion Conquest, The | Oficial | USA | 1 |  |
+| Krusty's Fun House | Oficial | Europe | 1 |  |
+| Kung Fu | Oficial | Europe, Hong Kong | 1 |  |
+| Kung-Fu Heroes | Oficial | USA | 1 |  |
+| Laser Invasion | Oficial | USA | 1 |  |
+| Last Action Hero | Oficial | USA | 1 |  |
+| Last Ninja, The | Oficial | USA | 1 |  |
+| Last Starfighter, The | Oficial | USA | 1 |  |
+| Lee Trevino's Fighting Golf | Oficial | Europe | 1 |  |
+| Legacy of the Wizard | Oficial | USA | 1 |  |
+| Legend of Kage, The | Oficial | USA | 1 |  |
+| Legend of Prince Valiant, The | Oficial | Europe | 1 |  |
+| Legend of Zelda, The | Oficial | Europe | 1 |  |
+| Legendary Wings | Oficial | USA | 1 |  |
+| Legends of the Diamond - The Baseball Championship Game | Oficial | USA | 1 |  |
+| Lemmings | Oficial | Europe | 1 |  |
+| Lethal Weapon | Oficial | Europe | 1 |  |
+| Life Force - Salamander | Oficial | Europe | 1 |  |
+| Lion King, The | Oficial | Europe | 1 |  |
+| Little Lancelot | Oficial | USA | 1 |  |
+| Little League Baseball - Championship Series | Oficial | USA | 1 |  |
+| Little Mermaid, The | Oficial | USA | 1 |  |
+| Little Nemo - The Dream Master | Oficial | Europe | 1 |  |
+| Little Ninja Brothers | Oficial | Europe | 1 |  |
+| Little Samson | Oficial | Europe | 1 |  |
+| Lode Runner | Oficial | USA | 1 |  |
+| Lone Ranger, The | Oficial | USA | 1 |  |
+| Loopz | Oficial | USA | 1 |  |
+| Low G Man - The Low Gravity Man | Oficial | Europe | 1 |  |
+| Lunar Pool | Oficial | Europe | 1 |  |
+| M.U.L.E. | Oficial | USA | 1 |  |
+| M.U.S.C.L.E. - Tag Team Match | Oficial | USA | 1 |  |
+| Mach Rider | Oficial | Europe | 1 |  |
+| Mad Max | Oficial | USA | 1 |  |
+| Mafat Conspiracy, The | Oficial | USA | 1 |  |
+| Magic Darts | Oficial | USA | 1 |  |
+| Magic Johnson's Fast Break | Oficial | USA | 1 |  |
+| Magic of Scheherazade, The | Oficial | USA | 1 |  |
+| Magician | Oficial | USA | 1 |  |
+| Magmax | Oficial | USA | 1 |  |
+| Major League Baseball | Oficial | USA | 1 |  |
+| Maniac Mansion | Oficial | Spain | 1 |  |
+| Mappy | Oficial | Japan | 1 |  |
+| Mappy Kids | Oficial | World | 1 |  |
+| Mappy-Land | Oficial | USA | 1 |  |
+| Marble Madness | Oficial | Europe | 1 |  |
+| Mario & Yoshi | Oficial | Europe | 1 |  |
+| Mario Bros. | Oficial | Europe | 1 |  |
+| Mario is Missing! | Oficial | Europe | 1 |  |
+| Mario's Time Machine | Oficial | USA | 1 |  |
+| McDonaldland | Oficial | Europe | 1 |  |
+| Mechanized Attack | Oficial | USA | 1 |  |
+| Mega Man | Oficial | Europe | 1 |  |
+| Mega Man 2 | Oficial | Europe | 1 |  |
+| Mega Man 3 | Oficial | Europe | 1 |  |
+| Mega Man 4 | Oficial | Europe | 1 |  |
+| Mega Man 5 | Oficial | Europe | 1 |  |
+| Mega Man 6 | Oficial | USA | 1 |  |
+| Mendel Palace | Oficial | USA | 1 |  |
+| Metal Gear | Oficial | Europe | 1 |  |
+| Metal Storm | Oficial | USA | 1 |  |
+| MetalMech - Man & Machine | Oficial | USA | 1 |  |
+| Metroid | Oficial | Europe | 1 |  |
+| Michael Andretti's World GP | Oficial | USA | 1 |  |
+| Mickey Mousecapade | Oficial | USA | 1 |  |
+| Mickey's Adventure in Numberland | Oficial | USA | 1 |  |
+| Mickey's Safari in Letterland | Oficial | USA | 1 |  |
+| Might & Magic - Secret of the Inner Sanctum | Oficial | USA | 1 |  |
+| Mighty Bomb Jack | Oficial | Europe | 1 |  |
+| Mighty Final Fight | Oficial | Europe | 1 |  |
+| Mike Tyson's Punch-Out!! | Oficial | Europe | 1 |  |
+| Millipede | Oficial | USA | 1 |  |
+| Milon's Secret Castle | Oficial | USA | 1 |  |
+| Miracle Piano Teaching System, The | Oficial | USA | 1 |  |
+| Mission - Impossible | Oficial | Europe | 1 |  |
+| Monopoly | Oficial | USA | 1 |  |
+| Monster in My Pocket | Oficial | Europe | 1 |  |
+| Monster Party | Oficial | USA | 1 |  |
+| Monster Truck Rally | Oficial | USA | 1 |  |
+| Motor City Patrol | Oficial | USA | 1 |  |
+| Mr. Gimmick | Oficial | Europe | 1 |  |
+| Ms. Pac-Man | Oficial | USA | 1 |  |
+| Muppet Adventure - Chaos at the Carnival | Oficial | USA | 1 |  |
+| Mutant Virus, The - Crisis in a Computer World | Oficial | USA | 1 |  |
+| Mystery Quest | Oficial | USA | 1 |  |
+| NARC | Oficial | USA | 1 |  |
+| NES Open Tournament Golf | Oficial | Europe | 1 |  |
+| NES Play Action Football | Oficial | USA | 1 |  |
+| New Ghostbusters II | Oficial | Europe | 1 |  |
+| NewZealand Story, The | Oficial | Europe | 1 |  |
+| NFL | Oficial | USA | 1 |  |
+| Nigel Mansell's World Championship | Oficial | Europe | 1 |  |
+| Nightmare on Elm Street, A | Oficial | USA | 1 |  |
+| Nightshade | Oficial | World | 1 |  |
+| Ninja Crusaders | Oficial | USA | 1 |  |
+| Ninja Gaiden III - The Ancient Ship of Doom | Oficial | USA | 1 |  |
+| Ninja JaJaMaru - Operation Milky Way | Oficial | Europe, USA | 1 |  |
+| Ninja JaJaMaru - The Legend of the Golden Castle | Oficial | Europe, USA | 1 |  |
+| Ninja JaJaMaru - The Ninja Skill Book | Oficial | Europe, USA | 1 |  |
+| Ninja JaJaMaru-kun | Oficial | Europe, USA | 1 |  |
+| Ninja JaJaMaru's Big Adventure | Oficial | Europe, USA | 1 |  |
+| Ninja Kid | Oficial | USA | 1 |  |
+| Nintendo World Championships 1990 | Oficial | USA | 1 |  |
+| Nintendo World Cup | Oficial | Europe | 1 |  |
+| Noah's Ark | Oficial | Europe | 1 |  |
+| Nobunaga's Ambition | Oficial | USA | 1 |  |
+| Nobunaga's Ambition II | Oficial | USA | 1 |  |
+| North & South | Oficial | Europe | 1 |  |
+| Nuts & Milk | Oficial | Japan | 1 |  |
+| Operation Wolf | Oficial | Europe | 1 |  |
+| Orb-3D | Oficial | USA | 1 |  |
+| Othello | Oficial | USA | 1 |  |
+| Over Horizon | Oficial | Europe | 1 |  |
+| Overlord | Oficial | USA | 1 |  |
+| P.O.W. - Prisoners of War | Oficial | Europe | 1 |  |
+| Pac-Land | Oficial | World | 1 |  |
+| Pac-Man | Oficial | Europe | 1 |  |
+| Pac-Man - Championship Edition | Oficial | Europe, USA | 1 |  |
+| Palamedes | Oficial | USA | 1 |  |
+| Panic Restaurant | Oficial | Europe | 1 |  |
+| Paperboy | Oficial | Europe | 1 |  |
+| Paperboy 2 | Oficial | Europe | 1 |  |
+| Parasol Stars - Rainbow Islands II | Oficial | Europe | 1 |  |
+| Parodius | Oficial | Europe | 1 |  |
+| Phantom Air Mission | Oficial | Spain | 1 |  |
+| Phantom Fighter | Oficial | USA | 1 |  |
+| Pictionary - The Game of Video Quick Draw | Oficial | USA | 1 |  |
+| Pin Bot | Oficial | Europe | 1 |  |
+| Pinball | Oficial | Asia, Europe | 1 |  |
+| Pinball Quest | Oficial | USA | 1 |  |
+| Pipe Dream | Oficial | USA | 1 |  |
+| Pirates! | Oficial | Europe | 1 |  |
+| Pizza Pop! | Oficial | Europe, USA | 1 |  |
+| Platoon | Oficial | USA | 1 |  |
+| Pooyan | Oficial | Japan | 1 |  |
+| Popeye | Oficial | World | 1 |  |
+| Power Blade | Oficial | Europe | 1 |  |
+| Power Blade 2 | Oficial | USA | 1 |  |
+| Power Punch II | Oficial | USA | 1 |  |
+| Predator | Oficial | USA | 1 |  |
+| Prince of Persia | Oficial | Spain | 1 |  |
+| Princess Tomato in the Salad Kingdom | Oficial | USA | 1 |  |
+| Pro Sport Hockey | Oficial | USA | 1 |  |
+| Pro Wrestling | Oficial | Europe | 1 |  |
+| Probotector | Oficial | Europe | 1 |  |
+| Probotector II - Return of the Evil Forces | Oficial | Europe | 1 |  |
+| Punisher, The | Oficial | USA | 1 |  |
+| Puss 'n Boots - Pero's Great Adventure | Oficial | USA | 1 |  |
+| Puzznic | Oficial | Europe | 1 |  |
+| Q-bert | Oficial | USA | 1 |  |
+| QIX | Oficial | USA | 1 |  |
+| Quarth | Oficial | Japan | 1 |  |
+| R.B.I. Baseball | Oficial | USA | 1 |  |
+| R.C. Pro-Am | Oficial | Europe | 1 |  |
+| R.C. Pro-Am II | Oficial | Europe | 1 |  |
+| Racket Attack | Oficial | Europe | 1 |  |
+| Rackets & Rivals | Oficial | Europe | 1 |  |
+| Rad Racer | Oficial | Europe | 1 |  |
+| Rad Racer II | Oficial | USA | 1 |  |
+| Raid on Bungeling Bay | Oficial | USA | 1 |  |
+| Rainbow Islands | Oficial | USA | 1 |  |
+| Rainbow Islands - Bubble Bobble 2 | Oficial | Europe | 1 |  |
+| Rally Bike | Oficial | USA | 1 |  |
+| Rambo | Oficial | USA | 1 |  |
+| Rampage | Oficial | USA | 1 |  |
+| Rampart | Oficial | Europe | 1 |  |
+| Remote Control | Oficial | USA | 1 |  |
+| Ren & Stimpy Show, The - Buckeroo$! | Oficial | USA | 1 |  |
+| Renegade | Oficial | USA | 1 |  |
+| Rescue - The Embassy Mission | Oficial | Europe | 1 |  |
+| Ring King | Oficial | USA | 1 |  |
+| Ripple Island | Oficial | World | 1 |  |
+| Road Fighter | Oficial | Europe | 1 |  |
+| RoadBlasters | Oficial | Europe | 1 |  |
+| Robin Hood - Prince of Thieves | Oficial | Spain | 1 |  |
+| Robo Warrior | Oficial | Europe | 1 |  |
+| RoboCop | Oficial | Europe | 1 |  |
+| RoboCop 2 | Oficial | Europe | 1 |  |
+| RoboCop 3 | Oficial | Europe | 1 |  |
+| Rock 'n' Ball | Oficial | USA | 1 |  |
+| Rocket Ranger | Oficial | USA | 1 |  |
+| Rocketeer, The | Oficial | USA | 1 |  |
+| Rockin' Kats | Oficial | Europe | 1 |  |
+| Rodland | Oficial | Europe | 1 |  |
+| Roger Clemens' MVP Baseball | Oficial | USA | 1 |  |
+| Rollerball | Oficial | USA | 1 |  |
+| Rollerblade Racer | Oficial | USA | 1 |  |
+| Rollergames | Oficial | Europe | 1 |  |
+| Rolling Thunder | Oficial | World | 1 |  |
+| Romance of the Three Kingdoms | Oficial | USA | 1 |  |
+| Romance of the Three Kingdoms II | Oficial | USA | 1 |  |
+| Roundball - 2-on-2 Challenge | Oficial | Europe | 1 |  |
+| Rush'n Attack | Oficial | Europe | 1 |  |
+| Rygar | Oficial | Europe | 1 |  |
+| Section-Z | Oficial | Europe | 1 |  |
+| Seicross | Oficial | USA | 1 |  |
+| Sesame Street - 123 | Oficial | USA | 1 |  |
+| Sesame Street - ABC | Oficial | USA | 1 |  |
+| Sesame Street - Big Bird's Hide & Speak | Oficial | USA | 1 |  |
+| Sesame Street - Countdown | Oficial | USA | 1 |  |
+| Shadow Warriors - Ninja Gaiden | Oficial | Europe | 1 |  |
+| Shadow Warriors II - Ninja Gaiden II | Oficial | Europe | 1 |  |
+| Shadowgate | Oficial | Europe | 1 |  |
+| Shanghai | Oficial | Japan | 1 |  |
+| Shatterhand | Oficial | Europe | 1 |  |
+| Shingen the Ruler | Oficial | USA | 1 |  |
+| Shooting Range | Oficial | USA | 1 |  |
+| Short Order + Eggsplode! | Oficial | USA | 1 |  |
+| Side Pocket | Oficial | Europe | 1 |  |
+| Silent Service | Oficial | Europe | 1 |  |
+| Silk Worm | Oficial | USA | 1 |  |
+| Silver Surfer | Oficial | World | 1 |  |
+| Silver Surfer | Oficial | USA | 1 |  |
+| Simpsons, The - Bart vs. the Space Mutants | Oficial | Europe | 1 |  |
+| Simpsons, The - Bart vs. the World | Oficial | Europe | 1 |  |
+| Simpsons, The - Bartman Meets Radioactive Man | Oficial | Europe | 1 |  |
+| Skate or Die | Oficial | Europe | 1 |  |
+| Skate or Die 2 - The Search for Double Trouble | Oficial | USA | 1 |  |
+| Ski or Die | Oficial | Europe | 1 |  |
+| Sky Kid | Oficial | USA | 1 |  |
+| Sky Shark | Oficial | USA | 1 |  |
+| Slalom | Oficial | Europe | 1 |  |
+| Smash T.V. | Oficial | Europe | 1 |  |
+| Smurfs, The | Oficial | Europe | 1 |  |
+| Snake Rattle n Roll | Oficial | Europe | 1 |  |
+| Snake's Revenge | Oficial | Europe | 1 |  |
+| Snoopy's Silly Sports Spectacular! | Oficial | USA | 1 |  |
+| Snow Brothers | Oficial | Europe | 1 |  |
+| Snowboard Challenge | Oficial | Europe | 1 |  |
+| Soccer | Oficial | Europe | 1 |  |
+| Solar Jetman - Hunt for the Golden Warpship | Oficial | Europe | 1 |  |
+| Solomon's Key | Oficial | Europe | 1 |  |
+| Solomon's Key 2 | Oficial | Europe | 1 |  |
+| Solstice - The Quest for the Staff of Demnos | Oficial | Europe | 1 |  |
+| Son Son | Oficial | Japan | 1 |  |
+| Space Shuttle Project | Oficial | USA | 1 |  |
+| Spelunker | Oficial | USA | 1 |  |
+| Spider-Man - Return of the Sinister Six | Oficial | Europe | 1 |  |
+| Splatterhouse - Wanpaku Graffiti | Oficial | World | 1 |  |
+| Spot - The Video Game | Oficial | USA | 1 |  |
+| Spy Hunter | Oficial | USA | 1 |  |
+| Spy vs Spy | Oficial | Europe | 1 |  |
+| Sqoon | Oficial | USA | 1 |  |
+| Stack-Up | Oficial | World | 1 |  |
+| Stadium Events | Oficial | Europe | 1 |  |
+| Stanley - The Search for Dr. Livingston | Oficial | USA | 1 |  |
+| Star Force | Oficial | Europe | 1 |  |
+| Star Luster | Oficial | World | 1 |  |
+| Star Luster | Oficial | Japan | 1 |  |
+| Star Soldier | Oficial | USA | 1 |  |
+| Star Trek - 25th Anniversary | Oficial | USA | 1 |  |
+| Star Trek - The Next Generation | Oficial | USA | 1 |  |
+| Star Voyager | Oficial | USA | 1 |  |
+| Star Wars | Oficial | Europe | 1 |  |
+| Star Wars - The Empire Strikes Back | Oficial | Europe | 1 |  |
+| Starship Hector | Oficial | USA | 1 |  |
+| StarTropics | Oficial | Europe | 1 |  |
+| Stealth ATF | Oficial | Europe | 1 |  |
+| Stinger | Oficial | USA | 1 |  |
+| Street Cop | Oficial | USA | 1 |  |
+| Street Fighter 2010 - The Final Fight | Oficial | USA | 1 |  |
+| Street Gangs | Oficial | Europe | 1 |  |
+| Strider | Oficial | USA | 1 |  |
+| Summer Carnival '92 - Recca | Oficial | Japan | 1 |  |
+| Super Arabian | Oficial | Japan | 1 |  |
+| Super Cars | Oficial | USA | 1 |  |
+| Super Dodge Ball | Oficial | USA | 1 |  |
+| Super Glove Ball | Oficial | USA | 1 |  |
+| Super Jeopardy! | Oficial | USA | 1 |  |
+| Super Mario Bros. | Oficial | Europe | 1 |  |
+| Super Mario Bros. 2 | Oficial | Europe | 1 |  |
+| Super Mario Bros. 3 | Oficial | Europe | 1 |  |
+| Super Pitfall | Oficial | USA | 1 |  |
+| Super Spike V'Ball | Oficial | Europe | 1 |  |
+| Super Sprint | Oficial | Japan | 1 |  |
+| Super Spy Hunter | Oficial | Europe | 1 |  |
+| Super Team Games | Oficial | USA | 1 |  |
+| Super Turrican | Oficial | Europe | 1 |  |
+| Super Xevious - Gump no Nazo | Oficial | Europe, USA | 1 |  |
+| Superman | Oficial | USA | 1 |  |
+| Swamp Thing | Oficial | Europe | 1 |  |
+| Sword Master | Oficial | Europe | 1 |  |
+| Swords and Serpents | Oficial | Europe | 1 |  |
+| Taboo - The Sixth Sense | Oficial | USA | 1 |  |
+| Tag Team Wrestling | Oficial | USA | 1 |  |
+| TaleSpin | Oficial | Europe | 1 |  |
+| Target - Renegade | Oficial | USA | 1 |  |
+| Tecmo Baseball | Oficial | USA | 1 |  |
+| Tecmo Bowl | Oficial | USA | 1 |  |
+| Tecmo Cup - Football Game | Oficial | Spain | 1 |  |
+| Tecmo NBA Basketball | Oficial | USA | 1 |  |
+| Tecmo Super Bowl | Oficial | USA | 1 |  |
+| Tecmo World Cup Soccer | Oficial | Europe | 1 |  |
+| Tecmo World Wrestling | Oficial | Europe | 1 |  |
+| Teenage Mutant Hero Turtles | Oficial | Europe | 1 |  |
+| Teenage Mutant Hero Turtles - Tournament Fighters | Oficial | Europe | 1 |  |
+| Teenage Mutant Hero Turtles II - The Arcade Game | Oficial | Europe | 1 |  |
+| Teenage Mutant Ninja Turtles III - The Manhattan Project | Oficial | USA | 1 |  |
+| Tennis | Oficial | Europe | 1 |  |
+| Terminator 2 - Judgment Day | Oficial | Europe | 1 |  |
+| Terminator, The | Oficial | Europe, USA | 1 |  |
+| Terra Cresta | Oficial | USA | 1 |  |
+| Tetris | Oficial | Europe | 1 |  |
+| Tetris | Oficial | Japan | 1 |  |
+| Tetris 2 | Oficial | Europe | 1 |  |
+| Tetris 2 + Bombliss | Oficial | Japan | 1 |  |
+| Thexder | Oficial | Japan | 1 |  |
+| Three Stooges, The | Oficial | USA | 1 |  |
+| Thunder & Lightning | Oficial | USA | 1 |  |
+| Thunderbirds | Oficial | USA | 1 |  |
+| Thunderbolt Fighting Plane | Oficial | World | 1 |  |
+| Thundercade | Oficial | USA | 1 |  |
+| Tiger-Heli | Oficial | USA | 1 |  |
+| Tiger-Heli | Oficial | Europe | 1 |  |
+| Time Lord | Oficial | Europe | 1 |  |
+| Times of Lore | Oficial | USA | 1 |  |
+| Tiny Toon Adventures | Oficial | Europe | 1 |  |
+| Tiny Toon Adventures - Cartoon Workshop | Oficial | Europe | 1 |  |
+| Tiny Toon Adventures 2 - Trouble in Wackyland | Oficial | Europe | 1 |  |
+| Titan | Oficial | World | 1 |  |
+| To the Earth | Oficial | Europe | 1 |  |
+| Toki | Oficial | USA | 1 |  |
+| Tom & Jerry - The Ultimate Game of Cat and Mouse! | Oficial | Europe | 1 |  |
+| Tombs & Treasure | Oficial | USA | 1 |  |
+| Top Gun | Oficial | Europe | 1 |  |
+| Top Gun - The Second Mission | Oficial | Europe | 1 |  |
+| Total Recall | Oficial | Europe | 1 |  |
+| Totally Rad | Oficial | Europe | 1 |  |
+| Touchdown Fever | Oficial | USA | 1 |  |
+| Tower of Druaga, The | Oficial | World | 1 |  |
+| Town & Country Surf Designs - Thrilla's Surfari | Oficial | USA | 1 |  |
+| Town & Country Surf Designs - Wood & Water Rage | Oficial | USA | 1 |  |
+| Toxic Crusaders | Oficial | USA | 1 |  |
+| Track & Field II | Oficial | Europe | 1 |  |
+| Track & Field in Barcelona | Oficial | Europe | 1 |  |
+| Treasure Master | Oficial | USA | 1 |  |
+| Triathlon, The | Oficial | Japan | 1 |  |
+| Trog! | Oficial | Europe | 1 |  |
+| Trojan | Oficial | Europe | 1 |  |
+| Trolls in Crazyland, The | Oficial | Europe | 1 |  |
+| Turbo Racing | Oficial | Europe | 1 |  |
+| Twin Cobra | Oficial | USA | 2 |  |
+| Twin Eagle | Oficial | USA | 1 |  |
+| TwinBee | Oficial | Japan | 1 |  |
+| Ufouria - The Saga | Oficial | Europe | 1 |  |
+| Ultima - Exodus | Oficial | USA | 1 |  |
+| Ultima - Quest of the Avatar | Oficial | USA | 1 |  |
+| Ultima - Warriors of Destiny | Oficial | USA | 1 |  |
+| Ultimate Air Combat | Oficial | Europe | 1 |  |
+| Ultimate Basketball | Oficial | USA | 1 |  |
+| Uncanny X-Men, The | Oficial | USA | 1 |  |
+| Uncharted Waters | Oficial | USA | 1 |  |
+| Uninvited | Oficial | USA | 1 |  |
+| Untouchables, The | Oficial | USA | 1 |  |
+| Urban Champion | Oficial | World | 1 |  |
+| Vegas Dream | Oficial | USA | 1 |  |
+| Vice - Project Doom | Oficial | USA | 1 |  |
+| Videomation | Oficial | USA | 1 |  |
+| Volguard II | Oficial | Japan | 1 |  |
+| Volleyball | Oficial | Europe, USA | 1 |  |
+| Wacky Races | Oficial | USA | 1 |  |
+| Wall Street Kid | Oficial | USA | 1 |  |
+| Wario's Woods | Oficial | Europe | 1 |  |
+| Warpman | Oficial | Japan | 1 |  |
+| Wayne Gretzky Hockey | Oficial | USA | 1 |  |
+| Wayne's World | Oficial | USA | 1 |  |
+| WCW World Championship Wrestling | Oficial | USA | 1 |  |
+| Werewolf - The Last Warrior | Oficial | Europe | 1 |  |
+| Wheel of Fortune | Oficial | USA | 1 |  |
+| Wheel of Fortune - Family Edition | Oficial | USA | 1 |  |
+| Wheel of Fortune - Junior Edition | Oficial | USA | 1 |  |
+| Wheel of Fortune Featuring Vanna White | Oficial | USA | 1 |  |
+| Where in Time Is Carmen Sandiego | Oficial | USA | 1 |  |
+| Where's Waldo | Oficial | USA | 1 |  |
+| Who Framed Roger Rabbit | Oficial | USA | 1 |  |
+| Whomp 'Em | Oficial | USA | 1 |  |
+| Widget | Oficial | USA | 1 |  |
+| Wild Gunman | Oficial | World | 1 |  |
+| Willow | Oficial | Europe | 1 |  |
+| Win, Lose or Draw | Oficial | USA | 1 |  |
+| Wing of Madoola, The | Oficial | World | 1 |  |
+| Winter Games | Oficial | USA | 1 |  |
+| Wizardry - Knight of Diamonds - The Second Scenario | Oficial | USA | 1 |  |
+| Wizardry - Proving Grounds of the Mad Overlord | Oficial | USA | 1 |  |
+| Wizards & Warriors | Oficial | Europe | 1 |  |
+| Wizards & Warriors III - Kuros...Visions of Power | Oficial | Europe | 1 |  |
+| Wolverine | Oficial | USA | 1 |  |
+| World Champ | Oficial | Europe | 1 |  |
+| World Games | Oficial | USA | 1 |  |
+| Wrath of the Black Manta | Oficial | Europe | 1 |  |
+| Wrecking Crew | Oficial | World | 1 |  |
+| Wurm - Journey to the Center of the Earth! | Oficial | USA | 1 |  |
+| WWF King of the Ring | Oficial | Europe | 1 |  |
+| WWF WrestleMania | Oficial | Europe | 1 |  |
+| WWF WrestleMania - Challenge | Oficial | Europe | 1 |  |
+| WWF WrestleMania - Steel Cage Challenge | Oficial | Europe | 1 |  |
+| Xenophobe | Oficial | USA | 1 |  |
+| Xevious | Oficial | Europe | 1 |  |
+| Xexyz | Oficial | USA | 1 |  |
+| Yie Ar Kung-Fu | Oficial | Japan | 1 |  |
+| Yo! Noid | Oficial | USA | 1 |  |
+| Yoshi's Cookie | Oficial | Europe | 1 |  |
+| Young Indiana Jones Chronicles, The | Oficial | USA | 1 |  |
+| Zanac | Oficial | USA | 1 |  |
+| Zelda II - The Adventure of Link | Oficial | Europe | 1 |  |
+| Zen - Intergalactic Ninja | Oficial | Europe | 1 |  |
+| Zoda's Revenge - StarTropics II | Oficial | USA | 1 |  |
+| Zombie Nation | Oficial | USA | 1 |  |
+| Zunou Senkan Galg | Oficial | Japan | 1 |  |
 
 <!-- AUTO-GENERADO FIN -->

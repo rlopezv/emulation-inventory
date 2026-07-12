@@ -8,36 +8,36 @@ Fuente: `1G1R (retool)` -- `GCE - Vectrex (20251117-141044).dat`. Generado: `202
 
 Regenerar con: `pwsh tools/scripts/generate-romset-docs.ps1 -SystemId vectrex`
 
-| Nombre | Categoria | Regiones | Alias |
-| --- | --- | --- | --- |
-| 3D Crazy Coaster | Oficial | USA |  |
-| 3D Mine Storm | Oficial | USA |  |
-| 3D Narrow Escape | Oficial | USA |  |
-| AnimAction - Advanced Animation | Oficial | USA |  |
-| Armor Attack | Oficial | World |  |
-| Art Master | Oficial | USA |  |
-| Bedlam | Oficial | World |  |
-| Berzerk | Oficial | Europe |  |
-| Blitz! - Action Football | Oficial | World |  |
-| Clean Sweep | Oficial | World |  |
-| Cosmic Chasm | Oficial | World |  |
-| Fortress of Narzod | Oficial | Europe |  |
-| Heads-Up - Action Soccer | Oficial | World |  |
-| HyperChase - Auto Race | Oficial | World |  |
-| Melody Master - Music Composition and Entertainment | Oficial | USA |  |
-| Mine Storm | Oficial | World |  |
-| Mr. Boston - Clean Sweep | Oficial | USA |  |
-| Polar Rescue | Oficial | USA |  |
-| Pole Position | Oficial | USA |  |
-| Rip Off | Oficial | World |  |
-| Scramble | Oficial | World |  |
-| Solar Quest | Oficial | World |  |
-| Space Wars | Oficial | World |  |
-| Spike | Oficial | World |  |
-| Spinball | Oficial | World |  |
-| Star Castle | Oficial | USA |  |
-| Star Ship | Oficial | Europe |  |
-| StarHawk | Oficial | World |  |
-| WebWarp | Oficial | Europe |  |
+| Nombre | Categoria | Regiones | Discos | Alias |
+| --- | --- | --- | --- | --- |
+| 3D Crazy Coaster | Oficial | USA | 1 |  |
+| 3D Mine Storm | Oficial | USA | 1 |  |
+| 3D Narrow Escape | Oficial | USA | 1 |  |
+| AnimAction - Advanced Animation | Oficial | USA | 1 |  |
+| Armor Attack | Oficial | World | 1 |  |
+| Art Master | Oficial | USA | 1 |  |
+| Bedlam | Oficial | World | 1 |  |
+| Berzerk | Oficial | Europe | 1 |  |
+| Blitz! - Action Football | Oficial | World | 1 |  |
+| Clean Sweep | Oficial | World | 1 |  |
+| Cosmic Chasm | Oficial | World | 1 |  |
+| Fortress of Narzod | Oficial | Europe | 1 |  |
+| Heads-Up - Action Soccer | Oficial | World | 1 |  |
+| HyperChase - Auto Race | Oficial | World | 1 |  |
+| Melody Master - Music Composition and Entertainment | Oficial | USA | 1 |  |
+| Mine Storm | Oficial | World | 1 |  |
+| Mr. Boston - Clean Sweep | Oficial | USA | 1 |  |
+| Polar Rescue | Oficial | USA | 1 |  |
+| Pole Position | Oficial | USA | 1 |  |
+| Rip Off | Oficial | World | 1 |  |
+| Scramble | Oficial | World | 1 |  |
+| Solar Quest | Oficial | World | 1 |  |
+| Space Wars | Oficial | World | 1 |  |
+| Spike | Oficial | World | 1 |  |
+| Spinball | Oficial | World | 1 |  |
+| Star Castle | Oficial | USA | 1 |  |
+| Star Ship | Oficial | Europe | 1 |  |
+| StarHawk | Oficial | World | 1 |  |
+| WebWarp | Oficial | Europe | 1 |  |
 
 <!-- AUTO-GENERADO FIN -->
