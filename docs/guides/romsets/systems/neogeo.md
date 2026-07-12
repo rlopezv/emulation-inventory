@@ -7,3 +7,7 @@
 <!-- AUTO-GENERADO INICIO -->
 
 ### Indice generado
+
+Pendiente: `neogeo` (AES/MVS) es arcade, se gestiona vía MAME/FBNeo, no tiene DAT No-Intro/1G1R en `metadata/dat-index/`.
+
+<!-- AUTO-GENERADO FIN -->
