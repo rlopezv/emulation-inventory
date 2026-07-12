@@ -269,6 +269,10 @@ Filtros aplicados para purgar el set de archivos innecesarios de cara a la exper
 - **Prototypes** — Ediciones preliminares no comerciales.
 - **Rev menores** — Revisiones o parches de software antiguos del mismo juego que no aportan cambios significativos.
 
+### Cuarentena de exclusivos regionales
+
+Cuando el 1G1R prioriza una región (ej. `EUR > USA > JPN`) y descarta un título porque solo existe en japonés, ese descarte no se elimina sin más: se mueve a una subcarpeta `japan/` dentro del set 1G1R correspondiente (ver `data/dats/console/1g1r/japan/`), a la espera de una revisión específica (traducción disponible, relevancia del título, etc.) antes de decidir si se incorpora al set final o se descarta definitivamente.
+
 ---
 
 ## DATs
@@ -331,6 +335,10 @@ Alternativa visual y moderna a ClrMamePro estructurada como una interfaz de base
 ### JRomManager
 
 Gestor de romsets multiplataforma de código abierto escrito en Java. Destaca por su entorno intuitivo para automatizar filtros 1G1R usando ficheros DAT de No-Intro que incluyan relaciones jerárquicas de padres e hijos.
+
+### retool
+
+Herramienta de línea de comandos (unexpectedpanda/retool) para generar y aplicar reglas de agrupación 1G1R sobre DATs No-Intro/Redump, incluyendo el mapeo de variantes regionales usado en `metadata/dat/clonelist/*.json`. También se usa para producir los DAT curados de `data/dats/console/` (variantes `fullset` y `1g1r` por sistema).
 
 ---
 

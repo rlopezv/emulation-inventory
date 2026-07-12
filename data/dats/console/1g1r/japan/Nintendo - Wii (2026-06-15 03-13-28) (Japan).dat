@@ -1,0 +1,824 @@
+<?xml version="1.0"?>
+<!DOCTYPE datafile PUBLIC "-//Logiqx//DTD ROM Management Datafile//EN" "https://raw.githubusercontent.com/unexpectedpanda/retool-clonelists-metadata/main/datafile.dtd">
+<datafile>
+	<header>
+		<name>Nintendo - Wii (Retool) (Japan)</name>
+		<description>Nintendo - Wii (162) [-aAbBcDdefkmMoPpruv] (2026-06-15 03-13-28) (Retool) (Japan)</description>
+		<version>2026-06-15 03-13-28</version>
+		<date>2026-07-12 18-46-13</date>
+		<author>redump.org</author>
+		<homepage>http://www.github.com/unexpectedpanda/retool</homepage>
+		<url>http://redump.org/</url>
+		<retool>Created by Retool 2.4.9</retool>
+	</header>
+	<game name="428 - Fuusa Sareta Shibuya de (Japan)">
+		<category>Games</category>
+		<description>428 - Fuusa Sareta Shibuya de (Japan)</description>
+		<rom name="428 - Fuusa Sareta Shibuya de (Japan).iso" size="4699979776" crc="eb81d9d3" md5="1f3a03e9d6cf6dc9437eecadfb4822e8" sha1="7ff4a662bfec444417df4513e296a79844d72629"/>
+	</game>
+	<game name="Akko de Pon! Ikasama Hourou-ki (Japan)">
+		<category>Games</category>
+		<description>Akko de Pon! Ikasama Hourou-ki (Japan)</description>
+		<rom name="Akko de Pon! Ikasama Hourou-ki (Japan).iso" size="4699979776" crc="cefe5eae" md5="135280efae72da99f31a49c93a31c407" sha1="2ede7c3850abcec58889594723e4e914627f33b1"/>
+	</game>
+	<game name="And-Kensaku (Japan)">
+		<category>Games</category>
+		<description>And-Kensaku (Japan)</description>
+		<rom name="And-Kensaku (Japan).iso" size="4699979776" crc="bed267b6" md5="c95d03f516abf589e721ba4734665433" sha1="9d5f102071d23c3c1eea20870a0e2ad6c7742240"/>
+	</game>
+	<game name="Anime Slot Revolution - Pachi-Slot Kidou Senshi Gundam II - Ai Senshi-hen (Japan)">
+		<category>Games</category>
+		<description>Anime Slot Revolution - Pachi-Slot Kidou Senshi Gundam II - Ai Senshi-hen (Japan)</description>
+		<rom name="Anime Slot Revolution - Pachi-Slot Kidou Senshi Gundam II - Ai Senshi-hen (Japan).iso" size="4699979776" crc="9e29121b" md5="415b06f70d25da9cf8c99f3cb6c15fa4" sha1="f07bfef29daad54139c74099b508307d98ed3230"/>
+	</game>
+	<game name="Anpanman Niko Niko Party (Japan)">
+		<category>Games</category>
+		<description>Anpanman Niko Niko Party (Japan)</description>
+		<rom name="Anpanman Niko Niko Party (Japan).iso" size="4699979776" crc="460a885a" md5="9f3216aaa0db1c0ad0c665d3a13e7574" sha1="610add98fa947430dd0132689a3a94ffb9dcae79"/>
+	</game>
+	<game name="Aquarius Baseball - Genkai no, Sono Saki e. (Japan)">
+		<category>Games</category>
+		<description>Aquarius Baseball - Genkai no, Sono Saki e. (Japan)</description>
+		<rom name="Aquarius Baseball - Genkai no, Sono Saki e. (Japan).iso" size="4699979776" crc="698c39db" md5="bfe68e99005d9455f3d3fc7e06f3b344" sha1="4f878dd928b25ab47a88d12589ebce25bb619b60"/>
+	</game>
+	<game name="Billy's Boot Camp - Wii de Enjoy Diet! (Japan)">
+		<category>Games</category>
+		<description>Billy's Boot Camp - Wii de Enjoy Diet! (Japan)</description>
+		<rom name="Billy's Boot Camp - Wii de Enjoy Diet! (Japan).iso" size="4699979776" crc="16fe0ca3" md5="a78f7651620ce001fb15e82f134f0e15" sha1="82cb18ecab0679d8051c611c2c9d5fbf3166975b"/>
+	</game>
+	<game name="Bleach - Versus Crusade (Japan)">
+		<category>Games</category>
+		<description>Bleach - Versus Crusade (Japan)</description>
+		<rom name="Bleach - Versus Crusade (Japan).iso" size="4699979776" crc="feef536e" md5="33f532e9a64237b5f03778b1a20006fc" sha1="819796248924a5d3df78769a6ca885024bd49134"/>
+	</game>
+	<game name="Bomberman (Japan)">
+		<category>Games</category>
+		<description>Bomberman (Japan)</description>
+		<rom name="Bomberman (Japan).iso" size="4699979776" crc="211cbf06" md5="959ba717cb17347f01e7fbea64a64992" sha1="f53f0fa4520415179ad66684a744396908047f93"/>
+	</game>
+	<game name="Captain Rainbow (Japan)">
+		<category>Games</category>
+		<description>Captain Rainbow (Japan)</description>
+		<rom name="Captain Rainbow (Japan).iso" size="4699979776" crc="99fad2c9" md5="5334ea85ed04b1cacb6c85fc8267d38d" sha1="022ed16eb9ffdef6cb6cfbe3933dfd56b15b5dcd"/>
+	</game>
+	<game name="Chibi-Robo! (Japan)">
+		<category>Games</category>
+		<description>Chibi-Robo! (Japan)</description>
+		<rom name="Chibi-Robo! (Japan).iso" size="4699979776" crc="eccba35e" md5="625628164a6dca997100fac15f53179c" sha1="a10793a75609a4f3a91d314dcfdb964e58bd68de"/>
+	</game>
+	<game name="Crazy Climber Wii (Japan)">
+		<category>Games</category>
+		<description>Crazy Climber Wii (Japan)</description>
+		<rom name="Crazy Climber Wii (Japan).iso" size="4699979776" crc="e8236bbd" md5="3eedfda972f6d2adeffb93dee94b8895" sha1="f98d1688eda4eb43c1985811a87c9b7a06a0fc8a"/>
+	</game>
+	<game name="Daikaijuu Battle - Ultra Coliseum (Japan)">
+		<category>Games</category>
+		<description>Daikaijuu Battle - Ultra Coliseum (Japan)</description>
+		<rom name="Daikaijuu Battle - Ultra Coliseum (Japan).iso" size="4699979776" crc="01799c5e" md5="018fff4f2999ab7508f43317149bf5ba" sha1="ff03a9a7de174065bcf0ac060e6398ae989ea92f"/>
+	</game>
+	<game name="Daikaijuu Battle - Ultra Coliseum DX - Ultra Senshi Daishuuketsu (Japan)">
+		<category>Games</category>
+		<description>Daikaijuu Battle - Ultra Coliseum DX - Ultra Senshi Daishuuketsu (Japan)</description>
+		<rom name="Daikaijuu Battle - Ultra Coliseum DX - Ultra Senshi Daishuuketsu (Japan).iso" size="4699979776" crc="e18911dc" md5="d8b65e8a42579120d50c2faf2aeee547" sha1="ff5de7aad8a647a2302c8db5f444711f204a7982"/>
+	</game>
+	<game name="Dance Dance Revolution - Music Fit (Japan)">
+		<category>Games</category>
+		<description>Dance Dance Revolution - Music Fit (Japan)</description>
+		<rom name="Dance Dance Revolution - Music Fit (Japan).iso" size="4699979776" crc="8ebef7d5" md5="a42b30af716d9ff702687575055a9290" sha1="e92a358556461c3d3602ef6bc2969f754f8b8dbc"/>
+	</game>
+	<game name="Darts Wii DX (Japan)">
+		<category>Games</category>
+		<description>Darts Wii DX (Japan)</description>
+		<rom name="Darts Wii DX (Japan).iso" size="4699979776" crc="44ca7436" md5="6b43819bcb5efa816ff227d90610f858" sha1="e00846efff5fa0da68a0cee92d2aad3bd58abfdb"/>
+	</game>
+	<game name="Densha de Go! Shinkansen EX - San'you Shinkansen Hen (Japan)">
+		<category>Games</category>
+		<description>Densha de Go! Shinkansen EX - San'you Shinkansen Hen (Japan)</description>
+		<rom name="Densha de Go! Shinkansen EX - San'you Shinkansen Hen (Japan).iso" size="4699979776" crc="72c59dc2" md5="c484dc988a292c156ac90dabe225fcb8" sha1="3ca97f1c1ca4726192e67c1b41ff9cadb7402b2b"/>
+	</game>
+	<game name="Doala de Wii (Japan)">
+		<category>Games</category>
+		<description>Doala de Wii (Japan)</description>
+		<rom name="Doala de Wii (Japan).iso" size="4699979776" crc="9d3561be" md5="eeda31a3101373a1f55d959f5d8a3d91" sha1="0c74e511e40ebb790a1fb623365f9a3c54c551a1"/>
+	</game>
+	<game name="Doraemon Wii - Himitsu Dougu-ou Ketteisen! (Japan)">
+		<category>Games</category>
+		<description>Doraemon Wii - Himitsu Dougu-ou Ketteisen! (Japan)</description>
+		<rom name="Doraemon Wii - Himitsu Dougu-ou Ketteisen! (Japan).iso" size="4699979776" crc="a744d841" md5="7f72a2635634edce0dc764b7c7d6a616" sha1="aac82b445077f92324dc741912a819fd2d63357e"/>
+	</game>
+	<game name="Dragon Quest - Monster Battle Road Victory (Japan)">
+		<category>Games</category>
+		<description>Dragon Quest - Monster Battle Road Victory (Japan)</description>
+		<rom name="Dragon Quest - Monster Battle Road Victory (Japan).iso" size="4699979776" crc="484e1e93" md5="21ffbf5493af94b41396268c26ae019e" sha1="10b4dc8ae4508eaa1cbc432f4c72851c12599e7b"/>
+	</game>
+	<game name="Dragon Quest 25 Shuunen Kinen - Famicom &amp; Super Famicom Dragon Quest I-II-III (Japan)">
+		<category>Games</category>
+		<description>Dragon Quest 25 Shuunen Kinen - Famicom &amp; Super Famicom Dragon Quest I-II-III (Japan)</description>
+		<rom name="Dragon Quest 25 Shuunen Kinen - Famicom &amp; Super Famicom Dragon Quest I-II-III (Japan).iso" size="4699979776" crc="4ff701b5" md5="56cc2a78614b6a1e366d2358a5cebeac" sha1="7b71e822df4c43d8e09ac4e12aac16e653e4a2a9"/>
+	</game>
+	<game name="Dragon Quest X - All in One Package (Japan) (Disc 1)">
+		<category>Games</category>
+		<description>Dragon Quest X - All in One Package (Japan) (Disc 1)</description>
+		<rom name="Dragon Quest X - All in One Package (Japan) (Disc 1).iso" size="4699979776" crc="3c171745" md5="a183ca7573dee67e6483c75cb43b4ae1" sha1="6b1abc03a4d27066d4acff2e8825fad2fb3d669b"/>
+	</game>
+	<game name="Dragon Quest X - All in One Package (Japan) (Disc 2)">
+		<category>Games</category>
+		<description>Dragon Quest X - All in One Package (Japan) (Disc 2)</description>
+		<rom name="Dragon Quest X - All in One Package (Japan) (Disc 2).iso" size="4699979776" crc="33133e58" md5="1f2ed8fc3e4f4055b10c592c4da0bf77" sha1="8618273ce614f5530b6dd1e82367e680b759a8a0"/>
+	</game>
+	<game name="Dragon Quest X - Inishie no Ryuu no Denshou Online (Japan)">
+		<category>Games</category>
+		<description>Dragon Quest X - Inishie no Ryuu no Denshou Online (Japan)</description>
+		<rom name="Dragon Quest X - Inishie no Ryuu no Denshou Online (Japan).iso" size="4699979776" crc="3e57847c" md5="9e706a0c100ed7363aadc66a88234571" sha1="38d9cbfd94053bf6df65c243627ce5d3cfc4f74b"/>
+	</game>
+	<game name="Dragon Quest X - Mezameshi Itsutsu no Shuzoku Online (Japan) (Disc 1) (Rev 3)">
+		<category>Games</category>
+		<description>Dragon Quest X - Mezameshi Itsutsu no Shuzoku Online (Japan) (Disc 1) (Rev 3)</description>
+		<rom name="Dragon Quest X - Mezameshi Itsutsu no Shuzoku Online (Japan) (Disc 1) (Rev 3).iso" size="4699979776" crc="16b68180" md5="adef3d5eb13f121f91a2b6d20ba69251" sha1="b51bab6d41c2cbf3fdd7a7b11168c66e9e355235"/>
+	</game>
+	<game name="Dragon Quest X - Mezameshi Itsutsu no Shuzoku Online (Japan) (Disc 2) (Rev 3)">
+		<category>Games</category>
+		<description>Dragon Quest X - Mezameshi Itsutsu no Shuzoku Online (Japan) (Disc 2) (Rev 3)</description>
+		<rom name="Dragon Quest X - Mezameshi Itsutsu no Shuzoku Online (Japan) (Disc 2) (Rev 3).iso" size="4699979776" crc="31d75bb7" md5="7693004cd2d7e000fccce7b88e62c170" sha1="85e802372c0bf3ce8559a609227d1820af6f272a"/>
+	</game>
+	<game name="Dragon Quest X - Nemureru Yuusha to Michibiki no Meiyuu Online (Japan) (Rev 1)">
+		<category>Games</category>
+		<description>Dragon Quest X - Nemureru Yuusha to Michibiki no Meiyuu Online (Japan) (Rev 1)</description>
+		<rom name="Dragon Quest X - Nemureru Yuusha to Michibiki no Meiyuu Online (Japan) (Rev 1).iso" size="4699979776" crc="478460f4" md5="ff9f51a842f4c40509f601f88a026715" sha1="21f3b537535dd1c4b131af699719669e326d2696"/>
+	</game>
+	<game name="Earth Seeker (Japan)">
+		<category>Games</category>
+		<description>Earth Seeker (Japan)</description>
+		<rom name="Earth Seeker (Japan).iso" size="4699979776" crc="659f4425" md5="92f0e8a6890f5b765982b8f3c427b163" sha1="c884f2e825fa899bbf5ffe94bab7596c9d068429"/>
+	</game>
+	<game name="Ennichi no Tatsujin (Japan)">
+		<category>Games</category>
+		<description>Ennichi no Tatsujin (Japan)</description>
+		<rom name="Ennichi no Tatsujin (Japan).iso" size="4699979776" crc="a2b5cd83" md5="4289cca9c1fcb2671ea81706c4af0354" sha1="1ddde80a23ce73e38d430af5ad2feac798416b65"/>
+	</game>
+	<game name="Eyeshield 21 - Field Saikyou no Senshitachi (Japan)">
+		<category>Games</category>
+		<description>Eyeshield 21 - Field Saikyou no Senshitachi (Japan)</description>
+		<rom name="Eyeshield 21 - Field Saikyou no Senshitachi (Japan).iso" size="4699979776" crc="11853987" md5="18c567e7ae4cc309cd311ce4805ccde2" sha1="06ad55eec1405e9f2b69bbc7e322184dc148b6c6"/>
+	</game>
+	<game name="Family Challenge Wii (Japan)">
+		<category>Games</category>
+		<description>Family Challenge Wii (Japan)</description>
+		<rom name="Family Challenge Wii (Japan).iso" size="4699979776" crc="89d6d33a" md5="9b5315518535bcbcf20bc0df8fa12682" sha1="352910a132e42112e432f54d50ca207f530cd95d"/>
+	</game>
+	<game name="Family Jockey (Japan)">
+		<category>Games</category>
+		<description>Family Jockey (Japan)</description>
+		<rom name="Family Jockey (Japan).iso" size="4699979776" crc="3dd11a86" md5="eda25a327443849f2ed57077cf8abf7c" sha1="3ba6c2152023c4bc7607a3734a566fb0e4da19e3"/>
+	</game>
+	<game name="Fushigi no Dungeon - Fuurai no Shiren 3 - Karakuri Yashiki no Nemurihime (Japan)">
+		<category>Games</category>
+		<description>Fushigi no Dungeon - Fuurai no Shiren 3 - Karakuri Yashiki no Nemurihime (Japan)</description>
+		<rom name="Fushigi no Dungeon - Fuurai no Shiren 3 - Karakuri Yashiki no Nemurihime (Japan).iso" size="4699979776" crc="561d83a1" md5="bb1e406b21f517a9caf5ac796059685b" sha1="f3a196dd1fcb0ab2b689bf12dea6ecad2a107225"/>
+	</game>
+	<game name="GI Jockey Wii (Japan)">
+		<category>Games</category>
+		<description>GI Jockey Wii (Japan)</description>
+		<rom name="GI Jockey Wii (Japan).iso" size="4699979776" crc="19ce8121" md5="d652a7130c46dd4c79297cef16ffb835" sha1="48f1a00293b62eaf9c096c7d525fcf9fa1b277e3"/>
+	</game>
+	<game name="GI Jockey Wii 2008 (Japan)">
+		<category>Games</category>
+		<description>GI Jockey Wii 2008 (Japan)</description>
+		<rom name="GI Jockey Wii 2008 (Japan).iso" size="4699979776" crc="d6921a3e" md5="b08460b7064560a8bf6b1c9f029bf4db" sha1="70f65506edc1a8aa5e40754d313e8992ff526de6"/>
+	</game>
+	<game name="Gegege no Kitarou - Youkai Daiundoukai (Japan) (Rev 1)">
+		<category>Games</category>
+		<description>Gegege no Kitarou - Youkai Daiundoukai (Japan) (Rev 1)</description>
+		<rom name="Gegege no Kitarou - Youkai Daiundoukai (Japan) (Rev 1).iso" size="4699979776" crc="fcb6ed56" md5="b26ec6f185ae1ff1ada30b2b3aa94a6e" sha1="01dcd638147ec7705762e8f1c188b9ad98a9d750"/>
+	</game>
+	<game name="Ginsei Table Games Wii (Japan)">
+		<category>Games</category>
+		<description>Ginsei Table Games Wii (Japan)</description>
+		<rom name="Ginsei Table Games Wii (Japan).iso" size="4699979776" crc="1ac8822c" md5="03c94fdf7eb49da012299452ee17368d" sha1="8041e32ea7ec524bccd9a1b399aec40ce2d683a2"/>
+	</game>
+	<game name="Gintama - Yorozuya Chuubu - Tsukkomable Douga (Japan)">
+		<category>Games</category>
+		<description>Gintama - Yorozuya Chuubu - Tsukkomable Douga (Japan)</description>
+		<rom name="Gintama - Yorozuya Chuubu - Tsukkomable Douga (Japan).iso" size="4699979776" crc="d7457659" md5="94763429822cd893e6d407cb0ccfea89" sha1="a4b9ece5b61d908bd3d0ffbb76f30006556ad8d9"/>
+	</game>
+	<game name="Hagane no Renkinjutsushi - Fullmetal Alchemist - Akatsuki no Ouji (Japan)">
+		<category>Games</category>
+		<description>Hagane no Renkinjutsushi - Fullmetal Alchemist - Akatsuki no Ouji (Japan)</description>
+		<rom name="Hagane no Renkinjutsushi - Fullmetal Alchemist - Akatsuki no Ouji (Japan).iso" size="4699979776" crc="f740aed4" md5="5eb624c62929f82e254180f48d61575e" sha1="2d1be6922fd2cb745beebba282e177a2d74fef2b"/>
+	</game>
+	<game name="Hagane no Renkinjutsushi - Fullmetal Alchemist - Tasogare no Shoujo (Japan)">
+		<category>Games</category>
+		<description>Hagane no Renkinjutsushi - Fullmetal Alchemist - Tasogare no Shoujo (Japan)</description>
+		<rom name="Hagane no Renkinjutsushi - Fullmetal Alchemist - Tasogare no Shoujo (Japan).iso" size="4699979776" crc="7726c17d" md5="f88cd66af2a33736e0b19903d828ef80" sha1="db1c64bcf289bd59ab148d5bfd2faf7f94c91a1a"/>
+	</game>
+	<game name="Haneru no Tobira Wii - Giri Girissu (Japan)">
+		<category>Games</category>
+		<description>Haneru no Tobira Wii - Giri Girissu (Japan)</description>
+		<rom name="Haneru no Tobira Wii - Giri Girissu (Japan).iso" size="4699979776" crc="6f4cf6df" md5="006bd77ac216043f8a09391adb326c2e" sha1="0f84425f56d4d409c784fbc25dcbdd38bf548d4a"/>
+	</game>
+	<game name="Happy Dance Collection (Japan)">
+		<category>Games</category>
+		<description>Happy Dance Collection (Japan)</description>
+		<rom name="Happy Dance Collection (Japan).iso" size="4699979776" crc="6b57f112" md5="44d833c49bff7ccd0c7bfac073a0c205" sha1="760e345c53ec16d3021b230e7b9f8b29cada4479"/>
+	</game>
+	<game name="Harukanaru Toki no Naka de 4 (Japan)">
+		<category>Games</category>
+		<description>Harukanaru Toki no Naka de 4 (Japan)</description>
+		<rom name="Harukanaru Toki no Naka de 4 (Japan).iso" size="4699979776" crc="04b0ea1e" md5="e48e9df2191965d5183b9db2807d9ba4" sha1="6ca4f762aeaa3d42d3c974459aea001ed4ef538b"/>
+	</game>
+	<game name="Hula Wii - Hula de Hajimeru - Bi to Kenkou! (Japan)">
+		<category>Games</category>
+		<description>Hula Wii - Hula de Hajimeru - Bi to Kenkou! (Japan)</description>
+		<rom name="Hula Wii - Hula de Hajimeru - Bi to Kenkou! (Japan).iso" size="4699979776" crc="4379baae" md5="3916b2dc53a7dc17dc4bf2c2e677c535" sha1="8859cc5a85a49591197bd0accba6233751be29ac"/>
+	</game>
+	<game name="Hula Wii - Tanoshiku Hula o Odorou!! (Japan)">
+		<category>Games</category>
+		<description>Hula Wii - Tanoshiku Hula o Odorou!! (Japan)</description>
+		<rom name="Hula Wii - Tanoshiku Hula o Odorou!! (Japan).iso" size="4699979776" crc="b938fb1f" md5="5ba21931df62529909ed3cdc51135230" sha1="040f228b0ba6a88a66552cd08dd04156c41aa857"/>
+	</game>
+	<game name="Ikenie no Yoru (Japan)">
+		<category>Games</category>
+		<description>Ikenie no Yoru (Japan)</description>
+		<rom name="Ikenie no Yoru (Japan).iso" size="4699979776" crc="09cdc6b9" md5="f11835a14ba9587f89e19d9174b221e1" sha1="4d098d25a790d76491865fd68fde1dde3b63baca"/>
+	</game>
+	<game name="Illvelo Wii (Japan)">
+		<category>Games</category>
+		<description>Illvelo Wii (Japan)</description>
+		<rom name="Illvelo Wii (Japan).iso" size="4699979776" crc="b4e74689" md5="ece7bf6e75eadd7ca82b2af40859abf8" sha1="6a297bf6f421e78c0a7be4c5ec18839e6d6aa61f"/>
+	</game>
+	<game name="Imabikisou Kaimei-hen (Japan)">
+		<category>Games</category>
+		<description>Imabikisou Kaimei-hen (Japan)</description>
+		<rom name="Imabikisou Kaimei-hen (Japan).iso" size="4699979776" crc="378453f4" md5="9a7ad3f147777b8ec0846c22bf78cc29" sha1="b2ee1b89c9301bda6b76531aacc9cadddd386cd3"/>
+	</game>
+	<game name="Inazuma Eleven Go - Strikers 2013 (Japan)">
+		<category>Games</category>
+		<description>Inazuma Eleven Go - Strikers 2013 (Japan)</description>
+		<rom name="Inazuma Eleven Go - Strikers 2013 (Japan).iso" size="4699979776" crc="07557772" md5="536a55a6703e4789e3652a180f8c91fa" sha1="dd1dd08f89ba557b400abf18aea3d377b0362c4f"/>
+	</game>
+	<game name="Inazuma Eleven Strikers 2012 Xtreme (Japan)">
+		<category>Games</category>
+		<description>Inazuma Eleven Strikers 2012 Xtreme (Japan)</description>
+		<rom name="Inazuma Eleven Strikers 2012 Xtreme (Japan).iso" size="4699979776" crc="e5355615" md5="467852cfe56a8923511dfec0dc21c0ae" sha1="74293c602c691735e0898005847322a65830eff7"/>
+	</game>
+	<game name="Isometric &amp; Karate Exercise - Wii de Kotsuban Fitness (Japan)">
+		<category>Games</category>
+		<description>Isometric &amp; Karate Exercise - Wii de Kotsuban Fitness (Japan)</description>
+		<rom name="Isometric &amp; Karate Exercise - Wii de Kotsuban Fitness (Japan).iso" size="4699979776" crc="b5701d17" md5="5e33cfc3ccae3f1f8df6c79af7b4b855" sha1="9c24a0a11135aa3bd9e2aeeccdf97d1b19a09f0c"/>
+	</game>
+	<game name="Jawa - Mammoth to Himitsu no Ishi (Japan)">
+		<category>Games</category>
+		<description>Jawa - Mammoth to Himitsu no Ishi (Japan)</description>
+		<rom name="Jawa - Mammoth to Himitsu no Ishi (Japan).iso" size="4699979776" crc="d7078e5b" md5="754a05e1359de0cf347e0b6e9d820f9f" sha1="1a67eb0ea67698018acc83255ea70743dc9f6e33"/>
+	</game>
+	<game name="Jigsaw Puzzle - Kyou no Wanko (Japan)">
+		<category>Games</category>
+		<description>Jigsaw Puzzle - Kyou no Wanko (Japan)</description>
+		<rom name="Jigsaw Puzzle - Kyou no Wanko (Japan).iso" size="4699979776" crc="95884bbc" md5="e1c794ad4eadf336f0b353c24b9f21a2" sha1="c9cdf12e9437577f85736b00c684ae74aa87548d"/>
+	</game>
+	<game name="Jikkyou Powerful Major League 2009 (Japan)">
+		<category>Games</category>
+		<description>Jikkyou Powerful Major League 2009 (Japan)</description>
+		<rom name="Jikkyou Powerful Major League 2009 (Japan).iso" size="4699979776" crc="e1c65302" md5="9a710749f56fe6530ab2886330b03077" sha1="c9ae0b4f99966744e7dd2fe9541f8a92366399c2"/>
+	</game>
+	<game name="Jikkyou Powerful Pro Yakyuu 15 (Japan) (Rev 1)">
+		<category>Games</category>
+		<description>Jikkyou Powerful Pro Yakyuu 15 (Japan) (Rev 1)</description>
+		<rom name="Jikkyou Powerful Pro Yakyuu 15 (Japan) (Rev 1).iso" size="4699979776" crc="b3ff25fc" md5="8761aca541a0fd45d061424b9af24aa2" sha1="0baad96099a1a22b7a1cb7a2fd79df9fa30e4fb4"/>
+	</game>
+	<game name="Jikkyou Powerful Pro Yakyuu Next (Japan)">
+		<category>Games</category>
+		<description>Jikkyou Powerful Pro Yakyuu Next (Japan)</description>
+		<rom name="Jikkyou Powerful Pro Yakyuu Next (Japan).iso" size="4699979776" crc="f0b9b6e3" md5="c1ca780267546ecbee79cccf7140b55f" sha1="8d6db1abc748b1a92219c9e9ebc40de7861cfbfd"/>
+	</game>
+	<game name="Jikkyou Powerful Pro Yakyuu Wii (Japan)">
+		<category>Games</category>
+		<description>Jikkyou Powerful Pro Yakyuu Wii (Japan)</description>
+		<rom name="Jikkyou Powerful Pro Yakyuu Wii (Japan).iso" size="4699979776" crc="493a8f49" md5="b2f375ada690a6ee7d41fbeceae19744" sha1="bd70791fa5da7a09207786b3ea126815239150f4"/>
+	</game>
+	<game name="Jikkyou Powerful Pro Yakyuu Wii - Ketteiban (Japan)">
+		<category>Games</category>
+		<description>Jikkyou Powerful Pro Yakyuu Wii - Ketteiban (Japan)</description>
+		<rom name="Jikkyou Powerful Pro Yakyuu Wii - Ketteiban (Japan).iso" size="4699979776" crc="37c083c3" md5="06b9ffbe340dbab0d62f0ff9a542371c" sha1="27c6bc1343ad8328e3581d352ed6d71dcf9a7a3d"/>
+	</game>
+	<game name="Jinsei Game - Happy Family (Japan)">
+		<category>Games</category>
+		<description>Jinsei Game - Happy Family (Japan)</description>
+		<rom name="Jinsei Game - Happy Family (Japan).iso" size="4699979776" crc="3937d3b9" md5="82a9624831ef98a83016775b60c2c0b8" sha1="cc9c4744fcd3cecb01c4ff73861ae15d58fdee80"/>
+	</game>
+	<game name="Jinsei Game - Happy Family - Gotouchi Neta Zouryou Shiage (Japan)">
+		<category>Games</category>
+		<description>Jinsei Game - Happy Family - Gotouchi Neta Zouryou Shiage (Japan)</description>
+		<rom name="Jinsei Game - Happy Family - Gotouchi Neta Zouryou Shiage (Japan).iso" size="4699979776" crc="8c564559" md5="06e9a750681bb5d6b06668d010646676" sha1="8314f6b1a2010f00b94ff3299b1888ea9ce044ce"/>
+	</game>
+	<game name="Jinsei Game Wii (Japan)">
+		<category>Games</category>
+		<description>Jinsei Game Wii (Japan)</description>
+		<rom name="Jinsei Game Wii (Japan).iso" size="4699979776" crc="e65f0a64" md5="0a6f7296f02708fa1d447b7184e89422" sha1="6fb553f4757f2e9b2a4c86c7aef040b45e10c818"/>
+	</game>
+	<game name="Jinsei Game Wii EX (Japan)">
+		<category>Games</category>
+		<description>Jinsei Game Wii EX (Japan)</description>
+		<rom name="Jinsei Game Wii EX (Japan).iso" size="4699979776" crc="a499d1e2" md5="50a36262041d46319a010ff186c74311" sha1="2e27e8fca60a7263fa72e53813f3bd844fff97c5"/>
+	</game>
+	<game name="Jissen Pachi-Slot Pachinko Hisshouhou! Sammy's Collection - Hokuto no Ken Wii (Japan)">
+		<category>Games</category>
+		<description>Jissen Pachi-Slot Pachinko Hisshouhou! Sammy's Collection - Hokuto no Ken Wii (Japan)</description>
+		<rom name="Jissen Pachi-Slot Pachinko Hisshouhou! Sammy's Collection - Hokuto no Ken Wii (Japan).iso" size="4699979776" crc="c255bbec" md5="04eab4db8bfdc789b4d4da0a14423ad7" sha1="3838adc113a81999900d5dda144c6ffad21ad48b"/>
+	</game>
+	<game name="Just Dance Wii (Japan) (Rev 1)">
+		<category>Games</category>
+		<description>Just Dance Wii (Japan) (Rev 1)</description>
+		<rom name="Just Dance Wii (Japan) (Rev 1).iso" size="4699979776" crc="62a8e250" md5="455dcba92fba6ecc9c269c28c928eaab" sha1="cb2d2c7c19a011ed2d3305a4fac2d931f78cb2c4"/>
+	</game>
+	<game name="Just Dance Wii 2 (Japan)">
+		<category>Games</category>
+		<description>Just Dance Wii 2 (Japan)</description>
+		<rom name="Just Dance Wii 2 (Japan).iso" size="4699979776" crc="2eec983a" md5="4f54a0ccb8337ce7d330b9012cacd603" sha1="a44b4d375b756977fde20e809ead69d07c742932"/>
+	</game>
+	<game name="Kamen Rider - Climax Heroes Fourze (Japan)">
+		<category>Games</category>
+		<description>Kamen Rider - Climax Heroes Fourze (Japan)</description>
+		<rom name="Kamen Rider - Climax Heroes Fourze (Japan).iso" size="4699979776" crc="6f055d9c" md5="ca3203c309a8fab78bdaa24a89a78157" sha1="8eb88952519be718adb29c9ace3f4850e78daf10"/>
+	</game>
+	<game name="Kamen Rider - Climax Heroes OOO (Japan)">
+		<category>Games</category>
+		<description>Kamen Rider - Climax Heroes OOO (Japan)</description>
+		<rom name="Kamen Rider - Climax Heroes OOO (Japan).iso" size="4699979776" crc="cdccfbf1" md5="15026a370d076b1d1d99eeffbb9a882b" sha1="198ab89f27d7e910308abf2cb86bd2935b13c60f"/>
+	</game>
+	<game name="Kamen Rider - Climax Heroes W (Japan)">
+		<category>Games</category>
+		<description>Kamen Rider - Climax Heroes W (Japan)</description>
+		<rom name="Kamen Rider - Climax Heroes W (Japan).iso" size="4699979776" crc="c84aaada" md5="24b6ab841d772bd2627df5eb67fd7401" sha1="e5fe0babab3037670e4ee711cec9b5e23665aee3"/>
+	</game>
+	<game name="Kamen Rider - Super Climax Heroes (Japan)">
+		<category>Games</category>
+		<description>Kamen Rider - Super Climax Heroes (Japan)</description>
+		<rom name="Kamen Rider - Super Climax Heroes (Japan).iso" size="4699979776" crc="6057369a" md5="77b0cf2bb7d532ab254c523a402cb941" sha1="1b72adff2ee923ec7cbd0fb35bc86573b1aa5fac"/>
+	</game>
+	<game name="Karaoke Joysound Wii - Duet Kyoku-hen (Japan) (Rev 1)">
+		<category>Games</category>
+		<description>Karaoke Joysound Wii - Duet Kyoku-hen (Japan) (Rev 1)</description>
+		<rom name="Karaoke Joysound Wii - Duet Kyoku-hen (Japan) (Rev 1).iso" size="4699979776" crc="47eb2675" md5="3097eaf4f3758d0741ae7b0b3b1e2a23" sha1="1d13b1e868f72c348e5606747f00642474575658"/>
+	</game>
+	<game name="Karaoke Joysound Wii - Enka Kayoukyoku-hen (Japan) (Rev 1)">
+		<category>Games</category>
+		<description>Karaoke Joysound Wii - Enka Kayoukyoku-hen (Japan) (Rev 1)</description>
+		<rom name="Karaoke Joysound Wii - Enka Kayoukyoku-hen (Japan) (Rev 1).iso" size="4699979776" crc="caaf6fc5" md5="fa0a01d78b33f5fe67b28e488172ae1a" sha1="4c08b5bcd67713e6525cd9c5791d38701e865a20"/>
+	</game>
+	<game name="Karaoke Joysound Wii DX (Japan)">
+		<category>Games</category>
+		<description>Karaoke Joysound Wii DX (Japan)</description>
+		<rom name="Karaoke Joysound Wii DX (Japan).iso" size="4699979776" crc="6c7c56c7" md5="f17ee412ea30a0064cd1dd11568a1e13" sha1="4078132e9b3d7669eac3c10d81c57ced052a3fb4"/>
+	</game>
+	<game name="Karaoke Joysound Wii Super DX - Hitori de Minna de Utai Houdai! (Japan)">
+		<category>Games</category>
+		<description>Karaoke Joysound Wii Super DX - Hitori de Minna de Utai Houdai! (Japan)</description>
+		<rom name="Karaoke Joysound Wii Super DX - Hitori de Minna de Utai Houdai! (Japan).iso" size="4699979776" crc="f3c968e5" md5="c206d934c5898eee1d034fb70821d1a2" sha1="24158d2a812bc8e4052bd7e4bd1c9d8fc4628e24"/>
+	</game>
+	<game name="Katekyoo Hitman Reborn! Dream Hyper Battle! Wii (Japan)">
+		<category>Games</category>
+		<description>Katekyoo Hitman Reborn! Dream Hyper Battle! Wii (Japan)</description>
+		<rom name="Katekyoo Hitman Reborn! Dream Hyper Battle! Wii (Japan).iso" size="4699979776" crc="39d982a2" md5="2d0553d239dafdec77407d627f9465af" sha1="515600d2e63b39977c7f332ef8ed42f18201ac30"/>
+	</game>
+	<game name="Katekyoo Hitman Reborn! Kindan no Yami no Delta (Japan)">
+		<category>Games</category>
+		<description>Katekyoo Hitman Reborn! Kindan no Yami no Delta (Japan)</description>
+		<rom name="Katekyoo Hitman Reborn! Kindan no Yami no Delta (Japan).iso" size="4699979776" crc="54d70d71" md5="c139eb9876e6f22a661ca9c60c0ea2ee" sha1="1fae52057b05c2866f3371f3f91e1de5552fb86c"/>
+	</game>
+	<game name="Kekkaishi - Kokubourou no Kage (Japan)">
+		<category>Games</category>
+		<description>Kekkaishi - Kokubourou no Kage (Japan)</description>
+		<rom name="Kekkaishi - Kokubourou no Kage (Japan).iso" size="4699979776" crc="c47bc2ca" md5="b01963cdc0535623cf79428e06d71b72" sha1="09c212b1f8c9d3e8cf67683128608914db112a83"/>
+	</game>
+	<game name="Kidou Senshi Gundam - MS Sensen 0079 (Japan)">
+		<category>Games</category>
+		<description>Kidou Senshi Gundam - MS Sensen 0079 (Japan)</description>
+		<rom name="Kidou Senshi Gundam - MS Sensen 0079 (Japan).iso" size="4699979776" crc="bfd806ea" md5="7805a94291fe0b677ef2bf35f494ffaf" sha1="351682e2d7a1aeef78a1388883c7474731370c40"/>
+	</game>
+	<game name="Kiki Trick (Japan) (Rev 1)">
+		<category>Games</category>
+		<description>Kiki Trick (Japan) (Rev 1)</description>
+		<rom name="Kiki Trick (Japan) (Rev 1).iso" size="4699979776" crc="0ea31896" md5="0327c7005ef1707d8f3c07490878ae74" sha1="d4370c61a6dc30ab5239cfbcc304aefad9a3b790"/>
+	</game>
+	<game name="Kotoba no Puzzle - Mojipittan Wii Deluxe (Japan)">
+		<category>Games</category>
+		<description>Kotoba no Puzzle - Mojipittan Wii Deluxe (Japan)</description>
+		<rom name="Kotoba no Puzzle - Mojipittan Wii Deluxe (Japan).iso" size="4699979776" crc="1e6632c7" md5="c7ebb9195af505f4ef2e68fb28e1c21c" sha1="72c75a92d6ac7024c93de4e6ee3d125b503a9107"/>
+	</game>
+	<game name="Mahjong Fight Club Wii - Wi-Fi Taiou (Japan) (Rev 2)">
+		<category>Games</category>
+		<description>Mahjong Fight Club Wii - Wi-Fi Taiou (Japan) (Rev 2)</description>
+		<rom name="Mahjong Fight Club Wii - Wi-Fi Taiou (Japan) (Rev 2).iso" size="4699979776" crc="d3fe1d76" md5="63e3766beb88665bc9762c1a0d92121d" sha1="499ecaba4ea611bd6ee82f98cfaa4993da46d3e9"/>
+	</game>
+	<game name="Mahjong Taikai Wii (Japan)">
+		<category>Games</category>
+		<description>Mahjong Taikai Wii (Japan)</description>
+		<rom name="Mahjong Taikai Wii (Japan).iso" size="4699979776" crc="a5a18901" md5="c480f96f7b54a25951207df590b9b983" sha1="309a4c016c7a1b741cf0b6acd182465cd65308f4"/>
+	</game>
+	<game name="Major Dream - Major Wii - Nagero! Gyroball!! (Japan)">
+		<category>Games</category>
+		<description>Major Dream - Major Wii - Nagero! Gyroball!! (Japan)</description>
+		<rom name="Major Dream - Major Wii - Nagero! Gyroball!! (Japan).iso" size="4699979776" crc="7ccc79bb" md5="aaaf1d5e7015b0191a4d89a602a05920" sha1="a0386bc8cf6133db0f4b9802f2262c249354efba"/>
+	</game>
+	<game name="Major Dream - Major Wii - Perfect Closer (Japan)">
+		<category>Games</category>
+		<description>Major Dream - Major Wii - Perfect Closer (Japan)</description>
+		<rom name="Major Dream - Major Wii - Perfect Closer (Japan).iso" size="4699979776" crc="ddb669d8" md5="6417a2ce9013a4e5ad4681d9284261f4" sha1="8029bd0325d0f27452217e1cb9bb511ddf7c0a25"/>
+	</game>
+	<game name="Miburi &amp; Teburi (Japan)">
+		<category>Games</category>
+		<description>Miburi &amp; Teburi (Japan)</description>
+		<rom name="Miburi &amp; Teburi (Japan).iso" size="8511160320" crc="d325a5bc" md5="398f76899d162ff137861708c1004579" sha1="8fac906492eec7497c9568531058fb4a007b1718"/>
+	</game>
+	<game name="Milestone Shooting Collection 2 (Japan)">
+		<category>Games</category>
+		<description>Milestone Shooting Collection 2 (Japan)</description>
+		<rom name="Milestone Shooting Collection 2 (Japan).iso" size="4699979776" crc="046cd394" md5="5c530d5c9e979c53b1a4c8ceae18817e" sha1="53b2bf50fa9eb1c4ab22e7c9efbf20073096cb31"/>
+	</game>
+	<game name="Minna no Joushiki Ryoku TV (Japan)">
+		<category>Games</category>
+		<description>Minna no Joushiki Ryoku TV (Japan)</description>
+		<rom name="Minna no Joushiki Ryoku TV (Japan).iso" size="4699979776" crc="c174900c" md5="505019785dd798f2f02dcd37457aad64" sha1="1f313b97ecc6e13d59b01bc9babd0e8fd08eb8de"/>
+	</game>
+	<game name="Momjjang Diet Wii - Figurobics by Jung Da-yeon (Japan)">
+		<category>Games</category>
+		<description>Momjjang Diet Wii - Figurobics by Jung Da-yeon (Japan)</description>
+		<rom name="Momjjang Diet Wii - Figurobics by Jung Da-yeon (Japan).iso" size="4699979776" crc="e65cbaae" md5="00f88910a8a42c4e788b7704e35b9686" sha1="aec601894e5c6244fbc55cb4060b360993db9b6b"/>
+	</game>
+	<game name="Momotarou Dentetsu 16 - Hokkaido Daiidou no Maki! (Japan)">
+		<category>Games</category>
+		<description>Momotarou Dentetsu 16 - Hokkaido Daiidou no Maki! (Japan)</description>
+		<rom name="Momotarou Dentetsu 16 - Hokkaido Daiidou no Maki! (Japan).iso" size="4699979776" crc="9fc69d90" md5="0c9d5c17638ea4e18e26cdc537b8ec94" sha1="146aaa6052880ef0afda2243ae2b1199c835bc3d"/>
+	</game>
+	<game name="Momotarou Dentetsu 2010 - Sengoku Ishin no Hero Daishuugou! no Maki (Japan)">
+		<category>Games</category>
+		<description>Momotarou Dentetsu 2010 - Sengoku Ishin no Hero Daishuugou! no Maki (Japan)</description>
+		<rom name="Momotarou Dentetsu 2010 - Sengoku Ishin no Hero Daishuugou! no Maki (Japan).iso" size="4699979776" crc="b2fd5e60" md5="434ffbf3988690f94e44ed43c8663a5c" sha1="5eb511529e38e61c7a18d01b5b61d88aacae90ca"/>
+	</game>
+	<game name="Monster Hunter G (Japan)">
+		<category>Games</category>
+		<description>Monster Hunter G (Japan)</description>
+		<rom name="Monster Hunter G (Japan).iso" size="4699979776" crc="5eb56919" md5="26203d25d92c5c47cc06835462389e12" sha1="cf339f539b46048fac3ea009587740159490f53f"/>
+	</game>
+	<game name="NHK Kouhaku Quiz Gassen (Japan)">
+		<category>Games</category>
+		<description>NHK Kouhaku Quiz Gassen (Japan)</description>
+		<rom name="NHK Kouhaku Quiz Gassen (Japan).iso" size="4699979776" crc="11befc22" md5="5552e80d152da388195ae4d6e31957ac" sha1="c629bef63d435bf8c3498904c959cce6e7698880"/>
+	</game>
+	<game name="Naruto Shippuuden - Gekitou Ninja Taisen! EX (Japan)">
+		<category>Games</category>
+		<description>Naruto Shippuuden - Gekitou Ninja Taisen! EX (Japan)</description>
+		<rom name="Naruto Shippuuden - Gekitou Ninja Taisen! EX (Japan).iso" size="4699979776" crc="6fb90f35" md5="5301520851d0ffd39a053a49593f10e0" sha1="695ea24878be38c21af5981e999c603d2fb71515"/>
+	</game>
+	<game name="Naruto Shippuuden - Gekitou Ninja Taisen! EX2 (Japan)">
+		<category>Games</category>
+		<description>Naruto Shippuuden - Gekitou Ninja Taisen! EX2 (Japan)</description>
+		<rom name="Naruto Shippuuden - Gekitou Ninja Taisen! EX2 (Japan).iso" size="4699979776" crc="2492c891" md5="4f176cfd0584c0f7b32da703ffaa67d7" sha1="e5d8f1ec40a2f243274c42c98c077c34e1ac24ba"/>
+	</game>
+	<game name="Naruto Shippuuden - Gekitou Ninja Taisen! EX3 (Japan)">
+		<category>Games</category>
+		<description>Naruto Shippuuden - Gekitou Ninja Taisen! EX3 (Japan)</description>
+		<rom name="Naruto Shippuuden - Gekitou Ninja Taisen! EX3 (Japan).iso" size="4699979776" crc="b0742025" md5="e45450be9a9c93f77ecb8614b02dba00" sha1="2bd58f532ab27658e9c9e70fe223a2ed3941a5cd"/>
+	</game>
+	<game name="Naruto Shippuuden - Gekitou Ninja Taisen! Special (Japan)">
+		<category>Games</category>
+		<description>Naruto Shippuuden - Gekitou Ninja Taisen! Special (Japan)</description>
+		<rom name="Naruto Shippuuden - Gekitou Ninja Taisen! Special (Japan).iso" size="4699979776" crc="554b1954" md5="0e59aa693d2a44c7e51fe3fd5edb18fc" sha1="c5aeb75bf7b02c72511f17044431e530f2d0736a"/>
+	</game>
+	<game name="Negima! Neo-Pactio Fight!! (Japan)">
+		<category>Games</category>
+		<description>Negima! Neo-Pactio Fight!! (Japan)</description>
+		<rom name="Negima! Neo-Pactio Fight!! (Japan).iso" size="4699979776" crc="350f8a73" md5="69b1f314e9f257467a35294a0e4e938f" sha1="a16dbe3d80a0965f76410b028d266bd8c37e0095"/>
+	</game>
+	<game name="New Unou Kids Wii (Japan)">
+		<category>Games</category>
+		<description>New Unou Kids Wii (Japan)</description>
+		<rom name="New Unou Kids Wii (Japan).iso" size="4699979776" crc="c6b041a5" md5="754b4a1e21ac85cfa9806a7705c9b93b" sha1="91e9a3b45ca28c0aff003f91562addd2bc31f087"/>
+	</game>
+	<game name="Nickelodeon SpongeBob SquarePants - SpongeBob to Nakamatachi - Toybot no Kougeki (Japan)">
+		<category>Games</category>
+		<description>Nickelodeon SpongeBob SquarePants - SpongeBob to Nakamatachi - Toybot no Kougeki (Japan)</description>
+		<rom name="Nickelodeon SpongeBob SquarePants - SpongeBob to Nakamatachi - Toybot no Kougeki (Japan).iso" size="4699979776" crc="4b95b4b7" md5="4fd7f197f8b5a92f67c5877b6dc261c1" sha1="9eee566b4362f828d8f2f091b710d26d8b43a619"/>
+	</game>
+	<game name="Nobunaga no Yabou - Kakushin with Power-Up Kit (Japan) (Rev 1)">
+		<category>Games</category>
+		<description>Nobunaga no Yabou - Kakushin with Power-Up Kit (Japan) (Rev 1)</description>
+		<rom name="Nobunaga no Yabou - Kakushin with Power-Up Kit (Japan) (Rev 1).iso" size="4699979776" crc="434f4201" md5="82979c5566622927afc9b2e0dd768ec2" sha1="76c8b5a1e91dde896dcb63ccfdc984b7f3e125ae"/>
+	</game>
+	<game name="Nodame Cantabile - Dream Orchestra (Japan)">
+		<category>Games</category>
+		<description>Nodame Cantabile - Dream Orchestra (Japan)</description>
+		<rom name="Nodame Cantabile - Dream Orchestra (Japan).iso" size="4699979776" crc="1e48bdc4" md5="488bdb9764c3b7c6bddd95da3c8282c8" sha1="b6fa095dd9ccf320e632fc6a83c2ca1691d5d1d2"/>
+	</game>
+	<game name="Oha Suta Produce! Gentei Collabo Game Disc!! (Japan)">
+		<category>Games</category>
+		<description>Oha Suta Produce! Gentei Collabo Game Disc!! (Japan)</description>
+		<rom name="Oha Suta Produce! Gentei Collabo Game Disc!! (Japan).iso" size="4699979776" crc="1fd80311" md5="d32c942fbe49d5d4ab7d65e5b7f6dea8" sha1="1698547d81b73e177b407a14173623f455ae22c2"/>
+	</game>
+	<game name="Osouji Sentai Clean Keeper (Japan)">
+		<category>Games</category>
+		<description>Osouji Sentai Clean Keeper (Japan)</description>
+		<rom name="Osouji Sentai Clean Keeper (Japan).iso" size="4699979776" crc="e49100a1" md5="c383f8f53fa7d4c6bf3e400adde73c99" sha1="f3afcdc895e917989866f8b58dd580c1e94bb78b"/>
+	</game>
+	<game name="Ougon no Kizuna (Japan)">
+		<category>Games</category>
+		<description>Ougon no Kizuna (Japan)</description>
+		<rom name="Ougon no Kizuna (Japan).iso" size="4699979776" crc="671d14a7" md5="fc8e0a7ff0afddf2de429d7202a86dc2" sha1="a2db3ca313fd21105b90057d097db7a94ebee805"/>
+	</game>
+	<game name="Oyako de Asobo - Miffy no Omochabako (Japan)">
+		<category>Games</category>
+		<description>Oyako de Asobo - Miffy no Omochabako (Japan)</description>
+		<rom name="Oyako de Asobo - Miffy no Omochabako (Japan).iso" size="4699979776" crc="87e4aadc" md5="15ee2d1171a53065e3e9508607896df7" sha1="ae10133b46b1372025f60d3e6313a738c4d8eb62"/>
+	</game>
+	<game name="Party Game Box 100 (Japan)">
+		<category>Games</category>
+		<description>Party Game Box 100 (Japan)</description>
+		<rom name="Party Game Box 100 (Japan).iso" size="4699979776" crc="782ee58f" md5="a8087b193875fd0c039ba5f0b977fdd3" sha1="a2378c0948fa11d223f756840cd5baa223096803"/>
+	</game>
+	<game name="Precure All Stars - Zenin Shuugou Let's Dance! (Japan)">
+		<category>Games</category>
+		<description>Precure All Stars - Zenin Shuugou Let's Dance! (Japan)</description>
+		<rom name="Precure All Stars - Zenin Shuugou Let's Dance! (Japan).iso" size="4699979776" crc="7b524fc8" md5="5b650951c75dc102fb6a1a77225ae18b" sha1="a6cf1f196f207835941e684eef26bb2325bd0c62"/>
+	</game>
+	<game name="Pro Golfer Saru (Japan)">
+		<category>Games</category>
+		<description>Pro Golfer Saru (Japan)</description>
+		<rom name="Pro Golfer Saru (Japan).iso" size="4699979776" crc="4b1ce85a" md5="ee6a86c5fc41ab23bc0ac03a5dbb2507" sha1="e14302c89b1634bb6d026b0e4f5bca8ad3778a75"/>
+	</game>
+	<game name="Pro Yakyuu Family Stadium (Japan)">
+		<category>Games</category>
+		<description>Pro Yakyuu Family Stadium (Japan)</description>
+		<rom name="Pro Yakyuu Family Stadium (Japan).iso" size="4699979776" crc="9e40c061" md5="1597b7b3ef043364cd2d6cc475763676" sha1="ba174c8daf63c9b3863b5df1ebb11e286993a3b2"/>
+	</game>
+	<game name="Puyo Puyo 7 (Japan)">
+		<category>Games</category>
+		<description>Puyo Puyo 7 (Japan)</description>
+		<rom name="Puyo Puyo 7 (Japan).iso" size="4699979776" crc="001c87e9" md5="752091f983d5a310eb3759600641947c" sha1="c6b710bb63aefed0bc5907d7da7fa635101a68b5"/>
+	</game>
+	<game name="Puyo Puyo! Puyopuyo 15th Anniversary (Japan) (Rev 1)">
+		<category>Games</category>
+		<description>Puyo Puyo! Puyopuyo 15th Anniversary (Japan) (Rev 1)</description>
+		<rom name="Puyo Puyo! Puyopuyo 15th Anniversary (Japan) (Rev 1).iso" size="4699979776" crc="3889dd02" md5="92f24341626fbee81140ccaac9e49089" sha1="9fb3c60cf2021c08c92440b006e804808c409f25"/>
+	</game>
+	<game name="Puyo Puyo!! Puyopuyo 20th Anniversary (Japan)">
+		<category>Games</category>
+		<description>Puyo Puyo!! Puyopuyo 20th Anniversary (Japan)</description>
+		<rom name="Puyo Puyo!! Puyopuyo 20th Anniversary (Japan).iso" size="4699979776" crc="92439a17" md5="776566d3324bba55cc214158f45d1b84" sha1="0a7bbb9732c9f05d34004d4feef5479f4ede8107"/>
+	</game>
+	<game name="Puzzle Series Vol. 1 - Sudoku (Japan)">
+		<category>Games</category>
+		<description>Puzzle Series Vol. 1 - Sudoku (Japan)</description>
+		<rom name="Puzzle Series Vol. 1 - Sudoku (Japan).iso" size="4699979776" crc="0029e0ff" md5="e5641f7bca95006824cfdc4c43dbf1c5" sha1="13fe6d9b3b3a7d7058ba841196a610c116c8c1c1"/>
+	</game>
+	<game name="Puzzle Series Vol. 2 - Illust Logic + Colorful Logic (Japan) (Rev 1)">
+		<category>Games</category>
+		<description>Puzzle Series Vol. 2 - Illust Logic + Colorful Logic (Japan) (Rev 1)</description>
+		<rom name="Puzzle Series Vol. 2 - Illust Logic + Colorful Logic (Japan) (Rev 1).iso" size="4699979776" crc="9639b372" md5="1bf474a8159d02820c02d74908bbfbc6" sha1="29aaded58c53736b3ebb7c3dda731655995df4de"/>
+	</game>
+	<game name="Radirgy Noa Wii (Japan)">
+		<category>Games</category>
+		<description>Radirgy Noa Wii (Japan)</description>
+		<rom name="Radirgy Noa Wii (Japan).iso" size="4699979776" crc="d5488097" md5="6f22b449b757fcbecc458801de6d200b" sha1="8e679c7b0ad6e5fb9f9bb381d5ccbc202a16898f"/>
+	</game>
+	<game name="Rilakkuma - Minna de Goyururi Seikatsu (Japan)">
+		<category>Games</category>
+		<description>Rilakkuma - Minna de Goyururi Seikatsu (Japan)</description>
+		<rom name="Rilakkuma - Minna de Goyururi Seikatsu (Japan).iso" size="4699979776" crc="61d20d50" md5="0609960e85304450bbe3f63f257f7843" sha1="4f268562c3b24fc748392d0b9da90596159ed77b"/>
+	</game>
+	<game name="SD Gundam - GGeneration Wars (Japan)">
+		<category>Games</category>
+		<description>SD Gundam - GGeneration Wars (Japan)</description>
+		<rom name="SD Gundam - GGeneration Wars (Japan).iso" size="4699979776" crc="0417193e" md5="6ec8dee6ddddba64399a511e99247d4f" sha1="5dac36ef8dd2039d3495a378dc064332314ea0a6"/>
+	</game>
+	<game name="SD Gundam - GGeneration World (Japan)">
+		<category>Games</category>
+		<description>SD Gundam - GGeneration World (Japan)</description>
+		<rom name="SD Gundam - GGeneration World (Japan).iso" size="4699979776" crc="f6d61a35" md5="3521f33dec5aa085bd05d39fd1857c5d" sha1="4bc3c0479f787e1543cb33ce810f41521f179e0c"/>
+	</game>
+	<game name="SD Gundam - Gashapon Wars (Japan)">
+		<category>Games</category>
+		<description>SD Gundam - Gashapon Wars (Japan)</description>
+		<rom name="SD Gundam - Gashapon Wars (Japan).iso" size="4699979776" crc="580bf102" md5="17440f1f75aa987b8ab0eec67e6e121d" sha1="378b68b5dbc6ce3847d809da99c286bb582323c6"/>
+	</game>
+	<game name="SD Gundam - Scad Hammers (Japan)">
+		<category>Games</category>
+		<description>SD Gundam - Scad Hammers (Japan)</description>
+		<rom name="SD Gundam - Scad Hammers (Japan).iso" size="4699979776" crc="779b5c34" md5="00cf54fa186440c6f53be75a9756a472" sha1="296d0fe22c97217e4b6028585dcdbbfa9e2f1875"/>
+	</game>
+	<game name="Sangokushi 11 with Power-Up Kit (Japan) (Rev 1)">
+		<category>Games</category>
+		<description>Sangokushi 11 with Power-Up Kit (Japan) (Rev 1)</description>
+		<rom name="Sangokushi 11 with Power-Up Kit (Japan) (Rev 1).iso" size="4699979776" crc="cb3aaba2" md5="bf8b2c2f231a07bd63d5f777af994309" sha1="60f60b2c96d8b0ba71b3750f8f1d31fc9fe45926"/>
+	</game>
+	<game name="Sengoku Basara 2 - Heroes - Double Pack (Japan) (Sengoku Basara 2 - Heroes)">
+		<category>Games</category>
+		<description>Sengoku Basara 2 - Heroes - Double Pack (Japan) (Sengoku Basara 2 - Heroes)</description>
+		<rom name="Sengoku Basara 2 - Heroes - Double Pack (Japan) (Sengoku Basara 2 - Heroes).iso" size="4699979776" crc="64bec0c5" md5="d1424093e34c85620dd53153304107e8" sha1="819b180e1df65dc942a5d8d06990369d77a7af69"/>
+	</game>
+	<game name="Sengoku Basara 2 - Heroes - Double Pack (Japan) (Sengoku Basara 2)">
+		<category>Games</category>
+		<description>Sengoku Basara 2 - Heroes - Double Pack (Japan) (Sengoku Basara 2)</description>
+		<rom name="Sengoku Basara 2 - Heroes - Double Pack (Japan) (Sengoku Basara 2).iso" size="4699979776" crc="8aa47a01" md5="88a3d5cc846fe66109c3d4791645b381" sha1="9506a00f21b31ec256c64dce2fa7daf776ec076b"/>
+	</game>
+	<game name="Sengoku Basara 3 - Utage (Japan)">
+		<category>Games</category>
+		<description>Sengoku Basara 3 - Utage (Japan)</description>
+		<rom name="Sengoku Basara 3 - Utage (Japan).iso" size="4699979776" crc="fc95a06f" md5="62de78dbf1b8e7b6d85fb6ebdbf6c5a6" sha1="8f0e1a1b6d5336f6f527a27ab9cc4c9e7608f3ff"/>
+	</game>
+	<game name="Sengoku Musou 3 - Moushouden (Japan)">
+		<category>Games</category>
+		<description>Sengoku Musou 3 - Moushouden (Japan)</description>
+		<rom name="Sengoku Musou 3 - Moushouden (Japan).iso" size="8511160320" crc="2a35cf1a" md5="1b6d1c1875715ae093c9d09ad1f86268" sha1="19f4a69fe624ce174148cb43009d9ba37bc622e2"/>
+	</game>
+	<game name="Shanghai (Japan)">
+		<category>Games</category>
+		<description>Shanghai (Japan)</description>
+		<rom name="Shanghai (Japan).iso" size="4699979776" crc="87989ff6" md5="b0ac9d3ea04665d62a36f6b977cbefcd" sha1="fe90ccfdbcc10f0eb3a832f17fbb372003e7f607"/>
+	</game>
+	<game name="Simple 2000 Series Wii Vol. 1 - The Table Game - Mahjong, Igo, Shougi, Card, Hanafuda, Reversi, Gomoku Narabe (Japan)">
+		<category>Games</category>
+		<description>Simple 2000 Series Wii Vol. 1 - The Table Game - Mahjong, Igo, Shougi, Card, Hanafuda, Reversi, Gomoku Narabe (Japan)</description>
+		<rom name="Simple 2000 Series Wii Vol. 1 - The Table Game - Mahjong, Igo, Shougi, Card, Hanafuda, Reversi, Gomoku Narabe (Japan).iso" size="4699979776" crc="77c7d461" md5="79667603027e2e470659b10e22d3f01a" sha1="2020c199572d9c09263ecb657f678fcf5388bc0d"/>
+	</game>
+	<game name="Simple Wii Series Vol. 1 - The Minna de Kart Race (Japan)">
+		<category>Games</category>
+		<description>Simple Wii Series Vol. 1 - The Minna de Kart Race (Japan)</description>
+		<rom name="Simple Wii Series Vol. 1 - The Minna de Kart Race (Japan).iso" size="4699979776" crc="c972c33d" md5="819c5c70df2f38c48280210742eebd09" sha1="f7e23d44d9707bdaae39c8530a47544b0f55ab04"/>
+	</game>
+	<game name="Simple Wii Series Vol. 2 - The Minna de Bass Tsuri Taikai (Japan)">
+		<category>Games</category>
+		<description>Simple Wii Series Vol. 2 - The Minna de Bass Tsuri Taikai (Japan)</description>
+		<rom name="Simple Wii Series Vol. 2 - The Minna de Bass Tsuri Taikai (Japan).iso" size="4699979776" crc="742651ae" md5="1e0c2ba01dc5ed0198488230691c2856" sha1="ad6c192d60d86ba1d74934ef440481286eec8697"/>
+	</game>
+	<game name="Simple Wii Series Vol. 3 - Asonde Oboeru - The Party Casino (Japan)">
+		<category>Games</category>
+		<description>Simple Wii Series Vol. 3 - Asonde Oboeru - The Party Casino (Japan)</description>
+		<rom name="Simple Wii Series Vol. 3 - Asonde Oboeru - The Party Casino (Japan).iso" size="4699979776" crc="8516552b" md5="8335663c4cec62b7226bf8b525e56fc2" sha1="d04441dbc4b373a48dc239505c88c70a68757d71"/>
+	</game>
+	<game name="Simple Wii Series Vol. 4 - The Shooting Action (Japan)">
+		<category>Games</category>
+		<description>Simple Wii Series Vol. 4 - The Shooting Action (Japan)</description>
+		<rom name="Simple Wii Series Vol. 4 - The Shooting Action (Japan).iso" size="4699979776" crc="9014059f" md5="ae6260bc7937530ee16a29d4596a85e4" sha1="651328d1bf219773ee08592efc87fe0481ab975f"/>
+	</game>
+	<game name="Simple Wii Series Vol. 5 - The Block Kuzushi (Japan)">
+		<category>Games</category>
+		<description>Simple Wii Series Vol. 5 - The Block Kuzushi (Japan)</description>
+		<rom name="Simple Wii Series Vol. 5 - The Block Kuzushi (Japan).iso" size="4699979776" crc="71c08e98" md5="9a8e8f94a18d3fdf99764f2f2ce73b7d" sha1="af0e1ed6672d8cbc1ba28f954b7e0d04b22ad509"/>
+	</game>
+	<game name="Simple Wii Series Vol. 6 - The Wai Wai Combat (Japan)">
+		<category>Games</category>
+		<description>Simple Wii Series Vol. 6 - The Wai Wai Combat (Japan)</description>
+		<rom name="Simple Wii Series Vol. 6 - The Wai Wai Combat (Japan).iso" size="4699979776" crc="d9e795cc" md5="cb4dbf084796c67b7d877a7420ab40d2" sha1="9c4c71a1ee78f02a213dd4ed1fb64c2f27da98df"/>
+	</game>
+	<game name="Soul Eater - Monotone Princess (Japan)">
+		<category>Games</category>
+		<description>Soul Eater - Monotone Princess (Japan)</description>
+		<rom name="Soul Eater - Monotone Princess (Japan).iso" size="4699979776" crc="4c574631" md5="8fa4a82a43e3effdcc8ce177652c840b" sha1="a5979d22af122d05a468baa681a6d3efc92d457a"/>
+	</game>
+	<game name="Sugoro Chronicle - Migite ni Ken o Hidarite ni Saikoro o (Japan)">
+		<category>Games</category>
+		<description>Sugoro Chronicle - Migite ni Ken o Hidarite ni Saikoro o (Japan)</description>
+		<rom name="Sugoro Chronicle - Migite ni Ken o Hidarite ni Saikoro o (Japan).iso" size="4699979776" crc="f25e0402" md5="c9d66497e907ca33d65ae87fb9bba5cd" sha1="3fa31fd9e9e8e958b06ad98193a572bc3bc41779"/>
+	</game>
+	<game name="Sukeban Shachou Rena Wii - Neko Shachou, Tsukaeru Shain Daiboshuu. (Japan)">
+		<category>Games</category>
+		<description>Sukeban Shachou Rena Wii - Neko Shachou, Tsukaeru Shain Daiboshuu. (Japan)</description>
+		<rom name="Sukeban Shachou Rena Wii - Neko Shachou, Tsukaeru Shain Daiboshuu. (Japan).iso" size="4699979776" crc="6a25948d" md5="dff39acba539807f16114865852e689a" sha1="1f12afef9da8c3fb53c25f99552f429c6eedb87f"/>
+	</game>
+	<game name="Super Robot Taisen Neo (Japan)">
+		<category>Games</category>
+		<description>Super Robot Taisen Neo (Japan)</description>
+		<rom name="Super Robot Taisen Neo (Japan).iso" size="4699979776" crc="6b73ba00" md5="e2c410c2fcb1a2de909cdadff322bf59" sha1="ba71d57fc5a483919c3dfe01c02d476c55baca50"/>
+	</game>
+	<game name="Super Sentai Battle - Ranger Cross (Japan)">
+		<category>Games</category>
+		<description>Super Sentai Battle - Ranger Cross (Japan)</description>
+		<rom name="Super Sentai Battle - Ranger Cross (Japan).iso" size="4699979776" crc="b5c436fb" md5="d346a057403f77dfdbe91309983b26e3" sha1="7d508f5a163218fa441994d3cf5a90faf934c065"/>
+	</game>
+	<game name="Suzumiya Haruhi no Gekidou (Japan)">
+		<category>Games</category>
+		<description>Suzumiya Haruhi no Gekidou (Japan)</description>
+		<rom name="Suzumiya Haruhi no Gekidou (Japan).iso" size="4699979776" crc="f2678b83" md5="0958aeca07af5348d08a4699539f075c" sha1="1185ec2456644ba5c32f291939bd5ce02e37c955"/>
+	</game>
+	<game name="Suzumiya Haruhi no Heiretsu (Japan)">
+		<category>Games</category>
+		<description>Suzumiya Haruhi no Heiretsu (Japan)</description>
+		<rom name="Suzumiya Haruhi no Heiretsu (Japan).iso" size="4699979776" crc="d98bfcbb" md5="63dc19de5026e3df91c7bb06dcb727b1" sha1="3e31fbd58c4ee83885c99c6024dacb4381431ef7"/>
+	</game>
+	<game name="Taiko no Tatsujin Wii (Japan)">
+		<category>Games</category>
+		<description>Taiko no Tatsujin Wii (Japan)</description>
+		<rom name="Taiko no Tatsujin Wii (Japan).iso" size="4699979776" crc="f7b2e429" md5="f29234eecb79123a09ecd81821d62c06" sha1="d90c9f6c26fbe54b151db1e1d3b3ddd35e0e233e"/>
+	</game>
+	<game name="Taiko no Tatsujin Wii - Chou Goukaban (Japan)">
+		<category>Games</category>
+		<description>Taiko no Tatsujin Wii - Chou Goukaban (Japan)</description>
+		<rom name="Taiko no Tatsujin Wii - Chou Goukaban (Japan).iso" size="4699979776" crc="3a45c9af" md5="b891411ff48c1617c71eb8e8b3c23377" sha1="b79b0c5474d82a14c5792d9783c049b7059d3f1e"/>
+	</game>
+	<game name="Taiko no Tatsujin Wii - Dodoon to 2-daime! (Japan)">
+		<category>Games</category>
+		<description>Taiko no Tatsujin Wii - Dodoon to 2-daime! (Japan)</description>
+		<rom name="Taiko no Tatsujin Wii - Dodoon to 2-daime! (Japan).iso" size="4699979776" crc="95482fd9" md5="73291b8a41776bd5ba04a401c17f0825" sha1="f85cab4591a08b95419da91d89e8211b9c211a43"/>
+	</game>
+	<game name="Taiko no Tatsujin Wii - Ketteiban (Japan)">
+		<category>Games</category>
+		<description>Taiko no Tatsujin Wii - Ketteiban (Japan)</description>
+		<rom name="Taiko no Tatsujin Wii - Ketteiban (Japan).iso" size="4699979776" crc="8d983fb0" md5="197da86ed7e1d23ea08687bf539e515c" sha1="1af14dd1ccc833b6f6aa637d385748422586ecb4"/>
+	</game>
+	<game name="Taiko no Tatsujin Wii - Minna de Party 3-daime! (Japan)">
+		<category>Games</category>
+		<description>Taiko no Tatsujin Wii - Minna de Party 3-daime! (Japan)</description>
+		<rom name="Taiko no Tatsujin Wii - Minna de Party 3-daime! (Japan).iso" size="4699979776" crc="d353284a" md5="710c66be57852e6d4f0978ea5b653779" sha1="13c3b5d149e8f77e39040b11bfdf0655d46421d2"/>
+	</game>
+	<game name="Takt of Magic (Japan)">
+		<category>Games</category>
+		<description>Takt of Magic (Japan)</description>
+		<rom name="Takt of Magic (Japan).iso" size="4699979776" crc="f3c1d640" md5="716892acb8c43844f1e1c2bc9edf34ea" sha1="339ce05a1fa840fb35b264be37099176be73706f"/>
+	</game>
+	<game name="Tales of Graces (Japan) (Rev 2)">
+		<category>Games</category>
+		<description>Tales of Graces (Japan) (Rev 2)</description>
+		<rom name="Tales of Graces (Japan) (Rev 2).iso" size="4699979776" crc="3078df88" md5="9fb2927815059e65708647944f55bc4d" sha1="bc1cc5e83562825eee4876831534001f315a48a5"/>
+	</game>
+	<game name="Tamagotchi no Furi Furi Kagekidan! (Japan)">
+		<category>Games</category>
+		<description>Tamagotchi no Furi Furi Kagekidan! (Japan)</description>
+		<rom name="Tamagotchi no Furi Furi Kagekidan! (Japan).iso" size="4699979776" crc="faa977e5" md5="d776f5149d76946923835d7281d2988e" sha1="879a221fdbd2d64240871486aeb948721623ce77"/>
+	</game>
+	<game name="Tele Shibai Wii (Japan)">
+		<category>Games</category>
+		<description>Tele Shibai Wii (Japan)</description>
+		<rom name="Tele Shibai Wii (Japan).iso" size="4699979776" crc="af535dcb" md5="20251594cfe481bf3dd1c109c8016866" sha1="7c7f1f3b490c67b27912fce92ae40514fc18e8cf"/>
+	</game>
+	<game name="Tokyo Friend Park II - Ketteiban - Minna de Chousen! Taikan Attraction! (Japan)">
+		<category>Games</category>
+		<description>Tokyo Friend Park II - Ketteiban - Minna de Chousen! Taikan Attraction! (Japan)</description>
+		<rom name="Tokyo Friend Park II - Ketteiban - Minna de Chousen! Taikan Attraction! (Japan).iso" size="4699979776" crc="8cc8508f" md5="50cec6d8bf88f30bcc31056c0e6e15a5" sha1="a609aa0540872224c06f04c7494f11abdc707fe8"/>
+	</game>
+	<game name="Toushinden (Japan) (Rev 1)">
+		<category>Games</category>
+		<description>Toushinden (Japan) (Rev 1)</description>
+		<rom name="Toushinden (Japan) (Rev 1).iso" size="4699979776" crc="27cfd146" md5="39823b64d1cc9d5608edde7927e646b8" sha1="c86586d69109bf127950c3adf288731f34ecf150"/>
+	</game>
+	<game name="Twinkle Queen (Japan)">
+		<category>Games</category>
+		<description>Twinkle Queen (Japan)</description>
+		<rom name="Twinkle Queen (Japan).iso" size="4699979776" crc="b039b985" md5="b9ee0777d05c327556c8aac9409fe7c1" sha1="7fc4c01541398274a67d80458d40092e80583ca4"/>
+	</game>
+	<game name="Wi-Fi Taiou - Gensen Table Game Wii (Japan)">
+		<category>Games</category>
+		<description>Wi-Fi Taiou - Gensen Table Game Wii (Japan)</description>
+		<rom name="Wi-Fi Taiou - Gensen Table Game Wii (Japan).iso" size="4699979776" crc="2c02fca3" md5="879163a23e021110fe8e4ec4386d58cd" sha1="5e23d5d775344627c86f086ca97de0d56afbac74"/>
+	</game>
+	<game name="Winning Eleven Play Maker 2010 - Aoki Samurai no Chousen (Japan)">
+		<category>Games</category>
+		<description>Winning Eleven Play Maker 2010 - Aoki Samurai no Chousen (Japan)</description>
+		<rom name="Winning Eleven Play Maker 2010 - Aoki Samurai no Chousen (Japan).iso" size="4699979776" crc="729dc48c" md5="9f85d200532196e5ac9aed46ab5a481e" sha1="dbd1f840bc9907fb4d3be925ace54f5b07829b9f"/>
+	</game>
+	<game name="Winning Post 7 Maximum 2008 (Japan)">
+		<category>Games</category>
+		<description>Winning Post 7 Maximum 2008 (Japan)</description>
+		<rom name="Winning Post 7 Maximum 2008 (Japan).iso" size="4699979776" crc="876776ee" md5="d9b0899610d1003baa26bb30811275d9" sha1="8f41171f0a1685eebb3d96c76f228e96fba51630"/>
+	</game>
+	<game name="Winning Post World (Japan)">
+		<category>Games</category>
+		<description>Winning Post World (Japan)</description>
+		<rom name="Winning Post World (Japan).iso" size="4699979776" crc="a6bf66e8" md5="12be73954957313fc794166538058dbd" sha1="ab683b1d0bcf6c54d42612a4b3e559bd2324db5b"/>
+	</game>
+	<game name="Winning Post World 2010 (Japan) (Rev 1)">
+		<category>Games</category>
+		<description>Winning Post World 2010 (Japan) (Rev 1)</description>
+		<rom name="Winning Post World 2010 (Japan) (Rev 1).iso" size="4699979776" crc="bc3624a1" md5="48e77f4e5cb8c779a627ead8d961c1f9" sha1="b3cd844851ff09a3a94b5aad33837c89edca68a4"/>
+	</game>
+	<game name="World of Golden Eggs, The - Nori Nori Rhythm-kei (Japan)">
+		<category>Games</category>
+		<description>World of Golden Eggs, The - Nori Nori Rhythm-kei (Japan)</description>
+		<rom name="World of Golden Eggs, The - Nori Nori Rhythm-kei (Japan).iso" size="4699979776" crc="cc502473" md5="d13f6c4491280d8449bcfec0c019acf8" sha1="df5e30837fdb11a554ccc3b5761cc7c24833c0cb"/>
+	</game>
+	<game name="World of Golden Eggs, The - Nori Nori Rhythm-kei - Nissan Note Original Version (Japan)">
+		<category>Games</category>
+		<description>World of Golden Eggs, The - Nori Nori Rhythm-kei - Nissan Note Original Version (Japan)</description>
+		<rom name="World of Golden Eggs, The - Nori Nori Rhythm-kei - Nissan Note Original Version (Japan).iso" size="4699979776" crc="b892a47f" md5="ad6075838bf4da28cc37012db311a8d7" sha1="3a7109d768c4f87cfbc56b3a50d94bb56786f0f4"/>
+	</game>
+	<game name="Yatterman Wii - Bikkuri Dokkiri Machine de Mou Race da Koron (Japan)">
+		<category>Games</category>
+		<description>Yatterman Wii - Bikkuri Dokkiri Machine de Mou Race da Koron (Japan)</description>
+		<rom name="Yatterman Wii - Bikkuri Dokkiri Machine de Mou Race da Koron (Japan).iso" size="4699979776" crc="ece4fde1" md5="cd46c26b32a84e2c8bfdded4f6b7750a" sha1="368ee25f0bbc800659b072b310415846e5227b8a"/>
+	</game>
+	<game name="Zangeki no Reginleiv (Japan)">
+		<category>Games</category>
+		<description>Zangeki no Reginleiv (Japan)</description>
+		<rom name="Zangeki no Reginleiv (Japan).iso" size="4699979776" crc="08e0e7d6" md5="95faee5919701e3b74aeca2fd312873c" sha1="63b8037cd7c41d9ae26455b667c445e860fb2fe6"/>
+	</game>
+	<game name="Zenkoku Dekotora Matsuri (Japan)">
+		<category>Games</category>
+		<description>Zenkoku Dekotora Matsuri (Japan)</description>
+		<rom name="Zenkoku Dekotora Matsuri (Japan).iso" size="4699979776" crc="f4ed061c" md5="c799400238413e453e40b0475d580a07" sha1="758a1ae0c65dbe9f56ba38f8f2ea510452b3714e"/>
+	</game>
+	<game name="Zero - Tsukihami no Kamen (Japan)">
+		<category>Games</category>
+		<description>Zero - Tsukihami no Kamen (Japan)</description>
+		<rom name="Zero - Tsukihami no Kamen (Japan).iso" size="4699979776" crc="5bacf607" md5="b3e4f1b9fef5ac9e7931890bb8cb50a9" sha1="e166ed9564a10071e41597d9ed82f5e796ad74b8"/>
+	</game>
+</datafile>

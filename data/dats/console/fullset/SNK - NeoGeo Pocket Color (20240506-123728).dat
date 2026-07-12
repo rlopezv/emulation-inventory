@@ -1,0 +1,674 @@
+<?xml version="1.0"?>
+<datafile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://datomatic.no-intro.org/stuff https://datomatic.no-intro.org/stuff/schema_nointro_datfile_v3.xsd">
+	<header>
+		<name>SNK - NeoGeo Pocket Color (Retool)</name>
+		<description>SNK - NeoGeo Pocket Color (103) (-x) [-aABbcDdefkmMopPruv] (20240506-123728) (Retool)</description>
+		<version>20240506-123728</version>
+		<date>2026-07-12 18-05-02</date>
+		<author>BigFred, BitLooter, ElBarto, Gefflon, Hiccup, omonim2007, Powerpuff, psykopat, rarenight, relax, SonGoku, xuom2, xxxddd</author>
+		<homepage>http://www.github.com/unexpectedpanda/retool</homepage>
+		<url>https://www.no-intro.org</url>
+		<clrmamepro forcenodump="required"></clrmamepro>
+		<retool>Created by Retool 2.4.9</retool>
+	</header>
+	<game name="Bakumatsu Rouman Tokubetsu Hen - Gekka no Kenshi - Tsuki ni Saku Hana, Chiri Yuku Hana (Japan)" cloneof="Last Blade, The - Beyond the Destiny (USA, Europe)" id="0001">
+		<category>Games</category>
+		<description>Bakumatsu Rouman Tokubetsu Hen - Gekka no Kenshi - Tsuki ni Saku Hana, Chiri Yuku Hana (Japan)</description>
+		<release name="Bakumatsu Rouman Tokubetsu Hen - Gekka no Kenshi - Tsuki ni Saku Hana, Chiri Yuku Hana (Japan)" region="Japan" language="Ja"/>
+		<rom name="Bakumatsu Rouman Tokubetsu Hen - Gekka no Kenshi - Tsuki ni Saku Hana, Chiri Yuku Hana (Japan).ngc" size="2097152" crc="be913cfa" md5="d485fcdef8f9f4fb0de39849334aca66" sha1="cf94cd3812a8905432ecba30ed874be97efc792e" sha256="1cc826db8cfb3c5a3d4de3323ce29f73ac152c7919bed1098e9233a8d93b6a9d"/>
+	</game>
+	<game name="Baseball Stars Color - Pocket Sports Series (World) (En,Ja)" id="0002">
+		<category>Games</category>
+		<description>Baseball Stars Color - Pocket Sports Series (World) (En,Ja)</description>
+		<release name="Baseball Stars Color - Pocket Sports Series (World) (En,Ja)" region="World" language="En"/>
+		<release name="Baseball Stars Color - Pocket Sports Series (World) (En,Ja)" region="World" language="Ja"/>
+		<rom name="Baseball Stars Color - Pocket Sports Series (World) (En,Ja).ngc" size="1048576" crc="d1434df5" md5="6f9f680b659369448f01508501c5a709" sha1="495199cd783e7cd962eece160dbc238a648c5e39" sha256="795a60b329dae73af701de42c941e1c9e63119c6ec332cd07a1d232df0f164be"/>
+	</game>
+	<game name="Big Bang Pro Wrestling (Japan) (En,Ja)" id="0003">
+		<category>Games</category>
+		<description>Big Bang Pro Wrestling (Japan) (En,Ja)</description>
+		<release name="Big Bang Pro Wrestling (Japan) (En,Ja)" region="Japan" language="En"/>
+		<release name="Big Bang Pro Wrestling (Japan) (En,Ja)" region="Japan" language="Ja"/>
+		<rom name="Big Bang Pro Wrestling (Japan) (En,Ja).ngc" size="2097152" crc="f1716fdf" md5="184dc284995dc20ddce599426b9cac7d" sha1="5d0c956c2175d5af65c6e8595427fb1fea701ada" sha256="93a18ba454a1e15b5a8e3977e5e23c077c46dee5c03f55b23f75e12196feb5fe"/>
+	</game>
+	<game name="Bikkuriman 2000 - Viva! Pocket Festival! (Japan)" id="0004">
+		<category>Games</category>
+		<description>Bikkuriman 2000 - Viva! Pocket Festival! (Japan)</description>
+		<release name="Bikkuriman 2000 - Viva! Pocket Festival! (Japan)" region="Japan" language="Ja"/>
+		<rom name="Bikkuriman 2000 - Viva! Pocket Festival! (Japan).ngc" size="1048576" crc="7a2d7635" md5="ca3e26e2f539dbd35092fa9d7f561aff" sha1="62898d43cfc9ace86a53520ecf62abc6b0c404f3" sha256="2f930f4711ed36c66889a6ee84bc6446753aae264c27b1b3d0100bcf4f2e813a"/>
+	</game>
+	<game name="Biomotor Unitron (Japan)" cloneof="Biomotor Unitron (USA, Europe)" id="0005">
+		<category>Games</category>
+		<description>Biomotor Unitron (Japan)</description>
+		<release name="Biomotor Unitron (Japan)" region="Japan" language="Ja"/>
+		<rom name="Biomotor Unitron (Japan).ngc" size="1048576" crc="fcbbe494" md5="c98b2b19971effcedac7bf2abaf3d485" sha1="c81c21dd3536c91166181a36bee93d1803dceb07" sha256="c8307ddbffdd0151a77d5528164c0dda7b96320191c7ebf0929df30e5f734b8f"/>
+	</game>
+	<game name="Biomotor Unitron (USA, Europe)" id="0006">
+		<category>Games</category>
+		<description>Biomotor Unitron (USA, Europe)</description>
+		<release name="Biomotor Unitron (USA, Europe)" region="Europe" language="En"/>
+		<release name="Biomotor Unitron (USA, Europe)" region="USA" language="En"/>
+		<rom name="Biomotor Unitron (USA, Europe).ngc" size="1048576" crc="3807df4f" md5="f4bbe8cf42074b75c8a911bf7b0562d5" sha1="ff74d5877bf58164419710888923e46b9cfb415e" sha256="30fa480670a2d3d703289b4857cf5a2afc85cbd7495dec01aacba379554054f9"/>
+	</game>
+	<game name="Bust-A-Move Pocket (USA)" cloneof="Puzzle Bobble Mini (Europe)" id="0007">
+		<category>Games</category>
+		<description>Bust-A-Move Pocket (USA)</description>
+		<release name="Bust-A-Move Pocket (USA)" region="USA" language="En"/>
+		<rom name="Bust-A-Move Pocket (USA).ngc" size="1048576" crc="b073d601" md5="d91fd1c6c941bc2bde4ada3580fe408f" sha1="3b102e32fccf8ff389c508be55517368d56b144f" sha256="aae93b3d131c65963725d7ea6ce6a5b246a1a371d2bca6c66d7b00ea8f61fc23"/>
+	</game>
+	<game name="Cool Boarders Pocket (Japan, Europe) (En,Ja)" id="0008">
+		<category>Games</category>
+		<description>Cool Boarders Pocket (Japan, Europe) (En,Ja)</description>
+		<release name="Cool Boarders Pocket (Japan, Europe) (En,Ja)" region="Europe" language="En"/>
+		<release name="Cool Boarders Pocket (Japan, Europe) (En,Ja)" region="Europe" language="Ja"/>
+		<release name="Cool Boarders Pocket (Japan, Europe) (En,Ja)" region="Japan" language="En"/>
+		<release name="Cool Boarders Pocket (Japan, Europe) (En,Ja)" region="Japan" language="Ja"/>
+		<rom name="Cool Boarders Pocket (Japan, Europe) (En,Ja).ngc" size="1048576" crc="2ed72635" md5="57b757bec66c0e53220593b78c63c6c0" sha1="86d30070b01e822fb042daeb41d6823d4ee6060a" sha256="cf5181576371e6fc394cb767a94f0f9dbd5eb93fcff395f7f7bfe9300d6ca814"/>
+	</game>
+	<game name="Cool Cool Jam (Japan)" id="0009">
+		<category>Games</category>
+		<description>Cool Cool Jam (Japan)</description>
+		<release name="Cool Cool Jam (Japan)" region="Japan" language="Ja"/>
+		<rom name="Cool Cool Jam (Japan).ngc" size="2097152" crc="0fd6f378" md5="a4567e247b16d07e9c9085c5b35bd8c9" sha1="525b5fe7aa4bbbe767598e96c2a3904a056e702a" sha256="a451ffc4170e15168f4e7c882c38c9f9f1c87aa780f04cbbceb4cb0a5c46cce8"/>
+	</game>
+	<game name="Crush Roller (World) (En,Ja)" id="0011">
+		<category>Games</category>
+		<description>Crush Roller (World) (En,Ja)</description>
+		<release name="Crush Roller (World) (En,Ja)" region="World" language="En"/>
+		<release name="Crush Roller (World) (En,Ja)" region="World" language="Ja"/>
+		<rom name="Crush Roller (World) (En,Ja).ngc" size="1048576" crc="f20ff9f2" md5="100f6086bbcd6bccd2ac6f79242f5a87" sha1="b68e7f5f43d35feda39f0c46ebd6baadc942ac4f" sha256="d4c70b24a51923a60a715b77bbc205f6c06146bedb11d066e629f498af3392bd"/>
+	</game>
+	<game name="Dark Arms - Beast Buster 1999 (World) (En,Ja)" id="0012">
+		<category>Games</category>
+		<description>Dark Arms - Beast Buster 1999 (World) (En,Ja)</description>
+		<release name="Dark Arms - Beast Buster 1999 (World) (En,Ja)" region="World" language="En"/>
+		<release name="Dark Arms - Beast Buster 1999 (World) (En,Ja)" region="World" language="Ja"/>
+		<rom name="Dark Arms - Beast Buster 1999 (World) (En,Ja).ngc" size="2097152" crc="77caa548" md5="4fb30b1b905ed1f975efb9a8fceb9a62" sha1="c32afc4348a1adbf9f6855b658b5eb5767e7ebcd" sha256="127eb5b597920f6f7aab2e0f92671b46c0d865cd5dec63581312af9b116cfd24"/>
+	</game>
+	<game name="Delta Warp (Japan) (En,Ja)" id="0013">
+		<category>Games</category>
+		<description>Delta Warp (Japan) (En,Ja)</description>
+		<release name="Delta Warp (Japan) (En,Ja)" region="Japan" language="En"/>
+		<release name="Delta Warp (Japan) (En,Ja)" region="Japan" language="Ja"/>
+		<rom name="Delta Warp (Japan) (En,Ja).ngc" size="1048576" crc="1273b10e" md5="11d8b930b69b5305757d6aec331023a9" sha1="25d507f2aec336fcfcd8c8e6dfdb753e3abb351d" sha256="1c71bb8f07cecd60ece1374e1e41729f168ba4b1d41fe924de0b5dbaa5f9fc73"/>
+	</game>
+	<game name="Densetsu no Ogre Battle Gaiden - Zenobia no Ouji (Japan)" id="0014">
+		<category>Games</category>
+		<description>Densetsu no Ogre Battle Gaiden - Zenobia no Ouji (Japan)</description>
+		<release name="Densetsu no Ogre Battle Gaiden - Zenobia no Ouji (Japan)" region="Japan" language="Ja"/>
+		<rom name="Densetsu no Ogre Battle Gaiden - Zenobia no Ouji (Japan).ngc" size="2097152" crc="eeeefd6a" md5="26d0557d8a465aa8f430d5e4d94c679a" sha1="5ac794c0f125bfb97efe9cd06c2aca3afdf549ea" sha256="d8f69f3d622d5ee3927c1b049cefd445aed4292e7f91b6b86c4341e1f8da1fda"/>
+	</game>
+	<game name="Densha de Go! 2 on NeoGeo Pocket (Japan)" id="0015">
+		<category>Games</category>
+		<description>Densha de Go! 2 on NeoGeo Pocket (Japan)</description>
+		<release name="Densha de Go! 2 on NeoGeo Pocket (Japan)" region="Japan" language="Ja"/>
+		<rom name="Densha de Go! 2 on NeoGeo Pocket (Japan).ngc" size="4194304" crc="a0334549" md5="a816fc06a864ae3fdcbc72656774fc19" sha1="be8f5b4699e5b38f330d4ac02a1507f67544b571" sha256="e7f48866144ca5d2f8645e7fb8607f8fcfca98a737334bb4f54b387e6df76d10"/>
+	</game>
+	<game name="Dive Alert - Becky's Version (USA, Europe)" id="0016">
+		<category>Games</category>
+		<description>Dive Alert - Becky's Version (USA, Europe)</description>
+		<release name="Dive Alert - Becky's Version (USA, Europe)" region="Europe" language="En"/>
+		<release name="Dive Alert - Becky's Version (USA, Europe)" region="USA" language="En"/>
+		<rom name="Dive Alert - Becky's Version (USA, Europe).ngc" size="2097152" crc="83db5772" md5="c148b30103de704eeed63dfe7a7d6100" sha1="64467acf90be6931f9aa532ed8e1fd4dc60946c6" sha256="977e4d520f4c885acc8b6ba815623d9b1ff8f3924ccab4db02a24b7bff0f80c7"/>
+	</game>
+	<game name="Dive Alert - Burn Hen (Japan)" cloneof="Dive Alert - Matt's Version (USA, Europe)" id="0017">
+		<category>Games</category>
+		<description>Dive Alert - Burn Hen (Japan)</description>
+		<release name="Dive Alert - Burn Hen (Japan)" region="Japan" language="Ja"/>
+		<rom name="Dive Alert - Burn Hen (Japan).ngc" size="2097152" crc="c213941d" md5="b149cb1f866942eca70df78bb25351cf" sha1="66624028ec986084a95237c74173849a8a729398" sha256="73c036ba53cf2530736e4668f5487c819b9b7b6c1ad6fe912a1c0cd2ab397a4b"/>
+	</game>
+	<game name="Dive Alert - Matt's Version (USA, Europe)" id="0018">
+		<category>Games</category>
+		<description>Dive Alert - Matt's Version (USA, Europe)</description>
+		<release name="Dive Alert - Matt's Version (USA, Europe)" region="Europe" language="En"/>
+		<release name="Dive Alert - Matt's Version (USA, Europe)" region="USA" language="En"/>
+		<rom name="Dive Alert - Matt's Version (USA, Europe).ngc" size="2097152" crc="ef75081b" md5="0c38b2d5d1a2be15d6c15c6b16b7bc98" sha1="0abdf64dd402a8192b0af8127a6ee214173dfe3c" sha256="7a16dda1c503e272544e25b336cd0e67c5c8e36ef57c4dedf72d590604893704"/>
+	</game>
+	<game name="Dive Alert - Rebecca Hen (Japan)" cloneof="Dive Alert - Becky's Version (USA, Europe)" id="0019">
+		<category>Games</category>
+		<description>Dive Alert - Rebecca Hen (Japan)</description>
+		<release name="Dive Alert - Rebecca Hen (Japan)" region="Japan" language="Ja"/>
+		<rom name="Dive Alert - Rebecca Hen (Japan).ngc" size="2097152" crc="3c4af4f5" md5="b26c96ee636795787cf58e2d5db56c4a" sha1="ac81de4f9c1473c5ecd761dc449ae5af0e98915f" sha256="e14feb986c64c0a5fac5babe233eef5572d1961d8a11ddf15e3713fef6f4773f"/>
+	</game>
+	<game name="Dokodemo Mahjong (Japan)" id="0103">
+		<category>Games</category>
+		<description>Dokodemo Mahjong (Japan)</description>
+		<release name="Dokodemo Mahjong (Japan)" region="Japan" language="Ja"/>
+		<rom name="Dokodemo Mahjong (Japan).ngc" size="524288" crc="78c21b5e" md5="66885d788f8474295fccbeba107f2421" sha1="d7edf6bb3773a5319dfd2a20e204c70e8cc6971e" sha256="7475fe4d70401273e23b4c1898cd0ac3747763a43ff532b87334e600e7f1639c"/>
+	</game>
+	<game name="Dynamite Slugger (Japan, Europe) (En,Ja)" id="0020">
+		<category>Games</category>
+		<description>Dynamite Slugger (Japan, Europe) (En,Ja)</description>
+		<release name="Dynamite Slugger (Japan, Europe) (En,Ja)" region="Europe" language="En"/>
+		<release name="Dynamite Slugger (Japan, Europe) (En,Ja)" region="Europe" language="Ja"/>
+		<release name="Dynamite Slugger (Japan, Europe) (En,Ja)" region="Japan" language="En"/>
+		<release name="Dynamite Slugger (Japan, Europe) (En,Ja)" region="Japan" language="Ja"/>
+		<rom name="Dynamite Slugger (Japan, Europe) (En,Ja).ngc" size="1048576" crc="7f1779cd" md5="c84f675a617df14b1a1bf06f02be773d" sha1="90104d5917db4cacfd1d0ef8b2b01fea09679a93" sha256="c8a31bb171d8991fd8b78b6b4a229b4c7f5d97a33353e85358062a35440a74f3"/>
+	</game>
+	<game name="Evolution - Eternal Dungeons (Europe) (v03)" cloneof="Evolution - Eternal Dungeons (Europe) (vA1)" id="0135">
+		<category>Games</category>
+		<description>Evolution - Eternal Dungeons (Europe) (v03)</description>
+		<release name="Evolution - Eternal Dungeons (Europe) (v03)" region="Europe" language="En"/>
+		<rom name="Evolution - Eternal Dungeons (Europe) (v03).ngc" size="2097152" crc="a60582f8" md5="277ce8138fbf2d493c0478bfdb30e21f" sha1="b054fffae64f3c97c6d9fb68dd68ef7c8a92053c" sha256="0c6e90a7c4031c418b402485c18bea3b8e91c11c9f8bbe8bfbdb6ed24b85e8c0"/>
+	</game>
+	<game name="Evolution - Eternal Dungeons (Europe) (vA1)" id="0021">
+		<category>Games</category>
+		<description>Evolution - Eternal Dungeons (Europe) (vA1)</description>
+		<release name="Evolution - Eternal Dungeons (Europe) (vA1)" region="Europe" language="En"/>
+		<rom name="Evolution - Eternal Dungeons (Europe) (vA1).ngc" size="2097152" crc="be47e531" md5="9c9c2d533be340600ef9f92ed1253dd9" sha1="9f607095b038ccdbf98e6a8fce2dd67740ae5571" sha256="9376a26b88ede768fad6f1840d6c458f2b600a47b378f33828ab8c865e3ed8b0"/>
+	</game>
+	<game name="Fantastic Night Dreams - Cotton (Europe)" id="0022">
+		<category>Games</category>
+		<description>Fantastic Night Dreams - Cotton (Europe)</description>
+		<release name="Fantastic Night Dreams - Cotton (Europe)" region="Europe" language="En"/>
+		<rom name="Fantastic Night Dreams - Cotton (Europe).ngc" size="1048576" crc="1bf412f5" md5="5a2a155706a201a1c0227c7fe671256f" sha1="a9d8be97ab7bab1aaa1bedd2ce6914ec7fb8cb85" sha256="5ec665bc713eec4b591b153504be7657a0f45acc7412b3e1899beeacd92b05bd"/>
+	</game>
+	<game name="Fantastic Night Dreams - Cotton (Japan)" cloneof="Fantastic Night Dreams - Cotton (Europe)" id="0023">
+		<category>Games</category>
+		<description>Fantastic Night Dreams - Cotton (Japan)</description>
+		<release name="Fantastic Night Dreams - Cotton (Japan)" region="Japan" language="Ja"/>
+		<rom name="Fantastic Night Dreams - Cotton (Japan).ngc" size="1048576" crc="b8a12409" md5="f6c0c5d77eae342fcdd6cffabf783226" sha1="935b9d671df660192d9fc215aa03d90a486e743a" sha256="738e4d4b7c74c5dcec1f4fef9001667790833d93c92496adf4985ca121bf2d51"/>
+	</game>
+	<game name="Faselei! (Japan)" cloneof="Faselei! (USA, Europe)" id="0025">
+		<category>Games</category>
+		<description>Faselei! (Japan)</description>
+		<release name="Faselei! (Japan)" region="Japan" language="Ja"/>
+		<rom name="Faselei! (Japan).ngc" size="2097152" crc="8f585838" md5="08b5385bd6d1fdcfed39bdb411fabd85" sha1="04a65a7529098bfb2295ab4bc3782ea45ec116ee" sha256="c607e2512a77edc2a3797a631bebc5a0d32cbf45371c14b702eb7c9b61ecafee"/>
+	</game>
+	<game name="Faselei! (USA, Europe)" id="0024">
+		<category>Games</category>
+		<description>Faselei! (USA, Europe)</description>
+		<release name="Faselei! (USA, Europe)" region="Europe" language="En"/>
+		<release name="Faselei! (USA, Europe)" region="USA" language="En"/>
+		<rom name="Faselei! (USA, Europe).ngc" size="2097152" crc="e705e30e" md5="f580078164dc2b8dffb9f38eeec1035d" sha1="48c04c8a261b25a942a9fe68abace8aad9deae23" sha256="80bc61b6e63f53292a20f88277f2b3b706982779f79d4c383ee2b82ee035d279"/>
+	</game>
+	<game name="Fatal Fury F-Contact - Pocket Fighting Series (World) (En,Ja)" id="0026">
+		<category>Games</category>
+		<description>Fatal Fury F-Contact - Pocket Fighting Series (World) (En,Ja)</description>
+		<release name="Fatal Fury F-Contact - Pocket Fighting Series (World) (En,Ja)" region="World" language="En"/>
+		<release name="Fatal Fury F-Contact - Pocket Fighting Series (World) (En,Ja)" region="World" language="Ja"/>
+		<rom name="Fatal Fury F-Contact - Pocket Fighting Series (World) (En,Ja).ngc" size="2097152" crc="e7e5d6e8" md5="8f3175df433b78dfa1a0663f493e1fea" sha1="d33da5587a27344221a4f925867047addaafa97c" sha256="6f088209f5000f52a68f70e64bf1def9146d9dbbbd0bbaa2c457634f45143f88"/>
+	</game>
+	<game name="Ganbare Neo Poke-kun (Kari) (Japan)" id="0027">
+		<category>Games</category>
+		<description>Ganbare Neo Poke-kun (Kari) (Japan)</description>
+		<release name="Ganbare Neo Poke-kun (Kari) (Japan)" region="Japan" language="Ja"/>
+		<rom name="Ganbare Neo Poke-kun (Kari) (Japan).ngc" size="2097152" crc="6df986a3" md5="99ed127490f9d5d6482d20cc6abc8056" sha1="bc8be263618601d5967538d125be1d58103ca7b7" sha256="a2771b07d93934501b3bc66bc5ba1d237b98aa5d676b4dcd6c505c00d22eefbf"/>
+	</game>
+	<game name="Infinity Cure (Japan)" id="0028">
+		<category>Games</category>
+		<description>Infinity Cure (Japan)</description>
+		<release name="Infinity Cure (Japan)" region="Japan" language="Ja"/>
+		<rom name="Infinity Cure (Japan).ngc" size="1048576" crc="32dc2aa2" md5="4bda8b3669c5bbd72266853940d626cb" sha1="b0f3f57c5ad084a009631e7e0fa497451415e73b" sha256="bbe8e14810acb5af816a9d6f55c1e1c71a11ced1ab411e69751fbf0c0be73666"/>
+	</game>
+	<game name="Kikou Seiki Unitron - Sono Tsuide. Hikari Umareru Chi Yori. (Japan)" id="0029">
+		<category>Games</category>
+		<description>Kikou Seiki Unitron - Sono Tsuide. Hikari Umareru Chi Yori. (Japan)</description>
+		<release name="Kikou Seiki Unitron - Sono Tsuide. Hikari Umareru Chi Yori. (Japan)" region="Japan" language="Ja"/>
+		<rom name="Kikou Seiki Unitron - Sono Tsuide. Hikari Umareru Chi Yori. (Japan).ngc" size="2097152" crc="f029f1c0" md5="67eda4af4c84c71667d0e0fb7b4c7873" sha1="b1ae3d5ee557821fe1be024f8b8bbbf6c8c13290" sha256="3033ac4911185e37bc3dbc2fcba29dedf424ace2fcb425b5017034d4901bf246"/>
+	</game>
+	<game name="King of Fighters R-2 - Pocket Fighting Series (World) (En,Ja)" id="0030">
+		<category>Games</category>
+		<description>King of Fighters R-2 - Pocket Fighting Series (World) (En,Ja)</description>
+		<release name="King of Fighters R-2 - Pocket Fighting Series (World) (En,Ja)" region="World" language="En"/>
+		<release name="King of Fighters R-2 - Pocket Fighting Series (World) (En,Ja)" region="World" language="Ja"/>
+		<rom name="King of Fighters R-2 - Pocket Fighting Series (World) (En,Ja).ngc" size="2097152" crc="9bc63f27" md5="269ee4a53a63ec36f996fd9d205513ae" sha1="72d2b8f19f51b7cd5da18ebe7f3e2c90263c0a0c" sha256="1355e58b88a255b0f6a56338f840df13aea7b4af7ae70ecc4a5873aa513fd3b8"/>
+	</game>
+	<game name="King of Fighters, The - Battle de Paradise (Japan)" id="0031">
+		<category>Games</category>
+		<description>King of Fighters, The - Battle de Paradise (Japan)</description>
+		<release name="King of Fighters, The - Battle de Paradise (Japan)" region="Japan" language="Ja"/>
+		<rom name="King of Fighters, The - Battle de Paradise (Japan).ngc" size="2097152" crc="77e37bac" md5="362e9c04ec255225eeb0a9dee8fcac1b" sha1="8aabdd45ba2b9e24bdcd8e51f6653736257d4644" sha256="1b188c99e4fc6f6e5fc55748a32dd7cdc82dda9335dc99deee45528fd6083780"/>
+	</game>
+	<game name="Koi Koi Mahjong (Japan) (v08)" cloneof="Koi Koi Mahjong (Japan) (v0B)" id="0126">
+		<category>Games</category>
+		<description>Koi Koi Mahjong (Japan) (v08)</description>
+		<release name="Koi Koi Mahjong (Japan) (v08)" region="Japan" language="Ja"/>
+		<rom name="Koi Koi Mahjong (Japan) (v08).ngc" size="524288" crc="75fe164c" md5="24b2ae1057a7286f68d727ca9357147b" sha1="4d707900c2b46f8e6f3c7fbe11d7ff347d72cfa0" sha256="1f2af132f349aca1b19c3e3c2657cfe4de2e4f248445bb8d205a170f0e6d8659"/>
+	</game>
+	<game name="Koi Koi Mahjong (Japan) (v0B)" id="0032">
+		<category>Games</category>
+		<description>Koi Koi Mahjong (Japan) (v0B)</description>
+		<release name="Koi Koi Mahjong (Japan) (v0B)" region="Japan" language="Ja"/>
+		<rom name="Koi Koi Mahjong (Japan) (v0B).ngc" size="524288" crc="b51c3eba" md5="05ab35ed7be398072cae34783aa6751a" sha1="d705dfa87cf26c8232cf4885f8ae326eb690df59" sha256="3e818f0c4db2c8e0e6440728d3729c17e7287b4370a327b973e634358d0292f0"/>
+	</game>
+	<game name="Last Blade, The - Beyond the Destiny (USA, Europe)" id="0033">
+		<category>Games</category>
+		<description>Last Blade, The - Beyond the Destiny (USA, Europe)</description>
+		<release name="Last Blade, The - Beyond the Destiny (USA, Europe)" region="Europe" language="En"/>
+		<release name="Last Blade, The - Beyond the Destiny (USA, Europe)" region="USA" language="En"/>
+		<rom name="Last Blade, The - Beyond the Destiny (USA, Europe).ngc" size="2097152" crc="4238a840" md5="7dc5073a7a3de1c87a69be5941dff1f9" sha1="a553876c7e04498474f193508effa52c3d59614b" sha256="dbbf0b6c0cc6e979f020acb184fa453acab1f2aa554f9810688d341e94946710"/>
+	</game>
+	<game name="Magical Drop Pocket (Japan)" cloneof="Magical Drop Pocket (USA, Europe)" id="0034">
+		<category>Games</category>
+		<description>Magical Drop Pocket (Japan)</description>
+		<release name="Magical Drop Pocket (Japan)" region="Japan" language="Ja"/>
+		<rom name="Magical Drop Pocket (Japan).ngc" size="1048576" crc="694ce2dc" md5="ae92cd3536577bd18f03f34b475c26d6" sha1="dfde0db9026b74988eaa1bdfc2a9ea0b0f52a48a" sha256="861fdbee68da69bd114f8ec1b7719ed84a8a650438b2f92fcb15fc91434c0aa7"/>
+	</game>
+	<game name="Magical Drop Pocket (USA, Europe)" id="0035">
+		<category>Games</category>
+		<description>Magical Drop Pocket (USA, Europe)</description>
+		<release name="Magical Drop Pocket (USA, Europe)" region="Europe" language="En"/>
+		<release name="Magical Drop Pocket (USA, Europe)" region="USA" language="En"/>
+		<rom name="Magical Drop Pocket (USA, Europe).ngc" size="1048576" crc="7712f82d" md5="6acfef5fe57d592ea7321e0e440c4ecf" sha1="42717bda4f505083d51108fecd5aa37b08e904cb" sha256="fb3fc89575af69b2b14de942d5e54adb94584fcd5b8bc9c342fd275c4b0b7646"/>
+	</game>
+	<game name="Memories Off - Pure (Japan)" id="0036">
+		<category>Games</category>
+		<description>Memories Off - Pure (Japan)</description>
+		<release name="Memories Off - Pure (Japan)" region="Japan" language="Ja"/>
+		<rom name="Memories Off - Pure (Japan).ngc" size="1048576" crc="7f919dde" md5="c5ca3eb8f6cdb6c53a56c08671b5450d" sha1="20e7bb3b4eafca79fe0fd78e7f6e66d979be0502" sha256="5e304f68ca29fff2def6c5f4209224871156b9502f041d69129d025f0245428d"/>
+	</game>
+	<game name="Metal Slug - 1st Mission (World) (En,Ja)" id="0037">
+		<category>Games</category>
+		<description>Metal Slug - 1st Mission (World) (En,Ja)</description>
+		<release name="Metal Slug - 1st Mission (World) (En,Ja)" region="World" language="En"/>
+		<release name="Metal Slug - 1st Mission (World) (En,Ja)" region="World" language="Ja"/>
+		<rom name="Metal Slug - 1st Mission (World) (En,Ja).ngc" size="2097152" crc="d29ec1ba" md5="054d066ca6ebcf0b0020dbeea2e80762" sha1="df0ccb349c71d2032b02512a645a4fc760bb8834" sha256="511454c73cca97eb8b726d0b632eeab16d3b91d7e83e184694cc96fdcc717bd1"/>
+	</game>
+	<game name="Metal Slug - 2nd Mission (World) (En,Ja)" id="0038">
+		<category>Games</category>
+		<description>Metal Slug - 2nd Mission (World) (En,Ja)</description>
+		<release name="Metal Slug - 2nd Mission (World) (En,Ja)" region="World" language="En"/>
+		<release name="Metal Slug - 2nd Mission (World) (En,Ja)" region="World" language="Ja"/>
+		<rom name="Metal Slug - 2nd Mission (World) (En,Ja).ngc" size="4194304" crc="18e692a5" md5="816b37b41aebe5055d5ef2c079997e7d" sha1="71e1f9bf01680e1566583dc10fc7a5556d6b82f2" sha256="2be1987d6418f61964cdac3f5840f29496fe5a62fbcd0833cd9e825e27dd7645"/>
+	</game>
+	<game name="Mezase! Kanji Ou (Japan)" id="0039">
+		<category>Games</category>
+		<description>Mezase! Kanji Ou (Japan)</description>
+		<release name="Mezase! Kanji Ou (Japan)" region="Japan" language="Ja"/>
+		<rom name="Mezase! Kanji Ou (Japan).ngc" size="2097152" crc="a52e1c82" md5="2fd2ffa3e15e05fc4512a10d98fbdd95" sha1="030a59f990e96649001582be2d5acc9af18424fe" sha256="5f68d39f8dfb7d86caec61c7b3301c4a1abea003f1379e5fc9512ccf31b68d29"/>
+	</game>
+	<game name="Mizuki Shigeru no Youkai Shashinkan (Japan)" id="0040">
+		<category>Games</category>
+		<description>Mizuki Shigeru no Youkai Shashinkan (Japan)</description>
+		<release name="Mizuki Shigeru no Youkai Shashinkan (Japan)" region="Japan" language="Ja"/>
+		<rom name="Mizuki Shigeru no Youkai Shashinkan (Japan).ngc" size="2097152" crc="dde08335" md5="89b605a1fc6db5855b432ccc62f9e6e3" sha1="8025d09368598951da94f8601729c16972b96830" sha256="e1d59f8765b893fc9a636c8dabb8853bfa63a1fd186fa6eac6ec08a08240c00e"/>
+	</game>
+	<game name="Neo 21 - Pocket Casino Series (World)" id="0041">
+		<category>Games</category>
+		<description>Neo 21 - Pocket Casino Series (World)</description>
+		<release name="Neo 21 - Pocket Casino Series (World)" region="World" language="En"/>
+		<rom name="Neo 21 - Pocket Casino Series (World).ngc" size="1048576" crc="95c38985" md5="a60719b4839dd94bb3a8aa93ce91983d" sha1="98463a834e3f42dc02662b620e8e66f3856b1d4f" sha256="7586a27a800b1f2b45eff8a0aa9b268f380fdbdef66330abcdf2d2b82bc09dd2"/>
+	</game>
+	<game name="Neo Baccarat - Pocket Casino Series (Japan, Europe) (En) (v11)" cloneof="Neo Baccarat - Pocket Casino Series (Japan, Europe) (En) (v16)" id="0123">
+		<category>Games</category>
+		<description>Neo Baccarat - Pocket Casino Series (Japan, Europe) (En) (v11)</description>
+		<release name="Neo Baccarat - Pocket Casino Series (Japan, Europe) (En) (v11)" region="Europe" language="En"/>
+		<release name="Neo Baccarat - Pocket Casino Series (Japan, Europe) (En) (v11)" region="Japan" language="En"/>
+		<rom name="Neo Baccarat - Pocket Casino Series (Japan, Europe) (En) (v11).ngc" size="1048576" crc="c8be28c0" md5="e7bc2a03339bde79ace80942276afc3a" sha1="c13639f9206d4395d555aadfe9648427ad216c2c" sha256="194e338f3fe89000ce1ed9d54525efe77545be6d649b312399e9ade17f56dc7c"/>
+	</game>
+	<game name="Neo Baccarat - Pocket Casino Series (Japan, Europe) (En) (v16)" id="0042">
+		<category>Games</category>
+		<description>Neo Baccarat - Pocket Casino Series (Japan, Europe) (En) (v16)</description>
+		<release name="Neo Baccarat - Pocket Casino Series (Japan, Europe) (En) (v16)" region="Europe" language="En"/>
+		<release name="Neo Baccarat - Pocket Casino Series (Japan, Europe) (En) (v16)" region="Japan" language="En"/>
+		<rom name="Neo Baccarat - Pocket Casino Series (Japan, Europe) (En) (v16).ngc" size="1048576" crc="22aab454" md5="1018f765f460588d975c9b4e9385a547" sha1="80218804eb591e50831d098b5bd213a3586849a5" sha256="4056a358ea804d61f53dc876c3ce9da6dc3dd1a24a3916cdd8cb14c45839d6ce"/>
+	</game>
+	<game name="Neo Cherry Master Color - Pocket Casino Series (World) (En,Ja)" id="0043">
+		<category>Games</category>
+		<description>Neo Cherry Master Color - Pocket Casino Series (World) (En,Ja)</description>
+		<release name="Neo Cherry Master Color - Pocket Casino Series (World) (En,Ja)" region="World" language="En"/>
+		<release name="Neo Cherry Master Color - Pocket Casino Series (World) (En,Ja)" region="World" language="Ja"/>
+		<rom name="Neo Cherry Master Color - Pocket Casino Series (World) (En,Ja).ngc" size="1048576" crc="2f6eb991" md5="279b9bf6ec9b7c473d310cfd6e3cee4d" sha1="745ced46bb5b7c911dd808a66d3b4fcfeffefa6c" sha256="71e6310d5bf0f0e1d724af795120f42b47fac831ad45eab693a9a0ebdae602e6"/>
+	</game>
+	<game name="Neo Derby Champ Daiyosou (Japan)" id="0044">
+		<category>Games</category>
+		<description>Neo Derby Champ Daiyosou (Japan)</description>
+		<release name="Neo Derby Champ Daiyosou (Japan)" region="Japan" language="Ja"/>
+		<rom name="Neo Derby Champ Daiyosou (Japan).ngc" size="2097152" crc="4760564a" md5="62374e839f4f7023d3eba2a6df1cc90a" sha1="34ebc515977c099032fc66ff477674b945326fc8" sha256="41bd954a376ebf6ade3e108d3f4b2d56a7dcb7572c4c099d8a7c62d5e89136ad"/>
+	</game>
+	<game name="Neo Dragon's Wild - Real Casino Series (World) (En,Ja) (v11)" cloneof="Neo Dragon's Wild - Real Casino Series (World) (En,Ja) (v13)" id="0045">
+		<category>Games</category>
+		<description>Neo Dragon's Wild - Real Casino Series (World) (En,Ja) (v11)</description>
+		<release name="Neo Dragon's Wild - Real Casino Series (World) (En,Ja) (v11)" region="World" language="En"/>
+		<release name="Neo Dragon's Wild - Real Casino Series (World) (En,Ja) (v11)" region="World" language="Ja"/>
+		<rom name="Neo Dragon's Wild - Real Casino Series (World) (En,Ja) (v11).ngc" size="1048576" crc="225fd7f9" md5="c0ced1d22506e46c4667bc0e926d921e" sha1="b80a2ab886c80ad17a6cb0968ea3ad6218922fa1" sha256="3d6bcdced28ecd516018c0577084904ed860608540e8f71c54141c346e288d2a"/>
+	</game>
+	<game name="Neo Dragon's Wild - Real Casino Series (World) (En,Ja) (v13)" id="0046">
+		<category>Games</category>
+		<description>Neo Dragon's Wild - Real Casino Series (World) (En,Ja) (v13)</description>
+		<release name="Neo Dragon's Wild - Real Casino Series (World) (En,Ja) (v13)" region="World" language="En"/>
+		<release name="Neo Dragon's Wild - Real Casino Series (World) (En,Ja) (v13)" region="World" language="Ja"/>
+		<rom name="Neo Dragon's Wild - Real Casino Series (World) (En,Ja) (v13).ngc" size="1048576" crc="5d028c99" md5="f0fdd57f4d1a1470b826082586ead479" sha1="b83f713370169e146a1687424ae8ce56b35a23da" sha256="40a006d32d1b0cbc249903100accb9a90c975a460e0d11d4ff460e2002ccd333"/>
+	</game>
+	<game name="Neo Mystery Bonus - Pocket Casino Series (World) (En,Ja)" id="0048">
+		<category>Games</category>
+		<description>Neo Mystery Bonus - Pocket Casino Series (World) (En,Ja)</description>
+		<release name="Neo Mystery Bonus - Pocket Casino Series (World) (En,Ja)" region="World" language="En"/>
+		<release name="Neo Mystery Bonus - Pocket Casino Series (World) (En,Ja)" region="World" language="Ja"/>
+		<rom name="Neo Mystery Bonus - Pocket Casino Series (World) (En,Ja).ngc" size="1048576" crc="e79dc5b3" md5="cef050e2591435a5c41ff851afa55a82" sha1="0d137a2cac0a03ab55dfeb4dbaf3929477cfb5d0" sha256="421914d275e780ef6dd2d23a47a92156df9130dcb1928f2c771249336bdc9631"/>
+	</game>
+	<game name="Neo Poke Pro Yakyuu (Japan) (v1F)" cloneof="Neo Poke Pro Yakyuu (Japan) (v32)" id="0124">
+		<category>Games</category>
+		<description>Neo Poke Pro Yakyuu (Japan) (v1F)</description>
+		<release name="Neo Poke Pro Yakyuu (Japan) (v1F)" region="Japan" language="Ja"/>
+		<rom name="Neo Poke Pro Yakyuu (Japan) (v1F).ngc" size="1048576" crc="3ca883a5" md5="ff5b122066dcc0f29ac4bcbcb3ab020a" sha1="bb5dca72bc973eb8bc83952c9ba60e3247cd578a" sha256="ae3ed9c4a995c692385c7a4645c17bf3fb6c81d87385c342b0956894040d1219"/>
+	</game>
+	<game name="Neo Poke Pro Yakyuu (Japan) (v32)" id="0049">
+		<category>Games</category>
+		<description>Neo Poke Pro Yakyuu (Japan) (v32)</description>
+		<release name="Neo Poke Pro Yakyuu (Japan) (v32)" region="Japan" language="Ja"/>
+		<rom name="Neo Poke Pro Yakyuu (Japan) (v32).ngc" size="1048576" crc="c624388f" md5="c5f81f7d06bec3d921ce55e53060a98f" sha1="80b0037ddfb83090f13189b59c486fcd54d3276c" sha256="ee5cdd1360924cb86eb4fe8431ad5159e62ebac3d660f6d7a26346bfad385dd6"/>
+	</game>
+	<game name="Neo Turf Masters (World) (En,Ja)" id="0050">
+		<category>Games</category>
+		<description>Neo Turf Masters (World) (En,Ja)</description>
+		<release name="Neo Turf Masters (World) (En,Ja)" region="World" language="En"/>
+		<release name="Neo Turf Masters (World) (En,Ja)" region="World" language="Ja"/>
+		<rom name="Neo Turf Masters (World) (En,Ja).ngc" size="2097152" crc="e0e853dd" md5="1222a2eca8db9b54f044fa2fe2f50a61" sha1="308361297bd28ebb8fb60713ae5e00cee514415c" sha256="92c7b5a3d6d28f8918c030afb95f9e4c13038326b8391d7fb05feac26917051a"/>
+	</game>
+	<game name="NeoGeo Cup '98 Plus Color - Pocket Sports Series (World) (En,Ja)" id="0047">
+		<category>Games</category>
+		<description>NeoGeo Cup '98 Plus Color - Pocket Sports Series (World) (En,Ja)</description>
+		<release name="NeoGeo Cup '98 Plus Color - Pocket Sports Series (World) (En,Ja)" region="World" language="En"/>
+		<release name="NeoGeo Cup '98 Plus Color - Pocket Sports Series (World) (En,Ja)" region="World" language="Ja"/>
+		<rom name="NeoGeo Cup '98 Plus Color - Pocket Sports Series (World) (En,Ja).ngc" size="1048576" crc="c0da4fe9" md5="a6c3369f28558e4a9719dc54d50be713" sha1="a8bb64f093b418a88e674d9fab62a34fc220ea9f" sha256="ab897e8bfa112a0056b75926ce771009cbcb2b05b4b256c2f1fc8f98350c1cb4"/>
+	</game>
+	<game name="Nige-ron-pa (Japan)" id="0051">
+		<category>Games</category>
+		<description>Nige-ron-pa (Japan)</description>
+		<release name="Nige-ron-pa (Japan)" region="Japan" language="Ja"/>
+		<rom name="Nige-ron-pa (Japan).ngc" size="1048576" crc="a9063d9e" md5="150a9aac914c6491911d8518fdaec01c" sha1="eb382b818dbbe9d1bcf88c02918ad55bfd520f33" sha256="ef287cb0f270a47454c51366fde403cabcc4d2ced551b49807e356fa326dbf89"/>
+	</game>
+	<game name="Oekaki Puzzle (Japan)" cloneof="Picture Puzzle (Europe)" id="0052">
+		<category>Games</category>
+		<description>Oekaki Puzzle (Japan)</description>
+		<release name="Oekaki Puzzle (Japan)" region="Japan" language="Ja"/>
+		<rom name="Oekaki Puzzle (Japan).ngc" size="524288" crc="a9118e82" md5="da4c66daa902d5c1c6a26123c75d7894" sha1="c4231f90d69fc2b7d794aa9eadc59244473441e6" sha256="f7c3913a1513d4e261d59a8cf38617f6645db511050c3266f60f520a6edf0feb"/>
+	</game>
+	<game name="Pac-Man (World) (En,Ja)" id="0053">
+		<category>Games</category>
+		<description>Pac-Man (World) (En,Ja)</description>
+		<release name="Pac-Man (World) (En,Ja)" region="World" language="En"/>
+		<release name="Pac-Man (World) (En,Ja)" region="World" language="Ja"/>
+		<rom name="Pac-Man (World) (En,Ja).ngc" size="524288" crc="21e8cc15" md5="ac5ad76d5e6614ae576c2c837f0fab1d" sha1="ec64ab4be669f9860c216151094b9eea898c64b9" sha256="8c5485e736b6061729e5028f97d03e46c7db911059cd01df8490d6860e46f843"/>
+	</game>
+	<game name="Pachi-Slot Aruze Oukoku - Porcano 2 (Japan)" id="0061">
+		<category>Games</category>
+		<description>Pachi-Slot Aruze Oukoku - Porcano 2 (Japan)</description>
+		<release name="Pachi-Slot Aruze Oukoku - Porcano 2 (Japan)" region="Japan" language="Ja"/>
+		<rom name="Pachi-Slot Aruze Oukoku - Porcano 2 (Japan).ngc" size="1048576" crc="96ddfbe3" md5="8efd3c40988452782e55548f7369a050" sha1="fd51a5a649cebfe5692ee498d11c48fd84661dc4" sha256="ee5e4df0f4f84b065b96c37cd5f7ecbe6c6ccda35c744d7869c07e4bd9eef268"/>
+	</game>
+	<game name="Pachi-Slot Aruze Oukoku Pocket - Azteca (Japan) (v03)" cloneof="Pachi-Slot Aruze Oukoku Pocket - Azteca (Japan) (v06)" id="0127">
+		<category>Games</category>
+		<description>Pachi-Slot Aruze Oukoku Pocket - Azteca (Japan) (v03)</description>
+		<release name="Pachi-Slot Aruze Oukoku Pocket - Azteca (Japan) (v03)" region="Japan" language="Ja"/>
+		<rom name="Pachi-Slot Aruze Oukoku Pocket - Azteca (Japan) (v03).ngc" size="524288" crc="2314440a" md5="055def75bba47ee4b195c3337deaf3c6" sha1="449054f72eee89bd76bbcdf47ee0bc814ae8a4c0" sha256="6ceba1945d85c0c301e5141be5176ff1485106f908faa23199d090e683a025ff"/>
+	</game>
+	<game name="Pachi-Slot Aruze Oukoku Pocket - Azteca (Japan) (v04)" cloneof="Pachi-Slot Aruze Oukoku Pocket - Azteca (Japan) (v06)" id="0054">
+		<category>Games</category>
+		<description>Pachi-Slot Aruze Oukoku Pocket - Azteca (Japan) (v04)</description>
+		<release name="Pachi-Slot Aruze Oukoku Pocket - Azteca (Japan) (v04)" region="Japan" language="Ja"/>
+		<rom name="Pachi-Slot Aruze Oukoku Pocket - Azteca (Japan) (v04).ngc" size="1048576" crc="9ff16520" md5="d51ff075012f76166a58dfe2f32eedd6" sha1="ed9f717e629b0a55714b58df12a6a75e27d50577" sha256="db18ac7f45b84e8a1d4430e86eb5a6d85a0af4eaf20a58d8905bbe27b2d65018"/>
+	</game>
+	<game name="Pachi-Slot Aruze Oukoku Pocket - Azteca (Japan) (v06)" id="0128">
+		<category>Games</category>
+		<description>Pachi-Slot Aruze Oukoku Pocket - Azteca (Japan) (v06)</description>
+		<release name="Pachi-Slot Aruze Oukoku Pocket - Azteca (Japan) (v06)" region="Japan" language="Ja"/>
+		<rom name="Pachi-Slot Aruze Oukoku Pocket - Azteca (Japan) (v06).ngc" size="1048576" crc="c9b55e6b" md5="0e80317aa0d68e769a4a20019a8eb4bd" sha1="3dd183d9b2bdf358d604331fd78de423de287160" sha256="7b117ccb78659493b907b3c530833a16094f970e680d6bf94ce448a313b081c3"/>
+	</game>
+	<game name="Pachi-Slot Aruze Oukoku Pocket - Dekahel 2 (Japan)" id="0055">
+		<category>Games</category>
+		<description>Pachi-Slot Aruze Oukoku Pocket - Dekahel 2 (Japan)</description>
+		<release name="Pachi-Slot Aruze Oukoku Pocket - Dekahel 2 (Japan)" region="Japan" language="Ja"/>
+		<rom name="Pachi-Slot Aruze Oukoku Pocket - Dekahel 2 (Japan).ngc" size="1048576" crc="346f3c46" md5="1cbb6692db2357f80691bc7462ed4eae" sha1="7f5446cfe6535db63678d6fc26f598ed3ff73b7f" sha256="2d3f48467c624ead27fdce93e1cfb0168fc5d7787210ef61098cdf10c3656fa9"/>
+	</game>
+	<game name="Pachi-Slot Aruze Oukoku Pocket - Delsol 2 (Japan)" id="0056">
+		<category>Games</category>
+		<description>Pachi-Slot Aruze Oukoku Pocket - Delsol 2 (Japan)</description>
+		<release name="Pachi-Slot Aruze Oukoku Pocket - Delsol 2 (Japan)" region="Japan" language="Ja"/>
+		<rom name="Pachi-Slot Aruze Oukoku Pocket - Delsol 2 (Japan).ngc" size="1048576" crc="1ea69db1" md5="59c600d2ffe3a44e8cfa96824dc90c8e" sha1="df3da196c01be73b0dea64b86ab27ec7dde5b594" sha256="3835c6e7be0cbc03df6f4c55675392393b069e0907b032a26005654c690b4e5c"/>
+	</game>
+	<game name="Pachi-Slot Aruze Oukoku Pocket - Hanabi (Japan) (v03)" cloneof="Pachi-Slot Aruze Oukoku Pocket - Hanabi (Japan) (v05)" id="0058">
+		<category>Games</category>
+		<description>Pachi-Slot Aruze Oukoku Pocket - Hanabi (Japan) (v03)</description>
+		<release name="Pachi-Slot Aruze Oukoku Pocket - Hanabi (Japan) (v03)" region="Japan" language="Ja"/>
+		<rom name="Pachi-Slot Aruze Oukoku Pocket - Hanabi (Japan) (v03).ngc" size="524288" crc="4014ff42" md5="e8e2fd11e237887d7253552b9b60bc87" sha1="479eb217aa85f9d115682b88c21dfb8ee30ad0e7" sha256="8154263104942341d36917d8d57035c7bc778ebaaa52b5b11dbf4a920851cc7f"/>
+	</game>
+	<game name="Pachi-Slot Aruze Oukoku Pocket - Hanabi (Japan) (v04)" cloneof="Pachi-Slot Aruze Oukoku Pocket - Hanabi (Japan) (v05)" id="0133">
+		<category>Games</category>
+		<description>Pachi-Slot Aruze Oukoku Pocket - Hanabi (Japan) (v04)</description>
+		<release name="Pachi-Slot Aruze Oukoku Pocket - Hanabi (Japan) (v04)" region="Japan" language="Ja"/>
+		<rom name="Pachi-Slot Aruze Oukoku Pocket - Hanabi (Japan) (v04).ngc" size="1048576" crc="2a4f45ab" md5="4815d650ed99245dbdb62ec463052329" sha1="710a8f700e640785675225c54349a3cd7770a975" sha256="94375f84d2a463dd491155638152c90182d2edb0cb38b240940019c782cab8b8"/>
+	</game>
+	<game name="Pachi-Slot Aruze Oukoku Pocket - Hanabi (Japan) (v05)" id="0059">
+		<category>Games</category>
+		<description>Pachi-Slot Aruze Oukoku Pocket - Hanabi (Japan) (v05)</description>
+		<release name="Pachi-Slot Aruze Oukoku Pocket - Hanabi (Japan) (v05)" region="Japan" language="Ja"/>
+		<rom name="Pachi-Slot Aruze Oukoku Pocket - Hanabi (Japan) (v05).ngc" size="524288" crc="a0c26f9b" md5="b3edf9ad99cbd433c8e62836f32092ec" sha1="9d30e0c67851bc99e4a77e89e3fbc101b358b458" sha256="0a07e5647b60dd4f2c8433440a313512e6a791d1c34dc5f73f18a4e4d8e5752b"/>
+	</game>
+	<game name="Pachi-Slot Aruze Oukoku Pocket - Ohanabi (Japan)" id="0060">
+		<category>Games</category>
+		<description>Pachi-Slot Aruze Oukoku Pocket - Ohanabi (Japan)</description>
+		<release name="Pachi-Slot Aruze Oukoku Pocket - Ohanabi (Japan)" region="Japan" language="Ja"/>
+		<rom name="Pachi-Slot Aruze Oukoku Pocket - Ohanabi (Japan).ngc" size="1048576" crc="8a88c50f" md5="3c340fe221635ba52aae8adcc8e43758" sha1="a99e8aabefd36a5a297fef59e376cf24f8f619f8" sha256="f61106d10d8654afc5206ddf46e7d66d228d9c2bd4c0a6ada154d3cf8d09d528"/>
+	</game>
+	<game name="Pachi-Slot Aruze Oukoku Pocket - Ward of Lights (Japan) (v03)" cloneof="Pachi-Slot Aruze Oukoku Pocket - Ward of Lights (Japan) (v04)" id="0062">
+		<category>Games</category>
+		<description>Pachi-Slot Aruze Oukoku Pocket - Ward of Lights (Japan) (v03)</description>
+		<release name="Pachi-Slot Aruze Oukoku Pocket - Ward of Lights (Japan) (v03)" region="Japan" language="Ja"/>
+		<rom name="Pachi-Slot Aruze Oukoku Pocket - Ward of Lights (Japan) (v03).ngc" size="524288" crc="d46cbc54" md5="da41c689c64815ad2b374a7ff52e819b" sha1="c17a535195719e0dafb5de76663c7649d209f0ff" sha256="891b59d744a15b8e481c039d6e87519ea7ddb47d17697297809d412d46708932"/>
+	</game>
+	<game name="Pachi-Slot Aruze Oukoku Pocket - Ward of Lights (Japan) (v04)" id="0132">
+		<category>Games</category>
+		<description>Pachi-Slot Aruze Oukoku Pocket - Ward of Lights (Japan) (v04)</description>
+		<release name="Pachi-Slot Aruze Oukoku Pocket - Ward of Lights (Japan) (v04)" region="Japan" language="Ja"/>
+		<rom name="Pachi-Slot Aruze Oukoku Pocket - Ward of Lights (Japan) (v04).ngc" size="1048576" crc="a54ec305" md5="910591868ba9ac522f151e6d3888fd03" sha1="7645e84b645223534002b13ee88e825fada4b80d" sha256="d9c9495538ee8c46b0b65fe50a4d5c17714bc43fd07448846df08880efc71f98"/>
+	</game>
+	<game name="Pachi-Slot Aruze Oukoku Pocket - e-CUP (Japan) (v03)" cloneof="Pachi-Slot Aruze Oukoku Pocket - e-CUP (Japan) (v04)" id="0129">
+		<category>Games</category>
+		<description>Pachi-Slot Aruze Oukoku Pocket - e-CUP (Japan) (v03)</description>
+		<release name="Pachi-Slot Aruze Oukoku Pocket - e-CUP (Japan) (v03)" region="Japan" language="Ja"/>
+		<rom name="Pachi-Slot Aruze Oukoku Pocket - e-CUP (Japan) (v03).ngc" size="1048576" crc="b5311753" md5="e590485361586f739cd4ef9cb7bae391" sha1="13ae4c1513c56a62a2b670d43a3065facb251bc6" sha256="7f1518e613d537f8c67767a6fbd6a0220d6e301066ba888149b838b61915a685"/>
+	</game>
+	<game name="Pachi-Slot Aruze Oukoku Pocket - e-CUP (Japan) (v04)" id="0057">
+		<category>Games</category>
+		<description>Pachi-Slot Aruze Oukoku Pocket - e-CUP (Japan) (v04)</description>
+		<release name="Pachi-Slot Aruze Oukoku Pocket - e-CUP (Japan) (v04)" region="Japan" language="Ja"/>
+		<rom name="Pachi-Slot Aruze Oukoku Pocket - e-CUP (Japan) (v04).ngc" size="1048576" crc="0a7c32df" md5="0dbeba28e62ece2e9b08c62890650ff5" sha1="e46aa1eb7c33c2f71bb236d279ca1d7c5d841e74" sha256="97275fb5ffb3e38b25059af693f6d0c74c3b90eebec27202b7801a8b64079c54"/>
+	</game>
+	<game name="Pachinko Hisshou Guide - Pocket Parlor (Japan)" id="0063">
+		<category>Games</category>
+		<description>Pachinko Hisshou Guide - Pocket Parlor (Japan)</description>
+		<release name="Pachinko Hisshou Guide - Pocket Parlor (Japan)" region="Japan" language="Ja"/>
+		<rom name="Pachinko Hisshou Guide - Pocket Parlor (Japan).ngc" size="1048576" crc="543dc257" md5="90dd6442d5bb8f6c51f9e0836ba2b428" sha1="db839c56dc849b0f1924a029b4e8104bf8c738cf" sha256="fb6082cca40cbc0de12a80fbd2a66502f52030487d5078824d7007a15f93bf9b"/>
+	</game>
+	<game name="Party Mail (Japan)" id="0064">
+		<category>Games</category>
+		<description>Party Mail (Japan)</description>
+		<release name="Party Mail (Japan)" region="Japan" language="Ja"/>
+		<rom name="Party Mail (Japan).ngc" size="1048576" crc="4da8a1c0" md5="c86e826c8413c0dc3ad19a63ba6d4d97" sha1="b805c908c1bef29c0792a73b6a6a05dd27cc5ff0" sha256="83c7665f72ec910acd6536191d2d7aadb0e09f7e73055e217164b155490b3e50"/>
+	</game>
+	<game name="Picture Puzzle (Europe)" id="0065">
+		<category>Games</category>
+		<description>Picture Puzzle (Europe)</description>
+		<release name="Picture Puzzle (Europe)" region="Europe" language="En"/>
+		<rom name="Picture Puzzle (Europe).ngc" size="524288" crc="6f2d35e6" md5="9a58387d2110138dbcb7199e208174da" sha1="f6f4a7e412eca2235dfdd575cd0df64adaa2f476"/>
+	</game>
+	<game name="Pocket Love - if (Japan)" id="0066">
+		<category>Games</category>
+		<description>Pocket Love - if (Japan)</description>
+		<release name="Pocket Love - if (Japan)" region="Japan" language="Ja"/>
+		<rom name="Pocket Love - if (Japan).ngc" size="2097152" crc="c2ee1ee5" md5="62347264d918559a95034be7cea8756d" sha1="2b5d9628b7b5911f90c28321227d47a527a719ea" sha256="9aa72a5bd6b224ef182c3d05ae3346fc53ad513198da4917767c5960aec62f30"/>
+	</game>
+	<game name="Pocket Reversi (Europe) (v03)" cloneof="Pocket Reversi (Europe) (vA1)" id="0134">
+		<category>Games</category>
+		<description>Pocket Reversi (Europe) (v03)</description>
+		<release name="Pocket Reversi (Europe) (v03)" region="Europe" language="En"/>
+		<rom name="Pocket Reversi (Europe) (v03).ngc" size="524288" crc="9589f2f2" md5="48b11e8772b752db938685639b667e2f" sha1="e1698b96dd37aca3d0b977235234550292baaa74" sha256="fde70f1e88bdcbca7d5f4d4b32d5d504c55f15a491ac734acb2a1b7b85aa2cad"/>
+	</game>
+	<game name="Pocket Reversi (Europe) (vA1)" id="0067">
+		<category>Games</category>
+		<description>Pocket Reversi (Europe) (vA1)</description>
+		<release name="Pocket Reversi (Europe) (vA1)" region="Europe" language="En"/>
+		<rom name="Pocket Reversi (Europe) (vA1).ngc" size="524288" crc="22c07c25" md5="17e31ed811e4f55f4e258465f1f56fc4" sha1="b7678e5e38a83ab227f320dc356a74628ea8b6e4" sha256="8b51f3dc837566c386d367e949de89eeb89e9a84ce720173a5039e490ef7893f"/>
+	</game>
+	<game name="Pocket Reversi (Japan)" cloneof="Pocket Reversi (Europe) (vA1)" id="0068">
+		<category>Games</category>
+		<description>Pocket Reversi (Japan)</description>
+		<release name="Pocket Reversi (Japan)" region="Japan" language="Ja"/>
+		<rom name="Pocket Reversi (Japan).ngc" size="524288" crc="d115fedf" md5="68a35607e4bdc8ba132dd9d8581c95c2" sha1="791d7068c9ea2f50e74524977a5bd0ab032c83ab" sha256="fe11d37683122713060693321758a71161ee18f635363c2811fe91bc37de2134"/>
+	</game>
+	<game name="Pocket Tennis Color - Pocket Sports Series (World) (En,Ja)" id="0069">
+		<category>Games</category>
+		<description>Pocket Tennis Color - Pocket Sports Series (World) (En,Ja)</description>
+		<release name="Pocket Tennis Color - Pocket Sports Series (World) (En,Ja)" region="World" language="En"/>
+		<release name="Pocket Tennis Color - Pocket Sports Series (World) (En,Ja)" region="World" language="Ja"/>
+		<rom name="Pocket Tennis Color - Pocket Sports Series (World) (En,Ja).ngc" size="524288" crc="e0b9aa22" md5="8b7105aee46be795f1ee0a0f9efdb445" sha1="680a1631120ae3418db9f60b16206e65e4ec9b33" sha256="7001531c3e19b348efe5c68607c8c061c501dfc17221761d473d19e83ab95b37"/>
+	</game>
+	<game name="Puyo Pop (Japan) (En,Ja) (v05)" cloneof="Puyo Pop (USA) (En,Ja) (v06)" id="0070">
+		<category>Games</category>
+		<description>Puyo Pop (Japan) (En,Ja) (v05)</description>
+		<release name="Puyo Pop (Japan) (En,Ja) (v05)" region="Japan" language="En"/>
+		<release name="Puyo Pop (Japan) (En,Ja) (v05)" region="Japan" language="Ja"/>
+		<rom name="Puyo Pop (Japan) (En,Ja) (v05).ngc" size="1048576" crc="3090b2fd" md5="7ff625dc216783b034b011351c98255f" sha1="27c3250fb17f291832fa7189a35478d017a0ef5e" sha256="205b6472832c609286b9881ef7eef9a4322320a519440d4cbb8cb67b591acf2f"/>
+	</game>
+	<game name="Puyo Pop (USA) (En,Ja) (v06)" id="0071">
+		<category>Games</category>
+		<description>Puyo Pop (USA) (En,Ja) (v06)</description>
+		<release name="Puyo Pop (USA) (En,Ja) (v06)" region="USA" language="En"/>
+		<release name="Puyo Pop (USA) (En,Ja) (v06)" region="USA" language="Ja"/>
+		<rom name="Puyo Pop (USA) (En,Ja) (v06).ngc" size="1048576" crc="5ea9559e" md5="c9c71e905dd74c9b58467c3fa78b3be1" sha1="cdc044d75b38b1e6574f6757723b9899a18dc989" sha256="603acf2fefb5f38abf8160e844676d01a96aa1d1d80b9caa64a3c37eb4aa4670"/>
+	</game>
+	<game name="Puzzle Bobble Mini (Europe)" id="0073">
+		<category>Games</category>
+		<description>Puzzle Bobble Mini (Europe)</description>
+		<release name="Puzzle Bobble Mini (Europe)" region="Europe" language="En"/>
+		<rom name="Puzzle Bobble Mini (Europe).ngc" size="1048576" crc="d31312dc" md5="f371e9278973926ad01a0982772f16ae" sha1="0966c6ea1ae5b6ae15f769be5aae41f65acfb3f7" sha256="b4161959916e5e7247dd88e1cda8f57de90b7de81589f990256d6dad6681cbd7"/>
+	</game>
+	<game name="Puzzle Bobble Mini (Japan) (En)" cloneof="Puzzle Bobble Mini (Europe)" id="0100">
+		<category>Games</category>
+		<description>Puzzle Bobble Mini (Japan) (En)</description>
+		<release name="Puzzle Bobble Mini (Japan) (En)" region="Japan" language="En"/>
+		<rom name="Puzzle Bobble Mini (Japan) (En).ngc" size="1048576" crc="d6544f6c" md5="25582ba7d573db17de4ff717f08d0221" sha1="0e9e5e60f60d7795430f4e3d4b655e796998f856" sha256="cbaec1afd02f7d8ce5e4811b66a90bc5ba60f4632f73595ae2db8f8cf2c39dfe"/>
+	</game>
+	<game name="Puzzle Link (USA, Europe)" id="0074">
+		<category>Games</category>
+		<description>Puzzle Link (USA, Europe)</description>
+		<release name="Puzzle Link (USA, Europe)" region="Europe" language="En"/>
+		<release name="Puzzle Link (USA, Europe)" region="USA" language="En"/>
+		<rom name="Puzzle Link (USA, Europe).ngc" size="524288" crc="8d0610ac" md5="df694e1f69ded1df68a4ac52a13fb44a" sha1="2507d1bdeb67bdb6379424817707693549efb487" sha256="a75ad5d83994d09f9acc7f8e1c538a0f58e0593d4fe362f2b03b9154ff118ad5"/>
+	</game>
+	<game name="Puzzle Link 2 (USA, Europe)" id="0075">
+		<category>Games</category>
+		<description>Puzzle Link 2 (USA, Europe)</description>
+		<release name="Puzzle Link 2 (USA, Europe)" region="Europe" language="En"/>
+		<release name="Puzzle Link 2 (USA, Europe)" region="USA" language="En"/>
+		<rom name="Puzzle Link 2 (USA, Europe).ngc" size="1048576" crc="ba9ca21c" md5="9b30216da76c9de87caea93f13977396" sha1="57e44ee5168b69fd3b0ede0fe0dda44070e0aad1" sha256="7fb201f71eb4dac08fb351ab6c6bdc1dd3fde5681f0cc460a800696953a70d6e"/>
+	</game>
+	<game name="Renketsu Puzzle Tsunagete Pon! Color (Japan)" cloneof="Puzzle Link (USA, Europe)" id="0076">
+		<category>Games</category>
+		<description>Renketsu Puzzle Tsunagete Pon! Color (Japan)</description>
+		<release name="Renketsu Puzzle Tsunagete Pon! Color (Japan)" region="Japan" language="Ja"/>
+		<rom name="Renketsu Puzzle Tsunagete Pon! Color (Japan).ngc" size="524288" crc="c3f3e83c" md5="72119f96aa1ebd5a01562b0395089bcf" sha1="e8e903bc4baf5ab61726626af7c0d1a571db4a40" sha256="b28b9276eb2ededeadcc4a0255bf11cc68fe998659aeef1020acae17872711c3"/>
+	</game>
+	<game name="Rockman - Battle &amp; Fighters (Japan)" id="0077">
+		<category>Games</category>
+		<description>Rockman - Battle &amp; Fighters (Japan)</description>
+		<release name="Rockman - Battle &amp; Fighters (Japan)" region="Japan" language="Ja"/>
+		<rom name="Rockman - Battle &amp; Fighters (Japan).ngc" size="2097152" crc="3c010642" md5="1ca3a6b4e23c51bdab70182c3406e73d" sha1="7aabe4ce0a81c959625f1a9e254c144893f0e16a" sha256="ff8216f4a3b1b5006be80b4125b53742549db5d7230ced237d6d02b0a39d3849"/>
+	</game>
+	<game name="SNK Gals' Fighters (Japan)" cloneof="SNK Gals' Fighters (USA, Europe)" id="0082">
+		<category>Games</category>
+		<description>SNK Gals' Fighters (Japan)</description>
+		<release name="SNK Gals' Fighters (Japan)" region="Japan" language="Ja"/>
+		<rom name="SNK Gals' Fighters (Japan).ngc" size="2097152" crc="d73b5b9f" md5="6beb5fe00811f44c456030b052b7a325" sha1="32b16d5200a6029f7babc5c233c91e9277550c80" sha256="d5b345da3174a924a3426bc746f08c6cd695f333fb2ec781fb3c04579dab3866"/>
+	</game>
+	<game name="SNK Gals' Fighters (USA, Europe)" id="0083">
+		<category>Games</category>
+		<description>SNK Gals' Fighters (USA, Europe)</description>
+		<release name="SNK Gals' Fighters (USA, Europe)" region="Europe" language="En"/>
+		<release name="SNK Gals' Fighters (USA, Europe)" region="USA" language="En"/>
+		<rom name="SNK Gals' Fighters (USA, Europe).ngc" size="2097152" crc="b02c2be7" md5="08922d2bdc6c80d56ddf50836ccad77c" sha1="09a74b42ef9b63aca675aead5854512ad0b585a1" sha256="b002ff9568107834c170a4da03912e3a4b54d6cb767967fc6dae7fcaaa89c782"/>
+	</game>
+	<game name="SNK vs. Capcom - Card Fighters 2 - Expand Edition (Japan)" id="0084">
+		<category>Games</category>
+		<description>SNK vs. Capcom - Card Fighters 2 - Expand Edition (Japan)</description>
+		<release name="SNK vs. Capcom - Card Fighters 2 - Expand Edition (Japan)" region="Japan" language="Ja"/>
+		<rom name="SNK vs. Capcom - Card Fighters 2 - Expand Edition (Japan).ngc" size="2097152" crc="ccbcfda7" md5="ebc0e8c33d1a5e5be5457ad988233feb" sha1="2c4fc8594f8ba2bf39e62fe8bcb79fc2df5a83b6" sha256="aa09950fd6e6b79e372f937262ba53eaf81fe940556126c0f05f13eca47ffad5"/>
+	</game>
+	<game name="SNK vs. Capcom - Card Fighters' Clash - Capcom Version (USA, Europe)" id="0085">
+		<category>Games</category>
+		<description>SNK vs. Capcom - Card Fighters' Clash - Capcom Version (USA, Europe)</description>
+		<release name="SNK vs. Capcom - Card Fighters' Clash - Capcom Version (USA, Europe)" region="Europe" language="En"/>
+		<release name="SNK vs. Capcom - Card Fighters' Clash - Capcom Version (USA, Europe)" region="USA" language="En"/>
+		<rom name="SNK vs. Capcom - Card Fighters' Clash - Capcom Version (USA, Europe).ngc" size="2097152" crc="80ce137b" md5="3bcc1c9ef59a75e3c2e6b49be6b84bab" sha1="2a95ab1fe62b6a9dc30a05131ad212ba2de5c3cd" sha256="e59e0ebf810200a634c6063fcbdf3489635d7d3521b43e569f7251236a4548f6"/>
+	</game>
+	<game name="SNK vs. Capcom - Card Fighters' Clash - SNK Version (USA, Europe)" id="0086">
+		<category>Games</category>
+		<description>SNK vs. Capcom - Card Fighters' Clash - SNK Version (USA, Europe)</description>
+		<release name="SNK vs. Capcom - Card Fighters' Clash - SNK Version (USA, Europe)" region="Europe" language="En"/>
+		<release name="SNK vs. Capcom - Card Fighters' Clash - SNK Version (USA, Europe)" region="USA" language="En"/>
+		<rom name="SNK vs. Capcom - Card Fighters' Clash - SNK Version (USA, Europe).ngc" size="2097152" crc="94b63a97" md5="74e8381e94565e21a3197449bb4423bf" sha1="dfb232a527647337d6274ddf9d8b3d94281fd86d" sha256="3c0e17694c9476fa8995b56b74a9f92966451025a5712ab8f9a7e08cffd86baf"/>
+	</game>
+	<game name="SNK vs. Capcom - Gekitotsu Card Fighters - Capcom Supporter Version (Japan)" cloneof="SNK vs. Capcom - Card Fighters' Clash - Capcom Version (USA, Europe)" id="0087">
+		<category>Games</category>
+		<description>SNK vs. Capcom - Gekitotsu Card Fighters - Capcom Supporter Version (Japan)</description>
+		<release name="SNK vs. Capcom - Gekitotsu Card Fighters - Capcom Supporter Version (Japan)" region="Japan" language="Ja"/>
+		<rom name="SNK vs. Capcom - Gekitotsu Card Fighters - Capcom Supporter Version (Japan).ngc" size="2097152" crc="9217159b" md5="e99ac2011126b8b617e77caff032d744" sha1="3b1d5ac5b4aaf1aa04479e46961c4d7c458d70fb" sha256="e231a728bb54d919635ce3bc4be5f2ad77195c1cd87efe3d17960e8ffbd1c392"/>
+	</game>
+	<game name="SNK vs. Capcom - Gekitotsu Card Fighters - SNK Supporter Version (Japan)" cloneof="SNK vs. Capcom - Card Fighters' Clash - SNK Version (USA, Europe)" id="0088">
+		<category>Games</category>
+		<description>SNK vs. Capcom - Gekitotsu Card Fighters - SNK Supporter Version (Japan)</description>
+		<release name="SNK vs. Capcom - Gekitotsu Card Fighters - SNK Supporter Version (Japan)" region="Japan" language="Ja"/>
+		<rom name="SNK vs. Capcom - Gekitotsu Card Fighters - SNK Supporter Version (Japan).ngc" size="2097152" crc="7065295c" md5="6cf60c8e14d7caacca38ff13963f5a32" sha1="551ceb97d1e3e6384221be738b11efb5d936ffd6" sha256="5405869c77fa0f5c6b978f92cd9557bd7740d42d22169d9830a4cf3706cc5787"/>
+	</game>
+	<game name="SNK vs. Capcom - The Match of the Millennium (World) (En,Ja)" id="0089">
+		<category>Games</category>
+		<description>SNK vs. Capcom - The Match of the Millennium (World) (En,Ja)</description>
+		<release name="SNK vs. Capcom - The Match of the Millennium (World) (En,Ja)" region="World" language="En"/>
+		<release name="SNK vs. Capcom - The Match of the Millennium (World) (En,Ja)" region="World" language="Ja"/>
+		<rom name="SNK vs. Capcom - The Match of the Millennium (World) (En,Ja).ngc" size="4194304" crc="682a7a7b" md5="dd285dbdb0e46a1b0e8ea9a5d840e070" sha1="0806e4a0cff55180e158c9af0060fac17ee9243a" sha256="a95d23259d855375d71f0a09a3ec09a4f1433c721d8c58b6f85ea83f66e2c716"/>
+	</game>
+	<game name="Samurai Shodown! 2 - Pocket Fighting Series (World) (En,Ja)" id="0078">
+		<category>Games</category>
+		<description>Samurai Shodown! 2 - Pocket Fighting Series (World) (En,Ja)</description>
+		<release name="Samurai Shodown! 2 - Pocket Fighting Series (World) (En,Ja)" region="World" language="En"/>
+		<release name="Samurai Shodown! 2 - Pocket Fighting Series (World) (En,Ja)" region="World" language="Ja"/>
+		<rom name="Samurai Shodown! 2 - Pocket Fighting Series (World) (En,Ja).ngc" size="2097152" crc="58a62fb2" md5="9b11b2632f926301096a40491042a089" sha1="5c87a9109bb2c7c99f7dd1b9b9a7b807776862b1" sha256="a6b9e772fd9034bfc55922e691afa7a9e01e4facb6788cdb8a60aadb93c4b1b8"/>
+	</game>
+	<game name="Shanghai Mini (World) (En,Ja)" id="0079">
+		<category>Games</category>
+		<description>Shanghai Mini (World) (En,Ja)</description>
+		<release name="Shanghai Mini (World) (En,Ja)" region="World" language="En"/>
+		<release name="Shanghai Mini (World) (En,Ja)" region="World" language="Ja"/>
+		<rom name="Shanghai Mini (World) (En,Ja).ngc" size="1048576" crc="90732d53" md5="7c262a2c6390445170d0bf83290c939c" sha1="3e3e625852ac4997d3e3739e59c16e9a74f40f19" sha256="df62c25ab53620263cc7478708e982bf81e3a3fcdd1ef6c8b36a82f9226312a5"/>
+	</game>
+	<game name="Shinki Sekai Evolution - Hateshinai Dungeon (Japan)" cloneof="Evolution - Eternal Dungeons (Europe) (vA1)" id="0080">
+		<category>Games</category>
+		<description>Shinki Sekai Evolution - Hateshinai Dungeon (Japan)</description>
+		<release name="Shinki Sekai Evolution - Hateshinai Dungeon (Japan)" region="Japan" language="Ja"/>
+		<rom name="Shinki Sekai Evolution - Hateshinai Dungeon (Japan).ngc" size="2097152" crc="e006f42f" md5="3ab7276071d35cd11f316b6b936cee38" sha1="61827b7a13b3efe6a6b60f314fb0589a29c1bfd2" sha256="bb2abad4bf803a916ff3c730e938742e1c4cc1a716d4300088c52d8253db8eba"/>
+	</game>
+	<game name="Shougi no Tatsujin Color (Japan)" id="0081">
+		<category>Games</category>
+		<description>Shougi no Tatsujin Color (Japan)</description>
+		<release name="Shougi no Tatsujin Color (Japan)" region="Japan" language="Ja"/>
+		<rom name="Shougi no Tatsujin Color (Japan).ngc" size="524288" crc="1f2872ed" md5="a874c1d95bade2143c0712d22ddbd452" sha1="9f420d0a7cc1115f60bda1c0916247935118ce98" sha256="c87a5fa1a5698b4cd0e25aae54dad52ef996a61068183eb0c2ad9c1d21753586"/>
+	</game>
+	<game name="Sonic The Hedgehog - Pocket Adventure (World) (En,Ja)" id="0090">
+		<category>Games</category>
+		<description>Sonic The Hedgehog - Pocket Adventure (World) (En,Ja)</description>
+		<release name="Sonic The Hedgehog - Pocket Adventure (World) (En,Ja)" region="World" language="En"/>
+		<release name="Sonic The Hedgehog - Pocket Adventure (World) (En,Ja)" region="World" language="Ja"/>
+		<rom name="Sonic The Hedgehog - Pocket Adventure (World) (En,Ja).ngc" size="2097152" crc="8bd22145" md5="6123e8a783b146bdcdc6a9fa95abb0bd" sha1="5a881d8124d902b4a98d76362ad62566a86f0aba" sha256="ead73b11039667fe0dab8a4619605bacc5c5d7c708f083c29f5090fe96c6a091"/>
+	</game>
+	<game name="Soreike!! Hanafuda Doujou (Japan)" id="0091">
+		<category>Games</category>
+		<description>Soreike!! Hanafuda Doujou (Japan)</description>
+		<release name="Soreike!! Hanafuda Doujou (Japan)" region="Japan" language="Ja"/>
+		<rom name="Soreike!! Hanafuda Doujou (Japan).ngc" size="524288" crc="05fa3eb0" md5="8b12fec8e96dad41380ab419a216ad08" sha1="f4a4264eaf1605086ccbc526f21da222aa6341bf" sha256="bb8041999e622996221cd6ebc8bcfff2e1ae4b36cc8af2f5c12359b596fa578e"/>
+	</game>
+	<game name="Super Real Mahjong - Premium Collection (Japan)" id="0092">
+		<category>Games</category>
+		<description>Super Real Mahjong - Premium Collection (Japan)</description>
+		<release name="Super Real Mahjong - Premium Collection (Japan)" region="Japan" language="Ja"/>
+		<rom name="Super Real Mahjong - Premium Collection (Japan).ngc" size="2097152" crc="c6e620c3" md5="07873a332ef8ac5cb5177ee3c304ff2b" sha1="c61847bca43c5387d19096a86ef109560d71ca9b" sha256="154dece5fdce8dde43eb63b9bb3ad05539eb538b73e3bc9cbc0d2ff855df2885"/>
+	</game>
+	<game name="Tsunagete Pon! 2 (Japan)" cloneof="Puzzle Link 2 (USA, Europe)" id="0093">
+		<category>Games</category>
+		<description>Tsunagete Pon! 2 (Japan)</description>
+		<release name="Tsunagete Pon! 2 (Japan)" region="Japan" language="Ja"/>
+		<rom name="Tsunagete Pon! 2 (Japan).ngc" size="1048576" crc="129091bb" md5="2a8f9cb76e56000769e08200d8b25182" sha1="db030e02819d50315f15c00b93c3a46f1f89d126" sha256="966d5330646bf87b54cc304f71d8874d951cd17fda010a4ad8f385d2980cae33"/>
+	</game>
+</datafile>

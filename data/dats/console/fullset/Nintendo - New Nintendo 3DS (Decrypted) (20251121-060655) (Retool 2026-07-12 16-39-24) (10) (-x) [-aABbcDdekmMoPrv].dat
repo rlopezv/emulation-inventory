@@ -1,0 +1,111 @@
+<?xml version="1.0"?>
+<datafile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://datomatic.no-intro.org/stuff https://datomatic.no-intro.org/stuff/schema_nointro_datfile_v3.xsd">
+	<header>
+		<name>Nintendo - New Nintendo 3DS (Decrypted) (Retool)</name>
+		<description>Nintendo - New Nintendo 3DS (Decrypted) (10) (-x) [-aABbcDdekmMoPrv] (20251121-060655) (Retool)</description>
+		<version>20251121-060655</version>
+		<date>2026-07-12 16-39-24</date>
+		<author>aci68, Arctic Circle System, b2071988, DeadSkullzJr, Densetsu, einstein95, Hiccup, jimmsu, kaos, nnssxx, PPLToast, psykopat, rarenight, SonGoku, xprism</author>
+		<homepage>http://www.github.com/unexpectedpanda/retool</homepage>
+		<url>https://www.no-intro.org</url>
+		<clrmamepro forcenodump="required"></clrmamepro>
+		<retool>Created by Retool 2.4.9</retool>
+	</header>
+	<game name="Fire Emblem Musou (Japan)" cloneof="Fire Emblem Warriors (Europe) (En,Fr,De,Es,It)" id="0007">
+		<category>Games</category>
+		<description>Fire Emblem Musou (Japan)</description>
+		<release name="Fire Emblem Musou (Japan)" region="Japan" language="Ja"/>
+		<game_id>000400000F70C100</game_id>
+		<rom name="Fire Emblem Musou (Japan).3ds" size="4294967296" crc="59fbceda" md5="b937be5e84bbaa799ff1e029fd4246e4" sha1="7e8942c85fb9b1bf303bc0c7c786ba8c2fb594d2"/>
+	</game>
+	<game name="Fire Emblem Warriors (Europe) (En,Fr,De,Es,It)" id="0008">
+		<category>Games</category>
+		<description>Fire Emblem Warriors (Europe) (En,Fr,De,Es,It)</description>
+		<release name="Fire Emblem Warriors (Europe) (En,Fr,De,Es,It)" region="Europe" language="De"/>
+		<release name="Fire Emblem Warriors (Europe) (En,Fr,De,Es,It)" region="Europe" language="En"/>
+		<release name="Fire Emblem Warriors (Europe) (En,Fr,De,Es,It)" region="Europe" language="Es"/>
+		<release name="Fire Emblem Warriors (Europe) (En,Fr,De,Es,It)" region="Europe" language="Fr"/>
+		<release name="Fire Emblem Warriors (Europe) (En,Fr,De,Es,It)" region="Europe" language="It"/>
+		<game_id>000400000F70CD00</game_id>
+		<rom name="Fire Emblem Warriors (Europe) (En,Fr,De,Es,It).3ds" size="2147483648" crc="97daf61b" md5="f9b20d2a36a8dcb277695973c9587dac" sha1="8e8e2a3235e855806b93e895b5c00c55f37ac470"/>
+	</game>
+	<game name="Fire Emblem Warriors (USA)" cloneof="Fire Emblem Warriors (Europe) (En,Fr,De,Es,It)" id="0009">
+		<category>Games</category>
+		<description>Fire Emblem Warriors (USA)</description>
+		<release name="Fire Emblem Warriors (USA)" region="USA" language="En"/>
+		<game_id>000400000F70CC00</game_id>
+		<rom name="Fire Emblem Warriors (USA).3ds" size="2147483648" crc="681b255b" md5="96bac62a96075e75dcd465da78aeda90" sha1="faa8ca4da3c63dec52548d2ae23ba99e9776ef98" sha256="8c9f87e55181230ff68d7c3e7dc85d6e90cae5ef4b70ce90f8d9690212702c3c"/>
+	</game>
+	<game name="Minecraft - New Nintendo 3DS Edition (USA) (En,Ja,Fr,De,Es,It,Nl,Pt,Zh-Hant,Zh-Hans,Ko,Ru)" id="0010">
+		<category>Games</category>
+		<description>Minecraft - New Nintendo 3DS Edition (USA) (En,Ja,Fr,De,Es,It,Nl,Pt,Zh-Hant,Zh-Hans,Ko,Ru)</description>
+		<release name="Minecraft - New Nintendo 3DS Edition (USA) (En,Ja,Fr,De,Es,It,Nl,Pt,Zh-Hant,Zh-Hans,Ko,Ru)" region="USA" language="De"/>
+		<release name="Minecraft - New Nintendo 3DS Edition (USA) (En,Ja,Fr,De,Es,It,Nl,Pt,Zh-Hant,Zh-Hans,Ko,Ru)" region="USA" language="En"/>
+		<release name="Minecraft - New Nintendo 3DS Edition (USA) (En,Ja,Fr,De,Es,It,Nl,Pt,Zh-Hant,Zh-Hans,Ko,Ru)" region="USA" language="Es"/>
+		<release name="Minecraft - New Nintendo 3DS Edition (USA) (En,Ja,Fr,De,Es,It,Nl,Pt,Zh-Hant,Zh-Hans,Ko,Ru)" region="USA" language="Fr"/>
+		<release name="Minecraft - New Nintendo 3DS Edition (USA) (En,Ja,Fr,De,Es,It,Nl,Pt,Zh-Hant,Zh-Hans,Ko,Ru)" region="USA" language="It"/>
+		<release name="Minecraft - New Nintendo 3DS Edition (USA) (En,Ja,Fr,De,Es,It,Nl,Pt,Zh-Hant,Zh-Hans,Ko,Ru)" region="USA" language="Ja"/>
+		<release name="Minecraft - New Nintendo 3DS Edition (USA) (En,Ja,Fr,De,Es,It,Nl,Pt,Zh-Hant,Zh-Hans,Ko,Ru)" region="USA" language="Ko"/>
+		<release name="Minecraft - New Nintendo 3DS Edition (USA) (En,Ja,Fr,De,Es,It,Nl,Pt,Zh-Hant,Zh-Hans,Ko,Ru)" region="USA" language="Nl"/>
+		<release name="Minecraft - New Nintendo 3DS Edition (USA) (En,Ja,Fr,De,Es,It,Nl,Pt,Zh-Hant,Zh-Hans,Ko,Ru)" region="USA" language="Pt"/>
+		<release name="Minecraft - New Nintendo 3DS Edition (USA) (En,Ja,Fr,De,Es,It,Nl,Pt,Zh-Hant,Zh-Hans,Ko,Ru)" region="USA" language="Ru"/>
+		<release name="Minecraft - New Nintendo 3DS Edition (USA) (En,Ja,Fr,De,Es,It,Nl,Pt,Zh-Hant,Zh-Hans,Ko,Ru)" region="USA" language="Zh-Hans"/>
+		<release name="Minecraft - New Nintendo 3DS Edition (USA) (En,Ja,Fr,De,Es,It,Nl,Pt,Zh-Hant,Zh-Hans,Ko,Ru)" region="USA" language="Zh-Hant"/>
+		<game_id>00040000001B8700</game_id>
+		<rom name="Minecraft - New Nintendo 3DS Edition (USA) (En,Ja,Fr,De,Es,It,Nl,Pt,Zh-Hant,Zh-Hans,Ko,Ru).3ds" size="1073741824" crc="811cc48d" md5="9ee8071a16e26613e6bacdc5056accc5" sha1="5fcfb8eaa946f1c4968e5b27df6476cb41c8d3d3" sha256="255d06dc09a5e8722b34a2c5ccade461f0212d51252a523b5d34ec1620af3c3b"/>
+	</game>
+	<game name="Runbow Pocket Deluxe Edition (USA)" id="0006">
+		<category>Games</category>
+		<description>Runbow Pocket Deluxe Edition (USA)</description>
+		<release name="Runbow Pocket Deluxe Edition (USA)" region="USA" language="En"/>
+		<game_id>000400000F708700</game_id>
+		<rom name="Runbow Pocket Deluxe Edition (USA).3ds" size="536870912" crc="e82be865" md5="cffd55556ca67d5ab3be956e73afab0e" sha1="db04767ab6bb28ebb281d4e61065f34616b007ea" sha256="1f3566ad9a9e18b8409911241714b2fd9943f6dfb9f103b75480b0c8cc78a97e"/>
+	</game>
+	<game name="Xenoblade (Japan)" cloneof="Xenoblade Chronicles 3D (Europe) (En,Fr,De,Es,It) (Rev 1)" id="0002">
+		<category>Games</category>
+		<description>Xenoblade (Japan)</description>
+		<release name="Xenoblade (Japan)" region="Japan" language="Ja"/>
+		<game_id>000400000F700000</game_id>
+		<rom name="Xenoblade (Japan).3ds" size="4294967296" crc="eba1b78c" md5="14d688177582df9e75935777d8663357" sha1="9129f3e514b70d4776378b48ea26f05c937c6576"/>
+	</game>
+	<game name="Xenoblade Chronicles 3D (Europe) (En,Fr,De,Es,It)" cloneof="Xenoblade Chronicles 3D (Europe) (En,Fr,De,Es,It) (Rev 1)" id="0001">
+		<category>Games</category>
+		<description>Xenoblade Chronicles 3D (Europe) (En,Fr,De,Es,It)</description>
+		<release name="Xenoblade Chronicles 3D (Europe) (En,Fr,De,Es,It)" region="Europe" language="De"/>
+		<release name="Xenoblade Chronicles 3D (Europe) (En,Fr,De,Es,It)" region="Europe" language="En"/>
+		<release name="Xenoblade Chronicles 3D (Europe) (En,Fr,De,Es,It)" region="Europe" language="Es"/>
+		<release name="Xenoblade Chronicles 3D (Europe) (En,Fr,De,Es,It)" region="Europe" language="Fr"/>
+		<release name="Xenoblade Chronicles 3D (Europe) (En,Fr,De,Es,It)" region="Europe" language="It"/>
+		<game_id>000400000F700200</game_id>
+		<rom name="Xenoblade Chronicles 3D (Europe) (En,Fr,De,Es,It).3ds" size="4294967296" crc="6de902cf" md5="13241e6d8894ce118131c9cfe275c158" sha1="9b633865aaffd5f9b0dbbea47d7f06222ce299ba"/>
+	</game>
+	<game name="Xenoblade Chronicles 3D (Europe) (En,Fr,De,Es,It) (Rev 1)" id="0004">
+		<category>Games</category>
+		<description>Xenoblade Chronicles 3D (Europe) (En,Fr,De,Es,It) (Rev 1)</description>
+		<release name="Xenoblade Chronicles 3D (Europe) (En,Fr,De,Es,It) (Rev 1)" region="Europe" language="De"/>
+		<release name="Xenoblade Chronicles 3D (Europe) (En,Fr,De,Es,It) (Rev 1)" region="Europe" language="En"/>
+		<release name="Xenoblade Chronicles 3D (Europe) (En,Fr,De,Es,It) (Rev 1)" region="Europe" language="Es"/>
+		<release name="Xenoblade Chronicles 3D (Europe) (En,Fr,De,Es,It) (Rev 1)" region="Europe" language="Fr"/>
+		<release name="Xenoblade Chronicles 3D (Europe) (En,Fr,De,Es,It) (Rev 1)" region="Europe" language="It"/>
+		<game_id>000400000F700200</game_id>
+		<rom name="Xenoblade Chronicles 3D (Europe) (En,Fr,De,Es,It) (Rev 1).3ds" size="4294967296" crc="4194f26f" md5="2a67ccb1dc64c0b9d89354815ec8c209" sha1="053117c60949b85223392eddf04e16e9632bf6aa"/>
+	</game>
+	<game name="Xenoblade Chronicles 3D (USA) (En,Fr,Es)" cloneof="Xenoblade Chronicles 3D (Europe) (En,Fr,De,Es,It) (Rev 1)" id="0003">
+		<category>Games</category>
+		<description>Xenoblade Chronicles 3D (USA) (En,Fr,Es)</description>
+		<release name="Xenoblade Chronicles 3D (USA) (En,Fr,Es)" region="USA" language="En"/>
+		<release name="Xenoblade Chronicles 3D (USA) (En,Fr,Es)" region="USA" language="Es"/>
+		<release name="Xenoblade Chronicles 3D (USA) (En,Fr,Es)" region="USA" language="Fr"/>
+		<game_id>000400000F700100</game_id>
+		<rom name="Xenoblade Chronicles 3D (USA) (En,Fr,Es).3ds" size="4294967296" crc="c0b2d2e1" md5="05205c4403e3e7987eeb46e9e3eec655" sha1="792221ea00210c7b06242c745844c2ec8d4acd02" sha256="a7500bbf6c280f5c1b74ea6b230841079ddd539728bcfa9b197c4887836f8880"/>
+	</game>
+	<game name="Xenoblade Chronicles 3D (USA) (En,Fr,Es) (Rev 1)" cloneof="Xenoblade Chronicles 3D (Europe) (En,Fr,De,Es,It) (Rev 1)" id="0005">
+		<category>Games</category>
+		<description>Xenoblade Chronicles 3D (USA) (En,Fr,Es) (Rev 1)</description>
+		<release name="Xenoblade Chronicles 3D (USA) (En,Fr,Es) (Rev 1)" region="USA" language="En"/>
+		<release name="Xenoblade Chronicles 3D (USA) (En,Fr,Es) (Rev 1)" region="USA" language="Es"/>
+		<release name="Xenoblade Chronicles 3D (USA) (En,Fr,Es) (Rev 1)" region="USA" language="Fr"/>
+		<game_id>000400000F700100</game_id>
+		<rom name="Xenoblade Chronicles 3D (USA) (En,Fr,Es) (Rev 1).3ds" size="4294967296" crc="204ee143" md5="39c540f7ffddacd1b8fef79d142a1971" sha1="a8a1a1d6b498d3e969d76241aabe990b814fc081" sha256="4d1b292e6f0f4cbf51734af48e9b5c668f73d85f0111a4af1b6418b4df4d4ddf"/>
+	</game>
+</datafile>

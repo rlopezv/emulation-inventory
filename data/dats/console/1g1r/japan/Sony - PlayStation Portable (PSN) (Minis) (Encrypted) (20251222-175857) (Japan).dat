@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<datafile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://datomatic.no-intro.org/stuff https://datomatic.no-intro.org/stuff/schema_nointro_datfile_v3.xsd">
+	<header>
+		<name>Sony - PlayStation Portable (PSN) (Minis) (Encrypted) (Retool) (Japan)</name>
+		<description>Sony - PlayStation Portable (PSN) (Minis) (Encrypted) (1) [-aAbBcDdefkmMoPpruv] (20251222-175857) (Retool) (Japan)</description>
+		<version>20251222-175857</version>
+		<date>2026-07-12 19-02-36</date>
+		<author>buckwheat, jimmsu, Landcross, norkmetnoil577, rarenight, xuom2</author>
+		<homepage>http://www.github.com/unexpectedpanda/retool</homepage>
+		<url>https://www.no-intro.org</url>
+		<clrmamepro forcenodump="required"></clrmamepro>
+		<retool>Created by Retool 2.4.9</retool>
+	</header>
+	<game name="Taisen Chess (Japan) (Minis)" id="0475">
+		<category>Games</category>
+		<description>Taisen Chess (Japan) (Minis)</description>
+		<game_id>JP0537-NPJH00057_00-TAISENCHESS00000</game_id>
+		<rom name="PTbyfc7tOqpD3a04Ta9l9DIifaLAKJKnhgCIdU4c5WGX5jSVs0hOB50jJ0qCu16GoW3KIhNMJoHY5LCQfh8GLsqdhe0cIkXlwy1Ri.pkg" size="11793520" crc="fead67b6" md5="adf6ad958d24fc32ce8b72a2f5133881" sha1="e57616033358e8dd222f4223311d6fc960f68f07"/>
+	</game>
+</datafile>

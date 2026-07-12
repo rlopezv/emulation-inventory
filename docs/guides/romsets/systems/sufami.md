@@ -1,5 +1,9 @@
 # sufami -- Curacion
 
+## Fuentes de referencia
+
+- Wikipedia: https://en.wikipedia.org/wiki/SuFami_Turbo#Games
+
 <!-- AUTO-GENERADO INICIO -->
 
 ### Indice generado

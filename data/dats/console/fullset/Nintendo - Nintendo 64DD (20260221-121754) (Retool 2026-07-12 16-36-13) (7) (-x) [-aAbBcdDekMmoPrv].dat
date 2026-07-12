@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<datafile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://datomatic.no-intro.org/stuff https://datomatic.no-intro.org/stuff/schema_nointro_datfile_v3.xsd">
+	<header>
+		<name>Nintendo - Nintendo 64DD (Retool)</name>
+		<description>Nintendo - Nintendo 64DD (7) (-x) [-aAbBcdDekMmoPrv] (20260221-121754) (Retool)</description>
+		<version>20260221-121754</version>
+		<date>2026-07-12 16-36-13</date>
+		<author>Arctic Circle System, chillerecke, einstein95, Hiccup, relax, xuom2</author>
+		<homepage>http://www.github.com/unexpectedpanda/retool</homepage>
+		<url>https://www.no-intro.org</url>
+		<clrmamepro forcenodump="required"></clrmamepro>
+		<retool>Created by Retool 2.4.9</retool>
+	</header>
+	<game name="F-Zero X - Expansion Kit (Japan)" id="0011">
+		<category>Games</category>
+		<description>F-Zero X - Expansion Kit (Japan)</description>
+		<release name="F-Zero X - Expansion Kit (Japan)" region="Japan" language="Ja"/>
+		<rom name="F-Zero X - Expansion Kit (Japan).ndd" size="64931840" crc="78295a68" md5="cb2fb00c3921245ae04bb38ba01abe92" sha1="7e8badf857f1fce8aa59307c0fd318128c44418b"/>
+	</game>
+	<game name="Kyojin no Doshin (Japan)" id="0002">
+		<category>Games</category>
+		<description>Kyojin no Doshin (Japan)</description>
+		<release name="Kyojin no Doshin (Japan)" region="Japan" language="Ja"/>
+		<rom name="Kyojin no Doshin (Japan).ndd" size="64931840" crc="14acd221" md5="e8eb810d996e12cd6c47445f87a94c72" sha1="3e7eb70138213cc944952c4c659285f729b1fe1a"/>
+	</game>
+	<game name="Mario Artist - Communication Kit (Japan)" id="0005">
+		<category>Games</category>
+		<description>Mario Artist - Communication Kit (Japan)</description>
+		<release name="Mario Artist - Communication Kit (Japan)" region="Japan" language="Ja"/>
+		<rom name="Mario Artist - Communication Kit (Japan).ndd" size="64931840" crc="3bf36eda" md5="114af722029d6386c3bfea4cc8fa603c" sha1="8040dcd657227463b840f47f3e24a7f42945e1f8"/>
+	</game>
+	<game name="Mario Artist - Paint Studio (Japan)" id="0006">
+		<category>Games</category>
+		<description>Mario Artist - Paint Studio (Japan)</description>
+		<release name="Mario Artist - Paint Studio (Japan)" region="Japan" language="Ja"/>
+		<rom name="Mario Artist - Paint Studio (Japan).ndd" size="64931840" crc="b732c3ad" md5="8485643e5830cd67ed4c0a5fd49e2491" sha1="9997e6f118c72f265eb648f18faa48c3a416fb3b"/>
+	</game>
+	<game name="Mario Artist - Polygon Studio (Japan)" id="0007">
+		<category>Games</category>
+		<description>Mario Artist - Polygon Studio (Japan)</description>
+		<release name="Mario Artist - Polygon Studio (Japan)" region="Japan" language="Ja"/>
+		<rom name="Mario Artist - Polygon Studio (Japan).ndd" size="64931840" crc="ac304109" md5="da23ee561578b7dad77ed72728b46d30" sha1="4e4f267d2d063286bf4c1302386dab8b1ab0d4c6"/>
+	</game>
+	<game name="Mario Artist - Talent Studio (Japan)" id="0008">
+		<category>Games</category>
+		<description>Mario Artist - Talent Studio (Japan)</description>
+		<release name="Mario Artist - Talent Studio (Japan)" region="Japan" language="Ja"/>
+		<rom name="Mario Artist - Talent Studio (Japan).ndd" size="64931840" crc="649bbcb1" md5="88228e990b58a94e9b3460beff632304" sha1="24ca7508157466e5d289ee49c2c714806d1ecce2"/>
+	</game>
+	<game name="SimCity 64 (Japan)" id="0010">
+		<category>Games</category>
+		<description>SimCity 64 (Japan)</description>
+		<release name="SimCity 64 (Japan)" region="Japan" language="Ja"/>
+		<rom name="SimCity 64 (Japan).ndd" size="64931840" crc="163456ca" md5="ebba03f20096fc2bc178fc3a1f4ec2b6" sha1="5d7d5046d702dcc0ea56ce1b96eb90f0c984b51a"/>
+	</game>
+</datafile>

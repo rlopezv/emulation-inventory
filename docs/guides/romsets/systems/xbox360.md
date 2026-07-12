@@ -1,5 +1,9 @@
 # xbox360 -- Curacion
 
+## Fuentes de referencia
+
+- Wikipedia: https://en.wikipedia.org/wiki/List_of_Xbox_360_games
+
 <!-- AUTO-GENERADO INICIO -->
 
 ### Indice generado

@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<datafile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://datomatic.no-intro.org/stuff https://datomatic.no-intro.org/stuff/schema_nointro_datfile_v3.xsd">
+	<header>
+		<name>Nintendo - Pokemon Mini (Retool) (Japan)</name>
+		<description>Nintendo - Pokemon Mini (5) [-aAbBcDdefkmMoPpruv] (20250407-153358) (Retool) (Japan)</description>
+		<version>20250407-153358</version>
+		<date>2026-07-12 18-35-02</date>
+		<author>Arctic Circle System, Flashfire42, psykopat, rarenight, relax, SonGoku</author>
+		<homepage>http://www.github.com/unexpectedpanda/retool</homepage>
+		<url>https://www.no-intro.org</url>
+		<clrmamepro forcenodump="required"></clrmamepro>
+		<retool>Created by Retool 2.4.9</retool>
+	</header>
+	<game name="Pichu Bros. Mini (Japan)" id="0003">
+		<category>Games</category>
+		<description>Pichu Bros. Mini (Japan)</description>
+		<rom name="Pichu Bros. Mini (Japan).min" size="524288" crc="00d8c968" md5="a587b6f5aa51fc8506ae818127e5d1b3" sha1="6f9bded4842b451102083d181db9deac2a7696e4"/>
+	</game>
+	<game name="Pokemon Puzzle Collection Vol. 2 (Japan)" id="0030">
+		<category>Games</category>
+		<description>Pokemon Puzzle Collection Vol. 2 (Japan)</description>
+		<rom name="Pokemon Puzzle Collection Vol. 2 (Japan).min" size="524288" crc="76a1bbf8" md5="66809741517a2f0809cacd6acdd77b27" sha1="11775bbac2e985ef90d4192ed6322dd3b8352ac9"/>
+	</game>
+	<game name="Pokemon Race Mini (Japan)" id="0031">
+		<category>Games</category>
+		<description>Pokemon Race Mini (Japan)</description>
+		<rom name="Pokemon Race Mini (Japan).min" size="524288" crc="f8c842b5" md5="8b50be4cf91a6a3268f5be5e67120056" sha1="12bfbd2c8a810b49338148feb6162e29a540ac3a"/>
+	</game>
+	<game name="Pokemon Sodateyasan Mini (Japan)" id="0034">
+		<category>Games</category>
+		<description>Pokemon Sodateyasan Mini (Japan)</description>
+		<rom name="Pokemon Sodateyasan Mini (Japan).min" size="524288" crc="d55fc4c8" md5="0eb5e7e191ce056f3ee2c6572bc61906" sha1="3b87d4d61ba3db92190b6ffa055f463adea2363c"/>
+	</game>
+	<game name="Togepi no Daibouken (Japan)" id="0040">
+		<category>Games</category>
+		<description>Togepi no Daibouken (Japan)</description>
+		<rom name="Togepi no Daibouken (Japan).min" size="524288" crc="33b3492b" md5="a4eb2facaa5beb947f306ced2bf5cd15" sha1="0f56e0a3e72180b1113b900a6d3e4f8e8f570bb3"/>
+	</game>
+</datafile>

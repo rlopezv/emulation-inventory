@@ -27,6 +27,13 @@ La columna **Formato** indica el formato de fichero del DAT, necesario para sabe
 | Identificador canónico | Fuente | Formato | DAT | Fuente alternativa | DAT alternativo | Completitud | Almacenamiento | Notas |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | `gameandwatch` | libretro | ClrMamePro (texto) | `Handheld Electronic Game.dat` | — | — | [TODO] | [TODO] | Cubre "Handheld Electronic Game" en general (Nintendo, Mattel, VTech, Tiger...), no solo Nintendo Game & Watch; fuera del alcance de build-dat-index-nointro.ps1 por formato |
+| `atari2600` | No-Intro | XML (Logiqx) | `Atari - Atari 2600 (20260428-103934).dat` | — | — | [TODO] | [TODO] | |
+| `atari5200` | No-Intro | XML (Logiqx) | `Atari - Atari 5200 (20260412-121350).dat` | — | — | [TODO] | [TODO] | Requiere BIOS `5200.rom` |
+| `atari7800` | No-Intro | XML (Logiqx) | `Atari - Atari 7800 (BIN) (20260504-112425).dat` | — | — | [TODO] | [TODO] | También disponible variante sin BIN |
+| `astrocade` | No-Intro | XML (Logiqx) | `Bally - Astrocade (20220411-220423).dat` | — | — | [TODO] | [TODO] | |
+| `vectrex` | No-Intro | XML (Logiqx) | `GCE - Vectrex (20251117-141044).dat` | — | — | [TODO] | [TODO] | |
+| `odyssey2` | No-Intro | XML (Logiqx) | `Magnavox - Odyssey 2 (20250723-151315).dat` | — | — | [TODO] | [TODO] | |
+| `intellivision` | No-Intro | XML (Logiqx) | `Mattel - Intellivision (20260304-102057).dat` | — | — | [TODO] | [TODO] | Requiere BIOS `grom.bin`, `exec.bin` |
 | `nes` | No-Intro | XML (Logiqx) | `Nintendo - Nintendo Entertainment System (Headered) (20260504-103615).dat` | — | — | [TODO] | [TODO] | También disponible versión Headerless |
 | `fds` | No-Intro | XML (Logiqx) | `Nintendo - Family Computer Disk System (FDS) (20260317-004812).dat` | — | — | [TODO] | [TODO] | |
 | `satellaview` | No-Intro | XML (Logiqx) | `Nintendo - Satellaview (20260322-134432).dat` | — | — | [TODO] | [TODO] | |
@@ -44,6 +51,7 @@ La columna **Formato** indica el formato de fichero del DAT, necesario para sabe
 | `dsiware` | No-Intro | XML (Logiqx) | `Nintendo - Nintendo DSi (Digital) (20220506-190731).dat` | — | — | [TODO] | [TODO] | También disponibles variantes Encrypted/Decrypted (20260502) y CDN |
 | `3ds` | No-Intro | XML (Logiqx) | `Nintendo - Nintendo 3DS (Decrypted) (20260505-085920).dat` | — | — | [TODO] | [TODO] | Cartuchos físicos. También disponible variante Encrypted |
 | `3dseshop` | No-Intro | XML (Logiqx) | `Nintendo - Nintendo 3DS (Digital) (CDN) (20260306-063611).dat` | — | — | [TODO] | [TODO] | Exclusivos de eShop. Virtual Console 3DS pendiente: DAT no descargado en metadata/dat/ |
+| `newn3ds` | No-Intro | XML (Logiqx) | `Nintendo - New Nintendo 3DS (Decrypted) (20251121-060655).dat` | — | — | [TODO] | [TODO] | Catálogo físico exclusivo de New Nintendo 3DS; también disponible variante Encrypted |
 | `gamecube` | Redump | XML (Logiqx, sin cloneofid) | `Nintendo - GameCube - Datfile (2019) (2026-06-13 18-14-01).dat` | Non-Redump | `Non-Redump - Nintendo - Nintendo GameCube (20260429-160048).dat` | [TODO] | [TODO] | Non-Redump solo cubre protos/betas |
 | `wii` | Redump | XML (Logiqx, sin cloneofid) | `Nintendo - Wii - Datfile (3780) (2026-06-15 03-13-28).dat` | Non-Redump | `Non-Redump - Nintendo - Wii (20260412-111452).dat` | [TODO] | [TODO] | Non-Redump solo cubre protos/betas |
 | `wiiu` | Non-Redump | XML (Logiqx) | `Non-Redump - Nintendo - Wii U (20260312-235110).dat` | — | — | [TODO] | [TODO] | Pendiente DAT Redump |
@@ -60,6 +68,8 @@ La columna **Formato** indica el formato de fichero del DAT, necesario para sabe
 | `ps2` | Redump | XML (Logiqx, sin cloneofid) | `Sony - PlayStation 2 - Datfile (11774) (2026-06-15 03-41-38).dat` | Non-Redump | `Non-Redump - Sony - PlayStation 2 (20260415-170406).dat` | [TODO] | [TODO] | Non-Redump solo cubre protos/betas |
 | `ps3` | Non-Redump | XML (Logiqx) | `Non-Redump - Sony - PlayStation 3 (20250908-072347).dat` | — | — | [TODO] | [TODO] | Pendiente DAT Redump |
 | `psp` | Non-Redump | XML (Logiqx) | `Non-Redump - Sony - PlayStation Portable (20260421-200314).dat` | — | — | [TODO] | [TODO] | Pendiente DAT Redump |
+| `pspminis` | No-Intro | XML (Logiqx) | `Sony - PlayStation Portable (PSN) (Minis) (Decrypted) (20251222-175857).dat` | — | — | [TODO] | [TODO] | Contenido digital PSN, subconjunto independiente del catálogo retail de `psp` |
+| `psn` | No-Intro | XML (Logiqx) | `Sony - PlayStation Portable (PSN) (Decrypted) (20260415-170329).dat` | — | — | [TODO] | [TODO] | Catálogo digital PSN completo de PSP (distinto de `psp` físico UMD y de `pspminis`) |
 | `psvita` | — | — | — | — | — | [TODO] | [TODO] | Sin DAT standalone identificado |
 | `lynx` | No-Intro | XML (Logiqx) | `Atari - Atari Lynx (LYX) (20251222-090626).dat` | — | — | [TODO] | [TODO] | Catálogo comercial completo (127 entradas); variante LNX solo cubre 12 (mayormente Unl/Pirate), también disponible variante BLL |
 | `jaguar` | No-Intro | XML (Logiqx) | `Atari - Atari Jaguar (J64) (20250208-164242).dat` | — | — | [TODO] | [TODO] | Formato del romset real del usuario. ABS/COF vacíos, JAG solo 1 entrada, ROM tiene el mismo catálogo de juegos que J64 (J64 añade 5 BIOS ya descartados) |
@@ -125,3 +135,5 @@ La columna **Formato** indica el formato de fichero del DAT, necesario para sabe
 | `cavestory` | libretro | ClrMamePro (texto) | `Cave Story.dat` | |
 | `openbor` | — | — | — | Sin DAT estándar |
 | `ports` | — | — | — | Sin DAT estándar |
+
+

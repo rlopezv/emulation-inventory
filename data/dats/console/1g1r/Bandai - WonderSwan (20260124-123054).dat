@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<datafile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://datomatic.no-intro.org/stuff https://datomatic.no-intro.org/stuff/schema_nointro_datfile_v3.xsd">
+	<header>
+		<name>Bandai - WonderSwan (Retool)</name>
+		<description>Bandai - WonderSwan (2) [-aAbBcdDefkmMopPruv] (20260124-123054) (Retool)</description>
+		<version>20260124-123054</version>
+		<date>2026-07-12 18-00-29</date>
+		<author>C. V. Reynolds, Gefflon, gigadeath, Hiccup, kazumi213, MeguCocoa, omonim2007, PPLToast, rarenight, relax, RetroUprising, sCZther, SonGoku, xuom2</author>
+		<homepage>http://www.github.com/unexpectedpanda/retool</homepage>
+		<url>https://www.no-intro.org</url>
+		<clrmamepro forcenodump="required"></clrmamepro>
+		<retool>Created by Retool 2.4.9</retool>
+	</header>
+	<game name="Mingle Magnet (Japan) (En,Ja) (Rev 1)" id="0056">
+		<category>Games</category>
+		<description>Mingle Magnet (Japan) (En,Ja) (Rev 1)</description>
+		<rom name="Mingle Magnet (Japan) (En,Ja) (Rev 1).ws" size="524288" crc="9baac7bb" md5="555bee0c37a0726d8e8646a290de137f" sha1="c7230ef709f6ceaef9a220541c8cdc05c0cd549f"/>
+	</game>
+	<game name="Tenori-on (Japan) (En)" id="0132">
+		<category>Games</category>
+		<description>Tenori-on (Japan) (En)</description>
+		<rom name="Tenori-on (Japan) (En).ws" size="524288" crc="6fe79bb1" md5="8b5c2993d6eccf6a03f377f9c99d5a92" sha1="c0104db6e176cfa64a95e4c9bc9382beae4d70d1" sha256="8d11c841805a241a14af9c5d135840eb3e8106a32a7ee134e986b65af2cd8cc5"/>
+	</game>
+</datafile>

@@ -51,7 +51,14 @@ Nombre interno del core tal como aparece en RetroArch (`nombre_del_core`). Los c
 
 | Nombre del sistema | Año | Identificador canónico | Nombres regionales/comerciales | Aspect Ratio | Resolución nativa típica | Orientación | Cores RetroArch habituales | Emuladores standalone habituales |
 | --- | ---: | --- | --- | --- | --- | --- | --- | --- |
+| Atari 2600 | 1977 | `atari2600` | Atari VCS | 4:3 | 160×192 (NTSC) típico | Horizontal | `stella` | Stella |
+| Bally Astrocade | 1978 | `astrocade` | Bally Home Library Computer | 4:3 | 160×102 típico | Horizontal | `mame` | MAME |
+| Magnavox Odyssey 2 | 1978 | `odyssey2` | Philips Videopac G7000 | 4:3 | 160×200 típico | Horizontal | `o2em` | O2EM |
+| Mattel Intellivision | 1979 | `intellivision` | Mattel Electronics Intellivision | 4:3 | 159×192 (NTSC) típico | Horizontal | `freeintv` | FreeIntv |
 | Nintendo Game & Watch | 1980 | `gameandwatch` | Game & Watch | Variable | Variable | Horizontal/Vertical | `gw`, `mame` | MAME |
+| Atari 5200 | 1982 | `atari5200` | Atari 5200 SuperSystem | 4:3 | 320×192 típico | Horizontal | `atari800` | Atari800 |
+| GCE Vectrex | 1982 | `vectrex` | Vectrex | 4:3 aprox. | Vector (sin resolución de trama) | Horizontal | `vecx` | VecX |
+| Atari 7800 | 1986 | `atari7800` | Atari 7800 ProSystem | 4:3 | 320×200 típico | Horizontal | `prosystem`, `stella` | ProSystem |
 | Nintendo Entertainment System | 1983 | `nes` | Famicom | 4:3 | 256×240 | Horizontal | `fceumm`, `nestopia`, `mesen` | Mesen |
 | Sega SG-1000 | 1983 | `sg1000` | — | 4:3 | 256×192 | Horizontal | `genesis-plus-gx`, `smsplus-gx`, `gearsystem` | Gearsystem |
 | Sega Master System | 1985 | `mastersystem` | Sega Mark III | 4:3 | 256×192 | Horizontal | `genesis-plus-gx`, `smsplus-gx`, `gearsystem` | Gearsystem |
@@ -93,12 +100,15 @@ Nombre interno del core tal como aparece en RetroArch (`nombre_del_core`). Los c
 | Nintendo DS | 2004 | `nds` | DS, NDS | 4:3 | 256×192 cada pantalla | Dual-screen | `melonds`, `desmume` | melonDS, DeSmuME |
 | DSiWare | 2008 | `dsiware` | Nintendo DSi (Digital) | 4:3 | 256×192 cada pantalla | Dual-screen | `melonds` | melonDS |
 | Sony PlayStation Portable | 2004 | `psp` | PSP | 16:9 | 480×272 | Horizontal | `ppsspp` | PPSSPP |
+| PlayStation Minis | 2009 | `pspminis` | PSP minis, PSN Minis | 16:9 | 480×272 | Horizontal | `ppsspp` | PPSSPP |
+| PlayStation Network (PSP) | 2008 | `psn` | PSN, PSP Digital | 16:9 | 480×272 | Horizontal | `ppsspp` | PPSSPP |
 | Microsoft Xbox | 2001 | `xbox` | Xbox | 4:3 / 16:9 | 480p típico | Horizontal | — | xemu |
 | Microsoft Xbox 360 | 2005 | `xbox360` | Xbox 360 | 16:9 | 1280×720 típico | Horizontal | — | Xenia |
 | Nintendo Wii | 2006 | `wii` | Wii | 4:3 / 16:9 | 640×480 típico | Horizontal | `dolphin` | Dolphin |
 | Sony PlayStation 3 | 2006 | `ps3` | PS3 | 16:9 | 1280×720 típico | Horizontal | — | RPCS3 |
 | Nintendo 3DS | 2011 | `3ds` | 3DS | 5:3 aprox. | 400×240 superior; 320×240 inferior | Dual-screen | — | Lime3DS, Citra |
 | Nintendo 3DS eShop | 2011 | `3dseshop` | Nintendo 3DS (Digital) | 5:3 aprox. | 400×240 superior; 320×240 inferior | Dual-screen | — | Lime3DS, Citra |
+| New Nintendo 3DS | 2014 | `newn3ds` | New 3DS, N3DS | 5:3 aprox. | 400×240 superior; 320×240 inferior | Dual-screen | — | Lime3DS, Citra |
 | Sony PlayStation Vita | 2011 | `psvita` | PS Vita | 16:9 | 960×544 | Horizontal | `vitaquake2`* | Vita3K |
 | Nintendo Wii U | 2012 | `wiiu` | Wii U | 16:9 | 1280×720 típico | Horizontal | `cemu` | Cemu |
 | Nintendo Switch | 2017 | `switch` | Switch | 16:9 | 1280×720 portátil; 1920×1080 dock | Horizontal | — | Ryujinx, Sudachi, Suyu |

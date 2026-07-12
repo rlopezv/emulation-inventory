@@ -1,0 +1,489 @@
+<?xml version="1.0"?>
+<datafile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://datomatic.no-intro.org/stuff https://datomatic.no-intro.org/stuff/schema_nointro_datfile_v3.xsd">
+	<header>
+		<name>Sega - Game Gear (Retool) (Japan)</name>
+		<description>Sega - Game Gear (95) [-aAbBcDdefkmMoPpruv] (20260422-014958) (Retool) (Japan)</description>
+		<version>20260422-014958</version>
+		<date>2026-07-12 18-57-06</date>
+		<author>Arctic Circle System, Aringon, BigFred, BitLooter, BlueMoon, C. V. Reynolds, fuzzball, Gefflon, Hiccup, jimmsu, kazumi213, nnssxx, omonim2007, Powerpuff, Psychofox11, psykopat, rarenight, relax, Rifu, root, sCZther, ShiroeNL, SonGoku, TeamEurope, xuom2</author>
+		<homepage>http://www.github.com/unexpectedpanda/retool</homepage>
+		<url>https://www.no-intro.org</url>
+		<clrmamepro forcenodump="required"></clrmamepro>
+		<retool>Created by Retool 2.4.9</retool>
+	</header>
+	<game name="Aa Harimanada (Japan)" id="0002">
+		<category>Games</category>
+		<description>Aa Harimanada (Japan)</description>
+		<rom name="Aa Harimanada (Japan).gg" size="524288" crc="1d17d2a0" md5="da0523e29f893fb81e5f2e89b2fb240a" sha1="0fa7111fcd98670d4bef725d11e670e14eaaa7eb" sha256="c5da701be6f8d4ee3bac9d48335d37ae913ea6ca9a303770ed5fee0160f8b221"/>
+	</game>
+	<game name="Berlin no Kabe (Japan)" id="0037">
+		<category>Games</category>
+		<description>Berlin no Kabe (Japan)</description>
+		<rom name="Berlin no Kabe (Japan).gg" size="262144" crc="325b1797" md5="b185db77aa6a448eb9b8c60f1cab8f27" sha1="1d58d3d8b957d33bab8b50ae60dc0c31eafc08af" sha256="aac780c7e7106e082ae3a6b54b75e89900c81386a55ed1f49131a7d6f5b4cd82"/>
+	</game>
+	<game name="Bishoujo Senshi Sailor Moon S (Japan)" id="0038">
+		<category>Games</category>
+		<description>Bishoujo Senshi Sailor Moon S (Japan)</description>
+		<rom name="Bishoujo Senshi Sailor Moon S (Japan).gg" size="524288" crc="fe7374d2" md5="33ca01d639aef0b2fecf2d059175abbe" sha1="824e463d0be5c0e81205a475b5ad7e55c366e486" sha256="f78ee34ea4657eebe6c4474cd9b7184cd8b0f113023548b1ebfa4f737e19856c"/>
+	</game>
+	<game name="Buster Ball (Japan)" id="0044">
+		<category>Games</category>
+		<description>Buster Ball (Japan)</description>
+		<rom name="Buster Ball (Japan).gg" size="131072" crc="7cb079d0" md5="f7a8e4770c519175794522f66d42b27d" sha1="5d67f38ec0c2e577a7ad88915849da696ad162aa" sha256="080c63e276e0da29e508ae8ca0ac36a502b7bf465753c0bf05086cf122c38afd"/>
+	</game>
+	<game name="Buster Fight (Japan)" id="0045">
+		<category>Games</category>
+		<description>Buster Fight (Japan)</description>
+		<rom name="Buster Fight (Japan).gg" size="262144" crc="a72a1753" md5="a729ed9b55fd8496b807d39c3bb9299e" sha1="5c87048082a95acd6bc27b98f85bda731617c739" sha256="229f15ce088db384291f0793b865a9e6661c2f0746a065a5a13f79cc7bfa0b50"/>
+	</game>
+	<game name="Crayon Shin-chan - Taiketsu! Kantam Panic!! (Japan)" id="0066">
+		<category>Games</category>
+		<description>Crayon Shin-chan - Taiketsu! Kantam Panic!! (Japan)</description>
+		<rom name="Crayon Shin-chan - Taiketsu! Kantam Panic!! (Japan).gg" size="524288" crc="03d28eab" md5="41eec91e3c4e546d93053f2c234517a6" sha1="65bcbd89637b8e6837cf36c7f1241eacf85abaa9" sha256="cdf6b1a7e172d02877da96ebface3efbaa1ae23a54fb7c2ae0def3457c000e14"/>
+	</game>
+	<game name="Donald no Magical World (Japan) (En,Ja)" id="0079">
+		<category>Games</category>
+		<description>Donald no Magical World (Japan) (En,Ja)</description>
+		<rom name="Donald no Magical World (Japan) (En,Ja).gg" size="524288" crc="87b8b612" md5="34e9b284e61fb9a2cad4878451579295" sha1="5f9afdd5720f88f7cc18715f8e50fc5635b15323" sha256="849238c95be42519154889e21c3dbdbb815ae013c07f54d504129421288c3cb0"/>
+	</game>
+	<game name="Doraemon - Noranosuke no Yabou (Japan)" id="0133">
+		<category>Games</category>
+		<description>Doraemon - Noranosuke no Yabou (Japan)</description>
+		<rom name="Doraemon - Noranosuke no Yabou (Japan).gg" size="262144" crc="9a8b2c16" md5="e768a7c45f8ea390d6091032fdf6dcbe" sha1="6976b170879767889994b1e763a52726aa62ed98" sha256="09a0ff25362323583df586c6e6825a54499a24883802190854b9ff856e3fd7ce"/>
+	</game>
+	<game name="Doraemon - Waku Waku Pocket Paradise (Japan)" id="0080">
+		<category>Games</category>
+		<description>Doraemon - Waku Waku Pocket Paradise (Japan)</description>
+		<rom name="Doraemon - Waku Waku Pocket Paradise (Japan).gg" size="524288" crc="733292a6" md5="5dae999e98312e4cb5962041ddea351f" sha1="495816dbd49560cf02e841b53bd996456078c36b" sha256="62e53420623ca2bb2aceb798b872bcf0e344b7ce3dc66bd0fec01afcb620a4ce"/>
+	</game>
+	<game name="Dunk Kids (Japan) (En)" id="0089">
+		<category>Games</category>
+		<description>Dunk Kids (Japan) (En)</description>
+		<rom name="Dunk Kids (Japan) (En).gg" size="524288" crc="77ed48f5" md5="1d1c50cdbfe605a37d5dcf1250a951df" sha1="7525923ba2531d5079d66b2b1156cb5e7d44c66a" sha256="3f4d6b50225fd65111fbfd109d360c9973bb389c7b9eb622c88cb3d6a3ace4ef"/>
+	</game>
+	<game name="Eternal Legend (Japan)" id="0098">
+		<category>Games</category>
+		<description>Eternal Legend (Japan)</description>
+		<rom name="Eternal Legend (Japan).gg" size="262144" crc="04302bbd" md5="c58d6291da8a4919328b8f42be8640a7" sha1="717b4e33cf3956e4194b912533bf1b7bf9d20725" sha256="7cbe8d1a00d7eb457b8654208124cfbba56bbfe9a9e1174bc4d6eb5499d2db43"/>
+	</game>
+	<game name="Faceball 2000 (Japan) (En)" id="0103">
+		<category>Games</category>
+		<description>Faceball 2000 (Japan) (En)</description>
+		<rom name="Faceball 2000 (Japan) (En).gg" size="262144" crc="aaf6f87d" md5="8dcfaa8a12425a56f5de7518b691158b" sha1="967c50a5b64adc6da7bc730900c267e45c90053a" sha256="deab069225c8d26c5393ec1ddc127c0411c30f9b93b4b385614cda1683dde926"/>
+	</game>
+	<game name="Fray - Shugyou Hen (Japan)" id="0114">
+		<category>Games</category>
+		<description>Fray - Shugyou Hen (Japan)</description>
+		<rom name="Fray - Shugyou Hen (Japan).gg" size="262144" crc="e123d9b8" md5="ed0d0917984f2cc8aa560c1bf55eb95f" sha1="0dc770773f651718881ce17a87f145e2f0b02fb1" sha256="dcdb18cec29e1ba658c904fd4a6896dc8990591fcb98b0eb942757371fde8f34"/>
+	</game>
+	<game name="From TV Animation Slam Dunk - Shouri e no Starting 5 (Japan)" id="0118">
+		<category>Games</category>
+		<description>From TV Animation Slam Dunk - Shouri e no Starting 5 (Japan)</description>
+		<rom name="From TV Animation Slam Dunk - Shouri e no Starting 5 (Japan).gg" size="524288" crc="751dad4c" md5="087039a3c04f4a3ae2f09bc258be00d1" sha1="bee62a373655d0ef931d8b9a4ed88fb0f4d1a8bc" sha256="aa466c1de24009a0c843d588d88a6e6df7d3260bee8b9eb156355aef369cd592"/>
+	</game>
+	<game name="GG Aleste (Japan) (En)" id="0132">
+		<category>Games</category>
+		<description>GG Aleste (Japan) (En)</description>
+		<rom name="GG Aleste (Japan) (En).gg" size="262144" crc="1b80a75b" md5="43301e7c15fe11f66b29b00e6ec47a52" sha1="4c13dc3601a1702692c35eb6c89f0e09ab966f69" sha256="d1fce04e797f38c37c27bb7d93c8602979bb6e69c5c54ad744a67cff4535fa6a"/>
+	</game>
+	<game name="GG Aleste 3 (Japan) (En) (Aleste Collection)" id="0805">
+		<category>Games</category>
+		<description>GG Aleste 3 (Japan) (En) (Aleste Collection)</description>
+		<rom name="GG Aleste 3 (Japan) (En) (Aleste Collection).gg" size="1048576" crc="5ae64731" md5="ba860afbf7b7eb2b1ba08c957d44b34c" sha1="fbef21541adc445c92abf7c92e97088cb073aafa" sha256="237a83ba02887699def80d83d94994e0a3a2294775971f8597a42b0b31a11d76"/>
+	</game>
+	<game name="GG Portrait - Pai Chan (Japan)" id="0134">
+		<category>Miscellaneous</category>
+		<description>GG Portrait - Pai Chan (Japan)</description>
+		<rom name="GG Portrait - Pai Chan (Japan).gg" size="524288" crc="695cc120" md5="3dbd51ce27c7eeee98aaeccdb96affb6" sha1="cf752897523814951401994c95de299cd42fdb50" sha256="c516cba80bf68e8ec7dd5b6455fd9f43baf59a54c8cac6cb574ca8961ca31453"/>
+	</game>
+	<game name="GG Portrait - Yuuki Akira (Japan)" id="0135">
+		<category>Miscellaneous</category>
+		<description>GG Portrait - Yuuki Akira (Japan)</description>
+		<rom name="GG Portrait - Yuuki Akira (Japan).gg" size="524288" crc="51159f8f" md5="82d3c23cf9617174aa47bed8e76438df" sha1="4cbb453663665a06e986a6ab015a041463b48373" sha256="8045dcf98d5c8ceef3b83331180b6dd972b68f58c03231c54a67d258262f506f"/>
+	</game>
+	<game name="Gamble Panic (Japan)" id="0123">
+		<category>Games</category>
+		<description>Gamble Panic (Japan)</description>
+		<rom name="Gamble Panic (Japan).gg" size="524288" crc="09534742" md5="e0b96e01749b6b44fa53f10a47e3d105" sha1="d33cd19676fdb0e6180a24ed406a61cdf30f0065" sha256="87b1e9150a0c45fa3aafb6ddbfd3237e3093916e69d4c20f030652629f13fcbd"/>
+	</game>
+	<game name="Gambler Jiko Chuushinha (Japan)" id="0124">
+		<category>Games</category>
+		<description>Gambler Jiko Chuushinha (Japan)</description>
+		<rom name="Gambler Jiko Chuushinha (Japan).gg" size="262144" crc="423803a7" md5="03f04a22e61460682aa1c7cba84565d2" sha1="ec26aa5f41f8abf1c0fa911c2031ac422f6280a6" sha256="76fdf7e105b677ab41edfbaec7c9339207bba606ba701ad664aa5b0122f544f6"/>
+	</game>
+	<game name="Gear Stadium Heiseiban (Japan)" id="0129">
+		<category>Games</category>
+		<description>Gear Stadium Heiseiban (Japan)</description>
+		<rom name="Gear Stadium Heiseiban (Japan).gg" size="131072" crc="a0530664" md5="7befead333e6898caab966affb5e6f83" sha1="210fef406c4fe8e0ed995f92ea7597e8f1b7f91c"/>
+	</game>
+	<game name="Gojira - Kaijuu Daishingeki (Japan)" id="0139">
+		<category>Games</category>
+		<description>Gojira - Kaijuu Daishingeki (Japan)</description>
+		<rom name="Gojira - Kaijuu Daishingeki (Japan).gg" size="524288" crc="4cf97801" md5="e550267f3ae767bed5d0e2a126f44a10" sha1="ff3e8905635a02eb85556146225020b52506424c" sha256="4db51f095afa2c999e4e540077ce155a0aabdc72d601484dd4bcbd3fe73d6a2c"/>
+	</game>
+	<game name="Griffin (Japan) (En)" id="0143">
+		<category>Games</category>
+		<description>Griffin (Japan) (En)</description>
+		<rom name="Griffin (Japan) (En).gg" size="131072" crc="a93e8b0f" md5="00299a180a9edef575a228a1cef65318" sha1="b479d977533398cef21ef9ff7cd8fc81bdbfa488" sha256="06bcbbf00473006bcbab25f309c96bfd04782fb106c882e5a6359ab8906f191b"/>
+	</game>
+	<game name="Gunstar Heroes (Japan)" id="0144">
+		<category>Games</category>
+		<description>Gunstar Heroes (Japan)</description>
+		<rom name="Gunstar Heroes (Japan).gg" size="524288" crc="c3c52767" md5="c46d46f3ab4873cb1ed7ae8b9b70f2b4" sha1="c373d3876659095bb869ff0e4bb7ffc68123cf3e" sha256="e421b389bf69281377489f452695bd5d219d803ad316c362909858402564e554"/>
+	</game>
+	<game name="Head Buster (Japan)" id="0147">
+		<category>Games</category>
+		<description>Head Buster (Japan)</description>
+		<rom name="Head Buster (Japan).gg" size="131072" crc="7e689995" md5="aa52a741b2952c3713ab791e659c37b5" sha1="51432c7892d87b31f5f3216d3ef01eadc591b768" sha256="df6890b5ebf81d89750fce6bfc86fe113b4115eba67cf98d18c4ffae673b4fe9"/>
+	</game>
+	<game name="Honoo no Toukyuuji - Dodge Danpei (Japan)" id="0150">
+		<category>Games</category>
+		<description>Honoo no Toukyuuji - Dodge Danpei (Japan)</description>
+		<rom name="Honoo no Toukyuuji - Dodge Danpei (Japan).gg" size="131072" crc="dfa805a0" md5="a299b81a9a5455bfff538f669a5e7a0d" sha1="66032cc214d728b2f1c59ad2934277e378b36865" sha256="ac7b81ec5cdc7dd6ed1cfd8f1690fdd9461493827535f3744ddc1c95e834ba30"/>
+	</game>
+	<game name="Hyokkori Hyoutan-jima - Hyoutan-jima no Daikoukai (Japan)" id="0154">
+		<category>Games</category>
+		<description>Hyokkori Hyoutan-jima - Hyoutan-jima no Daikoukai (Japan)</description>
+		<rom name="Hyokkori Hyoutan-jima - Hyoutan-jima no Daikoukai (Japan).gg" size="131072" crc="42389270" md5="59adaabdde5bbff98cd59892e484b695" sha1="0b0270060342f4e79d58104a85a7be04426683bd" sha256="97187fec4166dbc175260ff63b813e12c2d88c5bc53f10774bda1d33387552fd"/>
+	</game>
+	<game name="Hyper Pro Yakyuu '92 (Japan)" id="0155">
+		<category>Games</category>
+		<description>Hyper Pro Yakyuu '92 (Japan)</description>
+		<rom name="Hyper Pro Yakyuu '92 (Japan).gg" size="131072" crc="056cae74" md5="8ec099b2001155815841e2911c9bab9f" sha1="245699bff66440b1e4483e8d68e468bbc3ba6ab3" sha256="10b723d9e1daea7f9b19abf400be029a8bae51516a4b318f0fd1a3244a2a3c82"/>
+	</game>
+	<game name="J.League GG Pro-Striker '94 (Japan)" id="0163">
+		<category>Games</category>
+		<description>J.League GG Pro-Striker '94 (Japan)</description>
+		<rom name="J.League GG Pro-Striker '94 (Japan).gg" size="524288" crc="a12a28a0" md5="d4034f6604c5dc04ee06e78b913c47fc" sha1="04248e53ce54c9f17daae9885fed87d39f0117b6" sha256="818b55313c5e8071f662e2dee7caab8cb597202be43d4fa4fd5a17eae86d1a1f"/>
+	</game>
+	<game name="J.League Soccer - Dream Eleven (Japan)" id="0164">
+		<category>Games</category>
+		<description>J.League Soccer - Dream Eleven (Japan)</description>
+		<rom name="J.League Soccer - Dream Eleven (Japan).gg" size="524288" crc="abddf0eb" md5="2b4ba7d870b8a57e769f9e0cb605c536" sha1="bed727b732712f115ddc4dc5fd873e6cd3787b62" sha256="ba87e4f1a36a27c52d9725252ab1367f8803cab58736fd86f3687e76589ae087"/>
+	</game>
+	<game name="Kaitou Saint Tail (Japan)" id="0179">
+		<category>Games</category>
+		<description>Kaitou Saint Tail (Japan)</description>
+		<rom name="Kaitou Saint Tail (Japan).gg" size="524288" crc="937fd52b" md5="bbf7dcb006a49c087ee71a3684a5a339" sha1="3e4e7ec4a4ce5d48baed7d583ede8bb9f92a44a6" sha256="533612d3d0f7d66cef91681d5a8e4b2feb325f97b85c547cfb4339aa9f80ea30"/>
+	</game>
+	<game name="Kenyuu Densetsu Yaiba (Japan)" id="0181">
+		<category>Games</category>
+		<description>Kenyuu Densetsu Yaiba (Japan)</description>
+		<rom name="Kenyuu Densetsu Yaiba (Japan).gg" size="524288" crc="d9ce3f4c" md5="d8cb893b1cf1ae9555ad9b7eaad469e0" sha1="21b08c5c4b086e169d5f780cafc22c041e19807b" sha256="dd1fc9c31e2270a296c3ea07067c832a232af1d6544284031d35d6b005bdcf40"/>
+	</game>
+	<game name="Kinetic Connection (Japan) (En)" id="0183">
+		<category>Games</category>
+		<description>Kinetic Connection (Japan) (En)</description>
+		<rom name="Kinetic Connection (Japan) (En).gg" size="131072" crc="4af7f2aa" md5="3393b5a16edd56194b1bb869e6324cb1" sha1="7447e0ad5e8e14c3ae05a274d393ca34de044855" sha256="1ee2b270ea29a6453150e38ee5539129c1d4fe62261fbdcd00b169d0864a94d4"/>
+	</game>
+	<game name="Kishin Douji Zenki (Japan)" id="0184">
+		<category>Games</category>
+		<description>Kishin Douji Zenki (Japan)</description>
+		<rom name="Kishin Douji Zenki (Japan).gg" size="524288" crc="7d622bdd" md5="ac6ed281ac8e9d71af186602951cfd7a" sha1="0fb3530633070551f3d5a04839fc42babc092fbd" sha256="abf85ee0730a3d54f1f5446c834a694b69c614d9eb59b7f132e5a4c62aa31f80"/>
+	</game>
+	<game name="Kuni-chan no Game Tengoku (Japan)" id="0187">
+		<category>Games</category>
+		<description>Kuni-chan no Game Tengoku (Japan)</description>
+		<rom name="Kuni-chan no Game Tengoku (Japan).gg" size="262144" crc="398f2358" md5="9bfe375432a88a9615fca2e90385151e" sha1="497f137e0f33b45a1560f51ca06b2bfaef51484a" sha256="f03425ad10e1557181db85bf0cbe9f0758f8e751b75650cacae0cbad0e8ce78e"/>
+	</game>
+	<game name="Kuni-chan no Game Tengoku Part 2 (Japan)" id="0188">
+		<category>Games</category>
+		<description>Kuni-chan no Game Tengoku Part 2 (Japan)</description>
+		<rom name="Kuni-chan no Game Tengoku Part 2 (Japan).gg" size="262144" crc="f3774c65" md5="15b1d9419a7529f4791d17ea3b9fa26e" sha1="f11af70a52cfd96ad4d03da8ca9227ddd5bcc382" sha256="ba3d076d34d6d31e133f4bc99619e22471a8728eace607b95f86394f87d3504f"/>
+	</game>
+	<game name="Lunar - Sanposuru Gakuen (Japan)" id="0199">
+		<category>Games</category>
+		<description>Lunar - Sanposuru Gakuen (Japan)</description>
+		<rom name="Lunar - Sanposuru Gakuen (Japan).gg" size="524288" crc="58459edd" md5="72cea1d3e02b74f10293aff3f2677683" sha1="1b0cc847d31956d843cadab7d86a2f434220301e" sha256="1697fdd6c578e503cd37dfffbd03aab96438242aa4dc06fd24f55dc82bb831e5"/>
+	</game>
+	<game name="Madou Monogatari A - Dokidoki Vacation (Japan)" id="0202">
+		<category>Games</category>
+		<description>Madou Monogatari A - Dokidoki Vacation (Japan)</description>
+		<rom name="Madou Monogatari A - Dokidoki Vacation (Japan).gg" size="524288" crc="7ec95282" md5="ab0d1eb20ac63a984d874a885ca2588d" sha1="c027aa76fe0e09a2d1b982eea0df2c8b687aadf7" sha256="6679b88d3db2ca62a78b1904cfe8364f7e6d5d74ffda27b7dbe49417ed2d02ec"/>
+	</game>
+	<game name="Madou Monogatari I - 3tsu no Madoukyuu (Japan)" id="0203">
+		<category>Games</category>
+		<description>Madou Monogatari I - 3tsu no Madoukyuu (Japan)</description>
+		<rom name="Madou Monogatari I - 3tsu no Madoukyuu (Japan).gg" size="524288" crc="00c34d94" md5="abca338c5f08d06526d09b70588add2c" sha1="5ccd474cefcb8e086e2e1f77c0fdd5c1d2bf82e7" sha256="4a87f02f358688bc7680d0d34f527e10a087fec95dbf7ed131241d8ffe4c0654"/>
+	</game>
+	<game name="Madou Monogatari II - Arle 16-Sai (Japan)" id="0204">
+		<category>Games</category>
+		<description>Madou Monogatari II - Arle 16-Sai (Japan)</description>
+		<rom name="Madou Monogatari II - Arle 16-Sai (Japan).gg" size="524288" crc="12eb2287" md5="81a57f26b7a1ccaa21bf7678b3596cb2" sha1="deead79fa4cb2e87652a9c8a76f2a7174f48f37a" sha256="9da7d65d1772ae9b5fa71cee68b19f78bfc4848451ad6bbb5662498b2dbb997a"/>
+	</game>
+	<game name="Madou Monogatari III - Kyuukyoku Joou-sama (Japan) (Rev A)" id="0206">
+		<category>Games</category>
+		<description>Madou Monogatari III - Kyuukyoku Joou-sama (Japan) (Rev A)</description>
+		<rom name="Madou Monogatari III - Kyuukyoku Joou-sama (Japan) (Rev A).gg" size="524288" crc="568f4825" md5="1294c965abdd845f554b30b311dee272" sha1="673670f954176ffab28a0280aa49856a457f36b1" sha256="75a284cfe95bf5eeced55aa958b1592c6ecfc556cef4d82f5e4f148b9394f375"/>
+	</game>
+	<game name="Magic Knight Rayearth (Japan)" id="0207">
+		<category>Games</category>
+		<description>Magic Knight Rayearth (Japan)</description>
+		<rom name="Magic Knight Rayearth (Japan).gg" size="524288" crc="8f82a6b9" md5="846d48d0f4024c8094117599d0e1eef1" sha1="6c13e3b9bb24eafc1186c5ffa322b1f40c676b3d" sha256="9a69751f607a7a855895c724ac6902c1b7bc11f51cef2ca433e9e9d1adcfa8ca"/>
+	</game>
+	<game name="Magic Knight Rayearth 2 - Making of Magic Knight (Japan)" id="0208">
+		<category>Games</category>
+		<description>Magic Knight Rayearth 2 - Making of Magic Knight (Japan)</description>
+		<rom name="Magic Knight Rayearth 2 - Making of Magic Knight (Japan).gg" size="524288" crc="1c2c2b04" md5="b19256c6716147a9744f5bd528f14450" sha1="29615d86057f3323ecda75d47102e77d364f6499" sha256="d796555f225bade9e9b35bc0496abfd3e545f469b32c7d6a8fde7071a4f776e7"/>
+	</game>
+	<game name="Magical Taruruuto-kun (Japan)" id="0210">
+		<category>Games</category>
+		<description>Magical Taruruuto-kun (Japan)</description>
+		<rom name="Magical Taruruuto-kun (Japan).gg" size="131072" crc="6e1cc23c" md5="3af0c6ddf5f00a493e1f159fcedc0933" sha1="40fae12f1d565849158ff87700e25d6967038867" sha256="5e9e91da88df4c102afe8ad3098ead8a5a10fc12070540d931efb9ccca3a76dd"/>
+	</game>
+	<game name="Mappy (Japan)" id="0213">
+		<category>Games</category>
+		<description>Mappy (Japan)</description>
+		<rom name="Mappy (Japan).gg" size="131072" crc="01d2dd2a" md5="a15c5219f766d516d1b8d9a09b9a2bb4" sha1="44d0b857d88a293da47dc161115422d830d81302" sha256="61412bf77e31670145a8d03aa05993d8f2e7c807031bf5847b3de064d57a2290"/>
+	</game>
+	<game name="Megami Tensei Gaiden - Last Bible (Japan)" id="0217">
+		<category>Games</category>
+		<description>Megami Tensei Gaiden - Last Bible (Japan)</description>
+		<rom name="Megami Tensei Gaiden - Last Bible (Japan).gg" size="524288" crc="2e4ec17b" md5="ab54600e28d866558323381f74fe2749" sha1="d98332eba27fd4a0db82d551a54bee4fdccf41a2" sha256="b74cdb307ef4355a74687a460a28efdb17aedf0b3f8a9db24bbea2992228e12e"/>
+	</game>
+	<game name="Megami Tensei Gaiden - Last Bible Special (Japan)" id="0218">
+		<category>Games</category>
+		<description>Megami Tensei Gaiden - Last Bible Special (Japan)</description>
+		<rom name="Megami Tensei Gaiden - Last Bible Special (Japan).gg" size="524288" crc="4ec30806" md5="aab2b02c831252f6a2eb369df39f7c73" sha1="ca597064a8f0dd8221e89655584ec0cc67dbe026" sha256="813d0609273d253474898889baa8576d480e9c9050c52c3f16dc3020a6cc958a"/>
+	</game>
+	<game name="Moldorian - Hikari to Yami no Sister (Japan)" id="0227">
+		<category>Games</category>
+		<description>Moldorian - Hikari to Yami no Sister (Japan)</description>
+		<rom name="Moldorian - Hikari to Yami no Sister (Japan).gg" size="524288" crc="4d5d15fb" md5="95fb42e84a2b08acce481b0894ea3cea" sha1="0dad260b5357b2f61d1452bb73d8321ca53d7262" sha256="1697d7d4bb69ce7dcfd4ec0af36d6d4f8c9e54c2cbde2c3b8de8a97d56c33de6"/>
+	</game>
+	<game name="Nazo Puyo (Japan) (Rev A)" id="0455">
+		<category>Games</category>
+		<description>Nazo Puyo (Japan) (Rev A)</description>
+		<rom name="Nazo Puyo (Japan) (Rev A).gg" size="131072" crc="d8d11f8d" md5="286df90c900f1923a404b617907472c9" sha1="7b19e92a85564b166c364d990d9d44f7e1113541" sha256="abb997fb21c5d4f7593d2f6b46ea700810aacf8757438895f28f4d6f09101239"/>
+	</game>
+	<game name="Nazo Puyo - Arle no Roux (Japan)" id="0237">
+		<category>Games</category>
+		<description>Nazo Puyo - Arle no Roux (Japan)</description>
+		<rom name="Nazo Puyo - Arle no Roux (Japan).gg" size="262144" crc="54ab42a4" md5="d207c9aca1cc848c363b9f367dd9df3b" sha1="20308b7389a9e860697a66510d4925d1af3b769a" sha256="61d0defafb2a747d6245e817c6ca58f3e66d86b3b3a6b98d376613bb6326449c"/>
+	</game>
+	<game name="Nazo Puyo 2 (Japan)" id="0236">
+		<category>Games</category>
+		<description>Nazo Puyo 2 (Japan)</description>
+		<rom name="Nazo Puyo 2 (Japan).gg" size="262144" crc="73939de4" md5="2896235a36c793e99eeb1d18fb2b4a0b" sha1="dbd511aff622c618eac0c21de36965b869362dbd" sha256="34cde3d7361f172fabe2b6d149966eeda2ab4692514e954bc50ae1bab5c887cf"/>
+	</game>
+	<game name="Neko Daisuki! (Japan)" id="0244">
+		<category>Games</category>
+		<description>Neko Daisuki! (Japan)</description>
+		<rom name="Neko Daisuki! (Japan).gg" size="524288" crc="3679be80" md5="b61753da244f213df3d0be198f8b7cbb" sha1="c83fd440895ceb50e4da2ab9db2a29ac21555e9d" sha256="70ff160d2260c41a8fe88ea0a386b9a08da39450e4a10dd718b0d96257a58034"/>
+	</game>
+	<game name="Ninku (Japan)" id="0252">
+		<category>Games</category>
+		<description>Ninku (Japan)</description>
+		<rom name="Ninku (Japan).gg" size="524288" crc="c3056e15" md5="713ae959af3eea55c9a3c5bd36f1ed9d" sha1="d22bfa865b34866568f3dd7fccec886170071c81" sha256="d517fb2f59287372e2fa3f3811d4db1504ee659f48112fc9cb225ebc21b55ced"/>
+	</game>
+	<game name="Ninku 2 - Tenkuuryuu-e no Michi (Japan)" id="0253">
+		<category>Games</category>
+		<description>Ninku 2 - Tenkuuryuu-e no Michi (Japan)</description>
+		<rom name="Ninku 2 - Tenkuuryuu-e no Michi (Japan).gg" size="524288" crc="06247dd2" md5="da36e835210b7f05ba2973f343a8c300" sha1="fd6452974da734fcd4292cb0cd728a0ac9aef714" sha256="4ce96f5c9dbcd20749fcc670d41167de33c8a20f6d63034043bf2df0032fbee0"/>
+	</game>
+	<game name="Ninku Gaiden - Hiroyuki Daikatsugeki (Japan)" id="0254">
+		<category>Games</category>
+		<description>Ninku Gaiden - Hiroyuki Daikatsugeki (Japan)</description>
+		<rom name="Ninku Gaiden - Hiroyuki Daikatsugeki (Japan).gg" size="524288" crc="9140f239" md5="e9b45d6455e0753b8e0e825a36458253" sha1="23003e39918f855bd37f58b7b8840960cc82196a" sha256="451ad54bc35a6cd726d995958674ab7378eeb52c590d2ca30e5ae02050d05479"/>
+	</game>
+	<game name="Panzer Dragoon Mini (Japan) (En)" id="0264">
+		<category>Games</category>
+		<description>Panzer Dragoon Mini (Japan) (En)</description>
+		<rom name="Panzer Dragoon Mini (Japan) (En).gg" size="524288" crc="e9783cea" md5="4d0d6d25dfef7e1a509d828f157d515f" sha1="c1498f68acb234f46ab6f443f484a48ebd183f0f" sha256="4354a1a67234e802fe003669c01219baca87c40bbb98f5e4c04ec6674d69d2d9"/>
+	</game>
+	<game name="Pet Club - Inu Daisuki! (Japan)" id="0269">
+		<category>Games</category>
+		<description>Pet Club - Inu Daisuki! (Japan)</description>
+		<rom name="Pet Club - Inu Daisuki! (Japan).gg" size="524288" crc="b42d8430" md5="2abadeb0084af850778053b181f97a59" sha1="0c0bcfd06084419e7c5921f92ccb0f977058c5a3" sha256="f9fdce0960688357de3cc5d5d16884f8ac251c526ea5c00493ad3c795fcb148c"/>
+	</game>
+	<game name="Phantasy Star Adventure (Japan)" id="0275">
+		<category>Games</category>
+		<description>Phantasy Star Adventure (Japan)</description>
+		<rom name="Phantasy Star Adventure (Japan).gg" size="131072" crc="1a51579d" md5="8fad420b7dc93cd7ed10bfc54ec04f07" sha1="fdd940556f7d3af14979dbf057809d5a22e46d8e" sha256="59b93c908fa2d40ce624fa727029ec313f3d550eca30fa583cf7859432da5b2a"/>
+	</game>
+	<game name="Phantasy Star Gaiden (Japan)" id="0276">
+		<category>Games</category>
+		<description>Phantasy Star Gaiden (Japan)</description>
+		<rom name="Phantasy Star Gaiden (Japan).gg" size="262144" crc="a942514a" md5="54be96ca21885145108f1c02e4d88eba" sha1="914f1e693f396794a37b5d99acaf5db54fe529c2" sha256="c26c149ccf7f0909e34898f2656f1b9fc4eb0a92646cd8d4e32450a5469a5faf"/>
+	</game>
+	<game name="Pocket Jansou (Japan)" id="0279">
+		<category>Games</category>
+		<description>Pocket Jansou (Japan)</description>
+		<rom name="Pocket Jansou (Japan).gg" size="131072" crc="cc90c723" md5="7b46859570e339e54c41a921d1096585" sha1="5949695ae82b796d4cc141fcb57d01463e1b0ec6" sha256="b9feb392c0db3bac4f9a769c0812108fb885729b65a31595727050b4198ffb94"/>
+	</game>
+	<game name="Pop Breaker (Japan) (En)" id="0284">
+		<category>Games</category>
+		<description>Pop Breaker (Japan) (En)</description>
+		<rom name="Pop Breaker (Japan) (En).gg" size="131072" crc="71deba5a" md5="e0e2fbd5834c04574795c923b0147f39" sha1="9c358504d3c106dd62bd8981132b47cdb95903de" sha256="f0d59c30cb596dce269285243f2afea16517d396383c05b7f4c8fc79e87c32bf"/>
+	</game>
+	<game name="Popeye no Beach Volleyball (Japan)" id="0285">
+		<category>Games</category>
+		<description>Popeye no Beach Volleyball (Japan)</description>
+		<rom name="Popeye no Beach Volleyball (Japan).gg" size="524288" crc="3ef66810" md5="39d854c9902cf8ca34f32767424be8af" sha1="921e3922e1b550b6914fb06ba74d4661ef25a89e" sha256="5a59e0e352fdff9effce1f10e10bbd5c609e3dd387e11969841f976ac6e35976"/>
+	</game>
+	<game name="Pro Yakyuu '91, The (Japan)" id="0291">
+		<category>Games</category>
+		<description>Pro Yakyuu '91, The (Japan)</description>
+		<rom name="Pro Yakyuu '91, The (Japan).gg" size="131072" crc="6d3a10d3" md5="f9ae1762ed006c001e811fe6f072abb7" sha1="804cfac0a7578c3fd625f0084a24afa26a2dc015" sha256="528ef182a7f8d47a5d1b6db7b75a9396722fd45550eed2b36593a1cca958976d"/>
+	</game>
+	<game name="Pro Yakyuu GG League '94 (Japan)" id="0292">
+		<category>Games</category>
+		<description>Pro Yakyuu GG League '94 (Japan)</description>
+		<rom name="Pro Yakyuu GG League '94 (Japan).gg" size="524288" crc="a1a19135" md5="45d214cd027dee5ce2adfcd6458dec2c" sha1="faac2b420cb895aec4216d4c5ce21e5f2a4c4338" sha256="a1a49c03592d8e24c85d6fa2561544e896934551d2ddd1a82948f7af2ac62ba4"/>
+	</game>
+	<game name="Pro Yakyuu GG League (Japan)" id="0293">
+		<category>Games</category>
+		<description>Pro Yakyuu GG League (Japan)</description>
+		<rom name="Pro Yakyuu GG League (Japan).gg" size="262144" crc="2da8e943" md5="527449bc2aac2c8a16853fac63e60af6" sha1="bf78122a549ad9b016e3704690c7eea1574af140" sha256="0131039c1b0d14cb31f308b1a20e5630c0cf731d52f0389ae41ee7c61d983434"/>
+	</game>
+	<game name="Puyo Puyo (Japan) (En,Ja)" id="0298">
+		<category>Games</category>
+		<description>Puyo Puyo (Japan) (En,Ja)</description>
+		<rom name="Puyo Puyo (Japan) (En,Ja).gg" size="262144" crc="d173a06f" md5="a5fce989c4fcf6faf37c5a1779df8a22" sha1="8ea2e623858221c5d39eb1e0f6532a0b23b00305" sha256="284cf8e186dcaa8174909c9fd4200f4e4dae325b2ad20e541814fc0355d5eee7"/>
+	</game>
+	<game name="Puyo Puyo Tsuu (Japan)" id="0299">
+		<category>Games</category>
+		<description>Puyo Puyo Tsuu (Japan)</description>
+		<rom name="Puyo Puyo Tsuu (Japan).gg" size="524288" crc="3ab2393b" md5="7c080a453da2d80add04a3c3d9f264d1" sha1="04ea9ff57faeeccd1bbb17490d22313ae94c86d6" sha256="6ce72bb048e8a9a8e5b246acf86399873db74fcd6242f8b393627cfdf5a94870"/>
+	</game>
+	<game name="Puzzle &amp; Action - Ichidanto-R (Japan)" id="0156">
+		<category>Games</category>
+		<description>Puzzle &amp; Action - Ichidanto-R (Japan)</description>
+		<rom name="Puzzle &amp; Action - Ichidanto-R (Japan).gg" size="524288" crc="9f64c2bb" md5="7e28dc24cb77accafeaba718917961ec" sha1="34f95713ae3fbd91452eb71ce1721ead153517e5" sha256="5ccab44c0c743df5c5ebb8307c6cbc096c708e1acce619b14f2647d34c7d57fc"/>
+	</game>
+	<game name="Puzzle &amp; Action - Tanto-R (Japan)" id="0300">
+		<category>Games</category>
+		<description>Puzzle &amp; Action - Tanto-R (Japan)</description>
+		<rom name="Puzzle &amp; Action - Tanto-R (Japan).gg" size="524288" crc="09151743" md5="dcec1000aea3882b218b0cc0aed5a5d8" sha1="75f54793ac09e22e0be1864ea16e68b2fb4610ff" sha256="50741804b2cd413990d24bcf6a80bb0474a3c0beadff9ae8451ee0c596ac08ac"/>
+	</game>
+	<game name="Quiz Gear Fight!!, The (Japan)" id="0303">
+		<category>Games</category>
+		<description>Quiz Gear Fight!!, The (Japan)</description>
+		<rom name="Quiz Gear Fight!!, The (Japan).gg" size="524288" crc="736cdb76" md5="3bb4196a872265ce31cd27f5f8800152" sha1="6ce8ff78d96a1a0e13997489d1a53b5a57a619c2" sha256="a2b77d7da9b778017acd1bc979d86e74e1409d07e68770ae2210d8130079a456"/>
+	</game>
+	<game name="Rastan Saga (Japan) (En)" id="0306">
+		<category>Games</category>
+		<description>Rastan Saga (Japan) (En)</description>
+		<rom name="Rastan Saga (Japan) (En).sms" size="262144" crc="9c76fb3a" md5="fd82af26ebbed24f57c4eea8eddf3136" sha1="96bf8a67919218aac91fb74cde80a16f90df77d5" sha256="d8756c6c8274b3eb049d301ccfdcc15fb0d7cfae7f021117caebe97390867272"/>
+	</game>
+	<game name="Royal Stone - Hirakareshi Toki no Tobira (Japan)" id="0315">
+		<category>Games</category>
+		<description>Royal Stone - Hirakareshi Toki no Tobira (Japan)</description>
+		<rom name="Royal Stone - Hirakareshi Toki no Tobira (Japan).gg" size="524288" crc="445d7cd2" md5="c05b51ea07c8017a6d12badaea9daf29" sha1="c1afca3ac30cb9852f508f5dded7e50e08000f86" sha256="c091d0f9a36ec40dfdf8d2f872cc81710e00cf8c08febd98371dfde8648b5a43"/>
+	</game>
+	<game name="SD Gundam - Winner's History (Japan)" id="0321">
+		<category>Games</category>
+		<description>SD Gundam - Winner's History (Japan)</description>
+		<rom name="SD Gundam - Winner's History (Japan).gg" size="524288" crc="5e2b39b8" md5="2ff122c0eb474e362cbccfb7c72b1a38" sha1="24e217098845ab5a0eb29e9dc6af2e86be1b0a84" sha256="b456c2f22cc3cb8ee8db408a662d6c7a5f1d9c9f9017d7932f9f367c1d44e2e4"/>
+	</game>
+	<game name="Sassou Shounen Eiyuuden - Coca-Cola Kid (Japan)" id="0061">
+		<category>Games</category>
+		<description>Sassou Shounen Eiyuuden - Coca-Cola Kid (Japan)</description>
+		<rom name="Sassou Shounen Eiyuuden - Coca-Cola Kid (Japan).gg" size="524288" crc="c7598b81" md5="dbede5c20828e3d251b05356d9176c79" sha1="e0a6caba7d8433175a3b7f1dfb593f9ca2c67cd1" sha256="31dacae884f52848f3dd535af18c507dad797594ec003073d1b24845771fce23"/>
+	</game>
+	<game name="Shanghai II (Japan) (En) (Rev A)" id="0456">
+		<category>Games</category>
+		<description>Shanghai II (Japan) (En) (Rev A)</description>
+		<rom name="Shanghai II (Japan) (En) (Rev A).gg" size="131072" crc="81314249" md5="c228d31cf77bd03ac457e2d22f5b2bd1" sha1="82210b387344aaebae8cf03029967cd0c906beff" sha256="d4645e094a1e9817178d1457484310c1b82d5dc5ec64aacb55a76900f29af8c4"/>
+	</game>
+	<game name="Shikinjou (Japan) (En)" id="0327">
+		<category>Games</category>
+		<description>Shikinjou (Japan) (En)</description>
+		<rom name="Shikinjou (Japan) (En).gg" size="131072" crc="9c5c7f53" md5="a952a843a123092aafbeb37b428ef6ff" sha1="bf36130b1be4bce6c6eb7b87db00d420797c3611" sha256="84a3e0688c852566da056ae5d0d34e480350b47bc48c638f8fb030980525b6b3"/>
+	</game>
+	<game name="Shining Force Gaiden - Ensei, Jashin no Kuni e (Japan)" id="0328">
+		<category>Games</category>
+		<description>Shining Force Gaiden - Ensei, Jashin no Kuni e (Japan)</description>
+		<rom name="Shining Force Gaiden - Ensei, Jashin no Kuni e (Japan).gg" size="524288" crc="4d1f4699" md5="8eafd80d35251b5d3f07d5cae27241c1" sha1="bea1bea94ea745691ad944eaadc8a5576057ed53" sha256="a49ff5f30c62dcc99f9cbd8be28627ee10d8c4133cf94d80af5e614b1db342b8"/>
+	</game>
+	<game name="Shining Force Gaiden - Final Conflict (Japan)" id="0329">
+		<category>Games</category>
+		<description>Shining Force Gaiden - Final Conflict (Japan)</description>
+		<rom name="Shining Force Gaiden - Final Conflict (Japan).gg" size="524288" crc="6019fe5e" md5="35ef27f6b4b4ddc4a6ad6c78db8c890b" sha1="0d4bc152e7ae70457fa74f593e064403cd24ab72" sha256="4705256cc1a242aab7fea170369eb64723f796e27c6edfe0f93a674a8ba00f42"/>
+	</game>
+	<game name="Sonic Drift (Japan) (En)" id="0344">
+		<category>Games</category>
+		<description>Sonic Drift (Japan) (En)</description>
+		<rom name="Sonic Drift (Japan) (En).gg" size="524288" crc="68f0a776" md5="8093ef0eeb147f2a938fae3e5a26d8b3" sha1="fef5d69093df2d774ed274a4079790f8778577fc" sha256="e212c8b1e348bd59e06f8f5a8c4d05669fec4bd919765082402dfeb0a5b317ba"/>
+	</game>
+	<game name="Soukoban (Japan) (En)" id="0354">
+		<category>Games</category>
+		<description>Soukoban (Japan) (En)</description>
+		<rom name="Soukoban (Japan) (En).gg" size="131072" crc="0f3e3840" md5="0a98b767910b054ca3c5263eba3bfbdc" sha1="e5865a22dc3a9714160ef14bc59d510502d39b97" sha256="fac564b57391946248cc76539d9c86f2195a9feb6b031932b0cf9e5f51794c78"/>
+	</game>
+	<game name="Super Momotarou Dentetsu III (Japan)" id="0375">
+		<category>Games</category>
+		<description>Super Momotarou Dentetsu III (Japan)</description>
+		<rom name="Super Momotarou Dentetsu III (Japan).gg" size="524288" crc="b731bb80" md5="d8f9cfde4aca117781a931d4fa73feaf" sha1="f62e0e433987f97143282d2526490cd45f3e7185" sha256="d0d70f5d789f9f41a8527086ef1d079ebc918783b49e82a33026e0dc7134beb8"/>
+	</game>
+	<game name="Sylvan Tale (Japan)" id="0384">
+		<category>Games</category>
+		<description>Sylvan Tale (Japan)</description>
+		<rom name="Sylvan Tale (Japan).gg" size="524288" crc="45ef2062" md5="6657230e92f13ed98474523efc29d6b3" sha1="bec44ab675bcd6b081590d4d52b6af4076c342e6" sha256="d24304d7fcbbe6cb3e987eb2c4a01564b198b4c963b05e0b46113ad79d293e1f"/>
+	</game>
+	<game name="Tails' Skypatrol (Japan) (En)" id="0387">
+		<category>Games</category>
+		<description>Tails' Skypatrol (Japan) (En)</description>
+		<rom name="Tails' Skypatrol (Japan) (En).gg" size="262144" crc="88618afa" md5="ffb364bbaf72881cf7571e7ec388490d" sha1="9cb440611e9e3a7957438698fede0978d568a807" sha256="334406059c26a3704e881680fe102f819472cd331ceb13a79ce9f6b9adc08e0b"/>
+	</game>
+	<game name="Taisen Mahjong HaoPai (Japan)" id="0388">
+		<category>Games</category>
+		<description>Taisen Mahjong HaoPai (Japan)</description>
+		<rom name="Taisen Mahjong HaoPai (Japan).gg" size="131072" crc="cf9c607c" md5="75427fd442d09b606bf2970c2bbec8b2" sha1="9cd50acaab1c2452e5a231e1a5646c3c38b50d9c" sha256="bb5854b5d182f789901965b79a0f17dbbd6f6e4ac6dea0ed13fd597927387528"/>
+	</game>
+	<game name="Taisen Mahjong HaoPai 2 (Japan)" id="0389">
+		<category>Games</category>
+		<description>Taisen Mahjong HaoPai 2 (Japan)</description>
+		<rom name="Taisen Mahjong HaoPai 2 (Japan).gg" size="524288" crc="20527530" md5="a85490306f09c850ddef0129deaaf9f7" sha1="8dfd49a2e740a232efc52ceefc85f51cf292d75e" sha256="edde70d26d58946d7fa27625bb82ad9873672f51e57ec8602aa5ec948fbe75ed"/>
+	</game>
+	<game name="Taisen-gata Daisenryaku G (Japan)" id="0390">
+		<category>Games</category>
+		<description>Taisen-gata Daisenryaku G (Japan)</description>
+		<rom name="Taisen-gata Daisenryaku G (Japan).gg" size="262144" crc="7b7717b8" md5="4e17f98922ed08b1e9654af31abed5f3" sha1="d290bba12f4b7341c3ce2a00be8b8d7e548327e1" sha256="4e05f83eeea169c2cc4078c935d1a10b289fe9b528a017e1a0e47057c259e5c3"/>
+	</game>
+	<game name="Tama &amp; Friends - 3 Choume Kouen Tamalympic (Japan)" id="0393">
+		<category>Games</category>
+		<description>Tama &amp; Friends - 3 Choume Kouen Tamalympic (Japan)</description>
+		<rom name="Tama &amp; Friends - 3 Choume Kouen Tamalympic (Japan).gg" size="262144" crc="dd1d2ebf" md5="ac7aebc91fc607150ad8dbf286a61e36" sha1="c8bf11726a152a88f2b1d900bbd974775a8e608b" sha256="ad7d04de0f3ae917dae6341251915619df89f3b10ba3883824496a1c157e27eb"/>
+	</game>
+	<game name="Tarot no Yakata (Japan)" id="0152">
+		<category>Miscellaneous</category>
+		<description>Tarot no Yakata (Japan)</description>
+		<rom name="Tarot no Yakata (Japan).gg" size="131072" crc="57834c03" md5="0ac77a4b8ef41442d5bfa2148be8efcd" sha1="b8b45b2e59f5d3239984205c120421923d833505"/>
+	</game>
+	<game name="Tatakae! Pro Yakyuu Twin League (Japan)" id="0395">
+		<category>Games</category>
+		<description>Tatakae! Pro Yakyuu Twin League (Japan)</description>
+		<rom name="Tatakae! Pro Yakyuu Twin League (Japan).gg" size="524288" crc="bec57602" md5="a438f5c42a849e8224f8d3afe010655e" sha1="8c629941ae7077862dd516283c656b5212920936" sha256="2e6bbaf7b4a4e8d24e9f335d8fa27783d05df5bbd9ac1bc969c9f46a65a6f537"/>
+	</game>
+	<game name="Torarete Tamaruka (Japan)" id="0405">
+		<category>Games</category>
+		<description>Torarete Tamaruka (Japan)</description>
+		<rom name="Torarete Tamaruka (Japan).gg" size="524288" crc="5bcf9b97" md5="3ac2d39d5ba4fc04eec9d13f0b1c2b73" sha1="fa87ac6b14c4b9eaa91fa8e4550b3c9049dd8ef2" sha256="34c905d2b30bc6fa53e188f0366c651cd4d0db90d4021753cec03c6c9c5f3720"/>
+	</game>
+	<game name="Wagyan Land (Japan)" id="0413">
+		<category>Games</category>
+		<description>Wagyan Land (Japan)</description>
+		<rom name="Wagyan Land (Japan).gg" size="262144" crc="29e697b2" md5="8334e0d55380dd78eba5311cda6635de" sha1="6b74f3fddabd52ac6bb1b812043537154f8a43c5" sha256="ca853646f144e90db76b0c3abdce5a8c3708e87e84c635c7ea389cf98ef3f550"/>
+	</game>
+	<game name="World Derby (Japan)" id="0428">
+		<category>Games</category>
+		<description>World Derby (Japan)</description>
+		<rom name="World Derby (Japan).gg" size="524288" crc="1e81861f" md5="d8939b64458faf174cdc1241f777cb59" sha1="af96e8d9470df941c7c356cc9b6e143a3c44dd86" sha256="22068d21dec228af034c61f39be00117570c26b9a1f407e3ecb657eb83e710ab"/>
+	</game>
+	<game name="Yu Yu Hakusho - Horobishimono no Gyakushuu (Japan) (En)" id="0438">
+		<category>Games</category>
+		<description>Yu Yu Hakusho - Horobishimono no Gyakushuu (Japan) (En)</description>
+		<rom name="Yu Yu Hakusho - Horobishimono no Gyakushuu (Japan) (En).gg" size="524288" crc="88ebbf9e" md5="8c172cbafa7396077a651f2649d1cbcb" sha1="e75803c9241094f7cfe251b99cd370228cc0923c" sha256="5f2b832e5f0e211a7847c1996c69f5fe5a859d5e1015f72d2f2ba92903e1de35"/>
+	</game>
+	<game name="Yu Yu Hakusho II - Gekitou! Nanakyou no Tatakai (Japan)" id="0439">
+		<category>Games</category>
+		<description>Yu Yu Hakusho II - Gekitou! Nanakyou no Tatakai (Japan)</description>
+		<rom name="Yu Yu Hakusho II - Gekitou! Nanakyou no Tatakai (Japan).gg" size="524288" crc="46ae9159" md5="3ccef570d91851265472c90d523971b4" sha1="140efe67e886f52aeda2089a73599f7680c89f24" sha256="94ebf64dda4ecba8245b8db3c902166f4b9af4d5750d1937c4eec0dcf4571da8"/>
+	</game>
+	<game name="Zan Gear (Japan)" id="0440">
+		<category>Games</category>
+		<description>Zan Gear (Japan)</description>
+		<rom name="Zan Gear (Japan).gg" size="131072" crc="141aaf96" md5="ab36b9930a91dd9955c8e60af16ea22f" sha1="115074a58606720755364eaf0a4bc60aabf18f94" sha256="3c8e286b4411aca9876bd57af1bc35eeab28885e80be212fce0579aa7f146b70"/>
+	</game>
+</datafile>

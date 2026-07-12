@@ -1,10 +1,14 @@
 # ngp -- Curacion
 
+## Fuentes de referencia
+
+- Wikipedia: https://en.wikipedia.org/wiki/List_of_Neo_Geo_Pocket_games#Neo_Geo_Pocket
+
 <!-- AUTO-GENERADO INICIO -->
 
 ### Indice generado
 
-Fuente: `No-Intro` -- `SNK - NeoGeo Pocket (20250904-215533).dat`. Generado: `2026-07-11`. Total: 9 familias.
+Fuente: `1G1R (retool)` -- `SNK - NeoGeo Pocket (20250904-215533).dat`. Generado: `2026-07-12`. Total: 6 familias.
 
 Regenerar con: `pwsh tools/scripts/generate-romset-docs.ps1 -SystemId ngp`
 
@@ -12,12 +16,9 @@ Regenerar con: `pwsh tools/scripts/generate-romset-docs.ps1 -SystemId ngp`
 | --- | --- | --- | --- |
 | Baseball Stars - Pocket Sports Series | Oficial | Europe, Japan |  |
 | King of Fighters R-1 - Pocket Fighting Series | Oficial | Europe, Japan |  |
-| Melon-chan no Seichou Nikki | Oficial | Japan |  |
 | Neo Cherry Master - Real Casino Series | Oficial | Japan |  |
 | NeoGeo Cup '98 | Oficial | Europe, Japan |  |
 | Pocket Tennis - Pocket Sports Series | Oficial | Europe, Japan |  |
-| Renketsu Puzzle Tsunagete Pon! | Oficial | Japan |  |
 | Samurai Shodown! - Pocket Fighting Series | Oficial | Europe, Japan |  |
-| Shougi no Tatsujin | Oficial | Japan |  |
 
 <!-- AUTO-GENERADO FIN -->

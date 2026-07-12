@@ -1,0 +1,259 @@
+<?xml version="1.0"?>
+<!DOCTYPE datafile PUBLIC "-//Logiqx//DTD ROM Management Datafile//EN" "https://raw.githubusercontent.com/unexpectedpanda/retool-clonelists-metadata/main/datafile.dtd">
+<datafile>
+	<header>
+		<name>Microsoft - Xbox (Retool) (Japan)</name>
+		<description>Microsoft - Xbox (49) (-n) [-aAbBcDdefkmMoPpruv] (2026-06-14 23-43-27) (Retool) (Japan)</description>
+		<version>2026-06-14 23-43-27</version>
+		<date>2026-07-12 19-45-56</date>
+		<author>redump.org</author>
+		<homepage>http://www.github.com/unexpectedpanda/retool</homepage>
+		<url>http://redump.org/</url>
+		<retool>Created by Retool 2.4.9</retool>
+	</header>
+	<game name="Angelic Concert (Japan)">
+		<category>Games</category>
+		<description>Angelic Concert (Japan)</description>
+		<rom name="Angelic Concert (Japan).iso" size="7825162240" crc="b19c463c" md5="c73c5084d615ebcfe87ab6228d1f69f0" sha1="bc983c51764df3e5ea93c4cd9e19bbe8f0badfbd"/>
+	</game>
+	<game name="Aoi Namida (Japan)">
+		<category>Games</category>
+		<description>Aoi Namida (Japan)</description>
+		<rom name="Aoi Namida (Japan).iso" size="7825162240" crc="15fd036e" md5="7b0065eb19c3d5d1bc753343b3f6049d" sha1="b845e45ee19d8457c05d5af0aed2c2d9fa406ff3"/>
+	</game>
+	<game name="Baseball 2002, The - Battle Ball Park Sengen (Japan)">
+		<category>Games</category>
+		<description>Baseball 2002, The - Battle Ball Park Sengen (Japan)</description>
+		<rom name="Baseball 2002, The - Battle Ball Park Sengen (Japan).iso" size="7825162240" crc="294881e2" md5="02dbddbcd4b7718877b2124c8b990ca2" sha1="16b08472b1595c06dfaeb2727b5ff52f10fc6466"/>
+	</game>
+	<game name="Bistro Cupid (Japan)">
+		<category>Games</category>
+		<description>Bistro Cupid (Japan)</description>
+		<rom name="Bistro Cupid (Japan).iso" size="7825162240" crc="ebb52b54" md5="05c903ac39099206eb68b49ee6012290" sha1="f6a0282311dbba593b7a9e4b60ee3306144bfd4b"/>
+	</game>
+	<game name="Bistro Cupid 2 (Japan)">
+		<category>Games</category>
+		<description>Bistro Cupid 2 (Japan)</description>
+		<rom name="Bistro Cupid 2 (Japan).iso" size="7825162240" crc="c52972a1" md5="5b07c087829891af67a377d002f724ff" sha1="6542ed38c574ee121bdb6ecbc91d96c6b6ce2adc"/>
+	</game>
+	<game name="Braveknight - Leverant Eiyuuden (Japan)">
+		<category>Games</category>
+		<description>Braveknight - Leverant Eiyuuden (Japan)</description>
+		<rom name="Braveknight - Leverant Eiyuuden (Japan).iso" size="7825162240" crc="62711fa9" md5="1524b0e6cda50734b79253640e8b99c0" sha1="7012d6680fb2dc9c3680d474644478070dc8b527"/>
+	</game>
+	<game name="Break Nine - World Billiards Tournament (Japan)">
+		<category>Games</category>
+		<description>Break Nine - World Billiards Tournament (Japan)</description>
+		<rom name="Break Nine - World Billiards Tournament (Japan).iso" size="7825162240" crc="a93988a8" md5="71b2a2921647e0032fee57896acb8cdc" sha1="4ef11204845b9e908c1cf16d48a7f9a03eae083b"/>
+	</game>
+	<game name="C.A.T - Cyber Attack Team (Japan)">
+		<category>Games</category>
+		<description>C.A.T - Cyber Attack Team (Japan)</description>
+		<rom name="C.A.T - Cyber Attack Team (Japan).iso" size="7825162240" crc="fae596d1" md5="ae65c1eb5f4e481b23b5875766541753" sha1="a575bafc6349536a901086143d3db260cff39d59"/>
+	</game>
+	<game name="Dennou Taisen - DroneZ (Japan)">
+		<category>Games</category>
+		<description>Dennou Taisen - DroneZ (Japan)</description>
+		<rom name="Dennou Taisen - DroneZ (Japan).iso" size="7825162240" crc="6b734bbd" md5="43ef7cebd136e8463b536c15f3c8a7da" sha1="8531b6db2791060568aaa0d6eaade7c42578305a"/>
+	</game>
+	<game name="Dinosaur Hunting - Ushinawareta Daichi (Japan)">
+		<category>Games</category>
+		<description>Dinosaur Hunting - Ushinawareta Daichi (Japan)</description>
+		<rom name="Dinosaur Hunting - Ushinawareta Daichi (Japan).iso" size="7825162240" crc="52b6bf3b" md5="bcea1b4ba0ada9f13da25de3c3f81292" sha1="d320e59ab4bc36b5f8ccabd105806f513105f268"/>
+	</game>
+	<game name="Double-S.T.E.A.L - The Second Clash (Japan) (En,Ja)">
+		<category>Games</category>
+		<description>Double-S.T.E.A.L - The Second Clash (Japan) (En,Ja)</description>
+		<rom name="Double-S.T.E.A.L - The Second Clash (Japan) (En,Ja).iso" size="7825162240" crc="b5245174" md5="ae04ec6852f1145ad0a9312b9d9ba6b3" sha1="3e54dfd94efc119641591e7e79c8675fcc4ccd9a"/>
+	</game>
+	<game name="Drihoo (Japan)">
+		<category>Games</category>
+		<description>Drihoo (Japan)</description>
+		<rom name="Drihoo (Japan).iso" size="7825162240" crc="ac314ef9" md5="e01fe5a124b18455b12e2dcff8ca3aab" sha1="3523603825ef7f68e805a31eac572befb048d991"/>
+	</game>
+	<game name="ESPN Winter X Games Snowboarding 2002 (Japan)">
+		<category>Games</category>
+		<description>ESPN Winter X Games Snowboarding 2002 (Japan)</description>
+		<rom name="ESPN Winter X Games Snowboarding 2002 (Japan).iso" size="7825162240" crc="05d1e9ec" md5="d855b5adff43c7b340da2a8f0367c9cb" sha1="7c356a4f9aee7cd0af877bc14120d75f7d88fa0f"/>
+	</game>
+	<game name="Exaskeleton (Japan)">
+		<category>Games</category>
+		<description>Exaskeleton (Japan)</description>
+		<rom name="Exaskeleton (Japan).iso" size="7825162240" crc="a0fb6898" md5="734af29a2beaebc93d8b644f87316abc" sha1="3129052a36f08c0aed5ede72547e2b8aa7724c11"/>
+	</game>
+	<game name="Flight Academy (Japan)">
+		<category>Games</category>
+		<description>Flight Academy (Japan)</description>
+		<rom name="Flight Academy (Japan).iso" size="7825162240" crc="697b9b50" md5="e282871b04bd264eb7f49757646541ab" sha1="5ee238b69104de3373d3f3235d459c9120c18c2b"/>
+	</game>
+	<game name="Galaxy Angel (Japan)">
+		<category>Games</category>
+		<description>Galaxy Angel (Japan)</description>
+		<rom name="Galaxy Angel (Japan).iso" size="7825162240" crc="2799cfcf" md5="4832edf1cb887a5db245e6e2ed0509c9" sha1="0e87fee2863a4bad109bf8c825772a380a6520b3"/>
+	</game>
+	<game name="Guilty Gear Isuka (Japan)">
+		<category>Games</category>
+		<description>Guilty Gear Isuka (Japan)</description>
+		<rom name="Guilty Gear Isuka (Japan).iso" size="7825162240" crc="9afc9fc3" md5="87e815100cb1b7b9cc16a229323cd21a" sha1="16d8b02559b27cc53bb658f17b2a438f2900cbf6"/>
+	</game>
+	<game name="Innocent Tears (Japan)">
+		<category>Games</category>
+		<description>Innocent Tears (Japan)</description>
+		<rom name="Innocent Tears (Japan).iso" size="7825162240" crc="7f87f382" md5="ba3062a16b41885daba84f87a8d72cad" sha1="be0b2175a295fbadace32d9059ab483cf903856e"/>
+	</game>
+	<game name="Jikkyou World Soccer 2002 (Japan)">
+		<category>Games</category>
+		<description>Jikkyou World Soccer 2002 (Japan)</description>
+		<rom name="Jikkyou World Soccer 2002 (Japan).iso" size="7825162240" crc="054fd42a" md5="9540f38962a10837b10bdd0e2711778a" sha1="97f414ecc626ce2c2c0cfbac8dad35944cec2cc6"/>
+	</game>
+	<game name="Jockey's Road (Japan)">
+		<category>Games</category>
+		<description>Jockey's Road (Japan)</description>
+		<rom name="Jockey's Road (Japan).iso" size="7825162240" crc="639726e6" md5="593b477a46de6bdd1d6d0a18b5b0d55e" sha1="1d1ba93f71e9d0f5ca6951804178e4b0b822993f"/>
+	</game>
+	<game name="Kikou Heidan J-Phoenix + (Japan)">
+		<category>Games</category>
+		<description>Kikou Heidan J-Phoenix + (Japan)</description>
+		<rom name="Kikou Heidan J-Phoenix + (Japan).iso" size="7825162240" crc="b9bd346c" md5="e128e7b0ee2e5ff02a54b2d9812eeb8d" sha1="3fef9e4dfa7076705369606e04bc681362a318d6"/>
+	</game>
+	<game name="Lakemasters - Bass Fishing Game (Japan)">
+		<category>Games</category>
+		<description>Lakemasters - Bass Fishing Game (Japan)</description>
+		<rom name="Lakemasters - Bass Fishing Game (Japan).iso" size="7825162240" crc="1d478a97" md5="6c8a3fb6169aae3aedffb4fb80357fd2" sha1="98a810e28c2ac0f06486dba048f08aa39e22262d"/>
+	</game>
+	<game name="Magatama (Japan)">
+		<category>Games</category>
+		<description>Magatama (Japan)</description>
+		<rom name="Magatama (Japan).iso" size="7825162240" crc="487f83c1" md5="6030664203a5d999e9443688c717816d" sha1="96fe689080d50621b28c07936cf1ac6fa9eefbb0"/>
+	</game>
+	<game name="Magi Death Fight! (Japan)">
+		<category>Games</category>
+		<description>Magi Death Fight! (Japan)</description>
+		<rom name="Magi Death Fight! (Japan).iso" size="7825162240" crc="c57f8a35" md5="a16cf92828b010373f51a46418751142" sha1="ab3788b1a3af7d1679b6e53c9a2e716c26cc4bd4"/>
+	</game>
+	<game name="Metal Wolf Chaos (Japan)">
+		<category>Games</category>
+		<description>Metal Wolf Chaos (Japan)</description>
+		<rom name="Metal Wolf Chaos (Japan).iso" size="7825162240" crc="fa9f5248" md5="606497dca701d130635443dd326f37c6" sha1="0ae58b68b5603b3a7156c7028eb1b5f1cd3abf2a"/>
+	</game>
+	<game name="MotoGP URT2 Online Challenge (Japan) (En,Ja,Fr,De,Es,It)">
+		<category>Games</category>
+		<description>MotoGP URT2 Online Challenge (Japan) (En,Ja,Fr,De,Es,It)</description>
+		<rom name="MotoGP URT2 Online Challenge (Japan) (En,Ja,Fr,De,Es,It).iso" size="7825162240" crc="3574dabe" md5="30db25f6037d9e1e769f49874caaa0da" sha1="517a2e0d3b8a3b39de8107236f9511e8bfb75113"/>
+	</game>
+	<game name="Muzzle Flash (Japan) (En,Ja)">
+		<category>Games</category>
+		<description>Muzzle Flash (Japan) (En,Ja)</description>
+		<rom name="Muzzle Flash (Japan) (En,Ja).iso" size="7825162240" crc="13373d61" md5="9cbeb00b7ebbee3969e5eaaf9d416398" sha1="b8dc0d9fd1a181683fd45b3c51af6d5976cd4e9c"/>
+	</game>
+	<game name="N.U.D.E.@ - Natural Ultimate Digital Experiment (Japan)">
+		<category>Games</category>
+		<description>N.U.D.E.@ - Natural Ultimate Digital Experiment (Japan)</description>
+		<rom name="N.U.D.E.@ - Natural Ultimate Digital Experiment (Japan).iso" size="7825162240" crc="4d0f110b" md5="6a687015a2fa20e8cf4f09d311533495" sha1="c47c03937138ecb0039f221bb92760e088d8e13d"/>
+	</game>
+	<game name="Nakajima Tetsuya no Othello Seminar (Japan)">
+		<category>Games</category>
+		<description>Nakajima Tetsuya no Othello Seminar (Japan)</description>
+		<rom name="Nakajima Tetsuya no Othello Seminar (Japan).iso" size="7825162240" crc="5cf32052" md5="922148c336c2a5bf84f37c1f66e8add6" sha1="c668a104e908243ecbf104406663eb3d994ca64e"/>
+	</game>
+	<game name="Nobunaga no Yabou - Ranseiki (Japan)">
+		<category>Games</category>
+		<description>Nobunaga no Yabou - Ranseiki (Japan)</description>
+		<rom name="Nobunaga no Yabou - Ranseiki (Japan).iso" size="7825162240" crc="2036268d" md5="8bad32b329d47e49f7b7df9bb1d93ab0" sha1="eb1ae02b07694abfb5147943adaf983b4b6bcd3e"/>
+	</game>
+	<game name="Petit Copter (Japan)">
+		<category>Games</category>
+		<description>Petit Copter (Japan)</description>
+		<rom name="Petit Copter (Japan).iso" size="7825162240" crc="daf1145a" md5="b4a336b37aa93ba2d855151a801dd4e1" sha1="b33ba68ddc07dceca5491d059bdd6c26099479ea"/>
+	</game>
+	<game name="Plus Plumb 2 (Japan)">
+		<category>Games</category>
+		<description>Plus Plumb 2 (Japan)</description>
+		<rom name="Plus Plumb 2 (Japan).iso" size="7825162240" crc="6f3bd563" md5="7fffcd36b7580ade8af5f86a8f496324" sha1="7f3feb2bbb9399f4c948c0ad227032f12ee49235"/>
+	</game>
+	<game name="Psyvariar 2 - Extend Edition (Japan)">
+		<category>Games</category>
+		<description>Psyvariar 2 - Extend Edition (Japan)</description>
+		<rom name="Psyvariar 2 - Extend Edition (Japan).iso" size="7825162240" crc="fbcb5ca2" md5="7d0357f37cd775912ccd124957d835a6" sha1="b4e346be2cede2fd8e4c64cdae7dedd04679bc83"/>
+	</game>
+	<game name="Rent a Hero No. 1 (Japan)">
+		<category>Games</category>
+		<description>Rent a Hero No. 1 (Japan)</description>
+		<rom name="Rent a Hero No. 1 (Japan).iso" size="7825162240" crc="6d37dcd8" md5="8eff5ec65bd79015cc485a93c78c842a" sha1="d82337869be6ca25c0a80c5f9d62c5f36f058641"/>
+	</game>
+	<game name="Sentou Yousei Yukikaze - Yousei no Mau Sora (Japan)">
+		<category>Games</category>
+		<description>Sentou Yousei Yukikaze - Yousei no Mau Sora (Japan)</description>
+		<rom name="Sentou Yousei Yukikaze - Yousei no Mau Sora (Japan).iso" size="7825162240" crc="d134aa71" md5="2b8f0b5ae20cdf7776157963f478df4d" sha1="58aa891fec254cb8e359787a4b1f86176a0566c6"/>
+	</game>
+	<game name="Shikigami no Shiro Evolution (Japan)">
+		<category>Games</category>
+		<description>Shikigami no Shiro Evolution (Japan)</description>
+		<rom name="Shikigami no Shiro Evolution (Japan).iso" size="7825162240" crc="1ae5e874" md5="ab785aeeef9666a323eadb9b2307c395" sha1="dc0da4b2128d9377c431a1303ea17687f81258d9"/>
+	</game>
+	<game name="Shikigami no Shiro II (Japan)">
+		<category>Games</category>
+		<description>Shikigami no Shiro II (Japan)</description>
+		<rom name="Shikigami no Shiro II (Japan).iso" size="7825162240" crc="84086f16" md5="cfdf2da84d853d340db6c97a62b45be1" sha1="7a9ef369198b07031910cfe346db9c25ffaf37bf"/>
+	</game>
+	<game name="Shin Megami Tensei - Nine (Japan)">
+		<category>Games</category>
+		<description>Shin Megami Tensei - Nine (Japan)</description>
+		<rom name="Shin Megami Tensei - Nine (Japan).iso" size="7825162240" crc="c0196e56" md5="37eaea295de88dd34e212402d9c9095c" sha1="cf6a0aa069fa9002eb056c122bd3d4ece992212e"/>
+	</game>
+	<game name="Shinchou Mahjong (Japan)">
+		<category>Games</category>
+		<description>Shinchou Mahjong (Japan)</description>
+		<rom name="Shinchou Mahjong (Japan).iso" size="7825162240" crc="bb397f62" md5="3506ada12759777458fcf4c97d7ef60d" sha1="0f2f067fe1281059734c9ecdeeade284e8771bbd"/>
+	</game>
+	<game name="Takahashi Junko no Mahjong Seminar (Japan)">
+		<category>Games</category>
+		<description>Takahashi Junko no Mahjong Seminar (Japan)</description>
+		<rom name="Takahashi Junko no Mahjong Seminar (Japan).iso" size="7825162240" crc="00e187bc" md5="a5d080947be7840de38cfac53c3bb386" sha1="ea05679a9fa9d293d37cc1a068cf7ba893b8a01c"/>
+	</game>
+	<game name="Tenerezza (Japan)">
+		<category>Games</category>
+		<description>Tenerezza (Japan)</description>
+		<rom name="Tenerezza (Japan).iso" size="7825162240" crc="1a112baf" md5="9057b481ba7d3386459de5b80939973c" sha1="2add329d50a9eef4e38ce379f92cb144ee64f88a"/>
+	</game>
+	<game name="Thousand Land (Japan)">
+		<category>Games</category>
+		<description>Thousand Land (Japan)</description>
+		<rom name="Thousand Land (Japan).iso" size="7825162240" crc="7ae762a7" md5="64fe80202a5b71ce07cce6f22727ebb3" sha1="734015491d3dbe62b2d4afc82889a71ecf3d886d"/>
+	</game>
+	<game name="Touge R (Japan)">
+		<category>Games</category>
+		<description>Touge R (Japan)</description>
+		<rom name="Touge R (Japan).iso" size="7825162240" crc="44b29201" md5="266af84febea69d04430b5ae892c9071" sha1="26397aee9bacff17b402335476dba410a0c702ca"/>
+	</game>
+	<game name="Triangle Again (Japan)">
+		<category>Games</category>
+		<description>Triangle Again (Japan)</description>
+		<rom name="Triangle Again (Japan).iso" size="7825162240" crc="b5e1a051" md5="607f2056077b628d4f9ab80108dace6d" sha1="4a5a5db3d5deba1122d41acd3cdabf09d56781d2"/>
+	</game>
+	<game name="Triangle Again 2 (Japan)">
+		<category>Games</category>
+		<description>Triangle Again 2 (Japan)</description>
+		<rom name="Triangle Again 2 (Japan).iso" size="7825162240" crc="ee853921" md5="7a5d9dc70474049c5ee3588cfd7ad558" sha1="472199b59655f04fdef070c181757d053ed64c44"/>
+	</game>
+	<game name="Umezawa Yukari no Igo Seminar (Japan)">
+		<category>Games</category>
+		<description>Umezawa Yukari no Igo Seminar (Japan)</description>
+		<rom name="Umezawa Yukari no Igo Seminar (Japan).iso" size="7825162240" crc="4e772fc7" md5="f0ea979e4e888e4502d8beda4378ce8e" sha1="6c72090fdef6483de21a4958b4b1e24206971ff7"/>
+	</game>
+	<game name="Wild Rings, The (Japan)">
+		<category>Games</category>
+		<description>Wild Rings, The (Japan)</description>
+		<rom name="Wild Rings, The (Japan).iso" size="7825162240" crc="4428839c" md5="55eebaf435463ecbbc30a81343935579" sha1="4e82bfacd8840515b188102d66d4e529092f320e"/>
+	</game>
+	<game name="Xbox Live Starter Kit Disc &amp; Zunou Taisen Live (Japan)">
+		<category>Games</category>
+		<description>Xbox Live Starter Kit Disc &amp; Zunou Taisen Live (Japan)</description>
+		<rom name="Xbox Live Starter Kit Disc &amp; Zunou Taisen Live (Japan).iso" size="7825162240" crc="6430e8b4" md5="72c133d6d174dcd7a55b498e3f0a7127" sha1="88d2eadaa34d72c3a2c2250a2713221082679c3e"/>
+	</game>
+	<game name="Yonenaga Kunio no Shougi Seminar (Japan)">
+		<category>Games</category>
+		<description>Yonenaga Kunio no Shougi Seminar (Japan)</description>
+		<rom name="Yonenaga Kunio no Shougi Seminar (Japan).iso" size="7825162240" crc="dd22e7f3" md5="fbe0f8c71f70876674b6bf1f7da5f93d" sha1="b2b3c9c9004cf7719397d1980768f03b4149bdf9"/>
+	</game>
+</datafile>

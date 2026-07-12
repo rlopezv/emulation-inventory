@@ -1,10 +1,14 @@
 # amigacd32 -- Curacion
 
+## Fuentes de referencia
+
+- Wikipedia: https://en.wikipedia.org/wiki/List_of_Amiga_CD32_games
+
 <!-- AUTO-GENERADO INICIO -->
 
 ### Indice generado
 
-Fuente: `Redump` -- `Commodore - Amiga CD32 - Datfile (207) (2026-05-08 20-54-04).dat`. Generado: `2026-07-11`. Total: 159 familias.
+Fuente: `1G1R (retool)` -- `Commodore - Amiga CD32 (2026-05-08 20-54-04).dat`. Generado: `2026-07-12`. Total: 145 familias.
 
 Regenerar con: `pwsh tools/scripts/generate-romset-docs.ps1 -SystemId amigacd32`
 
@@ -15,8 +19,6 @@ Regenerar con: `pwsh tools/scripts/generate-romset-docs.ps1 -SystemId amigacd32`
 | Alien Breed - Tower Assault | Oficial | Europe |  |
 | Alien Breed 3D | Oficial | Europe |  |
 | Alien Breed Special Edition & Qwak | Oficial | Europe |  |
-| Amiga Power Techno Nation - Game Massive - The Essential CD32 Collection Volume 1 | Oficial | Europe |  |
-| Amiga Workbench 3.0 | Oficial | Europe |  |
 | Arabian Nights | Oficial | Europe |  |
 | Arcade Pool | Oficial | Europe |  |
 | Assassins - Ultimate Games Compact Disc | Oficial | Europe |  |
@@ -37,15 +39,12 @@ Regenerar con: `pwsh tools/scripts/generate-romset-docs.ps1 -SystemId amigacd32`
 | Bump 'n' Burn | Oficial | Europe |  |
 | Cannon Fodder | Oficial | Europe |  |
 | Castles II - Siege & Conquest | Oficial | Europe |  |
-| CD Micro French | Oficial | Europe |  |
 | Chambers of Shaolin | Oficial | Europe |  |
 | Chaos Engine, The | Oficial | Europe |  |
 | Chuck Rock | Oficial | Europe |  |
 | Chuck Rock II - Son of Chuck | Oficial | Europe |  |
 | Classic Lotus Trilogy, The | Oficial | Europe |  |
 | Clockwiser | Oficial | Europe |  |
-| Clou!, Der | Oficial | Germany |  |
-| Communicator | Oficial | Germany |  |
 | Dangerous Streets | Oficial | Europe |  |
 | Dangerous Streets & Wing Commander | Oficial | Europe |  |
 | Darkseed | Oficial | Europe |  |
@@ -60,7 +59,6 @@ Regenerar con: `pwsh tools/scripts/generate-romset-docs.ps1 -SystemId amigacd32`
 | Emerald Mines | Oficial | Europe |  |
 | Exile | Oficial | Europe |  |
 | Fears | Oficial | Europe |  |
-| Fest- och snapskaraoke | Oficial | Sweden |  |
 | Fields of Glory | Oficial | Europe |  |
 | Fightin' Spirit | Oficial | Europe |  |
 | Fire & Ice - The Daring Adventures of Cool Coyote | Oficial | Europe |  |
@@ -72,9 +70,7 @@ Regenerar con: `pwsh tools/scripts/generate-romset-docs.ps1 -SystemId amigacd32`
 | Gamers' Delight | Oficial | Europe |  |
 | Global Effect | Oficial | Europe |  |
 | Gloom | Oficial | Europe |  |
-| Grandslam Gamer Gold Collection | Oficial | Europe |  |
 | Guardian | Oficial | Europe |  |
-| Guinness Disc of Records, The - Second Edition | Oficial |  |  |
 | Gulp! | Oficial | Europe |  |
 | Gunship 2000 | Oficial | Europe |  |
 | Heimdall 2 - Into the Hall of Worlds | Oficial | Europe |  |
@@ -90,7 +86,6 @@ Regenerar con: `pwsh tools/scripts/generate-romset-docs.ps1 -SystemId amigacd32`
 | Jim Power in Mutant Planet | Oficial | USA |  |
 | John Barnes European Football | Oficial | Europe |  |
 | Jungle Strike - The Sequel to Desert Strike | Oficial | Europe |  |
-| Karaoke - Julsanger I | Oficial | Sweden |  |
 | Kid Chaos | Oficial | Europe |  |
 | Kingpin - Arcade Sports Bowling | Oficial | Europe |  |
 | Labyrinth of Time, The | Oficial | Europe |  |
@@ -100,7 +95,6 @@ Regenerar con: `pwsh tools/scripts/generate-romset-docs.ps1 -SystemId amigacd32`
 | Liberation - Captive II | Oficial | Europe |  |
 | Litil Divil | Oficial | Europe |  |
 | Lost Vikings, The | Oficial | Europe |  |
-| Magic Island | Oficial |  |  |
 | Manchester United - Premier League Champions | Oficial | Europe |  |
 | Marvin's Marvellous Adventure | Oficial | Europe |  |
 | Mean Arenas | Oficial | Europe |  |
@@ -121,8 +115,6 @@ Regenerar con: `pwsh tools/scripts/generate-romset-docs.ps1 -SystemId amigacd32`
 | Premiere | Oficial | Europe |  |
 | Prey - An Alien Encounter | Oficial | Europe |  |
 | Project-X & F17 Challenge | Oficial | Europe |  |
-| Project-X & Ultimate Body Blows | Oficial | Europe |  |
-| Projekt - Lila | Oficial | Germany |  |
 | Quik the Thunder Rabbit | Oficial | Europe |  |
 | Rise of the Robots | Oficial | Europe |  |
 | Roadkill | Oficial | Europe |  |
@@ -132,7 +124,6 @@ Regenerar con: `pwsh tools/scripts/generate-romset-docs.ps1 -SystemId amigacd32`
 | Sensible Soccer - European Champions | Oficial | Europe |  |
 | Seven Gates of Jambala, The | Oficial | Europe |  |
 | Shadow Fighter | Oficial | Europe |  |
-| Sheer Delight | Oficial | Europe, USA |  |
 | Simon the Sorcerer | Oficial | Europe |  |
 | Skeleton Krew | Oficial | Europe |  |
 | Sleepwalker | Oficial | Europe |  |
@@ -161,10 +152,9 @@ Regenerar con: `pwsh tools/scripts/generate-romset-docs.ps1 -SystemId amigacd32`
 | UFO - Enemy Unknown | Oficial | Europe |  |
 | Ultimate Body Blows | Oficial | Europe |  |
 | Universe | Oficial | Europe |  |
-| Video Creator | Oficial | Europe |  |
 | Vital Light | Oficial | Europe |  |
 | Wembley International Soccer | Oficial | Europe |  |
-| Whale's Voyage | Oficial | Europe, Germany |  |
+| Whale's Voyage | Oficial | Europe |  |
 | Wild Cup Soccer | Oficial | Europe |  |
 | Worms | Oficial | Europe |  |
 | Zool - Ninja of the Nth Dimension | Oficial | Europe |  |

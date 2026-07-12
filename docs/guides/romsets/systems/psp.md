@@ -1,276 +1,741 @@
 # psp -- Curacion
 
+## Fuentes de referencia
+
+- Wikipedia: https://en.wikipedia.org/wiki/PlayStation_Portable
+
 <!-- AUTO-GENERADO INICIO -->
 
 ### Indice generado
 
-Fuente: `Non-Redump` -- `Non-Redump - Sony - PlayStation Portable (20260421-200314).dat`. Generado: `2026-07-11`. Total: 262 familias.
+Fuente: `1G1R (retool)` -- `Sony - PlayStation Portable (2026-06-13 08-01-46).dat`. Generado: `2026-07-12`. Total: 723 familias.
 
 Regenerar con: `pwsh tools/scripts/generate-romset-docs.ps1 -SystemId psp`
 
 | Nombre | Categoria | Regiones | Alias |
 | --- | --- | --- | --- |
-| 007 - From Russia with Love | Oficial | Asia |  |
-| Abamama Osheotda! Eoseo Gullyeora! | Oficial | Korea |  |
-| Aedis Memories - Shintenmakai Generation of Chaos V | Oficial | Japan |  |
-| Aedis Memories - Shintenmakai Generation of Chaos V | Oficial | Korea |  |
-| Akudaikan Manyuuki - Seigi no Yaiba | Oficial | Japan |  |
-| Aoi Sora no Neosphere Portable - Nanoca Flanka Hatsumei Koubouki 2 | Oficial | Japan |  |
-| Aoi Umi no Tristia Portable - Nanoca Flanka Hatsumei Koubouki | Oficial | Japan |  |
-| Arabians Lost - The Engagement on Desert | Oficial | Japan |  |
-| Atom | Oficial | Japan |  |
-| Battle Robot Damashii | Oficial | Japan |  |
-| Beit Hell 2000 | Oficial | Korea |  |
-| Bilar | Oficial | Sweden |  |
-| Bleach - Heat the Soul 7 | Oficial | Asia |  |
-| Bleach - Soul Carnival | Oficial | Asia |  |
-| Bleach - Soul Carnival 2 | Oficial | Asia |  |
-| Bubble Bobble - Evolution | Oficial | USA |  |
-| Burst Error - Eve the First | Oficial | Japan |  |
-| Buzz! Il Quizzone Nazionale | Oficial | Italy |  |
+| 007 - From Russia with Love | Oficial | Australia, Europe |  |
+| 2010 FIFA World Cup South Africa | Oficial | Europe |  |
+| 300 - March to Glory | Oficial | Europe |  |
+| 3rd Birthday, The | Oficial | Europe |  |
+| 50 Cent - Bulletproof - G-Unit Edition | Oficial | Europe |  |
+| 7 Wonders of the Ancient World | Oficial | Europe |  |
+| Ace Combat - Joint Assault | Oficial | Europe |  |
+| Ace Combat X - Skies of Deception | Oficial | Europe |  |
+| Aces of War | Oficial | Europe |  |
+| Activision Hits Remixed | Oficial | Europe |  |
+| Adventures to Go! | Oficial | Europe |  |
+| Aedis Eclipse - Generation of Chaos | Oficial | USA |  |
+| AFL Challenge | Oficial | Australia |  |
+| After Burner - Black Falcon | Oficial | Europe |  |
+| Air Conflicts - Aces of World War II | Oficial | USA |  |
+| Alien Syndrome | Oficial | Europe |  |
+| Aliens vs. Predator - Requiem | Oficial | Europe |  |
+| Ape Academy | Oficial | Europe |  |
+| Ape Academy 2 | Oficial | Europe |  |
+| Ape Escape | Oficial | Europe |  |
+| Archer Maclean's Mercury | Oficial | Australia, Europe |  |
+| Armored Core - Formula Front International | Oficial | Japan |  |
+| Army of Two - The 40th Day | Oficial | Europe |  |
+| Arthur and the Minimoys | Oficial | Europe |  |
+| Asphalt - Urban GT 2 | Oficial | Europe |  |
+| Assassin's Creed - Bloodlines | Oficial | Europe |  |
+| Asterix & Obelix XXL 2 | Oficial | Europe |  |
+| Astonishia Story | Oficial | Europe |  |
+| Astro Boy - The Video Game | Oficial | Europe |  |
+| Atari Classics Evolved | Oficial | USA |  |
+| ATV Offroad Fury - Blazin' Trails | Oficial | Europe |  |
+| ATV Offroad Fury Pro | Oficial | Europe |  |
+| Autoescuela Aprueba Conmigo | Oficial | Spain |  |
+| Bakugan - Defenders of the Core | Oficial | Europe |  |
+| BattleZone | Oficial | Europe |  |
+| B-Boy | Oficial | Europe |  |
+| Beaterator | Oficial | Australia, Europe |  |
+| Ben 10 - Alien Force | Oficial | Europe |  |
+| Ben 10 - Alien Force - Vilgax Attacks | Oficial | Europe |  |
+| Ben 10 - Protector of Earth | Oficial | Europe |  |
+| Ben 10 - Ultimate Alien - Cosmic Destruction | Oficial | Europe |  |
+| Beowulf - The Game | Oficial | Europe |  |
+| Bigs 2, The | Oficial | USA |  |
+| Bigs, The | Oficial | USA |  |
+| Blade Dancer - Lineage of Light | Oficial | Europe |  |
+| BlazBlue - Calamity Trigger | Oficial | Europe |  |
+| BlazBlue - Continuum Shift II | Oficial | Europe |  |
+| Blazing Souls Accelate | Oficial | Europe |  |
+| Bliss Island | Oficial | Europe |  |
+| Blitz - Overtime | Oficial | USA |  |
+| Blokus Portable - Steambot Championship | Oficial | Europe |  |
+| Blood Bowl | Oficial | Europe |  |
+| Bomberman | Oficial | Europe |  |
+| Bomberman Land | Oficial | Europe |  |
+| Bounty Hounds | Oficial | USA |  |
+| Brave Story - New Traveler | Oficial | USA |  |
+| Breath of Fire III | Oficial | Europe |  |
+| Brian Lara 2007 - Pressure Play | Oficial | Europe |  |
+| Brooktown High | Oficial | USA |  |
+| Brothers in Arms - D-Day | Oficial | Australia, Europe |  |
+| Brujula Dorada, La | Oficial | Spain |  |
+| Brunswick Pro Bowling | Oficial | Europe |  |
+| Bubble Bobble Evolution | Oficial | Europe |  |
+| Burnout Dominator | Oficial | Europe |  |
+| Burnout Legends | Oficial | Europe |  |
+| Bust-A-Move Ghost | Oficial | Europe |  |
+| Buzz! Brain Bender | Oficial | Europe |  |
+| Buzz! Concurso Universal | Oficial | Europe |  |
 | Buzz! Master Quiz | Oficial | Europe |  |
-| Buzz! Quiz World | Oficial | Europe |  |
-| Canvas 3 - Nanairo no Kiseki | Oficial | Japan |  |
-| Cars | Oficial | Japan |  |
-| Cars | Oficial | Korea |  |
-| Chongseong and Diamond | Oficial | Korea |  |
-| Chuukana Janshi Tenhoo Painyan Remix | Oficial | Japan |  |
-| Clover no Kuni no Alice - Wonderful Wonder World | Oficial | Japan |  |
-| Coded Soul | Oficial | Asia |  |
-| Colin McRae - DiRT 2 | Oficial | Japan |  |
-| Colin McRae Rally | Oficial | Japan |  |
-| Comic Party Portable | Oficial | Japan |  |
-| Conveni Portable, The | Oficial | Japan |  |
-| Corpse Party - The Anthology - Sachiko no Renai Yuugi - Hysteric Birthday 2U | Oficial | Japan |  |
-| Crimsongem Saga | Oficial | Asia |  |
-| Crisis Core - Final Fantasy VII | Oficial | Japan |  |
-| Daikuugun | Oficial | Japan |  |
-| Daisenryaku - Daitoua Kouboushi - Dainiji Sekai Taisen Boppatsu | Oficial | Japan |  |
-| Daisenryaku - Daitoua Kouboushi - Tora Tora Tora Ware Kishuu ni Seikou Seri | Oficial | Japan |  |
-| Daisenryaku Perfect - Senjou no Hasha | Oficial | Japan |  |
-| Daisenryaku VII Exceed | Oficial | Japan |  |
-| Daiya no Kuni no Alice - Wonderful Mirror World | Oficial | Japan |  |
-| Danzai no Maria - La Campanella | Oficial | Japan |  |
-| Dead Head Fred | Oficial | Asia |  |
+| Buzz! Que Sabes de tu Pais | Oficial | Spain |  |
+| Buzz! The Ultimate Music Quiz | Oficial | Europe |  |
+| Cabela's African Safari | Oficial | USA |  |
+| Cabela's Dangerous Hunts - Ultimate Challenge | Oficial | Europe |  |
+| Cabela's Legendary Adventures | Oficial | USA |  |
+| Cabela's North American Adventures | Oficial | USA |  |
+| Cake Mania - Baker's Challenge | Oficial | USA |  |
+| Call of Duty - Roads to Victory | Oficial | Europe |  |
+| Capcom Classics Collection Reloaded | Oficial | Europe |  |
+| Capcom Classics Collection Remixed | Oficial | Europe |  |
+| Capcom Puzzle World | Oficial | Europe |  |
+| Castlevania - The Dracula X Chronicles | Oficial | Europe |  |
+| Championship Manager | Oficial | Europe |  |
+| Championship Manager 2006 | Oficial | Europe |  |
+| Championship Manager 2007 | Oficial | Europe |  |
+| Chessmaster - The Art of Learning | Oficial | Europe |  |
+| Chili Con Carnage | Oficial | Europe |  |
+| CID the Dummy | Oficial | Europe |  |
+| Class of Heroes | Oficial | USA |  |
+| Class of Heroes 2 | Oficial | USA |  |
+| Cloudy with a Chance of Meatballs | Oficial | Europe |  |
+| Code Lyoko - Quest for Infinity | Oficial | Europe |  |
+| Coded Arms | Oficial | Europe |  |
+| Coded Arms - Contagion | Oficial | Europe |  |
+| Colin McRae - Dirt 2 | Oficial | Europe |  |
+| Colin McRae Rally 2005 Plus | Oficial | Europe |  |
+| Con, The | Oficial | Spain |  |
+| Cover Girl | Oficial | Europe |  |
+| Crash - Mind over Mutant | Oficial | Europe |  |
+| Crash of the Titans | Oficial | Europe |  |
+| Crash Tag Team Racing | Oficial | Spain |  |
+| Crazy Taxi - Fare Wars | Oficial | Europe |  |
+| Crimson Gem Saga | Oficial | USA |  |
+| Crisis Core - Final Fantasy VII | Oficial | Spain |  |
+| Crush | Oficial | Europe |  |
+| Cube | Oficial | Europe |  |
+| Dante's Inferno | Oficial | Spain |  |
+| Dariusburst | Oficial | Japan |  |
+| Darkstalkers Chronicle - The Chaos Tower | Oficial | Europe |  |
+| Dave Mirra BMX Challenge | Oficial | Europe |  |
+| Daxter | Oficial | Europe |  |
 | Dead Head Fred | Oficial | Europe |  |
-| DJ Max Emotional Sense P 2 - Limited Edition | Oficial | Korea |  |
-| DJ Max Portable | Oficial | Korea |  |
-| Doki Doki Suikoden | Oficial | Japan |  |
-| Dokodemo Issho - Let's Gakkou! | Oficial | Japan |  |
-| Dragon Ball Z - Shin Budokai 2 | Oficial | Japan |  |
-| E3 2006 | Oficial | USA |  |
-| Eien no Aseria - Kono Daichi no Hate de | Oficial | Japan |  |
-| Everybody's Tennis | Oficial | Asia |  |
-| Eye of Judgment, The - Shintaku no Wizard | Oficial | Japan |  |
-| FIFA 06 | Oficial | Korea |  |
-| FIFA 07 | Oficial | Korea |  |
-| FIFA 10 | Oficial | Asia |  |
-| FIFA 13 | Oficial | Europe |  |
-| FIFA Soccer 13 | Oficial | Asia |  |
-| FIFA World Cup - Germany 2006 | Oficial | Korea |  |
-| FIFA World Cup - Germany 2006 | Oficial | Asia |  |
-| Final Approach 2 - 1st Priority Portable | Oficial | Japan |  |
-| Finder Love - Hara Fumina - Futari no Futari de | Oficial | Japan |  |
-| Finder Love - Hoshino Aki - Nangoku Trouble Rendezvous | Oficial | Japan |  |
-| Fish Eyes Portable | Oficial | Japan |  |
-| Flowers - Natsu Hen | Oficial | Japan |  |
-| For Symphony - With All One's Heart Portable | Oficial | Japan |  |
-| Ford Racing - Off Road | Oficial | Asia |  |
-| GA - Geijutsuka Art Design Class - Slapstick Wonder Land | Oficial | Japan |  |
-| Gakuen Heaven 2 - Double Scramble! | Oficial | Japan |  |
-| Gakuen Hetalia Portable | Oficial | Japan |  |
-| Gekiatsu!! PachiGe-Damashi Portable Vol.1 - Evangelion - Shinjitsu no Tsubasa | Oficial | Japan |  |
-| Genso Suikoden I & II | Oficial | Japan |  |
-| Ghost In the Shell - Stand Alone Complex | Oficial | Asia |  |
-| Gift - Prism | Oficial | Japan |  |
-| Ginsei Igo Portable | Oficial | Japan |  |
-| Gripshift | Oficial | Japan |  |
-| Hakuisei Renai Shoukougun RE-Therapy | Oficial | Japan |  |
-| Harajuku Tantei Gakuen - Steel Wood | Oficial | Japan |  |
-| Harry Potter and the Goblet of Fire | Oficial | Korea |  |
-| Harukanaru Toki no Naka de - Hachiyoushou | Oficial | Japan |  |
-| Harvest Moon - Sugar Village and Everyone's Wish | Oficial | Korea |  |
-| Hellboy - The Science of Evil | Oficial | Asia |  |
-| Hello Kitty no Happy Accessory | Oficial | Japan |  |
-| Hello Kitty to Issho! Block Crash 123!! | Oficial | Japan |  |
-| Heroes Phantasia | Oficial | Japan |  |
+| Dead or Alive - Paradise | Oficial | Europe |  |
+| Dead to Rights - Reckoning | Oficial | Europe |  |
+| Death Jr. | Oficial | Europe |  |
+| Death Jr. II - Root of Evil | Oficial | Europe |  |
+| Def Jam - Fight for NY - The Takeover | Oficial | Europe |  |
+| Despicable Me | Oficial | Europe |  |
+| Diabolik - The Original Sin | Oficial | Europe |  |
+| Diner Dash | Oficial | Europe |  |
+| Disgaea - Afternoon of Darkness | Oficial | Europe |  |
+| Disgaea 2 - Dark Hero Days | Oficial | Europe |  |
+| Disgaea Infinite | Oficial | USA |  |
+| Disney G-Force | Oficial | Europe |  |
+| Disney Phineas and Ferb - Across the 2nd Dimension | Oficial | Europe |  |
+| Disney Pirates of the Caribbean - At World's End | Oficial | Europe |  |
+| Disney Tron - Evolution | Oficial | Europe |  |
+| Disney-Pixar Cars | Oficial | Spain |  |
+| Disney-Pixar Cars - Race-O-Rama | Oficial | Europe |  |
+| Disney-Pixar Cars 2 | Oficial | Europe |  |
+| Disney-Pixar Ratatouille | Oficial | Spain |  |
+| Disney-Pixar Toy Story 3 | Oficial | Europe |  |
+| Disney-Pixar Up | Oficial | Spain |  |
+| Disney-Pixar WALL-E | Oficial | Europe |  |
+| Dissidia 012 - Duodecim Final Fantasy | Oficial | Europe |  |
+| Dissidia Final Fantasy | Oficial | Europe |  |
+| DJ Max Emotional Sense - Fever | Oficial | USA |  |
+| DJ Max Portable 3 | Oficial | USA |  |
+| Donkey Xote | Oficial | Europe |  |
+| Downstream Panic! | Oficial | USA |  |
+| Dragon Ball Z - Shin Budokai | Oficial | Europe |  |
+| Dragon Ball Z - Shin Budokai 2 | Oficial | Europe |  |
+| Dragon Ball Z - Tenkaichi Tag Team | Oficial | Europe |  |
+| Dragonball - Evolution | Oficial | Europe |  |
+| Dragoneer's Aria | Oficial | Europe |  |
+| DreamWorks Megamind - The Blue Defender | Oficial | Europe |  |
+| DreamWorks Shrek - Smash n' Crash Racing | Oficial | Europe |  |
+| DreamWorks Shrek the Third | Oficial | Europe |  |
+| DreamWorks Vecinos Invasores - Hammy Enloquece | Oficial | Spain |  |
+| Driver 76 | Oficial | Europe |  |
+| DT Carnage | Oficial | USA |  |
+| Dungeon Explorer | Oficial | Europe |  |
+| Dungeon Maker - Hunting Ground | Oficial | USA |  |
+| Dungeon Maker II - The Hidden War | Oficial | USA |  |
+| Dungeon Siege - Throne of Agony | Oficial | Asia, Europe |  |
+| Dungeons & Dragons - Tactics | Oficial | Europe |  |
+| Dynasty Warriors | Oficial | Europe |  |
+| Dynasty Warriors - Strikeforce | Oficial | Europe |  |
+| Dynasty Warriors Vol. 2 | Oficial | Europe |  |
+| EA Replay | Oficial | Europe |  |
+| Echochrome | Oficial | Australia, Europe |  |
+| Echoshift | Oficial | Europe |  |
+| Elminage Original | Oficial | Europe |  |
+| Eragon | Oficial | Europe |  |
+| Every Extend Extra | Oficial | Europe |  |
+| Everybody's Golf | Oficial | Europe |  |
+| Everybody's Golf 2 | Oficial | Canada, Europe |  |
+| Everybody's Stress Buster | Oficial | Asia |  |
+| Everybody's Tennis | Oficial | Europe |  |
+| Exit | Oficial | Europe |  |
+| Exit 2 | Oficial | Europe |  |
+| Eye of Judgment, The - Legends | Oficial | Europe |  |
+| EyePet | Oficial | Europe |  |
+| EyePet Adventures | Oficial | Europe |  |
+| F1 2009 | Oficial | Europe |  |
+| F1 Grand Prix | Oficial | Europe |  |
+| Fading Shadows | Oficial | Europe |  |
+| Family Guy - Video Game! | Oficial | Europe |  |
+| Fast and the Furious, The | Oficial | Europe |  |
+| Fat Princess - Fistful of Cake | Oficial | Australia, Europe |  |
+| Fate-Extra | Oficial | Europe |  |
+| Field Commander | Oficial | Australia, Europe |  |
+| FIFA 06 | Oficial | Spain |  |
+| FIFA 07 | Oficial | Spain |  |
+| FIFA 08 | Oficial | Spain |  |
+| FIFA 09 | Oficial | Spain |  |
+| FIFA 10 | Oficial | Spain |  |
+| FIFA 11 | Oficial | Spain |  |
+| FIFA 12 | Oficial | Spain |  |
+| FIFA 13 | Oficial | Spain |  |
+| FIFA 14 | Oficial | Spain |  |
+| FIFA Soccer | Oficial | USA |  |
+| FIFA Street 2 | Oficial | Europe |  |
+| FIFA World Cup Germany 2006 | Oficial | Spain |  |
+| Fight Night Round 3 | Oficial | Europe |  |
+| Final Armada | Oficial | Europe |  |
+| Final Fantasy - 20th Anniversary Edition | Oficial | Europe |  |
+| Final Fantasy II | Oficial | Europe |  |
+| Final Fantasy IV - The Complete Collection | Oficial | Europe |  |
+| Final Fantasy Tactics - The War of the Lions | Oficial | Europe |  |
+| Fired Up | Oficial | Australia, Europe |  |
+| FlatOut - Head On | Oficial | Europe |  |
+| Football Manager Handheld | Oficial | Europe |  |
+| Football Manager Handheld 2007 | Oficial | Europe |  |
+| Football Manager Handheld 2008 | Oficial | Europe |  |
+| Football Manager Handheld 2009 | Oficial | Europe |  |
+| Football Manager Handheld 2010 | Oficial | Europe |  |
+| Football Manager Handheld 2011 | Oficial | Europe |  |
+| Football Manager Handheld 2012 | Oficial | Europe |  |
+| Football Manager Handheld 2013 | Oficial | Europe |  |
+| Ford Street Racing - L.A. Duel | Oficial | Europe |  |
+| Formula One 06 | Oficial | Europe |  |
+| Frantix | Oficial | Europe |  |
+| Freak Out - Extreme Freeride | Oficial | Europe |  |
+| Free Running | Oficial | Europe |  |
+| Frogger - Helmet Chaos | Oficial | Europe |  |
+| Full Auto 2 - Battlelines | Oficial | Europe |  |
+| Fullmetal Alchemist - Brotherhood | Oficial | Europe |  |
+| G.I. Joe - The Rise of Cobra | Oficial | Europe |  |
+| Gangs of London | Oficial | Europe |  |
+| Generation of Chaos | Oficial | Europe |  |
+| Gensan | Oficial | Europe |  |
+| Geronimo Stilton - Return to the Kingdom of Fantasy - The Videogame | Oficial | Europe |  |
+| Geronimo Stilton in the Kingdom of Fantasy | Oficial | Europe |  |
+| Ghost in the Shell - Stand Alone Complex | Oficial | Europe |  |
+| Ghost Rider | Oficial | Europe |  |
+| Ghostbusters - The Video Game | Oficial | Europe |  |
+| Gitaroo Man Lives! | Oficial | Europe |  |
+| Gladiator Begins | Oficial | Europe |  |
+| Go! Sudoku | Oficial | Europe |  |
+| God of War - Chains of Olympus | Oficial | Australia, Europe |  |
+| God of War - Ghost of Sparta | Oficial | Australia, Europe |  |
+| Gods Eater Burst | Oficial | Europe |  |
+| Gottlieb Pinball Classics | Oficial | Europe |  |
+| Gradius Collection | Oficial | Europe |  |
+| Gran Turismo | Oficial | Europe |  |
+| Grand Theft Auto - Chinatown Wars | Oficial | Europe |  |
+| Grand Theft Auto - Liberty City Stories | Oficial | Europe |  |
+| Grand Theft Auto - Vice City Stories | Oficial | Europe |  |
+| Gretzky NHL | Oficial | USA |  |
+| Gretzky NHL 06 | Oficial | USA |  |
+| GripShift | Oficial | Europe |  |
+| Growlanser - Wayfarer of Time | Oficial | USA |  |
+| Guilty Gear Judgment | Oficial | Europe |  |
+| Guilty Gear XX Accent Core Plus | Oficial | Europe |  |
+| Gun Showdown | Oficial | Europe |  |
+| Gungnir | Oficial | USA |  |
+| Gunpey | Oficial | Europe |  |
+| Gurumin - A Monstrous Adventure | Oficial | Europe |  |
+| Hakuoki - Demon of the Fleeting Blossom | Oficial | USA |  |
+| Hakuoki - Warriors of the Shinsengumi | Oficial | USA |  |
+| Half-Minute Hero | Oficial | Europe |  |
+| Hannah Montana - Rock Out the Show | Oficial | Europe |  |
+| Hard Rock Casino | Oficial | Europe |  |
+| Harry Potter and the Goblet of Fire | Oficial | Europe |  |
+| Harry Potter and the Half-Blood Prince | Oficial | Europe |  |
+| Harry Potter and the Order of the Phoenix | Oficial | Europe |  |
+| Harvest Moon - Boy & Girl | Oficial | USA |  |
+| Harvest Moon - Hero of Leaf Valley | Oficial | Europe |  |
+| Harvey Birdman - Attorney at Law | Oficial | USA |  |
+| Heatseeker | Oficial | Europe |  |
+| Hellboy - The Science of Evil | Oficial | Europe |  |
+| Hello Kitty - Puzzle Party | Oficial | Europe |  |
+| Hexyz Force | Oficial | USA |  |
 | Hilton Garden Inn - Ultimate Team Play | Oficial | USA |  |
-| Himawari no Kyoukai to Nagai Natsuyasumi - Extra Vacation | Oficial | Japan |  |
-| Hyakki Yakou - Kaidan Romance | Oficial | Japan |  |
-| I.Q Mania | Oficial | Asia |  |
-| Idol Janshi Suchie-Pai III Remix | Oficial | Japan |  |
-| Idol Janshi Suchie-Pai IV Portable | Oficial | Japan |  |
-| Initial D - Street Stage | Oficial | Korea |  |
-| Innocent Life - Sin Mokjang Iyagi | Oficial | Korea |  |
-| Invizimals | Oficial | Asia |  |
-| Invizimals | Oficial | Korea |  |
-| Isshou Asoberu Toudai Shogi - Tsumeshogi Dojo | Oficial | Japan |  |
-| Jansei Gakuen Chrono-Magic | Oficial | Japan |  |
-| Jansei Utahime Chrono-Star | Oficial | Japan |  |
-| Kana - Imouto | Oficial | Japan |  |
-| Kidou Senshi Gundam - Shin Gihren no Yabou | Oficial | Japan |  |
-| Kiite Oboeru Eitango - Alc no Kikutan Advanced | Oficial | Japan |  |
-| King of Fighters Collection, The - The Orochi Saga | Oficial | Asia |  |
-| King of Fighters Portable '94-'98, The - Chapter of Orochi | Oficial | Japan |  |
-| Koi Sentai Love & Peace the P.S.P. - Power Zenkai! Special Youso Tenkomori de Portable Ka Daisakusen de Aru! | Oficial | Japan |  |
-| Kuroyukihime - Snow Magic | Oficial | Japan |  |
-| L no Kisetsu - Double Pocket | Oficial | Japan |  |
-| Like Life Every Hour | Oficial | Japan |  |
-| LocoRoco | Oficial | Korea |  |
-| LocoRoco | Oficial | Asia |  |
-| Lost Regnum - Makutsu no Koutei | Oficial | Korea |  |
-| Lost Regnum - The Emperor of Theives | Oficial | Asia |  |
-| M.A.C.H. - Modified Air Combat Heroes | Oficial | USA |  |
-| Majoou | Oficial | Japan |  |
-| Major League Baseball 2K10 | Oficial | Japan |  |
-| Major League Baseball 2K12 | Oficial | Japan |  |
-| Makai Senki Disgaea Portable | Oficial | Japan |  |
-| Maplus - Portable Navi | Oficial | Japan |  |
-| Maru Goukaku - Shikaku Dasshu! Chuushoukigyou Shindanshi Shiken 1 Portable | Oficial | Japan |  |
-| Maru Goukaku - Shikaku Dasshu! FP Financial Planning Ginou Kentei Shiken 2-Kyuu Portable | Oficial | Japan |  |
-| Maru Goukaku - Shikaku Dasshu! IT Passport Shiken Portable | Oficial | Japan |  |
-| Maru Goukaku - Shikaku Dasshu! Takken Shiken Portable | Oficial | Japan |  |
-| Maru Goukaku - Shikaku Dasshu! TOEIC Test Portable | Oficial | Japan |  |
-| Medical91 for Portable | Oficial | Japan |  |
-| Meiji Tokyo Renka | Oficial | Japan |  |
-| Meiji Tokyo Renka - Twilight Kiss | Oficial | Japan |  |
-| Memories Off - After Rain | Oficial | Japan |  |
-| Memories Off - Sorekara Again | Oficial | Japan |  |
-| Memories Off - Yubikiri no Kioku - Futari no Fuuryuuan | Oficial | Japan |  |
-| Mermaid Gothic | Oficial | Japan |  |
-| Metal Gear Solid - Bande Dessinee | Oficial | Japan |  |
-| Metal Slug XX | Oficial | Asia |  |
-| Minna no Chizu 2 Chiikiban - Nishi Nihon hen | Oficial | Japan |  |
-| Minna no Golf Jou Vol.3 | Oficial | Japan |  |
-| Minna no Golf Jou Vol.4 | Oficial | Japan |  |
-| Moe Moe 2-Ji Taisen-Ryaku 2 | Oficial | Japan |  |
-| Moe Moe Daisensou - Gendaiban+ | Oficial | Japan |  |
-| Moeru Mahjong - Moejong | Oficial | Japan |  |
-| Monster Hunter Freedom 2 | Oficial | Korea |  |
-| Monster Hunter Portable | Oficial | Korea |  |
-| MotorStorm - Arctic Edge | Oficial | Asia |  |
-| Musou Orochi | Oficial | Asia |  |
-| MyStylist | Oficial | Asia |  |
-| Namco Museum - Battle Collection | Oficial | Europe |  |
-| Nanatama - Chronicle of Dungeon Maker | Oficial | Japan |  |
-| Naraku no Shiro Portable - Ichiyanagi Nagomu, 2-dome no Junan | Oficial | Japan |  |
-| Narcissu - Moshimo Ashita ga Arunara | Oficial | Japan |  |
-| NBA 2K12 | Oficial | Asia |  |
-| Nikoli no Sudoku Lite Dai-Yon-Shuu | Oficial | Japan |  |
-| Nobunaga no Yabou - Reppuuden with Power Up Kit | Oficial | Japan |  |
-| Norn9 - Norn Plus Nonette | Oficial | Japan |  |
-| Okashi na Shima no Peter Pan - Sweet Never Land | Oficial | Japan |  |
-| Omoi no Kakera - Close to | Oficial | Japan |  |
-| One Side Summer + | Oficial | Japan |  |
-| Onigokko! Portable | Oficial | Japan |  |
-| Ore no Kanojo no Uraomote - Pure Sweet Heart | Oficial | Japan |  |
-| Oretachi no Sabage Versus | Oficial | Japan |  |
-| Otome wa Boku ni Koishiteru Portable - Futari no Elder | Oficial | Japan |  |
-| Otometeki Koi Kakumei - Love Revo!! - Koko kara Hajimaru Girl's Life | Oficial | Japan |  |
-| Otsuge Uranainandesu. | Oficial | Japan |  |
-| Ouka Sengoku Portable | Oficial | Japan |  |
-| Pachinka Mania P - CR Tekkenden Tough | Oficial | Japan |  |
-| PachiPara Slot+ Pachi-Slot Daiku no Gen-San - Ikuze! Honoo no Gen-Matsuri-Hen | Oficial | Japan |  |
-| Pastel Chime Continue | Oficial | Japan |  |
-| Patapon | Oficial | Asia |  |
-| Patapon 2 | Oficial | USA |  |
-| Patapon 3 | Oficial | Asia |  |
-| Phase-D - Hakuei no Shou | Oficial | Japan |  |
-| Phase-D - Kokusei no Shou | Oficial | Japan |  |
-| Phase-D - Shuki no Shou | Oficial | Japan |  |
-| Pia Carrot e Youkoso!! 4 - Natsu no Kioku | Oficial | Japan |  |
-| Piposaru Academia 2 | Oficial | Asia |  |
-| Piposaru Academia 2 | Oficial | Korea |  |
-| P-Kara | Oficial | Japan |  |
-| Power Stone Portable | Oficial | Japan |  |
-| Prince of Persia - The Forgotten Sands | Oficial | Asia |  |
-| Princess Frontier Portable | Oficial | Japan |  |
-| Princess Maker 4 Portable | Oficial | Japan |  |
-| Princess Maker 5 Portable | Oficial | Japan, Korea |  |
-| Pri-Saga! Portable | Oficial | Japan |  |
-| R.U.R.U.R - Petit Prince | Oficial | Japan |  |
-| Rain Wonder Trip | Oficial | Japan |  |
-| Ratatooee | Oficial | Korea |  |
-| Ratchet & Clank - Size Matters | Oficial | Korea |  |
-| Reishiki Kanjou Sentouki - Seikuuou | Oficial | Japan |  |
-| Reishiki Kanjou Sentouki Ni | Oficial | Japan |  |
-| Renai 0 Kilometer Portable | Oficial | Japan |  |
-| Rewrite | Oficial | Japan |  |
-| R-Type Tactics II - Operation Bitter Chocolate | Oficial | Japan |  |
-| Saihate no Ima Portable | Oficial | Japan |  |
-| Saikyou Shogi Bonanza | Oficial | Japan |  |
-| Saikyou Toudai Shogi Deluxe | Oficial | Japan |  |
-| Samurai Shodown Anthology | Oficial | Asia |  |
-| Sangoku Rensenki - Otome no Heihou! Omoide Gaeshi - CS Edition | Oficial | Japan |  |
-| Sangokushi VI | Oficial | Asia |  |
-| Satomi Hakkenden - Murasame Maru no Ki | Oficial | Japan |  |
-| Scared Rider Xechs I+FD Portable | Oficial | Japan |  |
-| Scooby-Doo! - Who's Watching Who | Oficial | Europe |  |
-| Second Novel - Kanojo no Natsu, 15fun no Kioku | Oficial | Japan |  |
-| Sega Rally Revo | Oficial | Europe |  |
-| Seinaru Kana - Orichalcum no Na no Motoni | Oficial | Japan |  |
-| Seishun Hajimemashita! | Oficial | Japan |  |
-| Sen Goku Hime 4 - Souha Hyakkei, Hanamamoru Chikai | Oficial | Japan |  |
-| Sharin no Kuni, Himawari no Shoujo | Oficial | Japan |  |
-| Shiei no Sona-Nyl Refrain - What a Beautiful Memories | Oficial | Japan |  |
-| Shin Sangoku Musou - 2nd Evolution | Oficial | Asia |  |
-| Shin Sangoku Musou - Multi Raid | Oficial | Asia |  |
-| Shin Sangoku Musou - Multi Raid 2 | Oficial | Asia |  |
-| Shin Sangoku Musou 5 Special | Oficial | Asia |  |
-| Shinigami Kagyou - Kaidan Romance | Oficial | Japan |  |
-| Shinobido Homura | Oficial | Korea |  |
-| Shinsouban Clover no Kuni no Alice - Wonderful Twin World | Oficial | Japan |  |
-| Silent Hill - Origins | Oficial | Asia |  |
-| Simple 2500 Series Portable!! Vol. 8 - The Dokodemo Girl Mahjong | Oficial | Japan |  |
-| Sims 2, The | Oficial | Korea |  |
-| Slotter Mania P - Mach Go Go Go III | Oficial | Japan |  |
-| Slotter Mania P - SanSan HanaHana & SanSan Oasis | Oficial | Japan |  |
-| Slotter Mania P - Tetsuya - Shinjuku vs Ueno - Jansei to Yobareta Otoko | Oficial | Japan |  |
-| Solfege - Sweet Harmony | Oficial | Japan |  |
-| Sora o Aogite Kumo Takaku Portable | Oficial | Japan |  |
-| Sorairo Portable | Oficial | Japan |  |
-| Space Invaders Pocket | Oficial | Korea |  |
-| Star Trek - Tactical Assault | Oficial | USA |  |
-| StormLover Kai!! | Oficial | Japan |  |
-| Strikers 1945 Plus | Oficial | Korea |  |
-| Sudoku & Nemonemo Logic | Oficial | Korea |  |
-| Suigetsu Ni Portable | Oficial | Japan |  |
-| Taishou Kitan | Oficial | Japan |  |
-| TalkMan | Oficial | Asia |  |
-| TalkMan Euro | Oficial | Asia |  |
-| TalkMan EURO - TalkMan Europa Gengo Ban | Oficial | Asia |  |
-| Tama-Run | Oficial | Japan |  |
-| Tantei Opera Milky Holmes 1.5 | Oficial | Japan |  |
-| Tanteibu - The Detective Club - Haibu to Kaiga to Bakudan to | Oficial | Japan |  |
-| Tanteibu - The Detective Club - Shissou to Hangeki to Daidanen | Oficial | Japan |  |
-| Tasogaredoki - Kaidan Romance | Oficial | Japan |  |
-| Tekken - Dark Resurrection | Oficial | Asia |  |
-| Tenshin Ranman - Happy GO Lucky!! | Oficial | Japan |  |
+| History Channel, The - Great Battles of Rome | Oficial | Europe |  |
+| Holy Invasion of Privacy, Badman! What Did I Do to Deserve This | Oficial | Australia, Europe |  |
+| Hot Brain | Oficial | Europe |  |
+| Hot Pixel | Oficial | Europe |  |
+| Hot Wheels - Ultimate Racing | Oficial | Europe |  |
+| Hustle, The - Detroit Streets | Oficial | Europe |  |
+| IL-2 Sturmovik - Birds of Prey | Oficial | Europe |  |
+| Imagine - Champion Rider | Oficial | Europe |  |
+| Impossible Mission | Oficial | Europe |  |
+| Indiana Jones and the Staff of Kings | Oficial | Europe |  |
+| Infected | Oficial | Europe |  |
+| Innocent Life - A Futuristic Harvest Moon | Oficial | Europe |  |
+| International Athletics | Oficial | Europe |  |
+| International Cricket Captain III | Oficial | Europe |  |
+| Invizimals | Oficial | Europe |  |
+| Invizimals - Shadow Zone | Oficial | Europe |  |
+| Invizimals - The Lost Tribes | Oficial | Europe |  |
+| Iron Man | Oficial | Europe |  |
+| Iron Man 2 - The Video Game | Oficial | Europe |  |
+| Jackass - The Game | Oficial | Europe |  |
+| Jak and Daxter - The Lost Frontier | Oficial | Europe |  |
+| James Cameron's Avatar - The Game | Oficial | Europe |  |
+| Jeanne d'Arc | Oficial | USA |  |
+| Jikandia - The Timeless Land | Oficial | USA |  |
+| Juiced - Eliminator | Oficial | Europe |  |
+| Juiced 2 - Hot Import Nights | Oficial | Europe |  |
+| Jungle Party | Oficial | Europe |  |
+| Justice League Heroes | Oficial | Europe |  |
+| Kameleon | Oficial | Europe |  |
+| Kao Challengers | Oficial | Europe |  |
+| Kenka Bancho - Badass Rumble | Oficial | USA |  |
+| Key of Heaven | Oficial | Europe |  |
+| Killzone - Liberation | Oficial | Europe |  |
+| King of Clubs | Oficial | Europe |  |
+| King of Fighters Collection, The - The Orochi Saga | Oficial | Europe |  |
+| King of Pool | Oficial | Europe |  |
+| Kingdom Hearts - Birth by Sleep | Oficial | Europe |  |
+| Knights in the Nightmare | Oficial | USA |  |
+| Koloomn | Oficial | Europe |  |
+| L.A. Rush | Oficial | Europe |  |
+| Lanfeust of Troy | Oficial | Europe |  |
+| Lara Croft Tomb Raider - Anniversary | Oficial | Europe |  |
+| Lara Croft Tomb Raider - Legend | Oficial | Europe |  |
+| Legend of Heroes II, The - Prophecy of the Moonlight Witch | Oficial | USA |  |
+| Legend of Heroes III, The - Song of the Ocean | Oficial | USA |  |
+| Legend of Heroes, The - A Tear of Vermillion | Oficial | USA |  |
+| Legend of Heroes, The - Trails in the Sky | Oficial | Europe |  |
+| Legend of the Dragon | Oficial | Europe |  |
+| LEGO Batman - The Videogame | Oficial | Europe |  |
+| LEGO Harry Potter - Years 1-4 | Oficial | Europe |  |
+| LEGO Harry Potter - Years 5-7 | Oficial | Europe |  |
+| LEGO Indiana Jones - The Original Adventures | Oficial | Europe |  |
+| LEGO Indiana Jones 2 - The Adventure Continues | Oficial | Europe |  |
+| LEGO Pirates of the Caribbean - The Video Game | Oficial | Europe |  |
+| LEGO Star Wars II - The Original Trilogy | Oficial | Europe |  |
+| LEGO Star Wars III - The Clone Wars | Oficial | Europe |  |
+| Lemmings | Oficial | Europe |  |
+| Little Britain - The Video Game | Oficial | Europe |  |
+| LittleBigPlanet | Oficial | Europe |  |
+| LocoRoco | Oficial | Australia, Europe |  |
+| LocoRoco 2 | Oficial | Europe |  |
+| Lord of Arcana | Oficial | Europe |  |
+| Lord of the Rings, The - Aragorn's Quest | Oficial | Europe |  |
+| Lumines - Puzzle Fusion | Oficial | Europe |  |
+| Lumines II | Oficial | Europe |  |
+| Lunar - Silver Star Harmony | Oficial | USA |  |
+| Luxor - Pharaoh's Challenge | Oficial | Europe |  |
+| Luxor - The Wrath of Set | Oficial | USA |  |
+| M.A.C.H. - Modified Air Combat Heroes | Oficial | Europe |  |
+| Madden NFL 06 | Oficial | Europe |  |
+| Madden NFL 07 | Oficial | USA |  |
+| Madden NFL 08 | Oficial | Europe |  |
+| Madden NFL 09 | Oficial | Europe |  |
+| Madden NFL 10 | Oficial | USA |  |
+| Madden NFL 11 | Oficial | USA |  |
+| Madden NFL 12 | Oficial | USA |  |
+| Magic Sudoku | Oficial | Europe |  |
+| Major League Baseball 2K10 | Oficial | USA |  |
+| Major League Baseball 2K11 | Oficial | USA |  |
+| Major League Baseball 2K12 | Oficial | USA |  |
+| Major League Baseball 2K6 | Oficial | USA |  |
+| Major League Baseball 2K7 | Oficial | USA |  |
+| Major League Baseball 2K8 | Oficial | USA |  |
+| Major League Baseball 2K9 | Oficial | USA |  |
+| Mana Khemia - Student Alliance | Oficial | Europe |  |
+| Manhunt 2 | Oficial | Europe |  |
+| Marvel - Ultimate Alliance | Oficial | Europe |  |
+| Marvel - Ultimate Alliance 2 | Oficial | Europe |  |
+| Marvel Nemesis - Rise of the Imperfects | Oficial | Europe |  |
+| Marvel Super Hero Squad | Oficial | Europe |  |
+| Marvel Trading Card Game | Oficial | Europe |  |
+| Mawaskes Puzzle | Oficial | Europe |  |
+| Me & My Katamari | Oficial | Europe |  |
+| Medal of Honor - Heroes | Oficial | Spain |  |
+| Medal of Honor - Heroes 2 | Oficial | Europe |  |
+| MediEvil - Resurrection | Oficial | Europe |  |
+| Mega Man - Maverick Hunter X | Oficial | Europe |  |
+| Mega Man - Powered Up | Oficial | Europe |  |
+| Mega Minis Volume 1 | Oficial | Europe |  |
+| Mega Minis Volume 2 | Oficial | Australia, Europe |  |
+| Mega minis Volume 3 | Oficial | Europe |  |
+| Mercury Meltdown | Oficial | Europe |  |
+| Metal Gear Acid | Oficial | Europe |  |
+| Metal Gear Acid 2 | Oficial | Europe |  |
+| Metal Gear Solid - Peace Walker | Oficial | Australia, Europe |  |
+| Metal Gear Solid - Portable Ops | Oficial | Europe |  |
+| Metal Gear Solid - Portable Ops Plus | Oficial | Europe |  |
+| Metal Slug Anthology | Oficial | Europe |  |
+| Metal Slug XX | Oficial | Europe |  |
+| Miami Vice - The Game | Oficial | Europe |  |
+| Michael Jackson - The Experience | Oficial | Europe |  |
+| Micro Machines V4 | Oficial | Europe |  |
+| Midnight Club - L.A. Remix | Oficial | Europe |  |
+| Midnight Club 3 - DUB Edition | Oficial | Europe |  |
+| Midway Arcade Treasures - Extended Play | Oficial | Europe |  |
+| Military History - Commander - Europe at War | Oficial | Europe |  |
+| Mimana - IYAR Chronicle | Oficial | USA |  |
+| Mind Quiz - Exercise Your Brain | Oficial | Europe |  |
+| MLB | Oficial | USA |  |
+| MLB 06 - The Show | Oficial | USA |  |
+| MLB 07 - The Show | Oficial | USA |  |
+| MLB 08 - The Show | Oficial | USA |  |
+| MLB 09 - The Show | Oficial | USA |  |
+| MLB 10 - The Show | Oficial | USA |  |
+| MLB 11 - The Show | Oficial | USA |  |
+| ModNation Racers | Oficial | Europe |  |
+| Moegaku @ Portable | Oficial | Japan |  |
+| Monster Hunter Freedom | Oficial | Australia, Europe |  |
+| Monster Hunter Freedom Unite | Oficial | Europe |  |
+| Monster Jam - Path of Destruction | Oficial | USA |  |
+| Monster Jam - Urban Assault | Oficial | Europe |  |
+| Monster Kingdom - Jewel Summoner | Oficial | USA |  |
+| Mortal Kombat - Unchained | Oficial | Europe |  |
+| MotoGP | Oficial | Europe |  |
+| MotorStorm - Arctic Edge | Oficial | Europe |  |
+| MTV Pimp My Ride | Oficial | Europe |  |
+| MTX Mototrax | Oficial | Europe |  |
+| MVP Baseball | Oficial | USA |  |
+| MX vs. ATV - On the Edge | Oficial | Europe |  |
+| MX vs. ATV Reflex | Oficial | Europe |  |
+| MX vs. ATV Untamed | Oficial | Australia, Europe |  |
+| Myst | Oficial | Europe |  |
+| Mystery Team, The | Oficial | Europe |  |
+| Mytran Wars | Oficial | Europe |  |
+| N Plus | Oficial | Europe |  |
+| Namco Museum Battle Collection | Oficial | Europe |  |
+| Napoleon Dynamite - The Game | Oficial | USA |  |
+| Naruto - Ultimate Ninja Heroes | Oficial | Europe |  |
+| Naruto - Ultimate Ninja Heroes 2 - The Phantom Fortress | Oficial | Europe |  |
+| Naruto Shippuden - Kizuna Drive | Oficial | Europe |  |
+| Naruto Shippuden - Legends - Akatsuki Rising | Oficial | Europe |  |
+| Naruto Shippuden - Ultimate Ninja Heroes 3 | Oficial | Europe |  |
+| Naruto Shippuden - Ultimate Ninja Impact | Oficial | Europe |  |
+| NASCAR | Oficial | Europe |  |
+| NBA | Oficial | USA |  |
+| NBA 06 | Oficial | USA |  |
+| NBA 07 | Oficial | USA |  |
+| NBA 08 | Oficial | USA |  |
+| NBA 09 - The Inside | Oficial | USA |  |
+| NBA 10 - The Inside | Oficial | USA |  |
+| NBA 2K10 | Oficial | Europe |  |
+| NBA 2K11 | Oficial | Europe |  |
+| NBA 2K12 | Oficial | Europe |  |
+| NBA 2K13 | Oficial | Europe |  |
+| NBA Ballers - Rebound | Oficial | USA |  |
+| NBA Live 06 | Oficial | Spain |  |
+| NBA Live 07 | Oficial | Spain |  |
+| NBA Live 08 | Oficial | Europe |  |
+| NBA Live 09 | Oficial | Spain |  |
+| NBA Live 10 | Oficial | Spain |  |
+| NBA Street Showdown | Oficial | Europe |  |
+| NCAA Football 07 | Oficial | USA |  |
+| NCAA Football 09 | Oficial | USA |  |
+| NCAA Football 10 | Oficial | USA |  |
+| Need for Speed - Carbon - Own the City | Oficial | Europe |  |
+| Need for Speed - Most Wanted - 5-1-0 | Oficial | Europe |  |
+| Need for Speed - ProStreet | Oficial | Europe |  |
+| Need for Speed - Shift | Oficial | Europe |  |
+| Need for Speed - Undercover | Oficial | Europe |  |
+| Need for Speed - Underground Rivals | Oficial | Australia, Europe |  |
+| Neopets - Petpet Adventures - The Wand of Wishing | Oficial | USA |  |
+| Neverland Card Battles | Oficial | USA |  |
+| NFL Street 2 - Unleashed | Oficial | Europe |  |
+| NFL Street 3 | Oficial | Europe |  |
+| NHL 07 | Oficial | Europe |  |
+| NHRA Drag Racing - Countdown to the Championship | Oficial | USA |  |
+| Nickelodeon Avatar - The Legend of Aang | Oficial | Europe |  |
+| Nickelodeon Bob Esponja - Atrapados en el Congelador | Oficial | Spain |  |
+| Nickelodeon SpongeBob SquarePants - The Yellow Avenger | Oficial | Europe |  |
+| Obscure - The Aftermath | Oficial | Europe |  |
+| Off Road | Oficial | Australia, Europe |  |
+| Online Chess Kingdoms | Oficial | Europe |  |
+| Open Season | Oficial | Europe |  |
+| OutRun 2006 - Coast 2 Coast | Oficial | Europe |  |
+| Pac-Man World 3 | Oficial | Europe |  |
+| Pac-Man World Rally | Oficial | USA |  |
+| Padrino, El | Oficial | Spain |  |
+| Pangya - Fantasy Golf | Oficial | USA |  |
+| PaRappa the Rapper | Oficial | Australia, Europe |  |
+| Patapon | Oficial | Europe |  |
+| Patapon 2 | Oficial | Europe |  |
+| Patapon 3 | Oficial | Europe |  |
+| Patito Feo | Oficial | Europe |  |
+| Payout - Poker & Casino | Oficial | USA |  |
+| PDC World Championship Darts | Oficial | Europe |  |
+| PES 2008 - Pro Evolution Soccer | Oficial | Europe |  |
+| PES 2009 - Pro Evolution Soccer | Oficial | Europe |  |
+| PES 2010 - Pro Evolution Soccer | Oficial | Europe |  |
+| PES 2011 - Pro Evolution Soccer | Oficial | Europe |  |
+| PES 2012 - Pro Evolution Soccer | Oficial | Europe |  |
+| PES 2013 - Pro Evolution Soccer | Oficial | Europe |  |
+| PES 2014 - Pro Evolution Soccer | Oficial | Europe |  |
+| PES 6 - Pro Evolution Soccer | Oficial | Europe |  |
+| Peter Jackson's King Kong - The Official Game of the Movie | Oficial | Europe |  |
+| Petz - My Baby Hamster | Oficial | Europe |  |
+| Petz - My Puppy Family | Oficial | Europe |  |
+| Petz - Saddle Club | Oficial | USA |  |
+| Phantasy Star Portable | Oficial | Europe |  |
+| Phantasy Star Portable 2 | Oficial | Europe |  |
+| Phantom Brave - The Hermuda Triangle | Oficial | USA |  |
+| Pilot Academy | Oficial | Europe |  |
+| Pipe Mania | Oficial | Europe |  |
+| Pirates of the Caribbean - Dead Man's Chest | Oficial | Europe |  |
+| PixelJunk Monsters - Deluxe | Oficial | USA |  |
+| Platypus | Oficial | Europe |  |
+| PlayChapas Football Edition | Oficial | Spain |  |
+| PlayStation Network Collection - Power Pack | Oficial | Europe |  |
+| PlayStation Network Collection - Puzzle Pack | Oficial | Europe |  |
+| Pocket Pool | Oficial | USA |  |
+| Pocket Racers | Oficial | Europe |  |
+| PoPoLoCrois | Oficial | Europe |  |
+| Power Stone Collection | Oficial | Europe |  |
+| PQ - Practical Intelligence Quotient | Oficial | Europe |  |
+| Practical IQ - Test Your Intelligence | Oficial | Europe |  |
+| Prince of Persia - Revelations | Oficial | Europe |  |
+| Prince of Persia - Rival Swords | Oficial | Europe |  |
+| Prince of Persia - The Forgotten Sands | Oficial | Europe |  |
+| Prinny - Can I Really Be the Hero | Oficial | Europe |  |
+| Prinny 2 - Dawn of Operation Panties, Dood! | Oficial | USA |  |
+| Pro Cycling Season 2007 - Le Tour de France | Oficial | Europe |  |
+| Pro Cycling Season 2008 - Le Tour de France | Oficial | Europe |  |
+| Pro Cycling Season 2009 - Le Tour de France | Oficial | Europe |  |
+| Pro Cycling Season 2010 - Le Tour de France | Oficial | Europe |  |
+| Pro Evolution Soccer 5 | Oficial | Europe |  |
+| Professor Sudoku | Oficial | Europe |  |
+| ProStroke Golf - World Tour 2007 | Oficial | Europe |  |
+| Pursuit Force | Oficial | Europe |  |
+| Pursuit Force - Extreme Justice | Oficial | Europe |  |
+| Puyo Pop Fever | Oficial | Europe |  |
+| Puzzle Challenge - Crosswords and More! | Oficial | USA |  |
+| Puzzle Chronicles | Oficial | Europe |  |
+| Puzzle Quest - Challenge of the Warlords | Oficial | Europe |  |
+| Puzzle Scape | Oficial | USA |  |
+| Puzzler Collection | Oficial | Europe |  |
+| Race Driver 2006 | Oficial | USA |  |
+| Ragnarok Tactics | Oficial | USA |  |
+| Rainbow Islands Evolution | Oficial | Europe |  |
+| Rapala Pro Bass Fishing | Oficial | USA |  |
+| Rapala Trophies | Oficial | USA |  |
+| Ratchet & Clank - Size Matters | Oficial | Australia, Europe |  |
+| Real Madrid - The Game | Oficial | Europe |  |
+| Reel Fishing - The Great Outdoors | Oficial | Europe |  |
+| Rengoku - The Tower of Purgatory | Oficial | Europe |  |
+| Rengoku II - The Stairway to H.E.A.V.E.N. | Oficial | Europe |  |
+| Resistance - Retribution | Oficial | Europe |  |
+| Ridge Racer | Oficial | Australia, Europe |  |
+| Ridge Racer 2 | Oficial | Australia, Europe |  |
+| Riviera - The Promised Land | Oficial | Europe |  |
+| Rock Band Unplugged | Oficial | Europe |  |
+| Rocky Balboa | Oficial | Europe |  |
+| R-Type Tactics | Oficial | Europe |  |
+| Rugby League Challenge | Oficial | Europe |  |
+| Samurai Shodown Anthology | Oficial | Europe |  |
+| Samurai Warriors - State of War | Oficial | Europe |  |
+| SBK 08 - Superbike World Championship | Oficial | Europe |  |
+| SBK 09 - Superbike World Championship | Oficial | Europe |  |
+| SBK-07 - Superbike World Championship | Oficial | Europe |  |
+| Scarface - Money. Power. Respect. | Oficial | Europe |  |
+| Scooby-Doo! Who's Watching Who | Oficial | Europe |  |
+| Scrabble | Oficial | USA |  |
+| Secret Agent Clank | Oficial | Australia, Europe |  |
+| Secret Saturdays, The - Beasts of the 5th Sun | Oficial | Europe |  |
+| Sega Mega Drive Collection | Oficial | Europe |  |
+| Sega Rally | Oficial | Europe |  |
+| Sengoku Cannon - Sengoku Ace Episode III | Oficial | Asia, Japan |  |
+| Senor de los Anillos, El - Tacticas | Oficial | Spain |  |
+| Shadow of Destiny | Oficial | USA |  |
+| Shaun White Snowboarding | Oficial | Europe |  |
+| Shepherd's Crossing | Oficial | USA |  |
+| Shin Megami Tensei - Persona | Oficial | USA |  |
+| Shin Megami Tensei - Persona 2 - Innocent Sin | Oficial | Europe |  |
+| Shin Megami Tensei - Persona 3 Portable | Oficial | Europe |  |
+| Shinobido - Tales of the Ninja | Oficial | Europe |  |
+| Sid Meier's Pirates! | Oficial | Europe |  |
+| Silent Hill - Shattered Memories | Oficial | Europe |  |
+| Silent Hill Origins | Oficial | Europe |  |
+| Silverfall | Oficial | Europe |  |
+| Simple 2500 Series Portable!! Vol. 6 - The Sensha | Oficial | Japan |  |
+| Simpson, Los - El Videojuego | Oficial | Spain |  |
+| Sims 2, The | Oficial | Europe |  |
+| Sims 2, The - Castaway | Oficial | Europe |  |
+| Sims 2, The - Pets | Oficial | Europe |  |
+| Skate Park City | Oficial | Europe |  |
+| Smart Bomb | Oficial | USA |  |
+| Smash Court Tennis 3 | Oficial | Europe |  |
+| SNK Arcade Classics Vol. 1 | Oficial | Europe |  |
+| Snoopy vs. the Red Baron | Oficial | USA |  |
+| SOCOM - U.S. Navy SEALs - Fireteam Bravo | Oficial | Europe |  |
+| SOCOM - U.S. Navy SEALs - Fireteam Bravo 2 | Oficial | Europe |  |
+| SOCOM - U.S. Navy SEALs - Fireteam Bravo 3 | Oficial | Europe |  |
+| SOCOM - U.S. Navy SEALs - Tactical Strike | Oficial | Europe |  |
+| Sonic Rivals | Oficial | Europe |  |
+| Sonic Rivals 2 | Oficial | Europe |  |
+| Soulcalibur - Broken Destiny | Oficial | Europe |  |
+| Space Invaders Evolution | Oficial | Europe |  |
+| Space Invaders Extreme | Oficial | Australia, Europe |  |
+| Spectral Souls - Resurrection of the Ethereal Empires | Oficial | USA |  |
+| Spectral vs. Generation | Oficial | Europe |  |
+| Spelling Challenges and More! | Oficial | USA |  |
+| Spider-Man - Friend or Foe | Oficial | Europe |  |
+| Spider-Man - Web of Shadows - Amazing Allies Edition | Oficial | Europe |  |
+| Spider-Man 2 | Oficial | Europe |  |
+| Spider-Man 3 | Oficial | Europe |  |
+| Spinout | Oficial | Europe |  |
+| Split-Second - Velocity | Oficial | Europe |  |
+| SSX on Tour | Oficial | Europe |  |
+| Stacked with Daniel Negreanu | Oficial | USA |  |
+| Star Ocean - First Departure | Oficial | Europe |  |
+| Star Ocean - Second Evolution | Oficial | Europe |  |
+| Star Soldier | Oficial | Japan |  |
+| Star Trek - Tactical Assault | Oficial | Europe |  |
+| Star Wars - Battlefront - Elite Squadron | Oficial | Europe |  |
+| Star Wars - Battlefront - Renegade Squadron | Oficial | Europe |  |
+| Star Wars - Battlefront II | Oficial | Australia, Europe |  |
+| Star Wars - Lethal Alliance | Oficial | Europe |  |
+| Star Wars - The Clone Wars - Republic Heroes | Oficial | Europe |  |
+| Star Wars - The Force Unleashed | Oficial | Europe |  |
+| StateShift | Oficial | Europe |  |
+| Steambot Chronicles - Battle Tournament | Oficial | USA |  |
+| Steel Horizon | Oficial | Europe |  |
+| Street Fighter Alpha 3 Max | Oficial | Europe |  |
+| Street Riders | Oficial | Europe |  |
+| Street Supremacy | Oficial | Europe |  |
+| Summon Night 5 | Oficial | USA |  |
+| Super Collapse! 3 | Oficial | Europe |  |
+| Super Fruit Fall | Oficial | Europe |  |
+| Super Hind | Oficial | Europe |  |
+| Super Monkey Ball Adventure | Oficial | Europe |  |
+| Super Pocket Tennis | Oficial | Europe |  |
+| Surf's Up | Oficial | Europe |  |
+| SWAT - Target Liberty | Oficial | Europe |  |
+| Sweet Fuse - At Your Side | Oficial | USA |  |
+| Syphon Filter - Dark Mirror | Oficial | Europe |  |
+| Syphon Filter - Logan's Shadow | Oficial | Europe |  |
+| Tactics Ogre - Let Us Cling Together | Oficial | Europe |  |
+| Taito Legends Power-Up | Oficial | Europe |  |
+| Tales of Eternia | Oficial | Europe |  |
+| Tales of the World - Radiant Mythology | Oficial | Europe |  |
+| Tekken - Dark Resurrection | Oficial | Australia, Europe |  |
+| Tekken 6 | Oficial | Europe |  |
+| Telly Addicts | Oficial | Europe |  |
+| Tenchu - Shadow Assassins | Oficial | Europe |  |
+| Tenchu - Time of the Assassins | Oficial | Europe |  |
 | Test Drive Unlimited | Oficial | Europe |  |
-| ToCA Race Driver 2 - The Ultimate Racing Simulator | Oficial | Japan |  |
-| Tsugi no Giseisha o Oshirase Shimasu - Houkaisuru Sekai ni Shinigami to | Oficial | Japan |  |
-| Tsugi no Giseisha o Oshirase Shimasu - Kimi to Ko no Hateru Kotonai Kurayami o | Oficial | Japan |  |
-| Tsugi no Giseisha o Oshirase Shimasu - Shi to Zetsubou o Nori Koete | Oficial | Japan |  |
-| Ultimate Ghosts 'n Goblins | Oficial | Asia |  |
-| Ultraman - Fighting Evolution 0 | Oficial | Japan |  |
-| Untold Legends - The Warrior's Code | Oficial | Japan |  |
-| Untold Legends - Unataka no Yuuken | Oficial | Japan |  |
-| VitaminX Evolution Plus | Oficial | Japan |  |
-| Walpurga no Uta - Walpurgisgedichte | Oficial | Japan |  |
-| We Love Juggler | Oficial | Japan |  |
-| Winning Eleven - Pro Evolution Soccer 2007 | Oficial | USA |  |
-| World Championship Poker featuring Howard Lederer - All In | Oficial | USA |  |
-| World Soccer Winning Eleven 2011 | Oficial | Korea |  |
-| WWE SmackDown! vs. RAW 2007 | Oficial | Japan |  |
-| X-Men Legends II - Rise of Apocalypse | Oficial | Germany |  |
-| Yamamura Misa Suspense - Kyoto Kurama Sansou Satsujin Jiken | Oficial | Japan |  |
-| Yamasa Digi Portable - Matsuri no Tatsujin - Win-Chan no Natsumatsuri | Oficial | Japan |  |
-| Yaneura no Kanojo | Oficial | Japan |  |
-| Yarudora Portable - Blood the Last Vampire | Oficial | Asia |  |
-| Yarudora Portable - Yukiwari no Hana | Oficial | Asia |  |
-| Yoiyomori no Hime | Oficial | Japan |  |
-| Ys - Napishtim no Hako | Oficial | Japan |  |
+| Thrillville | Oficial | Europe |  |
+| Thrillville - Off the Rails | Oficial | Europe |  |
+| Tiger Woods PGA Tour | Oficial | USA |  |
+| Tiger Woods PGA Tour 06 | Oficial | Europe |  |
+| Tiger Woods PGA Tour 07 | Oficial | Europe |  |
+| Tiger Woods PGA Tour 08 | Oficial | Europe |  |
+| Tiger Woods PGA Tour 09 | Oficial | Europe |  |
+| Tiger Woods PGA Tour 10 | Oficial | Europe |  |
+| TMNT | Oficial | Europe |  |
+| TNA Impact! Cross the Line | Oficial | Europe |  |
+| TOCA Race Driver 2 | Oficial | Europe |  |
+| TOCA Race Driver 3 Challenge | Oficial | Europe |  |
+| Tokobot | Oficial | Europe |  |
+| Tom Clancy's EndWar | Oficial | Europe |  |
+| Tom Clancy's Ghost Recon - Advanced Warfighter 2 | Oficial | Europe |  |
+| Tom Clancy's Ghost Recon - Predator | Oficial | Europe |  |
+| Tom Clancy's Rainbow Six - Vegas | Oficial | Europe |  |
+| Tom Clancy's Splinter Cell - Essentials | Oficial | Europe |  |
+| Tony Hawk's Project 8 | Oficial | Europe |  |
+| Tony Hawk's Underground 2 Remix | Oficial | Europe |  |
+| Transformers - Revenge of the Fallen | Oficial | Europe |  |
+| Transformers - The Game | Oficial | Europe |  |
+| Traxxpad - Portable Studio | Oficial | USA |  |
+| Twisted Metal - Head-On | Oficial | Europe |  |
+| UEFA Champions League 2006-2007 | Oficial | Spain |  |
+| UEFA Euro 2008 - Austria-Switzerland | Oficial | Europe |  |
+| UFC Undisputed 2010 | Oficial | Europe |  |
+| Ultimate Board Game Collection | Oficial | Europe |  |
+| Ultimate Ghosts'n Goblins | Oficial | Europe |  |
+| Undead Knights | Oficial | Europe |  |
+| Untold Legends - Brotherhood of the Blade | Oficial | Europe |  |
+| Untold Legends - The Warrior's Code | Oficial | Europe |  |
+| Valhalla Knights | Oficial | Europe |  |
+| Valhalla Knights 2 | Oficial | Europe |  |
+| Valkyria Chronicles II | Oficial | Europe |  |
+| Valkyrie Profile - Lenneth | Oficial | Europe |  |
+| Viewtiful Joe - Red Hot Rumble | Oficial | Europe |  |
+| Virtua Tennis - World Tour | Oficial | Europe |  |
+| Virtua Tennis 3 | Oficial | Europe |  |
+| Warhammer - Battle for Atluma | Oficial | USA |  |
+| Warhammer 40,000 - Squad Command | Oficial | Europe |  |
+| Warriors of the Lost Empire | Oficial | Europe |  |
+| Warriors Orochi | Oficial | Europe |  |
+| Warriors Orochi 2 | Oficial | Europe |  |
+| Warriors, The | Oficial | Europe |  |
+| What Did I Do to Deserve This, My Lord! 2 | Oficial | Europe |  |
+| White Knight Chronicles - Origins | Oficial | Europe |  |
+| Who Wants to Be a Millionaire - Party Edition | Oficial | Europe |  |
+| Wild Arms XF | Oficial | Europe |  |
+| Williams Pinball Classics | Oficial | Europe |  |
+| Winx Club - Join the Club | Oficial | Europe |  |
+| Wipeout Pulse | Oficial | Australia, Europe |  |
+| Wipeout Pure | Oficial | Europe |  |
+| World Championship Cards | Oficial | USA |  |
+| World Championship Poker 2 featuring Howard Lederer | Oficial | Europe |  |
+| World Championship Poker featuring Howard Lederer - All In | Oficial | Europe |  |
+| World of Pool | Oficial | Europe |  |
+| World Poker Tour | Oficial | Europe |  |
+| World Series of Poker | Oficial | Europe |  |
+| World Series of Poker - Tournament of Champions - 2007 Edition | Oficial | Europe |  |
+| World Series of Poker 2008 - Battle for the Bracelets | Oficial | Europe |  |
+| World Snooker Challenge 2005 | Oficial | Europe |  |
+| World Snooker Challenge 2007 | Oficial | Europe |  |
+| World Tour Soccer | Oficial | Europe |  |
+| World Tour Soccer 2 | Oficial | Europe |  |
+| Worms - Open Warfare | Oficial | Europe |  |
+| Worms - Open Warfare 2 | Oficial | Europe |  |
+| WRC - FIA World Rally Championship | Oficial | Europe |  |
+| WTF - Work Time Fun | Oficial | USA |  |
+| WWE All Stars | Oficial | Europe |  |
+| WWE SmackDown vs. Raw 2006 | Oficial | Europe |  |
+| WWE SmackDown vs. Raw 2007 | Oficial | Europe |  |
+| WWE SmackDown vs. Raw 2008 | Oficial | Europe |  |
+| WWE SmackDown vs. Raw 2009 | Oficial | Europe |  |
+| WWE SmackDown vs. Raw 2010 | Oficial | Europe |  |
+| WWE SmackDown vs. Raw 2011 | Oficial | Europe |  |
+| WWII - Battle over the Pacific | Oficial | Europe |  |
+| Xiaolin Showdown | Oficial | Europe |  |
+| X-Men Legends II - El Ascenso de Apocalipsis | Oficial | Spain |  |
+| X-Men Origins - Wolverine | Oficial | Europe |  |
+| X-treme Party | Oficial | Spain |  |
+| Xyanide - Resurrection | Oficial | Europe |  |
+| Yggdra Union | Oficial | USA |  |
+| Ys - The Ark of Napishtim | Oficial | Europe |  |
+| Ys - The Oath in Felghana | Oficial | USA |  |
+| Ys I & II Chronicles | Oficial | USA |  |
+| Ys Seven | Oficial | USA |  |
+| Yu-Gi-Oh! 5D's - Tag Force 4 | Oficial | Europe |  |
+| Yu-Gi-Oh! 5D's - Tag Force 5 | Oficial | Europe |  |
+| Yu-Gi-Oh! GX - Tag Force | Oficial | Europe |  |
 | Yu-Gi-Oh! GX - Tag Force 2 | Oficial | Europe |  |
-| Yuusha no Kuse ni Namaikida or2 | Oficial | Asia |  |
+| Yu-Gi-Oh! GX - Tag Force 3 | Oficial | Europe |  |
+| Z.H.P. - Unlosing Ranger vs. Darkdeath Evilman | Oficial | USA |  |
+| Zendoku | Oficial | Europe |  |
+| Zhen Sanguo Wushuang - Multi Raid 2 | Oficial | Asia |  |
 
 <!-- AUTO-GENERADO FIN -->

@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<datafile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://datomatic.no-intro.org/stuff https://datomatic.no-intro.org/stuff/schema_nointro_datfile_v3.xsd">
+	<header>
+		<name>Sega - Master System - Mark III (Retool) (Japan)</name>
+		<description>Sega - Master System - Mark III (19) [-aAbBcDdefkmMoPpruv] (20260428-025956) (Retool) (Japan)</description>
+		<version>20260428-025956</version>
+		<date>2026-07-12 18-57-07</date>
+		<author>Arctic Circle System, BigFred, bikerspade, C. V. Reynolds, ChuckD, fuzzball, Gefflon, gigadeath, Hiccup, kazumi213, nnssxx, NovaAurora, omonim2007, psykopat, rarenight, relax, Rifu, root, sCZther, ShiroeNL, SonGoku, TeamEurope, xuom2</author>
+		<homepage>http://www.github.com/unexpectedpanda/retool</homepage>
+		<url>https://www.no-intro.org</url>
+		<clrmamepro forcenodump="required"></clrmamepro>
+		<retool>Created by Retool 2.4.9</retool>
+	</header>
+	<game name="Argos no Juujiken (Japan) (En)" id="0031">
+		<category>Games</category>
+		<description>Argos no Juujiken (Japan) (En)</description>
+		<rom name="Argos no Juujiken (Japan) (En).sms" size="131072" crc="bae75805" md5="8e8b04b5a9fe7b6cdb25b6550e7a831e" sha1="a4b63ed417380f8170091e66c0417123799a731f" sha256="213750b6e5821e2422dc9849c99b45e68a3c39b6d710ff8d0ab6754cda404b97"/>
+	</game>
+	<game name="BMX Trial - Alex Kidd (Japan) (En)" id="0013">
+		<category>Games</category>
+		<description>BMX Trial - Alex Kidd (Japan) (En)</description>
+		<rom name="BMX Trial - Alex Kidd (Japan) (En).sms" size="131072" crc="f9dbb533" md5="571f18f49e679a128b4a237001760d6c" sha1="77cc767bfae01e9cc81612c780c939ed954a6312" sha256="0fdd18f1212072bfbc0cfeaf030436d746733029ef26a8a6470c7be101cfedfb"/>
+	</game>
+	<game name="Comical Machine Gun Joe (Japan) (En)" id="0083">
+		<category>Games</category>
+		<description>Comical Machine Gun Joe (Japan) (En)</description>
+		<rom name="Comical Machine Gun Joe (Japan) (En).sms" size="32768" crc="9d549e08" md5="2d59b3d27f022b04a597e767e6660ca9" sha1="33c21d164fd3cdf7aa9e7e0fe1a3ae5a491bd9f5" sha256="ea9c74555e551974a681296c41972c1f6ddd7289fed5502f64e35b8527b6dde4"/>
+	</game>
+	<game name="Enduro Racer (Japan) (En)" id="0113">
+		<category>Games</category>
+		<description>Enduro Racer (Japan) (En)</description>
+		<rom name="Enduro Racer (Japan) (En).sms" size="262144" crc="5d5c50b3" md5="a94de92b078911e71c246679c8992da1" sha1="7a0216af8d4a5aeda1d42e2703f140d08b3f92f6" sha256="0a0987679d6e008ac0a0808fe4f567e6a35022948476def2c359dbb0c54711d8"/>
+	</game>
+	<game name="Galactic Protector (Japan) (En)" id="0140">
+		<category>Games</category>
+		<description>Galactic Protector (Japan) (En)</description>
+		<rom name="Galactic Protector (Japan) (En).sms" size="131072" crc="a6fa42d0" md5="8d61b59296877216cf7e4b04a68bfa66" sha1="e8bcc3621e30ee445a74e6ddbe0842d0a6753f36" sha256="2d16948696509309493d78c4cd7e9e8db407db593464e5a804155a1e12cf4067"/>
+	</game>
+	<game name="Great Baseball (Japan) (En)" id="0163">
+		<category>Games</category>
+		<description>Great Baseball (Japan) (En)</description>
+		<rom name="Great Baseball (Japan) (En).sms" size="32768" crc="89e98a7c" md5="94ca79d4eb2709ad98b850d33728a045" sha1="e6eaaec61bec32dee5161ae59a7a0902f0d05dc9" sha256="84a62928d7a231657db0a5d77efa77eebda9f5cbefb5d5a68af64af2ecdb88fd"/>
+	</game>
+	<game name="High School! Kimengumi (Japan)" id="0183">
+		<category>Games</category>
+		<description>High School! Kimengumi (Japan)</description>
+		<rom name="High School! Kimengumi (Japan).sms" size="131072" crc="9eb1aa4f" md5="ab38b53584c89476cd4646105b16083a" sha1="d3c0aeeacccef77c45ab4219c7d6d8ed04d467cb"/>
+	</game>
+	<game name="Hoshi wo Sagashite... (Japan)" id="0187">
+		<category>Games</category>
+		<description>Hoshi wo Sagashite... (Japan)</description>
+		<rom name="Hoshi wo Sagashite... (Japan).sms" size="262144" crc="955a009e" md5="9b6274dd555f84b3f21fa2594b280a06" sha1="f9ce8b80d8671db6ab38ba5b7ce46324a65ebc3d" sha256="65f04d6a315aff30de6a759900f73482ec37cebad36c35f2aba49aec9423048c"/>
+	</game>
+	<game name="Loretta no Shouzou - Sherlock Holmes (Japan)" id="0217">
+		<category>Games</category>
+		<description>Loretta no Shouzou - Sherlock Holmes (Japan)</description>
+		<rom name="Loretta no Shouzou - Sherlock Holmes (Japan).sms" size="131072" crc="323f357f" md5="8dcdd83e58be634a3735911a1af05bb3" sha1="0ddd7448f5bd437d0d33b85a44f2bcc2bf2ea05e" sha256="5c8c32afba787f0983082b475eafc382cd3eb33c582704a0dda96d15861c4ebd"/>
+	</game>
+	<game name="Mahjong Sengoku Jidai (Japan)" id="0220">
+		<category>Games</category>
+		<description>Mahjong Sengoku Jidai (Japan)</description>
+		<rom name="Mahjong Sengoku Jidai (Japan).sms" size="131072" crc="bcfbfc67" md5="ae37b27f37a25c5230f50e8b8d58eba2" sha1="9b7cd3a25b2a1fc880683dcdca81457c93d46de5" sha256="1e509296dc2d05826c9e63dcf17deb80e4cea9b860fd2bccf7fc25dd3cc99871"/>
+	</game>
+	<game name="Megumi Rescue (Japan) (En)" id="0230">
+		<category>Games</category>
+		<description>Megumi Rescue (Japan) (En)</description>
+		<rom name="Megumi Rescue (Japan) (En).sms" size="131072" crc="29bc7fad" md5="fd834dbb87682c674f7d7ed917355021" sha1="7bd156cf8dc2ad07c666ac58ccb3c0ff6671b93f" sha256="d06ec2a0bb145f48695a07d4a6fe374e50ec3dff1a9287c5972b206b74e37c07"/>
+	</game>
+	<game name="Nekkyuu Koushien (Japan)" id="0247">
+		<category>Games</category>
+		<description>Nekkyuu Koushien (Japan)</description>
+		<rom name="Nekkyuu Koushien (Japan).sms" size="262144" crc="5b5f9106" md5="deac89672a98c5400030e66577cbb454" sha1="35e882723189178c1dc811a04125daec4487e693" sha256="5530f0383afd598b3bd70990ee07df55d56107c8dcd5899b69df5f0dfae2e8cb"/>
+	</game>
+	<game name="Pro Yakyuu, The - Pennant Race (Japan)" id="0282">
+		<category>Games</category>
+		<description>Pro Yakyuu, The - Pennant Race (Japan)</description>
+		<rom name="Pro Yakyuu, The - Pennant Race (Japan).sms" size="131072" crc="da9be8f0" md5="0e025768db6e6a7459099add711690ab" sha1="1ee602f8711d82d13b006984cef95512a93c7783" sha256="fd7178d4c7a579245aaffb9b7797bf55ea9ccff74857ab45234ddfb30b628da4"/>
+	</game>
+	<game name="Satellite 7 (Japan) (En)" id="0312">
+		<category>Games</category>
+		<description>Satellite 7 (Japan) (En)</description>
+		<rom name="Satellite 7 (Japan) (En).sms" size="32768" crc="16249e19" md5="eac6a843975c50e39eb32f764da2a5ac" sha1="88fc5596773ea31eda8ae5a8baf6f0ce5c3f7e5e" sha256="3e659f15fbcc6511dfeb2112762074a8441479bb33887d196eb343e124d14fe5"/>
+	</game>
+	<game name="Solomon no Kagi - Oujo Rihita no Namida (Japan)" id="0336">
+		<category>Games</category>
+		<description>Solomon no Kagi - Oujo Rihita no Namida (Japan)</description>
+		<rom name="Solomon no Kagi - Oujo Rihita no Namida (Japan).sms" size="131072" crc="11645549" md5="cfa84806075e017e29ffcdd0127fe647" sha1="875f35d0775609776ec75ea2a8fa2297643e906c" sha256="d18bd317dd527787adff2f706316a0ed1546bf1f50adff123519a307b92e9d17"/>
+	</game>
+	<game name="Sukeban Deka II - Shoujo Tekkamen Densetsu (Japan)" id="0368">
+		<category>Games</category>
+		<description>Sukeban Deka II - Shoujo Tekkamen Densetsu (Japan)</description>
+		<rom name="Sukeban Deka II - Shoujo Tekkamen Densetsu (Japan).sms" size="131072" crc="b13df647" md5="e80ce989b68b1faa5e40016ce7b096fe" sha1="5cd041990c7418ba63cde54f83d3e0e323b42c3b" sha256="7483a7588d97e1f7e77c27d961b1b16eef9924777708235669726b48c2c64680"/>
+	</game>
+	<game name="Super Racing (Japan) (En)" id="0376">
+		<category>Games</category>
+		<description>Super Racing (Japan) (En)</description>
+		<rom name="Super Racing (Japan) (En).sms" size="262144" crc="7e0ef8cb" md5="bcc2df04cac4b713ee48a05669cdfbdd" sha1="442f3ba8a66a0d9c49a46091df83fcdba4b63c3a" sha256="aa195c89d3da6247006db4df2ae998fda7c72b04ad51366fd206668510287b9d"/>
+	</game>
+	<game name="Tensai Bakabon (Japan)" id="0394">
+		<category>Games</category>
+		<description>Tensai Bakabon (Japan)</description>
+		<rom name="Tensai Bakabon (Japan).sms" size="262144" crc="8132ab2c" md5="ed8bfc3d17edc8e7968e553a9a6dd24c" sha1="ca802b7bdbc0b458d02fda2da32c2e27e50eef19" sha256="17719fe575cd6c0408d07a0f81f22228b469a8535c0df71486b7744619001201"/>
+	</game>
+	<game name="Woody Pop - Shinjinrui no Block Kuzushi (Japan) (En)" id="0428">
+		<category>Games</category>
+		<description>Woody Pop - Shinjinrui no Block Kuzushi (Japan) (En)</description>
+		<rom name="Woody Pop - Shinjinrui no Block Kuzushi (Japan) (En).sms" size="32768" crc="315917d4" md5="1b1b6051027806a98e9947b5ae5f0076" sha1="b74078c4a3e6d20d21ca81e88c0cb3381b0c84a4" sha256="5cde2716a76d16ee8b693dfe8f08da45d6f76faa945f87657fea9c5cfa64ae34"/>
+	</game>
+</datafile>

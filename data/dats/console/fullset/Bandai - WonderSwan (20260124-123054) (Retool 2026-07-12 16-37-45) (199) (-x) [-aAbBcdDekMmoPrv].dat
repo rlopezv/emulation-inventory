@@ -1,0 +1,1210 @@
+<?xml version="1.0"?>
+<datafile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://datomatic.no-intro.org/stuff https://datomatic.no-intro.org/stuff/schema_nointro_datfile_v3.xsd">
+	<header>
+		<name>Bandai - WonderSwan (Retool)</name>
+		<description>Bandai - WonderSwan (199) (-x) [-aAbBcdDekMmoPrv] (20260124-123054) (Retool)</description>
+		<version>20260124-123054</version>
+		<date>2026-07-12 16-37-45</date>
+		<author>C. V. Reynolds, Gefflon, gigadeath, Hiccup, kazumi213, MeguCocoa, omonim2007, PPLToast, rarenight, relax, RetroUprising, sCZther, SonGoku, xuom2</author>
+		<homepage>http://www.github.com/unexpectedpanda/retool</homepage>
+		<url>https://www.no-intro.org</url>
+		<clrmamepro forcenodump="required"></clrmamepro>
+		<retool>Created by Retool 2.4.9</retool>
+	</header>
+	<game name="15 Game (World) (Ja) (WonderWitch) (Unl)" id="0239">
+		<category>Games</category>
+		<description>15 Game (World) (Ja) (WonderWitch) (Unl)</description>
+		<release name="15 Game (World) (Ja) (WonderWitch) (Unl)" region="World" language="Ja"/>
+		<rom name="15 Game (World) (Ja) (WonderWitch) (Unl).ws" size="524288" crc="095900c4" md5="8076ca0e14148164ce45e8a4ac330b6e" sha1="3a12b097f256590604f633e29ba4ad46573643d8" sha256="1445807bd44a72544663445d82819395c0e34526a347ea06c5f46b497cd0be10"/>
+	</game>
+	<game name="15 Puzzle (World) (WonderWitch) (Unl)" id="0226">
+		<category>Games</category>
+		<description>15 Puzzle (World) (WonderWitch) (Unl)</description>
+		<release name="15 Puzzle (World) (WonderWitch) (Unl)" region="World" language="En"/>
+		<rom name="15 Puzzle (World) (WonderWitch) (Unl).ws" size="524288" crc="38407674" md5="f6afe8cf27a33df78c9226afacd942ba" sha1="7c5b7d05ab6cc876de9af6ec1e7ff2c76b6fe466" sha256="a08bad018e1f66ed1436ca53960a6c0cb3a5c0f0a5df754c130c2e77fe13eec3"/>
+	</game>
+	<game name="15 Puzzle for WW (World) (Ja) (WonderWitch) (Unl)" id="0197">
+		<category>Games</category>
+		<description>15 Puzzle for WW (World) (Ja) (WonderWitch) (Unl)</description>
+		<release name="15 Puzzle for WW (World) (Ja) (WonderWitch) (Unl)" region="World" language="Ja"/>
+		<rom name="15 Puzzle for WW (World) (Ja) (WonderWitch) (Unl).ws" size="524288" crc="71a16583" md5="f45c8885d30ef4404d2997165005a648" sha1="8c22ea3afa5d03671cfe5f6a19d4248fec4e780c" sha256="117a61f3473bccd3147a2ee4af605c3a1c34d5f63be8e6295e92aa486bddbcf6"/>
+	</game>
+	<game name="50 Oto Nyouryoku (World) (Ja) (WonderWitch) (Unl)" id="0149">
+		<category>Miscellaneous</category>
+		<description>50 Oto Nyouryoku (World) (Ja) (WonderWitch) (Unl)</description>
+		<release name="50 Oto Nyouryoku (World) (Ja) (WonderWitch) (Unl)" region="World" language="Ja"/>
+		<rom name="50 Oto Nyouryoku (World) (Ja) (WonderWitch) (Unl).ws" size="524288" crc="c463c126" md5="dd80eccf5af7b5335e483f4aaf46f7aa" sha1="4f833f9cd823b25b12affae9feeeff0e0c0f05a0" sha256="7f477be55b881e612c161e993e81efa3229934425a1e2c07b8bf0842496f247c"/>
+	</game>
+	<game name="7 Days Left (World) (Ja) (v1.00) (WonderWitch) (WWGP2002) (Unl)" cloneof="7 Days Left (World) (Ja) (v1.01) (WonderWitch) (Unl)" id="0162">
+		<category>Games</category>
+		<description>7 Days Left (World) (Ja) (v1.00) (WonderWitch) (WWGP2002) (Unl)</description>
+		<release name="7 Days Left (World) (Ja) (v1.00) (WonderWitch) (WWGP2002) (Unl)" region="World" language="Ja"/>
+		<rom name="7 Days Left (World) (Ja) (v1.00) (WonderWitch) (WWGP2002) (Unl).ws" size="524288" crc="abd2bd16" md5="f2b4d5bbd561bc65a384b2a0b9c8cfde" sha1="c93f5fa02333c924cae70929890b93666b5e6110" sha256="2079de64d6b4efbeedee85f888443c36555b0e43fab3f7d0e83a7418eb4262b2"/>
+	</game>
+	<game name="7 Days Left (World) (Ja) (v1.01) (WonderWitch) (Unl)" id="0231">
+		<category>Games</category>
+		<description>7 Days Left (World) (Ja) (v1.01) (WonderWitch) (Unl)</description>
+		<release name="7 Days Left (World) (Ja) (v1.01) (WonderWitch) (Unl)" region="World" language="Ja"/>
+		<rom name="7 Days Left (World) (Ja) (v1.01) (WonderWitch) (Unl).ws" size="524288" crc="553b1d62" md5="3f94b7aab79988a42e20a084b47c54d2" sha1="26c901fb4a964be865b7e599bece60136a083ac9" sha256="662fa7b7db415843780698f7eaf72edbf72c1b7f282e26045aa398ccda65bb6c"/>
+	</game>
+	<game name="Anchorz Field (Japan)" id="0001">
+		<category>Games</category>
+		<description>Anchorz Field (Japan)</description>
+		<release name="Anchorz Field (Japan)" region="Japan" language="Ja"/>
+		<rom name="Anchorz Field (Japan).ws" size="1048576" crc="425eb893" md5="7528a5de5924896d152920b1eaf8fd5d" sha1="06447c248afce04c4f4a1c3b5f7a4ab6f383c94b"/>
+	</game>
+	<game name="Armored Unit (Japan)" id="0002">
+		<category>Games</category>
+		<description>Armored Unit (Japan)</description>
+		<release name="Armored Unit (Japan)" region="Japan" language="Ja"/>
+		<rom name="Armored Unit (Japan).ws" size="1048576" crc="04366d92" md5="9587c46e7a2d4d8c2e5ddc971b7325fd" sha1="1578669c1fcf59ab5f5e603c6a65121d7ae209b1"/>
+	</game>
+	<game name="Atakshii (World) (Ja) (WonderWitch) (Unl)" id="0243">
+		<category>Games</category>
+		<description>Atakshii (World) (Ja) (WonderWitch) (Unl)</description>
+		<release name="Atakshii (World) (Ja) (WonderWitch) (Unl)" region="World" language="Ja"/>
+		<rom name="Atakshii (World) (Ja) (WonderWitch) (Unl).ws" size="524288" crc="23392ab9" md5="0d73d3a3d2be0ba7ad3eee449225092d" sha1="b14df1d9a32af6cf0e548a1b523d5460015634a2" sha256="434468e3d9c02fa6c411350d844b06f3ced9f8a97596f803fba314b55c83b772"/>
+	</game>
+	<game name="Atodashi (World) (WonderWitch) (Unl)" id="0157">
+		<category>Games</category>
+		<description>Atodashi (World) (WonderWitch) (Unl)</description>
+		<release name="Atodashi (World) (WonderWitch) (Unl)" region="World" language="En"/>
+		<rom name="Atodashi (World) (WonderWitch) (Unl).ws" size="524288" crc="1630d75e" md5="6cc4601dc5b06a46f3baf5c61d02397d" sha1="ea0b32d46d1ee2aadce378797db8a247be2aa799" sha256="5d0ab1e94a7a94bc8a39fa6ae4b219f0ab33ab42c9254434a9c6cb28b5964b12"/>
+	</game>
+	<game name="BNU (World) (v1.1) (WonderWitch) (Unl)" id="0257">
+		<category>Games</category>
+		<description>BNU (World) (v1.1) (WonderWitch) (Unl)</description>
+		<release name="BNU (World) (v1.1) (WonderWitch) (Unl)" region="World" language="En"/>
+		<rom name="BNU (World) (v1.1) (WonderWitch) (Unl).ws" size="524288" crc="e0021d6b" md5="46a281ac981e521971329556f3146d02" sha1="60935544860bd767fd9fce5777ddf399ac782a1d" sha256="7d4116a73ed11bb7477b1687c2e5ee4f07bdf2f6675ea126291d87fc1508841e"/>
+	</game>
+	<game name="Bakusou Dekotora Densetsu for WonderSwan (Japan)" id="0003">
+		<category>Games</category>
+		<description>Bakusou Dekotora Densetsu for WonderSwan (Japan)</description>
+		<release name="Bakusou Dekotora Densetsu for WonderSwan (Japan)" region="Japan" language="Ja"/>
+		<rom name="Bakusou Dekotora Densetsu for WonderSwan (Japan).ws" size="2097152" crc="392dd813" md5="c53a5d8c189a23b16c444c4e8ef581af" sha1="821bb81917445b63ac663c706ab4ce27de28543f"/>
+	</game>
+	<game name="Ball and Block (World) (WonderWitch) (Unl)" id="0174">
+		<category>Games</category>
+		<description>Ball and Block (World) (WonderWitch) (Unl)</description>
+		<release name="Ball and Block (World) (WonderWitch) (Unl)" region="World" language="En"/>
+		<rom name="Ball and Block (World) (WonderWitch) (Unl).ws" size="524288" crc="1e87be36" md5="2955cf3e987a1f18d53be930c109349a" sha1="35da978b6407ea5a8568d67df6b01dc5b447e70e" sha256="429d021049b16933889b66a84fd962b863e1b2598f797a51a3b89510bfc23b50"/>
+	</game>
+	<game name="Balloon (World) (WonderWitch) (Unl)" id="0210">
+		<category>Games</category>
+		<description>Balloon (World) (WonderWitch) (Unl)</description>
+		<release name="Balloon (World) (WonderWitch) (Unl)" region="World" language="En"/>
+		<rom name="Balloon (World) (WonderWitch) (Unl).ws" size="524288" crc="ceaeb5d3" md5="fa596d2ea26361cea8a68abbf8f71134" sha1="16b72bf9b283cad08de33b32486c9996c0aacafe" sha256="8c497a2ae0f0676a23b1764f28ddb0c97ef44a5b40054594fab8798eb852a734"/>
+	</game>
+	<game name="Battle Mosquito (World) (Ja) (WonderWitch) (Unl)" id="0178">
+		<category>Games</category>
+		<description>Battle Mosquito (World) (Ja) (WonderWitch) (Unl)</description>
+		<release name="Battle Mosquito (World) (Ja) (WonderWitch) (Unl)" region="World" language="Ja"/>
+		<rom name="Battle Mosquito (World) (Ja) (WonderWitch) (Unl).ws" size="524288" crc="b4790749" md5="496bb63df111f304cd4126e9f18b9240" sha1="9a4cdfd3c27841af15f33b77a8652b676d93b915" sha256="33f59c4cd5b2f635dfdb7cfa46e1340b9d156d78d7896e0ccb6a22b85cc7201e"/>
+	</game>
+	<game name="Buffers Evolution (Japan)" id="0005">
+		<category>Games</category>
+		<description>Buffers Evolution (Japan)</description>
+		<release name="Buffers Evolution (Japan)" region="Japan" language="Ja"/>
+		<rom name="Buffers Evolution (Japan).ws" size="4194304" crc="b25a0635" md5="9b15b2236cae605f7bc3bea3859fdd36" sha1="35eea568f756bacf533bb9aaad7e3239ba00e411"/>
+	</game>
+	<game name="Buro (World) (WonderWitch) (Unl)" id="0188">
+		<category>Games</category>
+		<description>Buro (World) (WonderWitch) (Unl)</description>
+		<release name="Buro (World) (WonderWitch) (Unl)" region="World" language="En"/>
+		<rom name="Buro (World) (WonderWitch) (Unl).ws" size="524288" crc="0fc80e7f" md5="755e459a404339dcf62af026c27a87ce" sha1="ab25fb2c5f60b8c8a17f0b9d69fc8388bc729fbf" sha256="5b33638f3f78f743bebe3a9285c98b44ba6b7d1f573c54f2f53f3cad598c4cc3"/>
+	</game>
+	<game name="C-Man (World) (Ja) (WonderWitch) (Unl)" id="0201">
+		<category>Games</category>
+		<description>C-Man (World) (Ja) (WonderWitch) (Unl)</description>
+		<release name="C-Man (World) (Ja) (WonderWitch) (Unl)" region="World" language="Ja"/>
+		<rom name="C-Man (World) (Ja) (WonderWitch) (Unl).ws" size="524288" crc="adb27977" md5="7239d45d91cee84e217b13da53bda5da" sha1="53425b2c7247c1d0a1e6e4ce798495ec655aafa0" sha256="ebb1bce81fbc50b51b83ce386624f7560d9e5bd99d7c7c89d40d8553d3c1c820"/>
+	</game>
+	<game name="Cardcaptor Sakura - Sakura to Fushigi na Clow Card (Japan)" id="0006">
+		<category>Games</category>
+		<description>Cardcaptor Sakura - Sakura to Fushigi na Clow Card (Japan)</description>
+		<release name="Cardcaptor Sakura - Sakura to Fushigi na Clow Card (Japan)" region="Japan" language="Ja"/>
+		<rom name="Cardcaptor Sakura - Sakura to Fushigi na Clow Card (Japan).ws" size="2097152" crc="7f3a14c0" md5="bb9f130931b2b7d1f646f44d1667ad63" sha1="39e9a897b681b2c326b052827d7c534f22290286"/>
+	</game>
+	<game name="Castle (World) (WonderWitch) (Unl)" id="0234">
+		<category>Games</category>
+		<description>Castle (World) (WonderWitch) (Unl)</description>
+		<release name="Castle (World) (WonderWitch) (Unl)" region="World" language="En"/>
+		<rom name="Castle (World) (WonderWitch) (Unl).ws" size="524288" crc="4ac2e602" md5="31077cc5fc6df151f9413bf18b5179dc" sha1="b520a9191be5194a0dac0a961fc45c103d0559d3" sha256="02ec044fd04a4e1b9164c3b02b3ed44c881168ee30e24de76f394a4e9c7fe91e"/>
+	</game>
+	<game name="Chaos Gear - Michibikareshi Mono (Japan)" id="0007">
+		<category>Games</category>
+		<description>Chaos Gear - Michibikareshi Mono (Japan)</description>
+		<release name="Chaos Gear - Michibikareshi Mono (Japan)" region="Japan" language="Ja"/>
+		<rom name="Chaos Gear - Michibikareshi Mono (Japan).ws" size="2097152" crc="27b3cc18" md5="f647a51827915109d1bc6a05c076eda4" sha1="e212bba4fac51bbfcf440966da0e67b1686dcfc5"/>
+	</game>
+	<game name="Chocobo no Fushigi na Dungeon for WonderSwan (Japan) (Rev 1)" cloneof="Chocobo no Fushigi na Dungeon for WonderSwan (Japan) (Rev 3)" id="0114">
+		<category>Games</category>
+		<description>Chocobo no Fushigi na Dungeon for WonderSwan (Japan) (Rev 1)</description>
+		<release name="Chocobo no Fushigi na Dungeon for WonderSwan (Japan) (Rev 1)" region="Japan" language="Ja"/>
+		<rom name="Chocobo no Fushigi na Dungeon for WonderSwan (Japan) (Rev 1).ws" size="2097152" crc="a607a350" md5="6d7d60c65e5a5cc92f83a62c434577b5" sha1="a8c4f423429a8683cfebd05370ea122613349033"/>
+	</game>
+	<game name="Chocobo no Fushigi na Dungeon for WonderSwan (Japan) (Rev 2)" cloneof="Chocobo no Fushigi na Dungeon for WonderSwan (Japan) (Rev 3)" id="0008">
+		<category>Games</category>
+		<description>Chocobo no Fushigi na Dungeon for WonderSwan (Japan) (Rev 2)</description>
+		<release name="Chocobo no Fushigi na Dungeon for WonderSwan (Japan) (Rev 2)" region="Japan" language="Ja"/>
+		<rom name="Chocobo no Fushigi na Dungeon for WonderSwan (Japan) (Rev 2).ws" size="2097152" crc="ccaa4853" md5="edbc77ab0d585447d927318a6eb66c9b" sha1="3b62fd2841602f1077270848ab7a3aad58712ee9" sha256="38fd168a8cefa4ed80db42eed9f720e42da5b8f71d551c707520b24060c14728"/>
+	</game>
+	<game name="Chocobo no Fushigi na Dungeon for WonderSwan (Japan) (Rev 3)" id="0119">
+		<category>Games</category>
+		<description>Chocobo no Fushigi na Dungeon for WonderSwan (Japan) (Rev 3)</description>
+		<release name="Chocobo no Fushigi na Dungeon for WonderSwan (Japan) (Rev 3)" region="Japan" language="Ja"/>
+		<rom name="Chocobo no Fushigi na Dungeon for WonderSwan (Japan) (Rev 3).ws" size="2097152" crc="aa53971d" md5="03b416e7326a34c9546e8336f7d50bf2" sha1="f7a65e95a8e97f35ec2419897ad96af1e1d49676"/>
+	</game>
+	<game name="Chou Aniki - Otoko no Tamafuda (Japan) (Rev 4)" id="0009">
+		<category>Games</category>
+		<description>Chou Aniki - Otoko no Tamafuda (Japan) (Rev 4)</description>
+		<release name="Chou Aniki - Otoko no Tamafuda (Japan) (Rev 4)" region="Japan" language="Ja"/>
+		<rom name="Chou Aniki - Otoko no Tamafuda (Japan) (Rev 4).ws" size="1048576" crc="7fff2520" md5="24fd819c4f4866d7c5c340d0273acbf9" sha1="eb538b82c5516fae8ce38778e41fb118aa5c830f"/>
+	</game>
+	<game name="Chou Denki Card Battle - Youfu Makai (Japan) (Rev 3)" id="0010">
+		<category>Games</category>
+		<description>Chou Denki Card Battle - Youfu Makai (Japan) (Rev 3)</description>
+		<release name="Chou Denki Card Battle - Youfu Makai (Japan) (Rev 3)" region="Japan" language="Ja"/>
+		<rom name="Chou Denki Card Battle - Youfu Makai (Japan) (Rev 3).ws" size="2097152" crc="56e2c069" md5="5432d188664bc4e5dae0fc859580cda1" sha1="c4436a59fd830ba6af2d63462f71e1ab1cfa3212"/>
+	</game>
+	<game name="Chuuka Taisen (World) (WonderWitch) (Unl)" id="0255">
+		<category>Games</category>
+		<description>Chuuka Taisen (World) (WonderWitch) (Unl)</description>
+		<release name="Chuuka Taisen (World) (WonderWitch) (Unl)" region="World" language="En"/>
+		<rom name="Chuuka Taisen (World) (WonderWitch) (Unl).ws" size="524288" crc="d53161b2" md5="5f3ffe13a877428ce7821ec04958514f" sha1="b2c50bb2d28ccfd4d11ddd6b7dc5d359297afc13" sha256="3150f981b6a10ebb2f7286b9165437ecc2a06dce9ee1061bffaa1e08753b3253"/>
+	</game>
+	<game name="Clock Tower for WonderSwan (Japan) (Rev 1)" id="0011">
+		<category>Games</category>
+		<description>Clock Tower for WonderSwan (Japan) (Rev 1)</description>
+		<release name="Clock Tower for WonderSwan (Japan) (Rev 1)" region="Japan" language="Ja"/>
+		<rom name="Clock Tower for WonderSwan (Japan) (Rev 1).ws" size="4194304" crc="4e8909d1" md5="8f0ba3401662a40e8da5ebcfe7b85e81" sha1="db9b3308336b59aeff7bd173d687953a37739381"/>
+	</game>
+	<game name="Crazy Climber (Japan)" id="0012">
+		<category>Games</category>
+		<description>Crazy Climber (Japan)</description>
+		<release name="Crazy Climber (Japan)" region="Japan" language="Ja"/>
+		<rom name="Crazy Climber (Japan).ws" size="1048576" crc="0cb57376" md5="0ed3a08a3a9858f65d1487889645dc55" sha1="a88882426bf435416616191902a26b2b066f2491"/>
+	</game>
+	<game name="D's Garage 21 Koubo Game - Tane o Maku Tori (Japan)" id="0013">
+		<category>Games</category>
+		<description>D's Garage 21 Koubo Game - Tane o Maku Tori (Japan)</description>
+		<release name="D's Garage 21 Koubo Game - Tane o Maku Tori (Japan)" region="Japan" language="Ja"/>
+		<rom name="D's Garage 21 Koubo Game - Tane o Maku Tori (Japan).ws" size="1048576" crc="b1caec06" md5="e39e90944a683b9d4a996a53804826f0" sha1="83e190af2e25fbb3e93b1d5835c52fe6f1d279ce" sha256="3d791b4e9b05eb600ba89be687bc49dee171af645c3a046b5f8f695198005daf"/>
+	</game>
+	<game name="Dash Straight (World) (Ja) (WonderWitch) (Unl)" id="0189">
+		<category>Games</category>
+		<description>Dash Straight (World) (Ja) (WonderWitch) (Unl)</description>
+		<release name="Dash Straight (World) (Ja) (WonderWitch) (Unl)" region="World" language="Ja"/>
+		<rom name="Dash Straight (World) (Ja) (WonderWitch) (Unl).ws" size="524288" crc="12cefb60" md5="c66b91885325390de8383b86ebc4944b" sha1="014e79fa932f9b3b23b479ef35bf83f320d7d1d9" sha256="4ab5c63e1a3a76f9e0532228e0ca8c98407a2a8eca6d0b785e854e310c57046c"/>
+	</game>
+	<game name="Datchuchu (World) (Ja) (WonderWitch) (Unl)" id="0173">
+		<category>Games</category>
+		<description>Datchuchu (World) (Ja) (WonderWitch) (Unl)</description>
+		<release name="Datchuchu (World) (Ja) (WonderWitch) (Unl)" region="World" language="Ja"/>
+		<rom name="Datchuchu (World) (Ja) (WonderWitch) (Unl).ws" size="524288" crc="6b73eced" md5="56c0bfcc7a5afd6822a0141b00d7477a" sha1="490a31811c85aa9a71ae9dcf77f3fd1a39b368b5" sha256="b8d262e4723d242122a1510d79d50c0c0a74432e4beb9672a416d81394c168fe"/>
+	</game>
+	<game name="Densha de Go! (Japan) (Rev 1)" id="0014">
+		<category>Games</category>
+		<description>Densha de Go! (Japan) (Rev 1)</description>
+		<release name="Densha de Go! (Japan) (Rev 1)" region="Japan" language="Ja"/>
+		<rom name="Densha de Go! (Japan) (Rev 1).ws" size="4194304" crc="b62e5dd0" md5="7b2180e38b4720ce711768a73c33c9df" sha1="d3da0ae529c6f78162682141154a95879f288ca7" sha256="4f68c09f93cce8ef4aa600394f22f8a14825e0fdbad4f4a13d799fdd08a6067b"/>
+	</game>
+	<game name="Densha de Go! 2 (Japan)" id="0015">
+		<category>Games</category>
+		<description>Densha de Go! 2 (Japan)</description>
+		<release name="Densha de Go! 2 (Japan)" region="Japan" language="Ja"/>
+		<rom name="Densha de Go! 2 (Japan).ws" size="4194304" crc="af9d8f42" md5="eec79ad5bb634a90b9d020415046e921" sha1="c07f776ac4374b648d1a49efd9d6fcd0db2ac1fa" sha256="3ec68e02fa964383d6a0792aca7e53ab005e17a768a8546eb6dc5ed482db7c29"/>
+	</game>
+	<game name="Dexten (World) (WonderWitch) (Unl)" id="0198">
+		<category>Games</category>
+		<description>Dexten (World) (WonderWitch) (Unl)</description>
+		<release name="Dexten (World) (WonderWitch) (Unl)" region="World" language="En"/>
+		<rom name="Dexten (World) (WonderWitch) (Unl).ws" size="524288" crc="f343326e" md5="218647192f8616e78b1486a01c11db0a" sha1="3a8c6a6b0b163baa9cf54e10ae402e76d986a8a2" sha256="caf8b8d036f9f47c7d8414dbd4a38fd688c26a4a58065449bab5ee762634d0ed"/>
+	</game>
+	<game name="Digimon - Ver. WonderSwan (Hong Kong) (En)" id="0016">
+		<category>Games</category>
+		<description>Digimon - Ver. WonderSwan (Hong Kong) (En)</description>
+		<release name="Digimon - Ver. WonderSwan (Hong Kong) (En)" region="Hong Kong" language="En"/>
+		<rom name="Digimon - Ver. WonderSwan (Hong Kong) (En).ws" size="2097152" crc="94ea6ffc" md5="d5f7fbf06c57aa50f08c14e64d2e02a2" sha1="5cc59ec1687fe83ec5fb048d3dfc37849747df34"/>
+	</game>
+	<game name="Digimon Adventure - Anode Tamer (Japan)" cloneof="Digimon Adventure - Anode Tamer (Japan) (Rev 1)" id="0115">
+		<category>Games</category>
+		<description>Digimon Adventure - Anode Tamer (Japan)</description>
+		<release name="Digimon Adventure - Anode Tamer (Japan)" region="Japan" language="Ja"/>
+		<rom name="Digimon Adventure - Anode Tamer (Japan).ws" size="2097152" crc="fc6946f0" md5="db33df2754fb51ce740006cf9176049f" sha1="c49bd00c95bca49a183d59f85e81815efb1a2fb9" sha256="a17d2908b0c9131449e1ee06b716332bc804976ef63a3dc4a4b9ba4a465ffcac"/>
+	</game>
+	<game name="Digimon Adventure - Anode Tamer (Japan) (Rev 1)" id="0017">
+		<category>Games</category>
+		<description>Digimon Adventure - Anode Tamer (Japan) (Rev 1)</description>
+		<release name="Digimon Adventure - Anode Tamer (Japan) (Rev 1)" region="Japan" language="Ja"/>
+		<rom name="Digimon Adventure - Anode Tamer (Japan) (Rev 1).ws" size="2097152" crc="6e9dd148" md5="ba249ee5c5ccb1512e0fb6af200a361a" sha1="9db54826c2887dea07aac774bd15e092596e37af"/>
+	</game>
+	<game name="Digimon Adventure - Cathode Tamer (Japan)" id="0018">
+		<category>Games</category>
+		<description>Digimon Adventure - Cathode Tamer (Japan)</description>
+		<release name="Digimon Adventure - Cathode Tamer (Japan)" region="Japan" language="Ja"/>
+		<rom name="Digimon Adventure - Cathode Tamer (Japan).ws" size="2097152" crc="42ad238b" md5="10f50d5b44a7b8b1f308c1bea8263823" sha1="0b54cc1d350ab92c42ce8214784389b994562bf6"/>
+	</game>
+	<game name="Digimon Adventure 02 - Tag Tamers (Japan)" cloneof="Digimon Adventure 02 - Tag Tamers (Japan) (Rev 1)" id="0123">
+		<category>Games</category>
+		<description>Digimon Adventure 02 - Tag Tamers (Japan)</description>
+		<release name="Digimon Adventure 02 - Tag Tamers (Japan)" region="Japan" language="Ja"/>
+		<rom name="Digimon Adventure 02 - Tag Tamers (Japan).ws" size="2097152" crc="56ce1bc5" md5="0ae28388d68fb56bee38cc96faf37f90" sha1="521754084afc6321ae329421b9d2ab0f0cac8c70"/>
+	</game>
+	<game name="Digimon Adventure 02 - Tag Tamers (Japan) (Rev 1)" id="0019">
+		<category>Games</category>
+		<description>Digimon Adventure 02 - Tag Tamers (Japan) (Rev 1)</description>
+		<release name="Digimon Adventure 02 - Tag Tamers (Japan) (Rev 1)" region="Japan" language="Ja"/>
+		<rom name="Digimon Adventure 02 - Tag Tamers (Japan) (Rev 1).ws" size="2097152" crc="6ededaf8" md5="2cb264ba76b88452d7576992f2b90dbf" sha1="44a5502b70ea75926b87377e3f634c8093bc574a"/>
+	</game>
+	<game name="Digimon Adventure Campaign (Japan) (Limited Version)" id="0127">
+		<category>Games</category>
+		<description>Digimon Adventure Campaign (Japan) (Limited Version)</description>
+		<release name="Digimon Adventure Campaign (Japan) (Limited Version)" region="Japan" language="Ja"/>
+		<rom name="Digimon Adventure Campaign (Japan) (Limited Version).ws" size="2097152" crc="7e03e8da" md5="2ffaf9a41fb10d55ffb6479cccbac208" sha1="9e04575d7d8e2439489b48c426d9bf342339f955" sha256="5c4edfd5768e0d3a4555a5e72af80883487764e0a66a7bb8674b5d1c1018479d"/>
+	</game>
+	<game name="Digital Monster - Ver. WonderSwan (Japan) (Rev 1)" cloneof="Digimon - Ver. WonderSwan (Hong Kong) (En)" id="0020">
+		<category>Games</category>
+		<description>Digital Monster - Ver. WonderSwan (Japan) (Rev 1)</description>
+		<release name="Digital Monster - Ver. WonderSwan (Japan) (Rev 1)" region="Japan" language="Ja"/>
+		<rom name="Digital Monster - Ver. WonderSwan (Japan) (Rev 1).ws" size="2097152" crc="ab59de2e" md5="deb2c37baea996386b2af10bdd0ca3b1" sha1="ecea24db6e65254ab4d6e312de0eb951c7df716f"/>
+	</game>
+	<game name="Digital Partner (Japan)" id="0021">
+		<category>Games</category>
+		<description>Digital Partner (Japan)</description>
+		<release name="Digital Partner (Japan)" region="Japan" language="Ja"/>
+		<rom name="Digital Partner (Japan).ws" size="2097152" crc="b5e675ae" md5="768b8f5722f0b07be4e8ac356e90acf2" sha1="c622f6742ca3f0129fc12dce0a1c17d292388ffb" sha256="c98c05e7ed2005b162051a242ed91b68a47b576a44da329492718e168a18ee58"/>
+	</game>
+	<game name="Disc Upper (World) (WonderWitch) (Unl)" id="0206">
+		<category>Games</category>
+		<description>Disc Upper (World) (WonderWitch) (Unl)</description>
+		<release name="Disc Upper (World) (WonderWitch) (Unl)" region="World" language="En"/>
+		<rom name="Disc Upper (World) (WonderWitch) (Unl).ws" size="524288" crc="3fff34ba" md5="869b3139a6b39706dffbaf05f9aa00c4" sha1="223a4c0078f6bb1a9794d0b3c60a7826aab6ddc6" sha256="5aedd1faa089348a4ec7575bcc928b0f80974178f6330721219578f4ccc80b4d"/>
+	</game>
+	<game name="Dokodemo Hamster (Japan)" id="0022">
+		<category>Games</category>
+		<description>Dokodemo Hamster (Japan)</description>
+		<release name="Dokodemo Hamster (Japan)" region="Japan" language="Ja"/>
+		<rom name="Dokodemo Hamster (Japan).ws" size="1048576" crc="89e7d950" md5="da17db6b7f491510e4b284996ff0eebf" sha1="3d5a1ed77e721908eb1145aaedef17c0ee6355ae"/>
+	</game>
+	<game name="Dolls (World) (Ja) (WonderWitch) (Unl)" id="0166">
+		<category>Games</category>
+		<description>Dolls (World) (Ja) (WonderWitch) (Unl)</description>
+		<release name="Dolls (World) (Ja) (WonderWitch) (Unl)" region="World" language="Ja"/>
+		<rom name="Dolls (World) (Ja) (WonderWitch) (Unl).ws" size="524288" crc="c3e6defe" md5="4f53eeeb5fe3731ddfcca87ef80828c1" sha1="83d03d5bfa83072f5f7c5b6a3fa907fc9ae1e38c" sha256="877dd83f33b7ee6b0dbc467961635e48b8aefcea7e7e8e551c8f2b8650369552"/>
+	</game>
+	<game name="Engacho! for WonderSwan (Japan)" id="0023">
+		<category>Games</category>
+		<description>Engacho! for WonderSwan (Japan)</description>
+		<release name="Engacho! for WonderSwan (Japan)" region="Japan" language="Ja"/>
+		<rom name="Engacho! for WonderSwan (Japan).ws" size="1048576" crc="4e467626" md5="3584e4a63a6ae9fa546722a349f88573" sha1="f79451034b6d844f0e10c825306bbc26f26a5466" sha256="606e887f75bdba243ecb1efedc91108136545940e64cdcc3bfabc8f17fff6c6e"/>
+	</game>
+	<game name="Features (World) (v2.001) (WonderWitch) (Unl)" id="0184">
+		<category>Games</category>
+		<description>Features (World) (v2.001) (WonderWitch) (Unl)</description>
+		<release name="Features (World) (v2.001) (WonderWitch) (Unl)" region="World" language="En"/>
+		<rom name="Features (World) (v2.001) (WonderWitch) (Unl).ws" size="524288" crc="f6569cc8" md5="711d0c71efdce974065f121a237c866b" sha1="ddee28ff6b9e0f07047bd0df483c5eaaa782c378" sha256="2a5cdac5890b15d9efcd94a2200b25324305623ef62767d1444e0bf24958abdb"/>
+	</game>
+	<game name="Fever - Sankyo Koushiki Pachinko Simulation for WonderSwan (Japan)" id="0024">
+		<category>Games</category>
+		<description>Fever - Sankyo Koushiki Pachinko Simulation for WonderSwan (Japan)</description>
+		<release name="Fever - Sankyo Koushiki Pachinko Simulation for WonderSwan (Japan)" region="Japan" language="Ja"/>
+		<rom name="Fever - Sankyo Koushiki Pachinko Simulation for WonderSwan (Japan).ws" size="2097152" crc="8922dd0b" md5="ae2e0e9da1f25119cb4ad24a821446ba" sha1="f26b0215c49e04cb8ef6f031b627dff6a49d2015"/>
+	</game>
+	<game name="Final Lap 2000 (Japan)" id="0025">
+		<category>Games</category>
+		<description>Final Lap 2000 (Japan)</description>
+		<release name="Final Lap 2000 (Japan)" region="Japan" language="Ja"/>
+		<rom name="Final Lap 2000 (Japan).ws" size="1048576" crc="ce2f1a1d" md5="a466797b353d610f43a0f030cec721c1" sha1="cfcb14be6d2f1dbffdfcefb8c8d83b4f39bc102b"/>
+	</game>
+	<game name="Fire Pro Wrestling for WonderSwan (Japan) (Rev 5)" id="0026">
+		<category>Games</category>
+		<description>Fire Pro Wrestling for WonderSwan (Japan) (Rev 5)</description>
+		<release name="Fire Pro Wrestling for WonderSwan (Japan) (Rev 5)" region="Japan" language="Ja"/>
+		<rom name="Fire Pro Wrestling for WonderSwan (Japan) (Rev 5).ws" size="4194304" crc="f246a68e" md5="dd9be38cd66ffd3b526d3388c6b99b8e" sha1="fbb745b016cc710ff6f82ec3091a181415d8de61"/>
+	</game>
+	<game name="Fishing Freaks - Bass Rise for WonderSwan (Japan)" id="0027">
+		<category>Games</category>
+		<description>Fishing Freaks - Bass Rise for WonderSwan (Japan)</description>
+		<release name="Fishing Freaks - Bass Rise for WonderSwan (Japan)" region="Japan" language="Ja"/>
+		<rom name="Fishing Freaks - Bass Rise for WonderSwan (Japan).ws" size="1048576" crc="a1fb16fc" md5="eb3f161ea3db4ebd759c9b1346032d4f" sha1="f8f077da30f227f3793e97c7f1d656559f08b9d4"/>
+	</game>
+	<game name="From TV Animation One Piece - Mezase Kaizoku Ou! (Japan)" id="0028">
+		<category>Games</category>
+		<description>From TV Animation One Piece - Mezase Kaizoku Ou! (Japan)</description>
+		<release name="From TV Animation One Piece - Mezase Kaizoku Ou! (Japan)" region="Japan" language="Ja"/>
+		<rom name="From TV Animation One Piece - Mezase Kaizoku Ou! (Japan).ws" size="1048576" crc="f2e362b8" md5="fe30867e698c071f6be94cce24b095ee" sha1="99c831c27c478064e3d3fa8f9f089cc28f0e946f"/>
+	</game>
+	<game name="Frontier (World) (Ja) (WonderWitch) (Unl)" id="0227">
+		<category>Games</category>
+		<description>Frontier (World) (Ja) (WonderWitch) (Unl)</description>
+		<release name="Frontier (World) (Ja) (WonderWitch) (Unl)" region="World" language="Ja"/>
+		<rom name="Frontier (World) (Ja) (WonderWitch) (Unl).ws" size="524288" crc="774e1875" md5="193f1d409663fb29324947632a697797" sha1="6c9f158d07acd310bb993224e904608b97e4c4dd" sha256="efa5403e3baa56e68ec6729f7b0307add36ef51d9494c2fd28ef399a29c74d26"/>
+	</game>
+	<game name="GB Yu-Gi-Oh Database (World) (Ja) (WonderWitch) (Unl)" id="0208">
+		<category>Miscellaneous</category>
+		<description>GB Yu-Gi-Oh Database (World) (Ja) (WonderWitch) (Unl)</description>
+		<release name="GB Yu-Gi-Oh Database (World) (Ja) (WonderWitch) (Unl)" region="World" language="Ja"/>
+		<rom name="GB Yu-Gi-Oh Database (World) (Ja) (WonderWitch) (Unl).ws" size="524288" crc="bb90306f" md5="c587ce6dadb4459047ff6410b460a927" sha1="8272cfcdba6eff173a0ccf76f5b5e3ebdbc4e143" sha256="46c5e7caf9e61d5632ed048ada1121df3a5816b00822df45d7d55290fa393fe8"/>
+	</game>
+	<game name="Gachagacha Nyouryoku (World) (Ja) (WonderWitch) (Unl)" id="0143">
+		<category>Miscellaneous</category>
+		<description>Gachagacha Nyouryoku (World) (Ja) (WonderWitch) (Unl)</description>
+		<release name="Gachagacha Nyouryoku (World) (Ja) (WonderWitch) (Unl)" region="World" language="Ja"/>
+		<rom name="Gachagacha Nyouryoku (World) (Ja) (WonderWitch) (Unl).ws" size="524288" crc="7b1cc2ab" md5="6080c66dd08c5eb2929ac584dd32d09f" sha1="9d6e5ba79c72a368771640eb25c2f10e5117894e" sha256="48c5657a7e80847130c5360437fcb14e7b3bb55680c92b7cfff9a60bdc4cdb72"/>
+	</game>
+	<game name="Ganso Jajamaru-kun (Japan)" id="0029">
+		<category>Games</category>
+		<description>Ganso Jajamaru-kun (Japan)</description>
+		<release name="Ganso Jajamaru-kun (Japan)" region="Japan" language="Ja"/>
+		<rom name="Ganso Jajamaru-kun (Japan).ws" size="524288" crc="a193458c" md5="6f09fc64352ba0051e724c4ae58402f4" sha1="cbf6455e89b20a000b6121e5c485be1a20d1f726" sha256="f848406719b44a4dee859368c6d196f24c66aa92b8b9b17f061c2898d920baea"/>
+	</game>
+	<game name="Glocal Hexcite (Japan)" id="0030">
+		<category>Games</category>
+		<description>Glocal Hexcite (Japan)</description>
+		<release name="Glocal Hexcite (Japan)" region="Japan" language="Ja"/>
+		<rom name="Glocal Hexcite (Japan).ws" size="1048576" crc="4aed3911" md5="21744e51668ab1fca63e5b2a204c194d" sha1="837528b9d95e309f7b1e8c4ffd46ca3e2b68a5a3"/>
+	</game>
+	<game name="Gomoku Narabe &amp; Reversi - Touryuumon (Japan)" id="0031">
+		<category>Games</category>
+		<description>Gomoku Narabe &amp; Reversi - Touryuumon (Japan)</description>
+		<release name="Gomoku Narabe &amp; Reversi - Touryuumon (Japan)" region="Japan" language="Ja"/>
+		<rom name="Gomoku Narabe &amp; Reversi - Touryuumon (Japan).ws" size="1048576" crc="a9f11523" md5="3ab76903152993aeee1118818bfad8f7" sha1="0931ddec058eefb32a68a1752716ed2ba68b78bf"/>
+	</game>
+	<game name="Goraku Ou Tango! (Japan) (Rev 2)" id="0032">
+		<category>Games</category>
+		<description>Goraku Ou Tango! (Japan) (Rev 2)</description>
+		<release name="Goraku Ou Tango! (Japan) (Rev 2)" region="Japan" language="Ja"/>
+		<rom name="Goraku Ou Tango! (Japan) (Rev 2).ws" size="1048576" crc="00137e86" md5="1adacf9cb5aa3eb5839a9e2c94933348" sha1="af3fe9da3f5ee0f5a7b06b0440223db88fcb3bf2"/>
+	</game>
+	<game name="GunPey (Japan)" id="0033">
+		<category>Games</category>
+		<description>GunPey (Japan)</description>
+		<release name="GunPey (Japan)" region="Japan" language="Ja"/>
+		<rom name="GunPey (Japan).ws" size="1048576" crc="a1656bbb" md5="816c81b156146be62a45edd7d7d49fc6" sha1="ee4b777f029bac9561e60c19407d08360e733822"/>
+	</game>
+	<game name="Hanafuda Shiyouyo (Japan)" id="0034">
+		<category>Games</category>
+		<description>Hanafuda Shiyouyo (Japan)</description>
+		<release name="Hanafuda Shiyouyo (Japan)" region="Japan" language="Ja"/>
+		<rom name="Hanafuda Shiyouyo (Japan).ws" size="1048576" crc="4b22270d" md5="2e26e037cb01f70a6454a61c2955e8b1" sha1="1eda3327eb9b5a5844a95ac789f71b669f4cb6a7"/>
+	</game>
+	<game name="Harobots (Japan)" cloneof="Harobots (Japan) (Rev 1)" id="0035">
+		<category>Games</category>
+		<description>Harobots (Japan)</description>
+		<release name="Harobots (Japan)" region="Japan" language="Ja"/>
+		<rom name="Harobots (Japan).ws" size="2097152" crc="aa525c04" md5="0eb951b486fe25f37371835be81eed75" sha1="1f42c5694a798de8ff3c68f63dfc7395be1669a5" sha256="019799e885bee6097bedebdbe35bcb7cf389ad9e1151bc9b36a359fff4c6a7fe"/>
+	</game>
+	<game name="Harobots (Japan) (Rev 1)" id="0122">
+		<category>Games</category>
+		<description>Harobots (Japan) (Rev 1)</description>
+		<release name="Harobots (Japan) (Rev 1)" region="Japan" language="Ja"/>
+		<rom name="Harobots (Japan) (Rev 1).ws" size="2097152" crc="f75ce82c" md5="b9020cfae65fe791bd52723cbff31707" sha1="ecbaf210f92c75a55df9dff4777ea364596ae0c9"/>
+	</game>
+	<game name="Hayauchi! (World) (Ja) (WonderWitch) (Unl)" id="0218">
+		<category>Games</category>
+		<description>Hayauchi! (World) (Ja) (WonderWitch) (Unl)</description>
+		<release name="Hayauchi! (World) (Ja) (WonderWitch) (Unl)" region="World" language="Ja"/>
+		<rom name="Hayauchi! (World) (Ja) (WonderWitch) (Unl).ws" size="524288" crc="016f0191" md5="90fb598b7ea00b22806ce2546977d71c" sha1="59ab9b892492968cd95307159e961ba9243a31c0" sha256="a19e954d3f313ae840c0a88c85a86b086a689a631da568dc10f10b5bcab28a6d"/>
+	</game>
+	<game name="Hima Tsubushi (World) (WonderWitch) (Unl)" id="0222">
+		<category>Games</category>
+		<description>Hima Tsubushi (World) (WonderWitch) (Unl)</description>
+		<release name="Hima Tsubushi (World) (WonderWitch) (Unl)" region="World" language="En"/>
+		<rom name="Hima Tsubushi (World) (WonderWitch) (Unl).ws" size="524288" crc="a70e38e3" md5="f1f12ee81f665974dca91c80b79e2ec3" sha1="27740c993d1785cd4dc2c4a136e6489816dfdc5d" sha256="416e2a7ce62fbcb286c5ac960ef94aef4bb4071aa93a13daeb89d156bd6e203a"/>
+	</game>
+	<game name="Hito (World) (Ja) (WonderWitch) (Unl)" id="0169">
+		<category>Games</category>
+		<description>Hito (World) (Ja) (WonderWitch) (Unl)</description>
+		<release name="Hito (World) (Ja) (WonderWitch) (Unl)" region="World" language="Ja"/>
+		<rom name="Hito (World) (Ja) (WonderWitch) (Unl).ws" size="524288" crc="ba051d69" md5="b29e024cecafad01893a6ba0a1a59ab7" sha1="30ad64e07d1532745ef939a2f21262662b06d1ca" sha256="992ed4e14ea3ca0e2a282da992916c5cdc442c383fad238fff77beb829330bdd"/>
+	</game>
+	<game name="Hunter X Hunter - Ishi o Tsugu Mono (Japan) (Rev 1)" cloneof="Hunter X Hunter - Ishi o Tsugu Mono (Japan) (Rev 2)" id="0121">
+		<category>Games</category>
+		<description>Hunter X Hunter - Ishi o Tsugu Mono (Japan) (Rev 1)</description>
+		<release name="Hunter X Hunter - Ishi o Tsugu Mono (Japan) (Rev 1)" region="Japan" language="Ja"/>
+		<rom name="Hunter X Hunter - Ishi o Tsugu Mono (Japan) (Rev 1).ws" size="4194304" crc="bd6fc68a" md5="cc9d1519e1aba4a0f48f2052af031671" sha1="43d985b31848e1ae58d07231da80ee7aa8d3f686"/>
+	</game>
+	<game name="Hunter X Hunter - Ishi o Tsugu Mono (Japan) (Rev 2)" id="0036">
+		<category>Games</category>
+		<description>Hunter X Hunter - Ishi o Tsugu Mono (Japan) (Rev 2)</description>
+		<release name="Hunter X Hunter - Ishi o Tsugu Mono (Japan) (Rev 2)" region="Japan" language="Ja"/>
+		<rom name="Hunter X Hunter - Ishi o Tsugu Mono (Japan) (Rev 2).ws" size="4194304" crc="70aa800e" md5="fd2165de8c6bb617166f6bb34447e70d" sha1="57b4278fc5812f52413ca65f45225922d4f2ec3d"/>
+	</game>
+	<game name="Inu Renda (World) (Ja) (WonderWitch) (Unl)" id="0225">
+		<category>Games</category>
+		<description>Inu Renda (World) (Ja) (WonderWitch) (Unl)</description>
+		<release name="Inu Renda (World) (Ja) (WonderWitch) (Unl)" region="World" language="Ja"/>
+		<rom name="Inu Renda (World) (Ja) (WonderWitch) (Unl).ws" size="524288" crc="1f3e9d0d" md5="27c388c82a0764abc1619b06e55603a9" sha1="6ed10341a1016d6cd2a88d22665ef683c4a624de" sha256="abeb32f63e91f7a7f3aa73670948a3ba0478ee8f0b7f50d280c412cdcf3e045c"/>
+	</game>
+	<game name="Invader DX &amp; Boss DX (World) (Ja) (WonderWitch) (Unl)" id="0200">
+		<category>Games</category>
+		<description>Invader DX &amp; Boss DX (World) (Ja) (WonderWitch) (Unl)</description>
+		<release name="Invader DX &amp; Boss DX (World) (Ja) (WonderWitch) (Unl)" region="World" language="Ja"/>
+		<rom name="Invader DX &amp; Boss DX (World) (Ja) (WonderWitch) (Unl).ws" size="524288" crc="106cbd97" md5="9a3b89f86a19cce6ca3f5b3fa457a603" sha1="bb14d8e1681d351bb8e14eec04d2fef1d9d5bfa2" sha256="e4b5466e2e34dc9aecac27e865aaa198893b6c99fe9bff09eb96dfdd357fbc12"/>
+	</game>
+	<game name="Ishikari (World) (Ja) (WonderWitch) (Unl)" id="0183">
+		<category>Games</category>
+		<description>Ishikari (World) (Ja) (WonderWitch) (Unl)</description>
+		<release name="Ishikari (World) (Ja) (WonderWitch) (Unl)" region="World" language="Ja"/>
+		<rom name="Ishikari (World) (Ja) (WonderWitch) (Unl).ws" size="524288" crc="8240ad86" md5="21f820c75fd11e7de6fa0626c497fa80" sha1="4e79c6923ead01db8a0cefb21295d9ba62f1f65d" sha256="8c22e7fda54b6e9ed834078f492f0640dde4712cf58bf2da07a5235906cb7ad1"/>
+	</game>
+	<game name="Jiban Ryuoki - WonderSwan Edition (World) (WonderWitch) (Unl)" id="0204">
+		<category>Games</category>
+		<description>Jiban Ryuoki - WonderSwan Edition (World) (WonderWitch) (Unl)</description>
+		<release name="Jiban Ryuoki - WonderSwan Edition (World) (WonderWitch) (Unl)" region="World" language="En"/>
+		<rom name="Jiban Ryuoki - WonderSwan Edition (World) (WonderWitch) (Unl).ws" size="524288" crc="e0316605" md5="ef82747e84da1ff8bce3f60b1dbd05e9" sha1="37d595e8da81323ad4846f6a9d85a040c5da2c6e" sha256="48c037b9a6c4eb9674880883213249547e55b0bcc555ea11390ea7e2398b2c6b"/>
+	</game>
+	<game name="Jump on Step (World) (WonderWitch) (Unl)" id="0252">
+		<category>Games</category>
+		<description>Jump on Step (World) (WonderWitch) (Unl)</description>
+		<release name="Jump on Step (World) (WonderWitch) (Unl)" region="World" language="En"/>
+		<rom name="Jump on Step (World) (WonderWitch) (Unl).ws" size="524288" crc="54705b16" md5="891ea4aa4cf3322a4400583707b15154" sha1="2bce489dacf0eb4f772b915a971790fd8d2a3140" sha256="cd4619a1519f9c313d09ab2f284bd162eb0d0f6621905dd46da5f30562667357"/>
+	</game>
+	<game name="Kakutou Ryouri Densetsu Bistro Recipe - Wonder Battle Hen (Japan)" id="0038">
+		<category>Games</category>
+		<description>Kakutou Ryouri Densetsu Bistro Recipe - Wonder Battle Hen (Japan)</description>
+		<release name="Kakutou Ryouri Densetsu Bistro Recipe - Wonder Battle Hen (Japan)" region="Japan" language="Ja"/>
+		<rom name="Kakutou Ryouri Densetsu Bistro Recipe - Wonder Battle Hen (Japan).ws" size="1048576" crc="4d103236" md5="8be5abfaef7ad77d14f92f10b2460098" sha1="b40fbc7b72921c9ac31330831c0f77e4133ec7d6"/>
+	</game>
+	<game name="Kana (World) (Ja) (WonderWitch) (Unl)" id="0145">
+		<category>Miscellaneous</category>
+		<description>Kana (World) (Ja) (WonderWitch) (Unl)</description>
+		<release name="Kana (World) (Ja) (WonderWitch) (Unl)" region="World" language="Ja"/>
+		<rom name="Kana (World) (Ja) (WonderWitch) (Unl).ws" size="524288" crc="b048e00b" md5="170eaaa16836e89f6f31f8d09ff2df86" sha1="e6bf8e2d7d9e8d7cf47a85d8ef4f5013bc1505e4" sha256="6e1f66a8d532f178fcf480b64eba0031bf1b37b960f761fc7193b72e987ed768"/>
+	</game>
+	<game name="Kaze no Klonoa - Moonlight Museum (Japan)" id="0039">
+		<category>Games</category>
+		<description>Kaze no Klonoa - Moonlight Museum (Japan)</description>
+		<release name="Kaze no Klonoa - Moonlight Museum (Japan)" region="Japan" language="Ja"/>
+		<rom name="Kaze no Klonoa - Moonlight Museum (Japan).ws" size="1048576" crc="80c6ef12" md5="5e907dd88b3cfb2855a18fb1bf689860" sha1="207a3ceb9a09eabca6e455deeb7035e7e04c9795" sha256="1cbdeff06376c195f28ca03bbdf1a9af9eb28d166e5178b6ee0461b62618cc86"/>
+	</game>
+	<game name="Keiba Yosou Shien Soft - Yosou Shinkaron (Japan)" id="0040">
+		<category>Games</category>
+		<description>Keiba Yosou Shien Soft - Yosou Shinkaron (Japan)</description>
+		<release name="Keiba Yosou Shien Soft - Yosou Shinkaron (Japan)" region="Japan" language="Ja"/>
+		<rom name="Keiba Yosou Shien Soft - Yosou Shinkaron (Japan).ws" size="1048576" crc="517f962e" md5="840be356bd48676bd4e39f1e3d54c3b3" sha1="12d26522665cb8ecb3178bc242d984deae438e5c"/>
+	</game>
+	<game name="Kiss Communication (World) (Ja) (WonderWitch) (Unl)" id="0155">
+		<category>Games</category>
+		<description>Kiss Communication (World) (Ja) (WonderWitch) (Unl)</description>
+		<release name="Kiss Communication (World) (Ja) (WonderWitch) (Unl)" region="World" language="Ja"/>
+		<rom name="Kiss Communication (World) (Ja) (WonderWitch) (Unl).ws" size="524288" crc="acc09417" md5="5213ab72728b74983846d9e942e7abce" sha1="a76ed9de7aa36ce9a65bed9ad56cbc4ab12a14c2" sha256="faeb19b019ab905435f1e394571da8a75a5083f4487ea8037f2fcc97a65d754b"/>
+	</game>
+	<game name="Kiss Yori... - Seaside Serenade (Japan) (Rev 2)" id="0041">
+		<category>Games</category>
+		<description>Kiss Yori... - Seaside Serenade (Japan) (Rev 2)</description>
+		<release name="Kiss Yori... - Seaside Serenade (Japan) (Rev 2)" region="Japan" language="Ja"/>
+		<rom name="Kiss Yori... - Seaside Serenade (Japan) (Rev 2).ws" size="2097152" crc="3b4c60c6" md5="611d42816a979ece34dd8221d3023c9c" sha1="9ef89b6fe68c5a06d34344e8c783ec24114ad959"/>
+	</game>
+	<game name="Kosodate Quiz - Dokodemo My Angel (Japan)" id="0042">
+		<category>Games</category>
+		<description>Kosodate Quiz - Dokodemo My Angel (Japan)</description>
+		<release name="Kosodate Quiz - Dokodemo My Angel (Japan)" region="Japan" language="Ja"/>
+		<rom name="Kosodate Quiz - Dokodemo My Angel (Japan).ws" size="2097152" crc="4c48624c" md5="a5e1cf7e43e991592890d916369bcf88" sha1="52b154a3e36d01357649a9f7f614139ce6cc46b8"/>
+	</game>
+	<game name="Kyousouba Ikusei Simulation - Keiba (Japan) (Rev 1)" id="0043">
+		<category>Games</category>
+		<description>Kyousouba Ikusei Simulation - Keiba (Japan) (Rev 1)</description>
+		<release name="Kyousouba Ikusei Simulation - Keiba (Japan) (Rev 1)" region="Japan" language="Ja"/>
+		<rom name="Kyousouba Ikusei Simulation - Keiba (Japan) (Rev 1).ws" size="1048576" crc="ecfbcb1d" md5="442e0025aeda0ad8df502696aa97c499" sha1="a309a430fbbed6c42f41d8ccaf4aba82e96d6a7b"/>
+	</game>
+	<game name="LNPUT (World) (Ja) (WonderWitch) (Unl)" id="0144">
+		<category>Miscellaneous</category>
+		<description>LNPUT (World) (Ja) (WonderWitch) (Unl)</description>
+		<release name="LNPUT (World) (Ja) (WonderWitch) (Unl)" region="World" language="Ja"/>
+		<rom name="LNPUT (World) (Ja) (WonderWitch) (Unl).ws" size="524288" crc="17a5dba3" md5="d8922bdacd5585fd8095948ebaa5f777" sha1="d243c39db11d1e425c076879621699e6a0713f6b" sha256="605a40d5a345089a64d0a9b9eea8a223ad49366df0edbbf5d3c44d5a1edc4f6a"/>
+	</game>
+	<game name="Langrisser Millennium WS - The Last Century (Japan) (Rev 1)" id="0044">
+		<category>Games</category>
+		<description>Langrisser Millennium WS - The Last Century (Japan) (Rev 1)</description>
+		<release name="Langrisser Millennium WS - The Last Century (Japan) (Rev 1)" region="Japan" language="Ja"/>
+		<rom name="Langrisser Millennium WS - The Last Century (Japan) (Rev 1).ws" size="1048576" crc="9e0854e2" md5="0e4369d3f611377433272b3563325ca2" sha1="9fdf3f5821f2a4488139525fe49e87b23de4571f"/>
+	</game>
+	<game name="Last Stand (Japan)" id="0045">
+		<category>Games</category>
+		<description>Last Stand (Japan)</description>
+		<release name="Last Stand (Japan)" region="Japan" language="Ja"/>
+		<rom name="Last Stand (Japan).ws" size="2097152" crc="cccaf8a1" md5="cf7ee109aa551fdebaadd5bfbe344fd7" sha1="d524da01f2bfad92c2fa080950229955a3030ef2"/>
+	</game>
+	<game name="LifeGame for WonderWitch (World) (WonderWitch) (Unl)" id="0195">
+		<category>Games</category>
+		<description>LifeGame for WonderWitch (World) (WonderWitch) (Unl)</description>
+		<release name="LifeGame for WonderWitch (World) (WonderWitch) (Unl)" region="World" language="En"/>
+		<rom name="LifeGame for WonderWitch (World) (WonderWitch) (Unl).ws" size="524288" crc="d52ee0db" md5="0cba4db4fbda641d33b34d6244a7ead4" sha1="7f8cc084fd3b143e4376b942a807c4ab3b87429a" sha256="0fb945098119942e6f9676bb6e0a5be49d7bc529ca71472890788493faab3424"/>
+	</game>
+	<game name="Lode Runner for WonderSwan (Japan)" id="0046">
+		<category>Games</category>
+		<description>Lode Runner for WonderSwan (Japan)</description>
+		<release name="Lode Runner for WonderSwan (Japan)" region="Japan" language="Ja"/>
+		<rom name="Lode Runner for WonderSwan (Japan).ws" size="1048576" crc="21279e82" md5="c7445937d6fbc462256bd2ebcdbf3c25" sha1="847f51592f181aa68061900700149b86cdba651b"/>
+	</game>
+	<game name="Macross - True Love Song (Japan)" id="0047">
+		<category>Games</category>
+		<description>Macross - True Love Song (Japan)</description>
+		<release name="Macross - True Love Song (Japan)" region="Japan" language="Ja"/>
+		<rom name="Macross - True Love Song (Japan).ws" size="4194304" crc="62d419cd" md5="694042e6f8eaa2423693c0a9bba8aef0" sha1="211e051db3fd4d7ae1ea143e043f87cfbcec5f1c"/>
+	</game>
+	<game name="Magical Drop for WonderSwan (Japan)" id="0048">
+		<category>Games</category>
+		<description>Magical Drop for WonderSwan (Japan)</description>
+		<release name="Magical Drop for WonderSwan (Japan)" region="Japan" language="Ja"/>
+		<rom name="Magical Drop for WonderSwan (Japan).ws" size="1048576" crc="637ada93" md5="f98cbebf4a06794aa74636e7a6285ace" sha1="a25944969068ee495254f94c2c48dfffcb66ce8d"/>
+	</game>
+	<game name="Mahjong Touryuumon (Japan) (Rev 1)" cloneof="Mahjong Touryuumon (Japan) (Rev 3)" id="0116">
+		<category>Games</category>
+		<description>Mahjong Touryuumon (Japan) (Rev 1)</description>
+		<release name="Mahjong Touryuumon (Japan) (Rev 1)" region="Japan" language="Ja"/>
+		<rom name="Mahjong Touryuumon (Japan) (Rev 1).ws" size="1048576" crc="c2ed122e" md5="60ad41d50a0b9dd55b0161b1853b824c" sha1="748ca335d39515a6650352449972684be749052a"/>
+	</game>
+	<game name="Mahjong Touryuumon (Japan) (Rev 3)" id="0049">
+		<category>Games</category>
+		<description>Mahjong Touryuumon (Japan) (Rev 3)</description>
+		<release name="Mahjong Touryuumon (Japan) (Rev 3)" region="Japan" language="Ja"/>
+		<rom name="Mahjong Touryuumon (Japan) (Rev 3).ws" size="1048576" crc="e7e7fd4c" md5="7edd59281ec08fdb2daaf45e58085e7e" sha1="281079b22cb213ee4dda5c304b5b5be028130929"/>
+	</game>
+	<game name="Makaimura for WonderSwan (Japan)" id="0050">
+		<category>Games</category>
+		<description>Makaimura for WonderSwan (Japan)</description>
+		<release name="Makaimura for WonderSwan (Japan)" region="Japan" language="Ja"/>
+		<rom name="Makaimura for WonderSwan (Japan).ws" size="2097152" crc="00b31fbb" md5="f06beaff2703728baa8dddc0ddeb7094" sha1="5eaeab859e5f647fac354dad285a311387ea126b"/>
+	</game>
+	<game name="Medarot Perfect Edition - Kabuto Version (Japan)" id="0051">
+		<category>Games</category>
+		<description>Medarot Perfect Edition - Kabuto Version (Japan)</description>
+		<release name="Medarot Perfect Edition - Kabuto Version (Japan)" region="Japan" language="Ja"/>
+		<rom name="Medarot Perfect Edition - Kabuto Version (Japan).ws" size="1048576" crc="12fb8b28" md5="893ac7863337a65c919780b41bc52406" sha1="509e5748e5efdfb56093c78ae886153dd1838215"/>
+	</game>
+	<game name="Medarot Perfect Edition - Kuwagata Version (Japan)" id="0052">
+		<category>Games</category>
+		<description>Medarot Perfect Edition - Kuwagata Version (Japan)</description>
+		<release name="Medarot Perfect Edition - Kuwagata Version (Japan)" region="Japan" language="Ja"/>
+		<rom name="Medarot Perfect Edition - Kuwagata Version (Japan).ws" size="1048576" crc="2b40745d" md5="d8a29d331e9ba86609c75a4aedf9c269" sha1="315061e4739e947175d6ad7f006498cd61a33f8c"/>
+	</game>
+	<game name="Meitantei Conan - Majutsushi no Chousenjou! (Japan)" id="0053">
+		<category>Games</category>
+		<description>Meitantei Conan - Majutsushi no Chousenjou! (Japan)</description>
+		<release name="Meitantei Conan - Majutsushi no Chousenjou! (Japan)" region="Japan" language="Ja"/>
+		<rom name="Meitantei Conan - Majutsushi no Chousenjou! (Japan).ws" size="1048576" crc="92fbf7fb" md5="98e88544d8b7df359e37bf2c17dd0641" sha1="8f3f97be31f3bd0e6922ab7795aa6f04bc5cfe2a"/>
+	</game>
+	<game name="Meitantei Conan - Nishi no Meitantei Saidai no Kiki! (Japan)" id="0054">
+		<category>Games</category>
+		<description>Meitantei Conan - Nishi no Meitantei Saidai no Kiki! (Japan)</description>
+		<release name="Meitantei Conan - Nishi no Meitantei Saidai no Kiki! (Japan)" region="Japan" language="Ja"/>
+		<rom name="Meitantei Conan - Nishi no Meitantei Saidai no Kiki! (Japan).ws" size="2097152" crc="e226863b" md5="1990a2c04395b08df6181f6c8be2a953" sha1="e5684789e81f9d739010db575022a12a448b5509"/>
+	</game>
+	<game name="Metakomi Theraphy - Nee Kiite! (Japan)" id="0055">
+		<category>Games</category>
+		<description>Metakomi Theraphy - Nee Kiite! (Japan)</description>
+		<release name="Metakomi Theraphy - Nee Kiite! (Japan)" region="Japan" language="Ja"/>
+		<rom name="Metakomi Theraphy - Nee Kiite! (Japan).ws" size="2097152" crc="a3ead689" md5="a9c86af9db3743595186274b65c93f90" sha1="dc94e17a942acfdc1eb0c38d91bf72460a4bb8f9"/>
+	</game>
+	<game name="Mingle Magnet (Japan) (En,Ja) (Rev 1)" id="0056">
+		<category>Games</category>
+		<description>Mingle Magnet (Japan) (En,Ja) (Rev 1)</description>
+		<release name="Mingle Magnet (Japan) (En,Ja) (Rev 1)" region="Japan" language="En"/>
+		<release name="Mingle Magnet (Japan) (En,Ja) (Rev 1)" region="Japan" language="Ja"/>
+		<rom name="Mingle Magnet (Japan) (En,Ja) (Rev 1).ws" size="524288" crc="9baac7bb" md5="555bee0c37a0726d8e8646a290de137f" sha1="c7230ef709f6ceaef9a220541c8cdc05c0cd549f"/>
+	</game>
+	<game name="Mobile Suit Gundam MSVS (Japan)" id="0057">
+		<category>Games</category>
+		<description>Mobile Suit Gundam MSVS (Japan)</description>
+		<release name="Mobile Suit Gundam MSVS (Japan)" region="Japan" language="Ja"/>
+		<rom name="Mobile Suit Gundam MSVS (Japan).ws" size="2097152" crc="53b9fef8" md5="3ad90f3b8fdb3f2f5a7769e42ebc0792" sha1="2688ca67ac31ce3d5c3523b0e11cad55e70fa257" sha256="d82239a439c51ced0fa7243e21d8f834f70340d072ef55a3ebc73f3d38f560c0"/>
+	</game>
+	<game name="MobileWonderGate (Japan) (Rev 1)" id="0058">
+		<category>Games</category>
+		<description>MobileWonderGate (Japan) (Rev 1)</description>
+		<release name="MobileWonderGate (Japan) (Rev 1)" region="Japan" language="Ja"/>
+		<rom name="MobileWonderGate (Japan) (Rev 1).ws" size="2097152" crc="80de367d" md5="b1b20bb24be3767ab5bfcfca54b51c54" sha1="92d4a6ff6f2b1152d8935025f38f910155e5d709"/>
+	</game>
+	<game name="Moero!! Pro Yakyuu Rookies (Japan)" id="0059">
+		<category>Games</category>
+		<description>Moero!! Pro Yakyuu Rookies (Japan)</description>
+		<release name="Moero!! Pro Yakyuu Rookies (Japan)" region="Japan" language="Ja"/>
+		<rom name="Moero!! Pro Yakyuu Rookies (Japan).ws" size="1048576" crc="eb995e86" md5="ff73a924c6e7d5190be8a9c749b4c9fd" sha1="e88e659cc04fc08a04b8c881f62fe086c5cdab06"/>
+	</game>
+	<game name="Mogura Tatake (World) (Ja) (WonderWitch) (Unl)" id="0168">
+		<category>Games</category>
+		<description>Mogura Tatake (World) (Ja) (WonderWitch) (Unl)</description>
+		<release name="Mogura Tatake (World) (Ja) (WonderWitch) (Unl)" region="World" language="Ja"/>
+		<rom name="Mogura Tatake (World) (Ja) (WonderWitch) (Unl).ws" size="524288" crc="1454110b" md5="b8dbd4a8d26be12a8c818c6e1c2b1d74" sha1="e1e80b6d324329a29df8e0eade9d5823f20bb19e" sha256="a632ce18a60f3299a4393f5fff3f776917bc31cd1695f7aa00d3484e3e3acbac"/>
+	</game>
+	<game name="Morita Shougi for WonderSwan (Japan)" id="0060">
+		<category>Games</category>
+		<description>Morita Shougi for WonderSwan (Japan)</description>
+		<release name="Morita Shougi for WonderSwan (Japan)" region="Japan" language="Ja"/>
+		<rom name="Morita Shougi for WonderSwan (Japan).ws" size="1048576" crc="d675c265" md5="9472518275eaf9f3dedca8b59e2fa97f" sha1="3ce41c90cfc1d53a89ade2c88e0b16cdc92c0268"/>
+	</game>
+	<game name="Mr. Oha no Ko Bouken - Sai Shuushou Saraba Aishi no Shooting (World) (Ja) (WonderWitch) (Unl)" id="0202">
+		<category>Games</category>
+		<description>Mr. Oha no Ko Bouken - Sai Shuushou Saraba Aishi no Shooting (World) (Ja) (WonderWitch) (Unl)</description>
+		<release name="Mr. Oha no Ko Bouken - Sai Shuushou Saraba Aishi no Shooting (World) (Ja) (WonderWitch) (Unl)" region="World" language="Ja"/>
+		<rom name="Mr. Oha no Ko Bouken - Sai Shuushou Saraba Aishi no Shooting (World) (Ja) (WonderWitch) (Unl).ws" size="524288" crc="ef104e2f" md5="191333fc2d441f624fd18e416f0ba4b8" sha1="b8e5bbe511fa341edc94864941668a5cc7f5b6bd" sha256="08e23042c11bc4bef514382cb67e206694a9684f112df703f6d8e841e9d0171b"/>
+	</game>
+	<game name="Nazo Ou Pocket (Japan)" id="0061">
+		<category>Games</category>
+		<description>Nazo Ou Pocket (Japan)</description>
+		<release name="Nazo Ou Pocket (Japan)" region="Japan" language="Ja"/>
+		<rom name="Nazo Ou Pocket (Japan).ws" size="1048576" crc="4ed8820c" md5="5e06ad2f0c65d68a124542ddfffdff37" sha1="b358c65bae818c4b3de6bf668d16c311534036c2"/>
+	</game>
+	<game name="Neon Genesis Evangelion - Shito Ikusei (Japan)" id="0062">
+		<category>Games</category>
+		<description>Neon Genesis Evangelion - Shito Ikusei (Japan)</description>
+		<release name="Neon Genesis Evangelion - Shito Ikusei (Japan)" region="Japan" language="Ja"/>
+		<rom name="Neon Genesis Evangelion - Shito Ikusei (Japan).ws" size="2097152" crc="bf8d9212" md5="0215c4b8a395f6fcf8f5b07605eae08b" sha1="ae31488cee1c91f383efbe3083b4abec092dda36"/>
+	</game>
+	<game name="Nice On (Japan) (Rev 1)" id="0063">
+		<category>Games</category>
+		<description>Nice On (Japan) (Rev 1)</description>
+		<release name="Nice On (Japan) (Rev 1)" region="Japan" language="Ja"/>
+		<rom name="Nice On (Japan) (Rev 1).ws" size="1048576" crc="b5dbcf12" md5="4b33b1f24f05300c1504f1d9b92d4361" sha1="6a479ee45e69cd3d6cc6cdda5a60eff3077953b0"/>
+	</game>
+	<game name="Nigero! (World) (WonderWitch) (Unl)" id="0153">
+		<category>Games</category>
+		<description>Nigero! (World) (WonderWitch) (Unl)</description>
+		<release name="Nigero! (World) (WonderWitch) (Unl)" region="World" language="En"/>
+		<rom name="Nigero! (World) (WonderWitch) (Unl).ws" size="524288" crc="cbd54885" md5="92340c23a427709201ce8991580f0602" sha1="02f8ec6c37fed089e3ceb91d75658d57b740cb36" sha256="94c1f48b0e2788fb63391ae7b134e0388c8c0f111e43891e5cbf7f876a0d29b6"/>
+	</game>
+	<game name="Nihon Pro Mahjong Renmei Kounin - Tetsuman (Japan) (Rev 2)" id="0064">
+		<category>Games</category>
+		<description>Nihon Pro Mahjong Renmei Kounin - Tetsuman (Japan) (Rev 2)</description>
+		<release name="Nihon Pro Mahjong Renmei Kounin - Tetsuman (Japan) (Rev 2)" region="Japan" language="Ja"/>
+		<rom name="Nihon Pro Mahjong Renmei Kounin - Tetsuman (Japan) (Rev 2).ws" size="1048576" crc="44b3e67c" md5="4aa43895710a9fa5a96b9cd1da46348f" sha1="4eefc5a51008c2ab33e8d04064ec9bdcbc03d036"/>
+	</game>
+	<game name="Nobunaga no Yabou for WonderSwan (Japan)" id="0065">
+		<category>Games</category>
+		<description>Nobunaga no Yabou for WonderSwan (Japan)</description>
+		<release name="Nobunaga no Yabou for WonderSwan (Japan)" region="Japan" language="Ja"/>
+		<rom name="Nobunaga no Yabou for WonderSwan (Japan).ws" size="1048576" crc="04531734" md5="d8bb5304f1a68a07e0aca535555171d5" sha1="785ebb7528f5268e1a1fc10dffbe95ccf6d39560"/>
+	</game>
+	<game name="Okiraku Daisakusen (World) (Ja) (WonderWitch) (Unl)" id="0237">
+		<category>Games</category>
+		<description>Okiraku Daisakusen (World) (Ja) (WonderWitch) (Unl)</description>
+		<release name="Okiraku Daisakusen (World) (Ja) (WonderWitch) (Unl)" region="World" language="Ja"/>
+		<rom name="Okiraku Daisakusen (World) (Ja) (WonderWitch) (Unl).ws" size="524288" crc="b86cabec" md5="77adaef836c51d22cd9aa31ce68a7b95" sha1="9d6e03ce1b30ab3803ef257c493bab3bb4406bed" sha256="a2f2b0216211733c7dee434eb98c25ba0f7f363e56ca6885ca48586d20508a58"/>
+	</game>
+	<game name="Omiyage o Kaou! (World) (Ja) (WonderWitch) (Unl)" id="0171">
+		<category>Games</category>
+		<description>Omiyage o Kaou! (World) (Ja) (WonderWitch) (Unl)</description>
+		<release name="Omiyage o Kaou! (World) (Ja) (WonderWitch) (Unl)" region="World" language="Ja"/>
+		<rom name="Omiyage o Kaou! (World) (Ja) (WonderWitch) (Unl).ws" size="524288" crc="22020909" md5="9bbc6bc373491c428c92b75306dbef47" sha1="e5c1c89eebcc365a8a3f3e37f52b6d856d37308f" sha256="48f9510972336c1384f3817a03af2e1ab54c8cddba6e8ace261a9dfffab636f7"/>
+	</game>
+	<game name="One Kiri (World) (Ja) (WonderWitch) (Unl)" id="0167">
+		<category>Games</category>
+		<description>One Kiri (World) (Ja) (WonderWitch) (Unl)</description>
+		<release name="One Kiri (World) (Ja) (WonderWitch) (Unl)" region="World" language="Ja"/>
+		<rom name="One Kiri (World) (Ja) (WonderWitch) (Unl).ws" size="524288" crc="a2a7af25" md5="4866a359c5ec31815d93211ca1cf43a9" sha1="77aafdc5b0ad79c148bf287ba0e595b69df5d30a" sha256="b9833c4e4daf68b47428422060ad38e79291082b7ef71300c8ef7b75c290cb14"/>
+	</game>
+	<game name="Ore no Kakeibo (World) (Ja) (WonderWitch) (Unl)" id="0214">
+		<category>Miscellaneous</category>
+		<description>Ore no Kakeibo (World) (Ja) (WonderWitch) (Unl)</description>
+		<release name="Ore no Kakeibo (World) (Ja) (WonderWitch) (Unl)" region="World" language="Ja"/>
+		<rom name="Ore no Kakeibo (World) (Ja) (WonderWitch) (Unl).ws" size="524288" crc="ed8a7158" md5="087904e81a6dab5c132cae81a8487401" sha1="bb052d6be2796994408265fb6471b36331aa0d98" sha256="c0177e08be1cb9172e5a89355e535bd62ef4c8c2583c3f88524b546887343df1"/>
+	</game>
+	<game name="Ou-chan no Oekaki Logic (Japan)" id="0066">
+		<category>Games</category>
+		<description>Ou-chan no Oekaki Logic (Japan)</description>
+		<release name="Ou-chan no Oekaki Logic (Japan)" region="Japan" language="Ja"/>
+		<rom name="Ou-chan no Oekaki Logic (Japan).ws" size="524288" crc="631bd97a" md5="5e92e316ce0998edbec00b31a6f2e112" sha1="0f73d3112b1184f74e728cf1252ffbee6a146fa6"/>
+	</game>
+	<game name="Panzer Battle 3 (World) (Ja) (v3.00) (WonderWitch) (Unl)" id="0176">
+		<category>Games</category>
+		<description>Panzer Battle 3 (World) (Ja) (v3.00) (WonderWitch) (Unl)</description>
+		<release name="Panzer Battle 3 (World) (Ja) (v3.00) (WonderWitch) (Unl)" region="World" language="Ja"/>
+		<rom name="Panzer Battle 3 (World) (Ja) (v3.00) (WonderWitch) (Unl).ws" size="524288" crc="ce510135" md5="abd5d03033ce6386da751d09027eab9c" sha1="a70f8ef4a717d6eafa54e7e019cdf68fe2b552d1" sha256="603b17f0ba4e9dca6eba63cba0adc9b91479c1fd51be580324ba56a5c871a0fa"/>
+	</game>
+	<game name="Ping Pong Spy (World) (Ja) (WonderWitch) (Unl)" id="0203">
+		<category>Games</category>
+		<description>Ping Pong Spy (World) (Ja) (WonderWitch) (Unl)</description>
+		<release name="Ping Pong Spy (World) (Ja) (WonderWitch) (Unl)" region="World" language="Ja"/>
+		<rom name="Ping Pong Spy (World) (Ja) (WonderWitch) (Unl).ws" size="524288" crc="1f5e55da" md5="1dc5fd16dfec7f11fc55b8492fd0e22a" sha1="e96dbba8604f7c823deb08f5f7ef6b64025f338f" sha256="8f88563a779de52cfdc1ec1e05cc0915cb94052e2575de3e5d9fab4767f87890"/>
+	</game>
+	<game name="Pladel (World) (Ja) (WonderWitch) (Unl)" id="0192">
+		<category>Games</category>
+		<description>Pladel (World) (Ja) (WonderWitch) (Unl)</description>
+		<release name="Pladel (World) (Ja) (WonderWitch) (Unl)" region="World" language="Ja"/>
+		<rom name="Pladel (World) (Ja) (WonderWitch) (Unl).ws" size="524288" crc="8afd218b" md5="aa31cecfbdf79a662e697d6542910143" sha1="745efdee7df5d32502b3213500f8578bd4f34575" sha256="d10c5223f6ea4204f632f6d9417e4ddfd7c0ba8cd7004b685f6ab556e9ed9704"/>
+	</game>
+	<game name="Pocket Fighter (Japan)" id="0067">
+		<category>Games</category>
+		<description>Pocket Fighter (Japan)</description>
+		<release name="Pocket Fighter (Japan)" region="Japan" language="Ja"/>
+		<rom name="Pocket Fighter (Japan).ws" size="2097152" crc="35361250" md5="e79dddc7db77ad96c52b0b7690f8c1b1" sha1="fb8d0f4e58a4192989ec71eb6e392d182aaa3eec"/>
+	</game>
+	<game name="Potential Taper - Rewoke World 03 (World) (En) (WonderWitch) (Unl)" id="0165">
+		<category>Games</category>
+		<description>Potential Taper - Rewoke World 03 (World) (En) (WonderWitch) (Unl)</description>
+		<release name="Potential Taper - Rewoke World 03 (World) (En) (WonderWitch) (Unl)" region="World" language="En"/>
+		<rom name="Potential Taper - Rewoke World 03 (World) (En) (WonderWitch) (Unl).ws" size="524288" crc="cf1c007d" md5="ccc6a7e76197140f1b0b9331a1d58042" sha1="a97ba4cc9e644114cd5ba4c761d9913607b199fd" sha256="af9da7dfb7408da58f10e32f12848c80ba256056dc11ffd3327b706e81400c5d"/>
+	</game>
+	<game name="Pro Mahjong Kiwame for WonderSwan (Japan) (Rev 1)" id="0068">
+		<category>Games</category>
+		<description>Pro Mahjong Kiwame for WonderSwan (Japan) (Rev 1)</description>
+		<release name="Pro Mahjong Kiwame for WonderSwan (Japan) (Rev 1)" region="Japan" language="Ja"/>
+		<rom name="Pro Mahjong Kiwame for WonderSwan (Japan) (Rev 1).ws" size="1048576" crc="90f7e6d6" md5="a2e4f77f749fb0a95db697903d42e718" sha1="32013a7a745a3aa2fd63cc9427c5e1f2635655ed"/>
+	</game>
+	<game name="Puchipuchi (World) (WonderWitch) (Unl)" id="0170">
+		<category>Games</category>
+		<description>Puchipuchi (World) (WonderWitch) (Unl)</description>
+		<release name="Puchipuchi (World) (WonderWitch) (Unl)" region="World" language="En"/>
+		<rom name="Puchipuchi (World) (WonderWitch) (Unl).ws" size="524288" crc="79c048f7" md5="49c60e560b219f74a08c3f09b885d55a" sha1="2d98693157b682ab0878c2dbbe6da35ea7726c8d" sha256="6526081405c778116fa23ef4db71914fcff6f0b6402113a6fd5fd1ab68b7723a"/>
+	</game>
+	<game name="Pudding Maker (World) (WonderWitch) (Unl)" id="0241">
+		<category>Games</category>
+		<description>Pudding Maker (World) (WonderWitch) (Unl)</description>
+		<release name="Pudding Maker (World) (WonderWitch) (Unl)" region="World" language="En"/>
+		<rom name="Pudding Maker (World) (WonderWitch) (Unl).ws" size="524288" crc="f3bcb194" md5="2e6e49968ac8b453a33c0a73fd6fed3f" sha1="3e2801c92a0a234a8d6b85ee9b18081842170271" sha256="a763773d49cadb8bf583d1255db6c032f695e3c50caca8d39068610e81bceef2"/>
+	</game>
+	<game name="Puyo Puyo Tsuu (Japan)" id="0069">
+		<category>Games</category>
+		<description>Puyo Puyo Tsuu (Japan)</description>
+		<release name="Puyo Puyo Tsuu (Japan)" region="Japan" language="Ja"/>
+		<rom name="Puyo Puyo Tsuu (Japan).ws" size="1048576" crc="5a41a7ba" md5="e5394d336231c99e9c93f1f41e80a401" sha1="d72c1221c2ce3e281a0ee288a3d079aa8e1b714b"/>
+	</game>
+	<game name="Puzzle Bobble (Japan)" id="0070">
+		<category>Games</category>
+		<description>Puzzle Bobble (Japan)</description>
+		<release name="Puzzle Bobble (Japan)" region="Japan" language="Ja"/>
+		<rom name="Puzzle Bobble (Japan).ws" size="1048576" crc="f504cd84" md5="cf5e9f022baadd1ed9b0a9e88b503e95" sha1="fdb8e9f37a4b097350b7c5b1b8ee381ca51dc0b6"/>
+	</game>
+	<game name="Radius Theta (World) (WonderWitch) (Unl)" id="0150">
+		<category>Games</category>
+		<description>Radius Theta (World) (WonderWitch) (Unl)</description>
+		<release name="Radius Theta (World) (WonderWitch) (Unl)" region="World" language="En"/>
+		<rom name="Radius Theta (World) (WonderWitch) (Unl).ws" size="524288" crc="21398f12" md5="1cf9821efd3c9e61ba6c8a6cb7c197c6" sha1="e76c5d3393adbb541a01df37d2f69a71c7e0db9c" sha256="33e5cb23c84e952939e523a1469d50a29976e1dd21258c4aa68b8ab1210a03ed"/>
+	</game>
+	<game name="Rainbow Islands - Putty's Party (Japan)" id="0071">
+		<category>Games</category>
+		<description>Rainbow Islands - Putty's Party (Japan)</description>
+		<release name="Rainbow Islands - Putty's Party (Japan)" region="Japan" language="Ja"/>
+		<rom name="Rainbow Islands - Putty's Party (Japan).ws" size="2097152" crc="8f8608ad" md5="854bd4105d726bf7e76fef8393d6ead0" sha1="759deb79a3fc3befed705d7264e4b88adbadacc7"/>
+	</game>
+	<game name="Renda Machine (World) (Ja) (WonderWitch) (Unl)" id="0194">
+		<category>Games</category>
+		<description>Renda Machine (World) (Ja) (WonderWitch) (Unl)</description>
+		<release name="Renda Machine (World) (Ja) (WonderWitch) (Unl)" region="World" language="Ja"/>
+		<rom name="Renda Machine (World) (Ja) (WonderWitch) (Unl).ws" size="524288" crc="7b9a755e" md5="c8c1f7b00d5f906500691b3a8b34c2ff" sha1="1fab22afd9b4c709e32bf12c61b03c3d3f58a65d" sha256="7479ae39db157a664df49dc11fa7a0155f995ae506e83833692321169b40709f"/>
+	</game>
+	<game name="Ring Infinity (Japan)" id="0072">
+		<category>Games</category>
+		<description>Ring Infinity (Japan)</description>
+		<release name="Ring Infinity (Japan)" region="Japan" language="Ja"/>
+		<rom name="Ring Infinity (Japan).ws" size="4194304" crc="14adbd4b" md5="ffee38c08b4e76cf68420f2e22973284" sha1="9896d93c97381dc06b6f044de6c9bd112ca0c94b"/>
+	</game>
+	<game name="Robot Works (Hong Kong) (En,Ja) (Rev 1)" id="0073">
+		<category>Games</category>
+		<description>Robot Works (Hong Kong) (En,Ja) (Rev 1)</description>
+		<release name="Robot Works (Hong Kong) (En,Ja) (Rev 1)" region="Hong Kong" language="En"/>
+		<release name="Robot Works (Hong Kong) (En,Ja) (Rev 1)" region="Hong Kong" language="Ja"/>
+		<rom name="Robot Works (Hong Kong) (En,Ja) (Rev 1).ws" size="1048576" crc="be6be690" md5="dbaff79d3a241fba6af06cf5b7c935b8" sha1="2117ed92e8cb4ae61868535f1d4d16851b480890"/>
+	</game>
+	<game name="Robot Works (Japan)" cloneof="Robot Works (Hong Kong) (En,Ja) (Rev 1)" id="0074">
+		<category>Games</category>
+		<description>Robot Works (Japan)</description>
+		<release name="Robot Works (Japan)" region="Japan" language="Ja"/>
+		<rom name="Robot Works (Japan).ws" size="1048576" crc="6adf0e32" md5="6ca5dff7d8a86279591fbb14324e7c3d" sha1="4d4d4a3fde6b1dbbc8f008fbd035fb59624dfba7"/>
+	</game>
+	<game name="Rockman &amp; Forte - Mirai Kara no Chousensha (Japan)" id="0075">
+		<category>Games</category>
+		<description>Rockman &amp; Forte - Mirai Kara no Chousensha (Japan)</description>
+		<release name="Rockman &amp; Forte - Mirai Kara no Chousensha (Japan)" region="Japan" language="Ja"/>
+		<rom name="Rockman &amp; Forte - Mirai Kara no Chousensha (Japan).ws" size="2097152" crc="cd206a9e" md5="523004d48e9d606e1557c2c57af6790b" sha1="9f8829aa8ea523e8370cbb2acd2acce056bb7958"/>
+	</game>
+	<game name="SD Gundam - Emotional Jam (Japan) (Rev 2)" cloneof="SD Gundam - Emotional Jam (Japan) (Rev 3)" id="0129">
+		<category>Games</category>
+		<description>SD Gundam - Emotional Jam (Japan) (Rev 2)</description>
+		<release name="SD Gundam - Emotional Jam (Japan) (Rev 2)" region="Japan" language="Ja"/>
+		<rom name="SD Gundam - Emotional Jam (Japan) (Rev 2).ws" size="2097152" crc="adfc3048" md5="c38ac44ef65779506dabd0f6db59748c" sha1="b3b4cf8e996c2a1fb149074725dc4b07922b3133"/>
+	</game>
+	<game name="SD Gundam - Emotional Jam (Japan) (Rev 3)" id="0078">
+		<category>Games</category>
+		<description>SD Gundam - Emotional Jam (Japan) (Rev 3)</description>
+		<release name="SD Gundam - Emotional Jam (Japan) (Rev 3)" region="Japan" language="Ja"/>
+		<rom name="SD Gundam - Emotional Jam (Japan) (Rev 3).ws" size="2097152" crc="ae83f873" md5="6620592b79b06d1857b449508fe1d557" sha1="ae54a1f8916a2d37a1e0c82c5a9b5d8fe0eeae51"/>
+	</game>
+	<game name="SD Gundam G Generation - Gather Beat (Japan)" id="0079">
+		<category>Games</category>
+		<description>SD Gundam G Generation - Gather Beat (Japan)</description>
+		<release name="SD Gundam G Generation - Gather Beat (Japan)" region="Japan" language="Ja"/>
+		<rom name="SD Gundam G Generation - Gather Beat (Japan).ws" size="4194304" crc="e4eb3ab1" md5="39a4626ba187933297b3155180147778" sha1="5e5db8b066e1b41c5c12a2d4ffa97b73ed6c3f03"/>
+	</game>
+	<game name="SD Gundam Gashapon Senki - Episode 1 (Japan)" id="0080">
+		<category>Games</category>
+		<description>SD Gundam Gashapon Senki - Episode 1 (Japan)</description>
+		<release name="SD Gundam Gashapon Senki - Episode 1 (Japan)" region="Japan" language="Ja"/>
+		<rom name="SD Gundam Gashapon Senki - Episode 1 (Japan).ws" size="1048576" crc="21eb4c59" md5="aff7a473a087e38a1a1a7d5f71ffc426" sha1="e6899de5b53f73c8978e3330dca0f2daaf95f140"/>
+	</game>
+	<game name="SD Gundam Gashapon Senki - Episode 1 (Japan) (Alt)" cloneof="SD Gundam Gashapon Senki - Episode 1 (Japan)" id="0125">
+		<category>Games</category>
+		<description>SD Gundam Gashapon Senki - Episode 1 (Japan) (Alt)</description>
+		<release name="SD Gundam Gashapon Senki - Episode 1 (Japan) (Alt)" region="Japan" language="Ja"/>
+		<rom name="SD Gundam Gashapon Senki - Episode 1 (Japan) (Alt).ws" size="2097152" crc="2ec1e9c8" md5="c30a3facebc27ac58c359dedca66cce1" sha1="80eff574c75c2168fd0991c0efd16f9a9cadc24c"/>
+	</game>
+	<game name="Saint Dagrat Monogatari (World) (Ja) (WonderWitch) (Unl)" id="0164">
+		<category>Games</category>
+		<description>Saint Dagrat Monogatari (World) (Ja) (WonderWitch) (Unl)</description>
+		<release name="Saint Dagrat Monogatari (World) (Ja) (WonderWitch) (Unl)" region="World" language="Ja"/>
+		<rom name="Saint Dagrat Monogatari (World) (Ja) (WonderWitch) (Unl).ws" size="524288" crc="95c903a8" md5="dda2b238034e398a354f9c39be4af8f0" sha1="42a73b531bd2db039ad3bde63cabec4026cd550b" sha256="1e94959019ea9554ab831cb968f9b40952e10774a53792a58fb23afed6b5a45a"/>
+	</game>
+	<game name="Sangokushi II for WonderSwan (Japan)" id="0077">
+		<category>Games</category>
+		<description>Sangokushi II for WonderSwan (Japan)</description>
+		<release name="Sangokushi II for WonderSwan (Japan)" region="Japan" language="Ja"/>
+		<rom name="Sangokushi II for WonderSwan (Japan).ws" size="1048576" crc="440b2630" md5="263e4218454f7350839ec257441bed85" sha1="3e7492478059d142a6a41b40219eba0c688a8e3f"/>
+	</game>
+	<game name="Sangokushi for WonderSwan (Japan)" id="0076">
+		<category>Games</category>
+		<description>Sangokushi for WonderSwan (Japan)</description>
+		<release name="Sangokushi for WonderSwan (Japan)" region="Japan" language="Ja"/>
+		<rom name="Sangokushi for WonderSwan (Japan).ws" size="524288" crc="e385ee88" md5="9434714e17547ebf3a67baf63c8a6d04" sha1="d064b94f31b15564c9a3dbd3a68690244ea043ac"/>
+	</game>
+	<game name="Senbetsu (World) (Ja) (WonderWitch) (Unl)" id="0146">
+		<category>Miscellaneous</category>
+		<description>Senbetsu (World) (Ja) (WonderWitch) (Unl)</description>
+		<release name="Senbetsu (World) (Ja) (WonderWitch) (Unl)" region="World" language="Ja"/>
+		<rom name="Senbetsu (World) (Ja) (WonderWitch) (Unl).ws" size="524288" crc="a2aeea26" md5="2504444c480404db8e5b256803eccb8c" sha1="6bb3355adb2a54b2ea37d3c3c2213a22c339928c" sha256="c94ab376fc98cd58254fc8a3539e1f8e8d6f9619b53966071e58cf69af66299d"/>
+	</game>
+	<game name="Senkaiden - TV Animation Senkaiden Houshin Engi Yori (Japan)" id="0081">
+		<category>Games</category>
+		<description>Senkaiden - TV Animation Senkaiden Houshin Engi Yori (Japan)</description>
+		<release name="Senkaiden - TV Animation Senkaiden Houshin Engi Yori (Japan)" region="Japan" language="Ja"/>
+		<rom name="Senkaiden - TV Animation Senkaiden Houshin Engi Yori (Japan).ws" size="2097152" crc="07a3dd46" md5="0230c5ed802e72a9c6bb690e262a302b" sha1="fc8b0b9b7efeac54812e7ae54153b7ae0cb9c12f" sha256="7cc1b9d37383c42a62413c9eeb6ed7f22c3879ca44ffa686ec1bc75e49094c0c"/>
+	</game>
+	<game name="Sennou Millennium (Japan)" id="0082">
+		<category>Games</category>
+		<description>Sennou Millennium (Japan)</description>
+		<release name="Sennou Millennium (Japan)" region="Japan" language="Ja"/>
+		<rom name="Sennou Millennium (Japan).ws" size="1048576" crc="301436ac" md5="e12db3065b59e51bae7bf86053dd5782" sha1="708288e70b3186f6c0ef07acaef1b50fe6b7ab22"/>
+	</game>
+	<game name="Shanghai Pocket (Japan)" id="0083">
+		<category>Games</category>
+		<description>Shanghai Pocket (Japan)</description>
+		<release name="Shanghai Pocket (Japan)" region="Japan" language="Ja"/>
+		<rom name="Shanghai Pocket (Japan).ws" size="524288" crc="1c489351" md5="37772a59d2fc13b07ba6260b3c4299da" sha1="d64b9b2d567d1cea5960f64e5bdf83d4514446da"/>
+	</game>
+	<game name="Shin Nihon Pro Wrestling - Toukon Retsuden (Japan) (Rev 1)" id="0084">
+		<category>Games</category>
+		<description>Shin Nihon Pro Wrestling - Toukon Retsuden (Japan) (Rev 1)</description>
+		<release name="Shin Nihon Pro Wrestling - Toukon Retsuden (Japan) (Rev 1)" region="Japan" language="Ja"/>
+		<rom name="Shin Nihon Pro Wrestling - Toukon Retsuden (Japan) (Rev 1).ws" size="1048576" crc="5b76f901" md5="91896b3ee0975f58a8cf322a59da85f2" sha1="7324c5939b8b64858c96bd9726f5b5c483a11e22"/>
+	</game>
+	<game name="Shougi Touryuumon (Japan)" id="0085">
+		<category>Games</category>
+		<description>Shougi Touryuumon (Japan)</description>
+		<release name="Shougi Touryuumon (Japan)" region="Japan" language="Ja"/>
+		<rom name="Shougi Touryuumon (Japan).ws" size="1048576" crc="3ad194eb" md5="f95259c0c48527db0f8a63cb3e9b0527" sha1="0bc88b0affa97225e22c531306e9930ddb8f8905"/>
+	</game>
+	<game name="Side Pocket for WonderSwan (Japan)" id="0086">
+		<category>Games</category>
+		<description>Side Pocket for WonderSwan (Japan)</description>
+		<release name="Side Pocket for WonderSwan (Japan)" region="Japan" language="Ja"/>
+		<rom name="Side Pocket for WonderSwan (Japan).ws" size="1048576" crc="8655269e" md5="496100bcd73fbfa39e473c6ddee190b2" sha1="4a756dab81e0101475dc2e5494270f3df7dac1e6" sha256="91ec6ae70d59e6f7c9de1018ed44ec3f06e3d8a9bf15c6b0b6b07c5088d2d072"/>
+	</game>
+	<game name="Slipull (World) (WonderWitch) (Unl)" id="0232">
+		<category>Games</category>
+		<description>Slipull (World) (WonderWitch) (Unl)</description>
+		<release name="Slipull (World) (WonderWitch) (Unl)" region="World" language="En"/>
+		<rom name="Slipull (World) (WonderWitch) (Unl).ws" size="524288" crc="2b122933" md5="856a8f0e69b414b5995bd5d0c4c4d07a" sha1="a98e383819dfc497fae86e9ae5ab9a36dffe350f" sha256="ea5c6178f7bb78038c67861d65ff35dcc2c6cb822b5dafd4a70959ceb7e37f93"/>
+	</game>
+	<game name="Slither Link (Japan)" id="0087">
+		<category>Games</category>
+		<description>Slither Link (Japan)</description>
+		<release name="Slither Link (Japan)" region="Japan" language="Ja"/>
+		<rom name="Slither Link (Japan).ws" size="1048576" crc="352a570d" md5="d422d16a28390d395f4c0878c555e52c" sha1="9a087b0e6031e7e5e6d133ac82fecb8faa30816a"/>
+	</game>
+	<game name="Snake for WonderWitch (World) (WonderWitch) (Unl)" id="0154">
+		<category>Games</category>
+		<description>Snake for WonderWitch (World) (WonderWitch) (Unl)</description>
+		<release name="Snake for WonderWitch (World) (WonderWitch) (Unl)" region="World" language="En"/>
+		<rom name="Snake for WonderWitch (World) (WonderWitch) (Unl).ws" size="524288" crc="4b8e9ef6" md5="8cbb6b84df503ada5cce66e6c33252ea" sha1="63f116584aef655fdb23f27bb94ff833c04754cf" sha256="05a2e266243c7e4957466d6945a2229de81bfb368810bae17cd4449fdfb21965"/>
+	</game>
+	<game name="Soccer Yarou! - Challenge the World (Japan)" id="0088">
+		<category>Games</category>
+		<description>Soccer Yarou! - Challenge the World (Japan)</description>
+		<release name="Soccer Yarou! - Challenge the World (Japan)" region="Japan" language="Ja"/>
+		<rom name="Soccer Yarou! - Challenge the World (Japan).ws" size="1048576" crc="1263da65" md5="5d0ef57b85182dcbe630edda46064cfb" sha1="435f207cce79ad6ac5b564e8a37e0d4395bd3739"/>
+	</game>
+	<game name="Sotsugyou for WonderSwan (Japan) (Rev 1)" id="0089">
+		<category>Games</category>
+		<description>Sotsugyou for WonderSwan (Japan) (Rev 1)</description>
+		<release name="Sotsugyou for WonderSwan (Japan) (Rev 1)" region="Japan" language="Ja"/>
+		<rom name="Sotsugyou for WonderSwan (Japan) (Rev 1).ws" size="2097152" crc="f016dfe1" md5="2030ae7ddc9f47307165859d75026f13" sha1="e461762566d529d1b103f119da50353902d180d7"/>
+	</game>
+	<game name="Space Invaders (Japan)" id="0090">
+		<category>Games</category>
+		<description>Space Invaders (Japan)</description>
+		<release name="Space Invaders (Japan)" region="Japan" language="Ja"/>
+		<rom name="Space Invaders (Japan).ws" size="1048576" crc="8d83014f" md5="5558b39b21cc90b0b2f0a4358c043eec" sha1="54dd6e3fe81a8a384a0ffdd7a39211a5de9174c7"/>
+	</game>
+	<game name="Super Robot Taisen Compact (Japan)" cloneof="Super Robot Taisen Compact (Japan) (Rev 2)" id="0117">
+		<category>Games</category>
+		<description>Super Robot Taisen Compact (Japan)</description>
+		<release name="Super Robot Taisen Compact (Japan)" region="Japan" language="Ja"/>
+		<rom name="Super Robot Taisen Compact (Japan).ws" size="2097152" crc="8a8c5aa8" md5="4f678ef6dd98bd4c0ebad56271528857" sha1="a957111681951eb6a971a6b4f75bca7f89b29628"/>
+	</game>
+	<game name="Super Robot Taisen Compact (Japan) (Rev 1)" cloneof="Super Robot Taisen Compact (Japan) (Rev 2)" id="0124">
+		<category>Games</category>
+		<description>Super Robot Taisen Compact (Japan) (Rev 1)</description>
+		<release name="Super Robot Taisen Compact (Japan) (Rev 1)" region="Japan" language="Ja"/>
+		<rom name="Super Robot Taisen Compact (Japan) (Rev 1).ws" size="2097152" crc="7572e478" md5="5c4c57fbc68c5248cace4cb325236a83" sha1="c4a21084bff1f2a63784fe7d11e046f305ad310a"/>
+	</game>
+	<game name="Super Robot Taisen Compact (Japan) (Rev 2)" id="0091">
+		<category>Games</category>
+		<description>Super Robot Taisen Compact (Japan) (Rev 2)</description>
+		<release name="Super Robot Taisen Compact (Japan) (Rev 2)" region="Japan" language="Ja"/>
+		<rom name="Super Robot Taisen Compact (Japan) (Rev 2).ws" size="2097152" crc="7021d54f" md5="bd6d4cb18dbd098a797d6c09fad23ccd" sha1="e93d58ab5819992e54223f5d1c4d5aeb6983d6a3"/>
+	</game>
+	<game name="Super Robot Taisen Compact 2 - Dai-1-bu - Chijou Gekidou Hen (Japan)" id="0092">
+		<category>Games</category>
+		<description>Super Robot Taisen Compact 2 - Dai-1-bu - Chijou Gekidou Hen (Japan)</description>
+		<release name="Super Robot Taisen Compact 2 - Dai-1-bu - Chijou Gekidou Hen (Japan)" region="Japan" language="Ja"/>
+		<rom name="Super Robot Taisen Compact 2 - Dai-1-bu - Chijou Gekidou Hen (Japan).ws" size="4194304" crc="782877bc" md5="af355adec937a9db1d447980bf85aa2e" sha1="e6911e5bb0a742ba299e05b20ee81f2faa4854a5"/>
+	</game>
+	<game name="Super Robot Taisen Compact 2 - Dai-2-bu - Uchuu Gekishin Hen (Japan) (Rev 4)" id="0093">
+		<category>Games</category>
+		<description>Super Robot Taisen Compact 2 - Dai-2-bu - Uchuu Gekishin Hen (Japan) (Rev 4)</description>
+		<release name="Super Robot Taisen Compact 2 - Dai-2-bu - Uchuu Gekishin Hen (Japan) (Rev 4)" region="Japan" language="Ja"/>
+		<rom name="Super Robot Taisen Compact 2 - Dai-2-bu - Uchuu Gekishin Hen (Japan) (Rev 4).ws" size="4194304" crc="ecbb46de" md5="bb1cf0d7237d7ae2c8aac562fc62906d" sha1="6014ac0b8978e710f26c9cc41180cdf788584743"/>
+	</game>
+	<game name="Super Robot Taisen Compact 2 - Dai-3-bu - Ginga Kessen Hen (Japan) (Rev 2)" id="0094">
+		<category>Games</category>
+		<description>Super Robot Taisen Compact 2 - Dai-3-bu - Ginga Kessen Hen (Japan) (Rev 2)</description>
+		<release name="Super Robot Taisen Compact 2 - Dai-3-bu - Ginga Kessen Hen (Japan) (Rev 2)" region="Japan" language="Ja"/>
+		<rom name="Super Robot Taisen Compact 2 - Dai-3-bu - Ginga Kessen Hen (Japan) (Rev 2).ws" size="4194304" crc="0b0f8981" md5="44f63dcb11c916df900a128a6f2e3839" sha1="d24d8cea57c5c487e877eaa523eefb0dd184556d"/>
+	</game>
+	<game name="Taikyoku Igo - Heisei Kiin (Japan)" id="0113">
+		<category>Games</category>
+		<description>Taikyoku Igo - Heisei Kiin (Japan)</description>
+		<release name="Taikyoku Igo - Heisei Kiin (Japan)" region="Japan" language="Ja"/>
+		<rom name="Taikyoku Igo - Heisei Kiin (Japan).ws" size="524288" crc="5023db90" md5="9fae96e8955c6a5684b04bfe53f93a5d" sha1="636395a62d16f31cac845fef1927dda3890d3f0c" sha256="cbb805f2ef607af3c2fb49509929d2b8df4ee0c8ded8b6b57b551f56eb6810cf"/>
+	</game>
+	<game name="Taisen Othello Game (World) (Ja) (WonderWitch) (Unl)" id="0191">
+		<category>Games</category>
+		<description>Taisen Othello Game (World) (Ja) (WonderWitch) (Unl)</description>
+		<release name="Taisen Othello Game (World) (Ja) (WonderWitch) (Unl)" region="World" language="Ja"/>
+		<rom name="Taisen Othello Game (World) (Ja) (WonderWitch) (Unl).ws" size="524288" crc="18597d3c" md5="839aead167f08e6ffb0501c0abe9128a" sha1="cc536eaa48f3f3d35c58d3916ef993da4e3e8498" sha256="86705107c71894a48fc6762e1923529efc9134df8656a6a27b0ca1b9312aa0d0"/>
+	</game>
+	<game name="Tanjou Debut for WonderSwan (Japan) (Rev 1)" id="0096">
+		<category>Games</category>
+		<description>Tanjou Debut for WonderSwan (Japan) (Rev 1)</description>
+		<release name="Tanjou Debut for WonderSwan (Japan) (Rev 1)" region="Japan" language="Ja"/>
+		<rom name="Tanjou Debut for WonderSwan (Japan) (Rev 1).ws" size="2097152" crc="8b74f59a" md5="c80ab865bc9a93e946354f41815e93c4" sha1="2f35d250b8ddeb98ca3a2704a4ad85713f4c71b0"/>
+	</game>
+	<game name="Tare Panda no GunPey (Japan)" id="0097">
+		<category>Games</category>
+		<description>Tare Panda no GunPey (Japan)</description>
+		<release name="Tare Panda no GunPey (Japan)" region="Japan" language="Ja"/>
+		<rom name="Tare Panda no GunPey (Japan).ws" size="1048576" crc="a5643aa3" md5="c21571f057d05bb01db2ece8517b121d" sha1="9622c65c939f05a9dfae288919ec5bd15c348f14"/>
+	</game>
+	<game name="Tekken Card Challenge (Japan)" id="0098">
+		<category>Games</category>
+		<description>Tekken Card Challenge (Japan)</description>
+		<release name="Tekken Card Challenge (Japan)" region="Japan" language="Ja"/>
+		<rom name="Tekken Card Challenge (Japan).ws" size="1048576" crc="e7c608e5" md5="1e8bca5c31f62a9dd1121884351a2885" sha1="96a9ce5e56dc0c9648027ad4454e6f35e88d9a07"/>
+	</game>
+	<game name="Tenori-on (Japan) (En)" id="0132">
+		<category>Games</category>
+		<description>Tenori-on (Japan) (En)</description>
+		<release name="Tenori-on (Japan) (En)" region="Japan" language="En"/>
+		<rom name="Tenori-on (Japan) (En).ws" size="524288" crc="6fe79bb1" md5="8b5c2993d6eccf6a03f377f9c99d5a92" sha1="c0104db6e176cfa64a95e4c9bc9382beae4d70d1" sha256="8d11c841805a241a14af9c5d135840eb3e8106a32a7ee134e986b65af2cd8cc5"/>
+	</game>
+	<game name="Terrors (Japan)" id="0099">
+		<category>Games</category>
+		<description>Terrors (Japan)</description>
+		<release name="Terrors (Japan)" region="Japan" language="Ja"/>
+		<rom name="Terrors (Japan).ws" size="4194304" crc="ef5b6b82" md5="b03441b7b71af24450da7f06b4aac718" sha1="7148d750f12b5da9a0efd99f5a5a7ccadecbdf60" sha256="d195010db4352030e7eaa3d184b4159a8730bbacc493d4073705393a73d33e4f"/>
+	</game>
+	<game name="Testarossa (World) (WonderWitch) (Unl)" id="0242">
+		<category>Games</category>
+		<description>Testarossa (World) (WonderWitch) (Unl)</description>
+		<release name="Testarossa (World) (WonderWitch) (Unl)" region="World" language="En"/>
+		<rom name="Testarossa (World) (WonderWitch) (Unl).ws" size="524288" crc="d291b29b" md5="0090b495cb8283a23c9f71308cfb8fd6" sha1="d79be129fc34f2a994491488273cd0bf54efcf68" sha256="febe98bae1423894d4e7d08963e794b307ddf32dcf22c73203e4fac9f419a9bc"/>
+	</game>
+	<game name="Tetsujin 28 Gou (Japan)" id="0100">
+		<category>Games</category>
+		<description>Tetsujin 28 Gou (Japan)</description>
+		<release name="Tetsujin 28 Gou (Japan)" region="Japan" language="Ja"/>
+		<rom name="Tetsujin 28 Gou (Japan).ws" size="4194304" crc="6f304dca" md5="8b8ea655dbea4a3152b300126556404c" sha1="65c4c6aaa36328bba5d56419af59af5d3420ed78"/>
+	</game>
+	<game name="Time Bokan Series - Bokan Densetsu - Buta mo Odaterya Doronboo (Japan)" id="0101">
+		<category>Games</category>
+		<description>Time Bokan Series - Bokan Densetsu - Buta mo Odaterya Doronboo (Japan)</description>
+		<release name="Time Bokan Series - Bokan Densetsu - Buta mo Odaterya Doronboo (Japan)" region="Japan" language="Ja"/>
+		<rom name="Time Bokan Series - Bokan Densetsu - Buta mo Odaterya Doronboo (Japan).ws" size="1048576" crc="7da6acb9" md5="9a41ed23b82a090ec4508d3725e19f9b" sha1="ad77d2e8429d5ed926d514d926050086f4edbeee"/>
+	</game>
+	<game name="Tokyo Majin Gakuen - Fuju Houroku (Japan)" id="0102">
+		<category>Games</category>
+		<description>Tokyo Majin Gakuen - Fuju Houroku (Japan)</description>
+		<release name="Tokyo Majin Gakuen - Fuju Houroku (Japan)" region="Japan" language="Ja"/>
+		<rom name="Tokyo Majin Gakuen - Fuju Houroku (Japan).ws" size="8388608" crc="91117d1b" md5="a002e1af08611506555e9a2fe559eddc" sha1="866c67737a4fbb5f09a0b13bbdb89397bcab1f55"/>
+	</game>
+	<game name="Trap Trap (World) (Ja) (WonderWitch) (Unl)" id="0224">
+		<category>Games</category>
+		<description>Trap Trap (World) (Ja) (WonderWitch) (Unl)</description>
+		<release name="Trap Trap (World) (Ja) (WonderWitch) (Unl)" region="World" language="Ja"/>
+		<rom name="Trap Trap (World) (Ja) (WonderWitch) (Unl).ws" size="524288" crc="2df069a1" md5="32f747338ee3752f39fb15d4b67786b5" sha1="890624d88b338ee383135c10f44fefb0127a3653" sha256="da55370f43ca1caf89c1e2843ddfc9655a18be169d6e9c3e421eb696a896f199"/>
+	</game>
+	<game name="Triangle (World) (WonderWitch) (Unl)" id="0186">
+		<category>Games</category>
+		<description>Triangle (World) (WonderWitch) (Unl)</description>
+		<release name="Triangle (World) (WonderWitch) (Unl)" region="World" language="En"/>
+		<rom name="Triangle (World) (WonderWitch) (Unl).ws" size="524288" crc="8e1ef5c6" md5="c9110860e3ad6136fcbd4146a59d334e" sha1="e6a82aee826f99aef14c8a7d4907f7acb5a0c03c" sha256="abe27331f987c4ed01981b45e39702b7b86f319ebcb915318e476491f0d3cd22"/>
+	</game>
+	<game name="Truchet (World) (WonderWitch) (Unl)" id="0258">
+		<category>Games</category>
+		<description>Truchet (World) (WonderWitch) (Unl)</description>
+		<release name="Truchet (World) (WonderWitch) (Unl)" region="World" language="En"/>
+		<rom name="Truchet (World) (WonderWitch) (Unl).ws" size="524288" crc="224b58f5" md5="67bfe0ac9715afe30a47c459b4451be3" sha1="b43e1cac9f2dfe20f072bec1d4a2f3cbd02580e1" sha256="f7184bd3e20463c2e43993ef486d3b983813e7431813b3832991e7d005fa115e"/>
+	</game>
+	<game name="Trump Collection - Bottom-Up Teki Trump Seikatsu (Japan) (Rev 1)" id="0103">
+		<category>Games</category>
+		<description>Trump Collection - Bottom-Up Teki Trump Seikatsu (Japan) (Rev 1)</description>
+		<release name="Trump Collection - Bottom-Up Teki Trump Seikatsu (Japan) (Rev 1)" region="Japan" language="Ja"/>
+		<rom name="Trump Collection - Bottom-Up Teki Trump Seikatsu (Japan) (Rev 1).ws" size="1048576" crc="c283ec5f" md5="c1c2fc60d813556480226d45d62121a1" sha1="9313e6d7090e91cca0304dc450b2f2f87329ae7a"/>
+	</game>
+	<game name="Trump Collection 2 - Bottom-Up Teki Sekaiisshuu no Tabi (Japan) (Rev 1)" id="0104">
+		<category>Games</category>
+		<description>Trump Collection 2 - Bottom-Up Teki Sekaiisshuu no Tabi (Japan) (Rev 1)</description>
+		<release name="Trump Collection 2 - Bottom-Up Teki Sekaiisshuu no Tabi (Japan) (Rev 1)" region="Japan" language="Ja"/>
+		<rom name="Trump Collection 2 - Bottom-Up Teki Sekaiisshuu no Tabi (Japan) (Rev 1).ws" size="1048576" crc="64aaf392" md5="523da6fd9e07e6e1d1bee62be04d7b1e" sha1="b25ff8fc79168e439ba913a2cea6195094be9ac2"/>
+	</game>
+	<game name="Tsubo Game (World) (Ja) (WonderWitch) (Unl)" id="0238">
+		<category>Games</category>
+		<description>Tsubo Game (World) (Ja) (WonderWitch) (Unl)</description>
+		<release name="Tsubo Game (World) (Ja) (WonderWitch) (Unl)" region="World" language="Ja"/>
+		<rom name="Tsubo Game (World) (Ja) (WonderWitch) (Unl).ws" size="524288" crc="4ba201f8" md5="4b212e1e2287711d0a53e42ac581158b" sha1="1e32ad24f65f533072dd1882bdbeaa6c31f4c4de" sha256="a483b123b9f7f5706b76f506f0305023ddbef0964fe855588f0495ed341a8c50"/>
+	</game>
+	<game name="Tumble (World) (WonderWitch) (Unl)" id="0259">
+		<category>Games</category>
+		<description>Tumble (World) (WonderWitch) (Unl)</description>
+		<release name="Tumble (World) (WonderWitch) (Unl)" region="World" language="En"/>
+		<rom name="Tumble (World) (WonderWitch) (Unl).ws" size="524288" crc="04ddf1c0" md5="e8f51ca0ecc800c580f7d6d7d902597a" sha1="1f79dd91994b280503ee7cfd74f29473eb8926e4" sha256="48f65c31c87b321e35a527bf1fdef6116551fc508d0c248b2e2d1db3449d18ec"/>
+	</game>
+	<game name="Turntablist - DJ Battle (Japan)" id="0105">
+		<category>Games</category>
+		<description>Turntablist - DJ Battle (Japan)</description>
+		<release name="Turntablist - DJ Battle (Japan)" region="Japan" language="Ja"/>
+		<rom name="Turntablist - DJ Battle (Japan).ws" size="4194304" crc="0d5171f0" md5="144b29a9997c016fb4b2bb05e3965cfe" sha1="858f1f57b5522a1701cc8a0abae43cec948e26a6"/>
+	</game>
+	<game name="Umetatte (World) (WonderWitch) (Unl)" id="0211">
+		<category>Games</category>
+		<description>Umetatte (World) (WonderWitch) (Unl)</description>
+		<release name="Umetatte (World) (WonderWitch) (Unl)" region="World" language="En"/>
+		<rom name="Umetatte (World) (WonderWitch) (Unl).ws" size="524288" crc="10818787" md5="bcf4a4399ccce0b61886e0cd01a7f6c1" sha1="bdf6ae9d67bc225c7c73aa24d0c9bd6829f70e1f" sha256="4f67f8ae5b405c56181a31d272db080357721d4f7888a673fcd3df2c4242bee4"/>
+	</game>
+	<game name="Umizuri ni Ikou! (Japan)" id="0106">
+		<category>Games</category>
+		<description>Umizuri ni Ikou! (Japan)</description>
+		<release name="Umizuri ni Ikou! (Japan)" region="Japan" language="Ja"/>
+		<rom name="Umizuri ni Ikou! (Japan).ws" size="524288" crc="86b56511" md5="bce82b55b44a7d9b8eeb06cdcc884968" sha1="4f739292d11a45490851eaf40c0a7081824ad75a" sha256="3a81bda4cfc629f4f1336bafb637be3459643cce3a2f6c00215dab00f07fc577"/>
+	</game>
+	<game name="Uzumaki - Denshi Kaiki Hen (Japan) (Rev 4)" id="0107">
+		<category>Games</category>
+		<description>Uzumaki - Denshi Kaiki Hen (Japan) (Rev 4)</description>
+		<release name="Uzumaki - Denshi Kaiki Hen (Japan) (Rev 4)" region="Japan" language="Ja"/>
+		<rom name="Uzumaki - Denshi Kaiki Hen (Japan) (Rev 4).ws" size="2097152" crc="812020ef" md5="eacb689de3482cf6e6da8befc7da65b2" sha1="4c8166e0632bdb8c098d586a7b1522ed7b63b5f7" sha256="b8beeedcf0e92a07e9f1e266627ebfec5d59774c45873a7d8a74a5e4bc110a34"/>
+	</game>
+	<game name="Uzumaki - Noroi Simulation (Japan)" id="0037">
+		<category>Games</category>
+		<description>Uzumaki - Noroi Simulation (Japan)</description>
+		<release name="Uzumaki - Noroi Simulation (Japan)" region="Japan" language="Ja"/>
+		<rom name="Uzumaki - Noroi Simulation (Japan).ws" size="2097152" crc="ca3f0b00" md5="c329cc51abf1f9f85c33ca28d5a26f0c" sha1="38f708a4c0c4fcec0cf4d6ce051d1ff76466d617" sha256="cb726ea64e6d189835af81aab5339a8713cf749adc4cee119d6680975de5c316"/>
+	</game>
+	<game name="V-Attacker (World) (WonderWitch) (Unl)" id="0249">
+		<category>Games</category>
+		<description>V-Attacker (World) (WonderWitch) (Unl)</description>
+		<release name="V-Attacker (World) (WonderWitch) (Unl)" region="World" language="En"/>
+		<rom name="V-Attacker (World) (WonderWitch) (Unl).ws" size="524288" crc="9a521dd8" md5="5637ec5f362b34bb46f01b3610897232" sha1="0467434bb400ab24113f2ff4f082be0d7f45d103" sha256="9223b7f4992ad607fb4f9b51f90cf48892d7139952cebe9d35547cd9cd6d1cbb"/>
+	</game>
+	<game name="Vaitz Blade (Japan) (Rev 1)" id="0108">
+		<category>Games</category>
+		<description>Vaitz Blade (Japan) (Rev 1)</description>
+		<release name="Vaitz Blade (Japan) (Rev 1)" region="Japan" language="Ja"/>
+		<rom name="Vaitz Blade (Japan) (Rev 1).ws" size="4194304" crc="8fc9e145" md5="49a2932821583fa7d3ed07312b47ab32" sha1="cfb877f0988920c8fe4da5cdd7583197799df621"/>
+	</game>
+	<game name="Virus (World) (WonderWitch) (Unl)" id="0219">
+		<category>Games</category>
+		<description>Virus (World) (WonderWitch) (Unl)</description>
+		<release name="Virus (World) (WonderWitch) (Unl)" region="World" language="En"/>
+		<rom name="Virus (World) (WonderWitch) (Unl).ws" size="524288" crc="555dd2be" md5="7e950d6f26afe4a7f7ea0ebde8feda15" sha1="981e6bb4dcbe5a12783e0dfc7a0107c754167980" sha256="7178c6193d6456c1d05ca73671e2be509223b3fc2dd4b0ee3dbdea1fa135aced"/>
+	</game>
+	<game name="Wago (World) (Ja) (WonderWitch) (Unl)" id="0147">
+		<category>Miscellaneous</category>
+		<description>Wago (World) (Ja) (WonderWitch) (Unl)</description>
+		<release name="Wago (World) (Ja) (WonderWitch) (Unl)" region="World" language="Ja"/>
+		<rom name="Wago (World) (Ja) (WonderWitch) (Unl).ws" size="524288" crc="cb4c5bd1" md5="3881098ceecab946e7fa83f5e34e6708" sha1="fa25fa391ff3f4650cd5c0428eca3877b139ccaa" sha256="d15667c45c1537dba777d72d54b4159a8cd0984fb324458b9f402c5974ccbf10"/>
+	</game>
+	<game name="Wasabi Produce - Street Dancer (Japan)" id="0109">
+		<category>Games</category>
+		<description>Wasabi Produce - Street Dancer (Japan)</description>
+		<release name="Wasabi Produce - Street Dancer (Japan)" region="Japan" language="Ja"/>
+		<rom name="Wasabi Produce - Street Dancer (Japan).ws" size="4194304" crc="1860b655" md5="da0eb7a02b6a5250047eef22deba5c39" sha1="672cfc0e4547b2721d11b67476391b6e6cca81ae"/>
+	</game>
+	<game name="Wave Q (World) (Ja) (WonderWitch) (Unl)" id="0177">
+		<category>Games</category>
+		<description>Wave Q (World) (Ja) (WonderWitch) (Unl)</description>
+		<release name="Wave Q (World) (Ja) (WonderWitch) (Unl)" region="World" language="Ja"/>
+		<rom name="Wave Q (World) (Ja) (WonderWitch) (Unl).ws" size="524288" crc="ac95cae2" md5="e0d4f925005cabb7846ad5f564ba57e7" sha1="051f2ce67a48777162244312762b41b1a7e96e04" sha256="4d776c5fbf9b2f542cb0e97b9238efc317d4fc9a9676931f4972e1991a01f3f8"/>
+	</game>
+	<game name="Wave R (World) (v1.0) (WonderWitch) (WWGP2003) (Unl)" id="0161">
+		<category>Games</category>
+		<description>Wave R (World) (v1.0) (WonderWitch) (WWGP2003) (Unl)</description>
+		<release name="Wave R (World) (v1.0) (WonderWitch) (WWGP2003) (Unl)" region="World" language="En"/>
+		<rom name="Wave R (World) (v1.0) (WonderWitch) (WWGP2003) (Unl).ws" size="524288" crc="06f6914e" md5="9d3478f2b17ff086eb1b51eb8f98764f" sha1="044c2452f41c308d15b6aad522f30d37bf7fcd20" sha256="186517a3daa0f7a20d1c298a3e356fe8fb486a6d0be269c93373b8ed2b7161f8"/>
+	</game>
+	<game name="Wave R (World) (v1.1) (WonderWitch) (Unl)" id="0160">
+		<category>Games</category>
+		<description>Wave R (World) (v1.1) (WonderWitch) (Unl)</description>
+		<release name="Wave R (World) (v1.1) (WonderWitch) (Unl)" region="World" language="En"/>
+		<rom name="Wave R (World) (v1.1) (WonderWitch) (Unl).ws" size="524288" crc="8902b717" md5="ab08f666eccba3bbd86958691a011af0" sha1="120e6d6371c9408631a41019fbb09e820193cc49" sha256="a41270a5414ac1a362e5e9b525c489bb4dcd1ad10066c2ec1808b5bfa225cba1"/>
+	</game>
+	<game name="Wonder Stadium '99 (Japan)" id="0110">
+		<category>Games</category>
+		<description>Wonder Stadium '99 (Japan)</description>
+		<release name="Wonder Stadium '99 (Japan)" region="Japan" language="Ja"/>
+		<rom name="Wonder Stadium '99 (Japan).ws" size="1048576" crc="e252919d" md5="cbd1f30650653d8ac845915bc2aea608" sha1="bb138765346d9f4d77615444d090b1328a59818a" sha256="cecd8be24f3c9c3665bc4752bae0726aa002d360384dc619a147b3038c62f5c2"/>
+	</game>
+	<game name="Wonder Stadium (Japan)" id="0111">
+		<category>Games</category>
+		<description>Wonder Stadium (Japan)</description>
+		<release name="Wonder Stadium (Japan)" region="Japan" language="Ja"/>
+		<rom name="Wonder Stadium (Japan).ws" size="1048576" crc="23bc0309" md5="56c33436c90f652e02092d064287b5ce" sha1="cb9454a8277bb2a7d5a6e3b4ddc84194fcbb1231"/>
+	</game>
+	<game name="Wonder Su-Zi- (World) (WonderWitch) (Unl)" id="0212">
+		<category>Miscellaneous</category>
+		<description>Wonder Su-Zi- (World) (WonderWitch) (Unl)</description>
+		<release name="Wonder Su-Zi- (World) (WonderWitch) (Unl)" region="World" language="En"/>
+		<rom name="Wonder Su-Zi- (World) (WonderWitch) (Unl).ws" size="524288" crc="d62a6afa" md5="f9c998d83a72b11a1177b793f2368347" sha1="c34c97b2a95593e8de3c769229818edd7aa8db32" sha256="737b830239f37554ad5d146fe9599f0dd8d8e64601c0596c3ccb98d42c1e527d"/>
+	</game>
+	<game name="WonderSwan Handy Sonar (Japan) (Rev 1)" cloneof="WonderSwan Handy Sonar (Japan) (Rev 2)" id="0112">
+		<category>Games</category>
+		<description>WonderSwan Handy Sonar (Japan) (Rev 1)</description>
+		<release name="WonderSwan Handy Sonar (Japan) (Rev 1)" region="Japan" language="Ja"/>
+		<rom name="WonderSwan Handy Sonar (Japan) (Rev 1).ws" size="1048576" crc="2ab9852d" md5="5db558122eabe25b930d57c8e5fb05d8" sha1="70d65a936ee1dfc2b89c543312c205285d955efb" sha256="bcbefddd41d3a25441d8a19cac0f3516627ab844102379cb9f3ad07ea3fdef7e"/>
+	</game>
+	<game name="WonderSwan Handy Sonar (Japan) (Rev 2)" id="0126">
+		<category>Games</category>
+		<description>WonderSwan Handy Sonar (Japan) (Rev 2)</description>
+		<release name="WonderSwan Handy Sonar (Japan) (Rev 2)" region="Japan" language="Ja"/>
+		<rom name="WonderSwan Handy Sonar (Japan) (Rev 2).ws" size="1048576" crc="d4188811" md5="74562136e58960870694c8b6bc913cd2" sha1="a1691ef96097c409b56c77f1d4c731fbfb3f386b"/>
+	</game>
+	<game name="Yopparau Game for WonderWitch (World) (WonderWitch) (Unl)" id="0209">
+		<category>Games</category>
+		<description>Yopparau Game for WonderWitch (World) (WonderWitch) (Unl)</description>
+		<release name="Yopparau Game for WonderWitch (World) (WonderWitch) (Unl)" region="World" language="En"/>
+		<rom name="Yopparau Game for WonderWitch (World) (WonderWitch) (Unl).ws" size="524288" crc="a86880dc" md5="e08e74129419447e2b1be4a8c183de12" sha1="41cb5404a1d1e6d03baeb40afc3a81d0d30fb169" sha256="65561c5eb713ecf3926404fe79c63e0f56a1c3cc42e5959f01fe55a71e945245"/>
+	</game>
+	<game name="beatmania for WonderSwan (Japan)" id="0004">
+		<category>Games</category>
+		<description>beatmania for WonderSwan (Japan)</description>
+		<release name="beatmania for WonderSwan (Japan)" region="Japan" language="Ja"/>
+		<rom name="beatmania for WonderSwan (Japan).ws" size="16777216" crc="324622c9" md5="b814e71eb1d079466a9535566d605280" sha1="544e76133fa53fc0ae5e00e3465b9cf634f14fd0"/>
+	</game>
+	<game name="otto (World) (WonderWitch) (Unl)" id="0228">
+		<category>Games</category>
+		<description>otto (World) (WonderWitch) (Unl)</description>
+		<release name="otto (World) (WonderWitch) (Unl)" region="World" language="En"/>
+		<rom name="otto (World) (WonderWitch) (Unl).ws" size="524288" crc="f0b953d1" md5="b766ad187047ded3ef7c81c71e0cfa24" sha1="4f67fdfe7b97bbe76086e57b6ed823a9b1dd6d79" sha256="495311f27a0173f213fd2776bd74905f3e39cd41947c5042a5a4f02e809d5fba"/>
+	</game>
+</datafile>
