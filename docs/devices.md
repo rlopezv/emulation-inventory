@@ -124,3 +124,4 @@ Configuración normalizada de almacenamiento:
 | GKD | 350H | Ingenic X1830 (2x MIPS 1.5 GHz) | 128 MB | 3.5" | 320x240 | 4:3 | Horizontal | [TODO] | Media-Alta | Interna (16/32 GB) + TF1 | docs/imgs/GKD350H.png |
 | Retroid | Pocket 2 | MediaTek MT6580 (4x 1.3 GHz) | 1 GB | 3.5" | 640x480 | 4:3 | Horizontal | 2020 | Alta | Interna (8 GB) + TF1 | docs/imgs/RetroidPocket2.png |
 | Anbernic | RG CubeXX | Allwinner H700 (4x Cortex-A53 1.5 GHz) | 1 GB LPDDR4 | 3.95" IPS OCA | 720x720 | 1:1 | Horizontal | 2024 | Alta | TF1 + TF2 | docs/imgs/RGCubeXX.png |
+| Genérico | TV Box Amlogic S905/S912 (Super Console X / Game Stick) | Amlogic S905/S912 | [TODO] | — | [TODO] | [TODO] | SBC | [TODO] | Baja | [TODO] | [TODO] |

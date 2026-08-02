@@ -2,11 +2,20 @@
 
 Guías paso a paso para instalar los CFW/OS marcados como `Recomendado` o `Verificado` en `docs/distributions.md`. Cada guía es un scaffold pendiente de contenido.
 
+## Tipos de instalación
+
+Cada guía declara en su sección "Tipo de instalación" cuál de estos tres métodos aplica, ya que difieren sustancialmente en herramientas y pasos:
+
+- **Imagen flasheada a SD** — se escribe una imagen de disco completa (Etcher/Rufus/dd) en la SD, típico de OS Retro para SBC (Batocera, Recalbox).
+- **Extracción a SD existente** — se descomprime un zip directamente sobre una SD ya formateada (FAT32/ext4), a menudo con esquema de doble tarjeta TF1 (sistema) + TF2 (ROMs), típico de CFW/OS Handheld para consolas portátiles.
+- **Flasheo por fastboot o herramienta de fabricante** — se usa fastboot, SP Flash Tool u otra herramienta específica del SoC para escribir directamente en el almacenamiento interno, típico de Android CFW.
+
 | CFW | Dispositivos aplicables (principal) | Guía |
 | --- | --- | --- |
 | Batocera | Raspberry Pi 3B+ | [batocera.md](batocera.md) |
 | Recalbox | Raspberry Pi 5 (4GB) | [recalbox.md](recalbox.md) |
 | BOB (Best of the Best) | PocketGo Bitboy, Pocket Go, PowKiddy Q90/V90/Q20 Mini, PowKiddy A13 | [bob.md](bob.md) |
+| BOB (Best of the Best) — variante ArkOS | Anbernic RG351P/M/V/MP, PowKiddy RGB10 Max | [bob-arkos.md](bob-arkos.md) |
 | RetroFW | PowKiddy LDK Landscape/Vertical, Retrogame RS97, Anbernic RG99, PowKiddy RS-07 | [retrofw.md](retrofw.md) |
 | Adam Image | Anbernic RG350/RG280M/RG350M/RG280V/RG350P/RG300X, PocketGo2 V1 | [adam-image.md](adam-image.md) |
 | ArkOS | Hardkernel Odroid-Go-Advance, RK2020 | [arkos.md](arkos.md) |
@@ -22,6 +31,9 @@ Guías paso a paso para instalar los CFW/OS marcados como `Recomendado` o `Verif
 | MinUI | TrimUI Model S | [minui.md](minui.md) |
 | spruceOS | Miyoo A30 | [spruceos.md](spruceos.md) |
 | muOS | Anbernic RG28XX | [muos.md](muos.md) |
-| GammaOS Next | Anbernic RGDS | [gammaos-next.md](gammaos-next.md) |
-| GammaOS Core | GKD Bubble, Anbernic RG353P/RG353V (alternativa dual boot) | [gammaos-core.md](gammaos-core.md) |
+| GammaOS Core | Anbernic RG353/RG503/RGARC, PowKiddy RGB/X series, GKD Bubble, TrimUI Smart Pro, Miyoo Flip (lista completa verificada en la guía) | [gammaos-core.md](gammaos-core.md) |
+| GammaOS Next | Anbernic RG Vita/Cube/406H/406V/505/405/DS/Rotate, TrimUI Brick, MagicX Mini Zero 28/X20 V32, AYANEO Pocket, Retroid Pocket 4, KT-R1, ZPG, GameMT (lista completa verificada en la guía) | [gammaos-next.md](gammaos-next.md) |
 | LineageOS (RP2) | Retroid Pocket 2 | [lineageos-rp2.md](lineageos-rp2.md) |
+| OnionOS | Miyoo Mini, Miyoo Mini Plus | [onionos.md](onionos.md) |
+| GarlicOS | Anbernic RG35XX (Original) | [garlicos.md](garlicos.md) |
+| EmuELEC | TV Boxes (Amlogic S905/S912), Super Console X, Game Sticks | [emuelec.md](emuelec.md) |
