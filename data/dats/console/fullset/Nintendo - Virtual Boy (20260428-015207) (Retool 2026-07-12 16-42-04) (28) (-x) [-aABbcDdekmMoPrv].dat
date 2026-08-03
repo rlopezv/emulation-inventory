@@ -2,9 +2,9 @@
 <datafile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://datomatic.no-intro.org/stuff https://datomatic.no-intro.org/stuff/schema_nointro_datfile_v3.xsd">
 	<header>
 		<name>Nintendo - Virtual Boy (Retool)</name>
-		<description>Nintendo - Virtual Boy (28) (-x) [-aABbcDdekmMoPrv] (20260428-015207) (Retool)</description>
+		<description>Nintendo - Virtual Boy (28) (-x) [-AabBcDdekMmoPrv] (20260428-015207) (Retool)</description>
 		<version>20260428-015207</version>
-		<date>2026-07-12 16-42-04</date>
+		<date>2026-07-13 21-05-31</date>
 		<author>BigFred, bikerspade, BitLooter, C. V. Reynolds, Flashfire42, Gefflon, Hiccup, NESBrew12, omonim2007, psykopat, rarenight, relax, Rifu, ShiroeNL, SonGoku, Tauwasser, xuom2</author>
 		<homepage>http://www.github.com/unexpectedpanda/retool</homepage>
 		<url>https://www.no-intro.org</url>

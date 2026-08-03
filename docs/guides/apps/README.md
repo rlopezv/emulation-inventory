@@ -13,7 +13,8 @@ Cada guía declara en "Contexto de uso" si el frontend/app viene embebido en el 
 | --- | --- | --- |
 | EmulationStation | Embebido en CFW | [emulationstation.md](emulationstation.md) |
 | SimpleMenu | Embebido en CFW | [simplemenu.md](simplemenu.md) |
-| GMenuNX | Embebido en CFW | [gmenunx.md](gmenunx.md) |
+| GMenu2X | Embebido en CFW | [gmenu2x.md](gmenu2x.md) |
+| RetroFE | Embebido en CFW | [retrofe.md](retrofe.md) |
 | ES-DE | Standalone (Android/PC) | [es-de.md](es-de.md) |
 | Daijishō | Standalone (Android) | [daijisho.md](daijisho.md) |
 | Pegasus | Standalone (Android/PC) | [pegasus.md](pegasus.md) |

@@ -53,7 +53,7 @@ Columnas de la tabla principal:
 | Arcade | S, A |
 | Rot | H, V, HV |
 | Ctrl | 2B, 3B, 6B, LG, WHEEL |
-| Players | 1P, 2P, 3P, 4P |
+| Players | 1P, 2P, 3P, 4P, 4P+ |
 
 ### Tier
 
@@ -86,3 +86,4 @@ Columnas de la tabla principal:
 - **2P** — 2 jugadores simultáneos
 - **3P** — 3 jugadores simultáneos
 - **4P** — 4 jugadores simultáneos
+- **4P+** — Más de 4 jugadores vía multitap; el máximo real se detalla en Notas

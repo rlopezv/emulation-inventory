@@ -12,14 +12,14 @@
 | Atomic Robo-Kid                               | Shoot'em up horizontal       |    B |      S |   H   |  2B   |   1P    | Shmup menor pero válido.                                          |
 | Ballistix                                     | Sports arcade                |    B |      A |   H   |  2B   |   2P    | Competitivo y rápido.                                             |
 | Barunba                                       | Shoot'em up multidireccional |    B |      S |   H   |  2B   |   1P    | Shmup peculiar y apto.                                   |
-| Battle Lode Runner                            | Puzzle / maze arcade         |    B |      A |   H   |  2B   |   5P    | Gran valor multijugador.                                 |
+| Battle Lode Runner                            | Puzzle / maze arcade         |    B |      A |   H   |  2B   |   4P+   | Gran valor multijugador; hasta 5P con multitap.                                 |
 | Battle Royale                                 | Acción / sports arcade       |    B |      A |   H   |  2B   |   2P    | Recuperado para colección ampliada.                               |
 | Be Ball                                       | Puzzle arcade                |    B |      A |   H   |  2B   |   2P    | Simple y rejugable.                                      |
 | Bikkuriman World                              | Plataformas arcade           |    B |      A |   H   |  2B   |   1P    | Wonder Boy-like.                                         |
 | Blazing Lazers / Gunhed                       | Shoot'em up vertical         |    S |      S |   V   |  2B   |   1P    | Ausencia crítica del catálogo inicial.                   |
 | Blodia                                        | Puzzle arcade                |    B |      A |   H   |  2B   |   1P    | Puzzle de sesiones cortas.                               |
 | Bloody Wolf                                   | Run & gun                    |    A |      A |   H   |  2B   |   2P    | Acción directa, muy bartop.                                       |
-| Bomberman '94                                 | Maze / party arcade          |    S |      A |   H   |  2B   |   5P    | 1G1R; sustituye Bomberman, Bomberman '93 y Bomberman '93 Special. |
+| Bomberman '94                                 | Maze / party arcade          |    S |      A |   H   |  2B   |   4P+   | 1G1R; sustituye Bomberman, Bomberman '93 y Bomberman '93 Special. Hasta 5P con multitap. |
 | Bonk 3: Bonk's Big Adventure                  | Plataformas acción           |    B |      A |   H   |  2B   |   2P    | Versión HuCard, contenido distinto.                      |
 | Bonk's Adventure / PC Genjin                  | Plataformas acción           |    A |      A |   H   |  2B   |   1P    | Mascota del sistema.                                     |
 | Bonk's Revenge / PC Genjin 2                  | Plataformas acción           |    A |      A |   H   |  2B   |   1P    | Mejora clara de la fórmula.                              |
@@ -66,7 +66,7 @@
 | Liquid Kids / Mizubaku Daibouken              | Plataformas arcade           |    A |      A |   H   |  2B   |   1P    | 1G1R; mantener una única versión regional.                        |
 | Magical Chase                                 | Cute'em up horizontal        |    S |      S |   H   |  2B   |   1P    | HuCard sobresaliente.                                    |
 | Momotaro Katsugeki                            | Plataformas acción           |    B |      A |   H   |  2B   |   1P    | Acción inmediata.                                        |
-| Moto Roader II                                | Carreras arcade              |    A |      A |   H   |  2B   |   5P    | 1G1R; sustituye Moto Roader y Moto Roader MC.                     |
+| Moto Roader II                                | Carreras arcade              |    A |      A |   H   |  2B   |   4P+   | 1G1R; sustituye Moto Roader y Moto Roader MC. Hasta 5P con multitap.                     |
 | Mr. Heli                                      | Shoot'em up horizontal       |    A |      S |   H   |  2B   |   1P    | Shmup Irem con personalidad.                                      |
 | Nekketsu Koukou Dodgeball-bu                  | Sports arcade                |    B |      A |   H   |  2B   |   2P    | Dodgeball arcade rejugable.                                       |
 | New Adventure Island                          | Plataformas arcade           |    A |      A |   H   |  2B   |   1P    | Rápido y accesible.                                      |

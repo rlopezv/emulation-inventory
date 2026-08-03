@@ -8,6 +8,7 @@ Rutas por defecto de ROMs, BIOS, saves, states, media y gamelist por distribuci�
 - `TF1` — tarjeta SD principal (sistema); `TF2` — tarjeta SD secundaria (contenido)
 - `SD` — SD única cuando el dispositivo solo tiene una ranura
 - `[TODO]` — ruta no verificada o pendiente de confirmación
+- Si una sección no incluye fila `Screenshots` o no separa `Media (imágenes)` de `Media (vídeos)`, es porque ese CFW no gestiona esos elementos de forma independiente (los agrupa en una sola carpeta `Media` o no ofrece captura de pantalla dedicada), no un olvido de documentación.
 
 ---
 
@@ -188,9 +189,9 @@ Sucesor de ArkOS. Estructura idéntica a ArkOS.
 
 ---
 
-### Koriki
+### Koriki BOM
 
-**Hardware:** SSD202D (Miyoo Mini/Plus, RG35XX Original), RK3566 (Miyoo Flip)
+**Hardware:** SSD202D (Miyoo Mini/Plus, Miyoo Mini Flip), RG35XX Original, RK3566 (Miyoo Flip)
 
 | Tipo | SD | Ruta |
 | --- | --- | --- |
@@ -237,6 +238,38 @@ MinUI usa una convención propia con etiquetas (`{tag}`) entre paréntesis en lu
 
 ---
 
+### BOB (Best of the Best) — Bittboy/PowKiddy
+
+**Hardware:** F1C100S — PocketGo Bitboy, PocketGo Pocket Go, PowKiddy Q90/V90/Q20 Mini
+
+| Tipo | SD | Ruta |
+| --- | --- | --- |
+| ROMs | SD | [TODO] |
+| BIOS | SD | [TODO] |
+| Saves | SD | [TODO] |
+| States | SD | [TODO] |
+| Media | — | [TODO] |
+| Gamelist | — | [TODO] |
+
+---
+
+### DrUm78 RGNano
+
+**Hardware:** Cortex-A7 — Anbernic RGNano
+
+Doble interfaz: RetroFE es el lanzador de juegos por defecto (rutas de esta sección); GMenu2X está disponible como interfaz secundaria para utilidades del sistema y reproductor de MP3/vídeo, sin gestionar rutas de ROMs propias.
+
+| Tipo | SD | Ruta |
+| --- | --- | --- |
+| ROMs | SD | `/mnt/{sistema}/` |
+| BIOS | SD | `/mnt/bios/` |
+| Saves | SD | [TODO] |
+| States | SD | [TODO] |
+| Media | SD | `/mnt/{sistema}/previews/` |
+| Gamelist | — | No aplica (RetroFE escanea carpetas y empareja `previews/` por nombre de ROM) |
+
+---
+
 ## OS Retro (SBC / PC)
 
 ### Batocera
@@ -278,9 +311,26 @@ Acceso a los archivos vía red: `\\RECALBOX\share` o SSH en `/recalbox/share/`.
 
 ## Android CFW
 
+### GammaOS Core + ES-DE
+
+**Hardware:** GKD Bubble
+
+GammaOS Core es la base Android. ES-DE se instala como aplicación encima. Las rutas de BIOS dependen del emulador individual.
+
+| Tipo | Ruta |
+| --- | --- |
+| ROMs | `/storage/emulated/0/ROMs/{sistema}/` |
+| BIOS | Por emulador (ver configuración individual) |
+| Saves | Por emulador |
+| States | Por emulador |
+| Media (ES-DE) | `/storage/emulated/0/ES-DE/downloaded_media/{sistema}/` |
+| Gamelist (ES-DE) | `/storage/emulated/0/ES-DE/gamelists/{sistema}/gamelist.xml` |
+
+---
+
 ### GammaOS Next + ES-DE
 
-**Hardware:** GKD Bubble, RGDS
+**Hardware:** RGDS
 
 GammaOS Next es la base Android. ES-DE se instala como aplicación encima. Las rutas de BIOS dependen del emulador individual.
 
@@ -331,6 +381,23 @@ Instalación portable en `C:\`. Las rutas son relativas a la carpeta de instalac
 
 ---
 
+### LineageOS / RetroidOS
+
+**Hardware:** MT6580 — Retroid Pocket 2
+
+Base Android estándar; sin frontend propio (usar Pegasus, ver `docs/guides/apps/pegasus.md`).
+
+| Tipo | Ruta |
+| --- | --- |
+| ROMs | [TODO] |
+| BIOS | Por emulador |
+| Saves | Por emulador |
+| States | Por emulador |
+| Media | [TODO] |
+| Gamelist | [TODO] |
+
+---
+
 ## Pendiente de documentar
 
 | Distribución | Estado |
@@ -339,4 +406,3 @@ Instalación portable en `C:\`. Las rutas son relativas a la carpeta de instalac
 | GarlicOS | [TODO] — estructura TF1 sistema / TF2 ROMs |
 | Koriki ED (H700) | [TODO] — variante H700 de Koriki |
 | Simple30 | [TODO] — SimpleMenu sobre PocketGo S30 |
-| FunKey OS + DrUm78 | [TODO] — ecosistema específico RGNano |

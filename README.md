@@ -19,9 +19,19 @@ Funciona como espacio de trabajo colaborativo con Claude Code.
 | --- | --- |
 | `docs/devices.md` | Inventario de hardware (handhelds, SBCs, tablets) |
 | `docs/systems.md` | Catálogo de sistemas emulados e identificadores canónicos |
+| `docs/romsets.md` | Asociación romset-DAT por sistema |
 | `docs/software.md` | Catálogo de CFW, OS retro, frontends, launchers y herramientas |
 | `docs/distributions.md` | Relación entre dispositivos, software recomendado e instalación real |
-| `docs/system-paths.md` | Rutas de ROMs, BIOS, saves, states y media por CFW (pendiente) |
+| `docs/system-paths.md` | Rutas de ROMs, BIOS, saves, states y media por CFW |
+
+## Guías
+
+| Carpeta | Propósito |
+| --- | --- |
+| `docs/guides/cfw/` | Guías de instalación paso a paso por CFW/OS |
+| `docs/guides/apps/` | Guías de configuración de frontends y emuladores standalone Android |
+| `docs/guides/romsets/` | Workflows de preparación de romsets (cartucho/plano, óptico→CHD, arcade) |
+| `docs/hardware/` | Guías de referencia de hardware auxiliar (flashcarts, etc.) |
 
 ## Arcade y juegos
 
@@ -36,12 +46,13 @@ Funciona como espacio de trabajo colaborativo con Claude Code.
 | --- | --- |
 | `docs/references.md` | Referencia técnica de romsets, DATs, herramientas y conceptos |
 | `decisions/` | Decisiones de diseño del repositorio (ADRs) |
-| `metadata/dat/arcade/` | DATs de FinalBurn Neo y MAME (2000–2016) |
-| `metadata/dat/No-Intro/` | DATs de No-Intro por sistema |
-| `metadata/dat/Non-Redump/` | DATs de Non-Redump por sistema |
-| `metadata/dat/libretro/` | DATs de libretro-database |
+| `metadata/dat/` | DATs por fuente: No-Intro, Redump, Non-Redump, TOSEC, arcade, libretro, etc. |
+| `metadata/dat-index/` | Índice JSON por sistema, generado a partir de `metadata/dat/` |
+| `metadata/sources/` | DATs fuente sin procesar, previos a retool |
 | `metadata/mame/` | DATs y XMLs internos de MAME |
 | `metadata/software-list/` | Software lists XML de MAME |
+| `data/dats/` | Romsets curados por sistema (fullset y 1G1R), generados con retool |
+| `data/roms/` | Estructura final de ROMs lista para desplegar en dispositivos |
 
 ## Herramientas colaborativas
 
@@ -49,8 +60,8 @@ Funciona como espacio de trabajo colaborativo con Claude Code.
 | --- | --- |
 | `prompts/` | Prompts reutilizables para curación y validación |
 | `.claude/` | Configuración y skills para Claude Code |
-| `tools/` | Scripts de validación y mantenimiento (pendiente) |
-| `references/` | Fuentes auxiliares y documentación de soporte |
+| `tools/` | Scripts PowerShell de validación y mantenimiento (indexado de DATs, construcción de romsets) |
+| `references/` | Fuentes auxiliares y documentación de soporte (carpeta reservada) |
 
 ---
 
@@ -61,7 +72,7 @@ Funciona como espacio de trabajo colaborativo con Claude Code.
 | `prompts/arcade_games.md` | Curar una colección Bartop para un sistema dado |
 | `prompts/review-distributions.md` | Revisar y validar `distributions.md` |
 | `prompts/validate-cross-references.md` | Validar consistencia entre documentos |
-| `prompts/generate-system-paths.md` | Generación futura de `system-paths.md` |
+| `prompts/generate-system-paths.md` | Histórico: proceso original de diseño de `system-paths.md` |
 
 ---
 
@@ -71,13 +82,13 @@ Funciona como espacio de trabajo colaborativo con Claude Code.
 | --- | --- |
 | `docs/devices.md` | Estable |
 | `docs/systems.md` | Estable |
+| `docs/romsets.md` | Estable |
 | `docs/software.md` | Estable |
 | `docs/distributions.md` | Estable |
+| `docs/system-paths.md` | Activo |
 | `docs/arcade/arcade.md` | Activo |
-| `docs/games.md` | Activo |
 | `docs/handheld-stick.md` | Activo |
 | `docs/references.md` | Activo |
-| `docs/system-paths.md` | Pendiente de definición |
 
 ---
 

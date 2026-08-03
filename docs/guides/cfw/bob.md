@@ -1,6 +1,6 @@
 # BOB (Best of the Best)
 
-BOB (Best of the Best) es un Custom Firmware (CFW) y una compilación comunitaria altamente optimizada basada en el sistema operativo subyacente MiyooCFW (Linux ligero). Está diseñado específicamente para revitalizar y exprimir el rendimiento de consolas portátiles de bajo coste basadas en el procesador Allwinner F1C100S. Utiliza un frontend GMenuNX personalizado y destaca por incluir emuladores configurados al límite con marcos de salto (frameskip) optimizados, parches de rendimiento y un árbol de directorios pre-estructurado para simplificar la gestión de colecciones de 8 y 16 bits.
+BOB (Best of the Best) es un Custom Firmware (CFW) y una compilación comunitaria altamente optimizada basada en el sistema operativo subyacente MiyooCFW (Linux ligero). Está diseñado específicamente para revitalizar y exprimir el rendimiento de consolas portátiles de bajo coste basadas en el procesador Allwinner F1C100S. Utiliza un frontend GMenu2X personalizado y destaca por incluir emuladores configurados al límite con marcos de salto (frameskip) optimizados, parches de rendimiento y un árbol de directorios pre-estructurado para simplificar la gestión de colecciones de 8 y 16 bits.
 
 ## Dispositivos aplicables
 
@@ -8,7 +8,6 @@ BOB (Best of the Best) es un Custom Firmware (CFW) y una compilación comunitari
 - PowKiddy Q90 (modelo horizontal estilo Nintendo Switch Lite)
 - PowKiddy Q20 Mini (modelo vertical ultra-compacto)
 - PocketGo / BitBoy (versiones originales con pantalla de 2.4 pulgadas)
-- PowKiddy A13 (consola portátil estilo mini recreativa abatible)
 
 ## Tipo de instalación
 
@@ -40,13 +39,13 @@ Imagen flasheada a SD (`.img`), configuración de tarjeta única que aloja tanto
 ## Primer arranque
 
 1. Inserta la MicroSD flasheada en la ranura única de la consola.
-2. Enciende el dispositivo. El sistema carga el kernel de Linux y arranca directamente en la interfaz visual de GMenuNX.
+2. Enciende el dispositivo. El sistema carga el kernel de Linux y arranca directamente en la interfaz visual de GMenu2X.
 3. **Paso de redimensionamiento obligatorio**: en el 90% de las imágenes de BOB, la partición visible de las ROMs viene limitada de fábrica al tamaño mínimo de la imagen original (unos 4GB u 8GB). Si la tarjeta es de 32GB o 64GB, hay que apagar la consola, volver a meter la MicroSD en el PC y abrir gparted en WSL o MiniTool en Windows para extender manualmente el tamaño de la partición FAT32 (etiquetada como `main` o `roms`) hasta el final del espacio libre no asignado.
 
 ## Configuración post-instalación
 
 - **Inyección de colecciones**: transfiere los ROMsets validados a las carpetas específicas de la partición de datos. Si un emulador nativo requiere BIOS (como `gba_bios.bin` para Game Boy Advance), esta debe colocarse obligatoriamente en el directorio interno del emulador asignado por el CFW (ej. `/gmenu2x/roms/bios/` o dentro de la subcarpeta oculta de configuración de la aplicación en `/home/`).
-- **Tratamiento de carátulas (previews)**: GMenuNX en BOB busca imágenes en formato `.png` de baja resolución (tamaño óptimo estricto de 160x120 o ancho máximo de 320x240 píxeles) alojadas en una subcarpeta llamada `previews` dentro de la ruta de cada emulador. Los nombres de las imágenes deben ser 100% idénticos al de la ROM.
+- **Tratamiento de carátulas (previews)**: GMenu2X en BOB busca imágenes en formato `.png` de baja resolución (tamaño óptimo estricto de 160x120 o ancho máximo de 320x240 píxeles) alojadas en una subcarpeta llamada `previews` dentro de la ruta de cada emulador. Los nombres de las imágenes deben ser 100% idénticos al de la ROM.
 
 ## Notas
 

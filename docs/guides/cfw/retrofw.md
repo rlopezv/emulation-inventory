@@ -1,6 +1,6 @@
 # RetroFW
 
-RetroFW es un Custom Firmware (CFW) ligero y de código abierto basado en una distribución compacta de Linux para consolas portátiles retro equipadas con procesadores MIPS (como el JZ4760). Utiliza un frontend modular y directo (habitualmente GMenuNX o variantes minimalistas de SimpleMenu) diseñado para maximizar la memoria RAM disponible. Destaca por revivir hardware antiguo gracias a la optimización de sus emuladores en formato empaquetado `.opk`, logrando ejecutar de forma fluida sistemas desde los 8 bits hasta los 16 bits avanzados y PlayStation 1 de forma nativa.
+RetroFW es un Custom Firmware (CFW) ligero y de código abierto basado en una distribución compacta de Linux para consolas portátiles retro equipadas con procesadores MIPS (como el JZ4760). Utiliza un frontend modular y directo (habitualmente GMenu2X o variantes minimalistas de SimpleMenu) diseñado para maximizar la memoria RAM disponible. Destaca por revivir hardware antiguo gracias a la optimización de sus emuladores en formato empaquetado `.opk`, logrando ejecutar de forma fluida sistemas desde los 8 bits hasta los 16 bits avanzados y PlayStation 1 de forma nativa.
 
 ## Dispositivos aplicables
 
@@ -45,9 +45,9 @@ Imagen flasheada a SD (`.img`), instalación limpia de fábrica en la MicroSD de
 
 ## Configuración post-instalación
 
-- **Volcado de emuladores (`.opk`)**: en RetroFW, los emuladores se instalan como aplicaciones autónomas. Hay que arrastrar los archivos `.opk` de los emuladores descargados dentro de la carpeta `/apps/` de la MicroSD para que el frontend GMenuNX los reconozca.
+- **Volcado de emuladores (`.opk`)**: en RetroFW, los emuladores se instalan como aplicaciones autónomas. Hay que arrastrar los archivos `.opk` de los emuladores descargados dentro de la carpeta `/apps/` de la MicroSD para que el frontend GMenu2X los reconozca.
 - **Estructura de ROMs**: transfiere las colecciones de juegos validadas a las subcarpetas creadas dentro de `/roms/`. Las BIOS obligatorias (como `scph1001.bin` para PS1) deben colocarse dentro de la carpeta oculta de configuración de cada emulador nativo (ej. `/home/retrofw/.pcsx4all/bios/`), nunca en la raíz de las ROMs.
-- **Tratamiento de carátulas (previews)**: GMenuNX busca las imágenes en formato `.png` de tamaño ultra-reducido (generalmente un ancho máximo de 160 o 320 píxeles para evitar saturar la memoria RAM) dentro de una carpeta llamada `previews` dentro del directorio del emulador. Su nomenclatura debe coincidir byte por byte con el nombre del archivo de la ROM.
+- **Tratamiento de carátulas (previews)**: GMenu2X busca las imágenes en formato `.png` de tamaño ultra-reducido (generalmente un ancho máximo de 160 o 320 píxeles para evitar saturar la memoria RAM) dentro de una carpeta llamada `previews` dentro del directorio del emulador. Su nomenclatura debe coincidir byte por byte con el nombre del archivo de la ROM.
 
 ## Notas
 
@@ -56,4 +56,4 @@ Imagen flasheada a SD (`.img`), instalación limpia de fábrica en la MicroSD de
   - `gngeo`: emulador nativo optimizado exclusivamente para Neo-Geo SNK. Requiere las ROMs del set MAME antiguo y el archivo de BIOS `neogeo.zip` adaptado a esa misma versión dentro de la carpeta de ROMs.
   - `xmame 2.0` (Alpha): versión experimental para ciertos títulos arcade que no rinden en `mame4all`. Utiliza una estructura de romset mixta entre MAME 0.52 y MAME 0.60.
 - **Optimización para PlayStation 1**: el emulador nativo PCSX4All integrado en RetroFW está optimizado para leer el formato comprimido CHD (v5). Convertir las ISOs/BIN de PS1 a CHD reduce drásticamente los tiempos de lectura del bus MicroSD y garantiza que juegos pesados funcionen a 60 FPS estables con frameskip automático.
-- **Gestión 1G1R obligatoria**: la memoria RAM libre en estos dispositivos suele oscilar entre 32MB y 64MB. Cargar una carpeta con más de 1000 ROMs (como un full-set americano de NES o Genesis) congela el frontend GMenuNX al intentar renderizar la lista. Pasar los DATs por un filtro 1G1R estricto con herramientas como retool para dejar subsets de no más de 200-300 juegos esenciales por sistema es una necesidad técnica crítica en este firmware.
+- **Gestión 1G1R obligatoria**: la memoria RAM libre en estos dispositivos suele oscilar entre 32MB y 64MB. Cargar una carpeta con más de 1000 ROMs (como un full-set americano de NES o Genesis) congela el frontend GMenu2X al intentar renderizar la lista. Pasar los DATs por un filtro 1G1R estricto con herramientas como retool para dejar subsets de no más de 200-300 juegos esenciales por sistema es una necesidad técnica crítica en este firmware.

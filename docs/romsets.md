@@ -89,6 +89,7 @@ La columna **Formato** indica el formato de fichero del DAT, necesario para sabe
 | `xbox360` | Non-Redump | XML (Logiqx) | `Non-Redump - Microsoft - Xbox 360 (20251219-035655).dat` | — | — | [TODO] | [TODO] | Pendiente DAT Redump |
 | `gx4000` | TOSEC | XML (Logiqx, TOSEC) | `Amstrad GX4000 - Games (TOSEC-v2025-01-15_CM).dat` | — | — | [TODO] | [TODO] | Set predominantemente homebrew (2018-2024); catálogo comercial original de GX4000 es muy reducido |
 | `neogeocd` | Redump | XML (Logiqx, sin cloneofid) | `SNK - Neo Geo CD - Datfile (111) (2026-05-06 12-21-03).dat` | — | `metadata/software-list/neocd.xml` | [TODO] | [TODO] | DAT alternativo es software list de MAME (CHD), no un DAT de romset |
+| `neogeo` | libretro / FBN | ClrMamePro (texto) | `SNK - Neo Geo.dat` | — | — | [TODO] | [TODO] | AES y MVS comparten romset; mismo DAT que en la sección Arcade |
 
 ## Arcade
 

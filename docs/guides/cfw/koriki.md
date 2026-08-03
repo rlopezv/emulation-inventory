@@ -1,11 +1,13 @@
-# Koriki
+# Koriki BOM
 
-Koriki es un Custom Firmware (CFW) de código abierto y alto rendimiento diseñado originalmente como una capa de optimización para el frontend SimpleMenu sobre sistemas portátiles económicos. Destaca técnicamente por sustituir el entorno gráfico pesado por un servidor de pantalla optimizado y controladores que reducen la latencia de entrada (input lag). Su arquitectura permite exprimir los procesadores ARM de doble núcleo modestos, logrando ejecutar de forma fluida juegos de consolas de 8 y 16 bits avanzados, Arcade y PlayStation 1 utilizando núcleos dedicados de RetroArch optimizados para el consumo mínimo de memoria caché.
+Koriki BOM es un Custom Firmware (CFW) de código abierto y alto rendimiento diseñado originalmente como una capa de optimización para el frontend SimpleMenu sobre sistemas portátiles económicos. Destaca técnicamente por sustituir el entorno gráfico pesado por un servidor de pantalla optimizado y controladores que reducen la latencia de entrada (input lag). Su arquitectura permite exprimir los procesadores ARM de doble núcleo modestos, logrando ejecutar de forma fluida juegos de consolas de 8 y 16 bits avanzados, Arcade y PlayStation 1 utilizando núcleos dedicados de RetroArch optimizados para el consumo mínimo de memoria caché.
 
 ## Dispositivos aplicables
 
 - Miyoo Mini (v1, v2, v3, v4)
 - Miyoo Mini Plus (Miyoo Mini +)
+- Miyoo Mini Flip
+- Miyoo Flip
 - Anbernic RG35XX original (variante base, según `docs/software.md`)
 - Nota: existen adaptaciones comunitarias de la rama principal de Koriki para consolas de chasis vertical y horizontal basadas en el procesador SigmaStar SSD202D.
 - Variante **Koriki ED**: adaptación de Koriki a la familia H700, compatible con Anbernic RG35XX Plus, RG35XXH, RG28XX y RG34XX (según `docs/software.md`).

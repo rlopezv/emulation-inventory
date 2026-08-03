@@ -53,7 +53,7 @@
 | Golden Axe: The Duel                           | Fighting                       |    B |      S |   H   |  6B   |   2P    | ST-V; conserva valor arcade.                                                    |
 | Gradius Deluxe Pack                            | Shoot'em up horizontal         |    S |      S |   H   |  2B   |   2P    | Pack Konami imprescindible.                                                     |
 | Groove on Fight                                | Fighting                       |    B |      S |   H   |  6B   |   2P    | Power Instinct en Saturn, buen versus.                                 |
-| Guardian Heroes                                | Beat'em up / acción            |    S |      A |   H   |  2B   |   6P    | Beat'em up cooperativo imprescindible.                                          |
+| Guardian Heroes                                | Beat'em up / acción            |    S |      A |   H   |  2B   |   4P+   | Beat'em up cooperativo imprescindible. Hasta 6P con multitap.                                          |
 | Gunbird                                        | Shoot'em up vertical           |    A |      S |   V   |  2B   |   2P    | Psikyo; muy adecuado.                                                           |
 | Hang-On GP '95                                 | Carreras arcade                |    B |      A |   H   | WHEEL |   2P    | Racer Sega de rotación.                                                |
 | Herc's Adventures                              | Acción arcade                  |    B |      A |   H   |  2B   |   2P    | Acción cooperativa accesible.                                          |
@@ -88,7 +88,7 @@
 | Salamander Deluxe Pack Plus                    | Shoot'em up                    |    S |      S |  HV   |  2B   |   2P    | Pack Konami imprescindible.                                                     |
 | Samurai Shodown III: Blades of Blood           | Fighting                       |    B |      S |   H   |  6B   |   2P    | SNK; válido aunque IV es preferible.                                            |
 | Samurai Shodown IV: Amakusa's Revenge          | Fighting                       |    A |      S |   H   |  6B   |   2P    | Mejor opción Samurai Shodown en Saturn.                                         |
-| Saturn Bomberman                               | Party / maze arcade            |    S |      A |   H   |  2B   |   10P   | Imprescindible multijugador.                                           |
+| Saturn Bomberman                               | Party / maze arcade            |    S |      A |   H   |  2B   |   4P+   | Imprescindible multijugador. Hasta 10P con multitap.                                           |
 | Sega Ages: Fantasy Zone                        | Cute'em up horizontal          |    A |      S |   H   |  2B   |   1P    | Arcade Sega clásico.                                                   |
 | Sega Rally Championship                        | Carreras arcade                |    S |      A |   H   | WHEEL |   2P    | Racer Sega imprescindible.                                                      |
 | Sega Touring Car Championship                  | Carreras arcade                |    B |      A |   H   | WHEEL |   2P    | Racer Sega de rotación.                                                |
