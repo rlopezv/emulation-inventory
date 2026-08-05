@@ -2,7 +2,7 @@
 
 Asociación entre los sistemas de `docs/systems.md` y los DATs disponibles en `metadata/dat/`. Los identificadores canónicos usados aquí deben coincidir siempre con los definidos en `docs/systems.md`; este fichero no redefine sistemas, solo documenta sus fuentes de romset.
 
-El nombre de DAT es relativo a la subcarpeta de su fuente (`No-Intro/`, `Non-Redump/`, `Redump/`, `TOSEC/`, `arcade/`, `libretro/`).
+El nombre de DAT es relativo a la subcarpeta de su fuente (`No-Intro/`, `Non-Redump/`, `Redump/`, `TOSEC/`, `arcade/`, `libretro/`,`hyperspin/`,`custom/`).
 
 Para sistemas ópticos existen dos flujos de verificación según el formato del romset:
 

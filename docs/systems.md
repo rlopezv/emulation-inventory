@@ -14,8 +14,10 @@ Los DATs usados para verificación y curación de romsets están en `metadata/da
 | `metadata/dat/Non-Redump/` | DATs de Non-Redump para sistemas ópticos (contenido que Redump no cubre oficialmente: prototipos, betas, demos) |
 | `metadata/dat/Redump/` | DATs de Redump (redump.org) para el catálogo retail real de sistemas ópticos |
 | `metadata/dat/arcade/` | DATs de FinalBurn Neo y MAME (2000, 2003, 2003-plus, 2010, 2015, 2016) |
+| `metadata/dat/hyperspin/` | DATs de Hyperspin |
 | `metadata/dat/libretro/` | DATs de libretro-database |
 | `metadata/dat/TOSEC/` | DATs de TOSEC (tosecdev.org), sobre todo microcomputadoras y sistemas de nicho |
+| `metadata/dat/custom/` | DATs propios |
 
 La asociación entre sistemas y DATs concretos se documenta en `docs/romsets.md`.
 
