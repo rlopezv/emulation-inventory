@@ -6,7 +6,23 @@ Flujo completo de procesamiento de un romset desde el DAT de origen hasta su des
 
 ## 1. Obtención del DAT
 
-[TODO]
+Punto de partida de todo el flujo: sin el DAT correcto no se puede auditar, filtrar ni renombrar nada. La fuente y el DAT concreto por sistema están fijados en `docs/romsets.md`; aquí se documenta dónde conseguirlos y con qué herramienta.
+
+**No-Intro** (cartuchos, handhelds, la mayoría de microcomputers) — descarga manual desde el portal **DAT-o-MATIC** (datomatic.no-intro.org), la fuente oficial del grupo. Elegir el esquema Parent-Clone (P/C) si se va a aplicar 1G1R después (ver paso 3). Requiere cuenta gratuita del portal.
+
+**Redump** (sistemas ópticos: PSX, PS2, Saturn, Dreamcast, GameCube, Wii, PC Engine CD, Sega CD, 3DO, Jaguar CD, Amiga CD32/CDTV, Neo Geo CD) — descarga manual desde **redump.org**, sección Datfiles de cada sistema.
+
+**Non-Redump** — usar solo como fuente alternativa cuando `docs/romsets.md` lo indica (prototipos/betas no aceptados por Redump, o sistemas sin DAT Redump todavía como PS3/PSP/Xbox 360). Repositorio comunitario en GitHub (ver enlace por sistema en `docs/romsets.md`).
+
+**TOSEC** — descarga del set completo (todas las plataformas en un único paquete) desde **tosec.org**; extraer solo el/los DAT del sistema necesario. Útil para microcomputers sin cobertura No-Intro (ej. `gx4000`).
+
+**MAME / FBNeo (arcade)** — el DAT de MAME se genera localmente con `mame -listxml > mame.xml` desde el propio ejecutable (no se descarga como fichero suelto); FBNeo se obtiene del repositorio oficial en GitHub o se genera igual que MAME con el volcado XML integrado del emulador. Ver `docs/references.md#dats` para el detalle de qué sistemas cubre cada uno.
+
+**libretro (ClrMamePro texto)** — DATs mantenidos en el repositorio `libretro-database` de GitHub; usados para sistemas sin cobertura adecuada en las fuentes anteriores (ej. `spectrum`, `zx81`, `scummvm`, `dos`). Formato de texto plano, no XML — requiere parser distinto (ver `docs/romsets.md#formato-de-dat`).
+
+Herramienta de manipulación de DAT en sí (convertir, mezclar, dividir ficheros DAT, no romsets): **SabreTools** (CLI) o **SabreToolsStudio** (interfaz gráfica).
+
+Una vez descargado, el DAT se coloca en `metadata/dat/<Fuente>/` (o `metadata/sources/` si es un DAT crudo previo a retool) para que `tools/scripts/build-dat-index-*.ps1` pueda indexarlo — ver `docs/guides/romsets/custom-pipeline.md`.
 
 ## 2. Auditoría contra DAT
 

@@ -38,3 +38,6 @@ Cada guía declara en su sección "Tipo de instalación" cuál de estos tres mé
 | OnionOS | Miyoo Mini, Miyoo Mini Plus | [onionos.md](onionos.md) |
 | GarlicOS | Anbernic RG35XX (Original) | [garlicos.md](garlicos.md) |
 | EmuELEC | TV Boxes (Amlogic S905/S912), Super Console X, Game Sticks | [emuelec.md](emuelec.md) |
+| RogueOS | GKD Pixel 2 | [rogueos.md](rogueos.md) |
+| twigUI | GKD Pixel 2 | [twigui.md](twigui.md) |
+| plumOS (build GKD Pixel 2) | GKD Pixel 2 | [plumos-pixel2.md](plumos-pixel2.md) |

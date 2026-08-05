@@ -70,6 +70,8 @@ Funciona como espacio de trabajo colaborativo con Claude Code.
 | Prompt | Propósito |
 | --- | --- |
 | `prompts/arcade_games.md` | Curar una colección Bartop para un sistema dado |
+| `prompts/device_research.md` | Investigar specs de hardware de un dispositivo para `devices.md` |
+| `prompts/distribution_research.md` | Investigar recomendación de CFW/frontend de un dispositivo para `distributions.md` |
 | `prompts/review-distributions.md` | Revisar y validar `distributions.md` |
 | `prompts/validate-cross-references.md` | Validar consistencia entre documentos |
 | `prompts/generate-system-paths.md` | Histórico: proceso original de diseño de `system-paths.md` |

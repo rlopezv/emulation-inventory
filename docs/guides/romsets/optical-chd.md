@@ -8,7 +8,7 @@ Aplica a sistemas ópticos verificados con DAT Redump (o Non-Redump para protos/
 
 [TODO]
 
-## Verificación contra DAT Non-Redump
+## Verificación contra DAT Redump
 
 Cuando un CHD tiene el nombre de archivo incorrecto o metadatos alterados, no se puede confiar en el nombre: hay que leer el hash interno (SHA-1) del CHD y de la ROM asociada, cruzarlo contra el DAT oficial (Redump o Non-Redump) y renombrar/reestructurar la colección a partir de esa firma real, no del nombre de fichero.
 

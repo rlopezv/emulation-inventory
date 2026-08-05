@@ -70,6 +70,7 @@ Configuración normalizada de almacenamiento:
 | Anbernic | RG350 | Ingenic JZ4770 | 512 MB | 3.5" | 320x240 | 4:3 | Horizontal | 2019 | Alta | TF1 + TF2 | docs/imgs/RG350.png |
 | Retrogame | RS97 | Ingenic JZ4760B | 128 MB | 3.0" | 480x320 | 3:2 | Horizontal | 2017 | Baja | TF Interna + TF1 | docs/imgs/RS97.png |
 | PocketGo | PocketGo2 V1 | Ingenic JZ4770 | 512 MB | 3.5" | 320x240 | 4:3 | Horizontal | 2019 | Media | TF1 + TF2 | docs/imgs/PocketGo2V1.png |
+| Retroflag | GPi Case (2019) | Broadcom BCM2835 (1x ARM11 @ 1.0 GHz) | 512 MB LPDDR2 | 2.8" | 320x240 | 4:3 | Vertical | 2019 | Muy alta | TF1 | docs/imgs/RetroflagGPiCase.png |
 | PowKiddy | Q90 | Allwinner F1C100S/F1C500S | 32 MB | 3.0" | 320x240 | 4:3 | Horizontal | 2020 | Media | TF1 | docs/imgs/Q90.png |
 | Hardkernel | Odroid-Go-Advance | Rockchip RK3326 | 1 GB | 3.5" | 480x320 | 3:2 | Horizontal | 2020 | Alta | TF1 | docs/imgs/OdroidGoAdvance.png |
 | PowKiddy | V90 | Allwinner F1C100S/F1C500S | 32 MB | 2.8" | 320x240 | 4:3 | Clamshell horizontal | 2020 | Media | TF1 | docs/imgs/V90.png |
@@ -117,6 +118,7 @@ Configuración normalizada de almacenamiento:
 | Miyoo | Miyoo Mini Flip | SigmaStar SSD202D / dual-core Cortex-A7 1.2 GHz | 128 MB | 2.8" IPS | 750x560 | 4:3 aprox. | Clamshell horizontal | 2025/2026 | Media-Alta | TF1 | docs/imgs/MiyooMiniFlip.png |
 | Miyoo | Miyoo Flip | Rockchip RK3566 | 1 GB | 3.5" | 640x480 | 4:3 | Clamshell horizontal | 2025 | Media | TF1 + TF2 | docs/imgs/MiyooFlip.png |
 | Anbernic | RGDS | Rockchip RK3568 | 3 GB | 2x4.0" | 640x480 cada pantalla | 4:3 | Dual-screen clamshell | 2025 | Alta | TF1 + TF2 | docs/imgs/RGDS.png |
+| GKD | Pixel 2 | Rockchip RK3326S (4x Cortex-A35 @ 1.5 GHz) | 1 GB DDR3 | 2.4" | 640x480 | 4:3 | Vertical | 2025 | Muy alta | TF1 | docs/imgs/GKDPixel2.png |
 | AYN | Odin 2 Portal (Base) | Snapdragon 8 Gen 2 | 8 GB | 7.0" AMOLED | 1920x1080 | 16:9 | Horizontal | 2024/2025 | Alta | Interna ([TODO] GB) + TF1 | docs/imgs/OdinPortal.png |
 | PowKiddy | X18 | MediaTek MT8176 / MTK8176 | 4 GB | 5.5" | 1280x720 | 16:9 | Clamshell horizontal Android | 2018/2019 | Media-Alta | Interna ([TODO] GB) + TF1 | docs/imgs/X18.png |
 | GPD | Win | Intel Atom x7-Z8750 | 4 GB | 5.5" | 1280x720 | 16:9 | Clamshell horizontal Windows | 2016 | Muy alta | Interna (64 GB) + TF1 | docs/imgs/GPDWin.png |

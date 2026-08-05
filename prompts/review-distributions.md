@@ -9,4 +9,4 @@ Revisa `docs/distributions.md` aplicando estas reglas:
 5. Usa `Desconocido` para instalación real no confirmada.
 6. No añadas resumen ejecutivo ni tareas pendientes.
 7. Conserva Koriki como alternativa relevante cuando aplique.
-8. No trates RG35XX original como familia H700 moderna.
+8. No trates RG35XX original como familia H700 moderna.asd

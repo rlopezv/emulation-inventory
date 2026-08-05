@@ -2,7 +2,7 @@
 
 [TODO: descripción breve]
 
-Aplica a consolas de cartucho, handhelds y microcomputers verificados con DAT No-Intro (ver `docs/romsets.md`).
+Aplica a consolas de cartucho, handhelds y la mayoría de microcomputers verificados con DAT No-Intro. Algunos microcomputers usan otras fuentes (`spectrum`/`zx81` vía libretro ClrMamePro, `sharpx68000` vía Non-Redump); ver la fuente exacta por sistema en `docs/romsets.md`.
 
 ## Fuente
 
