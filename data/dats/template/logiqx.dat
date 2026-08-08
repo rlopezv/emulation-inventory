@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE datafile PUBLIC "-//Logiqx//DTD ROM Management Tool//EN" "http://logiqx.com">
+<datafile>
+    <header>
+        <name>Plantilla Logiqx</name>
+        <description>Perfil para forzar el formato de consolas</description>
+    </header>
+</datafile>

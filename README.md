@@ -20,7 +20,8 @@ Funciona como espacio de trabajo colaborativo con Claude Code.
 | `docs/devices.md` | Inventario de hardware (handhelds, SBCs, tablets) |
 | `docs/systems.md` | Catálogo de sistemas emulados e identificadores canónicos |
 | `docs/romsets.md` | Asociación romset-DAT por sistema |
-| `docs/software.md` | Catálogo de CFW, OS retro, frontends, launchers y herramientas |
+| `docs/software.md` | Catálogo de CFW, OS retro, frontends y launchers (software instalado en dispositivo) |
+| `docs/tools.md` | Catálogo de herramientas de PC para gestión de romsets/DATs |
 | `docs/distributions.md` | Relación entre dispositivos, software recomendado e instalación real |
 | `docs/system-paths.md` | Rutas de ROMs, BIOS, saves, states y media por CFW |
 
@@ -44,7 +45,7 @@ Funciona como espacio de trabajo colaborativo con Claude Code.
 
 | Fichero | Propósito |
 | --- | --- |
-| `docs/references.md` | Referencia técnica de romsets, DATs, herramientas y conceptos |
+| `docs/references.md` | Referencia técnica de romsets, DATs y conceptos |
 | `decisions/` | Decisiones de diseño del repositorio (ADRs) |
 | `metadata/dat/` | DATs por fuente: No-Intro, Redump, Non-Redump, TOSEC, arcade, libretro, etc. |
 | `metadata/dat-index/` | Índice JSON por sistema, generado a partir de `metadata/dat/` |
@@ -86,6 +87,7 @@ Funciona como espacio de trabajo colaborativo con Claude Code.
 | `docs/systems.md` | Estable |
 | `docs/romsets.md` | Estable |
 | `docs/software.md` | Estable |
+| `docs/tools.md` | Estable |
 | `docs/distributions.md` | Estable |
 | `docs/system-paths.md` | Activo |
 | `docs/arcade/arcade.md` | Activo |
