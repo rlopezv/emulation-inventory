@@ -31,22 +31,22 @@ La columna **Formato** indica el formato de fichero del DAT, necesario para sabe
 | `gameandwatch` | libretro | ClrMamePro (texto) | `Handheld Electronic Game.dat` | — | — | [TODO] | [TODO] | Cubre "Handheld Electronic Game" en general (Nintendo, Mattel, VTech, Tiger...), no solo Nintendo Game & Watch; fuera del alcance de build-dat-index-nointro.ps1 por formato |
 | `atari2600` | No-Intro | XML (Logiqx) | `Atari - Atari 2600 (20260428-103934).dat` | — | — | [TODO] | [TODO] | |
 | `atari5200` | No-Intro | XML (Logiqx) | `Atari - Atari 5200 (20260412-121350).dat` | — | — | [TODO] | [TODO] | Requiere BIOS `5200.rom` |
-| `atari7800` | No-Intro | XML (Logiqx) | `Atari - Atari 7800 (BIN) (20260504-112425).dat` | — | — | [TODO] | [TODO] | También disponible variante sin BIN |
+| `atari7800` | No-Intro | XML (Logiqx) | `Atari - Atari 7800 (BIN) (20260504-112425).dat` | — | — | [TODO] | [TODO] | BIN = headerless; también disponible variante A78 (headered, 128 bytes) — ver `docs/references.md#caso-especial--headered-vs-headerless-nes-snes-atari-7800-atari-lynx-fds` |
 | `astrocade` | No-Intro | XML (Logiqx) | `Bally - Astrocade (20220411-220423).dat` | — | — | [TODO] | [TODO] | |
 | `vectrex` | No-Intro | XML (Logiqx) | `GCE - Vectrex (20251117-141044).dat` | — | — | [TODO] | [TODO] | |
 | `odyssey2` | No-Intro | XML (Logiqx) | `Magnavox - Odyssey 2 (20250723-151315).dat` | — | — | [TODO] | [TODO] | |
 | `intellivision` | No-Intro | XML (Logiqx) | `Mattel - Intellivision (20260304-102057).dat` | — | — | [TODO] | [TODO] | Requiere BIOS `grom.bin`, `exec.bin` |
-| `nes` | No-Intro | XML (Logiqx) | `Nintendo - Nintendo Entertainment System (Headered) (20260504-103615).dat` | — | — | [TODO] | [TODO] | También disponible versión Headerless |
-| `fds` | No-Intro | XML (Logiqx) | `Nintendo - Family Computer Disk System (FDS) (20260317-004812).dat` | — | — | [TODO] | [TODO] | |
+| `nes` | No-Intro | XML (Logiqx) | `Nintendo - Nintendo Entertainment System (Headered) (20260504-103615).dat` | — | — | [TODO] | [TODO] | Headered (iNES, 16 bytes); también disponible versión Headerless — ver `docs/references.md#caso-especial--headered-vs-headerless-nes-snes-atari-7800-atari-lynx-fds`. Motivo: sin cabecera, el Mapper del cartucho solo puede inferirse por base de datos de hashes (fiable para el catálogo oficial licenciado, no siempre para cartuchos homebrew/pirata/no oficiales con mappers no estándar); la cabecera lo garantiza en todos los casos. Comparado el DAT real: Headered tiene 4502 entradas, Headerless 4506 (4 más: 3 multicarts pirata + BIOS Game Genie) — la diferencia de cobertura no es la causa |
+| `fds` | No-Intro | XML (Logiqx) | `Nintendo - Family Computer Disk System (FDS) (20260317-004812).dat` | — | — | [TODO] | [TODO] | FDS = formato de imagen de disco raw estándar; también disponible variante QD (QuickDisk, distinto del caso headered/headerless — ver `metadata/dat/No-Intro/`) |
 | `satellaview` | No-Intro | XML (Logiqx) | `Nintendo - Satellaview (20260322-134432).dat` | — | — | [TODO] | [TODO] | |
 | `sufami` | No-Intro | XML (Logiqx) | `Nintendo - Sufami Turbo (20240622-035607).dat` | — | — | [TODO] | [TODO] | |
 | `sgb` | — | — | — | — | — | [TODO] | [TODO] | Sin DAT específico; usa ROMs de `gb`/`gbc` ejecutadas en modo Super Game Boy |
-| `snes` | No-Intro | XML (Logiqx) | `Nintendo - Super Nintendo Entertainment System (20260505-202641).dat` | — | — | [TODO] | [TODO] | |
+| `snes` | No-Intro | XML (Logiqx) | `Nintendo - Super Nintendo Entertainment System (20260505-202641).dat` | — | — | [TODO] | [TODO] | Sin etiqueta en el nombre = headerless (`.sfc`); No-Intro no publica variante Headered/SMC por separado en el catálogo actual — ver `docs/references.md#caso-especial--headered-vs-headerless-nes-snes-atari-7800-atari-lynx-fds` |
 | `gb` | No-Intro | XML (Logiqx) | `Nintendo - Game Boy (20260501-055403).dat` | — | — | [TODO] | [TODO] | |
 | `gbc` | No-Intro | XML (Logiqx) | `Nintendo - Game Boy Color (20260505-192202).dat` | — | — | [TODO] | [TODO] | |
 | `gba` | No-Intro | XML (Logiqx) | `Nintendo - Game Boy Advance (20260503-202332).dat` | — | — | [TODO] | [TODO] | |
 | `virtualboy` | No-Intro | XML (Logiqx) | `Nintendo - Virtual Boy (20260428-015207).dat` | — | — | [TODO] | [TODO] | |
-| `n64` | No-Intro | XML (Logiqx) | `Nintendo - Nintendo 64 (BigEndian) (20260505-135821).dat` | — | — | [TODO] | [TODO] | También disponible ByteSwapped |
+| `n64` | No-Intro | XML (Logiqx) | `Nintendo - Nintendo 64 (BigEndian) (20260505-135821).dat` | — | — | [TODO] | [TODO] | BigEndian (`.z64`, formato nativo del cartucho); también disponible ByteSwapped (`.v64`) — ver `docs/references.md#caso-especial--nintendo-64-orden-de-bytes-byte-order` |
 | `64dd` | No-Intro | XML (Logiqx) | `Nintendo - Nintendo 64DD (20260221-121754).dat` | — | — | [TODO] | [TODO] | |
 | `pokemini` | No-Intro | XML (Logiqx) | `Nintendo - Pokemon Mini (20250407-153358).dat` | — | — | [TODO] | [TODO] | |
 | `nds` | No-Intro | XML (Logiqx) | `Nintendo - Nintendo DS (Decrypted) (20260504-004312).dat` | — | — | [TODO] | [TODO] | También disponible Encrypted |
@@ -73,7 +73,7 @@ La columna **Formato** indica el formato de fichero del DAT, necesario para sabe
 | `pspminis` | No-Intro | XML (Logiqx) | `Sony - PlayStation Portable (PSN) (Minis) (Decrypted) (20251222-175857).dat` | — | — | [TODO] | [TODO] | Contenido digital PSN, subconjunto independiente del catálogo retail de `psp` |
 | `psn` | No-Intro | XML (Logiqx) | `Sony - PlayStation Portable (PSN) (Decrypted) (20260415-170329).dat` | — | — | [TODO] | [TODO] | Catálogo digital PSN completo de PSP (distinto de `psp` físico UMD y de `pspminis`) |
 | `psvita` | — | — | — | — | — | [TODO] | [TODO] | Sin DAT standalone identificado |
-| `lynx` | No-Intro | XML (Logiqx) | `Atari - Atari Lynx (LYX) (20251222-090626).dat` | — | — | [TODO] | [TODO] | Catálogo comercial completo (127 entradas); variante LNX solo cubre 12 (mayormente Unl/Pirate), también disponible variante BLL |
+| `lynx` | No-Intro | XML (Logiqx) | `Atari - Atari Lynx (LYX) (20251222-090626).dat` | — | — | [TODO] | [TODO] | LYX = headerless, catálogo comercial completo (127 entradas); LNX = headered (64 bytes), solo cubre 12 (mayormente Unl/Pirate) — ver `docs/references.md#caso-especial--headered-vs-headerless-nes-snes-atari-7800-atari-lynx-fds`; también disponible variante BLL (no cubierta ahí) |
 | `jaguar` | No-Intro | XML (Logiqx) | `Atari - Atari Jaguar (J64) (20250208-164242).dat` | — | — | [TODO] | [TODO] | Formato del romset real del usuario. ABS/COF vacíos, JAG solo 1 entrada, ROM tiene el mismo catálogo de juegos que J64 (J64 añade 5 BIOS ya descartados) |
 | `jaguarcd` | Redump | XML (Logiqx, sin cloneofid) | `Atari - Jaguar CD Interactive Multimedia System - Datfile (38) (2026-04-03 15-50-49).dat` | Non-Redump | `Non-Redump - Atari - Atari Jaguar CD (20260410-142305).dat` | [TODO] | [TODO] | Non-Redump solo cubre protos/betas |
 | `pcengine` | No-Intro | XML (Logiqx) | `NEC - PC Engine - TurboGrafx-16 (20260124-120557).dat` | — | — | [TODO] | [TODO] | |

@@ -141,6 +141,32 @@ Flags principales:
 
 No existe una etiqueta de "buen volcado" (como el `[!]` de TOSEC): al ser una base de datos de preservación limpia, que un juego esté en el catálogo ya garantiza implícitamente que es un clon exacto y perfecto de la memoria del chip original.
 
+##### Caso especial — Nintendo 64: orden de bytes (byte order)
+
+Un mismo cartucho de N64 se puede volcar en tres variantes de orden de bytes, todas con idéntico contenido pero distinto hash:
+
+| Extensión | Orden de bytes | Notas |
+| --- | --- | --- |
+| `.z64` | Big Endian | Formato nativo del cartucho real; el que usa No-Intro como estándar de auditoría |
+| `.v64` | Byte Swapped | Formato histórico de dispositivos como el Doctor V64 |
+| `.n64` | Little Endian | Variante menos común |
+
+Los primeros 4 bytes del ROM son un "magic number" (`80 37 12 40` en big-endian correcto) que sirve para detectar y corregir el orden de bytes si no coincide. No-Intro cambió su romset de Byte Swapped a Big Endian; el DAT actual solo referencia hashes en `.z64` — un volcado en `.v64`/`.n64` no auditará correctamente contra el DAT sin convertirlo antes al orden de bytes esperado.
+
+##### Caso especial — Headered vs. Headerless (NES, SNES, Atari 7800, Atari Lynx, FDS)
+
+Bloque extra de bytes **prepuesto** al volcado real del cartucho por los copiadores/adaptadores de la época (o por convenciones de emulador posteriores), para guardar metadatos de emulación (mapper, mirroring, tamaño de RAM...) que el propio cartucho original no contiene. No forma parte del contenido original — es un añadido externo, a diferencia del caso de N64 de arriba, donde el "problema" es solo el orden de los bytes del contenido real.
+
+| Sistema | Formato de cabecera | Tamaño | Extensión con cabecera | Extensión sin cabecera |
+| --- | --- | --- | --- | --- |
+| NES | iNES / NES 2.0 | 16 bytes | `.nes` | `.nes` (mismo, sin bloque inicial) |
+| SNES | SMC (copier header) | 512 bytes | `.smc` | `.sfc` |
+| Famicom Disk System | fwNES/FDS | 16 bytes | `.fds` | `.fds` (mismo, sin bloque inicial) |
+| Atari 7800 | A78 | 128 bytes | `.a78` | `.a78` (mismo, sin bloque inicial) |
+| Atari Lynx | LNX | 64 bytes | `.lnx` | `.lyx` |
+
+No-Intro publica DAT **Headered** y **Headerless** por separado para los sistemas donde aplica (NES es el caso más citado); el SNES headerless (`.sfc`, sin cabecera SMC) es el predominante en el set actual de No-Intro. Auditar con el DAT equivocado (headered contra un romset sin cabecera, o viceversa) produce un hash distinto y el gestor de ROMs marcará el fichero como inválido aunque el contenido del juego sea correcto — comprobar cuál de los dos usa `docs/romsets.md`/el gestor de ROMs antes de dar un set por corrupto.
+
 #### Redump
 
 Sigue la misma estructura limpia que No-Intro (ambos grupos colaboran y comparten guía de convención), con parámetros adicionales para discos múltiples, números de serie y ediciones especiales, propios de soporte óptico.
@@ -226,13 +252,230 @@ RetroArch/libretro no tiene un formato de nombrado propio: adopta el de No-Intro
 
 Si las ROMs no siguen el nombre exacto de la convención esperada, el juego sigue funcionando pero **no se descargan carátulas ni thumbnails automáticamente**, ya que el servidor de imágenes de RetroArch indexa por ese nombre exacto.
 
+### Logiqx XML (DAT)
+
+> Formato de preservación/auditoría — ver también `Formatos de preservación y organización` más arriba.
+
+Formato nativo de No-Intro, Redump y TOSEC. Cada `<game>` es una familia de un mismo lanzamiento (con sus posibles clones regionales) y cada `<rom>` dentro de él uno de sus ficheros verificables por hash.
+
+#### Formato estándar (Logiqx XML)
+
+```xml
+<?xml version="1.0"?>
+<!DOCTYPE datafile PUBLIC "-//Logiqx//DTD ROM Management Datafile//EN" "http://www.logiqx.com/Dats/datafile.dtd">
+<datafile>
+    <header>
+        <name>Nintendo - Super Nintendo Entertainment System</name>
+        <description>Nintendo - Super Nintendo Entertainment System (Parent-Clone)</description>
+        <version>20260101</version>
+        <author>No-Intro</author>
+    </header>
+    <game name="Super Mario World (USA)">
+        <description>Super Mario World (USA)</description>
+        <rom name="Super Mario World (USA).sfc" size="524288" crc="b19cd7db" md5="6b47bb75d16514b6a476aa0c73a683a" sha1="0e7a591520c56106367c8e9c9d4d5d7b8b0b7c9"/>
+    </game>
+    <game name="Super Mario World (Europe)" cloneof="Super Mario World (USA)">
+        <description>Super Mario World (Europe)</description>
+        <rom name="Super Mario World (Europe).sfc" size="524288" crc="a1b2c3d4" md5="..." sha1="..."/>
+    </game>
+</datafile>
+```
+
+#### Etiquetas (Logiqx XML)
+
+| Etiqueta | Descripción |
+| --- | --- |
+| `header/name` | Identificador corto del sistema cubierto por el DAT |
+| `header/description` | Descripción completa, suele indicar si es set Parent-Clone |
+| `header/version` | Fecha o número de versión del DAT (control de actualizaciones) |
+| `header/author` | Grupo que mantiene el DAT (No-Intro, Redump, TOSEC) |
+| `game@name` | Nombre completo del lanzamiento, con región/idiomas/flags según la convención de la fuente |
+| `game@cloneof` | Referencia al `name` del juego padre; presente en No-Intro/Non-Redump, ausente en Redump (el agrupado 1G1R se resuelve por nombre base o clonelist) |
+| `rom@name` | Nombre de archivo esperado |
+| `rom@size` | Tamaño en bytes |
+| `rom@crc` / `rom@md5` / `rom@sha1` | Hashes de verificación de integridad |
+
+### MAME XML (DAT)
+
+> Formato de preservación/auditoría — ver también `Formatos de preservación y organización` más arriba.
+
+Estándar para arcade, generado localmente con `mame -listxml` (no se descarga como fichero suelto). Cada `<machine>` describe una placa completa: no solo los ROMs, también los chips, pantallas y dependencias de hardware necesarias para que el driver funcione.
+
+#### Formato estándar (MAME XML)
+
+```xml
+<?xml version="1.0"?>
+<!DOCTYPE mame>
+<mame build="0.263">
+    <machine name="sf2" sourcefile="cps1.cpp">
+        <description>Street Fighter II: The World Warrior (World 910522)</description>
+        <year>1991</year>
+        <manufacturer>Capcom</manufacturer>
+        <rom name="sf2e.03" size="131072" crc="a303af92" sha1="..." region="maincpu" offset="0"/>
+        <device_ref name="z80"/>
+        <display type="raster" rotate="0" width="384" height="224" refresh="59.633739"/>
+        <driver status="good"/>
+    </machine>
+    <machine name="sf2ce" cloneof="sf2" romof="sf2">
+        <description>Street Fighter II': Champion Edition (World 920513)</description>
+        <year>1992</year>
+        <manufacturer>Capcom</manufacturer>
+    </machine>
+</mame>
+```
+
+#### Etiquetas (MAME XML)
+
+| Etiqueta | Descripción |
+| --- | --- |
+| `machine@name` | Nombre corto del set (nombre del ZIP sin extensión) |
+| `machine@cloneof` | Set padre lógico (para agrupado Parent-Clone) |
+| `machine@romof` | Set del que hereda ROMs físicamente (relevante para sets `Split`/`Merged`, ver `Romsets arcade` más arriba) |
+| `description` | Título completo, con región/revisión entre paréntesis |
+| `year` / `manufacturer` | Año de lanzamiento y fabricante de la placa |
+| `rom@region` | Chip o subsistema al que pertenece el dump (`maincpu`, `gfx1`, `soundcpu`...) |
+| `display@rotate` | Orientación de pantalla (`0`/`90`/`180`/`270`), relevante para bartop |
+| `driver@status` | Estado de emulación del set (`good`, `imperfect`, `preliminary`) |
+
+### ClrMamePro (DAT texto)
+
+> Formato de preservación/auditoría — ver también `Formatos de preservación y organización` más arriba.
+
+Formato de texto plano anterior a Logiqx XML, todavía en uso por **libretro-database** para sistemas sin cobertura adecuada en No-Intro/Redump/TOSEC (`spectrum`, `zx81`, `scummvm`, `dos`). Requiere un parser distinto al XML.
+
+#### Formato estándar (ClrMamePro texto)
+
+```text
+clrmamepro (
+    name "libretro-database | ZX Spectrum"
+    description "libretro | ZX Spectrum"
+    version 20260101
+    author "libretro"
+)
+
+game (
+    name "Chuckie Egg"
+    description "Chuckie Egg"
+    rom ( name "Chuckie Egg.tzx" size 47616 crc a1b2c3d4 md5 6b47bb75d16514b6a476aa0c73a683a sha1 0e7a591520c56106367c8e9c9d4d5d7b8b0b7c9 )
+)
+```
+
+#### Campos
+
+| Campo | Descripción |
+| --- | --- |
+| `clrmamepro/name` | Identificador corto del sistema cubierto por el DAT |
+| `clrmamepro/description` | Descripción completa del DAT |
+| `clrmamepro/version` | Fecha o número de versión |
+| `game/name` | Nombre del lanzamiento (define el nombre de carpeta/archivo si el set es multi-ROM) |
+| `rom/name` | Nombre de archivo esperado |
+| `rom/size` | Tamaño en bytes |
+| `rom/crc` / `rom/md5` / `rom/sha1` | Hashes de verificación de integridad |
+
+### Software Lists
+
+> Formato de preservación/auditoría (SW List Dat) — ver también `Formatos de preservación y organización` más arriba.
+
+Estándar moderno de MAME utilizado para catalogar y estructurar colecciones de juegos que pertenecen a sistemas domésticos (consolas, ordenadores o sistemas de discos) en lugar de placas puramente de recreativa.
+
+#### Formato estándar (SW List Dat)
+
+```xml
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+<softwarelist name="snes" description="Nintendo Super Famicom/Super NES cartridge software">
+    <software name="smw">
+        <description>Super Mario World (USA)</description>
+        <year>1990</year>
+        <publisher>Nintendo</publisher>
+        <part name="cart" interface="snes_cart">
+            <dataarea name="rom" size="524288">
+                <rom name="smw.sfc" size="524288" crc="b19cd7db" sha1="0e7a591520c56106367c8e9c9d4d5d7b8b0b7c9"/>
+            </dataarea>
+        </part>
+    </software>
+</softwarelist>
+```
+
+Para sistemas ópticos, `part`/`dataarea` se sustituyen por `part`/`diskarea` con un elemento `disk` (hash SHA1 del CHD en vez de CRC/SHA1 del ROM):
+
+```xml
+<part name="cdrom1" interface="cdrom">
+    <diskarea name="cdrom">
+        <disk name="ff7 (usa) (disc 1)" sha1="..."/>
+    </diskarea>
+</part>
+```
+
+#### Etiquetas (SW List Dat)
+
+| Etiqueta | Descripción |
+| --- | --- |
+| `softwarelist@name` | Identificador corto del sistema cubierto (coincide con el driver MAME del sistema doméstico) |
+| `softwarelist@description` | Descripción completa del sistema |
+| `software@name` | Nombre corto de la entrada (nombre del set) |
+| `description` | Título completo del lanzamiento |
+| `year` / `publisher` | Año de lanzamiento y editora |
+| `part@interface` | Tipo de medio/conector emulado (`snes_cart`, `cdrom`, `floppy_5_25`...) |
+| `dataarea/rom` | Dump de cartucho/disquete, con hash CRC32/SHA1 |
+| `diskarea/disk` | Dump de disco óptico (CHD), identificado por SHA1 en vez de CRC |
+
+#### Diferencias respecto a DATs arcade
+
+Mientras que el DAT arcade define el hardware físico soldado a una placa única, las Software Lists definen los medios de almacenamiento externos (cartuchos, disquetes, casetes o CDs) que se insertan en un sistema específico.
+
+#### Casos de uso
+
+- **Sistemas CD** — Gestión estructural de imágenes binarias complejas.
+- **Consolas** — Validación de catálogos exactos por región.
+- **Ordenadores** — Configuración automatizada de expansiones de RAM o periféricos necesarios para arrancar un disquete.
+- **CHDs** — Vinculación inequívoca entre el archivo de datos hash y el volcado del disco óptico.
+
+### HyperList
+
+> Formato de organización/frontend — ver también `Formatos de preservación y organización` más arriba.
+
+Formato del frontend HyperSpin, orientado a bartop/cabinet. No contiene hashes de verificación: el atributo `game@name` debe coincidir exactamente con el nombre de archivo de la ROM (sin extensión) para que el frontend vincule cada entrada con su ROM y con los elementos multimedia (wheel art, marquee, vídeo) alojados en carpetas separadas, no referenciados dentro del propio XML. DATs en `metadata/dat/hyperspin/`.
+
+#### Formato estándar (HyperList)
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+    <game name="Super Mario World">
+        <description>Super Mario World</description>
+        <cloneof></cloneof>
+        <crc></crc>
+        <manufacturer>Nintendo</manufacturer>
+        <year>1990</year>
+        <genre>Platform</genre>
+        <rating>5</rating>
+        <enabled>Yes</enabled>
+    </game>
+</menu>
+```
+
+#### Etiquetas (HyperList)
+
+| Etiqueta | Descripción |
+| --- | --- |
+| `game@name` | Debe coincidir exactamente con el nombre de archivo de la ROM (sin extensión); es la clave de enlace con los ficheros de media |
+| `description` | Nombre mostrado en la ruleta de HyperSpin |
+| `cloneof` | Set padre, heredado del DAT arcade de origen cuando aplica (vacío en sistemas sin relación Parent-Clone) |
+| `crc` | Hash CRC32, opcional, heredado del DAT de origen |
+| `manufacturer` | Desarrollador o distribuidor del juego |
+| `year` | Año de lanzamiento |
+| `genre` | Género del juego |
+| `rating` | Puntuación, escala `0`-`5` |
+| `enabled` | Muestra u oculta la entrada en la ruleta (`Yes`/`No`) sin eliminarla del XML |
+
 ### gamelist.xml
 
 > Formato de organización/frontend — ver también `Formatos de preservación y organización` más arriba.
 
 Formato estándar de metadatos de EmulationStation (y derivados como ES-DE) para describir los juegos de un sistema. Se ubica en la raíz de la carpeta del sistema, junto a las ROMs y la carpeta `media/`.
 
-#### Formato estándar
+#### Formato estándar (gamelist.xml)
 
 ```xml
 <gameList>
@@ -257,7 +500,7 @@ Formato estándar de metadatos de EmulationStation (y derivados como ES-DE) para
 </gameList>
 ```
 
-#### Etiquetas
+#### Etiquetas (gamelist.xml)
 
 | Etiqueta | Descripción |
 | --- | --- |
@@ -278,22 +521,61 @@ Formato estándar de metadatos de EmulationStation (y derivados como ES-DE) para
 | `favorite` | Marca el juego como favorito (`true`/`false`) |
 | `hidden` | Oculta el juego del listado sin eliminarlo (`true`/`false`) |
 
-### Software Lists
+### Playlist de RetroArch (.lpl)
 
-> Formato de preservación/auditoría (SW List Dat) — ver también `Formatos de preservación y organización` más arriba.
+> Formato de organización/frontend — ver también `Formatos de preservación y organización` más arriba.
 
-Estándar moderno de MAME utilizado para catalogar y estructurar colecciones de juegos que pertenecen a sistemas domésticos (consolas, ordenadores o sistemas de discos) en lugar de placas puramente de recreativa.
+Lista de reproducción generada por el menú interno de RetroArch al escanear una carpeta de ROMs contra su base `.rdb`. Texto plano en JSON; cada entrada asocia una ROM con el core que debe cargarla, evitando tener que seleccionar el core manualmente cada vez.
 
-#### Diferencias respecto a DATs arcade
+#### Formato estándar (.lpl)
 
-Mientras que el DAT arcade define el hardware físico soldado a una placa única, las Software Lists definen los medios de almacenamiento externos (cartuchos, disquetes, casetes o CDs) que se insertan en un sistema específico.
+```json
+{
+    "version": "1.5",
+    "default_core_path": "",
+    "default_core_name": "",
+    "label_display_mode": 0,
+    "right_thumbnail_mode": 0,
+    "left_thumbnail_mode": 0,
+    "sort_mode": 0,
+    "items": [
+        {
+            "path": "/roms/snes/Super Mario World (USA).sfc",
+            "label": "Super Mario World (USA)",
+            "core_path": "/cores/snes9x_libretro.so",
+            "core_name": "Nintendo - SNES / SFC (Snes9x)",
+            "crc32": "b19cd7db|crc",
+            "db_name": "Nintendo - Super Nintendo Entertainment System.lpl"
+        }
+    ]
+}
+```
 
-#### Casos de uso
+#### Campos (.lpl)
 
-- **Sistemas CD** — Gestión estructural de imágenes binarias complejas.
-- **Consolas** — Validación de catálogos exactos por región.
-- **Ordenadores** — Configuración automatizada de expansiones de RAM o periféricos necesarios para arrancar un disquete.
-- **CHDs** — Vinculación inequívoca entre el archivo de datos hash y el volcado del disco óptico.
+| Campo | Descripción |
+| --- | --- |
+| `items[].path` | Ruta absoluta al archivo ROM |
+| `items[].label` | Nombre mostrado en el menú de RetroArch, tomado de la base `.rdb` si el hash coincide |
+| `items[].core_path` | Core libretro asignado para lanzar la entrada |
+| `items[].core_name` | Nombre legible del core |
+| `items[].crc32` | Hash CRC32 usado para el emparejamiento contra la `.rdb`, no el nombre de archivo |
+| `items[].db_name` | Base de datos `.rdb` de origen del emparejamiento (identifica el sistema) |
+
+### RetroArch RDB (.rdb)
+
+> Formato de bases de datos binarias — ver también `Formatos de preservación y organización` más arriba.
+
+Conversión binaria compacta (basada en MessagePack) de los DAT de No-Intro y Redump, una por sistema, distribuida junto a RetroArch. No es legible como texto ni editable a mano; su único propósito es que el escáner interno resuelva miles de hashes contra nombre limpio a máxima velocidad sin cargar un XML completo en RAM en dispositivos de bajos recursos.
+
+#### Estructura (.rdb)
+
+Cada registro serializado equivale a los mismos campos que su DAT Logiqx XML de origen (nombre, CRC32, MD5, SHA1, tamaño), pero empaquetados en binario. Se genera con la herramienta interna `retroarch --database` o se descarga ya compilada desde el repositorio `libretro-database` (carpeta `rdb/`).
+
+#### Notas (.rdb)
+
+- No mantener editado manualmente en el repo: si se necesita modificar la base de un sistema, editar el DAT Logiqx XML de origen y regenerar el `.rdb`, no al revés.
+- El emparejamiento en RetroArch se hace por hash (ver `libretro` en `Convenciones de nombrado` más arriba), no por nombre de archivo.
 
 ---
 
@@ -366,6 +648,15 @@ Catálogo completo de herramientas de PC para gestión, validación, conversión
 ---
 
 ## Enlaces externos
+
+### Preservación y gestión de DAT
+
+| Nombre | Enlace | Descripción |
+| --- | --- | --- |
+| RomVault — Supported DATs | wiki.romvault.com/doku.php?id=supported_dats | Wiki de RomVault; documenta fuentes de DAT adicionales no cubiertas por los portales oficiales, incluyendo `Non-Redump-Custom` (PS3/Xbox 360 de fuentes scene/P2P) y `DeDupe-NoIntro` (Non-Redump con duplicados de Redump eliminados). |
+| Fresh1G1R Dats | github.com/UnluckyForSome/Fresh1G1R | DAT 1G1R ya filtrados con retool, actualizados a diario vía GitHub Actions, en tres perfiles de criterio (McLean, PropeR, Hearto). Alternativa de referencia/comparación al filtrado propio de la fase 5 del workflow, no sustituye al proceso documentado en `docs/guides/tools/1g1r-filtering.md`. |
+
+### Hardware y comunidad
 
 | Nombre | Enlace | Descripción |
 | --- | --- | --- |
