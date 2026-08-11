@@ -45,7 +45,7 @@ Además del 1G1R actual (vía retool, paso 2), se plantean perfiles de salida ad
 Los formatos CHD y RVZ no se pueden identificar por nombre de archivo; requieren invocar la herramienta oficial correspondiente:
 
 - **CHD** — `chdman info -i "juego.chd"` devuelve el SHA-1 real de los datos, usable para cruzar contra el DAT sin depender del nombre de archivo (ver detalle en [optical-chd.md](optical-chd.md)).
-- **RVZ** — `DolphinTool read-id -i "juego.rvz"` devuelve el GameID de 6 caracteres (ej. `SBLE01`), cruzable contra `wiitdb.txt` (base de datos de nombres de Nintendo) para renombrar y clasificar (ver detalle en [optical-chd.md](optical-chd.md#caso-especial--gamecube--wii-rvz-en-vez-de-chd)).
+- **RVZ** — `dolphin-tool header -i "juego.rvz"` (corregido: el subcomando real es `header`, no `read-id`) devuelve el `Game ID` de 6 caracteres (ej. `GALE01`, confirmado en la documentación oficial), cruzable contra `wiitdb.txt` (base de datos de nombres de Nintendo) para renombrar y clasificar (ver detalle en [optical-chd.md](optical-chd.md#caso-especial--gamecube--wii-rvz-en-vez-de-chd)).
 
 ### Fuentes de datos adicionales a evaluar
 
@@ -98,10 +98,11 @@ def get_rvz_game_id(rvz_path: str) -> str:
     """Extrae el GameID de 6 caracteres de un archivo RVZ de GameCube/Wii."""
     try:
         result = subprocess.run(
-            ['dolphin-emu-tool', 'read-id', '-i', rvz_path],
+            ['dolphin-tool', 'header', '-i', rvz_path],
             capture_output=True, text=True, check=True
         )
-        return result.stdout.strip()
+        match = re.search(r'Game ID:\s+(\w{6})', result.stdout)
+        return match.group(1) if match else None
     except subprocess.CalledProcessError:
         return None
 ```

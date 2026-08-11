@@ -78,7 +78,7 @@ Copia del romset ya procesado a `data/roms/`, la estructura final de despliegue 
 
 Generación de `gamelist.xml` para el romset ya organizado en `data/roms/`. Detalle de uso: [gamelist-generation.md](../tools/gamelist-generation.md).
 
-**Herramientas:** Skraper, SkyScraper, ES Scraper, SimpleScraper, gamelist-utils (conversión entre formatos).
+**Herramientas:** Skraper, SkyScraper, ES Scraper, RetroScraper, RetroBat, gamelist-utils (conversión entre formatos).
 
 No confundir con `generate-romset-docs.ps1`, que genera documentación en `docs/guides/romsets/systems/<id>.md` a partir de `dat-index/<id>.json`, no `gamelist.xml` — ver [custom-pipeline.md](custom-pipeline.md).
 

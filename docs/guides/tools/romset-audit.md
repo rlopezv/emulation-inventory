@@ -80,7 +80,27 @@ verifydump "Datfile.zip" "C:\Games\SystemName"
 - **Input:** el Datfile (puede ir comprimido en `.zip`) y la ruta con los CHD/RVZ a verificar.
 - **Dependencias externas** (deben estar en el `PATH`): `chdman` y `binmerge` para `.chd`; `DolphinTool` para `.rvz`.
 - **Salida:** reporte por fichero (`Dump verified correct and complete` o el error correspondiente) y resumen final (`Successfully verified N dumps`).
-- **Flags útiles:** `--verbose` (detalle paso a paso), `--extra-cue-source` (valida también contra `.cue` originales adicionales).
+- **Flags útiles:** `--verbose` (detalle paso a paso), `--extra-cue-source` (`.cue` de referencia adicional, ver más abajo), `--allow-cue-file-mismatches` (ignora discrepancias de metadatos no soportados por CHD).
+
+**Mecanismo exacto:** `verifydump` descomprime el CHD/RVZ de vuelta a `.bin`/`.cue` (con `chdman`+`binmerge`, o `DolphinTool`) y compara ese `.cue` regenerado contra un `.cue` de referencia (pasado con `--extra-cue-source`), ignorando metadatos que el contenedor comprimido no conserva — no compara el CHD directamente contra el Datfile.
+
+**Aplicable a cualquier sistema óptico de Redump, no solo a "los que usan CHD":** Redump nunca distribuye CHD oficialmente para ningún sistema — su formato de distribución siempre es `.bin`/`.cue` o `.iso`; el CHD es siempre una conversión posterior (fase 7, [conversion-compression.md](conversion-compression.md)). Como la verificación se apoya en el `.cue`, no en un DAT "en formato CHD", la técnica es genérica para todo el catálogo óptico de Redump — el `.cue` oficial se descarga aparte, en la sección **Cuesheets** de Redump (ver [dat-generation.md](dat-generation.md#redump)).
+
+**Optimización de rendimiento — RAM disk para el directorio temporal:** confirmado en la propia documentación oficial de `verifydump`, que lo recomienda explícitamente si se va a verificar la colección con mucha frecuencia. La herramienta usa el directorio temporal del sistema (variable `TEMP`), no un flag propio — para desviarlo a RAM:
+
+1. Crear un disco virtual en RAM con **ImDisk Virtual Disk Driver** (ltr-data.se, gratuito y de código abierto):
+
+   ```powershell
+   imdisk -a -s 2G -m Z: -p "/fs:ntfs /q /y"
+   ```
+
+2. Apuntar la variable `TEMP` de la sesión a esa unidad antes de ejecutar `verifydump`:
+
+   ```powershell
+   $Env:TEMP = "Z:\"
+   ```
+
+3. Al descomprimir el CHD/RVZ para verificarlo, todo el trabajo temporal ocurre en RAM en vez de en el SSD/HDD — más velocidad y sin desgaste del disco físico. El contenido se pierde al apagar o desmontar el disco virtual, lo cual es intencional (son solo ficheros intermedios de verificación).
 
 ## Notas
 

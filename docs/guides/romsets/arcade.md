@@ -10,7 +10,7 @@ Split / Non-Merged / Merged (ver `docs/references.md#romsets-arcade`).
 
 ## Fuente
 
-[TODO]
+Ver detalle completo de obtención en [dat-generation.md](../tools/dat-generation.md#mame--fbneo-ecosistema-arcade) y [MAME Software Lists](../tools/dat-generation.md#mame-software-lists-softwarelist) (para sistemas domésticos emulados dentro de MAME). Resumen: MAME se genera localmente (`mame -listxml`), FBNeo se obtiene vía `libretro-database/metadat/fbneo-split/`.
 
 ## Verificación contra DAT MAME/FBNeo
 
@@ -20,11 +20,19 @@ Mismo problema que en sistemas ópticos: si el CHD o el `.zip` de arcade tienen 
 
 ## BIOS y samples
 
-[TODO]
+**Confirmado en la documentación oficial de MAME:** algunas placas arcade comparten hardware base (ej. Neo Geo) — los datos de arranque/autotest de esa placa no se guardan como parte del romset de cada juego, sino como un fichero de BIOS aparte del propio sistema (ej. `neogeo.zip`). Ver también `docs/references.md#bios` y `docs/references.md#samples`.
+
+**Estructura de carpetas confirmada:**
+
+- **BIOS** — el `.zip` de BIOS va en la misma carpeta raíz que los ROMs de los juegos (no en subcarpeta propia).
+- **Samples** — subcarpeta `samples/`, un `.zip` por juego que los necesite.
+- **Artwork** (si se usa) — subcarpeta `artwork/`, también un `.zip` por juego.
+
+**Parent/Clone y BIOS compartida:** cada placa con BIOS compartida define un set padre; los drivers de los juegos referencian ese padre, y el emulador fusiona el contenido del ZIP padre en tiempo de carga (relevante para sets `Merged`, ver `docs/references.md#romsets-arcade`).
 
 ## Organización en data/roms
 
-[TODO]
+[TODO: pendiente de detallar la estructura concreta esperada por sistema arcade dentro de `data/roms/` — ver estructura general ya documentada en `docs/guides/romsets/custom-pipeline.md` (`build-complete-romset.ps1`/`promote-complete-romset.ps1`) para el mecanismo genérico del repo, sin detalle específico de arcade todavía]
 
 ## Notas
 
