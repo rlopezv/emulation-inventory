@@ -37,6 +37,87 @@ Corresponde a la fase 4 de [docs/guides/romsets/workflow.md](../romsets/workflow
 
 **Salida:** una carpeta nueva con el romset ya filtrado y organizado, incluyendo los BIOS asociados copiados según los criterios elegidos — lista para usar directamente en RetroArch/MAME.
 
+## RA ROM Processor (discos ópticos — CHD/RVZ)
+
+**Fuente:** github.com/RandomNinjaAtk/docker-raromprocessor. Contenedor Docker que cubre un hueco real de ROMSorter/SAM: ninguna de las dos herramientas anteriores trabaja con discos ópticos (CHD/RVZ), y esta sí — apoyándose en la capacidad de **RAHasher** de identificar CHD/RVZ sin descomprimir (ver [romset-audit.md](romset-audit.md#identificación-rápida-de-chdrvz-sin-descomprimir-rahasher)).
+
+**Confirmado:** adquiere/organiza/procesa/verifica/desduplica una biblioteca de ROMs completa, cruzándola contra la base de hashes de RetroAchievements (ver `docs/references.md#retroachievements-como-fuente-de-datos`) vía RAHasher, y encadena **SkyScraper** (ver [media-scraping.md](media-scraping.md)) para el scraping de metadatos del resultado ya limpio.
+
+**Flujo:** genera carpetas de entrada por plataforma; con la opción **AutoStart** activada, basta con copiar/mover los ROMs a ese volumen para que el contenedor los procese automáticamente — valida/empareja contra la base de RA, desduplica, y guarda el resultado ya organizado (más media) en el volumen de salida.
+
+[TODO: no se ha verificado el detalle exacto de configuración del contenedor (variables de entorno, plataformas soportadas) — consultar el README del repositorio antes de desplegarlo]
+
+### Alternativa manual sin Docker — script PowerShell con RAHasher
+
+Si no se quiere levantar el contenedor de RA ROM Processor, se puede automatizar directamente con **RAHasher** y un script propio: escanea una carpeta de CHD/RVZ, calcula el hash de RA de cada uno, lo cruza contra el JSON de `retroachievements/` correspondiente, y separa los que tienen logros de los que no.
+
+**Preparación:**
+
+1. **RAHasher.exe** — tres vías confirmadas para conseguirlo sin compilar:
+   - **Ya instalado con LaunchBox** (si ya se usa) — `LaunchBox\Third Party\RetroAchievements\rahasher.exe` (ruta exacta confirmada; nota el espacio en "Third Party").
+   - **Binarios precompilados oficiales** — github.com/LeXofLeviafan/RAHasher (repositorio original, con Releases).
+   - **Compilar desde código fuente** — solo necesario con el fork `nixxou/RAHasher` (el usado como referencia en el resto de esta guía por su documentación de sintaxis más completa), que no publica binarios: MSYS2+Makefile o Visual Studio.
+2. El JSON del sistema a limpiar, desde `retroachievements/` de `retool-clonelists-metadata` (ver [dat-generation.md](dat-generation.md#redump)). **Nombre real del fichero sin guion** (corregido): `Sony PlayStation.json`, no `Sony - PlayStation.json`.
+3. El "sistema" que espera RAHasher admite tanto claves de texto (`PS1`, `Saturn`, `GC`, `Wii`...) como ID numérico — **más seguro usar la clave de texto** para evitar errores de ID (confirmados dos casos incorrectos en la guía original: Saturn es **39**, no 19; GameCube es **16**, no 24).
+
+**Script** (`limpiar_romset.ps1`), con las correcciones aplicadas:
+
+```powershell
+# ================= CONFIGURACIÓN =================
+$Sistema_RA   = "PS1"                                     # Clave de texto de RAHasher (más segura que el ID numérico)
+$Ruta_Juegos  = "D:\Ruta\A\Tus\Archivos\CHD"               # Carpeta de tus juegos reales
+$Archivo_JSON = "C:\LimpiezaRA\Sony PlayStation.json"      # Sin guion en el nombre real del fichero
+$RAHasher_Exe = "C:\LimpiezaRA\RAHasher.exe"               # Compilado desde código fuente, no hay binario oficial
+# =================================================
+
+# 1. Cargar e indexar los hashes válidos del JSON en memoria
+Write-Host "Cargando base de datos JSON de RetroAchievements..." -ForegroundColor Cyan
+$DatosJSON = Get-Content -Raw -Path $Archivo_JSON | ConvertFrom-Json
+$HashesValidos = @{}
+foreach ($item in $DatosJSON.retroachievements) {
+    $HashesValidos[$item.sha1.ToLower()] = $item.name
+}
+
+# 2. Crear carpeta de destino para los juegos válidos
+$Carpeta_Destino = Join-Path $Ruta_Juegos "_Con_Logros"
+if (!(Test-Path $Carpeta_Destino)) { New-Item -ItemType Directory -Path $Carpeta_Destino | Out-Null }
+
+# 3. Escanear los juegos de la carpeta
+$Formatos = "*.chd", "*.rvz"
+$Archivos = Get-ChildItem -Path $Ruta_Juegos -Include $Formatos -Recurse | Where-Object { $_.FullName -notlike "*_Con_Logros*" }
+
+Write-Host "Iniciando escaneo de $($Archivos.Count) juegos con RAHasher..." -ForegroundColor Yellow
+
+foreach ($archivo in $Archivos) {
+    # RAHasher.exe [sistema] "ruta" — orden confirmado en la documentación oficial
+    $ResultadoRA = & $RAHasher_Exe $Sistema_RA $archivo.FullName 2>$null
+
+    # [TODO: sin verificar — formato exacto de la salida de texto de RAHasher no confirmado.
+    # Probar contra un solo fichero conocido antes de lanzar el script contra todo el romset,
+    # y ajustar esta expresión regular si no extrae el hash correctamente.]
+    $HashCalculado = ($ResultadoRA | Out-String).Trim() -replace '(?s).*?\s([a-f0-9]{32,40})$', '$1'
+
+    if ($HashCalculado -match '^[a-f0-9]{32,40}$') {
+        $HashCalculado = $HashCalculado.ToLower()
+        if ($HashesValidos.ContainsKey($HashCalculado)) {
+            $NombreJuegoRA = $HashesValidos[$HashCalculado]
+            Write-Host "[OK] COINCIDENCIA: '$($archivo.Name)' -> $NombreJuegoRA" -ForegroundColor Green
+            Move-Item -LiteralPath $archivo.FullName -Destination $Carpeta_Destino -Force
+        } else {
+            Write-Host "[--] SIN LOGROS: '$($archivo.Name)' (Hash RA: $HashCalculado)" -ForegroundColor Red
+        }
+    } else {
+        Write-Host "[!!] ERROR: RAHasher no pudo parsear '$($archivo.Name)'" -ForegroundColor DarkYellow
+    }
+}
+
+Write-Host "`nProceso finalizado. Juegos compatibles en _Con_Logros." -ForegroundColor Cyan
+```
+
+**Qué hace:** separa en `_Con_Logros` únicamente los ficheros cuyo hash de RA coincide con el JSON — de facto, un filtrado 1G1R basado en "qué versión tiene logros asignados" en vez de en prioridad de región (si USA tiene logros y EUR/JAP no, solo se mueve la versión USA).
+
+**Antes de confiar en el resultado:** verificar manualmente con un solo fichero conocido que el parseo de la salida de RAHasher extrae el hash correcto — es el único paso de todo el script que no se ha podido confirmar contra documentación oficial.
+
 ## Notas
 
 El resultado de esta fase alimenta la fase 5 (filtrado 1G1R, [1g1r-filtering.md](1g1r-filtering.md)): conviene limpiar categorías no deseadas (mahjong, casino, adulto, BIOS sueltas) antes de aplicar 1G1R, para no perder tiempo procesando contenido que se va a descartar de todos modos.

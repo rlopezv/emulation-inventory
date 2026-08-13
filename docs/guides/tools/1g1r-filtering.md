@@ -10,7 +10,7 @@ Corresponde a la fase 5 de [docs/guides/romsets/workflow.md](../romsets/workflow
 
 **Fuente:** github.com/unexpectedpanda/retool, sitio de documentación en unexpectedpanda.github.io/retool.
 
-**Estado: sin mantenimiento activo** — el propio repositorio lo indica explícitamente. Sigue siendo funcional y es la herramienta de referencia de este repo, pero conviene tenerlo presente si en el futuro aparecen incompatibilidades con DAT nuevos de No-Intro/Redump que no se resuelvan. No confirmado si `docs/tools.md` refleja este estado — revisar.
+**Estado: sin mantenimiento activo** — el propio repositorio lo indica explícitamente ("Retool is no longer maintained", ver issue #337), confirmado también desde el README de `retool-clonelists-metadata`. Sigue siendo funcional y es la herramienta de referencia de este repo. Ya reflejado en `docs/tools.md` (Estado: Mantenimiento).
 
 **Requisitos:** Windows 10+, Ubuntu 20+ o macOS 15+; las versiones sin compilar (desde código fuente) requieren Python 3.10+.
 
@@ -37,6 +37,30 @@ retool.py -h
 **Prioridad de región/idioma (2.x):** a diferencia de versiones antiguas (1.x), que seleccionaban el clon de mayor revisión dentro de la región de mayor prioridad sin más, la versión 2.0 tiene en cuenta también el idioma asociado a la región prioritaria — ejemplo documentado: con prioridad `USA > Europe`, si el título USA no tiene versión en inglés pero sí uno en Europe, puede seleccionar el de Europe por ser el que cumple el idioma esperado de la región prioritaria (inglés), no solo por posición en la lista de prioridad.
 
 **Salida:** DAT compatible con RomVault, ClrMamePro e igir; evita duplicados y admite nombres localizados.
+
+### Mecanismo de las clonelist (confirmado en la documentación oficial)
+
+**Selección automática:** retool identifica el DAT cargado leyendo las etiquetas `<name>`/`<url>` de su cabecera, y busca en la carpeta `clonelists/` (ver [dat-generation.md](dat-generation.md#redump)) un fichero cuyo nombre coincida con el sistema y el grupo de origen (ej. `Apple - Macintosh (Redump).json`) — de ahí que el nombre del fichero deba ser exacto, no orientativo.
+
+**Estructura interna — array `variants`:** cuando retool no detecta automáticamente que varios títulos están relacionados (nombres muy distintos entre regiones, compilaciones, supersets), la clonelist permite agruparlos manualmente. El array `variants` permite:
+
+- Agrupar títulos con nombres distintos bajo el mismo grupo.
+- Mover títulos a un grupo distinto del que retool les asignaría por defecto.
+- Agrupar supersets/compilaciones junto a los títulos individuales que contienen.
+- Fijar prioridades explícitas para forzar qué título selecciona el 1G1R.
+- Asignar categorías y nombres locales (idioma nativo).
+- Marcar títulos para ignorar.
+- Aplicar todo lo anterior de forma condicional mediante filtros por región, idioma, coincidencia de expresión regular contra el nombre completo, o el orden de región configurado por el usuario.
+
+Detalle completo y guía de contribución en unexpectedpanda.github.io/retool (secciones "Create and edit clone lists" y "How Retool works").
+
+### Otras carpetas del repositorio de metadatos
+
+Además de `clonelists/` y `retroachievements/` (ver [dat-generation.md](dat-generation.md#redump)), `retool-clonelists-metadata` incluye:
+
+- **`metadata/`** — metadatos generados automáticamente desde Redump y No-Intro; no editable a mano (para corregir un error hay que reportarlo a Redump/No-Intro directamente, no al repositorio).
+- **`mias/`** — listas MIA ("Missing In Action": juegos confirmados que existieron pero de los que no hay volcado verificado todavía), obtenidas semanalmente de servidores externos.
+- **`config/internal-config.json`** — configuración interna que usa retool.
 
 ## DATROMTool
 
@@ -72,7 +96,7 @@ igir copy --dat "*.dat" --input "**/*.zip" --output 1G1R --dir-dat-name --single
 
 ## Scripts propios (sin herramienta de terceros)
 
-Alternativa de control total: parsear directamente el DAT Logiqx XML (o el `dat-index/<id>.json` ya generado por el pipeline propio, ver [custom-pipeline.md](../romsets/custom-pipeline.md)) y aplicar la lógica de región/idioma a mano, cruzando contra `metadata/dat/clonelist/*.json` cuando el sistema no tenga `cloneofid` nativo (caso Redump). Útil cuando ninguna herramienta de terceros cubre bien un sistema concreto, a costa de mantener la lógica de filtrado propia.
+Alternativa de control total: parsear directamente el DAT Logiqx XML (o el `dat-index/<id>.json` ya generado por el pipeline propio, ver [custom-pipeline.md](../romsets/custom-pipeline.md)) y aplicar la lógica de región/idioma a mano, cruzando contra `metadata/dat/clonelist/*.json` cuando el sistema no tenga `cloneofid` nativo (caso Redump). Útil cuando ninguna herramienta de terceros cubre bien un sistema concreto, a costa de mantener la lógica de filtrado propia. Fuente confirmada de esos ficheros de clonelist: github.com/unexpectedpanda/retool-clonelists-metadata (ver detalle en [dat-generation.md](dat-generation.md#redump)) — es el mismo repositorio que alimenta a retool, así que reutilizarlo aquí mantiene la lógica de agrupado consistente entre ambos métodos.
 
 [TODO: no existe ninguna herramienta de terceros consolidada llamada "PyRomVault" — verificado que no aparece en ninguna búsqueda; si se busca algo ya hecho en Python en vez de script propio desde cero, existen proyectos como `romlm` (pack/unpack/sort/dedupe) o `pyrsc` (Python ROMs Set Cleaner, quita clones/bootlegs), sin confirmar si cubren 1G1R con la misma profundidad que retool/Igir]
 

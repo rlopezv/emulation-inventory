@@ -14,7 +14,7 @@ Punto de partida de todo el flujo: sin el DAT correcto no se puede auditar, filt
 
 **Non-Redump** — usar solo como fuente alternativa cuando `docs/romsets.md` lo indica (prototipos/betas no aceptados por Redump, o sistemas sin DAT Redump todavía como PS3/PSP/Xbox 360). Repositorio comunitario en GitHub (ver enlace por sistema en `docs/romsets.md`).
 
-**TOSEC** — descarga del set completo (todas las plataformas en un único paquete) desde **tosec.org**; extraer solo el/los DAT del sistema necesario. Útil para microcomputers sin cobertura No-Intro (ej. `gx4000`).
+**TOSEC** — descarga del set completo (todas las plataformas en un único paquete) desde **tosecdev.org**; extraer solo el/los DAT del sistema necesario. Útil para microcomputers sin cobertura No-Intro (ej. `gx4000`).
 
 **MAME / FBNeo (arcade)** — el DAT de MAME se genera localmente con `mame -listxml > mame.xml` desde el propio ejecutable (no se descarga como fichero suelto); FBNeo se obtiene del repositorio oficial en GitHub o se genera igual que MAME con el volcado XML integrado del emulador. Ver `docs/references.md#dats` para el detalle de qué sistemas cubre cada uno.
 

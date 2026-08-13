@@ -627,7 +627,7 @@ El estándar definitivo de preservación absoluta en PC de gama media/alta. Debe
 
 **Uso recomendado** — Microcomputers sin cobertura adecuada en No-Intro (ej. `gx4000`) y preservación de ordenadores clásicos en general.
 
-**Fuente oficial** — tosec.org, como set completo de todas las plataformas en un único paquete (hay que extraer solo el/los DAT del sistema necesario).
+**Fuente oficial** — tosecdev.org, como set completo de todas las plataformas en un único paquete (hay que extraer solo el/los DAT del sistema necesario).
 
 **Particularidad** — Convención de nombre distinta a No-Intro/Redump (fecha antes que región, códigos de región de 2 letras); ver `Convenciones de nombrado` más arriba.
 
@@ -638,6 +638,47 @@ El estándar definitivo de preservación absoluta en PC de gama media/alta. Debe
 **Fuente oficial** — Repositorio `libretro-database` en GitHub.
 
 **Particularidad** — Formato de texto plano ClrMamePro, no XML Logiqx; requiere un parser distinto (ver `docs/romsets.md#formato-de-dat`).
+
+### RetroAchievements como fuente de datos
+
+No es una fuente de DAT de preservación (no certifica volcados perfectos como No-Intro/Redump/TOSEC) — es una fuente complementaria de **hashes de identificación** y **parches de traducción**, con tres formas de acceso a los mismos datos, todas confirmadas y trazables al mismo origen:
+
+**1. API web en vivo** — `api-docs.retroachievements.org`. Requiere clave API personal (sección "Keys" del panel de control de la cuenta), pasada como parámetro `y` en cada petición. No exponer la clave públicamente.
+
+- `API_GetGame.php` — metadatos básicos de un juego (título, consola, editora, género, fecha):
+
+  ```bash
+  curl "https://retroachievements.org/API/API_GetGame.php?y=TU_API_KEY&i=1"
+  ```
+
+- `API_GetGameHashes.php` — hashes de ROM vinculados a un juego, incluyendo `Labels` (ej. `nointro`, `rapatches`) y `PatchUrl` cuando existe un parche de traducción asociado:
+
+  ```bash
+  curl "https://retroachievements.org/API/API_GetGameHashes.php?i=14402&y=TU_API_KEY"
+  ```
+
+  ```json
+  {
+    "Results": [
+      {
+        "MD5": "1b1d9ac862c387367e904036114c4825",
+        "Name": "Sonic The Hedgehog (USA, Europe) (Ru) (NewGame).md",
+        "Labels": ["nointro", "rapatches"],
+        "PatchUrl": "https://github.com/RetroAchievements/RAPatches/raw/main/MD/Translation/Russian/1-Sonic1-Russian.zip"
+      }
+    ]
+  }
+  ```
+
+**2. RAHashes** — github.com/RetroAchievements/RAHashes. La base de datos de hashes en sí, la fuente que consulta la API. Organizada por grupo de origen: `No Intro`, `Redump`, `TOSEC`, `Final Burn Neo`, `Legacy`, `OpenGood`, `MAME`, entre otras. En revisión activa por el propio equipo a fecha de esta consulta.
+
+**3. RAPatches** — github.com/RetroAchievements/RAPatches. Repositorio de parches de traducción y similares, referenciado desde `PatchUrl` en la respuesta de la API. Complementa a `docs/guides/tools/patching.md` como fuente adicional de parches, no cubierta ahí.
+
+**Réplica estática semanal (sin API):** `retool-clonelists-metadata/retroachievements/` (ver más abajo, tabla de enlaces) — un JSON por sistema con entradas `name`/`crc`/`md5`/`sha1`, sin necesidad de clave API ni conexión en el momento de usarlo.
+
+**Importante — el hash de RA no siempre es un hash de fichero completo.** Para sistemas de cartucho (No-Intro), suele coincidir con el hash estándar del ROM, así que comparar directamente contra un DAT (Logiqx, o cualquier gestor tipo RomVault/ClrMamePro/RomCenter) funciona. Para **sistemas ópticos (Redump/CHD/RVZ) no funciona igual**: RA usa un método propio por consola — para PS1, por ejemplo, localiza el ejecutable principal vía `SYSTEM.CNF`, concatena su ruta+nombre con su contenido, y hashea ese conjunto; la documentación oficial de RetroAchievements lo indica explícitamente ("the RA hash will never match a full-file hash"). Ningún gestor de ROMs genérico puede reproducir esto calculando un CRC/MD5/SHA1 normal del CHD/RVZ o del volcado reconstruido — hace falta **RAHasher**, que implementa el algoritmo específico de RA por consola (ver `docs/guides/tools/romset-audit.md#identificación-rápida-de-chdrvz-sin-descomprimir-rahasher`).
+
+**Herramientas relacionadas** (catalogadas en `docs/tools.md`): **RAHasher** (hashea CHD/RVZ directamente sin descomprimir, ver `docs/guides/tools/romset-audit.md#identificación-rápida-de-chdrvz-sin-descomprimir-rahasher`) y **RA ROM Processor** (Docker, organiza/verifica/desduplica una biblioteca completa cruzándola contra la base de hashes de RA, con scraping de metadatos vía SkyScraper integrado).
 
 ---
 
@@ -653,6 +694,13 @@ Catálogo completo de herramientas de PC para gestión, validación, conversión
 
 | Nombre | Enlace | Descripción |
 | --- | --- | --- |
+| No-Intro DAT-o-MATIC | datomatic.no-intro.org | Portal oficial de descarga de DAT No-Intro; detalle de uso en `docs/guides/tools/dat-generation.md#no-intro-dat-o-matic`. |
+| Redump | redump.org | Portal oficial de descarga de DAT Redump (sección Datfiles); detalle de uso en `docs/guides/tools/dat-generation.md#redump`. |
+| TOSEC | tosecdev.org | Portal oficial del proyecto TOSEC; detalle de uso en `docs/guides/tools/dat-generation.md#tosec-the-old-school-emulation-center`. |
+| libretro-database | github.com/libretro/libretro-database | Repositorio de DAT ClrMamePro texto y catálogos importados de terceros (No-Intro, Redump, TOSEC, MAME, FBNeo); detalle de uso en `docs/guides/tools/dat-generation.md#libretro-database-clrmamepro-texto`. |
+| RAHashes | github.com/RetroAchievements/RAHashes | Base de datos oficial de hashes de RetroAchievements, organizada por grupo de origen (No-Intro, Redump, TOSEC, FBNeo...); detalle en `docs/references.md#retroachievements-como-fuente-de-datos`. |
+| RAPatches | github.com/RetroAchievements/RAPatches | Repositorio oficial de parches (traducciones, etc.) de RetroAchievements, referenciado por `PatchUrl` en la API; detalle en `docs/references.md#retroachievements-como-fuente-de-datos`. |
+| retool-clonelists-metadata | github.com/unexpectedpanda/retool-clonelists-metadata | Fuente oficial de los ficheros de clonelist que usa retool (y el propio `metadata/dat/clonelist/*.json` de este repo) para sistemas sin `cloneofid` nativo, como Redump; generados automáticamente desde Redump y No-Intro. Incluye además una carpeta `retroachievements/` con hashes (CRC/MD5/SHA1) verificados por RetroAchievements por sistema — válido para comparación directa en sistemas de cartucho (No-Intro); **no** en sistemas ópticos (Redump/CHD), donde el hash de RA es un método propio (no de fichero completo) y requiere RAHasher para calcularlo, ver `docs/references.md#retroachievements-como-fuente-de-datos`. |
 | RomVault — Supported DATs | wiki.romvault.com/doku.php?id=supported_dats | Wiki de RomVault; documenta fuentes de DAT adicionales no cubiertas por los portales oficiales, incluyendo `Non-Redump-Custom` (PS3/Xbox 360 de fuentes scene/P2P) y `DeDupe-NoIntro` (Non-Redump con duplicados de Redump eliminados). |
 | Fresh1G1R Dats | github.com/UnluckyForSome/Fresh1G1R | DAT 1G1R ya filtrados con retool, actualizados a diario vía GitHub Actions, en tres perfiles de criterio (McLean, PropeR, Hearto). Alternativa de referencia/comparación al filtrado propio de la fase 5 del workflow, no sustituye al proceso documentado en `docs/guides/tools/1g1r-filtering.md`. |
 

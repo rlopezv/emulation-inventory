@@ -102,6 +102,22 @@ verifydump "Datfile.zip" "C:\Games\SystemName"
 
 3. Al descomprimir el CHD/RVZ para verificarlo, todo el trabajo temporal ocurre en RAM en vez de en el SSD/HDD — más velocidad y sin desgaste del disco físico. El contenido se pierde al apagar o desmontar el disco virtual, lo cual es intencional (son solo ficheros intermedios de verificación).
 
+### Identificación rápida de CHD/RVZ sin descomprimir (RAHasher)
+
+**Fuente:** github.com/nixxou/RAHasher. Alternativa mucho más ligera que `verifydump` para un caso de uso distinto: **identificar** qué juego es un CHD/RVZ mal nombrado, no verificar bit a bit que el volcado es perfecto.
+
+**Confirmado técnicamente:** RAHasher descomprime el CHD/RVZ **en memoria, sobre la marcha** — no genera `.bin`/`.cue`/`.iso` intermedios en disco, por lo que no necesita `chdman`, `binmerge` ni `DolphinTool` como dependencias externas. Para Wii, además re-encripta las particiones (AES-128) y recalcula sus hashes H0/H1/H2 internos, de modo que ve el disco exactamente igual que el original sin descifrar.
+
+```bash
+RAHasher.exe ? "Animal Crossing - Let's Go to the City (Europe).rvz"
+```
+
+El `?` deja que RAHasher detecte el sistema automáticamente a partir de la cabecera del RVZ/CHD. Con el hash resultante, cruzar contra `retroachievements/<Sistema>.json` de `retool-clonelists-metadata` (ver [dat-generation.md](dat-generation.md#redump)) para identificar el título exacto.
+
+**Limitación confirmada:** para RVZ, solo soporta el códec de compresión **Zstd** (el que usa RVZ por defecto) — imágenes comprimidas con LZMA/LZMA2/bzip2 se rechazan explícitamente en vez de calcular un hash incorrecto en silencio.
+
+**No sustituye a `verifydump`:** el hash de RetroAchievements cubre solo una parte del disco (ej. el ejecutable de arranque en PS1), no el volcado completo — válido para identificar/renombrar rápido, no para certificar que el CHD es una copia perfecta y completa del original. Para eso, seguir usando `verifydump` contra el `.cue` oficial de Redump.
+
 ## Notas
 
 El resultado de la auditoría (fase 3) alimenta directamente la fase 4 (limpieza de romset, [romset-cleaning.md](romset-cleaning.md)) y la fase 5 (filtrado 1G1R, [1g1r-filtering.md](1g1r-filtering.md)): no tiene sentido aplicar ninguna de las dos sobre un romset que todavía no se sabe si está completo o corrupto.
