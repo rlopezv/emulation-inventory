@@ -14,7 +14,7 @@ Scripts del pipeline de romsets: indexado de DATs, construcción/promoción de s
 
 | Script | Propósito |
 | --- | --- |
-| `build-dat-index-nointro.ps1` | Genera `metadata/dat-index/<id>.json` a partir de DAT No-Intro (desde `sources/dats/no-intro/full/`, resuelto por nombre base vía `config/nointro-systems.json`) o Non-Redump (nombre de fichero exacto en `metadata/dat/Non-Redump/`); agrupa familias 1G1R por relación parent/clone usando `cloneofid`. El pack Parent-Clone (`sources/dats/no-intro/pc/`) se sincroniza pero no se indexa todavía — usa `cloneof` por nombre en vez de `cloneofid`, un esquema que este script aún no interpreta. Sin equivalente Python todavía. |
+| `build-dat-index-nointro.ps1` / `build-dat-index-nointro.py` | Genera `metadata/dat-index/<id>.json` a partir de DAT No-Intro (`sources/dats/no-intro/{full,aftermarket,pc}/`, resueltos por nombre base vía `config/nointro-systems.json`) o Non-Redump (nombre de fichero exacto en `metadata/dat/Non-Redump/`); agrupa familias 1G1R por relación parent/clone. Fuente del árbol seleccionable con `-SourceMode`/`--source-mode`: `FullAftermarket` (por defecto, `full`+`aftermarket` combinados vía `cloneofid`), `Pc` (árbol completo desde `pc/`, vía `cloneof` por nombre) o `Merged` (`FullAftermarket` completado con lo detectado solo en `pc/`). Genera además, si hay pack `pc/`, un informe de contraste bidireccional (`debug/<id>-pc-contrast.json`) y, si hay clonelist de retool, un informe de divergencias (`debug/<id>-clonelist-diff.json`). Equivalentes verificados por contenido (conjunto de familias) en 33 de 34 sistemas; NES tiene una discrepancia residual conocida (ver `docs/session-context.md`) causada por una ambigüedad pre-existente del algoritmo de fusión de alias manual ante colisiones de nombre canónico, no por la portabilidad en sí. |
 | `build-dat-index-redump.ps1` | Igual que el anterior pero para DAT Redump (sin `cloneofid`); agrupa por clonelist o, si no existe, por nombre base exacto. |
 | `build-dat-index-tosec.ps1` | Igual que los anteriores pero para DAT TOSEC (sin `cloneofid`, convención de nombre con código de región de 2 letras). |
 | `build-dat-index-1g1r.ps1` | Genera el índice a partir de los DAT ya curados 1G1R de `data/dats/console/1g1r/` (generados externamente con retool); no necesita agrupar por parent/clone, retool ya lo resolvió. |
@@ -22,6 +22,12 @@ Scripts del pipeline de romsets: indexado de DATs, construcción/promoción de s
 | `filter-by-title-type.ps1` | Limpia un índice dejando solo familias con `<game_id>` de un prefijo de Title ID permitido (uso: catálogos digitales Nintendo 3DS/DSi). |
 | `filter-cross-system-duplicates.ps1` | Limpia un índice eliminando familias ya cubiertas por otro sistema relacionado (uso: `3dseshop` vs `3ds`). |
 | `find-1g1r-duplicates.ps1` | Detecta nombres de familia duplicados dentro de un índice 1G1R generado por `build-dat-index-1g1r.ps1`. |
+
+## Conversión de esquema DAT
+
+| Script | Propósito |
+| --- | --- |
+| `convert-cloneofid-to-parent-clone.ps1` / `convert-cloneofid-to-parent-clone.py` | Conversor genérico e independiente (no usa `dat-index` ni el manifiesto de sistemas): recibe uno o varios DAT Logiqx en esquema Standard (`id`/`cloneofid`, ej. `full`+`aftermarket` de No-Intro) y devuelve un único DAT fusionado en esquema Parent-Clone (`cloneof` por nombre completo, sin `id`), que es el que acepta Retool — Retool no interpreta `id`/`cloneofid`. No aplica curación propia (no descarta Proto/Demo/Beta/etc., eso es trabajo de Retool aguas abajo); namespacea los `id` por fichero de origen para fusionar varias entradas sin colisión. |
 
 ## Construcción de romsets (`data/roms/`, colección física)
 

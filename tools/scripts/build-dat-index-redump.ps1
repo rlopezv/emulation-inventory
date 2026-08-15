@@ -6,8 +6,8 @@ puede resolver relacion parent/clone automaticamente (ver
 docs/romsets.md#formato-de-dat).
 
 Agrupacion de familia, en orden de prioridad:
-1. Clonelist (metadata/dat/clonelist/<Nombre> (Redump).json, formato retool/
-   unexpectedpanda): si el nombre base de la entrada coincide con un
+1. Clonelist (metadata/dat/retool/clonelists/<Nombre> (Redump).json, formato
+   retool/unexpectedpanda): si el nombre base de la entrada coincide con un
    "searchTerm" de un "variant", la familia usa el "group" de ese variant
    como nombre canonico. Esto agrupa tanto variantes regionales del mismo
    titulo como titulos distintos por region (equivalente a Rockman/Mega
@@ -45,7 +45,7 @@ if (-not $DatRoot) { $DatRoot = Join-Path $repoRoot "metadata\dat" }
 if (-not $OutputRoot) { $OutputRoot = Join-Path $repoRoot "metadata\dat-index" }
 $AliasRoot = Join-Path $OutputRoot "aliases"
 $DebugRoot = Join-Path $OutputRoot "debug"
-$ClonelistRoot = Join-Path $DatRoot "clonelist"
+$ClonelistRoot = Join-Path $DatRoot "retool\clonelists"
 
 # Exclusiones GLOBALES: patrones de revista/cheats/demo que se repiten
 # entre varios sistemas Redump (van pegados al titulo, no como tag entre
@@ -96,7 +96,7 @@ $XboxSpecificExclusions = Join-TitleExclusions @(
 # especificas identificadas todavia). Ampliar si se detectan casos.
 $DefaultTitleExclusions = Join-TitleExclusions @()
 
-# id -> @{ Source = "Redump"; Dat = "<nombre de fichero>.dat"; Clonelist = "<nombre en metadata/dat/clonelist/>.json" (opcional); TitleExclusions = "<regex>" (opcional) }
+# id -> @{ Source = "Redump"; Dat = "<nombre de fichero>.dat"; Clonelist = "<nombre en metadata/dat/retool/clonelists/>.json" (opcional); TitleExclusions = "<regex>" (opcional) }
 $datMap = [ordered]@{
     "gamecube"   = @{ Source = "Redump"; Dat = "Nintendo - GameCube - Datfile (2019) (2026-06-13 18-14-01).dat"; Clonelist = "Nintendo - GameCube (Redump).json"; TitleExclusions = $DefaultTitleExclusions }
     "wii"        = @{ Source = "Redump"; Dat = "Nintendo - Wii - Datfile (3780) (2026-06-15 03-13-28).dat"; Clonelist = "Nintendo - Wii (Redump).json"; TitleExclusions = $DefaultTitleExclusions }
