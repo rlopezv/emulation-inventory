@@ -1,6 +1,5 @@
 .claude/
 sources/
-CLAUDE.md
 metadata/
 .devcontainer/.env
 tools/scripts/__pycache__/
