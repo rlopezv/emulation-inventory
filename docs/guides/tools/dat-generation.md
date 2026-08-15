@@ -12,7 +12,7 @@ Orden de prioridad general, de mayor a menor fiabilidad de preservación (verifi
 2. **¿Es un sistema doméstico (consola/microordenador) emulado dentro de la arquitectura de MAME** (ej. Sega CD, PC Engine CD, Neo Geo CD, ciertos microordenadores)**?** → [MAME Software Lists](#mame-software-lists-softwarelist), no el DAT arcade principal — combinando ambos solo si el sistema requiere BIOS/dispositivo adicional (ver limitaciones de esa sección).
 3. **¿Es consola de cartucho, handheld o la mayoría de microcomputers?** → [No-Intro](#no-intro-dat-o-matic). Es la fuente con mayor cobertura y mejor definida (esquema Parent-Clone nativo, imprescindible para 1G1R).
 4. **¿Es sistema óptico (CD/DVD/GD-ROM)?** → [Redump](#redump) como fuente primaria (máxima exactitud byte a byte). Completar con [Non-Redump](#non-redump) solo para prototipos/betas que Redump rechaza, o sistemas sin cobertura Redump todavía (PS3, PSP, Xbox 360).
-5. **¿No tiene cobertura adecuada en ninguna de las anteriores?** (microordenadores huérfanos, homebrew, sistemas muy antiguos) → [TOSEC](#tosec-the-old-school-emulation-center) primero (más exhaustivo pero sin filtrado 1G1R nativo); [libretro-database](#libretro-database-clrmamepro-texto) si tampoco hay cobertura TOSEC adecuada (`spectrum`, `zx81`, `scummvm`, `dos`...).
+5. **¿No tiene cobertura adecuada en ninguna de las anteriores?** (microordenadores huérfanos, homebrew, sistemas muy antiguos) → [TOSEC](#tosec-the-old-school-emulation-center) primero (más exhaustivo pero sin filtrado 1G1R nativo); [libretro-database](#libretro-database-clrmamepro-texto) si tampoco hay cobertura TOSEC adecuada (`spectrum`, `zx81`, `scummvm`, `dos`...); para contenido de nicho fuera de todo lo anterior (pinball, tragamonedas, visual novels, Touhou, RPG Maker, iPod Clickwheel Games...), la colección curada `Eggmansworld/Datfiles` (ver `docs/references.md#preservación-y-gestión-de-dat`) — sin garantía de mantenimiento activo equivalente a las fuentes anteriores.
 6. **¿Ninguna fuente de preservación cubre el sistema, pero ya existe una colección propia organizada?** → último recurso: [Generación manual desde directorio](#generación-manual-desde-directorio-dat-from-dir) (SabreTools DFD/D2D) sobre los ficheros reales, o los backups de [gamelist.xml](#gamelistxml-dat-de-respaldo) / [HyperList](#hyperlist-xml) si solo se dispone de esos XML.
 
 **Motivo del orden:** las fuentes 3-4 (No-Intro/Redump) son las únicas con esquema Parent-Clone nativo o agrupado fiable para 1G1R y con mantenimiento activo garantizado por comunidades dedicadas; TOSEC prioriza exhaustividad sobre curación (acepta volcados defectuosos, hacks, etc. — ver sus limitaciones); libretro-database y la generación manual son de último recurso porque no aportan garantía de volcado legítimo, solo coincidencia de hash con lo que ya hay en disco.
@@ -39,10 +39,13 @@ Ideal para actualizar todos los sistemas de golpe sin necesidad de iniciar sesi�
 
 1. Ir directamente a la sección **Download** del menú principal.
 2. En las pestañas internas de la zona central, hacer clic en la opción **Daily**.
-3. Localizar el paquete acumulativo deseado:
-   - **No-Intro Love Pack:** Descarga un único archivo comprimido (`.7z` o `.zip`) con todos los DATs actualizados de todos los sistemas en formato estándar plano.
-   - **Parent-Clone Packs:** Si están disponibles en la misma sección, descargan los lotes con la estructura de clones ya preconfigurada.
+3. Elegir el paquete según necesidad — no requieren cuenta/login. Variantes confirmadas en uso real:
+   - **No-Intro Love Pack (PC)** — variante **Parent-Clone** (el nombre del pack ya lo indica con "(PC)"), catálogo licenciado/comercial estándar.
+   - **No-Intro Love Pack (DAT) (Aftermarket)** — catálogo **aftermarket**: juegos no licenciados publicados *después* del último juego licenciado oficial de esa plataforma (homebrew indie tardío, no confundir con "Unlicensed" en general — es un barómetro del final de vida útil de la consola). Necesario aparte del pack (PC) si interesa este contenido, no viene incluido en él.
+   - Puede haber más variantes en la misma sección (ej. "Standard" plano, sin relación P/C) — confirmar en el propio portal cuáles están disponibles en cada visita, ya que no se ha hecho un barrido exhaustivo de todas.
 4. Descomprimir el lote completo y extraer únicamente el `.dat` del sistema que necesites (ver "Notas" al final de esta guía para dónde colocarlo).
+
+**Caso confirmado:** para sistemas de cartucho, seleccionar dentro del ZIP solo los sistemas de interés del catálogo completo — no hace falta procesar los que no interesan. Dos excepciones a tener en cuenta que **no** están cubiertas por ningún pack de No-Intro: `gx4000` (usa TOSEC, ver más abajo) y `sgb` (no tiene DAT propio — usa las mismas ROMs de `gb`/`gbc`, ejecutadas en modo Super Game Boy).
 
 ### Patrón de nombres de ficheros (No-Intro)
 
@@ -52,8 +55,8 @@ Los archivos descargados siguen convenciones de nombres estrictas que dependen d
   `[Compañía] - [Nombre del Sistema] (Parent-Clone) ([YYYYMMDD-HHMMSS]).dat`
   *Ejemplo:* `Nintendo - Super Nintendo Entertainment System (Parent-Clone) (20260810-184522).dat`
 - **Descarga del paquete diario (Daily Pack):** El contenedor principal se descarga bajo el nombre:
-  `No-Intro Love Pack ([YYYYMMDD]).7z`
-  *Ejemplo:* `No-Intro Love Pack (20260810).7z`
+  `No-Intro Love Pack (PC) ([YYYYMMDD]).7z`
+  *Ejemplo:* `No-Intro Love Pack (PC) (20260810).7z`
 - **DATs extraídos del Daily Pack:** Al descomprimir el paquete diario, los archivos `.dat` individuales de su interior adoptan el nombre limpio oficial del proyecto sin marcas de tiempo:
   `[Compañía] - [Nombre del Sistema].dat`
   *Ejemplo:* `Nintendo - Game Boy Advance.dat`
@@ -162,8 +165,9 @@ A diferencia de los sistemas domésticos, el entorno Arcade no depende de listad
 
 #### Fuentes alternativas en internet (si no se dispone del ejecutable)
 
-- **Progetto-Snaps** — progettosnaps.net. Sitio de referencia de la comunidad Arcade; publica DATs de MAME completos, diffs entre versiones y DATs de Software List (SL), con historial desde versiones muy antiguas hasta la actual.
+- **Progetto-Snaps** — progettosnaps.net. Sitio de referencia de la comunidad Arcade; publica DATs de MAME completos, diffs entre versiones y DATs de Software List (SL), con historial desde versiones muy antiguas hasta la actual. Confirmado en uso real (sesión de bitácora) como fuente efectiva, no solo teórica.
 - **renameSET.dat** — progettosnaps.net/renameset/. Registro histórico de renombrados de sets entre versiones de MAME (mapeo de identificadores mID); útil para sincronizar una colección tras una actualización de MAME que renombra sets existentes.
+- **retropie-dat** — github.com/HerbFargus/retropie-dat. DAT de MAME/AdvMAME/FBA organizados por carpeta de **core exacto** (`lr-mame2003-plus`, `lr-mame2010`, `lr-fbneo`, `lr-fbalpha2012`, `gngeopi`...) — útil específicamente cuando el hardware objetivo corre un core antiguo/legacy y hace falta el DAT de esa versión concreta, no la más reciente. Mantenimiento limitado (20 commits, actividad reciente no confirmada) — ver `docs/references.md#preservación-y-gestión-de-dat`.
 
 [TODO: verificar — se ha citado también un "MAME Clean DAT" (variante depurada del DAT completo, sin dispositivos huérfanos/drivers vacíos); no aparece entre las variantes listadas al comprobar directamente `progettosnaps.net/dats/MAME/`, pendiente de confirmar si existe con otro nombre o en otra sección del sitio]
 
@@ -189,7 +193,7 @@ Al generarse de forma manual, se recomienda renombrarlo forzando la versión exa
 **Vías descartadas tras verificación:**
 
 - **Repositorio oficial en GitHub** (`github.com/finalburnneo/FBNeo`) — comprobado que **no existe** una carpeta `dats/` en la raíz del repositorio (las carpetas reales son `.github`, `fbahelpfilesrc`, `projectfiles`, `src`, `tools`).
-**Alternativa citada, pendiente de verificar (sin acceso para comprobarla):** la interfaz gráfica de Windows (`fbneo.exe`) tendría una opción de menú **Misc → Generate Dat Files...** que exportaría el catálogo en formato ClrMamePro (completo o solo Neo-Geo). No se ha podido confirmar ejecutando el emulador ni inspeccionando el código fuente — verificar antes de dar esta vía por definitiva.
+**Confirmado contra la wiki oficial de FBNeo** (`finalburnneo/FBNeo/wiki/menu_misc`): la interfaz gráfica de Windows (`fbneo.exe`) tiene la pestaña **Misc** con dos opciones — **"Generate dat file"** (una categoría concreta: arcade, o un sistema doméstico específico como Megadrive, PC-Engine, Sega Master System, MSX-1, ZX Spectrum...) y **"Generate all dats"** (todos a la vez). Formato de salida: ClrMamePro (XML). Detalle completo en `docs/arcade/arcade.md#anexo-procedimiento-para-generar-archivos-dat-personalizados`.
 
 ### Limitaciones técnicas de preservación (Arcade)
 
@@ -293,6 +297,8 @@ SabreTools --dfd --output-type=xml --name=DatName Path\To\Files
 
 El DAT resultante usa la fecha/nombre indicados, en formato Logiqx XML (`--output-type=xml`).
 
+**Alternativa GUI:** Datfile Creator Studio (github.com/Eggmansworld/DatfileCreatorStudio) — misma idea que `SabreTools --dfd` pero con interfaz gráfica nativa, actualización incremental (solo recomputa ficheros nuevos/modificados en vez de rehacer todo el DAT cada vez), modos Mixed/Zipped, y utilidades adicionales (reparador de rutas largas, validador y fusionador de DAT).
+
 ### Limitaciones
 
 - **No sustituye a un DAT oficial de verificación** — solo certifica que los hashes coinciden con lo que hay en disco *ahora mismo*; no confirma que esos ficheros sean volcados legítimos y libres de errores, que es justo lo que aportan No-Intro/Redump/TOSEC/MAME.
@@ -350,7 +356,7 @@ HyperList requiere una correspondencia exacta de nombres de archivo para que el 
 
 ## Notas
 
-Una vez descargado o generado, el DAT se coloca en `metadata/dat/<Fuente>/` (o `metadata/sources/` si es un DAT crudo previo a procesado con retool) para que `tools/scripts/build-dat-index-*.ps1` pueda indexarlo — ver [custom-pipeline.md](../romsets/custom-pipeline.md).
+Una vez descargado o generado, el DAT se guarda en `metadata/dat/<Fuente>/` (archivo crudo, tal cual se descarga). Para que `tools/scripts/build-dat-index-*.ps1` lo indexe tiene que estar en la copia de trabajo `sources/dats/<fuente>/`: para No-Intro esa sincronización la hace `tools/scripts/update-sources.ps1`, a partir del manifiesto de sistemas usados en `tools/scripts/config/nointro-systems.json`; el resto de fuentes, de momento, se siguen leyendo directamente de `metadata/dat/<Fuente>/` hasta migrarlas al mismo patrón — ver [custom-pipeline.md](../romsets/custom-pipeline.md).
 
 Conservar el DAT anterior hasta confirmar que el nuevo audita correctamente contra el romset existente (fase 3): un DAT corrupto o de una versión inconsistente puede marcar como inválido un set que en realidad está bien.
 

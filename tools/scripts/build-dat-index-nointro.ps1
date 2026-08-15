@@ -35,17 +35,35 @@ Uso:
     pwsh tools/scripts/build-dat-index-nointro.ps1
     pwsh tools/scripts/build-dat-index-nointro.ps1 -SystemId nes
 
-Los DAT están hardcodeados a partir de docs/romsets.md (solo Consolas,
-solo fuente No-Intro/Non-Redump; los DAT libretro usan otro formato y
-no siguen la convención de región y quedan fuera por ahora). Si se
-añaden/eliminan sistemas o cambia el fichero DAT de alguno en
-docs/romsets.md, actualizar la tabla $datMap de abajo.
+Los sistemas No-Intro se leen de tools/scripts/config/nointro-systems.json
+(nombre base sin tag de pack ni fecha) y se resuelven buscando ese patron
+en sources/dats/no-intro/full/ (Standard: cada <game> lleva id/cloneofid
+numericos, que es lo que este script necesita para reconstruir el arbol
+parent/clone). El pack Parent-Clone (sources/dats/no-intro/pc/) NO se usa
+todavia como fuente de indexado: agrupa clones por cloneof="<nombre del
+padre>" en vez de id/cloneofid, un esquema distinto que este script no
+sabe interpretar aun; se sincroniza igualmente como copia de referencia
+por tools/scripts/update-sources.ps1, pendiente de una adaptacion futura
+del algoritmo si se decide consumirlo. Esa carpeta sources/ es la copia
+de trabajo sincronizada desde el archivo crudo en metadata/dat/No-Intro/
+por tools/scripts/update-sources.ps1; no tocar metadata/dat/ directamente
+para este flujo.
+
+Los sistemas Non-Redump siguen hardcodeados abajo en $nonRedumpMap con
+nombre de fichero exacto (paquete/convencion distinta, sin migrar a
+sources/ todavia) resuelto directamente en metadata/dat/Non-Redump/. Si
+cambia el fichero DAT de alguno en docs/romsets.md, actualizar esa tabla.
+
+gameandwatch usa metadata/dat/libretro/Handheld Electronic Game.dat, en
+formato ClrMamePro (texto), fuera del alcance de este script (ver
+docs/romsets.md#formato-de-dat). Pendiente de un parser específico.
 #>
 
 [CmdletBinding()]
 param(
     [string]$SystemId,
     [string]$DatRoot,
+    [string]$SourcesRoot,
     [string]$OutputRoot
 )
 
@@ -53,49 +71,49 @@ $scriptDir = Split-Path -Parent $MyInvocation.MyCommand.Path
 $repoRoot = Split-Path -Parent (Split-Path -Parent $scriptDir)
 
 if (-not $DatRoot) { $DatRoot = Join-Path $repoRoot "metadata\dat" }
+if (-not $SourcesRoot) { $SourcesRoot = Join-Path $repoRoot "sources\dats\no-intro" }
 if (-not $OutputRoot) { $OutputRoot = Join-Path $repoRoot "metadata\dat-index" }
 $AliasRoot = Join-Path $OutputRoot "aliases"
 $DebugRoot = Join-Path $OutputRoot "debug"
 
-# id -> @{ Source = "No-Intro" | "Non-Redump"; Dat = "<nombre de fichero>.dat" }
-# gameandwatch usa metadata/dat/libretro/Handheld Electronic Game.dat, en
-# formato ClrMamePro (texto), fuera del alcance de este script (ver
-# docs/romsets.md#formato-de-dat). Pendiente de un parser específico.
-$datMap = [ordered]@{
-    "nes"          = @{ Source = "No-Intro";    Dat = "Nintendo - Nintendo Entertainment System (Headered) (20260504-103615).dat" }
-    "fds"          = @{ Source = "No-Intro";    Dat = "Nintendo - Family Computer Disk System (FDS) (20260317-004812).dat" }
-    "satellaview"  = @{ Source = "No-Intro";    Dat = "Nintendo - Satellaview (20260322-134432).dat" }
-    "sufami"       = @{ Source = "No-Intro";    Dat = "Nintendo - Sufami Turbo (20240622-035607).dat" }
-    "snes"         = @{ Source = "No-Intro";    Dat = "Nintendo - Super Nintendo Entertainment System (20260505-202641).dat" }
-    "gb"           = @{ Source = "No-Intro";    Dat = "Nintendo - Game Boy (20260501-055403).dat" }
-    "gbc"          = @{ Source = "No-Intro";    Dat = "Nintendo - Game Boy Color (20260505-192202).dat" }
-    "gba"          = @{ Source = "No-Intro";    Dat = "Nintendo - Game Boy Advance (20260503-202332).dat" }
-    "virtualboy"   = @{ Source = "No-Intro";    Dat = "Nintendo - Virtual Boy (20260428-015207).dat" }
-    "n64"          = @{ Source = "No-Intro";    Dat = "Nintendo - Nintendo 64 (BigEndian) (20260505-135821).dat" }
-    "64dd"         = @{ Source = "No-Intro";    Dat = "Nintendo - Nintendo 64DD (20260221-121754).dat" }
-    "pokemini"     = @{ Source = "No-Intro";    Dat = "Nintendo - Pokemon Mini (20250407-153358).dat" }
-    "nds"          = @{ Source = "No-Intro";    Dat = "Nintendo - Nintendo DS (Decrypted) (20260504-004312).dat" }
-    "dsiware"      = @{ Source = "No-Intro";    Dat = "Nintendo - Nintendo DSi (Digital) (20220506-190731).dat" }
-    "3ds"          = @{ Source = "No-Intro";    Dat = "Nintendo - Nintendo 3DS (Decrypted) (20260505-085920).dat" }
-    "3dseshop"     = @{ Source = "No-Intro";    Dat = "Nintendo - Nintendo 3DS (Digital) (CDN) (20260306-063611).dat" }
-    "wiiu"         = @{ Source = "Non-Redump";  Dat = "Non-Redump - Nintendo - Wii U (20260312-235110).dat" }
-    "sg1000"       = @{ Source = "No-Intro";    Dat = "Sega - SG-1000 - SC-3000 (20231205-110448).dat" }
-    "mastersystem" = @{ Source = "No-Intro";    Dat = "Sega - Master System - Mark III (20260428-025956).dat" }
-    "megadrive"    = @{ Source = "No-Intro";    Dat = "Sega - Mega Drive - Genesis (20260504-203329).dat" }
-    "sega32x"      = @{ Source = "No-Intro";    Dat = "Sega - 32X (20260317-140429).dat" }
-    "gamegear"     = @{ Source = "No-Intro";    Dat = "Sega - Game Gear (20260422-014958).dat" }
-    "ps3"          = @{ Source = "Non-Redump";  Dat = "Non-Redump - Sony - PlayStation 3 (20250908-072347).dat" }
-    "psp"          = @{ Source = "Non-Redump";  Dat = "Non-Redump - Sony - PlayStation Portable (20260421-200314).dat" }
-    "lynx"         = @{ Source = "No-Intro";    Dat = "Atari - Atari Lynx (LYX) (20251222-090626).dat" }
-    "jaguar"       = @{ Source = "No-Intro";    Dat = "Atari - Atari Jaguar (J64) (20250208-164242).dat" }
-    "pcengine"     = @{ Source = "No-Intro";    Dat = "NEC - PC Engine - TurboGrafx-16 (20260124-120557).dat" }
-    "cdi"          = @{ Source = "Non-Redump";  Dat = "Non-Redump - Philips - CD-i (20260429-044928).dat" }
-    "ngp"          = @{ Source = "No-Intro";    Dat = "SNK - NeoGeo Pocket (20250904-215533).dat" }
-    "ngpc"         = @{ Source = "No-Intro";    Dat = "SNK - NeoGeo Pocket Color (20240506-123728).dat" }
-    "wswan"        = @{ Source = "No-Intro";    Dat = "Bandai - WonderSwan (20260124-123054).dat" }
-    "wswanc"       = @{ Source = "No-Intro";    Dat = "Bandai - WonderSwan Color (20260415-165647).dat" }
-    "supervision"  = @{ Source = "No-Intro";    Dat = "Watara - Supervision (20250625-093232).dat" }
-    "xbox360"      = @{ Source = "Non-Redump";  Dat = "Non-Redump - Microsoft - Xbox 360 (20251219-035655).dat" }
+$noIntroManifestPath = Join-Path $scriptDir "config\nointro-systems.json"
+$noIntroManifestRaw = (Get-Content -Raw -Path $noIntroManifestPath | ConvertFrom-Json).systems
+$noIntroManifest = [ordered]@{}
+foreach ($prop in $noIntroManifestRaw.PSObject.Properties) { $noIntroManifest[$prop.Name] = $prop.Value }
+
+# Non-Redump: fuera del manifiesto de No-Intro (formato/paquete distinto),
+# se mantienen con nombre de fichero exacto en metadata/dat/Non-Redump/.
+$nonRedumpMap = [ordered]@{
+    "wiiu"    = "Non-Redump - Nintendo - Wii U (20260312-235110).dat"
+    "ps3"     = "Non-Redump - Sony - PlayStation 3 (20250908-072347).dat"
+    "psp"     = "Non-Redump - Sony - PlayStation Portable (20260421-200314).dat"
+    "cdi"     = "Non-Redump - Philips - CD-i (20260429-044928).dat"
+    "xbox360" = "Non-Redump - Microsoft - Xbox 360 (20251219-035655).dat"
+}
+
+$datMap = [ordered]@{}
+foreach ($key in $noIntroManifest.Keys) {
+    $datMap[$key] = @{ Source = "No-Intro"; BaseName = $noIntroManifest[$key] }
+}
+foreach ($key in $nonRedumpMap.Keys) {
+    $datMap[$key] = @{ Source = "Non-Redump"; Dat = $nonRedumpMap[$key] }
+}
+
+function Resolve-NoIntroDat {
+    # Busca <BaseName> (<timestamp>).dat en full/ (Standard: unico esquema
+    # con id/cloneofid que este script sabe interpretar). Devuelve la ruta
+    # completa del fichero mas reciente que coincida, o $null.
+    param([string]$BaseName)
+
+    $escapedBase = [regex]::Escape($BaseName)
+    $pattern = "^$escapedBase \(\d{8}-\d{6}\)\.dat$"
+    $folder = Join-Path $SourcesRoot "full"
+    if (-not (Test-Path $folder)) { return $null }
+    $match = Get-ChildItem -Path $folder -File |
+        Where-Object { $_.Name -match $pattern } |
+        Sort-Object Name -Descending | Select-Object -First 1
+    if ($match) { return $match.FullName }
+    return $null
 }
 
 # Tokens de región reconocidos por la convención No-Intro (lista cerrada).
@@ -217,10 +235,18 @@ function Write-JsonFile {
 function Build-SystemIndex {
     param([string]$Id, [hashtable]$Entry)
 
-    $datPath = Join-Path $DatRoot "$($Entry.Source)\$($Entry.Dat)"
-    if (-not (Test-Path $datPath)) {
-        Write-Warning "DAT no encontrado para '$Id': $datPath"
-        return
+    if ($Entry.Source -eq "No-Intro") {
+        $datPath = Resolve-NoIntroDat -BaseName $Entry.BaseName
+        if (-not $datPath) {
+            Write-Warning "DAT no encontrado para '$Id' (No-Intro, base '$($Entry.BaseName)') en sources/dats/no-intro/full/. ¿Falta ejecutar update-sources.ps1?"
+            return
+        }
+    } else {
+        $datPath = Join-Path $DatRoot "$($Entry.Source)\$($Entry.Dat)"
+        if (-not (Test-Path $datPath)) {
+            Write-Warning "DAT no encontrado para '$Id': $datPath"
+            return
+        }
     }
 
     [xml]$xml = Get-Content -Raw -Path $datPath
@@ -336,7 +362,7 @@ function Build-SystemIndex {
     $output = [ordered]@{
         system    = $Id
         source    = $Entry.Source
-        dat       = $Entry.Dat
+        dat       = (Split-Path -Leaf $datPath)
         generated = (Get-Date -Format "yyyy-MM-dd")
         games     = @($gamesOut)
     }

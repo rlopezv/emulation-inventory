@@ -10,6 +10,7 @@ Flujos de trabajo para preparar romsets antes de distribuirlos en `data/roms/`. 
 | Arcade | MAME/FBNeo, elección de tipo de set (split/merged/non-merged), BIOS y samples | [arcade.md](arcade.md) |
 | Workflow end-to-end | Flujo completo DAT → auditoría → 1G1R → parcheo → compresión → gamelist, encadenando las herramientas de `docs/software.md` | [workflow.md](workflow.md) |
 | Pipeline propio (tools/scripts) | Estado actual del pipeline de scripts del repo (DAT → dat-index → docs, ROMs físicas) y roadmap de ampliaciones propuestas | [custom-pipeline.md](custom-pipeline.md) |
+| Bitácora de procesado | Registro cronológico de sesiones reales de trabajo, no prescriptivo — base empírica para detectar qué automatizar | [bitacora.md](bitacora.md) |
 
 ## Curación por sistema
 

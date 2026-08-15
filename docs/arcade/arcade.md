@@ -1,5 +1,7 @@
 # Arcade
 
+[TODO: las asociaciones concretas core/romset-versión de las tablas de abajo (~40 filas entre "Cores RetroArch", "Standalone", "Catálogo de Romsets Tradicionales" y "Catálogo de Sistemas Basados en Medios Ópticos y Vídeo") no se han verificado exhaustivamente contra documentación oficial — solo se ha confirmado el procedimiento del Anexo (generación de DAT vía menú de MAME/FBNeo) y corregido lo que resultó incorrecto ahí. Tratar los números de versión concretos con cautela hasta auditarlos.]
+
 ## Cores RetroArch (Libretro)
 
 | Core RetroArch       | Romset / versión asociada      | Uso recomendado                                                                                                          | Hardware óptimo                                               |
@@ -89,27 +91,32 @@
 
 ---
 
-### 💡 Glosario de Estados y Comportamiento de los Romsets
+### Glosario de Estados y Comportamiento de los Romsets
 
 * **Actual / Vigente / Alternativo (Cores Vivos):** El romset cambia constantemente en su desarrollo madre. En **consolas portátiles chinas**, el set se queda congelado en la fecha exacta en la que el desarrollador compiló el firmware (ej. OnionOS, ArkOS). *Acción: Se recomienda generar el .dat desde el menú interno de RetroArch de la propia consola para clavar las firmas CRC.*
 * **Legacy / Histórico (Cores Congelados):** El código del emulador no se ha movido en años. Las firmas CRC de los archivos `.zip` son fijas y universales. *Acción: Puedes usar cualquier romset histórico de internet (ej. MAME 0.37b5 o FBA 0.2.97.29) y encajará a la primera bajo la estructura Non-Merged elegida.*
 
 ---
 
-### 🛠️ ANEXO: Procedimiento para generar archivos .DAT personalizados
+### Anexo: procedimiento para generar archivos .DAT personalizados
 
 Cuando trabajes con núcleos catalogados como **"Vivos"** dentro del sistema operativo de una consola china, utiliza este protocolo para obtener el índice exacto de archivos y evitar pantallas negras:
 
-#### Método RetroArch (Para núcleos como `fbneo` o `mame2003-plus`)
+#### Método RetroArch (confirmado para `mame2003-plus`; corregido)
 
-1. Enciende la consola portátil y ejecuta **RetroArch** sin cargar ningún juego.
-2. Ve a **Cargar Núcleo** (*Load Core*) y activa el emulador que deseas auditar.
-3. Regresa al menú y accede a **Menú Principal > Información > Información del Núcleo** (*Core Information*).
-4. Desplázate hacia abajo y selecciona la opción **Crear archivo DAT de ROMs** (*Create DAT file*).
-5. Extrae la tarjeta MicroSD de la consola y copia el archivo `.dat` generado desde la carpeta interna `/RetroArch/downloads/` o `/RetroArch/system/` hacia tu PC para cargarlo en tu gestor de ROMs.
+**Corrección importante:** no existe la opción "Crear archivo DAT de ROMs" en Información del Núcleo tal como se describía antes — comprobado contra la documentación oficial de `mame2003-plus`. El procedimiento real es distinto y ocurre **dentro del propio menú de MAME del core**, no en el menú de RetroArch:
 
-#### Método Standalone (Para emuladores FBA / MAME de PC)
+1. Enciende la consola portátil, ejecuta **RetroArch** y carga el core (`mame2003-plus` confirmado; otros cores MAME/FBNeo pueden variar, no verificado para cada uno).
+2. Con un juego cargado, entra al **menú de MAME** — o bien activándolo como opción de core, o pulsando la tecla `Tab` si el modo de entrada tiene habilitado el interfaz `mame_keyboard`.
+3. Dentro de ese menú, selecciona la opción de core **"Generate XML DAT"**.
+4. Si se activó el menú de MAME solo para este paso, desactivarlo de nuevo como opción de core al terminar.
 
-1. Descarga en tu ordenador el ejecutable oficial para Windows de la subversión correspondiente del emulador (ej. *FinalBurn Alpha v0.2.97.44*).
-2. Abre la aplicación, despliega la pestaña superior **Misc** y haz clic en **Generate DAT file**.
-3. Filtra las categorías deseadas (puedes excluir clones o sistemas de consola doméstica) para generar un índice limpio y adaptado a las capacidades de almacenamiento de tus dispositivos portátiles.
+[TODO: no se ha confirmado la ruta exacta donde queda guardado el fichero DAT generado, ni si este procedimiento es idéntico para otros cores además de `mame2003-plus` (ej. `fbneo`, `mame2010`) — verificar caso por caso]
+
+#### Método Standalone (para emuladores FBA / FBNeo de PC — confirmado)
+
+1. Descarga en tu ordenador el ejecutable oficial para Windows de la subversión correspondiente del emulador (ej. *FinalBurn Alpha v0.2.97.44*, o FBNeo actual).
+2. Abre la aplicación, despliega la pestaña superior **Misc** y elige entre dos opciones confirmadas contra la wiki oficial de FBNeo:
+   * **"Generate dat file"** — genera un único DAT para una categoría concreta (arcade, o un sistema doméstico específico: Megadrive, PC-Engine/TurboGrafx-16, SuprGrafx, Sega SG-1000, ColecoVision, Sega Master System, Game Gear, MSX-1, ZX Spectrum).
+   * **"Generate all dats"** — genera todos los DAT disponibles a la vez, en una carpeta de destino elegida.
+3. Formato de salida confirmado: **ClrMamePro (XML)**.

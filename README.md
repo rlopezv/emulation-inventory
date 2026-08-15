@@ -47,9 +47,9 @@ Funciona como espacio de trabajo colaborativo con Claude Code.
 | --- | --- |
 | `docs/references.md` | Referencia técnica de romsets, DATs y conceptos |
 | `decisions/` | Decisiones de diseño del repositorio (ADRs) |
-| `metadata/dat/` | DATs por fuente: No-Intro, Redump, Non-Redump, TOSEC, arcade, libretro, etc. |
-| `metadata/dat-index/` | Índice JSON por sistema, generado a partir de `metadata/dat/` |
-| `metadata/sources/` | DATs fuente sin procesar, previos a retool |
+| `metadata/dat/` | Archivo crudo de DATs por fuente tal cual se descargan: No-Intro, Redump, Non-Redump, TOSEC, arcade, libretro, etc. |
+| `metadata/dat-index/` | Índice JSON por sistema, generado a partir de la copia de trabajo en `sources/dats/` |
+| `sources/` | Copia de trabajo curada de DATs (solo los sistemas/packs realmente usados), sincronizada desde `metadata/` por `tools/scripts/update-sources.ps1`; no versionada |
 | `metadata/mame/` | DATs y XMLs internos de MAME |
 | `metadata/software-list/` | Software lists XML de MAME |
 | `data/dats/` | Romsets curados por sistema (fullset y 1G1R), generados con retool |

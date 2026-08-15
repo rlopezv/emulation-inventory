@@ -20,7 +20,7 @@ Punto de partida de todo el flujo: sin el DAT correcto no se puede auditar, filt
 
 **libretro (ClrMamePro texto)** — DATs mantenidos en el repositorio `libretro-database` de GitHub; usados para sistemas sin cobertura adecuada en las fuentes anteriores (ej. `spectrum`, `zx81`, `scummvm`, `dos`). Formato de texto plano, no XML — requiere parser distinto (ver `docs/romsets.md#formato-de-dat`).
 
-Una vez descargado, el DAT se coloca en `metadata/dat/<Fuente>/` (o `metadata/sources/` si es un DAT crudo previo a retool) para que `tools/scripts/build-dat-index-*.ps1` pueda indexarlo — ver [custom-pipeline.md](custom-pipeline.md).
+Una vez descargado, el DAT se guarda en `metadata/dat/<Fuente>/` (archivo crudo, tal cual se descarga). Para que `tools/scripts/build-dat-index-*.ps1` lo indexe tiene que estar en la copia de trabajo `sources/dats/<fuente>/`: para No-Intro esa sincronización la hace `tools/scripts/update-sources.ps1`, a partir del manifiesto de sistemas usados en `tools/scripts/config/nointro-systems.json`; el resto de fuentes, de momento, se siguen leyendo directamente de `metadata/dat/<Fuente>/` hasta migrarlas al mismo patrón — ver [custom-pipeline.md](custom-pipeline.md).
 
 ## 2. Conversión de DAT
 
@@ -90,4 +90,4 @@ Descarga de imágenes y vídeos asociados al romset, normalmente en el mismo pas
 
 ## Notas
 
-[TODO]
+Este workflow es la referencia prescriptiva ("cómo se hace"). Para el registro de sesiones reales de trabajo ("qué se hizo, con qué comandos, en qué orden"), ver [bitacora.md](bitacora.md) — sirve de base empírica para decidir qué pasos automatizar en [custom-pipeline.md](custom-pipeline.md).

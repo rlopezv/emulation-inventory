@@ -1,0 +1,14 @@
+{
+  "files.watcherExclude": {
+    "**/metadata/dat/**": true,
+    "**/metadata/sources/**": true,
+    "**/data/dats/**": true,
+    "**/data/roms/**": true
+  },
+  "search.exclude": {
+    "**/metadata/dat": true,
+    "**/metadata/sources": true,
+    "**/data/dats": true,
+    "**/data/roms": true
+  }
+}

@@ -112,19 +112,19 @@ La columna **Formato** indica el formato de fichero del DAT, necesario para sabe
 
 ## Microcomputers
 
-| Identificador canónico | Fuente | Formato | DAT | Completitud | Almacenamiento | Notas |
-| --- | --- | --- | --- | --- | --- | --- |
-| `c64` | No-Intro | XML (Logiqx) | `Commodore - Commodore 64 (20260410-230500).dat` | [TODO] | [TODO] | |
-| `c128` | — | — | — | [TODO] | [TODO] | Sin DAT específico identificado |
-| `amiga` | No-Intro | XML (Logiqx) | `Commodore - Amiga (20240604-172503).dat` | [TODO] | [TODO] | |
-| `spectrum` | libretro | ClrMamePro (texto) | `Sinclair - ZX Spectrum.dat` | [TODO] | [TODO] | No-Intro solo cubre +3; libretro DAT para uso general |
-| `zx81` | libretro | ClrMamePro (texto) | `Sinclair - ZX 81.dat` | [TODO] | [TODO] | |
-| `msx` | No-Intro | XML (Logiqx) | `Microsoft - MSX (20260202-122913).dat` | [TODO] | [TODO] | |
-| `msx2` | No-Intro | XML (Logiqx) | `Microsoft - MSX2 (20260124-112728).dat` | [TODO] | [TODO] | |
-| `amstradcpc` | No-Intro | XML (Logiqx) | `Amstrad - CPC (Misc) (20230406-091045).dat` | [TODO] | [TODO] | También disponible variante Flux |
-| `atarist` | No-Intro | XML (Logiqx) | `Atari - Atari ST (20260222-121844).dat` | [TODO] | [TODO] | |
-| `sharpx68000` | Non-Redump | XML (Logiqx) | `Non-Redump - Sharp - X68000 (20260426-004349).dat` | [TODO] | [TODO] | No-Intro solo cubre Flux |
-| `dragon32` | — | — | — | [TODO] | [TODO] | Sin DAT identificado |
+| Identificador canónico | Fuente | Formato | DAT | Fuente alternativa | DAT alternativo | Completitud | Almacenamiento | Notas |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| `c64` | TOSEC | XML (Logiqx, TOSEC) | `Commodore C64 - Games - [D64] (TOSEC-v2025-02-16_CM).dat` | — | — | [TODO] | [TODO] | Cambiado de No-Intro a TOSEC: mucho software C64 solo sobrevive en volcados crackeados (protección quitada por grupos de la escena), que la filosofía "solo volcado limpio" de No-Intro excluye por diseño — TOSEC los acepta deliberadamente. Games está dividido en 12 sub-DAT por género (Adventure/Arcade/Board/Boulder Dash/Cards/Gambling/Misc/Racing/Shoot'em Up/Simulation/Sports/Strategy); fusionar con `SabreTools --merge` antes de auditar (ver `docs/guides/tools/dat-conversion.md`) |
+| `c128` | TOSEC | XML (Logiqx, TOSEC) | `Commodore C128 - Games - [D64] (TOSEC-v2025-01-15_CM).dat` | — | — | [TODO] | [TODO] | Resuelto — sí tiene cobertura TOSEC, sin dividir por género a diferencia de `c64` |
+| `amiga` | TOSEC | XML (Logiqx, TOSEC) | `Commodore Amiga - Games - [ADF] (TOSEC-v2025-01-30_CM).dat` | libretro | `Commodore - Amiga.dat` | [TODO] | [TODO] | Cambiado de No-Intro a TOSEC, mismo motivo que `c64`. Sub-DAT adicionales sin fusionar por defecto: Public Domain, SPS, Save Disks, Unofficial Addons & Patches |
+| `spectrum` | TOSEC | XML (Logiqx, TOSEC) | `Sinclair ZX Spectrum - Games - [TZX] (TOSEC-v2025-01-15_CM).dat` | libretro | `Sinclair - ZX Spectrum.dat` | [TODO] | [TODO] | Cambiado de libretro a TOSEC como fuente principal, mismo motivo que el resto de microcomputers (cracks/preservación); libretro queda como alternativa. Formatos alternativos TOSEC disponibles: `[TAP]`, `[SNA]`, `[Z80]`, `[DSK]`, `[SZX]`, entre otros — `.TZX` elegido por ser el más compatible hoy |
+| `zx81` | TOSEC | XML (Logiqx, TOSEC) | `Sinclair ZX81 - Games - [P] (TOSEC-v2025-01-15_CM).dat` | libretro | `Sinclair - ZX 81.dat` | [TODO] | [TODO] | Cambiado de libretro a TOSEC como fuente principal, mismo motivo; libretro queda como alternativa. `.P` es el formato nativo de programa ZX81; también disponibles `[TZX]`, `[Z81]`, `[Multipart]` |
+| `msx` | TOSEC | XML (Logiqx, TOSEC) | `MSX MSX - Games - [ROM] (TOSEC-v2025-01-15_CM).dat` | — | — | [TODO] | [TODO] | Cambiado de No-Intro a TOSEC, mismo motivo que `c64`. Nomenclatura de fichero TOSEC repite "MSX MSX" (no es error de transcripción). `[DSK]`/`[CAS]` disponibles para juegos en disco/cinta en vez de cartucho |
+| `msx2` | TOSEC | XML (Logiqx, TOSEC) | `MSX MSX2 - Games - [ROM] (TOSEC-v2025-01-15_CM).dat` | — | — | [TODO] | [TODO] | Cambiado de No-Intro a TOSEC, mismo motivo que `c64` |
+| `amstradcpc` | TOSEC | XML (Logiqx, TOSEC) | `Amstrad CPC - Games - [DSK] (TOSEC-v2025-01-15_CM).dat` | libretro | `Amstrad - CPC.dat` | [TODO] | [TODO] | Cambiado de No-Intro a TOSEC, mismo motivo que `c64`; libretro queda como alternativa. También disponible variante Flux; múltiples formatos de medio TOSEC sin dividir por género (`[BIN]`/`[CDT]`/`[CPR]`/`[DSK]`/`[ROM]`/`[SNA]`/`[TZX]`/`[WAV]`...) |
+| `atarist` | TOSEC | XML (Logiqx, TOSEC) | `Atari ST - Games - [ST] (TOSEC-v2025-01-15_CM).dat` | — | — | [TODO] | [TODO] | Cambiado de No-Intro a TOSEC, mismo motivo que `c64` |
+| `sharpx68000` | Non-Redump | XML (Logiqx) | `Non-Redump - Sharp - X68000 (20260426-004349).dat` | — | — | [TODO] | [TODO] | No-Intro solo cubre Flux (comparación fue Non-Redump vs. No-Intro, no vs. TOSEC). TOSEC también tiene cobertura (`Sharp X68000 - Games - [DIM/HFE/RAW/SCP]`), sin evaluar cambio |
+| `dragon32` | TOSEC | XML (Logiqx, TOSEC) | `Dragon Data Dragon - Games - [CAS] (TOSEC-v2025-01-15_CM).dat` | — | — | [TODO] | [TODO] | Resuelto — sí tiene cobertura TOSEC; también disponibles variantes `[BIN]`/`[DSK]`/`[PAK]`/`[SNA]`/`[VDK]`/`[WAV]` |
 
 ## Engines / Ports
 
@@ -138,5 +138,3 @@ La columna **Formato** indica el formato de fichero del DAT, necesario para sabe
 | `cavestory` | libretro | ClrMamePro (texto) | `Cave Story.dat` | |
 | `openbor` | — | — | — | Sin DAT estándar |
 | `ports` | — | — | — | Sin DAT estándar |
-
-
