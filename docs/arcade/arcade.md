@@ -82,12 +82,12 @@
 
 ## Catálogo de Sistemas Basados en Medios Ópticos y Vídeo
 
-| Familia     | Romset base                     | Core RetroArch   | Standalone         | Estado  | Disponible | Notas / Particularidades                                                                                                                                     |
-| :---------- | :------------------------------ | :--------------- | :----------------- | :------ | :--------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Sega Arcade | Sega NAOMI / Atomiswave DAT     | `flycast`        | Flycast Standalone | Actual  |    [ ]     | Requiere archivos `.zip` + `.chd` (ó `.gdi`/`.lst`). Las BIOS (`naomi.zip`/`awbios.zip`) van estrictamente en la carpeta `system` de RetroArch.              |
-| Sony ZN     | Hardware Arcade basado en PS1   | `fbneo` / `mame` | —                  | Actual  |    [ ]     | Placas tipo Zn-1/Zn-2. No usa ISOs de PS1; se gestiona con un romset arcade tradicional combinado con sus carpetas contenedoras `.chd`.                      |
-| Daphne      | Daphne Framefiles / LaserDisc   | `daphne`         | Daphne             | Vigente |    [ ]     | Especializado en juegos LaserDisc (*Dragon's Lair*). No usa ROMs estándar; requiere archivos de vídeo `.m2v` y un archivo de texto de sincronización `.txt`. |
-| Daphne      | Daphne / Singe 1 & 2 Video Data | `hypseus_singe`  | Hypseus Singe      | Actual  |    [ ]     | Fork moderno de Daphne. Añade soporte para juegos basados en el motor *Singe*. Optimiza espacio al sustituir los vídeos planos por formatos `.mp4` y `.ogg`. |
+| Familia     | Romset base                           | Core RetroArch   | Standalone         | Estado  | Disponible | Notas / Particularidades                                                                                                                                                                         |
+| :---------- | :------------------------------------ | :--------------- | :----------------- | :------ | :--------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Sega Arcade | Sega NAOMI / Atomiswave / NAOMI 2 DAT | `flycast`        | Flycast Standalone | Actual  |    [ ]     | Requiere archivos `.zip` + `.chd` (ó `.gdi`/`.lst`). Las BIOS (`naomi.zip`/`awbios.zip`) van estrictamente en la carpeta `system` de RetroArch. NAOMI 2 requiere DAT de MAME `0.260` o superior. |
+| Sony ZN     | Hardware Arcade basado en PS1         | `fbneo` / `mame` | —                  | Actual  |    [ ]     | Placas tipo Zn-1/Zn-2. No usa ISOs de PS1; se gestiona con un romset arcade tradicional combinado con sus carpetas contenedoras `.chd`.                                                          |
+| Daphne      | Daphne Framefiles / LaserDisc         | `daphne`         | Daphne             | Vigente |    [ ]     | Especializado en juegos LaserDisc (*Dragon's Lair*). No usa ROMs estándar; requiere archivos de vídeo `.m2v` y un archivo de texto de sincronización `.txt`.                                     |
+| Daphne      | Daphne / Singe 1 & 2 Video Data       | `hypseus_singe`  | Hypseus Singe      | Actual  |    [ ]     | Fork moderno de Daphne. Añade soporte para juegos basados en el motor *Singe*. Optimiza espacio al sustituir los vídeos planos por formatos `.mp4` y `.ogg`.                                     |
 
 ---
 

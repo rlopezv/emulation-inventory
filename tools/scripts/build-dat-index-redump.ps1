@@ -19,12 +19,34 @@ Agrupacion de familia, en orden de prioridad:
 El fichero metadata/dat-index/aliases/<id>.json sigue existiendo como capa
 manual adicional, para corregir/completar casos que el clonelist no cubra.
 
-Mismos criterios de descarte, deteccion de region y categoria que
-build-dat-index-nointro.ps1 (duplicados aqui para no acoplar ambos scripts).
+Mismos criterios de descarte, deteccion de region/idioma/revision/version/
+alt y categoria que build-dat-index-nointro.ps1 (duplicados aqui para no
+acoplar ambos scripts). Redump sigue la misma convencion de nombrado que
+No-Intro (docs/references.md#redump: "Redump sigue la misma estructura
+limpia que No-Intro"), verificado con datos reales de PSX: 99.6% cobertura
+de region, 98.8% de coincidencia por nombre exacto contra el metadata de
+retool. Cada familia expone `members[]` con el detalle por-clon (region,
+idioma, revision, version, isAlt individuales) - pensado para un futuro
+motor de 1G1R por idioma+region, todavia sin implementar el algoritmo de
+seleccion en si. NOTA: Redump tiene multi-disco ("(Disc N)"), que
+Get-BaseName colapsa en la misma familia igual que cualquier otro tag -
+correcto para agrupar (son el mismo juego), pero el futuro selector 1G1R
+tendra que tratarlo distinto a revision/alt (todas las partes hacen falta
+a la vez, no es "elige una") - sin campo dedicado todavia, pendiente.
+
+`languages` usa una cadena de relleno propia (SIN retool-clonelists-
+metadata): 1) deteccion por nombre (Get-Languages), 2) default por region
+(Get-LanguageForRegions, mapa cerrado $regionLanguageDefaults, mismo
+criterio ya validado en build-dat-index-nointro.ps1). retool-clonelists-
+metadata (metadata/dat/retool/metadata/<mismo nombre que el Clonelist>)
+se usa DESPUES, solo como validacion opcional - genera
+debug/<id>-language-diff.json con las divergencias, nunca rellena el
+campo languages.
 
 Salida: metadata/dat-index/<id>.json, metadata/dat-index/aliases/<id>.json,
-metadata/dat-index/debug/<id>.json (mismo esquema que build-dat-index-nointro.ps1,
-compatible con inspect-dat-index.ps1 y los scripts de filtrado).
+metadata/dat-index/debug/<id>.json, metadata/dat-index/debug/<id>-language-diff.json
+(mismo esquema que build-dat-index-nointro.ps1, compatible con
+inspect-dat-index.ps1 y los scripts de filtrado).
 
 Uso:
     pwsh tools/scripts/build-dat-index-redump.ps1
@@ -46,6 +68,7 @@ if (-not $OutputRoot) { $OutputRoot = Join-Path $repoRoot "metadata\dat-index" }
 $AliasRoot = Join-Path $OutputRoot "aliases"
 $DebugRoot = Join-Path $OutputRoot "debug"
 $ClonelistRoot = Join-Path $DatRoot "retool\clonelists"
+$MetadataRoot = Join-Path $DatRoot "retool\metadata"
 
 # Exclusiones GLOBALES: patrones de revista/cheats/demo que se repiten
 # entre varios sistemas Redump (van pegados al titulo, no como tag entre
@@ -127,6 +150,69 @@ $knownRegions = @(
     "Turkey", "UAE", "United Kingdom", "USA", "Vietnam", "World", "Unknown"
 )
 
+# Idioma por defecto SOLO para regiones con un idioma dominante razonable
+# (fallback de ultimo recurso, cuando la deteccion por nombre no dio idioma
+# - ver Get-LanguageForRegions). Region ausente de este mapa = sin default,
+# no se inventa dato (ver CLAUDE.md "Do not invent data"): "Asia", "Belgium"
+# (Fr/Nl oficiales), "Bangladesh", "Scandinavia", "Switzerland" (De/Fr/It
+# oficiales) quedan fuera por ambiguedad real de idioma dominante. "Unknown"
+# y "Europe" SI tienen default (En) - mismo criterio ya validado en
+# build-dat-index-nointro.ps1 (evaluado y confirmado con datos reales de NES).
+$regionLanguageDefaults = @{
+    "Argentina"      = "Es"
+    "Australia"      = "En"
+    "Austria"        = "De"
+    "Brazil"         = "Pt"
+    "Bulgaria"       = "Bg"
+    "Canada"         = "En"
+    "Chile"          = "Es"
+    "China"          = "Zh"
+    "Colombia"       = "Es"
+    "Croatia"        = "Hr"
+    "Czechia"        = "Cs"
+    "Denmark"        = "Da"
+    "Egypt"          = "Ar"
+    "Europe"         = "En"
+    "Finland"        = "Fi"
+    "France"         = "Fr"
+    "Germany"        = "De"
+    "Greece"         = "El"
+    "Hong Kong"      = "Zh"
+    "Hungary"        = "Hu"
+    "India"          = "En"
+    "Indonesia"      = "Id"
+    "Iran"           = "Fa"
+    "Iraq"           = "Ar"
+    "Ireland"        = "En"
+    "Israel"         = "He"
+    "Italy"          = "It"
+    "Japan"          = "Ja"
+    "Korea"          = "Ko"
+    "Latin America"  = "Es"
+    "Mexico"         = "Es"
+    "Netherlands"    = "Nl"
+    "New Zealand"    = "En"
+    "Norway"         = "No"
+    "Peru"           = "Es"
+    "Poland"         = "Pl"
+    "Portugal"       = "Pt"
+    "Romania"        = "Ro"
+    "Russia"         = "Ru"
+    "Saudi Arabia"   = "Ar"
+    "Slovakia"       = "Sk"
+    "South Africa"   = "En"
+    "Spain"          = "Es"
+    "Sweden"         = "Sv"
+    "Taiwan"         = "Zh"
+    "Turkey"         = "Tr"
+    "UAE"            = "Ar"
+    "United Kingdom" = "En"
+    "USA"            = "En"
+    "Vietnam"        = "Vi"
+    "World"          = "En"
+    "Unknown"        = "En"
+}
+
 function Get-ParenGroups {
     param([string]$Name)
     $matches = [regex]::Matches($Name, '\(([^()]*)\)')
@@ -141,6 +227,70 @@ function Get-Regions {
         if ($matched.Count -gt 0) { return $matched }
     }
     return @()
+}
+
+function Get-LanguageForRegions {
+    # Ultimo recurso: primera region (en el orden ya devuelto por
+    # Get-Regions) que tenga un default razonable.
+    param([string[]]$Regions)
+    foreach ($region in $Regions) {
+        if ($regionLanguageDefaults.ContainsKey($region)) { return @($regionLanguageDefaults[$region]) }
+    }
+    return @()
+}
+
+function Get-Languages {
+    # Misma convencion que No-Intro (docs/references.md#redump: "Redump
+    # sigue la misma estructura limpia que No-Intro"): el grupo de idiomas
+    # es una lista separada por comas de codigos de 2 letras que aparece
+    # INMEDIATAMENTE despues del grupo de region reconocido.
+    param([string]$Name)
+    $groups = Get-ParenGroups -Name $Name
+    for ($i = 0; $i -lt $groups.Count; $i++) {
+        $tokens = $groups[$i] -split '[,+]' | ForEach-Object { $_.Trim() }
+        $isRegionGroup = @($tokens | Where-Object { $knownRegions -ccontains $_ }).Count -gt 0
+        if (-not $isRegionGroup -or ($i + 1) -ge $groups.Count) { continue }
+        $nextTokens = @($groups[$i + 1] -split ',' | ForEach-Object { $_.Trim() })
+        $allMatchPattern = @($nextTokens | Where-Object { $_ -notmatch '^[A-Z][a-z]$' }).Count -eq 0
+        if ($nextTokens.Count -gt 0 -and $allMatchPattern) { return $nextTokens }
+    }
+    return @()
+}
+
+function Resolve-Languages {
+    # Cadena de relleno propia (SIN retool-clonelists-metadata - ver paso
+    # de validacion de idioma en Build-SystemIndex, capa posterior, no de
+    # relleno): 1) deteccion por nombre (Get-Languages), 2) default por
+    # region (Get-LanguageForRegions, solo regiones no ambiguas).
+    param([string]$FullName, [string[]]$Regions)
+    $byName = Get-Languages -Name $FullName
+    if ($byName.Count -gt 0) {
+        return @{ Languages = $byName; Source = "name" }
+    }
+    $byRegion = Get-LanguageForRegions -Regions $Regions
+    if ($byRegion.Count -gt 0) {
+        return @{ Languages = $byRegion; Source = "region-default" }
+    }
+    return @{ Languages = @(); Source = "none" }
+}
+
+function Get-Revision {
+    param([string]$Name)
+    $match = [regex]::Match($Name, '\(Rev ([^)]+)\)', 'IgnoreCase')
+    if ($match.Success) { return $match.Groups[1].Value }
+    return $null
+}
+
+function Get-Version {
+    param([string]$Name)
+    $match = [regex]::Match($Name, '\(v([\d.]+[A-Za-z]?)\)', 'IgnoreCase')
+    if ($match.Success) { return $match.Groups[1].Value }
+    return $null
+}
+
+function Test-IsAlt {
+    param([string]$Name)
+    return [regex]::IsMatch($Name, '\(Alt(?:\s*\d*)?\)', 'IgnoreCase')
 }
 
 function Get-BaseName {
@@ -208,6 +358,23 @@ function Get-ClonelistMap {
     return $map
 }
 
+function Get-LanguageMap {
+    # nombre completo del <game> -> lista de codigos de idioma curados por
+    # retool-clonelists-metadata (metadata/dat/retool/metadata/). OPCIONAL
+    # y usado DESPUES del calculo propio (Resolve-Languages) - no rellena
+    # el campo languages, solo sirve para detectar divergencias (ver
+    # debug/<id>-language-diff.json en Build-SystemIndex).
+    param([string]$Path)
+    $map = @{}
+    if (-not $Path -or -not (Test-Path $Path)) { return $map }
+    $json = Get-Content -Raw -Path $Path | ConvertFrom-Json
+    foreach ($prop in $json.PSObject.Properties) {
+        $languages = $prop.Value.languages
+        if ($languages) { $map[$prop.Name] = @($languages) }
+    }
+    return $map
+}
+
 function Write-JsonFile {
     param([string]$Path, $Data)
     $dir = Split-Path -Parent $Path
@@ -237,9 +404,15 @@ function Build-SystemIndex {
     $clonelistMap = Get-ClonelistMap -Path $clonelistPath
     $clonelistHits = 0
 
+    # Mismo fichero de nombre que el clonelist, en metadata/ en vez de
+    # clonelists/ (mismo patron, verificado sobre todos los sistemas
+    # mapeados en $datMap). Solo validacion posterior, ver paso final.
+    $languageMapPath = if ($Entry.Clonelist) { Join-Path $MetadataRoot $Entry.Clonelist } else { $null }
+    $languageMap = Get-LanguageMap -Path $languageMapPath
+
     # Agrupacion: clonelist (nombre base -> group curado) con fallback a
     # nombre base exacto cuando no hay clonelist o no cubre la entrada.
-    $families = [ordered]@{}  # canonicalKey -> { CanonicalName, AliasNames(set), Regions(set), Categories(set) }
+    $families = [ordered]@{}  # canonicalKey -> { CanonicalName, AliasNames(set), Regions(set), Languages(set), Categories(set), Members(list) }
     $discardedLog = New-Object System.Collections.Generic.List[object]
     $acceptedLog = New-Object System.Collections.Generic.List[string]
 
@@ -258,6 +431,7 @@ function Build-SystemIndex {
         if (-not $baseName) { continue }
 
         $regions = Get-Regions -Name $fullName
+        $langResult = Resolve-Languages -FullName $fullName -Regions $regions
         $category = Get-Category -Name $fullName
 
         $canonicalKey = $baseName
@@ -271,13 +445,27 @@ function Build-SystemIndex {
                 CanonicalName = $canonicalKey
                 AliasNames    = [System.Collections.Generic.HashSet[string]]::new([System.StringComparer]::OrdinalIgnoreCase)
                 Regions       = [System.Collections.Generic.HashSet[string]]::new([System.StringComparer]::OrdinalIgnoreCase)
+                Languages     = [System.Collections.Generic.HashSet[string]]::new([System.StringComparer]::OrdinalIgnoreCase)
                 Categories    = [System.Collections.Generic.HashSet[string]]::new([System.StringComparer]::OrdinalIgnoreCase)
+                Members       = New-Object System.Collections.Generic.List[object]
             }
         }
         $family = $families[$canonicalKey]
         if ($baseName -ne $family.CanonicalName) { [void]$family.AliasNames.Add($baseName) }
         foreach ($r in $regions) { [void]$family.Regions.Add($r) }
+        foreach ($l in $langResult.Languages) { [void]$family.Languages.Add($l) }
         [void]$family.Categories.Add($category)
+        $family.Members.Add([ordered]@{
+            name           = $fullName
+            origin         = "redump"
+            regions        = @($regions | Sort-Object)
+            languages      = @($langResult.Languages | Sort-Object)
+            languageSource = $langResult.Source
+            category       = $category
+            revision       = Get-Revision -Name $fullName
+            version        = Get-Version -Name $fullName
+            isAlt          = Test-IsAlt -Name $fullName
+        })
     }
 
     # Fichero de alias manual: fusion igual que build-dat-index-nointro.ps1, para
@@ -308,7 +496,9 @@ function Build-SystemIndex {
                 $otherFamily = $familyByCanonical[$aliasName]
                 foreach ($a in $otherFamily.AliasNames) { [void]$targetFamily.AliasNames.Add($a) }
                 foreach ($r in $otherFamily.Regions) { [void]$targetFamily.Regions.Add($r) }
+                foreach ($l in $otherFamily.Languages) { [void]$targetFamily.Languages.Add($l) }
                 foreach ($c in $otherFamily.Categories) { [void]$targetFamily.Categories.Add($c) }
+                foreach ($m in $otherFamily.Members) { $targetFamily.Members.Add($m) }
                 [void]$targetFamily.AliasNames.Add($aliasName)
                 $familyByCanonical[$aliasName] = $targetFamily
                 foreach ($key in @($families.Keys)) {
@@ -325,7 +515,9 @@ function Build-SystemIndex {
             name       = $_.CanonicalName
             aliases    = @($_.AliasNames | Sort-Object)
             regions    = @($_.Regions | Sort-Object)
+            languages  = @($_.Languages | Sort-Object)
             properties = [ordered]@{ category = $finalCategory }
+            members    = @($_.Members | Sort-Object { $_.name })
         }
     })
 
@@ -363,7 +555,44 @@ function Build-SystemIndex {
     } else {
         "sin clonelist"
     }
-    Write-Host "Generado: $Id.json ($($gamesOut.Count) familias, $($discardedLog.Count) descartados) + aliases/$Id.json ($($aliasesOut.Count) con alias) [$clonelistNote]"
+
+    # Validacion de idioma contra retool-clonelists-metadata: capa OPCIONAL
+    # y POSTERIOR al calculo propio (Resolve-Languages) - no rellena
+    # languages, solo detecta divergencias por titulo individual (no por
+    # familia). "nolang" es un marcador especial de retool ("sin contenido
+    # de texto", no un idioma real) - se excluye de la comparacion, no es
+    # una divergencia real (ver mismo criterio en build-dat-index-nointro.ps1).
+    $languageNote = "sin metadata idioma"
+    if ($languageMap.Count -gt 0) {
+        $langDiffs = New-Object System.Collections.Generic.List[object]
+        foreach ($family in $families.Values) {
+            foreach ($member in $family.Members) {
+                if (-not $languageMap.ContainsKey($member.name)) { continue }
+                $retoolLanguages = @($languageMap[$member.name] | Sort-Object)
+                if ($retoolLanguages -contains "nolang") { continue }
+                $computedLanguages = @($member.languages | Sort-Object)
+                if (@(Compare-Object $retoolLanguages $computedLanguages).Count -gt 0) {
+                    $langDiffs.Add([ordered]@{
+                        name              = $member.name
+                        computedLanguages = $computedLanguages
+                        computedSource    = $member.languageSource
+                        retoolLanguages   = $retoolLanguages
+                    })
+                }
+            }
+        }
+        if ($langDiffs.Count -gt 0) {
+            $langDiffOutput = [ordered]@{
+                system   = $Id
+                metadata = (Split-Path -Leaf $languageMapPath)
+                diffs    = @($langDiffs | Sort-Object name)
+            }
+            Write-JsonFile -Path (Join-Path $DebugRoot "$Id-language-diff.json") -Data $langDiffOutput
+        }
+        $languageNote = "idioma: $($langDiffs.Count) divergencias"
+    }
+
+    Write-Host "Generado: $Id.json ($($gamesOut.Count) familias, $($discardedLog.Count) descartados) + aliases/$Id.json ($($aliasesOut.Count) con alias) [$clonelistNote] [$languageNote]"
 }
 
 $ids = if ($SystemId) { @($SystemId) } else { $datMap.Keys }

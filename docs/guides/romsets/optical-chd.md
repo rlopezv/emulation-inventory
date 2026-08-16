@@ -8,6 +8,32 @@ Aplica a sistemas ópticos verificados con DAT Redump (o Non-Redump para protos/
 
 [TODO]
 
+## Formato de ROM recomendado por sistema
+
+Sistemas clasificados como Óptico en [docs/guides/romsets/README.md](README.md#clasificación-de-sistemas-por-flujo). Redump nunca distribuye CHD directamente (siempre `.bin`/`.cue` o `.iso`); cuando el formato de emulación recomendado es CHD, la verificación real del CHD ya convertido pasa por el software-list XML de MAME (`metadata/software-list/`), no por el DAT Redump — el DAT Redump solo verifica el `.bin`/`.cue`/`.iso` de origen antes de convertir.
+
+| Identificador canónico | Formato recomendado | Verificación del formato final | Notas |
+| --- | --- | --- | --- |
+| `psx` | CHD | `metadata/software-list/psx.xml` | |
+| `saturn` | CHD | `metadata/software-list/saturn.xml` | |
+| `segacd` | CHD | `metadata/software-list/megacd.xml` | |
+| `pcenginecd` | CHD | `metadata/software-list/pcecd.xml` | |
+| `dreamcast` | CHD | `metadata/software-list/dc.xml` | |
+| `3do` | CHD | `metadata/software-list/3do.xml` | |
+| `neogeocd` | CHD | `metadata/software-list/neocd.xml` | |
+| `amigacdtv` | CHD | `metadata/software-list/cdtv.xml` | |
+| `amigacd32` | CHD | `metadata/software-list/cd32.xml` | |
+| `ps2` | CHD | Sin software-list de MAME conocida; verificación directa contra DAT Redump (bin/cue) | Soportado de forma nativa por PCSX2 |
+| `gamecube` | RVZ (no CHD) | DAT Redump (iso) | Ver caso especial más abajo |
+| `wii` | RVZ (no CHD) | DAT Redump (iso) | Ver caso especial más abajo |
+| `xbox` | XISO (no CHD) | DAT Redump (iso) | |
+| `jaguarcd` | CDI / CUE / `bigpimg` (no CHD) | DAT Redump (bin/cue) | Formatos nativos de BigPEmu |
+| `psp` | CSO (comprimido), manteniendo también el ISO fuente | Fuente Redump (`Sony - PlayStation Portable - Datfile (3500)...dat`) | UMD físico, no usa CHD; DAT Redump todavía sin mapear en `build-dat-index-redump.ps1` (ver `docs/session-context.md`) |
+| `cdi` | BIN/CUE (no CHD) | `metadata/software-list/cdi.xml` existe, pero el uso real de CHD para este sistema no está confirmado — evitar dar por buena una justificación técnica concreta ("base de datos firmada") sin verificar | Solo DAT Non-Redump hoy |
+| `xbox360` | [TODO] | Solo DAT Non-Redump hoy | Formato de emulación recomendado (Xenia) sin investigar todavía |
+| `ps3` | [TODO] | Solo DAT Non-Redump hoy | Formato de emulación recomendado (RPCS3) sin investigar todavía |
+| `wiiu` | [TODO] | Solo DAT Non-Redump hoy | Formato de emulación recomendado (Cemu) sin investigar todavía |
+
 ## Verificación contra DAT Redump
 
 Cuando un CHD tiene el nombre de archivo incorrecto o metadatos alterados, no se puede confiar en el nombre: hay que leer el hash interno (SHA-1) del CHD y de la ROM asociada, cruzarlo contra el DAT oficial (Redump o Non-Redump) y renombrar/reestructurar la colección a partir de esa firma real, no del nombre de fichero.

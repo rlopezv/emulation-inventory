@@ -67,7 +67,7 @@ Copia local completa en `metadata/dat/retool/` (sustituye a la antigua `metadata
 
 ## DATROMTool
 
-**Fuente:** github.com/andrebrait/DATROMTool. Sucesor moderno inspirado en SabreTools y retool; releva al antiguo proyecto `1g1r-romset-generator`.
+**Fuente:** github.com/andrebrait/DATROMTool. Se declara a sí mismo sucesor de `1g1r-romset-generator` (mismo autor) — pero verificado: `1g1r-romset-generator` no está archivado y sigue recibiendo commits (último push 2026-02-05), no es un proyecto muerto sustituido del todo, ver sección propia más abajo.
 
 **Capacidades confirmadas:**
 
@@ -79,6 +79,21 @@ Copia local completa en `metadata/dat/retool/` (sustituye a la antigua `metadata
 - Lectura/escritura de Zip, 7z, TAR (con GZip/BZip2/LZMA/XZ) y lectura de RAR (v4 y v5).
 
 [TODO: no se ha podido confirmar la sintaxis exacta de línea de comandos ni los flags específicos de filtrado 1G1R (región/idioma/exclusiones) — el repositorio no expone esta información de forma directa en su página principal, consultar el `README`/`--help` de la herramienta al usarla]
+
+## 1g1r-romset-generator
+
+**Fuente:** github.com/andrebrait/1g1r-romset-generator. Predecesor declarado de DATROMTool (mismo autor) pero **activo por derecho propio** — verificado: no archivado, último push 2026-02-05. Utilidad de un solo fichero Python 3, sin dependencias externas.
+
+**Capacidades confirmadas:**
+
+- Genera sets 1G1R a partir de DAT No-Intro.
+- Filtro de región: `-r USA,EUR,JPN` (códigos de 3 letras, más de 20 soportados).
+- Filtro de idioma: `-l en,es,ru` (ISO 639-1), como criterio secundario tras la región.
+- Exclusión por tipo: BIOS, prototipos, betas, demos, muestras, piratas, homebrew, ROM sin licencia.
+- Sistema de puntuación que prioriza calidad del dump, lanzamientos publicados (no proto/beta), coincidencia región/idioma y preferencia de revisión.
+- Salida: copia, mueve, o crea enlaces simbólicos/hardlinks del resultado 1G1R.
+
+Alternativa más ligera a DATROMTool cuando no hace falta el resto de capacidades de este (conversión de formatos, parsing multi-fuente) — solo generación 1G1R sobre No-Intro.
 
 ## Igir
 

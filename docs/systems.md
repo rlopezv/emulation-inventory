@@ -141,7 +141,7 @@ Nombre interno del core tal como aparece en RetroArch (`nombre_del_core`). Los c
 | --- | ---: | --- | --- | --- | --- | --- | --- | --- |
 | Sinclair ZX81 | 1981 | `zx81` | Timex Sinclair 1000 | 4:3 | 256×192 típico | Horizontal | `81`, `mame` | EightyOne, MAME |
 | Dragon 32 / Dragon 64 | 1982 | `dragon32` | Dragon 64, Tano Dragon | 4:3 | 256×192 típico | Horizontal | `xroar`, `mame` | XRoar, MAME |
-| Commodore 64 | 1982 | `c64` | C64 | 4:3 | Variable (320×200 típico) | Horizontal | `vice_x64`, `vice_x128`, `vice_xplus4` | VICE |
+| Commodore 64 | 1982 | `c64` | C64 | 4:3 | Variable (320×200 típico) | Horizontal | `vice_x64sc`, `vice_x128`, `vice_xplus4` | VICE |
 | ZX Spectrum | 1982 | `spectrum` | Sinclair ZX Spectrum | 4:3 | 256×192 | Horizontal | `fuse` | Fuse |
 | MSX | 1983 | `msx` | — | 4:3 | Variable (256×192 típico) | Horizontal | `fmsx`, `bluemsx` | openMSX, blueMSX |
 | Amstrad CPC | 1984 | `amstradcpc` | CPC 464, CPC 664, CPC 6128 | 4:3 | Variable (320×200 típico) | Horizontal | `cap32` | Caprice32, Arnold |

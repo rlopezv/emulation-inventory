@@ -6,6 +6,56 @@ Flujo de preparación para consolas de cartucho y handhelds verificados con DAT 
 
 No-Intro es la fuente principal (fase 1) — ver [dat-generation.md](../tools/dat-generation.md#no-intro-dat-o-matic) para el flujo completo de DAT-o-MATIC (esquema Parent-Clone obligatorio si se va a aplicar 1G1R después). Para los microcomputers con fuente alternativa (TOSEC, libretro-database, Non-Redump), ver las secciones correspondientes del mismo fichero.
 
+## Formato de ROM recomendado por sistema
+
+Sistemas clasificados como Cartucho/plano en [docs/guides/romsets/README.md](README.md#clasificación-de-sistemas-por-flujo). Salvo los casos señalados, No-Intro solo publica un formato para el sistema — no hay elección real que documentar, se listan igual por completitud. Detalle técnico completo de los casos especiales (headered/headerless, byte order) en `docs/references.md`.
+
+| Identificador canónico | Formato recomendado | Notas |
+| --- | --- | --- |
+| `atari2600` | — | Formato único |
+| `astrocade` | — | Formato único |
+| `odyssey2` | — | Formato único |
+| `intellivision` | — | Formato único |
+| `gameandwatch` | — | Fuente libretro, no No-Intro |
+| `atari5200` | — | Formato único |
+| `vectrex` | — | Formato único |
+| `atari7800` | BIN (headerless) | También A78 (headered, 128 bytes) — ver `docs/references.md#caso-especial--headered-vs-headerless-nes-snes-atari-7800-atari-lynx-fds` |
+| `nes` | Headered (iNES, 16 bytes) | También Headerless — mismo caso especial de `docs/references.md` |
+| `sg1000` | — | Incluye SC-3000 |
+| `mastersystem` | — | Formato único |
+| `fds` | FDS (raw) | También QD (QuickDisk) |
+| `pcengine` | — | Formato único |
+| `megadrive` | — | Formato único |
+| `gb` | — | Formato único |
+| `lynx` | LYX (headerless) | También LNX (headered, catálogo reducido) y BLL — mismo caso especial de `docs/references.md` |
+| `gamegear` | — | Formato único |
+| `snes` | Headerless (`.sfc`) | No-Intro no publica variante Headered por separado |
+| `sega32x` | — | Formato único |
+| `jaguar` | J64 | Ver nota en `docs/romsets.md` (ABS/COF vacíos, JAG solo 1 entrada) |
+| `satellaview` | — | Formato único |
+| `sufami` | — | Formato único |
+| `n64` | BigEndian (`.z64`) | También ByteSwapped (`.v64`) — ver `docs/references.md#caso-especial--nintendo-64-orden-de-bytes-byte-order` |
+| `64dd` | — | Formato único |
+| `ngp` | — | Formato único |
+| `gbc` | — | Subconjunto dual-mode/DMG-compatible (cartucho gris) ejecutable también en `gb`; no requiere DAT ni formato distinto |
+| `ngpc` | — | Formato único |
+| `supervision` | — | Formato único |
+| `pokemini` | — | Formato único |
+| `gba` | — | Formato único |
+| `nds` | Decrypted | También Encrypted |
+| `dsiware` | Decrypted | Variante No-Intro estándar; también disponibles Encrypted y CDN |
+| `pspminis` | Decrypted | Contenido digital PSN |
+| `psn` | Decrypted | Contenido digital PSN |
+| `3ds` | `.3DS` (Desencriptado) o `.CCI` (comprimido, CSO para 3DS) | DAT No-Intro `Nintendo - Nintendo 3DS (Decrypted)`; también Encrypted |
+| `3dseshop` | Digital (CDN) | DAT No-Intro `Nintendo - Nintendo 3DS (Digital) (CDN)`; también existen `(Digital) (Updates)` y `(Digital) (DLC)`, sin mapear todavía como fila propia en `docs/romsets.md` |
+| `newn3ds` | Decrypted | También Encrypted |
+| `virtualboy` | — | Formato único |
+| `wswan` | — | Formato único |
+| `wswanc` | — | Formato único |
+| `psvita` | `.ZIP` (NoNpDrm comprimido) o `.PKG` (con clave de licencia) | Formatos soportados por Vita3K; solo catálogo digital cubierto (No-Intro `PSN Content`/`Updates`) |
+
+**Casos especiales fuera de esta tabla** (ver [docs/guides/romsets/README.md](README.md#clasificación-de-sistemas-por-flujo)): `sgb` (sin DAT propio, requiere extraer del No-Intro de `gb`/`gbc` los títulos con soporte Super Game Boy) y `gx4000` (fuente TOSEC homebrew mal mantenida, requiere curación manual) no encajan limpio en este flujo simple.
+
 ## Verificación contra DAT
 
 Fase 3 — ver [romset-audit.md](../tools/romset-audit.md). JRomManager como herramienta principal; sin CHD ni RVZ implicados en este tipo de fuente, no aplica la sección de validación por hash de discos ópticos.

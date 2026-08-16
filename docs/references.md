@@ -639,6 +639,14 @@ El estándar definitivo de preservación absoluta en PC de gama media/alta. Debe
 
 **Particularidad** — Formato de texto plano ClrMamePro, no XML Logiqx; requiere un parser distinto (ver `docs/romsets.md#formato-de-dat`).
 
+### WHDLoad DAT
+
+**Uso recomendado** — Fuente primaria para `amiga`: catálogo WHDLoad (Commodore Amiga), un juego = un `.lha` con carga instantánea sin pantallas de disquetera, frente al `.ADF` original que requiere emular la disquetera físicamente.
+
+**Fuente oficial** — `github.com/MrV2K/WHDLoad-Database`, generado a partir de los DAT oficiales del proyecto Retroplay (repositorio histórico de la escena WHDLoad). Publica el mismo catálogo en varios formatos (JSON/XML/CSV/XLSX y DAT ClrMamePro); se usa el DAT ClrMamePro (`Commodore - Amiga - WHDLoad.dat`), con checksums CRC32/MD5/SHA1 por rom. Copiado a `metadata/dat/WHDLoad/`.
+
+**Particularidad** — No es un DAT de preservación de volcado original (no certifica bytes físicos de disquete como TOSEC/No-Intro): cataloga paquetes WHDLoad ya modificados para arrancar desde disco duro virtual, con parches de compatibilidad aplicados por la comunidad. Formato de texto plano ClrMamePro, no XML Logiqx.
+
 ### RetroAchievements como fuente de datos
 
 No es una fuente de DAT de preservación (no certifica volcados perfectos como No-Intro/Redump/TOSEC) — es una fuente complementaria de **hashes de identificación** y **parches de traducción**, con tres formas de acceso a los mismos datos, todas confirmadas y trazables al mismo origen:
@@ -704,6 +712,7 @@ Catálogo completo de herramientas de PC para gestión, validación, conversión
 | RAPatches | github.com/RetroAchievements/RAPatches | Repositorio oficial de parches (traducciones, etc.) de RetroAchievements, referenciado por `PatchUrl` en la API; detalle en `docs/references.md#retroachievements-como-fuente-de-datos`. |
 | retool-clonelists-metadata | github.com/unexpectedpanda/retool-clonelists-metadata | Fuente oficial de los ficheros de clonelist que usa retool (y el propio `metadata/dat/retool/clonelists/*.json` de este repo) para sistemas sin `cloneofid` nativo, como Redump; generados automáticamente desde Redump y No-Intro. Incluye además `metadata/` (metadatos adicionales por juego), `mias/` (listas Missing In Action) y una carpeta `retroachievements/` con hashes (CRC/MD5/SHA1) verificados por RetroAchievements por sistema — válido para comparación directa en sistemas de cartucho (No-Intro); **no** en sistemas ópticos (Redump/CHD), donde el hash de RA es un método propio (no de fichero completo) y requiere RAHasher para calcularlo, ver `docs/references.md#retroachievements-como-fuente-de-datos`. |
 | RomVault — Supported DATs | wiki.romvault.com/doku.php?id=supported_dats | Wiki de RomVault; documenta fuentes de DAT adicionales no cubiertas por los portales oficiales, incluyendo `Non-Redump-Custom` (PS3/Xbox 360 de fuentes scene/P2P) y `DeDupe-NoIntro` (Non-Redump con duplicados de Redump eliminados). |
+| MetalSlug/MAMERedump | github.com/MetalSlug/MAMERedump | Colección de referencia (54 sistemas ópticos: Redump + intersección MAME + TOSEC, recodificados a CHD), copia local en `metadata/dat/MAMERedump/`. **No es una herramienta de matching** — el propio README indica explícitamente que el programa de emparejamiento/fusión no está publicado ("The matching and merging program remains unpublished"); las carpetas `Scripts/`, `GDI Files/` y `Additional Cue Files/` son solo utilidades/plantillas para *construir* CHDs, no metadatos de identificación. **Sí es útil como fuente de hash**: cada DAT en `MAMERedump/full/<Sistema> (N).dat` (esquema MAME `<machine>`/`<disk name="....chd" sha1="...">`, sin `cloneofid`) da el SHA1 real de cada CHD indexado por nombre — el mismo hash que calcula `chdman info` sobre un CHD local, lo que permite un cruce por hash (fiable) en vez de por nombre de fichero (verificado con datos reales: PC Engine CD trae 551 discos frente a los 528 miembros del `Sony/NEC` Redump ya sincronizado en este repo, captura más reciente). Copia local incluye también `MAMERedump/MAME/` (16 DAT, intersección/exclusivas de MAME software list) y `MAMERedump/Tosec/` (exclusivas TOSEC). |
 | Fresh1G1R Dats | github.com/UnluckyForSome/Fresh1G1R | DAT 1G1R ya filtrados con retool, actualizados a diario vía GitHub Actions, en tres perfiles de criterio (McLean, PropeR, Hearto). Alternativa de referencia/comparación al filtrado propio de la fase 5 del workflow, no sustituye al proceso documentado en `docs/guides/tools/1g1r-filtering.md`. |
 
 ### Hardware y comunidad
