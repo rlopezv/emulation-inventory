@@ -11,6 +11,7 @@ Flujos de trabajo para preparar romsets antes de distribuirlos en `data/roms/`. 
 | Workflow end-to-end | Flujo completo DAT → auditoría → 1G1R → parcheo → compresión → gamelist, encadenando las herramientas de `docs/software.md` | [workflow.md](workflow.md) |
 | Pipeline propio (tools/scripts) | Estado actual del pipeline de scripts del repo (DAT → dat-index → docs, ROMs físicas) y roadmap de ampliaciones propuestas | [custom-pipeline.md](custom-pipeline.md) |
 | Bitácora de procesado | Registro cronológico de sesiones reales de trabajo, no prescriptivo — base empírica para detectar qué automatizar | [bitacora.md](bitacora.md) |
+| Estado del pipeline | Snapshot del progreso actual por sistema (DAT generado / romset curado / formato final / gamelist / media), derivado del filesystem del repo — se sobreescribe, no se acumula | [status.md](status.md) |
 
 ## Clasificación de sistemas por flujo
 
@@ -24,6 +25,8 @@ Qué guía de la tabla de arriba aplica a cada identificador canónico de `docs/
 | `astrocade` | Cartucho / plano | |
 | `odyssey2` | Cartucho / plano | |
 | `intellivision` | Cartucho / plano | |
+| `channelf` | Cartucho / plano | Añadido tras el cierre inicial de la clasificación; requiere BIOS obligatoria, ver `docs/bios.md` |
+| `megaduck` | Cartucho / plano | Añadido tras el cierre inicial de la clasificación; sin BIOS |
 | `gameandwatch` | Cartucho / plano | Fuente libretro (ClrMamePro texto), no No-Intro |
 | `atari5200` | Cartucho / plano | |
 | `vectrex` | Cartucho / plano | |
@@ -91,7 +94,7 @@ Qué guía de la tabla de arriba aplica a cada identificador canónico de `docs/
 
 ### Microcomputers
 
-`docs/systems.md#microcomputers`: `zx81`, `dragon32`, `c64`, `spectrum`, `msx`, `amstradcpc`, `c128`, `atarist`, `amiga`, `msx2`, `sharpx68000` — todos Microcomputers.
+`docs/systems.md#microcomputers`: `zx81`, `dragon32`, `c64`, `spectrum`, `msx`, `amstradcpc`, `c128`, `atarist`, `amiga`, `msx2`, `sharpx68000`, `vic20`, `atari800`, `thomson` — todos Microcomputers.
 
 ### Engines / Ports
 

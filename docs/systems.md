@@ -53,6 +53,7 @@ Nombre interno del core tal como aparece en RetroArch (`nombre_del_core`). Los c
 
 | Nombre del sistema | Año | Identificador canónico | Nombres regionales/comerciales | Aspect Ratio | Resolución nativa típica | Orientación | Cores RetroArch habituales | Emuladores standalone habituales |
 | --- | ---: | --- | --- | --- | --- | --- | --- | --- |
+| Fairchild Channel F | 1976 | `channelf` | Fairchild Video Entertainment System (VES, nombre de lanzamiento original), SABA Videoplay, Luxor Video Entertainment System/Computer, Adman Grandstand Video Entertainment Computer | [TODO] (4:3 inferido por salida TV estándar de la época, no confirmado como spec propia del hardware) | 128×64 (VRAM); ~102×58 visible con overscan | Horizontal | `freechaf` | MAME/MESS (sin standalone dedicado conocido) |
 | Atari 2600 | 1977 | `atari2600` | Atari VCS | 4:3 | 160×192 (NTSC) típico | Horizontal | `stella` | Stella |
 | Bally Astrocade | 1978 | `astrocade` | Bally Home Library Computer | 4:3 | 160×102 típico | Horizontal | `mame` | MAME |
 | Magnavox Odyssey 2 | 1978 | `odyssey2` | Philips Videopac G7000 | 4:3 | 160×200 típico | Horizontal | `o2em` | O2EM |
@@ -78,6 +79,7 @@ Nombre interno del core tal como aparece en RetroArch (`nombre_del_core`). Los c
 | Amiga CDTV | 1991 | `amigacdtv` | Commodore CDTV | 4:3 | Variable (320×256 PAL típico) | Horizontal | `puae` | FS-UAE, WinUAE |
 | Philips CD-i | 1991 | `cdi` | CD-i | 4:3 | Variable (384×280 típico) | Horizontal | `mame`, `same_cdi` | CD-i Emulator, MAME |
 | Sega CD | 1991 | `segacd` | Mega-CD | 4:3 | 320×224 típico | Horizontal | `genesis-plus-gx`, `picodrive` | Kega Fusion, BlastEm |
+| Mega Duck | 1993 | `megaduck` | Cougar Boy (USA), Creatronic/Videojet (Europa) | 10:9 (calculado, mismo formato de píxel que Game Boy) | 160×144 | Horizontal | `sameduck` | [TODO] (Super Junior SameDuck existe como fork de SameBoy, madurez/mantenimiento sin verificar) |
 | Panasonic 3DO | 1993 | `3do` | 3DO Interactive Multiplayer | 4:3 | 320×240 típico | Horizontal | `opera` | 4DO |
 | Atari Jaguar | 1993 | `jaguar` | — | 4:3 | Variable (320×240 típico) | Horizontal | `virtualjaguar` | BigPEmu |
 | Amiga CD32 | 1993 | `amigacd32` | Commodore CD32 | 4:3 | Variable (320×256 PAL típico) | Horizontal | `puae` | FS-UAE, WinUAE |
@@ -139,12 +141,15 @@ Nombre interno del core tal como aparece en RetroArch (`nombre_del_core`). Los c
 
 | Nombre del sistema | Año | Identificador canónico | Nombres regionales/comerciales | Aspect Ratio | Resolución nativa típica | Orientación | Cores RetroArch habituales | Emuladores standalone habituales |
 | --- | ---: | --- | --- | --- | --- | --- | --- | --- |
+| Atari 8-bit Family | 1979 | `atari800` | Atari 400, 800, XL, XE | 4:3 | Variable (320×192 típico) | Horizontal | `atari800` | Atari800 |
+| Commodore VIC-20 | 1980 | `vic20` | VC-20 (Alemania), VIC-1001 (Japón) | 4:3 | Variable (176×184 típico) | Horizontal | `vice_xvic` | VICE |
 | Sinclair ZX81 | 1981 | `zx81` | Timex Sinclair 1000 | 4:3 | 256×192 típico | Horizontal | `81`, `mame` | EightyOne, MAME |
 | Dragon 32 / Dragon 64 | 1982 | `dragon32` | Dragon 64, Tano Dragon | 4:3 | 256×192 típico | Horizontal | `xroar`, `mame` | XRoar, MAME |
 | Commodore 64 | 1982 | `c64` | C64 | 4:3 | Variable (320×200 típico) | Horizontal | `vice_x64sc`, `vice_x128`, `vice_xplus4` | VICE |
 | ZX Spectrum | 1982 | `spectrum` | Sinclair ZX Spectrum | 4:3 | 256×192 | Horizontal | `fuse` | Fuse |
 | MSX | 1983 | `msx` | — | 4:3 | Variable (256×192 típico) | Horizontal | `fmsx`, `bluemsx` | openMSX, blueMSX |
 | Amstrad CPC | 1984 | `amstradcpc` | CPC 464, CPC 664, CPC 6128 | 4:3 | Variable (320×200 típico) | Horizontal | `cap32` | Caprice32, Arnold |
+| Thomson MO5 / TO8 | 1984 | `thomson` | MO5, MO6, TO7, TO8, TO8D, TO9, TO9+ | 4:3 | 320×200 (MO5) | Horizontal | `theodore` | Theodore |
 | Commodore 128 | 1985 | `c128` | C128 | 4:3 | Variable (320×200 típico) | Horizontal | `vice_x128` | VICE |
 | Atari ST | 1985 | `atarist` | Atari 520ST, 1040ST | 4:3 | Variable (320×200 típico) | Horizontal | `hatari` | Hatari |
 | Commodore Amiga | 1985 | `amiga` | Amiga 500, Amiga 1200 | 4:3 | Variable (320×256 PAL típico) | Horizontal | `puae` | FS-UAE, WinUAE |

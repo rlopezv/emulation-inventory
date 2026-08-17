@@ -28,10 +28,12 @@ The documentation is written in Spanish and uses Markdown tables as the main for
 | `docs/tools.md` | PC-side tool catalog for romset/DAT management (scraping, validation, conversion, patching) |
 | `docs/distributions.md` | Device-to-software recommendation and installation audit |
 | `docs/system-paths.md` | ROM, BIOS, saves, states and media paths by CFW |
+| `docs/bios.md` | Required BIOS/firmware files per system: exact filename(s), mandatory/optional, emulator/core that needs it, special subfolder if any. Does not define where the `bios/` folder itself lives per CFW (see `docs/system-paths.md`) nor link to download sources |
 | `docs/guides/cfw/` | Step-by-step installation guides per CFW/OS marked Recomendado/Verificado in distributions.md (see `docs/guides/cfw/README.md`) |
 | `docs/guides/apps/` | Configuration guides for frontends (EmulationStation, SimpleMenu, ES-DE, Daijishō, Pegasus) and Android standalone emulators, running on top of an already-installed CFW/OS (see `docs/guides/apps/README.md`) |
 | `docs/guides/romsets/` | Romset preparation workflows by source type: cartridge/flat, microcomputers, optical→CHD, arcade (see `docs/guides/romsets/README.md`) |
 | `docs/guides/tools/` | Per-task usage guides (commands, parameters) for the tools catalogued in `docs/tools.md`: DAT generation/conversion, romset audit/cleaning, 1G1R filtering, patching, format conversion, gamelist and media generation. Each phase of `docs/guides/romsets/workflow.md` links here for detail (see `docs/guides/tools/README.md`) |
+| `docs/guides/bios.md` | How-to guide for the catalog in `docs/bios.md`: dumping your own BIOS from real hardware, verifying it (hash), organizing/renaming it per system, and deploying it to the path defined in `docs/system-paths.md#bios` |
 | `docs/hardware/` | Reference guides for supporting hardware (flashcarts, etc.) |
 
 ### Arcade and games
@@ -337,6 +339,26 @@ This file is a CFW × system matrix: for each CFW, the expected paths for each f
 
 Structure is defined (see the file's own conventions section). Extend it following the existing per-CFW table format.
 
+## bios.md rules
+
+`docs/bios.md` catalogs required BIOS/firmware files per system: which file(s), whether mandatory or optional, which emulator/core needs it, and any special subfolder convention. It documents *what* is needed, not *where* the `bios/` folder lives per CFW (that is `docs/system-paths.md`'s job) nor system/hardware definitions (`docs/systems.md`/`docs/arcade/arcade.md`).
+
+Sections mirror `docs/romsets.md`: Consolas / Arcade / Microcomputers.
+
+Expected columns (Consolas / Microcomputers):
+
+```markdown
+| Identificador canónico | Fichero(s) BIOS | Obligatoria/Opcional | Emulador/core que la requiere | Notas |
+```
+
+Rules:
+
+- Canonical identifiers must always match `docs/systems.md` (Consolas/Microcomputers) or `docs/arcade/arcade.md` (Arcade); do not define new systems here.
+- **Obligatoria** — the emulator does not boot without it. **Opcional** — HLE fallback exists (boots without it, worse compatibility) or only some titles need it.
+- Arcade uses a different model: in MAME/FBNeo the BIOS is usually embedded in the romset itself as a parent/shared set (e.g. `neogeo.zip`), not a standalone file in `system/`. Document this per-family in prose, not as an exhaustive per-game table of every shared MAME BIOS set.
+- Never link to a BIOS download source. BIOS is copyrighted firmware — the user must dump it from their own hardware or acquire it legally. `[TODO]` is fine when the exact filename/hash is unconfirmed.
+- Exact filenames matter and are case-sensitive on some CFW/cores — do not normalize casing when transcribing (e.g. `kick34005.A500`, not `kick34005.a500`).
+
 ## Prompts
 
 Reusable prompts are in `prompts/`. When a task matches one of these, apply its rules before generating output.
@@ -368,5 +390,6 @@ Before finishing any edit:
 - Check that system identifiers match `docs/systems.md`.
 - Check that core names used in `docs/distributions.md` match `docs/arcade/arcade.md`.
 - Check that identifiers used in `docs/romsets.md` match `docs/systems.md`.
+- Check that identifiers used in `docs/bios.md` match `docs/systems.md`/`docs/arcade/arcade.md`.
 - Check that `[TODO]` is used instead of guessed data.
 - Check that no executive summary or task list is added to `docs/distributions.md`.

@@ -11,6 +11,56 @@ Este fichero es la capa que sí viaja: decisiones de diseño a medias, tareas pe
 
 ## Pendiente ahora mismo
 
+### Tres microcomputers nuevos añadidos: `vic20`, `atari800`, `thomson` — hecho
+
+Aportados por el usuario con formato ideal y core ya conocidos; mismo método de verificación local + cruce fuente-disponible que el resto de microcomputers de esta sesión (no se aceptó la recomendación del usuario tal cual sin comprobar antes contra `metadata/dat/`):
+
+- **`vic20`** — No-Intro sí tiene DAT (293 entradas) pero nombra los cartuchos por dirección de memoria de mapeo (`.a0`/`.60`/`.70`/`.b0`...), no listo para usar sin conversión — descartado como primaria, mismo patrón que `amiga`/`atarist`. Fuente TOSEC `.PRG` (1652 entradas, mayor catálogo), alt. `.TAP` (849). Core `vice_xvic` (misma familia VICE que `c64`/`c128`). Sin BIOS (ROM de sistema incluida en VICE).
+- **`atari800`** — No-Intro solo 39 entradas (set mínimo, mayoría cartucho `.bin`), insuficiente como fuente principal. Fuente TOSEC `.XEX` (3072, ejecutable/autostart), alt. `.ATR` (5822, catálogo completo en disco); evitar `.CAS`. Core `atari800` (mismo núcleo que ya usaba `atari5200`). **Requiere BIOS obligatoria** (`ATARIOSA.ROM`/`ATARIOSB.ROM`/`ATARIXL.ROM`/`ATARIBAS.ROM` según modelo — verificado en `docs.libretro.com/library/atari800`).
+- **`thomson`** — sin DAT No-Intro para esta familia. TOSEC divide el catálogo por modelo (MO5/MO6/TO7/TO8-TO8D-TO9-TO9+); unificado bajo un único id `thomson` porque el core `theodore` cubre toda la familia (decisión explícita, no automática — a diferencia de `msx`/`msx2` que sí se mantienen separados). Fuente MO5 `.K7` (656, mayor catálogo), alt. TO8 `.FD`/`.SAP` (171/114, catálogo avanzado). Confirmado sin BIOS (`docs.libretro.com/library/theodore`: "The Theodore core does not feature BIOS use").
+
+**Ficheros tocados:** `docs/systems.md` (3 filas, specs verificadas con WebFetch — VIC-20 176×184/VC-20/VIC-1001 confirmado en Wikipedia, Atari 8-bit 1979/320×192 confirmado, Thomson MO5 1984/320×200 confirmado), `docs/romsets.md`, `docs/bios.md` (`atari800` añadido a Microcomputers; `vic20`/`thomson` añadidos a "sin BIOS confirmado"), `docs/guides/romsets/microcomputers.md` (tabla de formato + 3 notas de emulador + intro actualizada), `docs/guides/romsets/README.md` (lista de clasificación), `docs/guides/romsets/status.md` (3 filas nuevas, resumen 11→14 sistemas en Microcomputers).
+
+**Pendiente real:** mismo caso que el resto de microcomputers — sin indexar todavía en `build-dat-index-tosec.ps1`.
+
+### Dos sistemas nuevos añadidos: `channelf` (Fairchild Channel F) y `megaduck` (Mega Duck) — hecho
+
+Aportados por el usuario con core RetroArch, requisito de BIOS y formato de juego ya conocidos; verificado localmente antes de escribir nada (regla de no inventar datos): ambos tienen DAT limpio en No-Intro (`Fairchild - Channel F (*).dat`, 37 juegos `.bin`; `Welback - Mega Duck (*).dat`, 25 juegos `.bin`, confirmado en `metadata/dat/No-Intro/full/`). Specs de `docs/systems.md` (año, resolución, aspect ratio) completadas con `Agent`+WebSearch — con `[TODO]` explícito donde la fuente no lo confirma (aspect ratio de Channel F, inferido 4:3 por salida TV estándar pero no documentado como spec propia del hardware; emulador standalone de `megaduck`, solo hay un fork de SameBoy sin madurez verificada).
+
+**Ficheros tocados:**
+
+- `docs/systems.md` — filas nuevas en orden cronológico (Channel F 1976, antes de `atari2600`; Mega Duck 1993, tras `segacd`). Cores `freechaf`/`sameduck` en minúsculas para coincidir con la convención del resto de la tabla (el usuario los dio en CamelCase).
+- `docs/romsets.md` — Fuente No-Intro para ambos, junto a `intellivision`.
+- `docs/bios.md` — `channelf` obligatoria (`sl31253.bin`+`sl31254.bin` o `channelf.zip` combinado, core `lr-freechaf`); `megaduck` añadido a la lista "sin BIOS confirmado".
+- `docs/guides/romsets/README.md` y `cartridge.md` — clasificados en el bucket Cartucho/plano, con la nota operativa de `megaduck` (renombrar a `.md1`/`.md2` si pantalla negra, mapeo de memoria en `lr-sameduck`).
+- `docs/guides/romsets/status.md` — filas nuevas `⬜` (sin indexar todavía en `metadata/dat-index/`, ni curadas en `data/dats/console/`), resumen actualizado de 64 a 66 sistemas en Consolas.
+
+**Pendiente real:** como el resto de sistemas recién añadidos, `channelf`/`megaduck` no están todavía en `tools/scripts/build-dat-index-nointro.ps1` — se indexarán en el mismo lote que `c64`/`msx`/`msx2` cuando se retome esa extensión (ver bloque de microcomputers más abajo).
+
+### `docs/bios.md` — catálogo de BIOS/firmware requeridas (creado esta sesión, cobertura completa de docs/systems.md)
+
+**Objetivo:** documentar, por sistema, qué fichero(s) BIOS/firmware/claves hacen falta para arrancar en el emulador/core recomendado, si son obligatorios u opcionales (HLE), y cualquier ruta especial (subcarpetas tipo `bios/dc/`, `bios/keropi/`).
+
+**Fichero nuevo creado:** `docs/bios.md`, con secciones Consolas/Arcade/Microcomputers (mismo agrupamiento que `docs/romsets.md`). **Gobernanza actualizada en `CLAUDE.md`:** fila añadida al file map, sección `## bios.md rules` nueva (columnas normalizadas, no enlazar descargas, no normalizar mayúsculas de nombre de fichero), entrada añadida a la checklist de validación (identificadores deben coincidir con `docs/systems.md`/`docs/arcade/arcade.md`).
+
+**Metodología:** igual que el cierre de fuentes de microcomputers — investigación con `Agent`+WebSearch/WebFetch contra documentación oficial de cada emulador/core (docs.libretro.com, FAQ/wiki oficiales de PCSX2/Dolphin/Cemu/RPCS3/xemu/PPSSPP/melonDS/Citra-Lime3DS/Vita3K/XRoar/Hatari/PUAE, código fuente de MAME para casos arcade), más info aportada directamente por el usuario para varios bloques (microcomputers, consolas ópticas, NeoGeo MVS/AES, NDS). Regla aplicada en todo momento: `[TODO]`/"no verificado" en vez de inventar nombre de fichero cuando la fuente no lo confirma explícitamente (casos: `pcenginecd` nombre exacto de System Card, `sega32x` nombres de BIOS regionales, matiz de `boot9.bin`/`boot11.bin` obligatorio/opcional en 3DS, flags exactos de MAME para `chihiro`).
+
+**Cobertura resultante — los 3 bloques de `docs/systems.md` completos:**
+
+- **Consolas (28 sistemas con fila propia):** `psx`, `segacd`, `saturn`, `dreamcast`, `3do`, `neogeocd`, `pcenginecd`, `nds`, `dsiware`, `pspminis`/`psn`, `3ds`/`3dseshop`/`newn3ds`, `psvita`, `astrocade`, `odyssey2`, `intellivision`, `atari5200`, `atari7800`, `mastersystem`, `fds`, `megadrive`, `gb`, `gamegear`, `lynx`, `sega32x`, `satellaview`, `sufami`, `64dd`, `gbc`, `pokemini`, `gba`, `ps2`, `gamecube`, `wii`, `wiiu`, `switch`, `xbox`, `xbox360`, `ps3`, `cdi`, `jaguarcd`, `amigacdtv`, `amigacd32`. Confirmados explícitamente **sin BIOS** (no es que falte investigar): `atari2600`, `gameandwatch`, `vectrex`, `nes`, `sg1000`, `pcengine` (HuCard), `snes`, `jaguar` (cartucho, distinto de `jaguarcd`), `n64`, `ngp`, `ngpc`, `xbox360`, `psp`/`pspminis`/`psn`. Con indicios de que no pero sin confirmación en fuente primaria: `supervision`, `wswan`, `wswanc`, `virtualboy`.
+- **Arcade:** modelo distinto (BIOS embebida en el romset como set padre/compartido, no fichero de `bios/`) documentado en prosa: `neogeo` (`neogeo.zip` junto a las ROMs), `cps1` (sin BIOS), `cps2` (`qsound.zip` obligatoria), `cps3` (sin BIOS compartida; `cps3boot.zip` es otra cosa, no una BIOS de sistema), `atomiswave` (`awbios.zip` opcional), `naomi`/`naomi2` (`naomi.zip` opcional, MAME distingue `naomi2.zip` aparte), `chihiro` (sin emulación viable en MAME, práctica solo vía xemu con `mcpx_1.0.bin`+`cerbios.bin`), `triforce` (emulación recién madurada en Dolphin mainline 2026, mismo `IPL.bin` que `gamecube` — hito con fuente especializada, no el changelog oficial, pendiente de contrastar si se necesita precisión total).
+- **Microcomputers (5 sistemas):** `amiga` (Kickstart por modelo A500/A600/A1200), `atarist` (TOS), `sharpx68000` (iplrom+cgrom en `bios/keropi/`), `msx`/`msx2` (carpetas `Databases`/`Machines`, no ficheros sueltos), `dragon32` (opcional, HLE). Semilla recopilada durante el cierre de fuentes de microcomputers de la sesión anterior, reutilizada tal cual.
+
+**Bug de formato corregido de paso:** una línea en blanco entre dos bloques de filas de la tabla `## Consolas` rompía el renderizado de tabla Markdown (el segundo bloque, sin cabecera propia, se habría interpretado como texto suelto) — corregido eliminando la línea en blanco.
+
+**Pendiente real, no bloqueante:**
+
+1. Confirmar en fuente primaria los puntos marcados "no verificado": nombre exacto de System Card de `pcenginecd`, nombres de BIOS regionales de `sega32x`, matiz obligatorio/opcional de `boot9.bin`/`boot11.bin` en 3DS para catálogo no cifrado, flags exactos del driver `chihiro.cpp` de MAME, hito de integración de `triforce` en Dolphin (contrastar con changelog oficial).
+2. Idea de tooling anotada en "Notas operativas" de `bios.md`, no implementada: normalizador de packs BIOS comunitarios (verificar MD5 conocido → renombrar al nombre exacto esperado → mover a subcarpeta correcta `dc/`/`keropi/`/etc.) para `tools/scripts/`.
+3. No se han documentado hashes MD5/SHA1 de verificación por fichero (varios de los que dieron los agentes de investigación sí los mencionaron, ej. `disksys.rom` MD5 `ca30b50f...`) — decisión pendiente del usuario sobre si merece la pena añadir una columna de hash a `bios.md` para que un futuro normalizador los use, o dejarlo fuera por ahora.
+
+**Guía complementaria creada — `docs/guides/bios.md` (how-to, sin catálogo):** proceso de volcado por familia (con varios `[TODO]` explícitos donde no se investigó el método exacto: `xbox`/`chihiro`, `wiiu`, canal de adquisición legal de ROMs de microcomputers), verificación por hash, organización/renombrado (caja exacta, subcarpetas especiales), despliegue (remite a `docs/system-paths.md#bios`), y la misma idea de normalizador futuro sin implementar. Registrada en `CLAUDE.md` (fila nueva en el file map); no se le dio sección `## rules` propia en `CLAUDE.md`, siguiendo el mismo patrón que `docs/guides/cfw/`, `apps/`, `romsets/`, `tools/` (gobernadas por su propio contenido/README, no por una sección de reglas dedicada). **Pendiente real:** rellenar los `[TODO]` de método de volcado para `xbox`/`chihiro`/`wiiu`/microcomputers cuando se investigue con el mismo rigor que el resto de esta sesión (fuente oficial del proyecto de dumping correspondiente, no inventar nombre de herramienta).
+
 ### Clasificación de sistemas por flujo + formato de ROM recomendado por guía (en curso — retomar por microcomputers)
 
 **Objetivo:** documentar, guía por guía (`docs/guides/romsets/{optical-chd,arcade,cartridge,microcomputers}.md`), el formato de ROM recomendado por sistema y su DAT de verificación real (a veces distinto del DAT fuente "principal" ya fijado en `docs/romsets.md`, ej. software-list de MAME para verificar CHD ya que Redump no lo distribuye).

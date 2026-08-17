@@ -16,6 +16,8 @@ Sistemas clasificados como Cartucho/plano en [docs/guides/romsets/README.md](REA
 | `astrocade` | — | Formato único |
 | `odyssey2` | — | Formato único |
 | `intellivision` | — | Formato único |
+| `channelf` | — | Formato único (`.bin`). Requiere BIOS obligatoria, ver `docs/bios.md` |
+| `megaduck` | — | Formato único (`.bin`). Sin BIOS. Si un juego se queda en pantalla negra, renombrar a `.md1`/`.md2` según tamaño de cartucho suele arreglar el mapeo de memoria en `lr-sameduck` |
 | `gameandwatch` | — | Fuente libretro, no No-Intro |
 | `atari5200` | — | Formato único |
 | `vectrex` | — | Formato único |
