@@ -93,22 +93,47 @@ La columna **Formato** indica el formato de fichero del DAT, necesario para sabe
 | `xbox360` | Non-Redump | XML (Logiqx) | `Non-Redump - Microsoft - Xbox 360 (*).dat` | — | — | [TODO] | [TODO] | Pendiente DAT Redump |
 | `gx4000` | — | — | — | — | — | [TODO] | [TODO] | Es un caso excepcional que requiere tratamiento manual |
 | `neogeocd` | Redump | XML (Logiqx, sin cloneofid) | `SNK - Neo Geo CD - Datfile (111) (*).dat` | — | `metadata/software-list/neocd.xml` | [TODO] | [TODO] | DAT alternativo es software list de MAME (CHD), no un DAT de romset. Contraste de hash SHA1 disponible vía MAMERedump: `metadata/dat/MAMERedump/full/SNK - Neo Geo CD (*).dat` |
-| `neogeo` | libretro / FBN | ClrMamePro (texto) | `SNK - Neo Geo.dat` | — | — | [TODO] | [TODO] | AES y MVS comparten romset; mismo DAT que en la sección Arcade |
 
 ## Arcade
 
+Caso especial dentro de este fichero: a diferencia de Consolas/Microcomputers, un mismo sistema arcade suele tener **varios romsets utilizables en paralelo** (una versión de MAME/FBNeo por cada core/emulador objetivo, no una sola fuente "actual"). La tabla principal fija la fuente/DAT recomendado por sistema; el desglose completo de versiones vive en la tabla `Versiones de romset` de más abajo.
+
 | Identificador canónico | Fuente | Formato | DAT | Completitud | Almacenamiento | Notas |
 | --- | --- | --- | --- | --- | --- | --- |
-| `mame` | MAME | XML (Logiqx) | Ver `metadata/dat/arcade/` | [TODO] | [TODO] | Versiones disponibles: 2000, 2003, 2003-plus, 2010, 2015, 2016 |
-| `fbneo` | FBN | XML (Logiqx) | `FinalBurn Neo v1.0.0.03.dat` | [TODO] | [TODO] | También disponibles v1.0.0.00 y v1.0.0.02 |
-| `neogeo` | libretro / FBN | ClrMamePro (texto) | `SNK - Neo Geo.dat` | [TODO] | [TODO] | AES y MVS comparten romset; usar FBN DAT para validación arcade |
-| `cps1` | FBN / MAME | — | — | [TODO] | [TODO] | Subconjunto de fbneo / mame |
-| `cps2` | FBN / MAME | — | — | [TODO] | [TODO] | Subconjunto de fbneo / mame |
-| `cps3` | FBN / MAME | XML (Logiqx) | `Non-Redump - Capcom - Play System III (*).dat` | [TODO] | [TODO] | También subconjunto de fbneo / mame |
-| `naomi` | FBN / MAME | — | — | [TODO] | [TODO] | Subconjunto de fbneo / mame |
-| `atomiswave` | FBN / libretro | ClrMamePro (texto) | `Atomiswave.dat` | [TODO] | [TODO] | DAT en subcarpeta libretro |
-| `daphne` | — | — | — | — | — | Sin DAT estándar |
-| `naomi2` | MAME | XML (Logiqx) | Ver `metadata/dat/arcade/` (MAME 0.260 o superior) | [TODO] | [TODO] | Core/emulador recomendado: flycast (mismo que `naomi`) |
+| `mame` | MAME | XML (Logiqx) | Ver tabla `Versiones de romset` | [TODO] | [TODO] | Sin versión "actual" única — el romset a usar depende del core/emulador objetivo |
+| `fbneo` | FBN | XML (Logiqx) | `FinalBurn Neo v1.0.0.03.dat` (recomendada) | [TODO] | [TODO] | Resto de versiones (v1.0.0.00, v1.0.0.02) y variantes legacy (PiFBA, fbalpha2012) en tabla `Versiones de romset` |
+| `neogeo` | libretro | ClrMamePro (texto) | `SNK - Neo Geo.dat` | [TODO] | [TODO] | AES y MVS comparten romset. DAT propio, no subconjunto de `mame`/`fbneo` — variantes filtradas por FBN/GnGeo en tabla `Versiones de romset` |
+| `cps1` | FBN / MAME | — | — | [TODO] | [TODO] | Sin DAT propio — subconjunto filtrado por driver `cps1.cpp` del romset completo `mame`/`fbneo` |
+| `cps2` | FBN / MAME | — | — | [TODO] | [TODO] | Sin DAT propio — subconjunto filtrado por driver `cps2.cpp` del romset completo `mame`/`fbneo` |
+| `cps3` | Non-Redump | XML (Logiqx) | `Non-Redump - Capcom - Play System III (*).dat` | [TODO] | [TODO] | DAT propio (cartuchos CPS-3 volcables individualmente, a diferencia de CPS-1/CPS-2) |
+| `naomi` | MAME + MAMERedump | XML (Logiqx) | Subconjunto `mame` (cartucho) + `Arcade - Sega - Naomi (34).dat` (verificación CHD/SHA1) | [TODO] | [TODO] | Core/emulador recomendado: flycast. Discos (GD-ROM→CHD) vía MAMERedump, cartuchos vía driver `naomi.cpp` de `mame` |
+| `atomiswave` | libretro | ClrMamePro (texto) | `Atomiswave.dat` | [TODO] | [TODO] | DAT propio, no subconjunto de `mame`/`fbneo`. Core/emulador recomendado: flycast |
+| `naomi2` | MAME (≥0.260) + MAMERedump | XML (Logiqx) | Subconjunto `mame` + `Arcade - Sega - Naomi 2 (13).dat` (verificación CHD/SHA1) | [TODO] | [TODO] | Igual que `naomi`, requiere MAME 0.260 o superior. Core/emulador recomendado: flycast |
+| `daphne` | — | — | — | — | — | Caso excepcional que requiere tratamiento manual: framefiles + vídeo (`.m2v`/`.ogg`/`.txt` de sincronización), sin ROMs verificables por hash estándar |
+
+### Versiones de romset — `mame` / `fbneo` / `neogeo`
+
+Desglose de versiones utilizables por sistema. Un mismo core/emulador de `docs/arcade/arcade.md` exige exactamente una versión de romset; usar la que no corresponde produce roms no reconocidas o pantalla negra.
+
+| Identificador canónico | Core/emulador (`arcade.md`) | Versión romset | Ubicación local del DAT | Notas |
+| --- | --- | --- | --- | --- |
+| `mame` | `mame2000` | MAME 0.37b5 | `metadata/dat/arcade/mame2000/MAME 0.37b5 XML.dat` | Alt.: `retropie-dat-master/mame4all/`, `.../lr-imame4all/` (mismo core, nombre histórico `imame4all`) |
+| `mame` | `mame2003` | MAME 0.78 | `metadata/dat/arcade/mame2003/mame2003.xml` | Alt.: `retropie-dat-master/lr-mame2003/` (incluye variantes `lite`/`no-clones-no-neogeo`) |
+| `mame` | `mame2003-plus` | MAME 0.78 + backports | `metadata/dat/arcade/mame2003-plus/mame2003-plus.xml` | Alt.: `retropie-dat-master/lr-mame2003-plus/` |
+| `mame` | `mame2010` | MAME 0.139u1 | `metadata/dat/arcade/mame2010/mame2010.xml` | Alt.: `retropie-dat-master/lr-mame2010/` |
+| `mame` | `mame2015` | MAME 0.160 | `metadata/dat/arcade/mame2015/mame2014.xml` | Nombre de fichero real no coincide con la versión (`mame2014.xml`). Alt.: `retropie-dat-master/lr-mame2015/` (zip) |
+| `mame` | `mame2016` | MAME 0.174 | `metadata/dat/arcade/mame2016/MAME 0.174 Arcade XML.dat` | Alt.: `retropie-dat-master/lr-mame2016/` (zip, incluye variante "Home") |
+| `mame` | `AdvanceMame` (1.2 a 5.0) | MAME 0.106 | `retropie-dat-master/advmame1.2/` | — |
+| `mame` | `AdvanceMame 0.94` | MAME 0.94 | `retropie-dat-master/advmame.94/` | — |
+| `fbneo` | `fbneo` | v1.0.0.00 | `metadata/dat/arcade/FinalBurn Neo v1.0.0.00.dat` | — |
+| `fbneo` | `fbneo` | v1.0.0.02 | `metadata/dat/arcade/FinalBurn Neo v1.0.0.02.dat` | — |
+| `fbneo` | `fbneo` (recomendada) | v1.0.0.03 | `metadata/dat/arcade/FinalBurn Neo v1.0.0.03.dat` | Incluye `.csv` adicional. Alt.: `retropie-dat-master/lr-fbneo/...(Arcade only).dat` |
+| `fbneo` | `PiFBA` | FBA2X 7.3 | `retropie-dat-master/pifba/` | Legacy, predecesor de `fbalpha2012` |
+| `fbneo` | `fbalpha2012` | FBA 0.2.97.29/30 | `retropie-dat-master/lr-fbalpha2012/` | Legacy |
+| `neogeo` | `fbneo` (Neogeo only) | v1.0.0.03 | `retropie-dat-master/lr-fbneo/...(Neogeo only).dat` | Subconjunto ya filtrado por el propio fichero |
+| `neogeo` | `fbalpha2012_neogeo` | FBA 0.2.97.29 | `retropie-dat-master/lr-fbalpha2012/fba-lr-neogeo-only.xml` | Legacy |
+| `neogeo` | `GnGeo_2020-02-16` | MAME 0.128 / FBA 0.2.97.39 | — | Sin DAT local descargado |
+| `neogeo` | `GnGeo 0.8.4 (Pandora)` | GnGeo 0.8.4 | `retropie-dat-master/gngeopi/` | Histórico |
 
 ## Microcomputers
 
