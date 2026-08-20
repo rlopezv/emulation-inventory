@@ -30,11 +30,23 @@ variantes, solo enlaza clones entre si.
 
 Limitacion conocida: el pc/ oficial de No-Intro incluye <release
 region="..."/> con codigos de region reales de su base de datos interna,
-que este script no tiene. Se aproxima con Get-Regions (mismo detector de
+que este script no tiene. Se aproxima con Get-FirstRegion (mismo detector de
 tokens de region por nombre que build-dat-index-nointro.ps1) - un solo
 <release> por juego con la primera region detectada, o "Unknown" si no se
 detecta ninguna. No es una replica byte a byte del pc/ oficial, es
 funcionalmente equivalente para que Retool resuelva cloneof correctamente.
+
+Atributo <release language="..."/> (bug real encontrado y corregido esta
+sesion): hasta ahora este script NO lo escribia en absoluto. Con un filtro
+de idioma estricto configurado en Retool (ej. "solo Español/Ingles/Japones"),
+cualquier release sin ese atributo estructurado quedaba como idioma
+desconocido y se descartaba del 1G1R ENTERO -aunque el propio nombre
+incluyera "(En,Ja)" explicitamente-, confirmado con casos reales de Mega
+Drive (ej. "Golden Axe (World)", "Streets of Rage (World) (En,Ja)"
+desaparecian del todo). Ahora se rellena con Get-Languages (misma deteccion
+por nombre que build-dat-index-nointro.ps1, con el mismo arreglo del caso
+compilacion "+"), como lista separada por comas; si no se detecta ningun
+idioma no se escribe el atributo (no se inventa un valor).
 
 Cabecera <url>: Retool identifica el DAT leyendo <name>/<url> para buscar el
 clonelist correspondiente en su carpeta clonelists/ (ver docs/guides/tools/
@@ -93,6 +105,57 @@ function Get-FirstRegion {
         if ($matched.Count -gt 0) { return $matched[0] }
     }
     return "Unknown"
+}
+
+# Mismo mapa de default de idioma por region que build-dat-index-nointro.ps1
+# (segundo nivel de respaldo cuando el nombre no indica idioma explicito,
+# ej. "Golden Axe (World)" -> "En" por convencion de la region "World").
+$regionLanguageDefaults = @{
+    "Argentina" = "Es"; "Australia" = "En"; "Austria" = "De"; "Brazil" = "Pt"
+    "Bulgaria" = "Bg"; "Canada" = "En"; "Chile" = "Es"; "China" = "Zh"
+    "Colombia" = "Es"; "Croatia" = "Hr"; "Czechia" = "Cs"; "Denmark" = "Da"
+    "Egypt" = "Ar"; "Europe" = "En"; "Finland" = "Fi"; "France" = "Fr"
+    "Germany" = "De"; "Greece" = "El"; "Hong Kong" = "Zh"; "Hungary" = "Hu"
+    "India" = "En"; "Indonesia" = "Id"; "Iran" = "Fa"; "Iraq" = "Ar"
+    "Ireland" = "En"; "Israel" = "He"; "Italy" = "It"; "Japan" = "Ja"
+    "Korea" = "Ko"; "Latin America" = "Es"; "Mexico" = "Es"
+    "Netherlands" = "Nl"; "New Zealand" = "En"; "Norway" = "No"; "Peru" = "Es"
+    "Poland" = "Pl"; "Portugal" = "Pt"; "Romania" = "Ro"; "Russia" = "Ru"
+    "Saudi Arabia" = "Ar"; "Slovakia" = "Sk"; "South Africa" = "En"
+    "Spain" = "Es"; "Sweden" = "Sv"; "Taiwan" = "Zh"; "Turkey" = "Tr"
+    "UAE" = "Ar"; "United Kingdom" = "En"; "USA" = "En"; "Vietnam" = "Vi"
+    "World" = "En"; "Unknown" = "En"
+}
+
+function Get-Languages {
+    # Misma logica que build-dat-index-nointro.ps1 (incluido el arreglo de
+    # esta sesion para el caso compilacion "Juego A + Juego B" con idioma
+    # separado por "+", ej. "(En,Ja,Fr,De,Es,It+En)"): el grupo de idiomas
+    # es una lista separada por comas/+ de codigos de 2 letras que aparece
+    # INMEDIATAMENTE despues del grupo de region reconocido.
+    param([string]$GameName)
+    $groups = Get-ParenGroups -Str $GameName
+    for ($i = 0; $i -lt $groups.Count; $i++) {
+        $tokens = $groups[$i] -split '[,+]' | ForEach-Object { $_.Trim() }
+        $isRegionGroup = @($tokens | Where-Object { $knownRegions -ccontains $_ }).Count -gt 0
+        if (-not $isRegionGroup -or ($i + 1) -ge $groups.Count) { continue }
+        $nextTokens = @($groups[$i + 1] -split '[,+]' | ForEach-Object { $_.Trim() } | Select-Object -Unique)
+        $allMatchPattern = @($nextTokens | Where-Object { $_ -notmatch '^[A-Z][a-z]$' }).Count -eq 0
+        if ($nextTokens.Count -gt 0 -and $allMatchPattern) { return $nextTokens }
+    }
+    return @()
+}
+
+function Resolve-Languages {
+    # Cadena de relleno: 1) deteccion por nombre (Get-Languages), 2) default
+    # por region (regionLanguageDefaults) cuando el nombre no dice idioma
+    # explicito - mismo orden que Resolve-Languages en
+    # build-dat-index-nointro.ps1.
+    param([string]$GameName, [string]$Region)
+    $byName = Get-Languages -GameName $GameName
+    if ($byName.Count -gt 0) { return $byName }
+    if ($regionLanguageDefaults.ContainsKey($Region)) { return @($regionLanguageDefaults[$Region]) }
+    return @()
 }
 
 function Get-RootKey {
@@ -159,6 +222,7 @@ foreach ($path in $InputDat) {
             Roms       = $roms
             Region     = Get-FirstRegion -GameName $fullName
         }
+        $lookup[$key].Languages = Resolve-Languages -GameName $fullName -Region $lookup[$key].Region
     }
 }
 
@@ -205,7 +269,12 @@ foreach ($node in ($lookup.Values | Sort-Object FullName)) {
         [void]$sb.AppendLine("`t<game name=`"$nameEscaped`" cloneof=`"$cloneofEscaped`">")
     }
     [void]$sb.AppendLine("`t`t<description>$nameEscaped</description>")
-    [void]$sb.AppendLine("`t`t<release name=`"$nameEscaped`" region=`"$($node.Region)`"/>")
+    if ($node.Languages.Count -gt 0) {
+        $languageAttr = " language=`"$($node.Languages -join ',')`""
+    } else {
+        $languageAttr = ""
+    }
+    [void]$sb.AppendLine("`t`t<release name=`"$nameEscaped`" region=`"$($node.Region)`"$languageAttr/>")
     foreach ($rom in $node.Roms) {
         $romAttrs = New-Object System.Collections.Generic.List[string]
         foreach ($attrName in @("name", "size", "crc", "md5", "sha1", "status")) {

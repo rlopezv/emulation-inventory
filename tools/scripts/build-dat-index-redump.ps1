@@ -244,13 +244,20 @@ function Get-Languages {
     # sigue la misma estructura limpia que No-Intro"): el grupo de idiomas
     # es una lista separada por comas de codigos de 2 letras que aparece
     # INMEDIATAMENTE despues del grupo de region reconocido.
+    #
+    # Caso compilacion: igual que en No-Intro (build-dat-index-nointro.ps1),
+    # el grupo de idioma puede venir separado por "+" ademas de coma en
+    # cartuchos "Juego A + Juego B" (uno por titulo incluido) - se trata "+"
+    # igual que "," y se deduplica, si no el ultimo token no matchea el
+    # patron de 2 letras y descarta el grupo entero (bug real ya corregido
+    # en No-Intro, aplicado aqui por el mismo motivo).
     param([string]$Name)
     $groups = Get-ParenGroups -Name $Name
     for ($i = 0; $i -lt $groups.Count; $i++) {
         $tokens = $groups[$i] -split '[,+]' | ForEach-Object { $_.Trim() }
         $isRegionGroup = @($tokens | Where-Object { $knownRegions -ccontains $_ }).Count -gt 0
         if (-not $isRegionGroup -or ($i + 1) -ge $groups.Count) { continue }
-        $nextTokens = @($groups[$i + 1] -split ',' | ForEach-Object { $_.Trim() })
+        $nextTokens = @($groups[$i + 1] -split '[,+]' | ForEach-Object { $_.Trim() } | Select-Object -Unique)
         $allMatchPattern = @($nextTokens | Where-Object { $_ -notmatch '^[A-Z][a-z]$' }).Count -eq 0
         if ($nextTokens.Count -gt 0 -and $allMatchPattern) { return $nextTokens }
     }

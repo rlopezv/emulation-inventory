@@ -23,11 +23,18 @@ Scripts del pipeline de romsets: indexado de DATs, construcción/promoción de s
 | `filter-cross-system-duplicates.ps1` | Limpia un índice eliminando familias ya cubiertas por otro sistema relacionado (uso: `3dseshop` vs `3ds`). |
 | `find-1g1r-duplicates.ps1` | Detecta nombres de familia duplicados dentro de un índice 1G1R generado por `build-dat-index-1g1r.ps1`. |
 
+## Validación cruzada entre fuentes
+
+| Script | Propósito |
+| --- | --- |
+| `compare-redump-mameredump.py` | Compara, por título completo (no por hash — no son comparables entre sí), el DAT oficial de Redump (`metadata/dat/Redump/`) contra el equivalente de `metadata/dat/MAMERedump/full/` (DAT estilo MAME con el SHA1 real del CHD, `github.com/MetalSlug/MAMERedump`) para los sistemas listados en `config/redump-mameredump-systems.json`. Soporta tanto el esquema `<machine>/<disk .chd>` (la mayoría) como `<game>/<rom>` estándar (GameCube/Wii, que usan `.rvz` en vez de CHD). Genera `metadata/dat-index/debug/<id>-redump-mameredump-diff.json` por sistema (títulos solo en Redump / solo en MAMERedump); puramente informativo, no bloquea nada ni modifica ningún DAT. `xbox` queda fuera del manifiesto a propósito: Redump lo cubre pero MAMERedump no publica CHD para él. |
+
 ## Conversión de esquema DAT
 
 | Script | Propósito |
 | --- | --- |
-| `convert-cloneofid-to-parent-clone.ps1` / `convert-cloneofid-to-parent-clone.py` | Conversor genérico e independiente (no usa `dat-index` ni el manifiesto de sistemas): recibe uno o varios DAT Logiqx en esquema Standard (`id`/`cloneofid`, ej. `full`+`aftermarket` de No-Intro) y devuelve un único DAT fusionado en esquema Parent-Clone (`cloneof` por nombre completo, sin `id`), que es el que acepta Retool — Retool no interpreta `id`/`cloneofid`. No aplica curación propia (no descarta Proto/Demo/Beta/etc., eso es trabajo de Retool aguas abajo); namespacea los `id` por fichero de origen para fusionar varias entradas sin colisión. |
+| `convert-cloneofid-to-parent-clone.ps1` / `convert-cloneofid-to-parent-clone.py` | Conversor genérico e independiente (no usa `dat-index` ni el manifiesto de sistemas): recibe uno o varios DAT Logiqx en esquema Standard (`id`/`cloneofid`, ej. `full`+`aftermarket` de No-Intro) y devuelve un único DAT fusionado en esquema Parent-Clone (`cloneof` por nombre completo, sin `id`), que es el que acepta un consumidor tipo RomCenter/Retool (no interpretan `id`/`cloneofid`). No aplica curación propia (no descarta Proto/Demo/Beta/etc., eso es trabajo de Retool aguas abajo); namespacea los `id` por fichero de origen para fusionar varias entradas sin colisión. El árbol de clones que produce es el mismo que ya trae el DAT de origen (`id`/`cloneofid` asignados por No-Intro) — el script solo traduce de esquema, no recalcula parentesco. |
+| `generate-parent-clone-fullset.ps1` / `generate-parent-clone-fullset.py` | Driver de lote sobre el anterior: aplica `convert-cloneofid-to-parent-clone.ps1`/`.py` a `full`+`aftermarket` de **todos** los sistemas del manifiesto `config/nointro-systems.json` (o uno solo con `-SystemId`/`--system-id`), generando el DAT Parent-Clone de cada uno en `sources/dats/no-intro/fullset/` — la entrada real de Retool. Paso siguiente a `update-sources.ps1` en el flujo real, no un sustituto: primero `update-sources.ps1` sincroniza `sources/dats/no-intro/{pc,full,aftermarket}/` desde `metadata/dat/No-Intro/`, después este script convierte `full`+`aftermarket` al esquema que Retool necesita. |
 
 ## Construcción de romsets (`data/roms/`, colección física)
 

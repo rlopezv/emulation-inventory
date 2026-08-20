@@ -4,7 +4,10 @@ Equivalente Python de convert-cloneofid-to-parent-clone.ps1 (pensado para
 ejecutarse desde el devcontainer). Misma logica, misma salida esperada; ver
 la cabecera de convert-cloneofid-to-parent-clone.ps1 para la descripcion
 completa del proposito (conversor generico e independiente, id/cloneofid ->
-cloneof por nombre, para alimentar a Retool).
+cloneof por nombre, para alimentar a Retool) y para el detalle del bug real
+de esta sesion en <release language="..."/> (antes ausente, causaba que
+Retool perdiera juegos enteros con un filtro de idioma estricto activado,
+aunque el nombre incluyera el idioma explicitamente).
 
 Uso:
     python tools/scripts/convert-cloneofid-to-parent-clone.py --input full.dat aftermarket.dat --output "salida (Parent-Clone).dat"
@@ -35,7 +38,28 @@ KNOWN_REGIONS = [
 ]
 
 PAREN_GROUP_RE = re.compile(r"\(([^()]*)\)")
+LANGUAGE_CODE_RE = re.compile(r"^[A-Z][a-z]$")
 ROM_ATTRS = ("name", "size", "crc", "md5", "sha1", "status")
+
+# Mismo mapa de default de idioma por region que build-dat-index-nointro.py
+# (segundo nivel de respaldo cuando el nombre no indica idioma explicito,
+# ej. "Golden Axe (World)" -> "En" por convencion de la region "World").
+REGION_LANGUAGE_DEFAULTS = {
+    "Argentina": "Es", "Australia": "En", "Austria": "De", "Brazil": "Pt",
+    "Bulgaria": "Bg", "Canada": "En", "Chile": "Es", "China": "Zh",
+    "Colombia": "Es", "Croatia": "Hr", "Czechia": "Cs", "Denmark": "Da",
+    "Egypt": "Ar", "Europe": "En", "Finland": "Fi", "France": "Fr",
+    "Germany": "De", "Greece": "El", "Hong Kong": "Zh", "Hungary": "Hu",
+    "India": "En", "Indonesia": "Id", "Iran": "Fa", "Iraq": "Ar",
+    "Ireland": "En", "Israel": "He", "Italy": "It", "Japan": "Ja",
+    "Korea": "Ko", "Latin America": "Es", "Mexico": "Es",
+    "Netherlands": "Nl", "New Zealand": "En", "Norway": "No", "Peru": "Es",
+    "Poland": "Pl", "Portugal": "Pt", "Romania": "Ro", "Russia": "Ru",
+    "Saudi Arabia": "Ar", "Slovakia": "Sk", "South Africa": "En",
+    "Spain": "Es", "Sweden": "Sv", "Taiwan": "Zh", "Turkey": "Tr",
+    "UAE": "Ar", "United Kingdom": "En", "USA": "En", "Vietnam": "Vi",
+    "World": "En", "Unknown": "En",
+}
 
 
 def get_first_region(game_name: str) -> str:
@@ -45,6 +69,36 @@ def get_first_region(game_name: str) -> str:
         if matched:
             return matched[0]
     return "Unknown"
+
+
+def get_languages(game_name: str) -> list[str]:
+    """Misma logica que build-dat-index-nointro.py (incluido el arreglo de
+    esta sesion para el caso compilacion "Juego A + Juego B" con idioma
+    separado por "+"): el grupo de idiomas es una lista separada por
+    comas/+ de codigos de 2 letras que aparece INMEDIATAMENTE despues del
+    grupo de region reconocido."""
+    groups = PAREN_GROUP_RE.findall(game_name)
+    for i, group in enumerate(groups):
+        tokens = [t.strip() for t in re.split(r"[,+]", group)]
+        is_region_group = any(t in KNOWN_REGIONS for t in tokens)
+        if not is_region_group or i + 1 >= len(groups):
+            continue
+        next_tokens = list(dict.fromkeys(t.strip() for t in re.split(r"[,+]", groups[i + 1])))
+        if next_tokens and all(LANGUAGE_CODE_RE.match(t) for t in next_tokens):
+            return next_tokens
+    return []
+
+
+def resolve_languages(game_name: str, region: str) -> list[str]:
+    """Cadena de relleno: 1) deteccion por nombre (get_languages), 2)
+    default por region (REGION_LANGUAGE_DEFAULTS) cuando el nombre no dice
+    idioma explicito - mismo orden que resolve_languages en
+    build-dat-index-nointro.py."""
+    by_name = get_languages(game_name)
+    if by_name:
+        return by_name
+    default = REGION_LANGUAGE_DEFAULTS.get(region)
+    return [default] if default else []
 
 
 def get_root_key(key: str, lookup: dict, memo: dict[str, str]) -> str:
@@ -86,12 +140,14 @@ def parse_input(path: Path, lookup: dict) -> None:
         clone_of_id = game.get("cloneofid")
         clone_of_key = f"{origin}:{clone_of_id}" if game_id and clone_of_id else None
 
+        region = get_first_region(full_name)
         lookup[key] = {
             "key": key,
             "clone_of_key": clone_of_key,
             "full_name": full_name,
             "roms": game.findall("rom"),
-            "region": get_first_region(full_name),
+            "region": region,
+            "languages": resolve_languages(full_name, region),
         }
 
 
@@ -161,7 +217,8 @@ def main() -> None:
         else:
             lines.append(f'\t<game name="{name_escaped}" cloneof="{xml_escape(root_name)}">')
         lines.append(f"\t\t<description>{name_escaped}</description>")
-        lines.append(f'\t\t<release name="{name_escaped}" region="{node["region"]}"/>')
+        language_attr = f' language="{",".join(node["languages"])}"' if node["languages"] else ""
+        lines.append(f'\t\t<release name="{name_escaped}" region="{node["region"]}"{language_attr}/>')
         for rom in node["roms"]:
             lines.append(rom_to_xml(rom))
         lines.append("\t</game>")

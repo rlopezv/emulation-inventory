@@ -56,8 +56,8 @@ La columna **Formato** indica el formato de fichero del DAT, necesario para sabe
 | `3ds` | No-Intro | XML (Logiqx) | `Nintendo - Nintendo 3DS (Decrypted) (*).dat` | — | — | [TODO] | [TODO] | Cartuchos físicos. También disponible variante Encrypted |
 | `3dseshop` | No-Intro | XML (Logiqx) | `Nintendo - Nintendo 3DS (Digital) (CDN) (*).dat` | — | — | [TODO] | [TODO] | Exclusivos de eShop. Virtual Console 3DS pendiente: DAT no descargado en metadata/dat/ |
 | `newn3ds` | No-Intro | XML (Logiqx) | `Nintendo - New Nintendo 3DS (Decrypted) (*).dat` | — | — | [TODO] | [TODO] | Catálogo físico exclusivo de New Nintendo 3DS; también disponible variante Encrypted |
-| `gamecube` | Redump | XML (Logiqx, sin cloneofid) | `Nintendo - GameCube - Datfile (2019) (*).dat` | Non-Redump | `Non-Redump - Nintendo - Nintendo GameCube (*).dat` | [TODO] | [TODO] | Non-Redump solo cubre protos/betas |
-| `wii` | Redump | XML (Logiqx, sin cloneofid) | `Nintendo - Wii - Datfile (3780) (*).dat` | Non-Redump | `Non-Redump - Nintendo - Wii (*).dat` | [TODO] | [TODO] | Non-Redump solo cubre protos/betas |
+| `gamecube` | Redump | XML (Logiqx, sin cloneofid) | `Nintendo - GameCube - Datfile (2019) (*).dat` | Non-Redump | `Non-Redump - Nintendo - Nintendo GameCube (*).dat` | [TODO] | [TODO] | Non-Redump solo cubre protos/betas. Contraste de hash SHA1 disponible vía MAMERedump: `metadata/dat/MAMERedump/full/Nintendo - GameCube (*).dat` |
+| `wii` | Redump | XML (Logiqx, sin cloneofid) | `Nintendo - Wii - Datfile (3780) (*).dat` | Non-Redump | `Non-Redump - Nintendo - Wii (*).dat` | [TODO] | [TODO] | Non-Redump solo cubre protos/betas. Contraste de hash SHA1 disponible vía MAMERedump: `metadata/dat/MAMERedump/full/Nintendo - Wii (*).dat` |
 | `wiiu` | Non-Redump | XML (Logiqx) | `Non-Redump - Nintendo - Wii U (*).dat` | — | — | [TODO] | [TODO] | Pendiente DAT Redump |
 | `switch` | — | — | — | — | — | — | [TODO] | Sin DAT de verificación estándar |
 | `sg1000` | No-Intro | XML (Logiqx) | `Sega - SG-1000 - SC-3000 (*).dat` | — | — | [TODO] | [TODO] | Incluye SC-3000 |
@@ -65,25 +65,25 @@ La columna **Formato** indica el formato de fichero del DAT, necesario para sabe
 | `megadrive` | No-Intro | XML (Logiqx) | `Sega - Mega Drive - Genesis (*).dat` | — | — | [TODO] | [TODO] | |
 | `sega32x` | No-Intro | XML (Logiqx) | `Sega - 32X (*).dat` | — | — | [TODO] | [TODO] | |
 | `gamegear` | No-Intro | XML (Logiqx) | `Sega - Game Gear (*).dat` | — | — | [TODO] | [TODO] | |
-| `segacd` | Redump | XML (Logiqx, sin cloneofid) | `Sega - Mega CD & Sega CD - Datfile (549) (*).dat` | Non-Redump | `Non-Redump - Sega - Sega Mega CD + Sega CD (*).dat` | [TODO] | [TODO] | CHD: `metadata/software-list/megacd.xml`. Non-Redump solo cubre protos/betas |
-| `saturn` | Redump | XML (Logiqx, sin cloneofid) | `Sega - Saturn - Datfile (2457) (*).dat` | Non-Redump | `Non-Redump - Sega - Sega Saturn (*).dat` | [TODO] | [TODO] | CHD: `metadata/software-list/saturn.xml`. Non-Redump solo cubre protos/betas |
-| `dreamcast` | Redump | XML (Logiqx, sin cloneofid) | `Sega - Dreamcast - Datfile (1516) (*).dat` | Non-Redump | `Non-Redump - Sega - Dreamcast (*).dat` | [TODO] | [TODO] | CHD: `metadata/software-list/dc.xml`. Non-Redump solo cubre protos/betas |
-| `psx` | Redump | XML (Logiqx, sin cloneofid) | `Sony - PlayStation - Datfile (10914) (*).dat` | Non-Redump | `Non-Redump - Sony - PlayStation (*).dat` | [TODO] | [TODO] | CHD: `metadata/software-list/psx.xml`. Non-Redump solo cubre protos/betas |
-| `ps2` | Redump | XML (Logiqx, sin cloneofid) | `Sony - PlayStation 2 - Datfile (11774) (*).dat` | Non-Redump | `Non-Redump - Sony - PlayStation 2 (*).dat` | [TODO] | [TODO] | Non-Redump solo cubre protos/betas |
+| `segacd` | Redump | XML (Logiqx, sin cloneofid) | `Sega - Mega CD & Sega CD - Datfile (549) (*).dat` | Non-Redump | `Non-Redump - Sega - Sega Mega CD + Sega CD (*).dat` | [TODO] | [TODO] | CHD: `metadata/software-list/megacd.xml`. Non-Redump solo cubre protos/betas. Contraste de hash SHA1 disponible vía MAMERedump: `metadata/dat/MAMERedump/full/Sega - Mega CD & Sega CD (*).dat` |
+| `saturn` | Redump | XML (Logiqx, sin cloneofid) | `Sega - Saturn - Datfile (2457) (*).dat` | Non-Redump | `Non-Redump - Sega - Sega Saturn (*).dat` | [TODO] | [TODO] | CHD: `metadata/software-list/saturn.xml`. Non-Redump solo cubre protos/betas. Contraste de hash SHA1 disponible vía MAMERedump: `metadata/dat/MAMERedump/full/Sega - Saturn (*).dat` |
+| `dreamcast` | Redump | XML (Logiqx, sin cloneofid) | `Sega - Dreamcast - Datfile (1516) (*).dat` | Non-Redump | `Non-Redump - Sega - Dreamcast (*).dat` | [TODO] | [TODO] | CHD: `metadata/software-list/dc.xml`. Non-Redump solo cubre protos/betas. Contraste de hash SHA1 disponible vía MAMERedump: `metadata/dat/MAMERedump/full/Sega - Dreamcast (*).dat` |
+| `psx` | Redump | XML (Logiqx, sin cloneofid) | `Sony - PlayStation - Datfile (10914) (*).dat` | Non-Redump | `Non-Redump - Sony - PlayStation (*).dat` | [TODO] | [TODO] | CHD: `metadata/software-list/psx.xml`. Non-Redump solo cubre protos/betas. Contraste de hash SHA1 disponible vía MAMERedump: `metadata/dat/MAMERedump/full/Sony - PlayStation (*).dat` |
+| `ps2` | Redump | XML (Logiqx, sin cloneofid) | `Sony - PlayStation 2 - Datfile (11774) (*).dat` | Non-Redump | `Non-Redump - Sony - PlayStation 2 (*).dat` | [TODO] | [TODO] | Non-Redump solo cubre protos/betas. Contraste de hash SHA1 disponible vía MAMERedump: `metadata/dat/MAMERedump/full/Sony - PlayStation 2 (*).dat` |
 | `ps3` | Non-Redump | XML (Logiqx) | `Non-Redump - Sony - PlayStation 3 (*).dat` | — | — | [TODO] | [TODO] | Pendiente DAT Redump |
-| `psp` | Non-Redump | XML (Logiqx) | `Non-Redump - Sony - PlayStation Portable (*).dat` | — | — | [TODO] | [TODO] | Pendiente DAT Redump |
+| `psp` | Redump | XML (Logiqx) | `Redump - Sony - PlayStation Portable (*).dat` | — | — | [TODO] | [TODO] | Contraste de hash SHA1 disponible vía MAMERedump: `metadata/dat/MAMERedump/full/Sony - PlayStation Portable (*).dat` |
 | `pspminis` | No-Intro | XML (Logiqx) | `Sony - PlayStation Portable (PSN) (Minis) (Decrypted) (*).dat` | — | — | [TODO] | [TODO] | Contenido digital PSN, subconjunto independiente del catálogo retail de `psp` |
 | `psn` | No-Intro | XML (Logiqx) | `Sony - PlayStation Portable (PSN) (Decrypted) (*).dat` | — | — | [TODO] | [TODO] | Catálogo digital PSN completo de PSP (distinto de `psp` físico UMD y de `pspminis`) |
 | `psvita` | — | — | — | — | — | [TODO] | [TODO] | Sin DAT standalone identificado |
 | `lynx` | No-Intro | XML (Logiqx) | `Atari - Atari Lynx (LYX) (*).dat` | — | — | [TODO] | [TODO] | LYX = headerless, catálogo comercial completo (127 entradas); LNX = headered (64 bytes), solo cubre 12 (mayormente Unl/Pirate) — ver `docs/references.md#caso-especial--headered-vs-headerless-nes-snes-atari-7800-atari-lynx-fds`; también disponible variante BLL (no cubierta ahí) |
 | `jaguar` | No-Intro | XML (Logiqx) | `Atari - Atari Jaguar (J64) (*).dat` | — | — | [TODO] | [TODO] | Formato del romset real del usuario. ABS/COF vacíos, JAG solo 1 entrada, ROM tiene el mismo catálogo de juegos que J64 (J64 añade 5 BIOS ya descartados) |
-| `jaguarcd` | Redump | XML (Logiqx, sin cloneofid) | `Atari - Jaguar CD Interactive Multimedia System - Datfile (38) (*).dat` | Non-Redump | `Non-Redump - Atari - Atari Jaguar CD (*).dat` | [TODO] | [TODO] | Non-Redump solo cubre protos/betas |
+| `jaguarcd` | Redump | XML (Logiqx, sin cloneofid) | `Atari - Jaguar CD Interactive Multimedia System - Datfile (38) (*).dat` | Non-Redump | `Non-Redump - Atari - Atari Jaguar CD (*).dat` | [TODO] | [TODO] | Non-Redump solo cubre protos/betas. Contraste de hash SHA1 disponible vía MAMERedump: `metadata/dat/MAMERedump/full/Atari - Jaguar CD Interactive Multimedia System (*).dat` |
 | `pcengine` | No-Intro | XML (Logiqx) | `NEC - PC Engine - TurboGrafx-16 (*).dat` | — | — | [TODO] | [TODO] | |
-| `pcenginecd` | Redump | XML (Logiqx, sin cloneofid) | `NEC - PC Engine CD & TurboGrafx CD - Datfile (551) (*).dat` | Non-Redump | `Non-Redump - NEC - PC Engine CD + TurboGrafx CD (*).dat` | [TODO] | [TODO] | CHD: `metadata/software-list/pcecd.xml`. Non-Redump solo cubre protos/betas |
-| `3do` | Redump | XML (Logiqx, sin cloneofid) | `Panasonic - 3DO Interactive Multiplayer - Datfile (672) (*).dat` | Non-Redump | `Non-Redump - Panasonic - 3DO Interactive Multiplayer (*).dat` | [TODO] | [TODO] | CHD: `metadata/software-list/3do.xml`. Non-Redump solo cubre protos/betas |
+| `pcenginecd` | Redump | XML (Logiqx, sin cloneofid) | `NEC - PC Engine CD & TurboGrafx CD - Datfile (551) (*).dat` | Non-Redump | `Non-Redump - NEC - PC Engine CD + TurboGrafx CD (*).dat` | [TODO] | [TODO] | CHD: `metadata/software-list/pcecd.xml`. Non-Redump solo cubre protos/betas. Contraste de hash SHA1 disponible vía MAMERedump: `metadata/dat/MAMERedump/full/NEC - PC Engine CD & TurboGrafx CD (*).dat` |
+| `3do` | Redump | XML (Logiqx, sin cloneofid) | `Panasonic - 3DO Interactive Multiplayer - Datfile (672) (*).dat` | Non-Redump | `Non-Redump - Panasonic - 3DO Interactive Multiplayer (*).dat` | [TODO] | [TODO] | CHD: `metadata/software-list/3do.xml`. Non-Redump solo cubre protos/betas. Contraste de hash SHA1 disponible vía MAMERedump: `metadata/dat/MAMERedump/full/Panasonic - 3DO Interactive Multiplayer (*).dat` |
 | `cdi` | Non-Redump | XML (Logiqx) | `Non-Redump - Philips - CD-i (*).dat` | — | — | [TODO] | [TODO] | CHD: `metadata/software-list/cdi.xml`. Pendiente DAT Redump |
-| `amigacdtv` | Redump | XML (Logiqx, sin cloneofid) | `Commodore - Amiga CDTV - Datfile (61) (*).dat` | Non-Redump | `Non-Redump - Commodore - Amiga CDTV (*).dat` | [TODO] | [TODO] | CHD: `metadata/software-list/cdtv.xml`. Non-Redump solo cubre protos/betas |
-| `amigacd32` | Redump | XML (Logiqx, sin cloneofid) | `Commodore - Amiga CD32 - Datfile (207) (*).dat` | Non-Redump | `Non-Redump - Commodore - Amiga CD32 (*).dat` | [TODO] | [TODO] | CHD: `metadata/software-list/cd32.xml`. Non-Redump solo cubre protos/betas |
+| `amigacdtv` | Redump | XML (Logiqx, sin cloneofid) | `Commodore - Amiga CDTV - Datfile (61) (*).dat` | Non-Redump | `Non-Redump - Commodore - Amiga CDTV (*).dat` | [TODO] | [TODO] | CHD: `metadata/software-list/cdtv.xml`. Non-Redump solo cubre protos/betas. Contraste de hash SHA1 disponible vía MAMERedump: `metadata/dat/MAMERedump/full/Commodore - Amiga CDTV (*).dat` |
+| `amigacd32` | Redump | XML (Logiqx, sin cloneofid) | `Commodore - Amiga CD32 - Datfile (207) (*).dat` | Non-Redump | `Non-Redump - Commodore - Amiga CD32 (*).dat` | [TODO] | [TODO] | CHD: `metadata/software-list/cd32.xml`. Non-Redump solo cubre protos/betas. Contraste de hash SHA1 disponible vía MAMERedump: `metadata/dat/MAMERedump/full/Commodore - Amiga CD32 (*).dat` |
 | `ngp` | No-Intro | XML (Logiqx) | `SNK - NeoGeo Pocket (*).dat` | — | — | [TODO] | [TODO] | |
 | `ngpc` | No-Intro | XML (Logiqx) | `SNK - NeoGeo Pocket Color (*).dat` | — | — | [TODO] | [TODO] | |
 | `wswan` | No-Intro | XML (Logiqx) | `Bandai - WonderSwan (*).dat` | — | — | [TODO] | [TODO] | |
@@ -91,8 +91,8 @@ La columna **Formato** indica el formato de fichero del DAT, necesario para sabe
 | `supervision` | No-Intro | XML (Logiqx) | `Watara - Supervision (*).dat` | — | — | [TODO] | [TODO] | |
 | `xbox` | Redump | XML (Logiqx, sin cloneofid) | `Microsoft - Xbox - Datfile (2683) (*).dat` | Non-Redump | `Non-Redump - Microsoft - Xbox (*).dat` | [TODO] | [TODO] | Non-Redump solo cubre protos/betas |
 | `xbox360` | Non-Redump | XML (Logiqx) | `Non-Redump - Microsoft - Xbox 360 (*).dat` | — | — | [TODO] | [TODO] | Pendiente DAT Redump |
-| `gx4000` | TOSEC | XML (Logiqx, TOSEC) | `Amstrad GX4000 - Games (TOSEC-v*).dat` | — | — | [TODO] | [TODO] | Set predominantemente homebrew (2018-2024); catálogo comercial original de GX4000 es muy reducido |
-| `neogeocd` | Redump | XML (Logiqx, sin cloneofid) | `SNK - Neo Geo CD - Datfile (111) (*).dat` | — | `metadata/software-list/neocd.xml` | [TODO] | [TODO] | DAT alternativo es software list de MAME (CHD), no un DAT de romset |
+| `gx4000` | — | — | — | — | — | [TODO] | [TODO] | Es un caso excepcional que requiere tratamiento manual |
+| `neogeocd` | Redump | XML (Logiqx, sin cloneofid) | `SNK - Neo Geo CD - Datfile (111) (*).dat` | — | `metadata/software-list/neocd.xml` | [TODO] | [TODO] | DAT alternativo es software list de MAME (CHD), no un DAT de romset. Contraste de hash SHA1 disponible vía MAMERedump: `metadata/dat/MAMERedump/full/SNK - Neo Geo CD (*).dat` |
 | `neogeo` | libretro / FBN | ClrMamePro (texto) | `SNK - Neo Geo.dat` | — | — | [TODO] | [TODO] | AES y MVS comparten romset; mismo DAT que en la sección Arcade |
 
 ## Arcade
@@ -109,8 +109,6 @@ La columna **Formato** indica el formato de fichero del DAT, necesario para sabe
 | `atomiswave` | FBN / libretro | ClrMamePro (texto) | `Atomiswave.dat` | [TODO] | [TODO] | DAT en subcarpeta libretro |
 | `daphne` | — | — | — | — | — | Sin DAT estándar |
 | `naomi2` | MAME | XML (Logiqx) | Ver `metadata/dat/arcade/` (MAME 0.260 o superior) | [TODO] | [TODO] | Core/emulador recomendado: flycast (mismo que `naomi`) |
-| `chihiro` | — | — | — | — | — | Sin DAT estándar |
-| `triforce` | — | — | — | — | — | Sin DAT estándar |
 
 ## Microcomputers
 

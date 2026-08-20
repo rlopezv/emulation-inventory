@@ -379,13 +379,21 @@ function Get-Languages {
     # un titulo de NES, no despues). Fuente primaria de la cadena de relleno
     # (ver Resolve-Languages) - Get-LanguageMap (retool) ya no rellena, es
     # una capa de validacion posterior (ver Get-SystemIndex paso 9).
+    #
+    # Caso compilacion: en cartuchos "Juego A + Juego B" el grupo de idioma
+    # tambien puede venir separado por "+" ademas de coma, uno por titulo
+    # incluido (ej. "(En,Ja,Fr,De,Es,It+En)" = "En,Ja,Fr,De,Es,It" del primer
+    # juego + "En" del segundo) - se trata "+" igual que "," y se deduplica,
+    # si no el ultimo token ("It+En") no matchea el patron de 2 letras y
+    # descarta el grupo entero, cayendo al idioma por region (bug real
+    # encontrado revisando divergencias contra retool en una compilacion).
     param([string]$Name)
     $groups = Get-ParenGroups -Name $Name
     for ($i = 0; $i -lt $groups.Count; $i++) {
         $tokens = $groups[$i] -split '[,+]' | ForEach-Object { $_.Trim() }
         $isRegionGroup = @($tokens | Where-Object { $knownRegions -ccontains $_ }).Count -gt 0
         if (-not $isRegionGroup -or ($i + 1) -ge $groups.Count) { continue }
-        $nextTokens = @($groups[$i + 1] -split ',' | ForEach-Object { $_.Trim() })
+        $nextTokens = @($groups[$i + 1] -split '[,+]' | ForEach-Object { $_.Trim() } | Select-Object -Unique)
         $allMatchPattern = @($nextTokens | Where-Object { $_ -notmatch '^[A-Z][a-z]$' }).Count -eq 0
         if ($nextTokens.Count -gt 0 -and $allMatchPattern) { return $nextTokens }
     }

@@ -25,7 +25,7 @@ Catálogo de ficheros BIOS/firmware requeridos por sistema para que el emulador/
 | `intellivision` | `exec.bin` (Executive ROM), `grom.bin` (Graphics ROM) | Obligatorias ambas | `lr-freeintv` | |
 | `channelf` | `sl31253.bin` + `sl31254.bin` (o pack combinado `channelf.zip`) | Obligatoria | `lr-freechaf` | |
 | `atari5200` | `5200.rom` | Obligatoria | `lr-atari800` | |
-| `atari7800` | `7800 BIOS (U).rom` | Opcional (HLE) | `lr-prosystem` | Doc oficial la marca "Optional"; el efecto exacto en compatibilidad al omitirla es saber de la escena, no confirmado textualmente en fuente oficial |
+| `atari7800` | `7800 BIOS (U).rom` + `prosystem.dat` | BIOS opcional (HLE); `prosystem.dat` recomendado | `lr-prosystem` | La BIOS la marca "Optional" la doc oficial; el efecto exacto en compatibilidad al omitirla es saber de la escena, no confirmado textualmente en fuente oficial. `prosystem.dat` es distinto de la BIOS: es la base de hashes `.bin` de No-Intro que el core usa para identificar el mapper/tipo de cartucho de cada ROM headerless — necesario porque la fuente elegida para `atari7800` es `.BIN` (headerless, sin esa información en el propio fichero) en vez de `.A78` (headered). Va en la misma carpeta `system`/BIOS que el resto (ver `docs/system-paths.md#bios`) |
 | `mastersystem` | `bios_U.sms` (USA), `bios_E.sms` (Europa), `bios_J.sms` (Japón) | Opcional (HLE, logo Sega) | `lr-genesis-plus-gx` | Regionales, no un `bios.sms` genérico |
 | `fds` | `disksys.rom` | Obligatoria | `lr-fceumm` / `lr-nestopia` | Famicom Disk System, distinto del `nes` de cartucho estándar |
 | `megadrive` | `bios_MD.bin` (Startup ROM) | Opcional (HLE) | `lr-genesis-plus-gx` | |
@@ -65,8 +65,6 @@ En MAME/FBNeo la BIOS suele venir **embebida en el propio romset**, como set pad
 - **`atomiswave`** — `awbios.zip` en `bios/dc/` (misma ruta que Dreamcast/NAOMI), opcional pero recomendada en `lr-flycast` (arranca en HLE sin ella).
 - **`naomi`** (placa original) — `naomi.zip` en `bios/dc/`, opcional pero recomendada. El core libretro usa el mismo `naomi.zip` para NAOMI y NAOMI 2 (a diferencia de MAME, que sí distingue `naomi2.zip` aparte). Casos especiales con BIOS propia por juego: `hod2bios.zip`, `f355bios.zip`, `f355dlx.zip`, `airlbios.zip`.
 - **`dreamcast`/`naomi2`** — ver fila `naomi` arriba para `lr-flycast`; MAME sí usa `naomi2.zip` como set separado.
-- **`chihiro`** — placa Xbox-based de Sega. **Sin emulación viable en MAME** (driver en estado preliminar, ningún juego jugable). La emulación práctica real es vía **xemu**, con `mcpx_1.0.bin` + `cerbios.bin` (BIOS específica de Chihiro, sustituye a la de `xbox` estándar) — cobertura de catálogo aún muy limitada, sin soporte completo de periféricos tipo pistola/volante.
-- **`triforce`** — placa GameCube-based de Sega/Namco/Nintendo. Emulación **recientemente madurada** (integrada en Dolphin mainline en 2026 tras más de una década en forks): usa el mismo `IPL.bin` que `gamecube`, prácticamente todo el catálogo jugable salvo los títulos "Key of Avalon" (requieren pantalla táctil, sin soportar). Fecha/hito con fuente especializada, no el changelog oficial de Dolphin — contrastar antes de citarlo como definitivo si se necesita precisión total.
 - El resto de sistemas arcade de MAME tienen decenas de sets BIOS compartidos adicionales (ej. `decocass.zip`) — quedan fuera de esta tabla por volumen; se gestionan como parte normal de la auditoría del romset (`docs/guides/romsets/arcade.md`).
 
 ## Microcomputers

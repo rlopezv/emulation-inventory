@@ -174,14 +174,20 @@ def get_languages(name: str) -> list[str]:
     """Misma convencion que No-Intro (docs/references.md#redump): el
     grupo de idiomas es una lista separada por comas de codigos de 2
     letras que aparece INMEDIATAMENTE despues del grupo de region
-    reconocido."""
+    reconocido.
+
+    Caso compilacion: igual que en No-Intro (build-dat-index-nointro.py),
+    el grupo de idioma puede venir separado por "+" ademas de coma en
+    cartuchos "Juego A + Juego B" (uno por titulo incluido) - se trata "+"
+    igual que "," y se deduplica preservando orden, si no el ultimo token
+    no matchea el patron de 2 letras y descarta el grupo entero."""
     groups = get_paren_groups(name)
     for i, group in enumerate(groups):
         tokens = [t.strip() for t in re.split(r"[,+]", group)]
         is_region_group = any(t in KNOWN_REGIONS for t in tokens)
         if not is_region_group or i + 1 >= len(groups):
             continue
-        next_tokens = [t.strip() for t in groups[i + 1].split(",")]
+        next_tokens = list(dict.fromkeys(t.strip() for t in re.split(r"[,+]", groups[i + 1])))
         if next_tokens and all(LANGUAGE_CODE_RE.match(t) for t in next_tokens):
             return next_tokens
     return []

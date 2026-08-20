@@ -53,8 +53,8 @@ The documentation is written in Spanish and uses Markdown tables as the main for
 | `metadata/` | Raw archive of everything downloaded per source (`metadata/dat/<Fuente>/`: No-Intro, TOSEC, MAME, libretro, etc.), kept as-is regardless of what the pipeline actually uses; MAME DATs and software-list XMLs also live here |
 | `metadata/dat-index/` | Per-system JSON index built from `sources/dats/` by `tools/scripts/build-dat-index-*.ps1` |
 | `sources/` | Curated working copy of DATs actually used by the pipeline (only the systems/packs in use, no timestamp-dated duplicates), synced from `metadata/` by `tools/scripts/update-sources.ps1`; gitignored |
-| `data/dats/` | Curated DATs per system, produced externally with retool: `fullset` (complete curated set) and `1g1r` (1G1R-filtered, with a `japan/` quarantine subfolder for region-excluded titles pending review) |
-| `data/roms/` | Final ROM folder structure staged for deployment to devices (gamelist.xml, media, per-system layout) |
+| `data/dats/` | Curated DATs per system, produced externally with retool: `fullset` (complete curated set) and `1g1r` (1G1R-filtered, with a `japan/` quarantine subfolder for region-excluded titles pending review); gitignored — working files regenerated from `sources/`, not a versioned source of truth |
+| `data/roms/` | Final ROM folder structure staged for deployment to devices (gamelist.xml, media, per-system layout); gitignored — same reasoning as `data/dats/` |
 
 ### Collaborative tools
 

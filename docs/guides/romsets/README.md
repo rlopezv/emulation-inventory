@@ -44,7 +44,7 @@ Qué guía de la tabla de arriba aplica a cada identificador canónico de `docs/
 | `snes` | Cartucho / plano | |
 | `neogeo` | Arcade | AES (cartucho doméstico) y MVS comparten romset; mismo DAT que la sección Arcade — ver `docs/romsets.md` |
 | `neogeocd` | Óptico | CHD |
-| `gx4000` | Caso especial | Fuente TOSEC, set predominantemente homebrew mal mantenido (catálogo comercial original muy reducido); requiere curación/proceso manual, no encaja limpio en Cartucho/plano ni Microcomputers |
+| `gx4000` | Caso especial | Sin fuente asignada en `docs/romsets.md` (TOSEC descartado: set predominantemente homebrew mal mantenido, catálogo comercial original muy reducido); requiere curación/proceso manual, no encaja limpio en Cartucho/plano ni Microcomputers |
 | `amigacdtv` | Óptico | CHD |
 | `cdi` | Óptico | CHD; solo DAT Non-Redump hoy (pendiente Redump) |
 | `segacd` | Óptico | CHD |
@@ -90,7 +90,7 @@ Qué guía de la tabla de arriba aplica a cada identificador canónico de `docs/
 
 ### Arcade
 
-`docs/systems.md#arcade`: `mame`, `fbneo`, `neogeo` (MVS, mismo id que en Consolas), `cps1`, `cps2`, `cps3`, `naomi`, `atomiswave`, `daphne`, `naomi2`, `chihiro`, `triforce` — todos Arcade. `naomi`, `atomiswave`, `chihiro` y `triforce` usan medio GD-ROM/DVD internamente pero se tratan como Arcade (vía MAME/FBNeo/Dolphin), no como Óptico, porque su flujo de romset real pasa por esas herramientas y no por Redump/CHDMan.
+`docs/systems.md#arcade`: `mame`, `fbneo`, `neogeo` (MVS, mismo id que en Consolas), `cps1`, `cps2`, `cps3`, `naomi`, `atomiswave`, `daphne`, `naomi2` — todos Arcade. `naomi` y `atomiswave` usan medio GD-ROM internamente pero se tratan como Arcade (vía MAME/FBNeo), no como Óptico, porque su flujo de romset real pasa por esas herramientas y no por Redump/CHDMan.
 
 ### Microcomputers
 

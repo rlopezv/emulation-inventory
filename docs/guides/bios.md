@@ -16,11 +16,11 @@ La BIOS es firmware con copyright de su fabricante original. La única vía leg�
 | Consolas Sony ópticas (`psx`/`ps2`) | Volcado directo desde la consola real con un dispositivo de modding/soft-mod, o extracción del firmware de una imagen de sistema ya en posesión del usuario | Herramientas específicas por consola/modelo, `[TODO]` — no verificado en esta sesión cuál es el estándar actual de la escena |
 | `ps3` | Descarga **oficial y gratuita** desde el soporte de Sony (`PS3UPDAT.PUP`, mismo fichero que actualizaría una PS3 real) e instalación desde dentro de RPCS3 (`File > Install Firmware`) | RPCS3 (proceso integrado) |
 | `psvita` | Instalación del paquete de firmware oficial desde dentro del propio emulador | Vita3K (proceso integrado, `File > Install Firmware`) |
-| GameCube/Wii (`gamecube`/`wii`/`triforce`) | Volcado de `IPL.bin` y/o NAND desde una consola real | Herramientas de dumping de Dolphin (menú propio) — ver wiki oficial de Dolphin para el procedimiento exacto, `[TODO]` no detallado aquí |
+| GameCube/Wii (`gamecube`/`wii`) | Volcado de `IPL.bin` y/o NAND desde una consola real | Herramientas de dumping de Dolphin (menú propio) — ver wiki oficial de Dolphin para el procedimiento exacto, `[TODO]` no detallado aquí |
 | `nds`/`dsiware` | Volcado de `bios7.bin`/`bios9.bin`/`firmware.bin` (DS) y adicionalmente `bios7i.bin`/`bios9i.bin`/NAND (DSi) desde hardware real | `fwTool`/`dsbf_dump.nds` (mencionadas en la FAQ oficial de melonDS) |
 | `3ds`/`3dseshop`/`newn3ds` | Volcado de `boot9.bin`/`boot11.bin`/`aes_keys.txt`/`movable.sed` desde una 3DS real con acceso homebrew | GodMode9 (herramienta estándar de la escena 3DS para dumping) |
 | `switch` | Extracción de `prod.keys` desde una Switch real con acceso a payload injection, e instalación del firmware oficial como paquete de ficheros | Lockpick_RCM (extracción de claves) |
-| `xbox`/`chihiro` | Volcado de `mcpx_1.0.bin` y BIOS de consola desde hardware modded | `[TODO]` — no investigado en esta sesión, requiere hardware con modchip o exploit de software |
+| `xbox` | Volcado de `mcpx_1.0.bin` y BIOS de consola desde hardware modded | `[TODO]` — no investigado en esta sesión, requiere hardware con modchip o exploit de software |
 | `wiiu` | Extracción de la clave común (`keys.txt`) desde una Wii U real con acceso homebrew | `[TODO]` — no investigado en esta sesión |
 | Microcomputers (`amiga`/`atarist`/`sharpx68000`/etc.) | La ROM Kickstart/TOS/system suele adquirirse mediante licencias de reedición legal del fabricante actual de la marca (ej. paquetes "Amiga Forever" para Kickstart), o volcarse de hardware propio | `[TODO]` — no investigado en esta sesión qué canal de adquisición legal usa cada uno hoy |
 

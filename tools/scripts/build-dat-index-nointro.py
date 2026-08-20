@@ -246,13 +246,22 @@ def get_languages(name: str) -> list[str]:
     # un titulo de NES, no despues). Fuente primaria de la cadena de relleno
     # (ver resolve_languages) - get_language_map (retool) ya no rellena, es
     # una capa de validacion posterior (ver build_system_index paso 9).
+    #
+    # Caso compilacion: en cartuchos "Juego A + Juego B" el grupo de idioma
+    # tambien puede venir separado por "+" ademas de coma, uno por titulo
+    # incluido (ej. "(En,Ja,Fr,De,Es,It+En)" = "En,Ja,Fr,De,Es,It" del primer
+    # juego + "En" del segundo) - se trata "+" igual que "," y se deduplica
+    # preservando orden, si no el ultimo token ("It+En") no matchea el patron
+    # de 2 letras y descarta el grupo entero, cayendo al idioma por region
+    # (bug real encontrado revisando divergencias contra retool en una
+    # compilacion).
     groups = get_paren_groups(name)
     for i, group in enumerate(groups):
         tokens = [t.strip() for t in re.split(r"[,+]", group)]
         is_region_group = any(t in KNOWN_REGIONS for t in tokens)
         if not is_region_group or i + 1 >= len(groups):
             continue
-        next_tokens = [t.strip() for t in groups[i + 1].split(",")]
+        next_tokens = list(dict.fromkeys(t.strip() for t in re.split(r"[,+]", groups[i + 1])))
         if next_tokens and all(LANGUAGE_CODE_RE.match(t) for t in next_tokens):
             return next_tokens
     return []

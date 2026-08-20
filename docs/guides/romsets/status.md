@@ -21,15 +21,15 @@ Derivado del propio filesystem del repo (no autodeclarado), cruzando `docs/romse
 | Identificador | DAT generado | Romset curado | Formato final | En data/roms | Media | Notas |
 | --- | --- | --- | --- | --- | --- | --- |
 | `gameandwatch` | ✅ | ✅ | [TODO] | ⬜ | ⬜ | |
-| `atari2600` | ✅ | ✅ | [TODO] | ⬜ | ⬜ | |
-| `atari5200` | ✅ | ✅ | [TODO] | ⬜ | ⬜ | |
-| `atari7800` | ✅ | ✅ | [TODO] | ⬜ | ⬜ | |
-| `astrocade` | ✅ | ✅ | [TODO] | ⬜ | ⬜ | |
-| `vectrex` | ✅ | ✅ | [TODO] | ⬜ | ⬜ | |
-| `odyssey2` | ✅ | ✅ | [TODO] | ⬜ | ⬜ | |
-| `intellivision` | ✅ | ✅ | [TODO] | ⬜ | ⬜ | |
-| `channelf` | ⬜ | ⬜ | [TODO] | ⬜ | ⬜ | Sistema añadido esta sesión, todavía sin indexar |
-| `megaduck` | ⬜ | ⬜ | [TODO] | ⬜ | ⬜ | Sistema añadido esta sesión, todavía sin indexar |
+| `atari2600` | ✅ | ✅ | [TODO] | ⬜ | ⬜ | Recuperado hoy (gap de manifiesto incompleto, ya cerrado); 18 títulos solo en `full+aftermarket` vs `pc/`, 84 divergencias de clonelist — catálogo con mucha escena aftermarket histórica |
+| `atari5200` | ✅ | ✅ | [TODO] | ⬜ | ⬜ | Recuperado hoy (gap de manifiesto incompleto, ya cerrado) |
+| `atari7800` | ✅ | ✅ | [TODO] | ⬜ | ⬜ | Recuperado hoy (gap de manifiesto incompleto, ya cerrado) |
+| `astrocade` | ✅ | ✅ | [TODO] | ⬜ | ⬜ | Recuperado hoy (gap de manifiesto incompleto, ya cerrado) |
+| `vectrex` | ✅ | ✅ | [TODO] | ⬜ | ⬜ | Recuperado hoy; DAT `(Aftermarket)` venía vacío (0 juegos), omitido automáticamente sin afectar al resultado |
+| `odyssey2` | ✅ | ✅ | [TODO] | ⬜ | ⬜ | Recuperado hoy (gap de manifiesto incompleto, ya cerrado) |
+| `intellivision` | ✅ | ✅ | [TODO] | ⬜ | ⬜ | Recuperado hoy (gap de manifiesto incompleto, ya cerrado) |
+| `channelf` | ✅ | ✅ | [TODO] | ⬜ | ⬜ | |
+| `megaduck` | ✅ | ✅ | [TODO] | ⬜ | ⬜ | |
 | `nes` | ✅ | ✅ | [TODO] | ⬜ | ⬜ | |
 | `fds` | ✅ | ✅ | [TODO] | ⬜ | ⬜ | |
 | `satellaview` | ✅ | ✅ | [TODO] | ⬜ | ⬜ | |
@@ -47,9 +47,9 @@ Derivado del propio filesystem del repo (no autodeclarado), cruzando `docs/romse
 | `dsiware` | ✅ | ✅ | [TODO] | ⬜ | ⬜ | |
 | `3ds` | ✅ | ✅ | [TODO] | ⬜ | ⬜ | |
 | `3dseshop` | ✅ | ✅ | [TODO] | ⬜ | ⬜ | |
-| `newn3ds` | ✅ | ✅ | [TODO] | ⬜ | ⬜ | |
-| `gamecube` | ✅ | ✅ | [TODO] | ⬜ | ⬜ | |
-| `wii` | ✅ | ✅ | [TODO] | ⬜ | ⬜ | |
+| `newn3ds` | ✅ | ✅ | [TODO] | ⬜ | ⬜ | Recuperado hoy (gap de manifiesto incompleto, ya cerrado) |
+| `gamecube` | ✅ | ⬜ | [TODO] | ⬜ | ⬜ | **Regresión de hoy** — mismo motivo que `segacd` |
+| `wii` | ✅ | ⬜ | [TODO] | ⬜ | ⬜ | **Regresión de hoy** — mismo motivo que `segacd` |
 | `wiiu` | ✅ | ⬜ | [TODO] | ⬜ | ⬜ | DAT indexado pero sin curar en `data/dats/console/` todavía |
 | `switch` | ➖ | ➖ | [TODO] | ⬜ | ⬜ | Sin DAT de verificación estándar |
 | `sg1000` | ✅ | ✅ | [TODO] | ⬜ | ⬜ | |
@@ -57,34 +57,34 @@ Derivado del propio filesystem del repo (no autodeclarado), cruzando `docs/romse
 | `megadrive` | ✅ | ✅ | [TODO] | ⬜ | ⬜ | |
 | `sega32x` | ✅ | ✅ | [TODO] | ⬜ | ⬜ | |
 | `gamegear` | ✅ | ✅ | [TODO] | ⬜ | ⬜ | |
-| `segacd` | ✅ | ✅ | [TODO] | ⬜ | ⬜ | |
-| `saturn` | ✅ | ✅ | [TODO] | ⬜ | ⬜ | |
-| `dreamcast` | ✅ | ✅ | [TODO] | ⬜ | ⬜ | |
-| `psx` | ✅ | ✅ | [TODO] | ⬜ | ⬜ | |
-| `ps2` | ✅ | ✅ | [TODO] | ⬜ | ⬜ | |
+| `segacd` | ✅ | ⬜ | [TODO] | ⬜ | ⬜ | **Regresión de hoy:** tenía romset curado antes del reseteo de `sources/`; `sources/dats/redump/` se borró y no se ha repoblado (sin `update-sources.ps1` equivalente para Redump), así que no entró en la tanda de Retool de hoy |
+| `saturn` | ✅ | ⬜ | [TODO] | ⬜ | ⬜ | **Regresión de hoy** — mismo motivo que `segacd` |
+| `dreamcast` | ✅ | ⬜ | [TODO] | ⬜ | ⬜ | **Regresión de hoy** — mismo motivo que `segacd` |
+| `psx` | ✅ | ⬜ | [TODO] | ⬜ | ⬜ | **Regresión de hoy** — mismo motivo que `segacd` |
+| `ps2` | ✅ | ⬜ | [TODO] | ⬜ | ⬜ | **Regresión de hoy** — mismo motivo que `segacd` |
 | `ps3` | ✅ | ⬜ | [TODO] | ⬜ | ⬜ | DAT indexado pero sin curar en `data/dats/console/` todavía |
 | `psp` | ✅ | ✅ | [TODO] | ⬜ | ⬜ | |
-| `pspminis` | ✅ | ✅ | [TODO] | ⬜ | ⬜ | |
-| `psn` | ✅ | ✅ | [TODO] | ⬜ | ⬜ | |
+| `pspminis` | ✅ | ✅ | [TODO] | ⬜ | ⬜ | Recuperado hoy (gap de manifiesto incompleto, ya cerrado) |
+| `psn` | ✅ | ✅ | [TODO] | ⬜ | ⬜ | Recuperado hoy (gap de manifiesto incompleto, ya cerrado) |
 | `psvita` | ➖ | ➖ | [TODO] | ⬜ | ⬜ | Sin DAT standalone identificado |
 | `lynx` | ✅ | ✅ | [TODO] | ⬜ | ⬜ | |
 | `jaguar` | ✅ | ✅ | [TODO] | ⬜ | ⬜ | |
-| `jaguarcd` | ✅ | ✅ | [TODO] | ⬜ | ⬜ | |
+| `jaguarcd` | ✅ | ⬜ | [TODO] | ⬜ | ⬜ | **Regresión de hoy** — mismo motivo que `segacd` |
 | `pcengine` | ✅ | ✅ | [TODO] | ⬜ | ⬜ | |
-| `pcenginecd` | ✅ | ✅ | [TODO] | ⬜ | ⬜ | |
-| `3do` | ✅ | ✅ | [TODO] | ⬜ | ⬜ | |
-| `cdi` | ✅ | ✅ | [TODO] | ⬜ | ⬜ | |
-| `amigacdtv` | ✅ | ✅ | [TODO] | ⬜ | ⬜ | |
-| `amigacd32` | ✅ | ✅ | [TODO] | ⬜ | ⬜ | |
+| `pcenginecd` | ✅ | ⬜ | [TODO] | ⬜ | ⬜ | **Regresión de hoy** — mismo motivo que `segacd` |
+| `3do` | ✅ | ⬜ | [TODO] | ⬜ | ⬜ | **Regresión de hoy** — mismo motivo que `segacd` |
+| `cdi` | ✅ | ⬜ | [TODO] | ⬜ | ⬜ | **Regresión de hoy** — mismo motivo que `segacd` |
+| `amigacdtv` | ✅ | ⬜ | [TODO] | ⬜ | ⬜ | **Regresión de hoy** — mismo motivo que `segacd` |
+| `amigacd32` | ✅ | ⬜ | [TODO] | ⬜ | ⬜ | **Regresión de hoy** — mismo motivo que `segacd` |
 | `ngp` | ✅ | ✅ | [TODO] | ⬜ | ⬜ | |
 | `ngpc` | ✅ | ✅ | [TODO] | ⬜ | ⬜ | |
 | `wswan` | ✅ | ✅ | [TODO] | ⬜ | ⬜ | |
 | `wswanc` | ✅ | ✅ | [TODO] | ⬜ | ⬜ | |
 | `supervision` | ✅ | ✅ | [TODO] | ⬜ | ⬜ | |
-| `xbox` | ✅ | ✅ | [TODO] | ⬜ | ⬜ | |
+| `xbox` | ✅ | ⬜ | [TODO] | ⬜ | ⬜ | **Regresión de hoy** — mismo motivo que `segacd` |
 | `xbox360` | ✅ | ⬜ | [TODO] | ⬜ | ⬜ | DAT indexado pero sin curar en `data/dats/console/` todavía |
-| `gx4000` | ✅ | ⬜ | [TODO] | ⚠️ | ⬜ | Único sistema con `gamelist.xml` real (no plantilla). Fuente TOSEC, no pasó por el pipeline Retool de `data/dats/console/` (pensado para No-Intro/Redump) |
-| `neogeocd` | ✅ | ✅ | [TODO] | ⬜ | ⬜ | |
+| `gx4000` | ✅ | ⬜ | [TODO] | ⚠️ | ⬜ | Único sistema con `gamelist.xml` real (no plantilla). Índice generado con el TOSEC anterior; `docs/romsets.md` ya no le asigna fuente (caso excepcional, tratamiento manual pendiente) — no pasó ni pasará por el pipeline Retool de `data/dats/console/` (pensado para No-Intro/Redump) |
+| `neogeocd` | ✅ | ⬜ | [TODO] | ⬜ | ⬜ | **Regresión de hoy** — mismo motivo que `segacd` |
 | `neogeo` | ⬜ | ⬜ | [TODO] | ⬜ | ⬜ | Fuente libretro (ClrMamePro texto); sin script de indexado todavía — mismo caso que la sección Arcade |
 
 ## Arcade
@@ -101,27 +101,25 @@ Derivado del propio filesystem del repo (no autodeclarado), cruzando `docs/romse
 | `atomiswave` | ⬜ | ⬜ | [TODO] | ⬜ | ⬜ | |
 | `daphne` | ➖ | ➖ | [TODO] | ⬜ | ⬜ | Sin DAT estándar |
 | `naomi2` | ⬜ | ⬜ | [TODO] | ⬜ | ⬜ | |
-| `chihiro` | ➖ | ➖ | [TODO] | ⬜ | ⬜ | Sin DAT estándar; emulación sin viabilidad práctica en MAME (ver `docs/bios.md`) |
-| `triforce` | ➖ | ➖ | [TODO] | ⬜ | ⬜ | Sin DAT estándar; emulación recién madurada en Dolphin (ver `docs/bios.md`) |
 
 ## Microcomputers
 
 | Identificador | DAT generado | Romset curado | Formato final | En data/roms | Media | Notas |
 | --- | --- | --- | --- | --- | --- | --- |
-| `c64` | ⬜ | ⬜ | [TODO] | ⬜ | ⬜ | Fuente ya fijada (No-Intro), pendiente extender `build-dat-index-nointro.ps1` |
+| `c64` | ✅ | ✅ | [TODO] | ⬜ | ⬜ | Curado, pero cayó físicamente en `data/dats/console/` (Retool no distingue categoría) en vez de `data/dats/micro/` — revisar si mover o dejarlo así |
 | `c128` | ⬜ | ⬜ | [TODO] | ⬜ | ⬜ | Fuente ya fijada (TOSEC), pendiente extender `build-dat-index-tosec.ps1` |
 | `amiga` | ⬜ | ⬜ | [TODO] | ⬜ | ⬜ | Fuente ya fijada (WHDLoad, DAT ya descargado en `metadata/dat/WHDLoad/`), pendiente crear indexador nuevo |
 | `spectrum` | ⬜ | ⬜ | [TODO] | ⬜ | ⬜ | Fuente ya fijada (TOSEC), pendiente extender `build-dat-index-tosec.ps1` |
 | `zx81` | ⬜ | ⬜ | [TODO] | ⬜ | ⬜ | Ídem |
-| `msx` | ⬜ | ⬜ | [TODO] | ⬜ | ⬜ | Fuente ya fijada (No-Intro), pendiente extender `build-dat-index-nointro.ps1` |
-| `msx2` | ⬜ | ⬜ | [TODO] | ⬜ | ⬜ | Ídem |
+| `msx` | ✅ | ✅ | [TODO] | ⬜ | ⬜ | Curado, mismo caso que `c64`: cayó en `data/dats/console/` en vez de `data/dats/micro/` |
+| `msx2` | ✅ | ✅ | [TODO] | ⬜ | ⬜ | Curado, mismo caso que `c64`: cayó en `data/dats/console/` en vez de `data/dats/micro/` |
 | `amstradcpc` | ⬜ | ⬜ | [TODO] | ⬜ | ⬜ | Fuente ya fijada (TOSEC), pendiente extender `build-dat-index-tosec.ps1` |
 | `atarist` | ⬜ | ⬜ | [TODO] | ⬜ | ⬜ | Ídem |
+| `sharpx68000` | ⬜ | ⬜ | [TODO] | ⬜ | ⬜ | Ídem |
+| `dragon32` | ⬜ | ⬜ | [TODO] | ⬜ | ⬜ | Ídem |
 | `vic20` | ⬜ | ⬜ | [TODO] | ⬜ | ⬜ | Sistema añadido esta sesión, fuente ya fijada (TOSEC), sin indexar todavía |
 | `atari800` | ⬜ | ⬜ | [TODO] | ⬜ | ⬜ | Sistema añadido esta sesión, fuente ya fijada (TOSEC), sin indexar todavía |
 | `thomson` | ⬜ | ⬜ | [TODO] | ⬜ | ⬜ | Sistema añadido esta sesión, fuente ya fijada (TOSEC), sin indexar todavía |
-| `sharpx68000` | ⬜ | ⬜ | [TODO] | ⬜ | ⬜ | Ídem |
-| `dragon32` | ⬜ | ⬜ | [TODO] | ⬜ | ⬜ | Ídem |
 
 ## Engines / Ports
 
@@ -138,12 +136,16 @@ Derivado del propio filesystem del repo (no autodeclarado), cruzando `docs/romse
 
 ## Resumen
 
-- **Consolas (66 sistemas, incluye `channelf`/`megaduck` añadidos después del snapshot original):** 55 con DAT generado y romset curado (fullset+1G1R en `data/dats/console/`); 3 con DAT generado pero sin curar (`wiiu`, `ps3`, `xbox360`); `gx4000` es el único con `gamelist.xml` real (parcial, sin media); `neogeo`, `channelf`, `megaduck` sin indexar. 6 sin DAT por diseño (`sgb`, `switch`, `psvita`) o fuera de alcance de indexación actual.
-- **Arcade (12 sistemas):** 0 indexados — sin script de indexado para arcade todavía (gap ya conocido, ver `docs/session-context.md`).
-- **Microcomputers (14 sistemas, incluye `vic20`/`atari800`/`thomson` añadidos después del snapshot original):** 0 indexados pese a tener fuente ya fijada en `docs/romsets.md` — el trabajo real pendiente es extender `build-dat-index-tosec.ps1`/`build-dat-index-nointro.ps1` y crear el indexador de WHDLoad.
+- **Consolas (66 sistemas):** los **44 sistemas No-Intro del manifiesto** (`tools/scripts/config/nointro-systems.json`) están completos: DAT generado + romset curado (fullset+1G1R) en `data/dats/console/`, incluidos los 15 recuperados hoy tras cerrar el gap de manifiesto incompleto (`channelf`, `megaduck`, `atari2600`, `atari5200`, `atari7800`, `astrocade`, `vectrex`, `odyssey2`, `intellivision`, `newn3ds`, `pspminis`, `psn`, más `c64`/`msx`/`msx2` que son Microcomputers pero cayeron aquí). **Regresión real de hoy: 15 sistemas Redump perdieron su romset curado** (`segacd`, `saturn`, `dreamcast`, `psx`, `ps2`, `gamecube`, `wii`, `xbox`, `jaguarcd`, `pcenginecd`, `3do`, `cdi`, `amigacdtv`, `amigacd32`, `neogeocd`) — tenían DAT curado antes del reseteo de `sources/`, pero `sources/dats/redump/` se borró y no se ha repoblado (no existe un `update-sources.ps1` equivalente para Redump), así que no pudieron pasar por la tanda de Retool de hoy. `wiiu`/`ps3`/`xbox360` (Non-Redump) siguen igual que antes: DAT indexado, sin curar. `gx4000` es el único con `gamelist.xml` real (parcial, sin media). `neogeo` sin indexar (formato libretro). 6 sin DAT por diseño (`sgb`, `switch`, `psvita`).
+- **Arcade (10 sistemas):** 0 indexados — sin script de indexado para arcade todavía (gap ya conocido, ver `docs/session-context.md`).
+- **Microcomputers (14 sistemas):** `c64`/`msx`/`msx2` curados (ver nota de ubicación en `data/dats/console/` en vez de `data/dats/micro/`, arriba). El resto (`c128`, `amiga`, `spectrum`, `zx81`, `amstradcpc`, `atarist`, `sharpx68000`, `dragon32`, `vic20`, `atari800`, `thomson`) sigue sin indexar pese a tener fuente ya fijada en `docs/romsets.md` — el trabajo real pendiente es extender `build-dat-index-tosec.ps1` y crear el indexador de WHDLoad.
 - **Engines/Ports (8 sistemas):** 0 indexados, sin script de indexado para DAT libretro todavía.
-- **`data/roms/` (gamelist + media):** prácticamente en blanco en todo el repo — 51 de 52 carpetas creadas son plantilla vacía (`gamelist.xml` de 45 bytes, `media/*/. gitkeep` sin ficheros reales); solo `gx4000` tiene contenido real, y solo en `gamelist.xml` (sin media todavía).
+- **`data/roms/` (gamelist + media):** prácticamente en blanco en todo el repo — de las 67 carpetas creadas (52 originales + 15 scaffold nuevas: `channelf`/`megaduck`/`atari2600`/`atari5200`/`atari7800`/`astrocade`/`vectrex`/`odyssey2`/`intellivision`/`newn3ds`/`pspminis`/`psn` en `console/`, `vic20`/`atari800`/`thomson` en `micro/`), 66 son plantilla vacía (`gamelist.xml` de 45 bytes, `media/*/.gitkeep` sin ficheros reales); solo `gx4000` tiene contenido real, y solo en `gamelist.xml` (sin media todavía). Ya no quedan huecos de scaffold para ningún sistema con fuente ya fijada en `docs/romsets.md`.
 - **Formato final:** no verificable desde este repo (las ROMs no viven aquí) — columna a rellenar manualmente por el usuario si se quiere llevar este dato en el mismo fichero.
+
+## Pendiente crítico — recuperar Redump
+
+Los 15 sistemas Redump listados arriba como "regresión de hoy" necesitan que `sources/dats/redump/` se repueble antes de poder pasar por Retool otra vez. No hay script `update-sources.ps1` equivalente para Redump (solo existe para No-Intro) — hace falta decidir si se copian a mano desde `metadata/dat/Redump/` o si se crea un script de sincronización análogo al de No-Intro.
 
 ## Pendiente
 

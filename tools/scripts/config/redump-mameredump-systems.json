@@ -1,0 +1,19 @@
+{
+  "_comment": "Manifiesto de sistemas Redump con equivalente en metadata/dat/MAMERedump/full/ (DAT estilo MAME con <machine>/<disk name=\"....chd\" sha1=\"...\">, ver github.com/MetalSlug/MAMERedump). id canonico (docs/systems.md) -> nombre base compartido por ambas fuentes (idéntico en Redump y MAMERedump salvo el sufijo '- Datfile (N) (fecha)' de Redump frente a '(N)' de MAMERedump). Usado por compare-redump-mameredump.py. Solo incluye sistemas con Fuente=Redump en docs/romsets.md que SI tienen DAT en MAMERedump/full/ -- 'xbox' se queda fuera a proposito porque MAMERedump no publica CHD para el (confirmado, ver docs/session-context.md).",
+  "systems": {
+    "gamecube": "Nintendo - GameCube",
+    "wii": "Nintendo - Wii",
+    "segacd": "Sega - Mega CD & Sega CD",
+    "saturn": "Sega - Saturn",
+    "dreamcast": "Sega - Dreamcast",
+    "psx": "Sony - PlayStation",
+    "ps2": "Sony - PlayStation 2",
+    "jaguarcd": "Atari - Jaguar CD Interactive Multimedia System",
+    "pcenginecd": "NEC - PC Engine CD & TurboGrafx CD",
+    "3do": "Panasonic - 3DO Interactive Multiplayer",
+    "amigacdtv": "Commodore - Amiga CDTV",
+    "amigacd32": "Commodore - Amiga CD32",
+    "neogeocd": "SNK - Neo Geo CD",
+    "psp": "Sony - PlayStation Portable"
+  }
+}

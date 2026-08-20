@@ -29,6 +29,21 @@
     "ngpc": "SNK - NeoGeo Pocket Color",
     "wswan": "Bandai - WonderSwan",
     "wswanc": "Bandai - WonderSwan Color",
-    "supervision": "Watara - Supervision"
+    "supervision": "Watara - Supervision",
+    "channelf": "Fairchild - Channel F",
+    "megaduck": "Welback - Mega Duck",
+    "c64": "Commodore - Commodore 64",
+    "msx": "Microsoft - MSX",
+    "msx2": "Microsoft - MSX2",
+    "atari2600": "Atari - Atari 2600",
+    "atari5200": "Atari - Atari 5200",
+    "atari7800": "Atari - Atari 7800 (BIN)",
+    "astrocade": "Bally - Astrocade",
+    "vectrex": "GCE - Vectrex",
+    "odyssey2": "Magnavox - Odyssey 2",
+    "intellivision": "Mattel - Intellivision",
+    "newn3ds": "Nintendo - New Nintendo 3DS (Decrypted)",
+    "pspminis": "Sony - PlayStation Portable (PSN) (Minis) (Decrypted)",
+    "psn": "Sony - PlayStation Portable (PSN) (Decrypted)"
   }
 }

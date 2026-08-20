@@ -45,7 +45,7 @@ Ideal para actualizar todos los sistemas de golpe sin necesidad de iniciar sesi�
    - Puede haber más variantes en la misma sección (ej. "Standard" plano, sin relación P/C) — confirmar en el propio portal cuáles están disponibles en cada visita, ya que no se ha hecho un barrido exhaustivo de todas.
 4. Descomprimir el lote completo y extraer únicamente el `.dat` del sistema que necesites (ver "Notas" al final de esta guía para dónde colocarlo).
 
-**Caso confirmado:** para sistemas de cartucho, seleccionar dentro del ZIP solo los sistemas de interés del catálogo completo — no hace falta procesar los que no interesan. Dos excepciones a tener en cuenta que **no** están cubiertas por ningún pack de No-Intro: `gx4000` (usa TOSEC, ver más abajo) y `sgb` (no tiene DAT propio — usa las mismas ROMs de `gb`/`gbc`, ejecutadas en modo Super Game Boy).
+**Caso confirmado:** para sistemas de cartucho, seleccionar dentro del ZIP solo los sistemas de interés del catálogo completo — no hace falta procesar los que no interesan. Dos excepciones a tener en cuenta que **no** están cubiertas por ningún pack de No-Intro: `gx4000` (sin fuente asignada en `docs/romsets.md` — su set TOSEC es predominantemente homebrew mal mantenido, caso excepcional pendiente de tratamiento manual) y `sgb` (no tiene DAT propio — usa las mismas ROMs de `gb`/`gbc`, ejecutadas en modo Super Game Boy).
 
 ### Patrón de nombres de ficheros (No-Intro)
 

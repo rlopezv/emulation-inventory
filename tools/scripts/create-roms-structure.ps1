@@ -36,7 +36,7 @@ $consolas = @(
 
 $arcade = @(
     "mame", "fbneo", "neogeo", "cps1", "cps2", "cps3", "naomi", "atomiswave",
-    "daphne", "naomi2", "chihiro", "triforce"
+    "daphne", "naomi2"
 )
 
 $micro = @(

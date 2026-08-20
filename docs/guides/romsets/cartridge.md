@@ -21,7 +21,7 @@ Sistemas clasificados como Cartucho/plano en [docs/guides/romsets/README.md](REA
 | `gameandwatch` | — | Fuente libretro, no No-Intro |
 | `atari5200` | — | Formato único |
 | `vectrex` | — | Formato único |
-| `atari7800` | BIN (headerless) | También A78 (headered, 128 bytes) — ver `docs/references.md#caso-especial--headered-vs-headerless-nes-snes-atari-7800-atari-lynx-fds` |
+| `atari7800` | BIN (headerless) | También A78 (headered, 128 bytes; catálogo mucho más reducido, solo 8 entradas vs 135 en BIN — no elegido por esa diferencia de cobertura) — ver `docs/references.md#caso-especial--headered-vs-headerless-nes-snes-atari-7800-atari-lynx-fds`. El core `lr-prosystem` compensa la falta de cabecera con `prosystem.dat` (base de hashes `.bin` de No-Intro para detectar mapper/tipo de cartucho), ver `docs/bios.md` |
 | `nes` | Headered (iNES, 16 bytes) | También Headerless — mismo caso especial de `docs/references.md` |
 | `sg1000` | — | Incluye SC-3000 |
 | `mastersystem` | — | Formato único |
@@ -56,7 +56,7 @@ Sistemas clasificados como Cartucho/plano en [docs/guides/romsets/README.md](REA
 | `wswanc` | — | Formato único |
 | `psvita` | `.ZIP` (NoNpDrm comprimido) o `.PKG` (con clave de licencia) | Formatos soportados por Vita3K; solo catálogo digital cubierto (No-Intro `PSN Content`/`Updates`) |
 
-**Casos especiales fuera de esta tabla** (ver [docs/guides/romsets/README.md](README.md#clasificación-de-sistemas-por-flujo)): `sgb` (sin DAT propio, requiere extraer del No-Intro de `gb`/`gbc` los títulos con soporte Super Game Boy) y `gx4000` (fuente TOSEC homebrew mal mantenida, requiere curación manual) no encajan limpio en este flujo simple.
+**Casos especiales fuera de esta tabla** (ver [docs/guides/romsets/README.md](README.md#clasificación-de-sistemas-por-flujo)): `sgb` (sin DAT propio, requiere extraer del No-Intro de `gb`/`gbc` los títulos con soporte Super Game Boy) y `gx4000` (sin fuente asignada en `docs/romsets.md`, caso excepcional que requiere tratamiento manual) no encajan limpio en este flujo simple.
 
 ## Verificación contra DAT
 

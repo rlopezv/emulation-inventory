@@ -134,8 +134,6 @@ Nombre interno del core tal como aparece en RetroArch (`nombre_del_core`). Los c
 | Sammy Atomiswave | 2003 | `atomiswave` | Atomiswave | 4:3 | 640×480 | Horizontal | `flycast` | Flycast |
 | LaserDisc Arcade | 1983 | `daphne` | Daphne, Dragon's Lair Hardware | Variable | Variable | Horizontal | — | Daphne, Hypseus Singe |
 | Sega NAOMI 2 | 2000 | `naomi2` | NAOMI 2 | 4:3 | 640×480 | Horizontal | — | Flycast |
-| Sega Chihiro | 2003 | `chihiro` | Xbox Arcade Hardware | 4:3 | 640×480 | Horizontal | — | xemu (experimental) |
-| Nintendo Triforce | 2002 | `triforce` | Triforce | 4:3 | 640×480 | Horizontal | — | Dolphin |
 
 ## Microcomputers
 

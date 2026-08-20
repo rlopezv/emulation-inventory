@@ -28,8 +28,6 @@ Sistemas clasificados como Arcade en [docs/guides/romsets/README.md](README.md#c
 | `atomiswave` | ZIP + `.chd` (o `.gdi`/`.lst`) | BIOS `awbios.zip`, misma carpeta `system` |
 | `daphne` | Vídeo `.m2v`/`.ogg` + fichero de sincronización | No usa ROMs estándar — ver `docs/arcade/arcade.md` (fila Daphne / Hypseus Singe) |
 | `naomi2` | [TODO] | Fuente: DAT MAME `0.260` o superior. Core/emulador recomendado: flycast (mismo que `naomi`). Contenedor sin confirmar todavía (probable ZIP + `.chd`, mismo linaje de hardware que `naomi`, sin verificar) |
-| `chihiro` | [TODO] | Hardware basado en Xbox arcade; sin DAT estándar identificado, contenedor sin investigar |
-| `triforce` | [TODO] | Hardware basado en GameCube arcade (vía Dolphin); sin DAT estándar identificado, contenedor sin investigar |
 
 ## Verificación contra DAT MAME/FBNeo
 
