@@ -303,8 +303,143 @@ Refactor de apoyo: la construcción de familias se extrajo a `Build-Families` (r
 
 **Rama de trabajo:** `nointro-sources-restructure` (creada desde `develop`, sin mergear todavía).
 
+### `tools/application/src/dat_processing` — Fase 2 del workflow (correlación multi-fuente por sistema), nuevo paquete esta sesión
+
+Contexto: tras cerrar el grueso de `dat_sources` (~20 fuentes catalogadas, ver `docs/dat-sources.md`), el usuario pidió pasar a "Fase 2: Procesado de DAT" (`docs/guides/romsets/workflow.md`) — cruzar todas las fuentes por sistema para tener primaria + alternativas de contraste, en vez de un único DAT por sistema.
+
+**Hecho, funcional y con tests (60/60 en verde):**
+
+- `romsets_doc.py`/`systems_doc.py` — parsers de `docs/romsets.md` (solo Consolas+Microcomputers — Arcade y Engines/Ports tienen otro layout de columnas, **sin soporte todavía**) y `docs/systems.md` (identificadores canónicos reales).
+- `source_map.py` — Fuente humana (`docs/romsets.md`) → `source_id` de `dat_sources`.
+- `reindex.py` — genera `config/sistema_index.yaml` (sistema → `[source_id, ...]`) escaneando `interesa:true` de las YAML de `dat_sources`, sin tocar disco. Reporta también `sin_sistema`: elementos `interesa:true` que no resuelven a ningún sistema.
+- `manifest.py` — para un sistema: `primaria` (Fuente de romsets.md) + `alternativas` (todo lo demás que resuelve al mismo sistema, un solo cubo — decisión explícita del usuario, sin subdistinguir DAT completo/hash/1G1R).
+- `validate.py` — audita que todo `sistema` referenciado (a mano o como clave de manifiesto `system_names`) sea un id canónico real. Hoy: 0 inválidos.
+- CLI: `dat-processing manifest <sistema> [--out fichero.json]`, `dat-processing reindex`, `dat-processing validar-sistemas`.
+
+**Bugs reales en `dat_sources` que salieron al construir esto (todos corregidos):**
+
+- `_resolver_redump` usaba igualdad exacta, no prefijo — no reconocía el naming de `fresh1g1r` (`"Sony - PlayStation (Redump - Fresh1G1R - Hearto).dat"`, sin el sufijo `" - Datfile"` de Redump.org real). Cambiado a `_mejor_coincidencia_por_prefijo`, con un chequeo de límite de palabra añadido a esa función compartida (si no, `"Sony - PlayStation 3"` caía mal en `psx` por prefijo, al no estar `ps3` en el manifiesto de 15 sistemas).
+- `antopisa-mame-dats` y `redump` estaban en `filter.CONVENCION_POR_FUENTE` asumiendo subcarpeta plana (`"."`), pero sus YAML declaran subcarpeta real (`hash/`, `dat/`) — desalineación que hacía que `verify --mover` no encontrara nada. Sacados de esa tabla, usan `verificar_clonado` (genérico).
+- **`no-intro.yaml` y `tosec.yaml` nunca tuvieron `contenidos:`/`estructura:` declarado** — llevaban toda la sesión verificándose por la vía antigua (`CONVENCION_POR_FUENTE`), pero invisibles para `dat_processing`. Añadido `no-intro-daily`/`tosec-master` con `convencion_nombres`.
+- `fresh1g1r` nunca se había curado con contenido real de `redump/` (0 ficheros movidos a `out/`) — recuperado tras el fix del resolver, ahora 210 ficheros.
+
+**Pendiente para retomar:**
+
+1. ~~**`redump-cuesheets`/`redump-sbi`** declarados como una única `carpeta` entera~~ — **resuelto** (sesión posterior): `StructureElement` gana `hijos`/`contenido_subcarpeta` (una `carpeta` puede resolver `convencion_nombres` contra el nombre de cada subcarpeta, no solo `patron_ruta` contra nombre de fichero), más `tipo` (dat/auxiliar/config) y `convencion_core` (eje paralelo a sistema, para arcade). Nueva convención `redump-slug` (12 slugs con cuesheet real, 1 con sbi, confirmados contra `sources/redump/out/`). `redump-cuesheets`/`redump-sbi` ya no aparecen en `sin_sistema`; `manifest.construir("psx", ...)` ya incluye sus `.cue`/`.sbi` reales. Diseño completo y decisiones en `tools/application/README.md#decisiones-ya-tomadas-para-el-modelo-objetivo`. Tests: 17 nuevos, 77/77 en verde.
+2. ~~**Resto de `sin_sistema`**~~ — **resuelto** (misma sesión que el punto 1, ver `tools/application/README.md`): `mame`/`fbneo` ya eran sistemas de pleno derecho en `docs/systems.md` (`fbneo`, fila 131, id ya existente — no hizo falta alta nueva, corrección sobre una suposición equivocada de la propia sesión); `advmame`/`gngeo`/`fba`/`pifba` NO son sistemas, son cores/builds legacy que sirven a `mame`/`fbneo`/`neogeo`. Campos nuevos `core` (fijo) y `convencion_core` (resuelto por patrón, catálogo propio `config/system_names/arcade-core.json`, 14 cores confirmados por contenido real de `retropie-dat`). `retropie-dat.yaml`/`pleasuredome-mame-reference-sets.yaml`/`fbneo-libretro.yaml` migrados: `sistema`/`core`/`tipo: dat` explícitos por elemento. `lr-fbneo` de `retropie-dat` queda con imprecisión conocida y documentada (mezcla variante Arcade/Neogeo sin desglosar, asignado a `fbneo` como aproximación — mismo grado de tolerancia que ya se aceptaba en otras fuentes de este catálogo).
+3. ~~**Campo `tipo` sin usar**~~ — **resuelto**: tras cerrar los puntos 1-2, se detectó que `tipo` (dat/auxiliar/config) solo se había puesto en las 4 fuentes recién migradas — auditadas las 17 fuentes y añadido `tipo` a las 146 hojas reales de las 13 restantes (`antopisa-mame-dats`→dat, `antopisa-mame-supportfiles`→auxiliar, `fresh1g1r`→dat salvo `fresh1g1r-config`→config, `libretro-database`→dat, `mame-softwarelist-oficial`→dat, `mameredump`→dat, `no-intro`→dat, `rahashes`→auxiliar, `redump-datfiles`→dat, `retool-clonelists-metadata`→auxiliar, `tosec`→dat, `unofficial-ra-dats`→dat, `whdload`→dat). `hyperspin.yaml` sigue sin `contenidos` declarados (no es un hueco nuevo, ya lo estaba). 85/85 tests en verde.
+4. **Arcade/Engines-Ports en `romsets_doc.py`** — layout de columnas distinto, `parse()` los ignora explícitamente.
+5. **Filtrado por placa/categoría en arcade** (`docs/guides/romsets/workflow.md#2-procesado-de-dat`, bloque marcado `[TODO]`): usar `manufacturer`/`sourcefile` de `-listxml` nativo + `catver.ini` (`antopisa-mame-supportfiles`, catalogado esta sesión) para generar colecciones tipo "todo CPS1"/"Konami Classics" — nada implementado todavía, solo el dato ya disponible.
+6. `sistema_index.yaml` se regenera a mano con `dat-processing reindex` — no hay hook que lo regenere automáticamente al tocar una YAML de `dat_sources`.
+7. **`rahashes.yaml` sin resolver por sistema** — sus 5 `patron_ruta` (`No Intro/*.txt`, `Redump/*.txt`, `TOSEC/*.txt`, `Final Burn Neo/*.txt`, `[T-En] Collection/*.txt`) no tienen `sistema` ni `convencion_nombres`, caen en `sin_sistema`. Probado contra disco real (`sources/rahashes/input/`): las convenciones ya existentes (`no-intro`/`redump`/`tosec`) NO cubren estos nombres de forma fiable (22/66, 7/13, 0/49, 4/17, 22/47 resueltos) — cada carpeta tiene su propio sufijo (`- No Intro - <fecha>`, `- Redump`, `- TOSEC`, `- Final Burn Neo - <fecha>`, `- [T-En Collection] - <fecha>`) y necesitaría 5 convenciones nuevas con ~190 nombres reales en total. Decisión explícita del usuario: dejarlo pendiente (fichero auxiliar, no prioritario) para cuando se trabaje el resto de `sin_sistema` desde `dat_processing`.
+8. ~~**`retool-clonelists-metadata.yaml` mismo caso**~~ — **resuelto**: a diferencia de `rahashes`, el propio nombre lleva la convención entre paréntesis (`"<Sistema retool> (No-Intro|Redump).json"`), así que `retool-clonelists`/`retool-metadata`/`retool-mias` se partieron en dos `patron_ruta` cada uno (`*(No-Intro).json` / `*(Redump).json`) reutilizando las convenciones `no-intro`/`redump` ya existentes — resuelven 41/96, 52/381, 20/89 (los sistemas fuera de nuestro catálogo, ~300 que cubre retool y nosotros no, quedan fuera a propósito, no es un fallo). `retool-retroachievements` (53, nombres propios sin sufijo de fuente) también resuelto: dos elementos con el MISMO glob probando `no-intro` y luego `redump` en orden (`cubre_fichero` ya prueba los elementos de la lista en orden) — 29/53 resuelven, el resto es formato distinto (`"Sony PlayStation"` sin guion vs `"Sony - PlayStation"` de `redump.json`) o sistemas fuera de catálogo. Efecto secundario real detectado y corregido en el propio código: dos elementos con el mismo glob duplicaban `total_ficheros_patron` en `reports._ficheros_de_contenido` (contaba por elemento, no por fichero real distinto) — deduplicado, con test nuevo. Procesado con `curate`+`verify --mover` dos veces (antes y después de añadir la resolución de `retroachievements`): 142 ficheros finales en `out/`. Se detectaron y sacaron a la raíz de `sources/retool-clonelists-metadata/` (para revisión manual, mismo criterio que "inesperados") **481 ficheros huérfanos en total** (457 de clonelists/metadata/mias + 24 de retroachievements) de promociones anteriores con reglas más laxas que ya no aplican.
+9. **`sistema_index.yaml` reestructurado por `tipo` + clave `sistema_core`** — `reindex.py`
+   reescrito: `Reindex.sistemas` pasa de `sistema -> [source_id,...]` (plano) a
+   `clave -> {tipo -> (source_id,...)}`, donde `clave` es `<sistema>` normalmente o
+   `<sistema>_<core>` cuando el elemento fija `core` (ej. `mame_mame2003-plus`, `neogeo_gngeo`,
+   `fbneo_fbneo` — varios cores del mismo sistema no son intercambiables). Nuevo campo
+   `Reindex.common` (`tipo -> source_ids`, para lo que declara `tipo` pero no sistema —
+   `libretro-database`, `antopisa-mame-supportfiles`, `rahashes`, `fresh1g1r-config`, legítimo,
+   no un hueco). `sin_sistema` renombrado `sin_resolver` (ni sistema ni tipo — hueco real) y
+   confirmado **vacío** tras la auditoría de `tipo`. Nueva función
+   `reindex.fuentes_de_sistema(reindex, sistema)` (unión de todas las claves `sistema`/
+   `sistema_*`, todos los tipos) que `manifest.py` usa en vez de leer `.sistemas` directo.
+   `dat_processing/cli.py` actualizado (atributos renombrados). Tests reescritos, 90/90 en verde.
+10. **`dat_processing/process.py`, nuevo — Fase previa a `data/dats/`** — copia física (no
+    manifiesto/referencia como `manifest.py`) de `sources/<id>/out/` a
+    `process/<clave>/<tipo>/<source_id>/<ruta relativa>` (clave = `<sistema>` o
+    `<sistema>_<core>`, igual espacio que `reindex`; tipo = dat/auxiliar/config, separados en
+    subcarpetas distintas dentro de la misma clave). Sin fusionar/transformar/aplanar — un
+    módulo de filtrado aparte (quitar betas, generar configs alternativos) queda sin diseñar
+    todavía. `dat-processing extract [CLAVE...]`: sin argumentos procesa las ~90 claves reales;
+    con argumentos, solo una muestra (para probar contra datos reales sin copiar todo de
+    golpe). Probado con datos sintéticos (99/99 tests) y verificado contra `sources/` real con
+    dos muestras (`gb`/`lynx`/`fbneo_fbneo`/`jaguarcd`, luego `psx`/`3do`/`neogeocd`) — confirmado
+    que `antopisa-mame-dats`/`mame-softwarelist-oficial` (convención `mame-softwarelist`, 10
+    sistemas ópticos) aparecen correctamente donde corresponde. `process/` real del repo queda
+    con esa muestra (~12k ficheros); el resto de claves no se ha extraído todavía, pendiente
+    para cuando se quiera completar. Añadido después filtro `--tipo` (dat/auxiliar/config),
+    combinable con las claves (`extract [CLAVE...] [--tipo ...]`), para completar por partes
+    (ej. `extract --tipo dat` = solo romset real de todo, dejando auxiliar/config aparte).
+    101/101 tests en verde.
+11. **Investigación de herramientas para filtrado 1G1R de `process/`** (fase siguiente,
+    todavía sin construir): `retool` solo soporta No-Intro/Redump nativamente, pero acepta
+    `--clonelist`/`--metadata` propios para otras fuentes. `Igir` **descartado** para este rol
+    — confirmado que no genera DAT filtrado, opera sobre ROMs físicas (`dir2dat`/`report`/
+    `fixdat`), categoría de herramienta distinta. `DATROMTool` (Java) sí hace DAT→DAT Logiqx
+    genérico, pero **sin releases publicadas** — habría que compilarlo con Maven+JDK 25 desde
+    un repo multi-módulo sin JAR raíz configurado; aparcado, no investigado más a fondo.
+    `RomCenter` (recomendado por la comunidad para TOSEC) es **solo Windows** (.NET Framework),
+    sin CLI multiplataforma confirmada — se queda fuera del devcontainer, candidato para
+    `tools/scripts/` si se quiere usar. **Flujo confirmado para TOSEC/MAME con romset propio
+    completo**: `SabreTools --dfd` (dir2dat, ya documentado en
+    `docs/guides/tools/dat-generation.md`) genera un Logiqx XML fresco desde los ficheros
+    reales → `retool --clonelist <propio>` sobre ese DAT para el 1G1R. El hueco real que queda
+    no es de herramienta: **falta el clonelist propio para TOSEC/MAME** (el `retool-clonelists-
+    metadata` ya catalogado solo cubre No-Intro/Redump).
+12. **`.devcontainer/Dockerfile`, nuevo** — antes la imagen del devcontainer se usaba tal cual
+    (`mcr.microsoft.com/devcontainers/python:1-3.12-bookworm`, sin capa propia). Ahora build
+    propio con: `retool` (clonado de `unexpectedpanda/retool`, sin release con tag — repo
+    "no longer maintained" — + deps pip incluyendo PySide6, con las libs headless que pide
+    para poder importarse sin entorno gráfico: `libgl1`/`libegl1`/`libxkbcommon0`/`libdbus-1-3`)
+    y `SabreTools` (binario Linux x64 self-contained confirmado desde v1.2.0, release 1.2.1
+    fijada por `ARG SABRETOOLS_VERSION`, descargado directo de GitHub Releases — contradice la
+    suposición inicial de que SabreTools no tenía CLI Linux). Wrappers `retool`/`sabretools` en
+    `/usr/local/bin`. Deps de `tools/application` (sin el paquete propio) preinstaladas en la
+    imagen para que el `postCreateCommand` (`pip install -e '.[dev]'`, nuevo en
+    `devcontainer.json`, antes no existía) sea casi instantáneo. Hubo que quitar
+    `/etc/apt/sources.list.d/yarn.list` antes de `apt-get update` (firma GPG inválida, ya
+    documentado en `pyproject.toml`). **Build y ambas CLIs verificados de verdad**: `docker
+    build` correcto, `retool --help` (2.4.9) y `sabretools --help` (`dfd` confirmado) funcionan,
+    y la suite completa de `tools/application` (101/101) pasa contra la imagen nueva vía el
+    mismo flujo que usaría el `postCreateCommand` real.
+13. **Filtrado real con SabreTools probado contra un TOSEC real** (Amstrad CPC, `sources/tosec/
+    out/Amstrad CPC - Games - [DSK] (TOSEC-v2025-01-15_CM).dat`, 4669 juegos) — `SabreTools
+    update -fi='machine.name!=<regex>' -ot=Logiqx` confirmado como mecanismo de exclusión por
+    nombre. Hallazgos reales: (1) combinar varios `-fi=` los une en AND, no OR — para excluir
+    varias etiquetas hace falta una sola regex con alternancia; (2) regex sin anclar a
+    paréntesis completos da falsos positivos reales (`.*proto.*` eliminaba "4th Protocol, The");
+    (3) **`docs/references.md` §TOSEC estaba incompleto** — corregido contra la especificación
+    oficial real (tosecdev.org/tosec-naming-convention): el campo `(demo)` (5 variantes:
+    `demo`/`demo-kiosk`/`demo-playable`/`demo-rolling`/`demo-slideshow`) y el campo `(estado de
+    desarrollo)` (`alpha`/`beta`/`preview`/`pre-release`/`proto`) son campos DISTINTOS, y el
+    campo "estado de copyright" real (`CW`/`CW-R`/`FW`/`GW`/`GW-R`/`LW`/`PD`/`SW`/`SW-R`) NO
+    incluye "Unlicensed"/"Pirate"/"Aftermarket" (esos son conceptos No-Intro/Redump, no TOSEC) —
+    confirmado que la mayoría de categorías de exclusión de retool (Applications, Audio, BIOS,
+    Bonus discs, Manuals, Multimedia, Video...) no aplican a un DAT TOSEC de "Games" porque TOSEC
+    las publica como DAT separados por categoría, no mezcladas. Regex final validada: excluye
+    demos+preproducción+bad dumps (`[b]`), 4669→4627 (42 fuera), 0 residuales, sin falsos
+    positivos. Resultado real generado en **`process/out/amstradcpc/dat/`** — nueva convención
+    de dos niveles dentro de `process/`: `process/<clave>/<tipo>/...` (extracción cruda, lo que
+    ya hace `process.py`) vs. `process/out/<sistema>/<tipo>/...` (ya filtrado/procesado, todavía
+    generado a mano por CLI, sin módulo Python propio).
+14. **Misma regex aplicada a los 30 DAT TOSEC reales** (`sources/tosec/out/*.dat`, resolviendo
+    sistema vía el manifiesto ya existente `config/system_names/tosec.json`) — resultado en
+    `process/out/<sistema>/dat/` para los 17 sistemas TOSEC (`c64` con sus 12 sub-DAT por
+    género en la misma carpeta, `atari800`/`vic20`/`thomson` con sus 2 DAT cada uno). Total:
+    **221.127 → 211.976 juegos (9.151 excluidos, ~4,1%)**. Verificado 0 residuales y sin falsos
+    positivos también en `amiga` (34.410→33.210) y `atarist` (11.882→10.838), no solo en el caso
+    original de `amstradcpc` — la regex generaliza bien al resto del catálogo TOSEC. `zx81` es
+    el único sistema con 0 exclusiones (1245→1245, plausible: catálogo muy simple, sin
+    demos/protos/bad dumps etiquetados). Nada de esto está automatizado todavía en
+    `tools/application` — todo corrido a mano vía script Python ad-hoc dentro del devcontainer.
+15. **Pendiente para retomar — 1G1R real de TOSEC (no solo exclusión de tipos)**: lo hecho en
+    los puntos 13-14 excluye demos/preproducción/bad dumps, pero no agrupa variantes regionales
+    del mismo juego en una sola familia (eso es lo que retool hace para No-Intro/Redump vía
+    clonelist, y TOSEC no tiene clonelist ni `cloneof` nativo). Pista a explorar:
+    **ZX-Pokemaster** (github.com/ladyeklipse/ZX-Pokemaster, Python, archivado/sin
+    mantenimiento) no agrupa por parseo de nombre + prioridad regional — identifica cada
+    fichero por **hash MD5 contra una base de datos SQLite propia** (`pokemaster.db`,
+    construida desde **ZXDB** + **World of Spectrum InfoSeek**), sidesteando el parseo de
+    nombre TOSEC (más flojo que el de No-Intro) por completo. Es Python, encajaría en
+    `tools/application` si se reutiliza la idea. **Pero depende de que exista una base de
+    hashes tipo ZXDB por sistema** — confirmado solo para ZX Spectrum, sin comprobar todavía
+    si hay equivalente para Amstrad CPC/C64/MSX/Atari 8-bit/etc. Antes de invertir en esto:
+    revisar el código real de `pokemaster.db` (esquema, cómo hace el matching) y comprobar
+    cobertura de bases de hashes equivalentes sistema a sistema.
+
 ## Notas de entorno
 
-- **Devcontainer** (`.devcontainer/`): Python 3.12 + Claude Code, pensado como alternativa al PowerShell nativo para el pipeline propio (`tools/scripts/`), no como sustituto — muchas herramientas de la scene catalogadas en `docs/tools.md` son Windows-only y se siguen usando en el host.
+- **Devcontainer** (`.devcontainer/`): Python 3.12 + Claude Code, pensado como alternativa al PowerShell nativo para el pipeline propio (`tools/scripts/`), no como sustituto — muchas herramientas de la scene catalogadas en `docs/tools.md` son Windows-only y se siguen usando en el host. Desde esta sesión, build propio (`.devcontainer/Dockerfile`) con `retool`+`SabreTools` ya instalados (ver punto 12 de la fase `dat_processing` más arriba).
 - **Credenciales del devcontainer:** vía `.devcontainer/.env` (gitignored, nunca versionado) con `CLAUDE_CODE_OAUTH_TOKEN` generado con `claude setup-token`. Si se abre el devcontainer en una máquina nueva, recrear ese `.env` a mano (mismo token u otro nuevo) — no viaja con git a propósito.
 - **Rendimiento en Windows + Docker Desktop:** si el repo vive en el filesystem de Windows (`C:\Users\...`) y se abre en devcontainer, el bind-mount cruzado Windows↔WSL2 es notablemente más lento que si el repo vive directamente dentro del filesystem de WSL2. Al clonar en una máquina nueva, mejor clonar directamente dentro de WSL2 si se va a usar el devcontainer con frecuencia.

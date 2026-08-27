@@ -129,4 +129,6 @@ Configuración normalizada de almacenamiento:
 | Anbernic | RG CubeXX | Allwinner H700 (4x Cortex-A53 1.5 GHz) | 1 GB LPDDR4 | 3.95" IPS OCA | 720x720 | 1:1 | Horizontal | 2024 | Alta | TF1 + TF2 | docs/imgs/RGCubeXX.png |
 | Genérico | TV Box S905 (Super Console X / Stick) | Amlogic S905X (4x Cortex-A53 @ 1.5 GHz) | 1 GB DDR3 | — | 1920x1080 | 16:9 | SBC | 2020 | Media-Baja | Interna (8 GB) + TF1 | docs/imgs/SuperConsoleX.png |
 | Anbernic | RG Slide | Unisoc T820 Octa-Core (1x A76 @2.7GHz + 3x A76 @2.3GHz + 4x A55 @2.1GHz) | 8 GB LPDDR4X | 4.7" | 1280x960 | 4:3 | Horizontal | 2025 | Muy alta | Interna (128 GB) + TF1 | docs/imgs/RGSlide.png |
-| Anbernic | RG Rotate | Unisoc Tiger T618 Octa-Core (2x A75 @2.0GHz + 6x A55 @2.0GHz) | 3 GB | 3.5" | 720x720 | 1:1 | Giratoria | 2026 | Muy alta | Interna (32 GB) + TF1 | docs/imgs/RGRotate.png |
+| Anbernic | RG Rotate | Unisoc Tiger T618 Octa-Core (2x A75 @2.0GHz + 6x A55 @2.0GHz) | 3 GB | 3.5" | 720x720 | 1:1 | Horizontal | 2026 | Muy alta | Interna (32 GB) + TF1 | docs/imgs/RGRotate.png |
+| MagicX | Zero 40 | Allwinner A133 Plus (4x Cortex-A53 @ 1.8 GHz) | 2 GB DDR4 | 4.0" | 480x800 | 3:5 | Vertical | 2025 | Alta | TF1 + TF2 | docs/imgs/MagicXZero40.png |
+| MagicX | Mini Zero 28 | Allwinner A133 Plus (4x Cortex-A53 @ 1.8 GHz) | 2 GB DDR4 | 2.8" | 640x480 | 4:3 | Horizontal | 2025 | Alta | TF1 + TF2 | docs/imgs/MagicXMiniZero28.png |

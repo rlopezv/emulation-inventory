@@ -61,6 +61,8 @@ Nombre interno del core tal como aparece en RetroArch (`nombre_del_core`). Los c
 | Nintendo Game & Watch | 1980 | `gameandwatch` | Game & Watch | Variable | Variable | Horizontal/Vertical | `gw`, `mame` | MAME |
 | Atari 5200 | 1982 | `atari5200` | Atari 5200 SuperSystem | 4:3 | 320×192 típico | Horizontal | `atari800` | Atari800 |
 | GCE Vectrex | 1982 | `vectrex` | Vectrex | 4:3 aprox. | Vector (sin resolución de trama) | Horizontal | `vecx` | VecX |
+| ColecoVision | 1982 | `coleco` | CBS ColecoVision (Europa) | 4:3 | 256×192 | Horizontal | `gearcoleco`, `bluemsx` | ColEm |
+| Emerson Arcadia 2001 | 1982 | `arcadia2001` | Bandai Arcadia, Leisure Vision, Interton VC 4000... (30+ clones) | [TODO] | [TODO] (128×104 o 128×208, fuentes contradictorias) | Horizontal | `mame` (driver `arcadia`) | MAME |
 | Atari 7800 | 1986 | `atari7800` | Atari 7800 ProSystem | 4:3 | 320×200 típico | Horizontal | `prosystem`, `stella` | ProSystem |
 | Nintendo Entertainment System | 1983 | `nes` | Famicom | 4:3 | 256×240 | Horizontal | `fceumm`, `nestopia`, `mesen` | Mesen |
 | Sega SG-1000 | 1983 | `sg1000` | — | 4:3 | 256×192 | Horizontal | `genesis-plus-gx`, `smsplus-gx`, `gearsystem` | Gearsystem |
@@ -102,6 +104,7 @@ Nombre interno del core tal como aparece en RetroArch (`nombre_del_core`). Los c
 | Nintendo Game Boy Advance | 2001 | `gba` | GBA | 3:2 | 240×160 | Horizontal | `mgba`, `gpsp`, `vba-next` | mGBA, VBA-M |
 | Nintendo GameCube | 2001 | `gamecube` | GameCube | 4:3 | 640×480 típico | Horizontal | `dolphin` | Dolphin |
 | Nintendo DS | 2004 | `nds` | DS, NDS | 4:3 | 256×192 cada pantalla | Dual-screen | `melonds`, `desmume` | melonDS, DeSmuME |
+| Nintendo DSi | 2008 (JP) / 2009 (NA/EU/AU) | `ndsi` | Nintendo DSi | 4:3 (por pantalla) | 256×192 cada pantalla | Dual-screen | `melonds` (modo DSi) | melonDS |
 | DSiWare | 2008 | `dsiware` | Nintendo DSi (Digital) | 4:3 | 256×192 cada pantalla | Dual-screen | `melonds` | melonDS |
 | Sony PlayStation Portable | 2004 | `psp` | PSP | 16:9 | 480×272 | Horizontal | `ppsspp` | PPSSPP |
 | PlayStation Minis | 2009 | `pspminis` | PSP minis, PSN Minis | 16:9 | 480×272 | Horizontal | `ppsspp` | PPSSPP |

@@ -82,6 +82,104 @@ Filtros aplicados para purgar el set de archivos innecesarios de cara a la exper
 
 Cuando el 1G1R prioriza una región (ej. `EUR > USA > JPN`) y descarta un título porque solo existe en japonés, ese descarte no se elimina sin más: se mueve a una subcarpeta `japan/` dentro del set 1G1R correspondiente (ver `data/dats/console/1g1r/japan/`), a la espera de una revisión específica (traducción disponible, relevancia del título, etc.) antes de decidir si se incorpora al set final o se descarta definitivamente.
 
+### Pantalla efectiva (aspect ratio del dispositivo vs. del sistema)
+
+`docs/devices.md` documenta el aspect ratio y la diagonal de la pantalla física de cada dispositivo; `docs/systems.md` documenta el aspect ratio nativo de cada sistema emulado. Cuando ambos no coinciden, el emulador escala el juego preservando su aspect ratio original (sin deformar la imagen) y rellena el resto con barras negras — el área realmente ocupada por el juego es más pequeña que la pantalla física. Esta sección da la fórmula para calcular esa diagonal efectiva, y una tabla ya resuelta para las combinaciones más comunes entre dispositivos y sistemas.
+
+#### Fórmula
+
+Con `D` = diagonal del dispositivo, `r_d` = aspect ratio del dispositivo (ancho/alto, ej. 16:9 → 1.778) y `r_g` = aspect ratio del sistema/juego (ej. 4:3 → 1.333):
+
+```text
+h_pantalla = D / √(r_d² + 1)
+w_pantalla = r_d × h_pantalla
+
+si r_g ≤ r_d   (el juego es más "estrecho" que la pantalla → barras verticales, pillarbox)
+    h_efectiva = h_pantalla
+    w_efectiva = r_g × h_pantalla
+si r_g > r_d   (el juego es más "ancho" que la pantalla → barras horizontales, letterbox)
+    w_efectiva = w_pantalla
+    h_efectiva = w_pantalla / r_g
+
+D_efectiva = √(w_efectiva² + h_efectiva²)
+```
+
+El ratio `D_efectiva / D` no depende de `D` — solo de `r_d` y `r_g` — así que se calcula una vez por combinación de aspect ratios, no por dispositivo concreto.
+
+**Ejemplo**: pantalla de 4″ en 16:9 mostrando un sistema 4:3 → `D_efectiva ≈ 3.27″` (un ~82% de la diagonal nominal, con barras verticales a los lados).
+
+#### Tabla de referencia (`D_efectiva / D`, en %)
+
+Para las combinaciones de aspect ratio más habituales en `docs/devices.md` (filas) y `docs/systems.md` (columnas). Para cualquier otra combinación (ej. `10:9`, `20:19`, `12:7` — poco frecuentes, casi siempre marcadas "aprox." en `systems.md`), aplicar la fórmula de arriba directamente.
+
+| Pantalla del dispositivo ↓ / Sistema → | 4:3 | 3:2 | 16:9 |
+| --- | --- | --- | --- |
+| 4:3 | 100% | 96% | 92% |
+| 3:2 | 92% | 100% | 95% |
+| 16:10 | 88% | 96% | 97% |
+| 16:9 | 82% | 88% | 100% |
+
+Lectura: cuanto más se aleja el aspect ratio de la pantalla del aspect ratio nativo del sistema, menor es la diagonal efectiva — una pantalla 16:9 es la peor elección para sistemas 4:3 (mayoría de consolas retro) de las cuatro, aunque sea la más común en handhelds modernos.
+
+#### Pixel-perfect (escalado entero por resolución)
+
+Concepto distinto y complementario al anterior: la sección de arriba trabaja en pulgadas/aspect ratio físico; esto trabaja en **píxeles reales**, y explica por qué a veces sobra margen en pantalla aunque el aspect ratio "encaje" bien. El escalado pixel-perfect renderiza el sistema a un múltiplo **entero** de su resolución nativa (2×, 3×, 4×...), sin interpolar — cada píxel del juego ocupa exactamente un bloque N×N de píxeles del panel, evitando el difuminado del escalado fraccionario.
+
+Con `Wd × Hd` = resolución del dispositivo (píxeles reales del panel) y `Wg × Hg` = resolución nativa del sistema (columna "Resolución nativa típica" de `docs/systems.md`):
+
+```text
+escala_entera = ⌊ min(Wd/Wg, Hd/Hg) ⌋
+
+ancho_renderizado = Wg × escala_entera
+alto_renderizado  = Hg × escala_entera
+
+cobertura_pixeles (%) = (ancho_renderizado × alto_renderizado) / (Wd × Hd)
+```
+
+Si `escala_entera = 0` (la resolución nativa del sistema supera a la del panel en algún eje), no hay pixel-perfect posible sin downscaling — se anota como caso aparte, no se fuerza una escala nula.
+
+**Ejemplos** (panel de 640×480):
+
+- SNES (320×240): `escala_entera = min(640/320, 480/240) = min(2, 2) = 2` → 640×480 exacto, cobertura 100% (caso perfecto).
+- Game Boy (160×144): `escala_entera = min(4, 3.33) = 3` → 480×432 renderizado, cobertura ≈ 67.5% — sobra margen en horizontal aunque haya espacio de sobra en ese eje, porque el eje vertical es el que limita la escala entera.
+
+Sistemas con "Resolución nativa típica" marcada como `Variable` o "aprox." en `docs/systems.md` no admiten este cálculo de forma limpia — se documentan como excepción, no se fuerza un valor.
+
+#### Pixel Aspect Ratio (PAR) — píxeles no cuadrados
+
+La fórmula de escalado entero de arriba asume implícitamente que el píxel del sistema es cuadrado (mismo factor entero en los dos ejes). Varios sistemas retro no cumplen esto: su hardware original genera píxeles **no cuadrados**, y la "Resolución nativa típica" de `docs/systems.md` es la rejilla real de framebuffer (ej. NES 256×240), no necesariamente la forma visual que se veía en un televisor CRT de la época (que sí era, aproximadamente, 4:3).
+
+Esto crea una tensión real entre dos objetivos que a menudo **no coinciden**:
+
+- **Pixel-perfect estricto** (sección anterior): escala el framebuffer con el mismo factor entero en ambos ejes → cada píxel del juego es un cuadrado perfecto en el panel, pero el aspect ratio resultante no tiene por qué ser el histórico (ej. NES a 256×240 escalado ×2 da 512×480 = 32:30 ≈ 1,067:1, no 4:3).
+- **Aspect ratio corregido**: estira un eje de forma no entera para reproducir el 4:3 (u otro ratio) real de la época → el aspect ratio es el correcto, pero deja de haber píxeles cuadrados y el escalado deja de ser un múltiplo entero limpio.
+
+RetroArch (y la mayoría de emuladores) lo expone como una opción explícita de aspect ratio: `Core Provided` (usa el PAR real del core, aspect-correct), `Full` (estira a pantalla completa, ignora el PAR), `1:1 PAR`/`Pixel Perfect` (fuerza cuadrado, ignora el aspect histórico), o un override manual. No hay una respuesta universal — depende de si se prioriza fidelidad histórica de aspect ratio o nitidez de píxel.
+
+Consecuencia para las dos fórmulas anteriores: la de "pantalla efectiva" da el resultado correcto **si** el aspect ratio de `docs/systems.md` ya está corregido a la forma visual histórica (no a la rejilla cruda); la de "pixel-perfect" da el resultado correcto **si** lo que importa es la nitidez del framebuffer, no el aspect ratio histórico. Ambas son correctas para lo que miden — el error sería asumir que un sistema "pixel-perfect" respeta también, de forma automática, su aspect ratio real.
+
+#### Los tres modos de escalado
+
+En la práctica, el ajuste de vídeo del emulador obliga a elegir uno de tres modos, cada uno con su propio trade-off — no son alternativas "puras" de una fórmula, es una decisión real de configuración:
+
+| Modo | Qué hace | Nitidez | Aprovechamiento de pantalla | Aspect ratio |
+| --- | --- | --- | --- | --- |
+| **Aspect-correct (stretch)** | Escala no entero preservando el aspect ratio real del sistema | Puede difuminar (escalado fraccional) | El de "Pantalla efectiva" (tabla de arriba) | Correcto |
+| **Pixel-perfect (entero)** | Escala entero, mismo factor en ambos ejes | Máxima (sin interpolar) | El de "Pixel-perfect" (normalmente menor) | Puede no ser el histórico si el sistema tiene PAR no cuadrado |
+| **Full-stretch** | Rellena el 100% del panel, ignora el aspect ratio | Puede difuminar y además deforma la imagen | 100% | Incorrecto (deformado) |
+
+Los "overlays/bezels" (siguiente sección) solo encajan de forma consistente con los dos primeros modos — el hueco transparente se dimensiona contra un área efectiva conocida y estable. Con `full-stretch` no hay "hueco" que definir: la imagen ocupa toda la pantalla, deformada.
+
+#### Overlays / bezels
+
+Solución de software a las situaciones anteriores: en vez de dejar en negro liso el área que el juego no cubre (barras por aspect ratio, margen por escala entera pixel-perfect), el emulador superpone una imagen decorativa alrededor de esa zona — un marco temático de la consola, un mueble arcade, un televisor de época... RetroArch lo implementa como *overlay* (par de ficheros `.cfg`+`.png`, con el hueco transparente definido por coordenadas normalizadas); los emuladores standalone suelen llamarlo *bezel*, mismo concepto.
+
+**Relación con las secciones anteriores**: el hueco transparente del overlay tiene que coincidir exactamente con el área efectiva donde se renderiza el juego — `w_efectiva × h_efectiva` (modo aspect-correct) o `ancho_renderizado × alto_renderizado` (modo pixel-perfect), según cuál de los dos modos use el emulador (ver tabla de arriba). Un overlay mal ajustado a esa área tapa parte de la imagen del juego o deja márgenes inconsistentes con el marco decorativo.
+
+**Consecuencia práctica**: un pack de overlays hecho para un aspect ratio de sistema concreto (ej. 4:3) no encaja automáticamente en cualquier dispositivo — hay que verificarlo también contra el aspect ratio *del panel físico* (tabla de la sección "Pantalla efectiva" de más arriba), no solo contra el del sistema. Por eso los packs se distribuyen típicamente "por sistema" pero conviene confirmarlos "por dispositivo" antes de instalarlos.
+
+Búsqueda práctica de un pack de overlays/bezels compatible con un dispositivo+CFW concreto: `prompts/theme_bezel_research.md`.
+
 ---
 
 ## Formatos
@@ -215,30 +313,36 @@ Etiquetas clave:
 
 #### TOSEC
 
-Formato estructural estándar (orden estricto):
+Especificación oficial completa (tosecdev.org/tosec-naming-convention), orden estricto — la versión anterior de esta sección era una simplificación incompleta, sin el campo `(demo)` ni `(estado de desarrollo)`:
 
 ```text
-Nombre del Juego vX.XX (Año)(Editor)[Idiomas/Región][Flags de Estado]
+Título versión (demo) (fecha)(editor)(sistema)(vídeo)(país)(idioma)(estado copyright)(estado desarrollo)(tipo de medio)(etiqueta de medio)[flags de dump][más info]
 ```
 
-- **Nombre del Juego** — título oficial sin abreviar.
-- **Versión** — pegada al título, separada solo por un espacio (`v1.0`, `Rev 1`, `v2026`); no lleva paréntesis.
-- **Año** — año de publicación entre paréntesis; si se desconoce, `(19xx)` o `(20xx)`.
-- **Editor** — compañía distribuidora entre paréntesis; si es desconocido, un guion (`-`).
-- **Idiomas / Región** — entre corchetes cuadrados: `[a]` alemán, `[es]` español, `[f]` francés, o códigos combinados como `[M3]`/`[M5]` (Multilenguaje 3/5).
-- **Flags de Estado** — calidad/tipo del volcado; el más buscado es `[!]` (volcado verificado perfecto).
+Todos los campos entre `()` son opcionales salvo título/fecha/editor; los flags de dump y "más info" van entre `[]`. Campos relevantes para filtrado (excluir del set final):
 
-Flags de calidad de dump más comunes:
+- **`(demo)`** — campo propio, inmediatamente tras el título/versión: `demo`, `demo-kiosk` (unidades de demo de tienda), `demo-playable` (jugable), `demo-rolling` (no interactiva), `demo-slideshow` (diapositivas no interactivas).
+- **`(estado de desarrollo)`** — campo *distinto* al anterior, más adelante en el nombre (tras estado de copyright): `alpha`, `beta`, `preview`, `pre-release`, `proto`.
+
+**Importante para filtrado por regex**: ambos campos son paréntesis con **contenido exacto** (`(demo)`, `(proto)`...), no una etiqueta libre — una regex de substring sin anclar (`.*proto.*`) genera falsos positivos reales (ej. *"4th Protocol, The"* contiene "proto" pero no es un prototipo). Anclar a paréntesis completos: `\((demo|demo-kiosk|demo-playable|demo-rolling|demo-slideshow|alpha|beta|preview|pre-release|proto)\)`.
+
+Flags de dump (orden obligatorio: `[cr][f][h][m][p][t][tr][o][u][v][b][a][!]`):
 
 | Flag | Significado | Descripción |
 | --- | --- | --- |
 | `[!]` | Verified Good Dump | Archivo 100% auténtico, completo y libre de errores |
+| `[a]` | Alternate | Volcado alternativo del mismo release |
 | `[b]` | Bad Dump | El volcado falló o está corrupto (datos faltantes o no carga) |
+| `[cr]` | Cracked | Software al que se le ha removido la protección contra copia física |
 | `[f]` | Fixed | Juego modificado para arreglar un error que impedía emularlo |
 | `[h]` | Hacked | ROM modificada por usuarios (traducciones de fans, trucos integrados, etc.) |
+| `[m]` | Modified | Modificación no cubierta por otro flag |
 | `[o]` | Overdump | El archivo contiene más datos de los necesarios al final de la ROM |
-| `[cr]` | Cracked | Software al que se le ha removido la protección contra copia física |
+| `[p]` | Pirated | Copia pirata |
 | `[t]` | Trained | Incluye un menú inicial (trainer) para activar vidas infinitas o trucos |
+| `[tr]` | Translated | Traducción de fans |
+| `[u]` | Underdump | El volcado tiene menos datos de los necesarios |
+| `[v]` | Virus | Contiene virus conocido |
 
 #### libretro
 
@@ -700,20 +804,11 @@ Catálogo completo de herramientas de PC para gestión, validación, conversión
 
 ### Preservación y gestión de DAT
 
-| Nombre | Enlace | Descripción |
-| --- | --- | --- |
-| No-Intro DAT-o-MATIC | datomatic.no-intro.org | Portal oficial de descarga de DAT No-Intro; detalle de uso en `docs/guides/tools/dat-generation.md#no-intro-dat-o-matic`. |
-| Redump | redump.org | Portal oficial de descarga de DAT Redump (sección Datfiles); detalle de uso en `docs/guides/tools/dat-generation.md#redump`. |
-| TOSEC | tosecdev.org | Portal oficial del proyecto TOSEC; detalle de uso en `docs/guides/tools/dat-generation.md#tosec-the-old-school-emulation-center`. |
-| libretro-database | github.com/libretro/libretro-database | Repositorio de DAT ClrMamePro texto y catálogos importados de terceros (No-Intro, Redump, TOSEC, MAME, FBNeo); detalle de uso en `docs/guides/tools/dat-generation.md#libretro-database-clrmamepro-texto`. |
-| Eggmansworld/Datfiles | github.com/Eggmansworld/Datfiles | Colección curada de DAT de nicho, organizados para RomVault: arcade ambience, computadoras clásicas (C64, VIC20, Sharp X68000), pinball, máquinas tragamonedas, visual novels, Touhou, RPG Maker, iPod Clickwheel Games — contenido sin cobertura en No-Intro/Redump/TOSEC/libretro-database. |
-| HerbFargus/retropie-dat | github.com/HerbFargus/retropie-dat | DAT de MAME/AdvMAME/FBA organizados por carpeta de core exacto (`lr-mame2003-plus`, `lr-mame2010`, `lr-fbneo`, `lr-fbalpha2012`, `gngeopi`...) — útil para sincronizar el DAT con la versión de core instalada en hardware de baja potencia con cores antiguos. Mantenimiento limitado (20 commits, actividad reciente no confirmada). |
-| RAHashes | github.com/RetroAchievements/RAHashes | Base de datos oficial de hashes de RetroAchievements, organizada por grupo de origen (No-Intro, Redump, TOSEC, FBNeo...); detalle en `docs/references.md#retroachievements-como-fuente-de-datos`. |
-| RAPatches | github.com/RetroAchievements/RAPatches | Repositorio oficial de parches (traducciones, etc.) de RetroAchievements, referenciado por `PatchUrl` en la API; detalle en `docs/references.md#retroachievements-como-fuente-de-datos`. |
-| retool-clonelists-metadata | github.com/unexpectedpanda/retool-clonelists-metadata | Fuente oficial de los ficheros de clonelist que usa retool (y el propio `metadata/dat/retool/clonelists/*.json` de este repo) para sistemas sin `cloneofid` nativo, como Redump; generados automáticamente desde Redump y No-Intro. Incluye además `metadata/` (metadatos adicionales por juego), `mias/` (listas Missing In Action) y una carpeta `retroachievements/` con hashes (CRC/MD5/SHA1) verificados por RetroAchievements por sistema — válido para comparación directa en sistemas de cartucho (No-Intro); **no** en sistemas ópticos (Redump/CHD), donde el hash de RA es un método propio (no de fichero completo) y requiere RAHasher para calcularlo, ver `docs/references.md#retroachievements-como-fuente-de-datos`. |
-| RomVault — Supported DATs | wiki.romvault.com/doku.php?id=supported_dats | Wiki de RomVault; documenta fuentes de DAT adicionales no cubiertas por los portales oficiales, incluyendo `Non-Redump-Custom` (PS3/Xbox 360 de fuentes scene/P2P) y `DeDupe-NoIntro` (Non-Redump con duplicados de Redump eliminados). |
-| MetalSlug/MAMERedump | github.com/MetalSlug/MAMERedump | Colección de referencia (54 sistemas ópticos: Redump + intersección MAME + TOSEC, recodificados a CHD), copia local en `metadata/dat/MAMERedump/`. **No es una herramienta de matching** — el propio README indica explícitamente que el programa de emparejamiento/fusión no está publicado ("The matching and merging program remains unpublished"); las carpetas `Scripts/`, `GDI Files/` y `Additional Cue Files/` son solo utilidades/plantillas para *construir* CHDs, no metadatos de identificación. **Sí es útil como fuente de hash**: cada DAT en `MAMERedump/full/<Sistema> (N).dat` (esquema MAME `<machine>`/`<disk name="....chd" sha1="...">`, sin `cloneofid`) da el SHA1 real de cada CHD indexado por nombre — el mismo hash que calcula `chdman info` sobre un CHD local, lo que permite un cruce por hash (fiable) en vez de por nombre de fichero (verificado con datos reales: PC Engine CD trae 551 discos frente a los 528 miembros del `Sony/NEC` Redump ya sincronizado en este repo, captura más reciente). Copia local incluye también `MAMERedump/MAME/` (16 DAT, intersección/exclusivas de MAME software list) y `MAMERedump/Tosec/` (exclusivas TOSEC). |
-| Fresh1G1R Dats | github.com/UnluckyForSome/Fresh1G1R | DAT 1G1R ya filtrados con retool, actualizados a diario vía GitHub Actions, en tres perfiles de criterio (McLean, PropeR, Hearto). Alternativa de referencia/comparación al filtrado propio de la fase 5 del workflow, no sustituye al proceso documentado en `docs/guides/tools/1g1r-filtering.md`. |
+Movido a `docs/dat-sources.md` — catálogo de fuentes de DAT con método de obtención, formato exacto y layout, orientado a automatización futura. Las fuentes reales de DAT (No-Intro, Redump, TOSEC, libretro-database, MAME/FBNeo oficiales, AntoPISA/MAME_Dats, MAMERedump, HerbFargus/retropie-dat, WHDLoad-Database, Fresh1G1R, Unofficial-RA-DATs) y las referencias relacionadas que no son DAT en sí (RAHashes, retool-clonelists-metadata, RomVault Supported DATs) viven ahí, no aquí.
+
+**Eggmansworld/Datfiles** (`github.com/Eggmansworld/Datfiles`) — evaluada y descartada como fuente activa para este repo, no vive en `docs/dat-sources.md`. Publica 19 releases de GitHub, una por colección de nicho (arcade ambience, C64/VIC20 tape archives, Sharp X68000, pinball, tragaperras, visual novels, Touhou, RPG Maker, iPod Clickwheel, laserdisc, GoodTools, HVSC, Sega ALL.Net, BlueMaxima.org, Digitoxin, Linux Loader, PCSX2x6...), cada asset un `.zip` con un DAT Logiqx real dentro (confirmado descargando y abriendo la release `vic20ultimatetape`). Revisadas las 19 en detalle: sin utilidad clara para el catálogo de sistemas de este repo. MIT + `NOTICE.txt` para contenido de terceros.
+
+**RAPatches** (`github.com/RetroAchievements/RAPatches`) — evaluada y descartada como fuente activa para este repo, no vive en `docs/dat-sources.md`. Repositorio de parches (hacks, traducciones, bugfixes) organizado por consola/juego, empaquetado en `.zip`/`.7z` de hasta 100 MB — binarios pesados sin utilidad de DAT para este pipeline. Documentada como referencia operativa (dónde obtener un parche puntual, no fuente a automatizar) en `docs/guides/tools/patching.md#fuente-de-parches--rapatches`, y ya citada como fuente de `PatchUrl` en `docs/references.md#retroachievements-como-fuente-de-datos`.
 
 ### Hardware y comunidad
 

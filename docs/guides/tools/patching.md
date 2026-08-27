@@ -4,6 +4,14 @@ Aplicación de parches de traducción, hacks o bugfixes en formato IPS/BPS/xdelt
 
 Corresponde a la fase 6 de [docs/guides/romsets/workflow.md](../romsets/workflow.md).
 
+## Fuente de parches — RAPatches
+
+**Fuente:** `github.com/RetroAchievements/RAPatches` (`git clone`). "A patch repository for RetroAchievements.org" — backup de parches de hacks, traducciones, bugfixes y subsets; referenciado también desde `PatchUrl` en la API de RetroAchievements (ver `docs/references.md#retroachievements-como-fuente-de-datos`).
+
+**Organización confirmada (README oficial):** por consola/sistema, agrupado por juego (parches similares del mismo juego se empaquetan juntos, no sueltos). Formato preferido según sistema: **BPS** para la mayoría, **xDelta**/**64-Bit BPS** en sistemas de disco, **IPS** para NES; opcionalmente `.cue`/`.m3u` para juegos de disco. Empaquetado en `.zip`/`.7z`, convención `GAMEID-GameTitleWithoutSpaces`, cada archivo incluye un `readme.txt` con la ROM compatible y sus checksums MD5/CRC. Límite de 100 MB por parche; se recomienda basar los parches en ROMs No-Intro, evitando bases GoodTools/NonGood desactualizadas.
+
+**Evaluado como fuente activa de `docs/dat-sources.md` (2026) y descartado**: repositorio de binarios de parche pesados, sin utilidad de DAT para este pipeline — ver `docs/references.md#preservación-y-gestión-de-dat` para la nota completa. Se documenta aquí como referencia de dónde obtener parches concretos si hace falta uno puntual, no como fuente a automatizar.
+
 ## Lunar IPS (LIPS)
 
 **Fuente:** GUI clásica y ligera para Windows, formato IPS únicamente. Solo interfaz gráfica, sin CLI.

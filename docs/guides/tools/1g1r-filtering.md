@@ -26,13 +26,59 @@ Importa el DAT original (No-Intro o Redump), lo procesa y genera un DAT nuevo fi
 retool.py -h
 ```
 
-**Flags principales confirmados:**
+**Flags principales confirmados** (lista ampliada, cruzada contra la propia `--help` de retool tal como la documenta `fresh1g1r/config/*/filters.py` — ver `docs/dat-sources.md#fresh1g1r`, fuente de referencia real de uso en producción, no solo teórica):
 
 - `-l <idiomas>` — filtra por lista de idiomas; un título que no soporte ninguno de la lista se elimina.
-- `-d` — desactiva el filtrado 1G1R (ignora las listas de clones y trata cada título como único); útil si se quiere conservar todo de una región/idioma concreto sin reducir a 1G1R.
-- `--output <carpeta>` — carpeta de salida para el/los DAT 1G1R generado(s).
-- `--regionsplit` — divide el resultado en varios DAT, uno por región.
-- `--exclude` — exclusiones de tipos de título no deseados (demos, aplicaciones, etc. — complementario a la limpieza ya hecha en fase 4).
+- `-d` — desactiva el filtrado 1G1R (ignora las listas de clones y trata cada título como único); útil si se quiere conservar todo de una región/idioma concreto sin reducir a 1G1R. No compatible con `--legacy`.
+- `-c` — prioriza títulos con RetroAchievements (usa hashes de CHD/RVZ para imágenes de disco).
+- `-n` — usa nombres locales si están disponibles (ej. caracteres japoneses en vez de romanizados).
+- `-o` — prioriza versiones de producción más antiguas en vez de las más nuevas.
+- `-r` — prioriza región sobre idioma (fuerza el orden de región estricto sin importar soporte de idioma).
+- `-y` — prioriza versiones licenciadas frente a no licenciadas/aftermarket/homebrew.
+- `-z` — prioriza títulos extraídos de relanzamientos modernos frente al lanzamiento original.
+- `--compilations <i|k|o>` — tratamiento de recopilaciones: `i` prioriza siempre el título individual, `k` conserva ambos, `o` optimiza para menos duplicados.
+- `--nooverrides` — desactiva los overrides globales y de sistema.
+- `--output <carpeta>` — carpeta de salida para el/los DAT 1G1R generado(s). No compatible con `--replace`.
+- `--regionsplit` — divide el resultado en varios DAT, uno por región. No compatible con `--legacy`.
+- `--exclude <códigos>` — exclusiones de tipos de título no deseados, un código de letra por tipo (ver tabla abajo).
+- `--labelmia` — marca los ficheros MIA con atributo `mia="yes"` (no usar si se es suscriptor de DATVault).
+- `--labelretro` — marca títulos con RetroAchievements con atributo `retroachievements="yes"`.
+- `--listnames` — genera además un `.txt` con solo los nombres de los títulos conservados.
+- `--machine` — exporta cada título con la etiqueta `<machine>` (estándar MAME) en vez de `<game>`.
+- `--originalheader` — usa las cabeceras del DAT de entrada original en el DAT de salida.
+- `--replace` — sustituye el DAT de entrada por la versión de Retool. No compatible con `--output`.
+- `--report` — genera además un informe de los títulos conservados, eliminados y marcados como clon.
+- `--reprocess` — permite reprocesar DAT que Retool ya haya procesado antes.
+- `--config <fichero>` — config de usuario alternativa a la de por defecto.
+- `--clonelist <fichero>` — clonelist alternativa a la de por defecto.
+- `--legacy` — exporta en formato Parent-Clone clásico. No compatible con `-d`.
+- `--metadata <fichero>` / `--mia <fichero>` / `--ra <fichero>` — ficheros alternativos a los de por defecto.
+- `--singlecpu` — desactiva el uso multiprocesador (fuerza un solo núcleo).
+- `--trace <regex>` — traza un título a través del proceso de Retool, para depuración.
+- `--warnings` / `--warningpause` — reporta avisos de clonelist durante el procesado; `--warningpause` además pausa al encontrar uno.
+
+**Códigos de `--exclude`** (uno o varios concatenados, ej. `--exclude AaBbcdDefkmMopPruv`):
+
+| Código | Excluye |
+| --- | --- |
+| `a` | Aplicaciones (categoría "Applications", o `(Program)`/`(Test Program)`/`Check Program`/`Sample Program` en el nombre) |
+| `A` | Audio (categoría "Audio") |
+| `b` | Volcados defectuosos (`[b]` en el nombre) |
+| `B` | BIOS y otros chips (categoría "Console", o `[BIOS]`/`(Enhancement Chip)` en el nombre) |
+| `c` | Coverdiscs (categoría "Coverdiscs") |
+| `d` | Demos, kioscos y muestras (categoría "Demos", o texto de demo/kiosco/muestra en el nombre) |
+| `D` | Add-ons (categoría "Add-Ons") |
+| `e` | Educativos (categoría "Educational") |
+| `f` | Corregidos (`[f]` en el nombre — volcados fijados/corregidos) |
+| `k` | MIA (ROMs declaradas como missing in action en las clonelist o en el DAT) |
+| `m` | Manuales (`(Manual)` en el nombre) |
+| `M` | Multimedia (categoría "Multimedia") |
+| `o` | Discos bonus (categoría "Bonus Discs") |
+| `p` | Pirata (`(Pirate)` en el nombre) |
+| `P` | Preproducción (categoría "Preproduction", o `(Alpha)`/`(Beta)`/`(Proto)` etc.) |
+| `r` | Promocional (categoría "Promotional", o `(Promo)`/`EPK`/`Press Kit`) |
+| `u` | No licenciados (`(Unl)`/`(Aftermarket)`/`(Pirate)` en el nombre) |
+| `v` | Vídeo (categoría "Video") |
 
 **Prioridad de región/idioma (2.x):** a diferencia de versiones antiguas (1.x), que seleccionaban el clon de mayor revisión dentro de la región de mayor prioridad sin más, la versión 2.0 tiene en cuenta también el idioma asociado a la región prioritaria — ejemplo documentado: con prioridad `USA > Europe`, si el título USA no tiene versión en inglés pero sí uno en Europe, puede seleccionar el de Europe por ser el que cumple el idioma esperado de la región prioritaria (inglés), no solo por posición en la lista de prioridad.
 

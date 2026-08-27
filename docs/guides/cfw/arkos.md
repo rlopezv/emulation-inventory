@@ -25,6 +25,7 @@ Imagen flasheada a SD (`.img`) que destruye las particiones previas. Permite con
 - Repositorio oficial: <https://github.com/christianhaitian/arkos/releases>
 - ArkOS no centraliza todo en GitHub Releases; su distribución oficial se gestiona también a través de enlaces directos estructurados por dispositivo en su Wiki oficial — [TODO: URL de la wiki].
 - Nota técnica: descargar la variante exacta para el chip. Una imagen de RG351P no funcionará en una RG351V debido a la configuración de los controladores del panel de la pantalla.
+- **Clones no oficiales (kernel porting)**: `github.com/lcdyk0517/arkos4clone` — herramientas de porting de kernel para ejecutar ArkOS/dArkOS en dispositivos clon basados en RK3326 sin soporte oficial (scripts de build, herramienta de análisis de DTB, mapeo de botones/pantalla). Repositorio hermano para fixes de compatibilidad de juegos por separado. **El mecanismo de instalación es distinto al flujo estándar de este documento** — si en el futuro se aborda un dispositivo concreto que lo necesite, requiere su propia guía, no encaja como nota dentro de esta.
 
 ## Preparación de almacenamiento
 

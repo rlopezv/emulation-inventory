@@ -27,6 +27,8 @@
 | `daphne` | Daphne Framefiles / LaserDisc | Adaptación del emulador clásico para jugar a *Dragon's Lair* y similares integrando los menús, filtros de pantalla y configuraciones unificadas de RetroArch. | Consolas portátiles de gama media (RG3566/RK3326), Android, PC |
 | `hypseus_singe` | Daphne / Singe 1 & 2 Video Data | Una bifurcación (fork) moderna de Daphne que añade soporte para juegos LaserDisc de segunda generación y títulos basados en el motor *Singe* (*Mad Dog McCree*, *Crime Patrol*). | PC, Raspberry Pi 4/5, Consolas portátiles de gama alta |
 
+**MAME 0.106: sin core RetroArch correspondiente.** Verificado contra el README oficial de `libretro/mame2003-plus-libretro` (no asumido): pese a que `mame2003-plus` añade ~350 juegos por backport sobre su base, esa base sigue siendo MAME 0.78 y **no soporta romsets 0.106** ("mame2003-plus was originally built from the MAME 0.78 codebase"). El hueco 0.106 queda entre `mame2003-plus`/`mame2003-xtreme` (0.78) y `mame2010` (0.139u1) sin ningún core libretro que lo cubra — el único uso real de un DAT/romset 0.106 (ver `docs/dat-sources.md#pleasuredome-mame-reference-sets`) sería con el ejecutable standalone de MAME 0.106 en sí, no con un core RetroArch.
+
 ## Standalone
 
 | Emulador Standalone             | Romset / versión asociada      | Uso recomendado                                                                                            | Hardware                                        |

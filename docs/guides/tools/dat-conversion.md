@@ -48,6 +48,38 @@ Además, específico para relación Parent-Clone:
 
 (Ver `docs/references.md#romsets-arcade` para el significado de Split/Merged/Non-Merged aplicado al romset físico, no solo al DAT.)
 
+### Filtrado por tipo de título
+
+Excluye entradas del DAT por nombre — confirmado como alternativa a retool para fuentes que retool no soporta (TOSEC, MAME...), ver `docs/session-context.md`. Mismo comando `update` (`ud`), flag `-fi=`/`--filter=`:
+
+```bash
+sabretools update -ot=Logiqx -fi='machine.name!=<regex>' -out=OutDir Path\To\DatFile.dat
+```
+
+`type.key!=valor` excluye lo que SÍ coincide con `valor` (el `!` significa "no coincidente" — el resultado se queda con lo que NO matchea). Claves habituales: `machine.name`, `game.name`, `machine.category`, `item.romof`. Acepta regex completa (C#), no solo coincidencia exacta.
+
+**Dos comportamientos reales a tener en cuenta (verificados, no documentados así en la wiki oficial):**
+
+1. **Varios `-fi=` se combinan en AND, no en OR.** Pedir "excluir demo" + "excluir proto" en dos flags separados **no excluye nada** (un ítem tendría que matchear las dos condiciones a la vez). Para excluir varias etiquetas hace falta **una sola regex con alternancia**: `-fi='machine.name!=.*(demo|proto).*'`.
+2. **Una regex de substring sin anclar da falsos positivos reales.** `.*proto.*` eliminó *"4th Protocol, The"* (contiene "proto" como substring). Hay que anclar al paréntesis/corchete completo de la convención de nombrado real de la fuente (ver más abajo para TOSEC) — no basta con "contiene la palabra".
+
+#### Caso confirmado: excluir demos/preproducción/bad dumps de TOSEC
+
+Para DAT que siguen la convención de nombrado real de TOSEC (`docs/references.md#tosec` — **no** la convención simplificada que había antes en ese documento, corregida contra la especificación oficial en esta misma sesión), la regex validada contra los 30 DAT reales del catálogo (`sources/tosec/out/*.dat`, ver `docs/session-context.md`) es:
+
+```bash
+sabretools update -ot=Logiqx \
+  -fi='machine.name!=.*(\((demo|demo-kiosk|demo-playable|demo-rolling|demo-slideshow|alpha|beta|preview|pre-release|proto)\)|\[b\]).*' \
+  -out=process/out/<sistema>/dat \
+  "sources/tosec/out/<fichero>.dat"
+```
+
+Cubre tres campos reales de la convención TOSEC: `(demo)` (5 variantes), `(estado de desarrollo)` (`alpha`/`beta`/`preview`/`pre-release`/`proto`) y el flag de dump `[b]` (bad dump). **No** cubre Applications/Audio/BIOS/Bonus discs/Coverdiscs/Educational/Manuals/Multimedia/Video ni Unlicensed/Aftermarket/Pirate/MIA/Add-ons/Promotional — TOSEC publica esas categorías como DAT separados por categoría (no mezclados en el DAT de "Games"), y "Unlicensed"/"Aftermarket"/"Pirate" no son valores reales del campo "estado de copyright" de TOSEC (`CW`/`CW-R`/`FW`/`GW`/`GW-R`/`LW`/`PD`/`SW`/`SW-R`) — son conceptos de No-Intro/Redump, no aplican aquí.
+
+Resultado real (30 DAT, 17 sistemas TOSEC): **221.127 → 211.976 juegos (9.151 excluidos, ~4,1%)**. Verificado 0 residuales y sin falsos positivos en varios sistemas (`amstradcpc`, `amiga`, `atarist`), no solo en la primera prueba. `zx81` no excluyó nada (catálogo simple, plausible).
+
+**Convención de destino**: el resultado filtrado va en `process/out/<sistema>/<tipo>/` (`tipo` = `dat`/`auxiliar`/`config`, mismo espacio que `dat_processing`) — distinto de `process/<clave>/<tipo>/<source_id>/` (extracción cruda sin filtrar, la que genera `dat-processing extract`). Este segundo nivel (`process/out/`) todavía se genera a mano por CLI, sin módulo Python propio en `tools/application`.
+
 ## SabreToolsStudio (GUI)
 
 **Fuente:** github.com/Eggmansworld/SabreToolsStudio. Interfaz gráfica portátil sobre SabreTools, sin instalación, para Windows y Linux.

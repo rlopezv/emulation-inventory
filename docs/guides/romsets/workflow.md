@@ -22,11 +22,15 @@ Punto de partida de todo el flujo: sin el DAT correcto no se puede auditar, filt
 
 Una vez descargado, el DAT se guarda en `metadata/dat/<Fuente>/` (archivo crudo, tal cual se descarga). Para que `tools/scripts/build-dat-index-*.ps1` lo indexe tiene que estar en la copia de trabajo `sources/dats/<fuente>/`: para No-Intro esa sincronización la hace `tools/scripts/update-sources.ps1`, a partir del manifiesto de sistemas usados en `tools/scripts/config/nointro-systems.json`; el resto de fuentes, de momento, se siguen leyendo directamente de `metadata/dat/<Fuente>/` hasta migrarlas al mismo patrón — ver [custom-pipeline.md](custom-pipeline.md).
 
-## 2. Conversión de DAT
+## 2. Procesado de DAT
 
-Conversión, fusión o división del propio fichero DAT entre formatos (XML Logiqx, ClrMamePro texto, TOSEC), cuando la fuente original no entrega el formato necesario para el resto del flujo. No es un paso obligatorio en todos los sistemas. Detalle de uso: [dat-conversion.md](../tools/dat-conversion.md).
+Todo lo que se hace sobre el/los DAT ya obtenidos (paso 1) antes de auditar el romset físico (paso 3): convertir formato, y — con `tools/application/src/dat_sources` ya catalogando varias fuentes por sistema (primaria, alternativas de contraste, cruces por hash) — correlacionar esas fuentes y, en arcade, filtrar por placa/categoría. No es un paso obligatorio en todos los sistemas.
 
-**Herramienta:** SabreTools (CLI) o SabreToolsStudio (interfaz gráfica sobre SabreTools).
+**Conversión de formato** (implementado): fusión o división del propio fichero DAT entre formatos (XML Logiqx, ClrMamePro texto, TOSEC), cuando la fuente original no entrega el formato necesario para el resto del flujo. Detalle de uso: [dat-conversion.md](../tools/dat-conversion.md). Herramienta: SabreTools (CLI) o SabreToolsStudio (interfaz gráfica sobre SabreTools).
+
+**Correlación multi-fuente por sistema** [TODO, diseño acordado sin construir]: manifiesto por sistema (`primaria`/`alternativas`/`contraste-hash`) que apunte a los ficheros ya curados en `sources/<id>/out/` de `docs/dat-sources.md`, sin duplicarlos — alimenta la Fase 3 (Auditoría), que hoy asume un único DAT autoritativo y tendría que actualizarse para saber qué hacer con varias fuentes cruzadas.
+
+**Filtrado por placa/categoría (arcade)** [TODO, sin construir]: aislar un subconjunto del DAT completo de MAME por fabricante/placa (`manufacturer`/`sourcefile` del propio `-listxml` nativo, ej. `pleasuredome-mame-listxml`) o por género/categoría (`catver.ini` vía `antopisa-mame-supportfiles`) — necesario para generar colecciones curadas (ej. "todo CPS1", "Konami Classics"). Requiere primero parsear el contenido real de los DAT, algo que `dat_sources` todavía no hace (solo detecta formato, no extrae datos).
 
 ## 3. Auditoría contra DAT
 

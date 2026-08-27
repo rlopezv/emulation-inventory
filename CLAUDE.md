@@ -24,6 +24,7 @@ The documentation is written in Spanish and uses Markdown tables as the main for
 | `docs/devices.md` | Hardware inventory |
 | `docs/systems.md` | Emulated systems catalog and canonical identifiers |
 | `docs/romsets.md` | Romset-to-DAT association per system (source, format, alternate source, completeness, storage) |
+| `docs/dat-sources.md` | Catalog of DAT sources themselves (No-Intro, Redump, TOSEC, MAMERedump, Fresh1G1R...), independent of which system uses them: acquisition method (download/clone/generate), exact DAT format, folder layout, geared toward future acquisition automation. `docs/romsets.md` says which source a system uses; this file says how to actually obtain that source |
 | `docs/software.md` | CFW, OS, frontend and launcher catalog (device-installed software) |
 | `docs/tools.md` | PC-side tool catalog for romset/DAT management (scraping, validation, conversion, patching) |
 | `docs/distributions.md` | Device-to-software recommendation and installation audit |
@@ -62,7 +63,7 @@ The documentation is written in Spanish and uses Markdown tables as the main for
 | --- | --- |
 | `prompts/` | Reusable prompts for curation and validation tasks |
 | `.claude/` | Claude Code configuration and skills |
-| `tools/` | Validation and maintenance scripts (PowerShell: DAT indexing, romset build, filtering — see `tools/scripts/README.md`) |
+| `tools/` | Two independent trees, not layers of one pipeline: `tools/scripts/` (legacy PowerShell/Python: DAT indexing, romset build, filtering — see `tools/scripts/README.md`) is consultation-only from here on — read it for reference, never import/read/reference its files from `tools/application/` code, and never modify it to serve `tools/application/`. `tools/application/` (the real Python package(s), e.g. `dat_sources`) is fully self-contained: any data it needs (manifests, mappings) lives inside `tools/application/` itself, duplicated if the same fact also happens to live in a `tools/scripts/config/*.json`, not referenced across the boundary. This is a recurring mistake — re-check it whenever `tools/application` code is about to read a path under `tools/scripts/`. |
 | `references/` | Auxiliary sources and support documentation |
 
 ## Source of truth
@@ -193,8 +194,10 @@ Experimental
 Expected columns:
 
 ```markdown
-| Nombre | Variante | Tipo | Categoría | Familia | Frontend | Requiere gamelist | Media soportada | Página / repo | Plataforma disponible | Dispositivos principales | Nivel de usuario requerido | Estado | Notas |
+| Nombre | Variante | Tipo | Categoría | Familia | Frontend | Requiere gamelist | Media soportada | Página / repo | Guía de uso | Plataforma disponible | Dispositivos principales | Nivel de usuario requerido | Estado | Notas |
 ```
+
+`Guía de uso` links to `docs/guides/tools/<archivo>.md` when an internal guide exists, and/or the tool's official documentation site when it has one separate from `Página / repo` (both may be listed together, internal guide first); use `[TODO]` when unverified — do not guess a documentation URL.
 
 `Tipo` is always `Tool`. Normalized `Categoría` values:
 
@@ -224,6 +227,78 @@ Avanzado
 - **Avanzado** — CLI con sintaxis/flags compleja, requiere compilar desde código fuente, o conocimiento técnico profundo del dominio (formatos, hashes, estructura interna) para usarla correctamente.
 
 Normalized `Estado` values: same list as `software.md` rules.
+
+## dat-sources.md rules
+
+`docs/dat-sources.md` catalogs DAT sources themselves — not which system uses which source (that's `docs/romsets.md`), but how to actually obtain the source: acquisition method, exact format, internal layout. Built to support future automation of DAT acquisition (see `docs/romsets.md`/`docs/tools.md` for what the DAT is used for once obtained). Pseudo-relational: three tables linked by `id`, not one wide prose table — a script should be able to look up a source's fetch mechanism, then its content packages, then (when needed) the literal path elements, without parsing sentences.
+
+**`input/` → curated result convention (`tools/application/src/dat_sources`):** for EVERY source, no exceptions by source or fetch mechanism, `sources/<id>/input/` holds the raw fetch result (a git clone for `clonado` sources; a manually-supplied `.zip` for No-Intro/TOSEC/HyperSpin; the downloaded files themselves for Redump/Pleasuredome MAME Reference Sets, even though their fetch already only requests exactly what's wanted — it still lands in `input/` like everything else, uniformly) — never the curated result. What's actually `interesa: true` gets copied out of `input/` into `sources/<id>/` itself, preserving relative path (never flattened — different elements can produce same-named files in different subfolders, e.g. `fresh1g1r`'s per-profile DATs). `dat-sources verify <id> --mover` (`filter.py`) then promotes verified files from there into `sources/<id>/out/`, the final confirmed output ready for the next pipeline phase — leaving anything unexpected behind, in place, for manual review. `curate.filtrar_desde_clon()` does the `input/` → curated-result copy for `clonado` sources, reusing `reports.cubre_elemento` (the same logic `dat-sources report` already uses to decide if a declared element covers a real file) so the two never diverge.
+
+**1. Fuentes** — the source itself, one row per acquisition endpoint:
+
+```markdown
+| id | Categoría | Nombre | URL / endpoint | Tipo de entrega | ¿Requiere intervención manual? | Notas |
+```
+
+`URL / endpoint` must be a literal, script-usable address (a `.git` clone URL, a GitHub API endpoint, a raw-file URL pattern) — not the tool's homepage or a bare domain. When no such fixed endpoint exists (portal requires login, or the download filename/URL varies and has to be scraped), say so explicitly with `[TODO]` and a one-line reason instead of writing the domain — a domain name is not an automatable endpoint. `¿Requiere intervención manual?` states plainly whether a script can fetch this unattended or a human has to log in / navigate / click.
+
+`id` is a stable kebab-case identifier, referenced as `id_fuente` from table 2. Normalized `Categoría` values:
+
+```text
+Fuente
+Derivado
+Soporte
+```
+
+`Fuente` = primary/official source. `Derivado` = generated or repackaged from another cataloged source. `Soporte` = not itself an obtainable DAT (hash database, patch repo, validation metadata, meta-index of other sources) — still gets a row here, `Tipo de entrega` is `—` if there's nothing to fetch.
+
+Normalized `Tipo de entrega` values:
+
+```text
+Comprimido
+Fichero suelto
+Clonado
+Generación local
+—
+```
+
+**2. Contenido** — one row per distinct data package a source delivers (a single `Fuente` row can have several — e.g. a repo with multiple unrelated folders, or a portal with multiple export modes):
+
+```markdown
+| id_contenido | id_fuente | Formato | Alcance | Notas |
+```
+
+`id_contenido` is stable kebab-case, referenced from table 3. `id_fuente` links back to table 1. Normalized `Formato` values: same as `docs/romsets.md` (`XML (Logiqx)`, `XML (Logiqx, sin cloneofid)`, `XML (Logiqx, TOSEC)`, `ClrMamePro (texto)`), plus:
+
+```text
+MAME XML nativo
+Software List XML nativo (<softwarelist>)
+Texto plano (hash por línea)
+JSON
+Cuesheet (.cue)
+SBI subcanal (.sbi)
+INI de categoría (catver.ini, catlist.ini, genre.ini...)
+Mixto por carpeta
+[TODO] — no confirmado
+```
+
+`Alcance` is the coverage (which systems/scope), kept structured and short — not folded into Notas.
+
+The `tools/application/dat_sources` package validates `formato` against `models.FORMATOS`, a kebab-case enum in 1:1 correspondence with this list (`xml-logiqx`, `xml-logiqx-sin-cloneofid`, `xml-logiqx-tosec`, `xml-logiqx-doctype-machine`, `clrmamepro-texto`, `mame-xml-nativo`, `software-list-xml-nativo`, `texto-plano-hash-por-linea`, `json`, `cuesheet`, `sbi-subcanal`, `ini-categoria`, `mixto`, `desconocido`) — keep both lists in sync when adding a new format. `cuesheet`/`sbi-subcanal`/`ini-categoria` are not DAT data at all (a `.cue` track listing, a `.sbi` anti-LibCrypt subchannel signature, an INI of category/genre per MAME romname) but real auxiliary files a DAT source can publish alongside the DAT itself (e.g. Redump, AntoPISA/MAME_SupportFiles) — kept in the same enum rather than `FORMATOS_AUXILIARES`, which is reserved for tool config/code (`yaml-config`/`python`), not per-game data. `xml-logiqx-doctype-machine` is a real, confirmed hybrid (DOCTYPE declares Logiqx but game elements are `<machine>` not `<game>`, e.g. MAMERedump) — do not collapse it into plain `xml-logiqx`, a strict Logiqx parser would find zero games in it.
+
+**3. Estructura** — only for content packages whose internal layout needs a path pattern to locate the right file; skip it for a package that's already a single direct file. One row per structural element (folder, file pattern, or single file), not one string per package:
+
+```markdown
+| id_contenido | elemento | tipo_elemento | rol |
+```
+
+Rules:
+
+- Do not redefine which system uses which source — that stays in `docs/romsets.md`; this file is source-centric, not system-centric.
+- Use `[TODO]` in any cell not yet verified against the source itself — do not guess a format or layout.
+- Keep `id`/`id_contenido` stable once assigned — other docs or future scripts may reference them.
+
+The `tools/application/dat_sources` YAML schema gives each structural element several further optional fields, not columns of this table — document them in prose inside `rol` when they apply. Full reference: `tools/application/README.md` (kept as the single source of truth for this schema, to avoid the drift that happened here before — do not re-duplicate the field list in this file). Summary: `formato` (when the parent Contenido's format doesn't already describe this element, e.g. inside `Mixto`), `tipo` (`dat`/`auxiliar`/`config` — what the leaf semantically IS, independent of `formato`), `sistema`/`convencion_nombres` (resolve to a `docs/systems.md` id — `convencion_nombres` validated against `models.CONVENCIONES_NOMBRES`, currently `no-intro`, `redump`, `redump-slug`, `tosec`, `mame-softwarelist`, `hyperspin`, all with an implemented resolver/manifest in `tools/application/src/dat_sources/config/system_names/<convencion>.json` — never a reference into `tools/scripts/`), `convencion_core` (resolves in parallel to a core/build arcade catalog instead of a system, `models.CONVENCIONES_CORE`, no resolver implemented yet), and `hijos`/`contenido_subcarpeta` (only on `tipo_elemento: carpeta` — lets a folder resolve `convencion_nombres`/`convencion_core` against each subfolder's name instead of being an opaque all-or-nothing prefix, recursively).
 
 ## distributions.md rules
 
@@ -368,6 +443,7 @@ Reusable prompts are in `prompts/`. When a task matches one of these, apply its 
 | `prompts/arcade_games.md` | Curate a Bartop Collection for a given system |
 | `prompts/device_research.md` | Research a device's hardware specs and produce a `devices.md`-ready row |
 | `prompts/distribution_research.md` | Research a device's recommended CFW/frontend and produce a `distributions.md`-ready row |
+| `prompts/theme_bezel_research.md` | Research a compatible EmulationStation theme and RetroArch bezel/overlay pack for a device+CFW, verified against each repo's own README, not third-party lists |
 | `prompts/review-distributions.md` | Review and validate `distributions.md` |
 | `prompts/validate-cross-references.md` | Validate cross-document consistency |
 | `prompts/generate-system-paths.md` | Historical: original prompt to design `system-paths.md` structure, now already defined |

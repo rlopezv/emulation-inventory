@@ -2,5 +2,7 @@
 sources/
 metadata/
 data/
+logs/
+process/
 .devcontainer/.env
 tools/scripts/__pycache__/
