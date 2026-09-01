@@ -12,6 +12,7 @@ Flujos de trabajo para preparar romsets antes de distribuirlos en `data/roms/`. 
 | Pipeline propio (tools/scripts) | Estado actual del pipeline de scripts del repo (DAT → dat-index → docs, ROMs físicas) y roadmap de ampliaciones propuestas | [custom-pipeline.md](custom-pipeline.md) |
 | Bitácora de procesado | Registro cronológico de sesiones reales de trabajo, no prescriptivo — base empírica para detectar qué automatizar | [bitacora.md](bitacora.md) |
 | Estado del pipeline | Snapshot del progreso actual por sistema (DAT generado / romset curado / formato final / gamelist / media), derivado del filesystem del repo — se sobreescribe, no se acumula | [status.md](status.md) |
+| Fuentes | Comportamiento de cada fuente de DAT en sí (TOSEC y futuras), independiente de a qué flujo de consumo pertenezca el sistema que la usa | [sources.md](sources.md) |
 
 ## Clasificación de sistemas por flujo
 
@@ -33,6 +34,7 @@ Qué guía de la tabla de arriba aplica a cada identificador canónico de `docs/
 | `atari7800` | Cartucho / plano | |
 | `nes` | Cartucho / plano | |
 | `sg1000` | Cartucho / plano | |
+| `coleco` | Cartucho / plano | Fuente principal No-Intro, TOSEC como alternativa (`Coleco ColecoVision - Games`, sin variantes de formato) — ver [sources.md](sources.md#coleco-colecovision) |
 | `mastersystem` | Cartucho / plano | |
 | `fds` | Cartucho / plano | |
 | `pcengine` | Cartucho / plano | |
@@ -50,6 +52,7 @@ Qué guía de la tabla de arriba aplica a cada identificador canónico de `docs/
 | `segacd` | Óptico | CHD |
 | `3do` | Óptico | CHD |
 | `jaguar` | Cartucho / plano | |
+| `arcadia2001` | Cartucho / plano | Fuente principal No-Intro, TOSEC como alternativa (`Emerson Arcadia 2001 - Games`, sin variantes de formato) — ver [sources.md](sources.md#emerson-arcadia-2001) |
 | `amigacd32` | Óptico | CHD |
 | `psx` | Óptico | CHD |
 | `saturn` | Óptico | CHD |
@@ -94,7 +97,7 @@ Qué guía de la tabla de arriba aplica a cada identificador canónico de `docs/
 
 ### Microcomputers
 
-`docs/systems.md#microcomputers`: `zx81`, `dragon32`, `c64`, `spectrum`, `msx`, `amstradcpc`, `c128`, `atarist`, `amiga`, `msx2`, `sharpx68000`, `vic20`, `atari800`, `thomson` — todos Microcomputers.
+`docs/systems.md#microcomputers`: `zx81`, `dragon32`, `c64`, `spectrum`, `msx`, `amstradcpc`, `c128`, `atarist`, `amiga`, `msx2`, `sharpx68000`, `vic20`, `atari800`, `thomson`, `plus4` — todos Microcomputers. `plus4` añadido en `docs/systems.md` en la misma sesión que documentó su desglose TOSEC (ver [sources.md](sources.md#commodore-plus4)).
 
 ### Engines / Ports
 

@@ -4,7 +4,7 @@ Flujo de preparación para consolas de cartucho y handhelds verificados con DAT 
 
 ## Fuente
 
-No-Intro es la fuente principal (fase 1) — ver [dat-generation.md](../tools/dat-generation.md#no-intro-dat-o-matic) para el flujo completo de DAT-o-MATIC (esquema Parent-Clone obligatorio si se va a aplicar 1G1R después). Para los microcomputers con fuente alternativa (TOSEC, libretro-database, Non-Redump), ver las secciones correspondientes del mismo fichero.
+No-Intro es la fuente principal (fase 1) — ver [dat-generation.md](../tools/dat-generation.md#no-intro-dat-o-matic) para el flujo completo de DAT-o-MATIC (esquema Parent-Clone obligatorio si se va a aplicar 1G1R después). Excepciones puntuales por sistema (`gameandwatch` → libretro; `coleco`/`arcadia2001` → TOSEC como alternativa; sistemas digitales PSN/eShop → variantes Decrypted/Encrypted/CDN, ver [sources.md](sources.md#no-intro-variantes-por-sistema)) están anotadas en la tabla de abajo, no repetidas aquí.
 
 ## Formato de ROM recomendado por sistema
 
@@ -24,6 +24,8 @@ Sistemas clasificados como Cartucho/plano en [docs/guides/romsets/README.md](REA
 | `atari7800` | BIN (headerless) | También A78 (headered, 128 bytes; catálogo mucho más reducido, solo 8 entradas vs 135 en BIN — no elegido por esa diferencia de cobertura) — ver `docs/references.md#caso-especial--headered-vs-headerless-nes-snes-atari-7800-atari-lynx-fds`. El core `lr-prosystem` compensa la falta de cabecera con `prosystem.dat` (base de hashes `.bin` de No-Intro para detectar mapper/tipo de cartucho), ver `docs/bios.md` |
 | `nes` | Headered (iNES, 16 bytes) | También Headerless — mismo caso especial de `docs/references.md` |
 | `sg1000` | — | Incluye SC-3000 |
+| `coleco` | — | Formato único. Fuente alternativa TOSEC (`Coleco ColecoVision - Games`, sin variantes `[XXX]` de formato — caso más simple de TOSEC, ver [sources.md](sources.md#coleco-colecovision) para el resto del catálogo TOSEC). `[TODO]` confirmar core preferido entre `gearcoleco`/`bluemsx` (`docs/systems.md` lista ambos) |
+| `arcadia2001` | — | Formato único. Fuente alternativa TOSEC (`Emerson Arcadia 2001 - Games`, sin variantes `[XXX]` de formato — mismo caso que `coleco`, ver [sources.md](sources.md#emerson-arcadia-2001) para el resto del catálogo TOSEC). `[TODO]` confirmar core/emulador — sin core RetroArch confirmado en `docs/systems.md`; standalone a verificar |
 | `mastersystem` | — | Formato único |
 | `fds` | FDS (raw) | También QD (QuickDisk) |
 | `pcengine` | — | Formato único |

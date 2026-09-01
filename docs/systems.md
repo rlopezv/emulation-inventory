@@ -149,6 +149,7 @@ Nombre interno del core tal como aparece en RetroArch (`nombre_del_core`). Los c
 | Commodore 64 | 1982 | `c64` | C64 | 4:3 | Variable (320×200 típico) | Horizontal | `vice_x64sc`, `vice_x128`, `vice_xplus4` | VICE |
 | ZX Spectrum | 1982 | `spectrum` | Sinclair ZX Spectrum | 4:3 | 256×192 | Horizontal | `fuse` | Fuse |
 | MSX | 1983 | `msx` | — | 4:3 | Variable (256×192 típico) | Horizontal | `fmsx`, `bluemsx` | openMSX, blueMSX |
+| Commodore Plus/4 | 1984 | `plus4` | Commodore 16, Commodore 116, Plus/4 | 4:3 | Variable (320×200 típico) | Horizontal | `vice_xplus4` | VICE |
 | Amstrad CPC | 1984 | `amstradcpc` | CPC 464, CPC 664, CPC 6128 | 4:3 | Variable (320×200 típico) | Horizontal | `cap32` | Caprice32, Arnold |
 | Thomson MO5 / TO8 | 1984 | `thomson` | MO5, MO6, TO7, TO8, TO8D, TO9, TO9+ | 4:3 | 320×200 (MO5) | Horizontal | `theodore` | Theodore |
 | Commodore 128 | 1985 | `c128` | C128 | 4:3 | Variable (320×200 típico) | Horizontal | `vice_x128` | VICE |

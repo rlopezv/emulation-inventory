@@ -6,7 +6,13 @@ Aplica a sistemas ópticos verificados con DAT Redump (o Non-Redump para protos/
 
 ## Fuente
 
-[TODO]
+Patrón general de la fuente (Redump / Non-Redump / MAMERedump, qué rol cumple cada una) documentado en [sources.md](sources.md#redump-patrón-general-y-alternativas) — aquí solo la vista aplicada a este flujo.
+
+La mayoría de sistemas ópticos sigue el patrón completo (Redump como principal, Non-Redump como alternativa solo para protos/betas): `psx`, `saturn`, `segacd`, `dreamcast`, `3do`, `amigacdtv`, `amigacd32`, `jaguarcd`, `pcenginecd`, `xbox`, `gamecube`, `wii`. Desviaciones del patrón:
+
+- **Solo Non-Redump, sin Redump todavía** — `ps3`, `xbox360`, `wiiu`, `cdi`: no es que Non-Redump sea la fuente elegida por algún motivo, es que Redump no publica DAT de estos sistemas a día de hoy; Non-Redump cubre el hueco entero, no solo protos/betas.
+- **Solo Redump, sin Non-Redump** — `psp`: cubierto solo por Redump, sin fuente alternativa anotada en `docs/romsets.md`.
+- **Redump + alternativa distinta de Non-Redump** — `neogeocd`: la alternativa es un software-list XML de MAME (`metadata/software-list/neocd.xml`), no un DAT Non-Redump — sirve para verificación de CHD, no como fuente de romset alternativa.
 
 ## Formato de ROM recomendado por sistema
 

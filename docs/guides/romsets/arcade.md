@@ -6,7 +6,9 @@ Aplica a MAME/FBNeo (ver `docs/romsets.md` y `docs/references.md`).
 
 ## Elección de tipo de set
 
-Split / Non-Merged / Merged (ver `docs/references.md#romsets-arcade`).
+Split / Non-Merged / Merged (definiciones en `docs/references.md#romsets-arcade`).
+
+**Non-Merged es el tipo recomendado cuando se aplica un criterio 1G1R** (quedarse con un único set por juego/familia y descartar el resto): Split y Merged dependen de que el ZIP padre siga presente para que sus clones arranquen — borrar los clones no seleccionados de un set Split no libera espacio del padre (sigue haciendo falta si algún otro clon seleccionado depende de él) y, peor, borrar el propio padre si no se seleccionó como tal rompe a cualquier clon que sí se haya conservado. Non-Merged evita ese acoplamiento: cada ZIP es autocontenido, así que filtrar 1G1R es simplemente "quedarse con los ZIP elegidos y borrar el resto", sin comprobar dependencias parent/clone restantes. El coste es tamaño en disco (cada set repite los ficheros comunes), asumible en el contexto de una colección ya filtrada a un juego por familia.
 
 ## Fuente
 
