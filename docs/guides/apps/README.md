@@ -20,3 +20,4 @@ Cada guía declara en "Contexto de uso" si el frontend/app viene embebido en el 
 | Pegasus | Standalone (Android/PC) | [pegasus.md](pegasus.md) |
 | pyMenu | Embebido en CFW / Standalone ligero | [pymenu.md](pymenu.md) |
 | Emuladores Android | Standalone (Android) | [android-emuladores.md](android-emuladores.md) |
+| RetroArch | Embebido en CFW / Standalone (Android/PC) | [retroarch.md](retroarch.md) |

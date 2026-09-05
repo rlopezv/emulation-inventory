@@ -205,11 +205,11 @@ De los 6 formatos base, 4 son medio real directamente usable sin reservas (`PRG`
 
 Listado completo de TOSEC (`tosecdev.org`): 6 formatos en la categoría Games, más un DAT de **Firmware** separado (BIOS/ROM del sistema, fuera de alcance de un romset de juegos — eso es competencia de `docs/bios.md`, no de esta guía).
 
-| Formato | Categoría | ¿Usable en `lr-xroar`? | Notas |
+| Formato | Categoría | ¿Usable en XRoar (standalone)? | Notas |
 | --- | --- | --- | --- |
 | `[CAS]` | Medio real | Sí — **elegido como principal** | Cinta, catálogo más masivo (564 entradas), autostart nativo |
 | `[VDK]` | Medio real | Sí — alternativa ya fijada | Disquete, catálogo avanzado de Dragon 64, también nativo en XRoar |
-| `[DSK]` | Medio real | `[TODO]` | Otro formato de imagen de disquete distinto de `.VDK` — sin confirmar si es un contenedor alternativo equivalente o un formato de una controladora de disco distinta; sin confirmar soporte directo en `lr-xroar` |
+| `[DSK]` | Medio real | `[TODO]` | Otro formato de imagen de disquete distinto de `.VDK` — sin confirmar si es un contenedor alternativo equivalente o un formato de una controladora de disco distinta; sin confirmar soporte directo en XRoar |
 | `[PAK]` | Medio real, riesgo real | Sí, con cautela | Cartucho — **riesgo ya documentado**: muchos volcados están pensados para TRS-80 CoCo (plataforma hermana no intercambiable), pueden causar error de dirección de memoria si se mezclan sin verificar |
 | `[BIN]` | Medio real, desaconsejado | `[TODO]` | Volcado binario suelto, sin la cabecera que indica al emulador dónde inyectar el código en RAM — mismo riesgo ya documentado |
 | `[SNA]` | No es medio real | `[TODO]` | Snapshot de memoria en un instante — no un producto distribuido, mismo caso que `[SNA]` en `amstradcpc` |

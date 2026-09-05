@@ -18,6 +18,8 @@ La mayoría de sistemas ópticos sigue el patrón completo (Redump como principa
 
 Sistemas clasificados como Óptico en [docs/guides/romsets/README.md](README.md#clasificación-de-sistemas-por-flujo). Redump nunca distribuye CHD directamente (siempre `.bin`/`.cue` o `.iso`); cuando el formato de emulación recomendado es CHD, la verificación real del CHD ya convertido pasa por el software-list XML de MAME (`metadata/software-list/`), no por el DAT Redump — el DAT Redump solo verifica el `.bin`/`.cue`/`.iso` de origen antes de convertir.
 
+**Fuente alternativa de verificación con SHA1 de CHD real** (cobertura parcial, no sustituye a la software-list de MAME): `sources/unofficial-ra-dats/input/DATs/RetroAchievements (No Subfolders)/RA - <Sistema>.dat` (ver `docs/dat-sources.md#unofficial-ra-dats`) trae `<disk name="*.chd" sha1="...">` con el hash real del CHD, cruzado por título contra Redump. Solo cubre juegos con set de logros de RetroAchievements — `saturn` 205/2457 títulos del catálogo Redump completo, `dreamcast` 173/1516, `segacd` 100/549, `psx` 892 (catálogo Redump bastante mayor). Útil para verificar por hash un CHD concreto sin tener que generar/consultar la software-list de MAME, pero no cubre el catálogo completo.
+
 | Identificador canónico | Formato recomendado | Verificación del formato final | Notas |
 | --- | --- | --- | --- |
 | `psx` | CHD | `metadata/software-list/psx.xml` | |
@@ -36,9 +38,9 @@ Sistemas clasificados como Óptico en [docs/guides/romsets/README.md](README.md#
 | `jaguarcd` | CDI / CUE / `bigpimg` (no CHD) | DAT Redump (bin/cue) | Formatos nativos de BigPEmu |
 | `psp` | CSO (comprimido), manteniendo también el ISO fuente | Fuente Redump (`Sony - PlayStation Portable - Datfile (3500)...dat`) | UMD físico, no usa CHD; DAT Redump todavía sin mapear en `build-dat-index-redump.ps1` (ver `docs/session-context.md`) |
 | `cdi` | BIN/CUE (no CHD) | `metadata/software-list/cdi.xml` existe, pero el uso real de CHD para este sistema no está confirmado — evitar dar por buena una justificación técnica concreta ("base de datos firmada") sin verificar | Solo DAT Non-Redump hoy |
-| `xbox360` | [TODO] | Solo DAT Non-Redump hoy | Formato de emulación recomendado (Xenia) sin investigar todavía |
-| `ps3` | [TODO] | Solo DAT Non-Redump hoy | Formato de emulación recomendado (RPCS3) sin investigar todavía |
-| `wiiu` | [TODO] | Solo DAT Non-Redump hoy | Formato de emulación recomendado (Cemu) sin investigar todavía |
+| `xbox360` | Juego extraído (`default.xex`), evitar `.iso` salvo que ya se disponga de ella y se quiera conservar (no CHD) | Solo DAT Non-Redump hoy | Xenia; el extraído elimina espacio inútil, arranca directo desde `default.xex` y encaja mejor con frontends que el `.iso` |
+| `ps3` | Sin formato único: físico → carpeta extraída con `PS3_GAME`; digital → `.pkg` instalado (no CHD) | Solo DAT Non-Redump hoy | RPCS3; es lo más natural para cada origen y evita conversiones innecesarias |
+| `wiiu` | WUA (comprimido, no CHD) | Solo DAT Non-Redump hoy | Cemu; un solo archivo que puede integrar juego+update+DLC, cómodo para frontends y almacenamiento — el más claro de los tres casos |
 
 ## Verificación contra DAT Redump
 

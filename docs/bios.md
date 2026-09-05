@@ -34,7 +34,7 @@ Catálogo de ficheros BIOS/firmware requeridos por sistema para que el emulador/
 | `gb` | `gb_bios.bin` | Opcional (boot logo) | `lr-gambatte` | Requiere activar la opción de core "Use official bootloader"; nombre no verificado para el core alternativo `lr-sameboy` |
 | `gamegear` | `bios.gg` | Opcional (HLE) | `lr-genesis-plus-gx` | |
 | `lynx` | `lynxboot.img` | **Obligatoria** | `lr-handy` / `lr-beetle_lynx` | A diferencia de la mayoría de handhelds de esta tabla, aquí es obligatoria en ambos cores alternativos |
-| `sega32x` | Nombres tipo `32X_G_BIOS.BIN`/`32X_M_BIOS.BIN`/`32X_S_BIOS.BIN` (**no confirmados en fuente oficial**, solo fuentes comunitarias) | Opcional (HLE confirmado; nombres exactos `[TODO]`) | `lr-picodrive` | Además de la BIOS de Mega Drive |
+| `sega32x` | No requerida | No aplica | `lr-picodrive` | Los nombres `32X_G_BIOS.BIN`/`32X_M_BIOS.BIN`/`32X_S_BIOS.BIN` aparecen en documentación/manifests de algunas distribuciones, pero no son requisito de firmware del núcleo PicoDrive oficial — no considerarlas BIOS necesarias para RetroArch+PicoDrive. Sigue haciendo falta la BIOS de Mega Drive (ver fila `megadrive`) |
 | `satellaview` | `BS-X.bin` | Opcional (solo para entorno BS-X) | `lr-snes9x` | Add-on de `snes` |
 | `sufami` | `STBIOS.bin` | Opcional (solo para Sufami Turbo) | `lr-snes9x` | Add-on de `snes` |
 | `64dd` | `IPL.n64` (`lr-mupen64plus_next`) o `64DD_IPL.bin` (`lr-parallel_n64`) — mismo contenido (mismo MD5), nombre distinto por core | Marcada "opcional" en el `.info` del core, pero de facto necesaria para que el 64DD funcione | `lr-mupen64plus_next` / `lr-parallel_n64` | |
@@ -79,7 +79,7 @@ En MAME/FBNeo la BIOS suele venir **embebida en el propio romset**, como set pad
 | `atarist` | `tos102.img` (TOS 1.02, ST básico), `tos206.img` (TOS 2.06, STE avanzado) | Obligatoria | `lr-hatari` | Acepta otras versiones de TOS; estas dos son las más estables/dominantes en la scene |
 | `sharpx68000` | `iplrom.dat` (ROM de arranque), `cgrom.dat` (fuentes de caracteres japoneses) | Obligatoria | `lr-px68k` | **Ruta especial:** subcarpeta `bios/keropi/` (no sueltos en `bios/`) |
 | `msx` / `msx2` | Carpetas `Databases/` y `Machines/` completas (no ficheros sueltos) | Obligatoria | `lr-bluemsx` | `Databases/` = hashes de cartuchos en XML; `Machines/` = configuraciones de hardware MSX/MSX2/MSX2+/Turbo-R. Sin ellas, pantalla negra especialmente al cargar `.DSK` |
-| `dragon32` | `d32.rom` (Dragon 32), `d64.rom` (Dragon 64) | Opcional (HLE) | `lr-xroar` | XRoar tiene emulación de BIOS de alto nivel y arranca cinta sin ROM real; se recomienda añadirlas para compatibilidad completa, `d64.rom` necesaria para habilitar `.VDK` |
+| `dragon32` | `d32.rom` (Dragon 32), `d64.rom` (Dragon 64) | Opcional (HLE) | XRoar (standalone, vía habitual); alternativa RetroArch `lr-mess` | XRoar tiene emulación de BIOS de alto nivel y arranca cinta sin ROM real; se recomienda añadirlas para compatibilidad completa, `d64.rom` necesaria para habilitar `.VDK` |
 | `atari800` | `ATARIOSA.ROM` (400/800 PAL), `ATARIOSB.ROM` (400/800 NTSC), `ATARIXL.ROM` (XL/XE), `ATARIBAS.ROM` (intérprete BASIC) | Obligatorias (según modelo a emular) | `lr-atari800` | Mismo core que `atari5200`, que además requiere `5200.rom` propio (ver fila de Consolas) |
 
 ## Notas operativas

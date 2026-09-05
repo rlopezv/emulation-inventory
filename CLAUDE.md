@@ -94,6 +94,7 @@ Use concise, technical Spanish.
 - Avoid adding external sources directly into final tables unless requested.
 - Keep notes short and operational.
 - **Ask and propose before making any edit.** Plan approval is not authorization to execute without pausing for confirmation.
+- **Write for the human reader, not as your own working memory.** Docs are a deliverable, not a scratchpad for session context: never leave in local absolute paths, drive letters, references to "the sample I checked", audit counts from a specific verification pass, or any other trace of how a fact was investigated in a given session. State the fact plainly; if a concrete example genuinely helps, use a generic/illustrative one instead of the user's own local path.
 
 ## devices.md rules
 
@@ -118,8 +119,24 @@ Rules:
 Expected columns:
 
 ```markdown
-| Nombre del sistema | Año | Identificador canónico | Nombres regionales/comerciales | Aspect Ratio | Resolución nativa típica | Orientación | Cores RetroArch habituales | Emuladores standalone habituales |
+| Nombre del sistema | Año | Identificador canónico | Tipo | Nombres regionales/comerciales | Aspect Ratio | Resolución nativa típica | Orientación | Cores RetroArch habituales | Emuladores standalone habituales | Notas |
 ```
+
+Normalized `Tipo` values:
+
+```text
+Sobremesa
+Handheld
+Híbrido
+Arcade
+[TODO]
+```
+
+`Arcade` is for coin-op cabinet hardware (the Arcade section of this file) — distinct from `Sobremesa` (home console/computer), not a subtype of it. Use `—` for the Engines/Ports section, where the row is a software engine/wrapper, not a piece of hardware — it runs on whatever device hosts it, so `Tipo` does not apply.
+
+`Híbrido` covers a genuine dual nature by design (Nintendo Switch: portátil y sobremesa en un único dispositivo), not uncertainty — use `[TODO]` when the classification itself is unclear/disputed, not `Híbrido` as catch-all.
+
+`Notas` is for short, operational exceptions that don't fit any other column — in particular, a hardware variant with a different form factor that shares the same romset/games as the row's system (ej. Sega Nomad para `megadrive`, TurboExpress para `pcengine`), which does **not** change that row's `Tipo` (the row stays classified by its canonical/mainline form). Keep entries short; do not turn this into a second description column.
 
 Rules:
 
@@ -162,8 +179,10 @@ Rules:
 Expected main columns:
 
 ```markdown
-| Nombre | Variante | Tipo | Familia | Frontend | Requiere gamelist | Media soportada | Página / repo | Plataforma principal | Dispositivos principales | Estado | Notas |
+| Nombre | Variante | Tipo | Familia | SD base | Frontend | Requiere gamelist | Media soportada | Página / repo | Lista de dispositivos (fuente) | Plataforma principal | Dispositivos principales | Estado | Notas |
 ```
+
+`SD base` (tamaño mínimo funcional de la tarjeta de sistema) solo aplica a CFW, OS Retro y Android CFW; se omite en Frontends, Launchers e Históricos. `Lista de dispositivos (fuente)` es la URL exacta donde verificar la compatibilidad actual (release notes, wiki de compatibilidad...); puede coincidir con `Página / repo` cuando esa es la única fuente disponible — usar `[TODO]` mientras no se haya verificado explícitamente.
 
 Normalized `Tipo` values:
 

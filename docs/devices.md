@@ -120,6 +120,7 @@ Configuración normalizada de almacenamiento:
 | Miyoo | Miyoo Flip | Rockchip RK3566 | 1 GB | 3.5" | 640x480 | 4:3 | Clamshell horizontal | 2025 | Media | TF1 + TF2 | docs/imgs/MiyooFlip.png |
 | Anbernic | RGDS | Rockchip RK3568 | 3 GB | 2x4.0" | 640x480 cada pantalla | 4:3 | Dual-screen clamshell | 2025 | Alta | TF1 + TF2 | docs/imgs/RGDS.png |
 | GKD | Pixel 2 | Rockchip RK3326S (4x Cortex-A35 @ 1.5 GHz) | 1 GB DDR3 | 2.4" | 640x480 | 4:3 | Vertical | 2025 | Muy alta | TF1 | docs/imgs/GKDPixel2.png |
+| AISLPC | R36T Max | Rockchip RK3326 (4x Cortex-A35 @ 1.5 GHz) | 1 GB | 4.0" | 720x720 | 1:1 | Horizontal | [TODO] | Alta | Interna (8 GB) + TF1 | docs/imgs/R36TMax.png |
 | AYN | Odin 2 Portal (Base) | Snapdragon 8 Gen 2 | 8 GB | 7.0" AMOLED | 1920x1080 | 16:9 | Horizontal | 2024/2025 | Alta | Interna (128 GB) + TF1 | docs/imgs/OdinPortal.png |
 | PowKiddy | X18 | MediaTek MT8163 (4x Cortex-A53 @ 1.3 GHz) | 2 GB | 5.5" | 1280x720 | 16:9 | Clamshell horizontal | 2018/2019 | Media-Alta | Interna (16 GB) + TF1 | docs/imgs/X18.png |
 | GPD | Win | Intel Atom x7-Z8750 | 4 GB | 5.5" | 1280x720 | 16:9 | Clamshell horizontal | 2016 | Muy alta | Interna (64 GB) + TF1 | docs/imgs/GPDWin.png |

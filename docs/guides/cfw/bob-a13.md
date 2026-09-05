@@ -20,7 +20,7 @@ Reemplazo completo del sistema operativo original (Firmware personalizado / Cust
 
 ## Descarga
 
-- Imagen del sistema: [TODO] — enlace de descarga de la comunidad BOB A13 / archivo de Batocera v35b RK3128.
+- Imagen del sistema: <https://t.me/BOBcera> (canal/grupo de Telegram de la comunidad BOB; la imagen se distribuye ahí, no en un enlace de descarga directo).
 - Herramienta de flasheo: BalenaEtcher o Rufus.
 
 ## Preparación de almacenamiento
