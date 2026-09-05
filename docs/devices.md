@@ -115,7 +115,6 @@ Configuración normalizada de almacenamiento:
 | Anbernic | RG40XXH | Allwinner H700 | 1 GB | 4.0" | 640x480 | 4:3 | Horizontal | 2024 | Alta | TF1 + TF2 | docs/imgs/RG40XXH.png |
 | TrimUI | TRIMUI Brick | Allwinner A133 Plus | 1 GB | 3.2" | 1024x768 | 4:3 | Vertical | 2024 | Alta | TF1 | docs/imgs/TrimUIBrick.png |
 | PowKiddy | V90S | Allwinner A133 Plus | 1 GB | 3.5" | 640x480 | 4:3 | Clamshell horizontal | 2025 | Alta | TF1 | docs/imgs/V90S.png |
-
 | Miyoo | Miyoo Mini Flip | SigmaStar SSD202D / dual-core Cortex-A7 1.2 GHz | 128 MB | 2.8" IPS | 750x560 | 4:3 aprox. | Clamshell horizontal | 2025/2026 | Media-Alta | TF1 | docs/imgs/MiyooMiniFlip.png |
 | Miyoo | Miyoo Flip | Rockchip RK3566 | 1 GB | 3.5" | 640x480 | 4:3 | Clamshell horizontal | 2025 | Media | TF1 + TF2 | docs/imgs/MiyooFlip.png |
 | Anbernic | RGDS | Rockchip RK3568 | 3 GB | 2x4.0" | 640x480 cada pantalla | 4:3 | Dual-screen clamshell | 2025 | Alta | TF1 + TF2 | docs/imgs/RGDS.png |
