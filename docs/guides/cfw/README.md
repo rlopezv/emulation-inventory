@@ -20,6 +20,7 @@ Cada guía declara en su sección "Tipo de instalación" cuál de estos tres mé
 | RetroFW | PowKiddy LDK Landscape/Vertical, Retrogame RS97, Anbernic RG99, PowKiddy RS-07 | [retrofw.md](retrofw.md) |
 | Adam Image | Anbernic RG350/RG280M/RG350M/RG280V/RG350P/RG300X, PocketGo2 V1 | [adam-image.md](adam-image.md) |
 | ArkOS | Hardkernel Odroid-Go-Advance, RK2020 | [arkos.md](arkos.md) |
+| ArkOS4Clone | AISLPC R36T Max, clones RK3326 tipo R36S/XiFan no soportados por ArkOS oficial | [arkos4clone.md](arkos4clone.md) |
 | ROCKNIX | PowKiddy RGB10, Anbernic RG353P/RG353V, RGARC-S | [rocknix.md](rocknix.md) |
 | dArkOS | PowKiddy RGB20, RGB10 Max 2 | [darkos.md](darkos.md) |
 | Simple30 | PocketGo S30 | [simple30.md](simple30.md) |
@@ -34,6 +35,7 @@ Cada guía declara en su sección "Tipo de instalación" cuál de estos tres mé
 | muOS | Anbernic RG28XX | [muos.md](muos.md) |
 | GammaOS Core | Anbernic RG353/RG503/RGARC, PowKiddy RGB/X series, GKD Bubble, TrimUI Smart Pro, Miyoo Flip (lista completa verificada en la guía) | [gammaos-core.md](gammaos-core.md) |
 | GammaOS Next | Anbernic RG Vita/Cube/406H/406V/505/405/DS/Rotate, TrimUI Brick, MagicX Mini Zero 28/X20 V32, AYANEO Pocket, Retroid Pocket 4, KT-R1, ZPG, GameMT (lista completa verificada en la guía) | [gammaos-next.md](gammaos-next.md) |
+| GammaOS Nano | Anbernic RG Rotate, TrimUI Brick, MagicX Zero 40/Mini Zero 28/XURetro X20 V32, GKD 350H Ultra | [gammaos-nano.md](gammaos-nano.md) |
 | LineageOS (RP2) | Retroid Pocket 2 | [lineageos-rp2.md](lineageos-rp2.md) |
 | OnionOS | Miyoo Mini, Miyoo Mini Plus | [onionos.md](onionos.md) |
 | GarlicOS | Anbernic RG35XX (Original) | [garlicos.md](garlicos.md) |
