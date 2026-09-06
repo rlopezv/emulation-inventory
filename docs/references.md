@@ -170,6 +170,52 @@ En la práctica, el ajuste de vídeo del emulador obliga a elegir uno de tres mo
 
 Los "overlays/bezels" (siguiente sección) solo encajan de forma consistente con los dos primeros modos — el hueco transparente se dimensiona contra un área efectiva conocida y estable. Con `full-stretch` no hay "hueco" que definir: la imagen ocupa toda la pantalla, deformada.
 
+#### Aplicado al inventario real — agrupado por resolución
+
+Las dos fórmulas anteriores (pixel-perfect y aspect-correct) aplicadas a las resoluciones de pantalla reales de `docs/devices.md`, en vez de a combinaciones de aspect ratio abstractas. Agrupar por **resolución exacta** (no solo aspect ratio) es lo que importa aquí: dos dispositivos con el mismo aspect ratio 4:3 pero resolución distinta (ej. 320×240 vs 640×480) tienen un pixel-perfect completamente distinto, aunque el aspect-correct les dé el mismo resultado a ambos.
+
+Cada celda compara **pixel-perfect** (escala entera / cobertura) frente a **aspect-correct** (cobertura con escalado no entero preservando aspect ratio), para tres perfiles de sistema representativos (resolución nativa usada para el cálculo entre paréntesis):
+
+- **NES/SNES/Genesis/PSX (4:3)** — referencia `256×224` (SNES)
+- **GB/GBC (10:9)** — referencia `160×144`
+- **GBA (3:2)** — referencia `240×160`
+
+| Resolución (dispositivos, ejemplos) | NES/SNES/Genesis/PSX (4:3) | GB/GBC (10:9) | GBA (3:2) |
+| --- | --- | --- | --- |
+| **320×240** (15 disp. — RG350, Miyoo Mini original, PocketGo, GPi Case, SF2000, GKD 350H) | x1 (75%) / 100% | x1 (30%) / 83% | x1 (50%) / 89% |
+| **640×480** (~24 disp. — familia RG35XX/H700, Miyoo Mini Plus/Flip, RG353P/V, GKD Bubble, RG40XX) | x2 (75%) / 100% | x3 (68%) / 83% | x2 (50%) / 89% |
+| 480×320 (9 disp. — Odroid-Go-Advance, RGB10/20, RG280M/V, RG351M, S30, V10) | x1 (37%) / 89% | x2 (60%) / 74% | x2 (100%) / 100% |
+| 720×720 (3 disp. — R36T Max, RG CubeXX, RG Rotate) | x2 (44%) / 75% | x4 (71%) / 90% | x3 (67%) / 67% |
+| 1280×720 (4 disp. — TRIMUI Smart Pro, X18, GPD Win, RGVita) | x3 (56%) / 75% | x5 (62%) / 62% | x4 (67%) / 84% |
+| 1920×1080 (Odin 2 Portal; RPi 3B+/5 y TV Box S905 son SBC sin panel propio, TV externa) | x4 (44%) / 75% | x7 (54%) / 62% | x6 (67%) / 84% |
+| 1024×768 (TRIMUI Brick) | x3 (66%) / 100% | x5 (73%) / 83% | x4 (78%) / 89% |
+| 1280×960 (RG Slide) | x4 (75%) / 100% | x6 (68%) / 83% | x5 (78%) / 89% |
+| 750×560 (Miyoo Mini Flip) | x2 (55%) / 100% | x3 (49%) / 83% | x3 (82%) / 89% |
+| 1024×600 (PowKiddy A13) | x2 (37%) / 78% | x4 (60%) / 65% | x3 (56%) / 88% |
+| 2000×1200 (Teclast T50) | x5 (60%) / 80% | x8 (61%) / 67% | x7 (78%) / 90% |
+| 2560×1600 (Xiaomi Redmi Pad 2) | x7 (69%) / 83% | x11 (68%) / 69% | x10 (94%) / 94% |
+| 960×480 (Anbernic RG99) | x2 (50%) / 67% | x3 (45%) / 56% | x3 (75%) / 75% |
+| 854×480 (PowKiddy RGB10 Max 2) | x2 (56%) / 75% | x3 (51%) / 62% | x3 (84%) / 84% |
+| 480×272 (PowKiddy RS-07) | x1 (44%) / 76% | x1 (18%) / 63% | x1 (29%) / 85% |
+| 240×240 (Anbernic RGNano) | no viable / 75% | x1 (40%) / 90% | x1 (67%) / 67% |
+| 480×800 (MagicX Zero 40, vertical 3:5) | x1 (15%) / 45% | x3 (54%) / 54% | x2 (40%) / 40% |
+
+**Lectura**: los dos clústeres dominantes (320×240 y 640×480, ~40 de los 74 dispositivos del inventario) muestran el mismo patrón — GB/GBC y GBA dejan bastante margen en pixel-perfect (30-68% de cobertura) frente a un aspect-correct casi siempre ≥83%, así que son los candidatos más claros para decorar ese margen con un overlay/bezel cuando se usa pixel-perfect; NES/SNES/Genesis/PSX con aspect-correct llega directamente al 100% en ambos clústeres (el panel ya es 4:3 exacto), así que ahí un bezel solo tiene sentido si se prioriza pixel-perfect sobre aspect-correct. Las resoluciones "cola larga" (una única resolución en todo el inventario) no justifican un pack de bezels dedicado por sí solas — se benefician más de un pack con `Overlay Auto Scale` activado (ver `docs/guides/apps/retroarch.md#overlays-y-bezels`) que de uno a medida.
+
+#### Traducción operativa — qué buscar y dónde aplicarlo al procesar un dispositivo
+
+Pasos concretos al configurar bezels/overlays para un dispositivo nuevo, usando la tabla de arriba como criterio de decisión:
+
+1. **Ubicar el dispositivo en su grupo de resolución** (fila de la tabla de arriba, o calcular con la fórmula si es una resolución no listada).
+2. **Decidir el modo de escalado que va a usar ese dispositivo** (aspect-correct o pixel-perfect — ver "Los tres modos de escalado" más arriba). La búsqueda de pack depende de esta decisión, no solo de la resolución:
+   - **Aspect-correct**: buscar pack solo para los perfiles de sistema con cobertura aspect-correct notablemente por debajo de 100% en la fila de ese dispositivo (letterbox/pillarbox real y visible). En los dos clústeres dominantes esto ya descarta NES/SNES/Genesis/PSX (100%) y deja GB/GBC/GBA como objetivo.
+   - **Pixel-perfect**: buscar pack para cualquier perfil con cobertura pixel-perfect por debajo de ~70% en la fila de ese dispositivo — casi siempre GB/GBC y GBA, a veces también el propio 4:3 clásico en resoluciones no múltiplo exacto (ej. 480×320, 1024×600).
+   - **Resolución "cola larga"** (una fila con un solo dispositivo): no merece la pena buscar un pack específico para ese panel exacto — usar un pack genérico por sistema con `Overlay Auto Scale` activado en vez de uno pensado para una resolución concreta.
+3. **Buscar y verificar el pack candidato** con `prompts/theme_bezel_research.md` — ese prompt ya cubre la verificación contra la fuente primaria (README real, no una lista de terceros) para el dispositivo+CFW concretos, incluyendo qué aspect ratio declara soportar el propio pack (tiene que encajar con el aspect ratio del panel, no solo con el del sistema — ver "Consecuencia práctica" en la sección de Overlays/bezels de abajo).
+4. **Aplicarlo** — la ruta de instalación depende del motor:
+   - **RetroArch**: fichero `.cfg`+`.png` en `overlays/` (ver `docs/guides/apps/retroarch.md#overlays-y-bezels`), seleccionado en `Settings > On-Screen Overlay > Overlay Preset`; el alcance del override (global/núcleo/directorio/juego) sigue el mismo mecanismo que los remaps.
+   - **Emuladores standalone / CFW que gestiona el bezel desde EmulationStation en vez de desde RetroArch**: la ruta exacta no es la misma en todos los CFW — confirmarla contra la wiki oficial del CFW concreto, no asumirla por parentesco con otro (paso 4 de `theme_bezel_research.md`).
+
 #### Overlays / bezels
 
 Solución de software a las situaciones anteriores: en vez de dejar en negro liso el área que el juego no cubre (barras por aspect ratio, margen por escala entera pixel-perfect), el emulador superpone una imagen decorativa alrededor de esa zona — un marco temático de la consola, un mueble arcade, un televisor de época... RetroArch lo implementa como *overlay* (par de ficheros `.cfg`+`.png`, con el hueco transparente definido por coordenadas normalizadas); los emuladores standalone suelen llamarlo *bezel*, mismo concepto.
@@ -179,6 +225,38 @@ Solución de software a las situaciones anteriores: en vez de dejar en negro lis
 **Consecuencia práctica**: un pack de overlays hecho para un aspect ratio de sistema concreto (ej. 4:3) no encaja automáticamente en cualquier dispositivo — hay que verificarlo también contra el aspect ratio *del panel físico* (tabla de la sección "Pantalla efectiva" de más arriba), no solo contra el del sistema. Por eso los packs se distribuyen típicamente "por sistema" pero conviene confirmarlos "por dispositivo" antes de instalarlos.
 
 Búsqueda práctica de un pack de overlays/bezels compatible con un dispositivo+CFW concreto: `prompts/theme_bezel_research.md`.
+
+#### Extensión a temas de EmulationStation (ES-DE, Batocera...)
+
+La misma metodología de agrupar dispositivos para no repetir la búsqueda uno a uno **es extensible a los temas visuales de EmulationStation y sus derivados** (ES-DE, Batocera, KNULLI, ROCKNIX, ArkOS...), pero el criterio de agrupación cambia — **no** es la resolución/pixel-perfect de la tabla de arriba.
+
+**Motivo técnico**: `theme.xml` define el layout con coordenadas **relativas** (valores 0.0–1.0 respecto al total de la pantalla, ver `docs/guides/apps/emulationstation.md#temas-y-personalización`), no en píxeles absolutos. Un tema es automáticamente resolución-independiente dentro de un mismo aspect ratio + orientación — dos paneles con distinta resolución pero mismo aspect ratio y orientación (ej. 640×480 y 320×240, ambos 4:3 horizontal) usan el mismo tema sin ningún cálculo de escala; en cambio, cambiar de orientación (horizontal↔vertical) o de aspect ratio (4:3↔16:9) sí rompe el layout. Por eso aquí el criterio de agrupación es **aspect ratio + orientación**, no resolución exacta.
+
+| Aspect ratio | Orientación | Nº dispositivos | Ejemplos |
+| --- | --- | --- | --- |
+| 4:3 | Horizontal | 25 | RG350, RG35XXH, GKD Bubble, Retroid Pocket 2, SF2000, RG Slide |
+| 4:3 | Vertical | 12 | Miyoo Mini/Plus, RG35XX, RG351V, RG353V, TRIMUI Brick, GKD Pixel 2 |
+| 4:3 (aprox.) | Clamshell horizontal | 6 | RG35XXSP, RG34XXSP, V90, V90S, Miyoo Flip, Miyoo Mini Flip |
+| 4:3 | Arcade tabletop horizontal | 1 | PowKiddy RS-12 |
+| 4:3 | Dual-screen clamshell | 1 | Anbernic RGDS |
+| 3:2 | Horizontal | 7 | Odroid-Go-Advance, RGB10, RG280M, RG351M, RS97, RK2020, S30 |
+| 3:2 | Vertical | 3 | RGB20, RG280V, V10 |
+| 16:9 | Horizontal | 3 | TRIMUI Smart Pro, Odin 2 Portal, RGVita |
+| 16:9 | SBC (sin panel propio) | 3 | RPi 3B+, RPi 5, TV Box S905 |
+| 16:9 | Clamshell horizontal | 2 | PowKiddy X18, GPD Win |
+| 16:9 (aprox.) | Horizontal | 1 | RGB10 Max 2 |
+| 16:9 | Arcade tabletop horizontal | 1 | PowKiddy RS-07 |
+| 16:9 (aprox.) | Mini bartop plegable / horizontal | 1 | PowKiddy A13 |
+| 16:10 | Horizontal tablet | 1 | Xiaomi Redmi Pad 2 |
+| 5:3 | Horizontal tablet | 1 | Teclast T50 |
+| 1:1 | Horizontal | 3 | R36T Max, RG CubeXX, RG Rotate |
+| 1:1 | Mini vertical | 1 | Anbernic RGNano |
+| 2:1 | Vertical | 1 | Anbernic RG99 |
+| 3:5 | Vertical | 1 | MagicX Zero 40 |
+
+**Lectura**: los clústeres 4:3 horizontal (25 dispositivos) y 4:3 vertical (12) concentran más de la mitad del inventario — un único tema verificado como compatible con "4:3 horizontal" o "4:3 vertical" (declarado así por su propio autor, no asumido) cubre de golpe toda la fila. Las combinaciones con 1-3 dispositivos (arcade tabletop, dual-screen, tablets, 1:1 vertical, 2:1, 3:5) son casos de nicho — su tema hay que buscarlo específico para ese factor de forma, no esperar que un tema genérico horizontal/vertical encaje.
+
+**Aplicación práctica**: mismo prompt que para bezels, `prompts/theme_bezel_research.md` — ya investiga tema ES + pack de bezels juntos para un dispositivo+CFW concreto, verificando contra el README real qué aspect ratio/orientación declara soportar el tema (paso 3 del prompt) antes de instalarlo. Esta tabla es el paso previo: decide en qué grupo cae el dispositivo antes de lanzar esa búsqueda, para no repetirla dispositivo a dispositivo dentro del mismo grupo.
 
 ---
 
