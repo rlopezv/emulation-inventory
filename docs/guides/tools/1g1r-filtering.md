@@ -235,7 +235,7 @@ igir copy report --dat atari800.dat --input "[ATR]/" --output output/ --single -
 | DAT sin `cloneof` (TOSEC, Standard) | ❌ necesita clonelist externo (no existe para TOSEC) | ❌ se niega salvo confirmación manual, y no agrupa nada aunque continúes | **✅ infiere el agrupado él solo**, con reglas propias para TOSEC |
 | Genera un DAT de salida | ✅ | ❌ (opera sobre ficheros físicos) | ✅ (`dir2dat`, además de operar sobre ficheros físicos) |
 
-**Para TOSEC específicamente, Igir es la herramienta correcta para el 1G1R real** — retool y `1g1r-romset-generator` quedaban bloqueados exactamente en el punto que motivó `docs/session-context.md` a apuntar "falta el clonelist propio para TOSEC/MAME" como pendiente; con Igir ese pendiente queda resuelto sin necesidad de construir ese clonelist a mano.
+**Para TOSEC específicamente, Igir es la herramienta correcta para el 1G1R real** — retool y `1g1r-romset-generator` quedaban bloqueados por la falta de un clonelist propio para TOSEC/MAME; con Igir ese hueco queda resuelto sin necesidad de construir ese clonelist a mano.
 
 ## Scripts propios (sin herramienta de terceros)
 

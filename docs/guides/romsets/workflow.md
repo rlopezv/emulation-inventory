@@ -94,4 +94,4 @@ Descarga de imágenes y vídeos asociados al romset, normalmente en el mismo pas
 
 ## Notas
 
-Este workflow es la referencia prescriptiva ("cómo se hace"). Para el registro de sesiones reales de trabajo ("qué se hizo, con qué comandos, en qué orden"), ver [bitacora.md](bitacora.md) — sirve de base empírica para decidir qué pasos automatizar en [custom-pipeline.md](custom-pipeline.md).
+Este workflow es la referencia prescriptiva ("cómo se hace").

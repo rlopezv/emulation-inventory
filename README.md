@@ -32,6 +32,7 @@ Funciona como espacio de trabajo colaborativo con Claude Code.
 | `docs/guides/cfw/` | Guías de instalación paso a paso por CFW/OS |
 | `docs/guides/apps/` | Guías de configuración de frontends y emuladores standalone Android |
 | `docs/guides/romsets/` | Workflows de preparación de romsets (cartucho/plano, óptico→CHD, arcade) |
+| `docs/guides/hardware-profiles/` | Rendimiento curado por juego para una combinación hardware+CFW concreta trabajando en su límite (ej. RK3566 sin stick analógico) |
 | `docs/hardware/` | Guías de referencia de hardware auxiliar (flashcarts, etc.) |
 
 ## Arcade y juegos
@@ -39,7 +40,6 @@ Funciona como espacio de trabajo colaborativo con Claude Code.
 | Fichero | Propósito |
 | --- | --- |
 | `docs/arcade/` | Referencia de emulación arcade y colecciones Bartop Curated por sistema |
-| `docs/handheld-stick.md` | Rendimiento de juegos exigentes en hardware limitado (RK3566) |
 
 ## Referencia
 
@@ -91,7 +91,7 @@ Funciona como espacio de trabajo colaborativo con Claude Code.
 | `docs/distributions.md` | Estable |
 | `docs/system-paths.md` | Activo |
 | `docs/arcade/arcade.md` | Activo |
-| `docs/handheld-stick.md` | Activo |
+| `docs/guides/hardware-profiles/handheld-stick.md` | Activo |
 | `docs/references.md` | Activo |
 
 ---

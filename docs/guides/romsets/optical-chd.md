@@ -36,7 +36,7 @@ Sistemas clasificados como Óptico en [docs/guides/romsets/README.md](README.md#
 | `wii` | RVZ (no CHD) | DAT Redump (iso) | Ver caso especial más abajo |
 | `xbox` | XISO (no CHD) | DAT Redump (iso) | |
 | `jaguarcd` | CDI / CUE / `bigpimg` (no CHD) | DAT Redump (bin/cue) | Formatos nativos de BigPEmu |
-| `psp` | CSO (comprimido), manteniendo también el ISO fuente | Fuente Redump (`Sony - PlayStation Portable - Datfile (3500)...dat`) | UMD físico, no usa CHD; DAT Redump todavía sin mapear en `build-dat-index-redump.ps1` (ver `docs/session-context.md`) |
+| `psp` | CSO (comprimido), manteniendo también el ISO fuente | Fuente Redump (`Sony - PlayStation Portable - Datfile (3500)...dat`) | UMD físico, no usa CHD; DAT Redump todavía sin mapear en `build-dat-index-redump.ps1` |
 | `cdi` | BIN/CUE (no CHD) | `metadata/software-list/cdi.xml` existe, pero el uso real de CHD para este sistema no está confirmado — evitar dar por buena una justificación técnica concreta ("base de datos firmada") sin verificar | Solo DAT Non-Redump hoy |
 | `xbox360` | Juego extraído (`default.xex`), evitar `.iso` salvo que ya se disponga de ella y se quiera conservar (no CHD) | Solo DAT Non-Redump hoy | Xenia; el extraído elimina espacio inútil, arranca directo desde `default.xex` y encaja mejor con frontends que el `.iso` |
 | `ps3` | Sin formato único: físico → carpeta extraída con `PS3_GAME`; digital → `.pkg` instalado (no CHD) | Solo DAT Non-Redump hoy | RPCS3; es lo más natural para cada origen y evita conversiones innecesarias |

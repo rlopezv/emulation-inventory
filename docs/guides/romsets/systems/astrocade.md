@@ -1,10 +1,17 @@
 # astrocade -- Curacion
 
+## Fuentes de referencia
+
+| Tipo | Fuente | Detalle |
+| --- | --- | --- |
+| Especialista | `[TODO]` | Sin investigar todavía |
+| Genérica | Wikipedia | https://en.wikipedia.org/wiki/Bally_Astrocade#Cartridges |
+
 <!-- AUTO-GENERADO INICIO -->
 
 ### Indice generado
 
-Fuente: `1G1R (retool)` -- `Bally - Astrocade (20220411-220423).dat`. Generado: `2026-07-12`. Total: 39 familias.
+Fuente: `No-Intro` -- `Bally - Astrocade (20220411-220423).dat`. Generado: `2026-08-17`. Total: 39 familias.
 
 Regenerar con: `pwsh tools/scripts/generate-romset-docs.ps1 -SystemId astrocade`
 

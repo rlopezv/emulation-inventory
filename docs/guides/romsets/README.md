@@ -10,7 +10,6 @@ Flujos de trabajo para preparar romsets antes de distribuirlos en `data/roms/`. 
 | Arcade | MAME/FBNeo, elección de tipo de set (split/merged/non-merged), BIOS y samples | [arcade.md](arcade.md) |
 | Workflow end-to-end | Flujo completo DAT → auditoría → 1G1R → parcheo → compresión → gamelist, encadenando las herramientas de `docs/software.md` | [workflow.md](workflow.md) |
 | Pipeline propio (tools/scripts) | Estado actual del pipeline de scripts del repo (DAT → dat-index → docs, ROMs físicas) y roadmap de ampliaciones propuestas | [custom-pipeline.md](custom-pipeline.md) |
-| Bitácora de procesado | Registro cronológico de sesiones reales de trabajo, no prescriptivo — base empírica para detectar qué automatizar | [bitacora.md](bitacora.md) |
 | Estado del pipeline | Snapshot del progreso actual por sistema (DAT generado / romset curado / formato final / gamelist / media), derivado del filesystem del repo — se sobreescribe, no se acumula | [status.md](status.md) |
 | Fuentes | Comportamiento de cada fuente de DAT en sí (TOSEC y futuras), independiente de a qué flujo de consumo pertenezca el sistema que la usa | [sources.md](sources.md) |
 
@@ -74,7 +73,7 @@ Qué guía de la tabla de arriba aplica a cada identificador canónico de `docs/
 | `gamecube` | Óptico | No usa CHD — usa RVZ (ver caso especial ya documentado en `optical-chd.md`) |
 | `nds` | Cartucho / plano | |
 | `dsiware` | Cartucho / plano | Digital, sin medio físico |
-| `psp` | Óptico | UMD físico; fuente Redump (`metadata/dat/Redump/Sony - PlayStation Portable - Datfile (3500)...dat`), **todavía no mapeado en `build-dat-index-redump.ps1`** (gap pendiente, ver `docs/session-context.md`); formato de juego recomendado CSO (comprimido, más eficiente), manteniendo el romset fuente en ISO |
+| `psp` | Óptico | UMD físico; fuente Redump (`metadata/dat/Redump/Sony - PlayStation Portable - Datfile (3500)...dat`), **todavía no mapeado en `build-dat-index-redump.ps1`** (gap pendiente); formato de juego recomendado CSO (comprimido, más eficiente), manteniendo el romset fuente en ISO |
 | `pspminis` | Cartucho / plano | Digital PSN, DAT No-Intro propio |
 | `psn` | Cartucho / plano | Digital PSN, DAT No-Intro propio |
 | `xbox` | Óptico | No usa CHD — XISO |

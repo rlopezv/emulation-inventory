@@ -2,7 +2,10 @@
 
 ## Fuentes de referencia
 
-- Wikipedia: https://en.wikipedia.org/wiki/List_of_Neo_Geo_games
+| Tipo | Fuente | Detalle |
+| --- | --- | --- |
+| Especialista | [NeoGeoSoft](http://neogeosoft.com/) | Sin HTTPS valido (usar `http://`). Tablas MVS/AES con Serial/Año/Titulo JP+EN, solo HTML |
+| Genérica | Wikipedia | https://en.wikipedia.org/wiki/List_of_Neo_Geo_games |
 
 <!-- AUTO-GENERADO INICIO -->
 

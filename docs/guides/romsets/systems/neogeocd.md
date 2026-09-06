@@ -2,23 +2,29 @@
 
 ## Fuentes de referencia
 
-- Wikipedia: https://en.wikipedia.org/wiki/List_of_Neo_Geo_games
+| Tipo | Fuente | Detalle |
+| --- | --- | --- |
+| Especialista | [NeoGeoSoft](http://neogeosoft.com/?section=cd) | Sin HTTPS valido (usar `http://`). Solo HTML |
+| Genérica | Wikipedia | https://en.wikipedia.org/wiki/List_of_Neo_Geo_games |
 
 <!-- AUTO-GENERADO INICIO -->
 
 ### Indice generado
 
-Fuente: `1G1R (retool)` -- `SNK - Neo Geo CD (2026-05-06 12-21-03).dat`. Generado: `2026-07-12`. Total: 86 familias.
+Fuente: `Redump` -- `SNK - Neo Geo CD - Datfile (111) (2026-05-06 12-21-03).dat`. Generado: `2026-08-15`. Total: 102 familias.
 
 Regenerar con: `pwsh tools/scripts/generate-romset-docs.ps1 -SystemId neogeocd`
 
 | Nombre | Categoria | Regiones | Discos | Alias |
 | --- | --- | --- | --- | --- |
 | 2020 Super Baseball | Oficial | Japan | 1 |  |
+| ADK World | Oficial | Japan | 1 |  |
+| Andro Dunos | Unl | France | 1 |  |
 | Art of Fighting - Ryuuko no Ken Gaiden ~ The Path of the Warrior - Art of Fighting 3 | Oficial | World | 1 |  |
 | ASO II - The Last Guardian ~ Alpha Mission II | Oficial | Japan | 1 |  |
 | Bakumatsu Roman - Gekka no Kenshi ~ The Last Blade | Oficial | Japan | 1 |  |
 | Bakumatsu Roman Daini Maku - Gekka no Kenshi - Tsuki ni Saku Hana, Chiri Yuku Hana ~ The Last Blade 2 | Oficial | Japan | 1 |  |
+| Bang^2 Busters | Unl | France | 1 |  |
 | Baseball Stars 2 | Oficial | Japan | 1 |  |
 | Baseball Stars Professional | Oficial | Japan | 1 |  |
 | Big Tournament Golf ~ Neo Turf Masters | Oficial | Japan | 1 |  |
@@ -26,9 +32,10 @@ Regenerar con: `pwsh tools/scripts/generate-romset-docs.ps1 -SystemId neogeocd`
 | Burning Fight | Oficial | Japan | 1 |  |
 | Choujin Gakuen - Gowcaizer ~ Voltage Fighter - Gowcaizer | Oficial | World | 1 |  |
 | Choutetsu Brikin'ger ~ Ironclad - Tesshou Rusha | Oficial | Japan | 1 |  |
+| Crossed Swords | Oficial | Japan | 1 |  |
 | Crossed Swords II | Oficial | Japan | 1 |  |
 | Cyber-Lip | Oficial | Japan | 1 |  |
-| Double Dragon | Oficial |  | 1 |  |
+| Double Dragon | Oficial | Japan | 1 |  |
 | Dunk Dream ~ Street Slam ~ Street Hoop | Oficial | World | 1 |  |
 | Far East of Eden - Tengai Makyou Shinden ~ Far East of Eden - Kabuki Klash | Oficial | Japan | 1 |  |
 | Fighter's History Dynamite ~ Karnov's Revenge | Oficial | World | 1 |  |
@@ -40,25 +47,31 @@ Regenerar con: `pwsh tools/scripts/generate-romset-docs.ps1 -SystemId neogeocd`
 | Galaxy Fight - Universal Warriors | Oficial | Japan | 1 |  |
 | Garou Densetsu - Shukumei no Tatakai ~ Fatal Fury - King of Fighters | Oficial | Japan | 1 |  |
 | Garou Densetsu 2 ~ Fatal Fury 2 | Oficial | Japan | 1 |  |
-| Garou Densetsu 3 - Road to the Final Victory ~ Fatal Fury 3 - Road to the Final Victory | Oficial |  | 1 |  |
-| Garou Densetsu Special ~ Fatal Fury Special | Oficial | World | 1 |  |
+| Garou Densetsu 3 - Road to the Final Victory ~ Fatal Fury 3 - Road to the Final Victory | Oficial | Japan, World | 1 |  |
+| Garou Densetsu Special ~ Fatal Fury Special | Oficial | Japan, World | 1 |  |
 | Ghost Pilots | Oficial | World | 1 |  |
+| Idol Mahjong - Final Romance 2 | Oficial | Japan | 1 |  |
+| Janshin Densetsu - Quest of Jongmaster | Oficial | Japan | 1 |  |
 | Joy Joy Kid ~ Puzzled | Oficial | World | 1 |  |
 | King of Fighters '94, The | Oficial | World | 1 |  |
-| King of Fighters '95, The | Oficial | World | 1 |  |
+| King of Fighters '95, The | Oficial | Japan, World | 1 |  |
+| King of Fighters '96 NeoGeo Collection, The | Oficial | Japan | 1 |  |
 | King of Fighters '96, The | Oficial | World | 1 |  |
 | King of Fighters '97, The | Oficial | Japan | 1 |  |
 | King of Fighters '98, The - Dream Match Never Ends ~ The King of Fighters '98 - The Slugfest | Oficial | Japan | 1 |  |
 | King of Fighters '99, The ~ The King of Fighters '99 - Millennium Battle | Oficial | World | 1 |  |
+| Last Hope | Unl | Germany | 1 |  |
 | Last Resort | Oficial | Japan | 1 |  |
 | League Bowling | Oficial | Japan | 1 |  |
 | Magical Drop 2 | Oficial | Japan | 1 |  |
 | Magician Lord | Oficial | Japan | 1 |  |
+| Mahjong-kyou Retsuden - Nishi Nihon-hen | Oficial | Japan | 1 |  |
 | Metal Slug | Oficial | Japan | 1 |  |
 | Metal Slug 2 | Oficial | World | 1 |  |
 | Mutation Nation | Oficial | Japan | 1 |  |
 | Nam-1975 | Oficial | Japan | 1 |  |
 | Neo Drift Out - New Technology | Oficial | Japan | 1 |  |
+| Neo-Geo CD Special | Oficial | Japan | 1 |  |
 | Next Thing, The - King of the Monsters 2 | Oficial | World | 1 |  |
 | Ninja Combat | Oficial | Japan | 1 |  |
 | Ninja Commando | Oficial | Japan | 1 |  |
@@ -68,6 +81,7 @@ Regenerar con: `pwsh tools/scripts/generate-romset-docs.ps1 -SystemId neogeocd`
 | Power Spikes II | Oficial | Japan | 1 |  |
 | Pulstar | Oficial | Japan | 1 |  |
 | Puzzle Bobble ~ Bust-A-Move | Oficial | Japan | 1 |  |
+| Quiz King of Fighters | Oficial | Japan | 1 |  |
 | Raguy ~ Blue's Journey | Oficial | Japan | 1 |  |
 | Rally Chase | Oficial | Japan | 1 |  |
 | Real Bout Garou Densetsu ~ Real Bout Fatal Fury | Oficial | World | 1 |  |
@@ -84,21 +98,26 @@ Regenerar con: `pwsh tools/scripts/generate-romset-docs.ps1 -SystemId neogeocd`
 | Sengoku Denshou 2 ~ Sengoku 2 | Oficial | Japan | 1 |  |
 | Shin Samurai Spirits - Haoumaru Jigokuhen ~ Samurai Shodown II | Oficial | World | 1 |  |
 | Shinouken ~ Ragnagard | Oficial | Japan | 1 |  |
+| Shinsetsu Samurai Spirits - Bushidou Retsuden | Oficial | Japan | 1 |  |
+| Shougi no Tatsujin - Master of Syougi | Oficial | Japan | 1 |  |
 | Soccer Brawl | Oficial | World | 1 |  |
 | Sonic Wings 2 ~ Aero Fighters 2 | Oficial | World | 1 |  |
 | Sonic Wings 3 ~ Aero Fighters 3 | Oficial | Japan | 1 |  |
+| Stakes Winner - GI Kanzen Seiha e no Michi | Oficial | Japan | 1 |  |
 | Super Sidekicks - Tokuten-ou | Oficial | Japan | 1 |  |
 | Super Spy, The | Oficial | Japan | 1 |  |
 | Tokuten-ou 2 ~ Super Sidekicks 2 - The World Championship | Oficial | Japan | 1 |  |
 | Tokuten-ou 3 - Eikou e no Chousen ~ Super Sidekicks 3 - The Next Glory | Oficial | World | 1 |  |
 | Top Hunter - Roddy & Cathy | Oficial | World | 1 |  |
 | Top Player's Golf | Oficial | Japan | 1 |  |
+| Treasure of the Caribbean | Unl | France | 1 |  |
 | Tsuukai Gangan Koushinkyoku ~ Aggressors of Dark Kombat | Oficial | World | 1 |  |
 | Twinkle Star Sprites | Oficial | Japan | 1 |  |
 | Viewpoint | Oficial | Japan | 1 |  |
 | World Heroes | Oficial | Japan | 1 |  |
 | World Heroes 2 | Oficial | Japan | 1 |  |
 | World Heroes 2 Jet | Oficial | Japan | 1 |  |
-| World Heroes Perfect | Oficial |  | 1 |  |
+| World Heroes Perfect | Oficial | World | 1 |  |
+| Xeno Crisis | Unl | World | 1 |  |
 
 <!-- AUTO-GENERADO FIN -->

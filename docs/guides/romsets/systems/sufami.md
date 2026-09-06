@@ -2,13 +2,16 @@
 
 ## Fuentes de referencia
 
-- Wikipedia: https://en.wikipedia.org/wiki/SuFami_Turbo#Games
+| Tipo | Fuente | Detalle |
+| --- | --- | --- |
+| Especialista | `[TODO]` | Sin investigar todavía |
+| Genérica | Wikipedia | https://en.wikipedia.org/wiki/SuFami_Turbo#Games |
 
 <!-- AUTO-GENERADO INICIO -->
 
 ### Indice generado
 
-Fuente: `No-Intro` -- `Nintendo - Sufami Turbo (20240622-035607).dat`. Generado: `2026-07-11`. Total: 13 familias.
+Fuente: `No-Intro` -- `Nintendo - Sufami Turbo (20260529-125659).dat`. Generado: `2026-08-15`. Total: 13 familias.
 
 Regenerar con: `pwsh tools/scripts/generate-romset-docs.ps1 -SystemId sufami`
 

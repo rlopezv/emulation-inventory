@@ -1,6 +1,6 @@
 # Estado del pipeline de romsets
 
-Snapshot del progreso **actual** por sistema a través de las 10 fases de [workflow.md](workflow.md), condensado en 5 hitos. A diferencia de [bitacora.md](bitacora.md) (registro cronológico de qué se hizo en cada sesión), este fichero es una foto del estado presente — se sobreescribe, no se acumula.
+Snapshot del progreso **actual** por sistema a través de las 10 fases de [workflow.md](workflow.md), condensado en 5 hitos. Este fichero es una foto del estado presente — se sobreescribe, no se acumula.
 
 ## Cómo se generó este snapshot
 
@@ -137,7 +137,7 @@ Derivado del propio filesystem del repo (no autodeclarado), cruzando `docs/romse
 ## Resumen
 
 - **Consolas (66 sistemas):** los **44 sistemas No-Intro del manifiesto** (`tools/scripts/config/nointro-systems.json`) están completos: DAT generado + romset curado (fullset+1G1R) en `data/dats/console/`, incluidos los 15 recuperados hoy tras cerrar el gap de manifiesto incompleto (`channelf`, `megaduck`, `atari2600`, `atari5200`, `atari7800`, `astrocade`, `vectrex`, `odyssey2`, `intellivision`, `newn3ds`, `pspminis`, `psn`, más `c64`/`msx`/`msx2` que son Microcomputers pero cayeron aquí). **Regresión real de hoy: 15 sistemas Redump perdieron su romset curado** (`segacd`, `saturn`, `dreamcast`, `psx`, `ps2`, `gamecube`, `wii`, `xbox`, `jaguarcd`, `pcenginecd`, `3do`, `cdi`, `amigacdtv`, `amigacd32`, `neogeocd`) — tenían DAT curado antes del reseteo de `sources/`, pero `sources/dats/redump/` se borró y no se ha repoblado (no existe un `update-sources.ps1` equivalente para Redump), así que no pudieron pasar por la tanda de Retool de hoy. `wiiu`/`ps3`/`xbox360` (Non-Redump) siguen igual que antes: DAT indexado, sin curar. `gx4000` es el único con `gamelist.xml` real (parcial, sin media). `neogeo` sin indexar (formato libretro). 6 sin DAT por diseño (`sgb`, `switch`, `psvita`).
-- **Arcade (10 sistemas):** 0 indexados — sin script de indexado para arcade todavía (gap ya conocido, ver `docs/session-context.md`).
+- **Arcade (10 sistemas):** 0 indexados — sin script de indexado para arcade todavía (gap ya conocido).
 - **Microcomputers (14 sistemas):** `c64`/`msx`/`msx2` curados (ver nota de ubicación en `data/dats/console/` en vez de `data/dats/micro/`, arriba). El resto (`c128`, `amiga`, `spectrum`, `zx81`, `amstradcpc`, `atarist`, `sharpx68000`, `dragon32`, `vic20`, `atari800`, `thomson`) sigue sin indexar pese a tener fuente ya fijada en `docs/romsets.md` — el trabajo real pendiente es extender `build-dat-index-tosec.ps1` y crear el indexador de WHDLoad.
 - **Engines/Ports (8 sistemas):** 0 indexados, sin script de indexado para DAT libretro todavía.
 - **`data/roms/` (gamelist + media):** prácticamente en blanco en todo el repo — de las 67 carpetas creadas (52 originales + 15 scaffold nuevas: `channelf`/`megaduck`/`atari2600`/`atari5200`/`atari7800`/`astrocade`/`vectrex`/`odyssey2`/`intellivision`/`newn3ds`/`pspminis`/`psn` en `console/`, `vic20`/`atari800`/`thomson` en `micro/`), 66 son plantilla vacía (`gamelist.xml` de 45 bytes, `media/*/.gitkeep` sin ficheros reales); solo `gx4000` tiene contenido real, y solo en `gamelist.xml` (sin media todavía). Ya no quedan huecos de scaffold para ningún sistema con fuente ya fijada en `docs/romsets.md`.

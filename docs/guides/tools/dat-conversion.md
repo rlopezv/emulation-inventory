@@ -50,7 +50,7 @@ Además, específico para relación Parent-Clone:
 
 ### Filtrado por tipo de título
 
-Excluye entradas del DAT por nombre — confirmado como alternativa a retool para fuentes que retool no soporta (TOSEC, MAME...), ver `docs/session-context.md`. Mismo comando `update` (`ud`), flag `-fi=`/`--filter=`:
+Excluye entradas del DAT por nombre — confirmado como alternativa a retool para fuentes que retool no soporta (TOSEC, MAME...). Mismo comando `update` (`ud`), flag `-fi=`/`--filter=`:
 
 ```bash
 sabretools update -ot=Logiqx -fi='machine.name!=<regex>' -out=OutDir Path\To\DatFile.dat
@@ -65,7 +65,7 @@ sabretools update -ot=Logiqx -fi='machine.name!=<regex>' -out=OutDir Path\To\Dat
 
 #### Caso confirmado: excluir demos/preproducción/bad dumps de TOSEC
 
-Para DAT que siguen la convención de nombrado real de TOSEC (`docs/references.md#tosec` — **no** la convención simplificada que había antes en ese documento, corregida contra la especificación oficial en esta misma sesión), la regex validada contra los 30 DAT reales del catálogo (`sources/tosec/out/*.dat`, ver `docs/session-context.md`) es:
+Para DAT que siguen la convención de nombrado real de TOSEC (`docs/references.md#tosec`, corregida contra la especificación oficial), la regex validada contra los 30 DAT reales del catálogo (`sources/tosec/out/*.dat`) es:
 
 ```bash
 sabretools update -ot=Logiqx \

@@ -13,6 +13,8 @@ The goal is to maintain a useful knowledge base for:
 
 This is a collaborative workspace designed to be used with Claude Code.
 
+**At the start of every session, read `.project/session-context.md` before doing anything else** — it holds pending work state that must carry over between sessions/environments.
+
 The documentation is written in Spanish and uses Markdown tables as the main format.
 
 ## File map
@@ -36,20 +38,20 @@ The documentation is written in Spanish and uses Markdown tables as the main for
 | `docs/guides/tools/` | Per-task usage guides (commands, parameters) for the tools catalogued in `docs/tools.md`: DAT generation/conversion, romset audit/cleaning, 1G1R filtering, patching, format conversion, gamelist and media generation. Each phase of `docs/guides/romsets/workflow.md` links here for detail (see `docs/guides/tools/README.md`) |
 | `docs/guides/bios.md` | How-to guide for the catalog in `docs/bios.md`: dumping your own BIOS from real hardware, verifying it (hash), organizing/renaming it per system, and deploying it to the path defined in `docs/system-paths.md#bios` |
 | `docs/hardware/` | Reference guides for supporting hardware (flashcarts, etc.) |
+| `docs/guides/hardware-profiles/` | Curated per-game performance ratings for a specific hardware+CFW combination working at or beyond its limits (see `docs/guides/hardware-profiles/README.md`) |
 
 ### Arcade and games
 
 | File | Purpose |
 | --- | --- |
 | `docs/arcade/` | Arcade reference and Bartop Curated catalogs by system (see `docs/arcade/README.md`) |
-| `docs/handheld-stick.md` | Performance ratings for demanding games on limited hardware (RK3566) |
 
 ### Reference and decisions
 
 | File | Purpose |
 | --- | --- |
 | `docs/references.md` | Technical reference for romsets, DATs, tools and concepts |
-| `docs/session-context.md` | Versioned, cross-environment record of pending/in-progress work (unlike local Claude Code memory, which is tied to the absolute repo path and doesn't transfer between Windows/WSL/devcontainer or machines) — update when closing a session with unfinished work |
+| `.project/session-context.md` | Versioned, cross-environment record of pending/in-progress work (unlike local Claude Code memory, which is tied to the absolute repo path and doesn't transfer between Windows/WSL/devcontainer or machines) — update when closing a session with unfinished work |
 | `decisions/` | Architecture decision records (ADRs) for the repository |
 | `metadata/` | Raw archive of everything downloaded per source (`metadata/dat/<Fuente>/`: No-Intro, TOSEC, MAME, libretro, etc.), kept as-is regardless of what the pipeline actually uses; MAME DATs and software-list XMLs also live here |
 | `metadata/dat-index/` | Per-system JSON index built from `sources/dats/` by `tools/scripts/build-dat-index-*.ps1` |
@@ -95,6 +97,7 @@ Use concise, technical Spanish.
 - Keep notes short and operational.
 - **Ask and propose before making any edit.** Plan approval is not authorization to execute without pausing for confirmation.
 - **Write for the human reader, not as your own working memory.** Docs are a deliverable, not a scratchpad for session context: never leave in local absolute paths, drive letters, references to "the sample I checked", audit counts from a specific verification pass, or any other trace of how a fact was investigated in a given session. State the fact plainly; if a concrete example genuinely helps, use a generic/illustrative one instead of the user's own local path.
+- **`docs/` content is reference documentation, not a place to point back at internal work-tracking.** Never link from `docs/` (or `tools/`) to `.project/session-context.md` — that file is our own work state, not part of the reference material. If a gap/pending decision needs to be flagged from a doc, state it inline (what's missing, why) instead of pointing at the session log.
 
 ## devices.md rules
 
@@ -413,11 +416,11 @@ Rules:
 - Curated catalog columns: `Juego | Género | Tier | Arcade | Rot | Ctrl | Players | Notas`
 - Normalized values: Tier S/A/B, Arcade S/A, Rot H/V/HV, Ctrl 2B/3B/6B/LG/WHEEL, Players 1P–4P/4P+ (usar `4P+` cuando el juego admite más de 4 jugadores vía multitap; detallar el máximo real en Notas).
 
-## handheld-stick.md rules
+## guides/hardware-profiles/ rules
 
-`docs/handheld-stick.md` documents game performance on hardware at or beyond its limits.
+Files in `docs/guides/hardware-profiles/` document game performance on a specific hardware+CFW combination working at or beyond its limits. One file per profile, indexed in `docs/guides/hardware-profiles/README.md`.
 
-Current focus: RK3566 devices running ROCKNIX.
+Current profiles: `handheld-stick.md` — RK3566 devices running ROCKNIX.
 
 Rules:
 

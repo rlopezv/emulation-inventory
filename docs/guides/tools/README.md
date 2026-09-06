@@ -17,3 +17,5 @@ Complementan a [docs/guides/romsets/workflow.md](../romsets/workflow.md), que de
 | Obtención de media | 10 | [media-scraping.md](media-scraping.md) |
 
 La fase 8 (organización en `data/roms`) no tiene guía propia aquí: está cubierta por `build-complete-romset.ps1` / `promote-complete-romset.ps1`, documentados en [docs/guides/romsets/custom-pipeline.md](../romsets/custom-pipeline.md).
+
+[api-credentials.md](api-credentials.md) no corresponde a una fase concreta: centraliza el procedimiento de alta y límite de uso de las APIs de metadatos de juego (MobyGames, IGDB, GiantBomb...) usadas sobre todo en las fases 9-10. [metadata-source-priority.md](metadata-source-priority.md) tampoco corresponde a una fase concreta: el orden de preferencia entre esas fuentes se aplica tanto al scraping de un dispositivo real (fases 9-10) como a la investigación ad-hoc de `docs/guides/romsets/systems/`.

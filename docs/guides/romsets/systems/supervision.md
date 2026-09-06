@@ -2,19 +2,26 @@
 
 ## Fuentes de referencia
 
-- Wikipedia: https://en.wikipedia.org/wiki/Watara_Supervision#List_of_games
+| Tipo | Fuente | Detalle |
+| --- | --- | --- |
+| Especialista | `[TODO]` | Sin investigar todavía |
+| Genérica | Wikipedia | https://en.wikipedia.org/wiki/Watara_Supervision#List_of_games |
 
 <!-- AUTO-GENERADO INICIO -->
 
 ### Indice generado
 
-Fuente: `1G1R (retool)` -- `Watara - Supervision (20250625-093232).dat`. Generado: `2026-07-12`. Total: 65 familias.
+Fuente: `No-Intro` -- `Watara - Supervision (20250625-093232).dat`. Generado: `2026-08-15`. Total: 70 familias.
 
 Regenerar con: `pwsh tools/scripts/generate-romset-docs.ps1 -SystemId supervision`
 
 | Nombre | Categoria | Regiones | Discos | Alias |
 | --- | --- | --- | --- | --- |
+| 2 in 1 - Block Buster + Cross High | Oficial | Europe, USA | 1 |  |
+| 2 in 1 - Hash Blocks + Eagle Plan | Oficial | Europe, USA | 1 |  |
+| 4 in 1 - Hash Block + Challenger Tank + Brain Power + Jacky Lucky | Oficial | Europe, USA | 1 |  |
 | Alien | Oficial | Europe, USA | 1 |  |
+| Assembloids | Aftermarket | World | 1 |  |
 | Balloon Fight | Oficial | Europe, USA | 1 |  |
 | Block Buster | Oficial | Europe, USA | 1 |  |
 | Brain Power | Oficial | Europe, USA | 1 |  |
@@ -77,6 +84,7 @@ Regenerar con: `pwsh tools/scripts/generate-romset-docs.ps1 -SystemId supervisio
 | Tennis Pro '92 | Oficial | Europe, USA | 1 |  |
 | Thunder Shooting | Oficial | Europe, USA | 1 |  |
 | Treasure Hunter | Oficial | Europe, USA | 1 |  |
+| TV-Link | Oficial | Europe, USA | 1 |  |
 | Untouchable | Oficial | Europe, USA | 1 |  |
 | Witty Cat | Oficial | Europe, USA | 1 |  |
 

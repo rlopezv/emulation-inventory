@@ -95,6 +95,10 @@ gamelist retroarch --multi=nes,snes,gb
 
 `--multi=<sistemas>` procesa varios sistemas en una sola pasada. Todas las acciones admiten `--help` para parámetros específicos adicionales.
 
+## Prioridad de fuentes de metadatos
+
+Al configurar cualquiera de los scrapers de arriba contra varias fuentes (ScreenScraper/TheGamesDB/IGDB...), ver [metadata-source-priority.md](metadata-source-priority.md) para el orden de preferencia recomendado y por qué (soporte de hash, cobertura, estabilidad de cada API).
+
 ## Notas
 
 Skraper y SkyScraper cubren scraping + gamelist + media en una sola pasada (ver `media-scraping.md`); ES Scraper (integrado) es la opción por defecto cuando ya se está dentro del propio frontend en el dispositivo, no en el PC. `gamelist-utils` no sustituye a ninguno de los anteriores — se usa después, cuando ya existe un `gamelist.xml` en un formato y hace falta adaptarlo a otro frontend/CFW sin volver a raspar desde cero.

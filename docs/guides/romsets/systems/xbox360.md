@@ -2,13 +2,16 @@
 
 ## Fuentes de referencia
 
-- Wikipedia: https://en.wikipedia.org/wiki/List_of_Xbox_360_games
+| Tipo | Fuente | Detalle |
+| --- | --- | --- |
+| Especialista | `[TODO]` | Sin investigar todavía |
+| Genérica | Wikipedia | https://en.wikipedia.org/wiki/List_of_Xbox_360_games |
 
 <!-- AUTO-GENERADO INICIO -->
 
 ### Indice generado
 
-Fuente: `Non-Redump` -- `Non-Redump - Microsoft - Xbox 360 (20251219-035655).dat`. Generado: `2026-07-11`. Total: 15 familias.
+Fuente: `Non-Redump` -- `Non-Redump - Microsoft - Xbox 360 (20251219-035655).dat`. Generado: `2026-08-15`. Total: 15 familias.
 
 Regenerar con: `pwsh tools/scripts/generate-romset-docs.ps1 -SystemId xbox360`
 

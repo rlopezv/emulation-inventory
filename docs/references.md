@@ -782,6 +782,8 @@ No es una fuente de DAT de preservación (no certifica volcados perfectos como N
   }
   ```
 
+- `API_GetGameList.php`/`API_GetConsoleIDs.php` — listado completo de juegos de un sistema (por `ConsoleID`), opcionalmente con sus hashes MD5 compatibles (`h=1`); es la única fuente de referencia de juegos (ver `docs/guides/romsets/systems/README.md#fuentes-de-referencia--más-allá-de-wikipedia`) que devuelve hashes junto con el listado. Script ad-hoc: `tools/scripts/retroachievements-platform-games.py`.
+
 **2. RAHashes** — github.com/RetroAchievements/RAHashes. La base de datos de hashes en sí, la fuente que consulta la API. Organizada por grupo de origen: `No Intro`, `Redump`, `TOSEC`, `Final Burn Neo`, `Legacy`, `OpenGood`, `MAME`, entre otras. En revisión activa por el propio equipo a fecha de esta consulta.
 
 **3. RAPatches** — github.com/RetroAchievements/RAPatches. Repositorio de parches de traducción y similares, referenciado desde `PatchUrl` en la respuesta de la API. Complementa a `docs/guides/tools/patching.md` como fuente adicional de parches, no cubierta ahí.

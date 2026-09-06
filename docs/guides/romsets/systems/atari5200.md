@@ -1,10 +1,17 @@
 # atari5200 -- Curacion
 
+## Fuentes de referencia
+
+| Tipo | Fuente | Detalle |
+| --- | --- | --- |
+| Especialista | [Atarimania](https://www.atarimania.com/) | Cobertura delgada (~99 juegos) comparada con ST/8-bit, solo HTML/scans |
+| Genérica | Wikipedia | https://en.wikipedia.org/wiki/List_of_Atari_5200_games |
+
 <!-- AUTO-GENERADO INICIO -->
 
 ### Indice generado
 
-Fuente: `1G1R (retool)` -- `Atari - Atari 5200 (20260412-121350).dat`. Generado: `2026-07-12`. Total: 70 familias.
+Fuente: `No-Intro` -- `Atari - Atari 5200 (20260412-121350).dat`. Generado: `2026-08-17`. Total: 76 familias.
 
 Regenerar con: `pwsh tools/scripts/generate-romset-docs.ps1 -SystemId atari5200`
 
@@ -12,13 +19,18 @@ Regenerar con: `pwsh tools/scripts/generate-romset-docs.ps1 -SystemId atari5200`
 | --- | --- | --- | --- | --- |
 | Activision Decathlon, The | Oficial | USA | 1 |  |
 | Astro Chase | Oficial | USA | 1 |  |
+| Atari PAM - Pete's Test | Oficial | USA | 1 |  |
+| Atari PAM Diagnostics | Oficial | USA | 1 |  |
+| Atari PAM System Test | Oficial | USA | 1 |  |
 | Ballblazer | Oficial | USA | 1 |  |
 | Beamrider | Oficial | USA | 1 |  |
 | BerZerk | Oficial | USA | 1 |  |
 | Blue Print | Oficial | USA | 1 |  |
 | Bounty Bob Strikes Back! | Oficial | USA | 1 |  |
-| Buck Rogers - Planet of Zoom | Oficial | USA | 1 |  |
+| Buck Rogers - Planet of Zoom | Oficial | USA | 2 |  |
 | Carol Shaw's River Raid | Oficial | USA | 1 |  |
+| Castle Blast | Unl | USA | 1 |  |
+| Castle Crisis | Unl | USA | 1 |  |
 | Centipede | Oficial | USA | 1 |  |
 | Choplifter! | Oficial | USA | 1 |  |
 | Congo Bongo | Oficial | USA | 1 |  |
@@ -29,7 +41,7 @@ Regenerar con: `pwsh tools/scripts/generate-romset-docs.ps1 -SystemId atari5200`
 | Dreadnaught Factor, The | Oficial | USA | 1 |  |
 | Frogger | Oficial | USA | 1 |  |
 | Frogger II - Threeedeep! | Oficial | USA | 1 |  |
-| Galaxian | Oficial | USA | 1 |  |
+| Galaxian | Oficial | USA | 2 |  |
 | Gorf | Oficial | USA | 1 |  |
 | Gremlins | Oficial | USA | 1 |  |
 | Gyruss | Oficial | USA | 1 |  |
@@ -40,6 +52,7 @@ Regenerar con: `pwsh tools/scripts/generate-romset-docs.ps1 -SystemId atari5200`
 | Kaboom! | Oficial | USA | 1 |  |
 | Kangaroo | Oficial | USA | 1 |  |
 | Keystone Kapers | Oficial | USA | 1 |  |
+| Koffi - Yellow Kopter | Unl | USA | 1 |  |
 | K-Razy Shoot-Out | Oficial | USA | 1 |  |
 | Mario Bros. | Oficial | USA | 1 |  |
 | MegaMania | Oficial | USA | 1 |  |
@@ -69,7 +82,7 @@ Regenerar con: `pwsh tools/scripts/generate-romset-docs.ps1 -SystemId atari5200`
 | Space Invaders | Oficial | USA | 1 |  |
 | Space Shuttle - A Journey Into Space | Oficial | USA | 1 |  |
 | Star Raiders | Oficial | USA | 1 |  |
-| Star Trek - Strategic Operations Simulator | Oficial | USA | 1 |  |
+| Star Trek - Strategic Operations Simulator | Oficial | USA | 2 |  |
 | Star Wars - Return of the Jedi - Death Star Battle | Oficial | USA | 1 |  |
 | Star Wars - The Arcade Game | Oficial | USA | 1 |  |
 | Super Breakout | Oficial | USA | 1 |  |

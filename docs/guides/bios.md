@@ -28,7 +28,7 @@ La BIOS es firmware con copyright de su fabricante original. La única vía leg�
 
 ## Verificación
 
-Antes de dar una BIOS por buena, comprobar que el fichero coincide con el nombre y (si se conoce) el hash documentado en `docs/bios.md`. Varias de las investigaciones de esta sesión ya trajeron hashes MD5 puntuales como referencia (ej. `disksys.rom` MD5 `ca30b50f880eb660a320674ed365ef7a`, `gb_bios.bin` MD5 `32fbbd84168d3482956eb3c5051637f5`) pero **`docs/bios.md` no incluye todavía una columna de hash sistemática** — decisión pendiente del usuario sobre si merece la pena añadirla (ver `docs/session-context.md`).
+Antes de dar una BIOS por buena, comprobar que el fichero coincide con el nombre y (si se conoce) el hash documentado en `docs/bios.md`. Varias de las investigaciones de esta sesión ya trajeron hashes MD5 puntuales como referencia (ej. `disksys.rom` MD5 `ca30b50f880eb660a320674ed365ef7a`, `gb_bios.bin` MD5 `32fbbd84168d3482956eb3c5051637f5`) pero **`docs/bios.md` no incluye todavía una columna de hash sistemática** — decisión pendiente sobre si merece la pena añadirla.
 
 Herramienta genérica: cualquier utilidad de checksum (`certutil -hashfile` en Windows, `sha1sum`/`md5sum` en Linux/WSL) contra el hash publicado por el propio proyecto del emulador en su documentación oficial — no contra hashes de foros/packs no verificados.
 
@@ -44,4 +44,4 @@ Una vez verificada y renombrada, la BIOS se copia a la ruta que le corresponda s
 
 ## Automatización futura (no implementada)
 
-Idea de tooling anotada en `docs/bios.md` y `docs/session-context.md`: un normalizador propio (`tools/scripts/`) que verifique el hash MD5 conocido de cada fichero de un pack BIOS descargado, lo renombre al nombre exacto esperado y lo mueva a la subcarpeta correspondiente automáticamente. Pendiente de evaluar como script nuevo — no implementado todavía.
+Idea de tooling anotada en `docs/bios.md`: un normalizador propio (`tools/scripts/`) que verifique el hash MD5 conocido de cada fichero de un pack BIOS descargado, lo renombre al nombre exacto esperado y lo mueva a la subcarpeta correspondiente automáticamente. Pendiente de evaluar como script nuevo — no implementado todavía.

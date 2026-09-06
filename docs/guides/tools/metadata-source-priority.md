@@ -1,0 +1,22 @@
+# Prioridad de fuentes de metadatos de juego
+
+Orden de preferencia recomendado entre las fuentes de metadatos de juego catalogadas en este repo, aplicable por igual a los dos contextos en los que se usan (mismo criterio, sin una tabla distinta para cada uno):
+
+1. **Scraping de un dispositivo real** (fases 9-10 de `docs/guides/romsets/workflow.md`) — Skraper/SkyScraper/ES Scraper rellenando `gamelist.xml` y media contra una romset **ya presente en disco**. Ver [gamelist-generation.md](gamelist-generation.md) / [media-scraping.md](media-scraping.md).
+2. **Investigación ad-hoc para curar documentación** — poblar `## Fuentes de referencia` en `docs/guides/romsets/systems/<id>.md`, o construir un catálogo de contraste independiente de tener ya la romset. Ver [systems/README.md](../romsets/systems/README.md#fuentes-de-referencia--más-allá-de-wikipedia).
+
+No cubre **Wikipedia**, que mantiene su propio rol de punto de partida por defecto para la investigación (artículo "List of ... games") ya descrito en `systems/README.md` — esta prioridad es para cuando Wikipedia no baste o para el contexto (1), donde Wikipedia no aplica.
+
+## Orden recomendado
+
+1. **ScreenScraper** — estándar de facto de la comunidad (Skraper/SkyScraper/RetroBat lo usan por defecto), empareja por hash/nombre de fichero contra una romset ya presente. **Solo sirve para el contexto (1)** — su API no tiene forma de listar el catálogo completo de un sistema sin partir de un fichero concreto (confirmado, ver `docs/guides/tools/media-scraping.md`), así que no aporta nada a (2).
+2. **TheGamesDB** — preferente para matching automatizado por **nombre/plataforma**. **No soporta hash** (confirmado contra su Swagger oficial completo: sin ninguna mención a hash/MD5/CRC/SHA1/checksum en ningún endpoint) — si el matching necesita apoyarse en hash de fichero, no es la fuente adecuada, usar el punto siguiente. Sirve para ambos contextos: módulo nativo de SkyScraper (1) y script propio `tools/scripts/thegamesdb-platform-games.py` (2).
+3. **RetroAchievements** / **OpenVGDB** — cuando el matching necesite apoyarse en un hash de fichero real. Cobertura limitada a los sistemas que cada una soporta (RA: solo sistemas con logros; OpenVGDB: snapshot parado desde 2021, 33 sistemas con datos reales). Sin integración conocida en Skraper/SkyScraper para el contexto (1) — su aporte hoy es sobre todo para (2), vía `tools/scripts/retroachievements-platform-games.py` / `tools/scripts/openvgdb-platform-games.py`, y como fuente de hashes para verificación de CHD (`docs/dat-sources.md`).
+4. **IGDB** — buena calidad de texto, **sin artwork útil para retro** (no distingue versión por plataforma en sus recursos gráficos). Contexto (1) vía módulo `igdb` de SkyScraper (requiere romset ya presente); contexto (2) vía `tools/scripts/igdb-platform-games.py` (catálogo completo, independiente de tener ya los ficheros — motivo por el que se construyó este script pese a existir ya el módulo de SkyScraper).
+5. **LaunchBox Games Database** — complementaria de **metadata**, no de artwork: el artwork de LaunchBox se obtiene juego a juego desde la propia app (no está en `Metadata.zip`/`LaunchBox.Metadata.db`, confirmado por inspección del esquema — solo texto). Contexto (2) vía `tools/scripts/launchbox-platform-games.py`; sin rol conocido en el contexto (1) fuera del propio ecosistema LaunchBox/BigBox.
+6. **MobyGames** — catálogo genérico amplio. Contexto (2) vía `MobyGamesScraper` (mantenimiento mínimo); sin integración confirmada en Skraper/SkyScraper para (1).
+7. **GiantBomb** — únicamente **auxiliar**, mientras su API no recupere estabilidad: cambio de propietario en 2025 (ahora Jeffinitely LLC, tras salir de Fandom) seguido de incidencias recurrentes reportadas en su propio foro de desarrolladores (bloqueos por IP, contadores de rate-limit inconsistentes, cambios en el requisito de API key). Contexto (2) vía `tools/scripts/giantbomb-platform-games.py`; sin integración confirmada en Skraper/SkyScraper para (1).
+
+## Validación e identificación de contenido
+
+Ninguna de estas fuentes sustituye a los DAT específicos de cada sistema (`docs/romsets.md`, `docs/dat-sources.md`) para identificación/validación de un fichero — son fuentes de **enriquecimiento descriptivo** (sinopsis, género, desarrollador, artwork...), no de verificación de que un dump es correcto. La única excepción parcial es el hash de RetroAchievements/OpenVGDB, útil como apoyo de matching pero no como certificación de dump equivalente a No-Intro/Redump/TOSEC.
